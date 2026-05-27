@@ -11,10 +11,6 @@ No build step, no dependencies — plain HTML/CSS. Serves the website Google Pla
 - `assets/icon.png` — app icon
 - `CNAME` — custom domain for GitHub Pages (`contentcam.app`)
 
-## Before going live
-- In `index.html`, replace the App Store `href` placeholder
-  (`id0000000000`) with the real App Store URL.
-
 ## Preview locally
 ```sh
 cd contentcam-web && python3 -m http.server 8000
