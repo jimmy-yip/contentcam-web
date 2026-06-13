@@ -3,26 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex">
-  <title>Opening ContentCam…</title>
-  <!-- Instant redirect to the App Store with campaign attribution (ct=meta-reel-A).
-       Used as the destination for the Meta "200k reel" Traffic ad (Reel A).
-       Meta blocks raw apps.apple.com URLs on the Traffic objective, so the ad
-       points here; this page forwards to the App Store with ct= preserved so
-       App Store Connect → Acquisition → Campaigns logs the campaign. -->
-  <meta http-equiv="refresh" content="0; url=https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=meta-reel-A&amp;mt=8">
-  <script>
-    window.location.replace("https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=meta-reel-A&mt=8");
-  </script>
+  <title>ContentCam — Shoot portrait & landscape at the same time</title>
+  <meta name="description" content="ContentCam records portrait and landscape at the same time — one take, two formats, no reshoots. Download on the App Store.">
+  <link rel="icon" href="../assets/icon.png">
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-           background: #0bcad4; color: #fff; display: flex; min-height: 100vh;
-           align-items: center; justify-content: center; margin: 0; text-align: center; }
-    a { color: #fff; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0; min-height: 100vh; background: #0bcad4; color: #fff;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 32px 24px;
+    }
+    img.logo { width: 96px; height: 96px; border-radius: 22px; margin-bottom: 24px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.18); }
+    h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 12px; max-width: 18ch; }
+    p.sub { font-size: 1.05rem; line-height: 1.5; margin: 0 0 32px; max-width: 30ch; opacity: .95; }
+    a.btn {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #fff; color: #0a7d84; text-decoration: none;
+      font-weight: 700; font-size: 1.1rem; padding: 16px 28px; border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.18);
+    }
+    a.btn:active { transform: translateY(1px); }
+    p.foot { margin-top: 28px; font-size: .85rem; opacity: .8; }
+    p.foot a { color: #fff; }
   </style>
 </head>
 <body>
-  <p>Opening ContentCam on the App Store…<br>
-  <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=meta-reel-A&amp;mt=8">Tap here if it doesn't open.</a></p>
+  <img class="logo" src="../assets/icon.png" alt="ContentCam">
+  <h1>One take. Portrait <em>and</em> landscape.</h1>
+  <p class="sub">Record both formats at the same time — no reshoots, no cropping in post. Ready-to-post for Reels, TikTok, Shorts and YouTube.</p>
+  <a class="btn" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=meta-reel-A&amp;mt=8">
+    Download on the App&nbsp;Store
+  </a>
+  <p class="foot">Also on <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a></p>
 </body>
 </html>
