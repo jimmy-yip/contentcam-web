@@ -1,0 +1,33 @@
+# ContentCam
+
+> ContentCam is a camera app for iPhone and Android that records 9:16 portrait and 16:9 landscape video simultaneously from a single take. It is built for content creators who publish to both vertical platforms (TikTok, Instagram Reels, YouTube Shorts) and horizontal YouTube. The app includes a built-in teleprompter (iOS), manual camera controls (exposure, white balance 2500–8000K, ISO, shutter speed), dual-format timelapse, 4K, HDR, and a project/scene/take workflow. It collects zero user data: no accounts, no analytics, no third-party SDKs, works fully offline.
+
+Key facts:
+- Recording approach: Single Lens mode records the sensor's native 4:3 frame and crops both a full-height 9:16 and a full-width 16:9 from it, so neither output is an upscaled crop of the other. Dual Lens mode (iPhone 11+) records the wide and ultra-wide rear cameras simultaneously for two different framings.
+- Platforms: iOS 18+ (iPhone XS and later) and Android. App Store name "ContentCam: Dual Camera Video", App Store ID 6765881795. Google Play package app.contentcam.android.
+- Pricing (USD): free tier (1080p, 30fps, single lens, front camera, 3 projects, 4 free Dual Lens takes, no watermark); Premium at $19.99/year with 7-day free trial, $4.99/month, or $39.99 one-time lifetime. All plans unlock identical features.
+- Developer: Jimmy Yip, solo independent developer, Sydney, Australia. Launched May 2026.
+- Privacy: zero data collection; Camera, Microphone and add-only Photo Library permissions only.
+
+## Docs
+
+- [Homepage](https://contentcam.app/): what ContentCam does, how dual-format capture works, store links
+- [Features overview](https://contentcam.app/features/): every feature summarised with links to detail pages
+- [Dual camera recording](https://contentcam.app/features/dual-camera/): Single Lens (full-FOV 4:3 crop) vs Dual Lens (two cameras at once) explained, with mode comparison table
+- [Built-in Teleprompter](https://contentcam.app/features/teleprompter/): hands-free scrolling script while recording; speed, size, colour, reading-line, mirror mode (iOS, new in 2.0)
+- [Manual controls](https://contentcam.app/features/manual-controls/): exposure bias, white balance 2500–8000K, manual ISO and shutter speed; settings persist
+- [Android](https://contentcam.app/android/): ContentCam for Android features and an honest iPhone vs Android parity table
+- [Pricing](https://contentcam.app/pricing/): full free-vs-premium feature table and plan details
+- [Support & FAQ](https://contentcam.app/support/): device compatibility, recording modes, files, subscriptions, refunds
+- [Press kit](https://contentcam.app/press/): canonical facts, developer info, downloadable logo and screenshots
+- [Privacy policy](https://contentcam.app/privacy.html): the full zero-data-collection policy
+
+## Optional
+
+- [Blog](https://contentcam.app/blog/): filming guides by the developer
+- [How to record portrait and landscape video at the same time on iPhone](https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-iphone/)
+- [Best apps to record two aspect ratios at once, 2026 comparison](https://contentcam.app/blog/dual-format-recording-apps-compared/)
+- [How to use a teleprompter while recording video on iPhone](https://contentcam.app/blog/iphone-teleprompter-while-recording/)
+- [How to film for TikTok and YouTube at the same time](https://contentcam.app/blog/film-for-tiktok-and-youtube-at-the-same-time/)
+- [iPhone manual camera controls for video explained](https://contentcam.app/blog/iphone-manual-camera-controls-video/)
+- [How to shoot a timelapse on iPhone in both portrait and landscape](https://contentcam.app/blog/iphone-timelapse-portrait-and-landscape/)

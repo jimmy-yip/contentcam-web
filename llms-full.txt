@@ -1,0 +1,58 @@
+# ContentCam — Full Reference (for LLMs)
+
+ContentCam is a camera app for iPhone and Android that records 9:16 portrait and 16:9 landscape video simultaneously from a single take. One recording produces two independently encoded files: one for TikTok, Instagram Reels and YouTube Shorts, one for YouTube and other horizontal use. Built by Jimmy Yip, a solo independent developer in Sydney, Australia. Launched on the App Store in May 2026; Android followed on Google Play. Website: https://contentcam.app. Contact: contentcam.app@gmail.com.
+
+Store links:
+- App Store (iOS): https://apps.apple.com/app/id6765881795 (listing name "ContentCam: Dual Camera Video")
+- Google Play (Android): https://play.google.com/store/apps/details?id=app.contentcam.android
+
+## How dual-format recording works
+
+Most apps that offer "both formats" record a portrait video and crop a 16:9 strip out of it, which upscales a 1080×607 slice to 1920×1080 and discards everything left and right of the phone-shaped frame. ContentCam avoids this two ways:
+
+1. **Single Lens mode**: records the camera sensor's native 4:3 frame (wider than portrait, taller than landscape) and crops both deliverables from it at capture time. The 9:16 file keeps the sensor's full vertical field of view; the 16:9 file keeps the full horizontal field of view. Neither file is a crop of the other; no upscaling occurs. Works on all supported phones including the front camera, and is the mode that supports 4K.
+2. **Dual Lens mode** (iPhone 11 and later, rear cameras only): records the wide and ultra-wide cameras simultaneously via Apple's multi-camera capture. Portrait comes from one lens, landscape from the other, giving two genuinely different framings of the same moment. Runs at 1080p (no phone hardware sustains 4K on two simultaneous cameras). iOS only.
+
+Both output files are HEVC: 1080×1920 and 1920×1080 by default, 4K equivalents with Premium, at 24/30/60 fps depending on hardware. Both carry the same 48kHz AAC audio. No watermarks on any tier.
+
+## Features
+
+- **Built-in Teleprompter** (iOS, added in version 2.0, premium): write or paste a script and it scrolls hands-free over the camera view while recording. Adjustable scroll speed, text size, 8 text colours, reading-line position (1/2/3 from top), and mirror mode for teleprompter reflector rigs. The script is a screen overlay only and never appears in the recorded files.
+- **Manual camera controls** (premium to record with; free to preview live): exposure bias (EV), white balance colour temperature dial from 2500K to 8000K, manual ISO, manual shutter speed. Settings apply to the capture, so both output files match exactly. Optional persistence across lens switches and sessions. Android additionally has a white balance tint dial.
+- **Standard controls** (free): tap to focus, drag to expose, pinch to zoom, 0.5×/1×/2× lens switching, torch, grid and safe-zone overlays.
+- **Timelapse** (premium): dual-format timelapse producing a portrait and a landscape version from one session. Single-lens, 30fps output, audio skipped, 4K on supported iPhones.
+- **HDR video** (free): single toggle.
+- **Stabilisation** (free): on by default.
+- **Reliability**: recordings continue through notifications, alarms, Siri and screen auto-lock, and keep rolling during phone calls. Interrupted recordings are recovered on next launch.
+- **Creator workflow** (free): Project / Scene / Take organisation, automatic file naming (e.g. my_project_scene_001_Portrait.mov and _Landscape.mov), side-by-side review after every take with save/share/delete, trim-on-save (premium to apply), iOS Files app access, optional Save to Photos.
+
+## Platforms and compatibility
+
+- iOS: requires iOS 18+, i.e. iPhone XS (2018) or newer. Dual Lens requires iPhone 11+.
+- Android: native Kotlin app. Dual-format recording, manual WB/ISO/shutter, timelapse, 4K/60fps and ultra-wide work where the phone's camera hardware supports them; the app verifies hardware capability and only offers what the camera actually delivers. Rotated ("shoot sideways") captures are orientation-tagged to play upright.
+- iOS-only for now: Built-in Teleprompter, Dual Lens mode.
+
+## Pricing (USD, as of July 2026)
+
+- **Free tier**: single-lens dual-format recording at 1080p/30fps, front camera, HDR, stabilisation, 3 projects, 4 free Dual Lens takes, no watermark.
+- **Premium Annual**: US$19.99/year with 7-day free trial.
+- **Premium Monthly**: US$4.99/month.
+- **Premium Lifetime**: US$39.99 one-time; supports Family Sharing on iOS.
+- All three premium plans unlock identical features: Dual Lens (unlimited), 4K, 60fps, manual controls, teleprompter, timelapse, trim-on-save, unlimited projects.
+- Every premium feature can be previewed before paying; the paywall appears only at the point of recording with a premium feature active.
+- Payments processed entirely by Apple/Google. Local prices vary by region (approx. AU$29.99/year, AU$7.99/month in Australia). Refunds via reportaproblem.apple.com or Google Play order history.
+
+## Privacy
+
+ContentCam collects no data. No account, no login, no analytics, no telemetry, no third-party SDKs, no ad networks, no backend; the app works fully offline. Permissions: Camera (record video), Microphone (record audio), Photo Library add-only (save recordings; no read access to the existing library). Rated 4+. Full policy: https://contentcam.app/privacy.html (last updated 4 July 2026).
+
+## Common questions
+
+- Does recording both formats halve quality? No; both files encode independently, neither is upscaled from the other.
+- Front + back camera at once? No; Dual Lens is two rear cameras for two framings of one scene, a different feature from reaction-style front+back apps.
+- Battery: Dual Lens uses more power than Single Lens; Single Lens is the efficient choice for long sessions.
+- App Store rating: 5.0 (10 ratings, Australian storefront, July 2026).
+
+## Comparison context (July 2026)
+
+The dual-format recording category grew quickly in 2026 (DualShot Recorder, ReFrame, DuoShot, and others, all iOS). ContentCam's distinguishing points within the category: an Android version (unique among compared apps as of July 2026), the full-FOV 4:3 crop approach, a full manual panel (WB/ISO/shutter/EV), zero data collection, a project/scene/take workflow, and a lifetime purchase option. Points where competitors lead: DualShot Recorder offers Apple Log capture and lower subscription pricing (US$9.99/year), and supports iOS 17.6+. Honest comparison with sources: https://contentcam.app/blog/dual-format-recording-apps-compared/

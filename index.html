@@ -1,95 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- @head-common -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ContentCam — Record portrait + landscape video at once</title>
-  <meta name="description" content="ContentCam records portrait (9:16) and landscape (16:9) video simultaneously — one tap captures both formats from the same take. Built for content creators. No accounts, no analytics, no tracking.">
-  <link rel="icon" type="image/png" href="assets/icon.png">
-  <link rel="apple-touch-icon" href="assets/icon.png">
-  <meta property="og:title" content="ContentCam — Record portrait + landscape video at once">
-  <meta property="og:description" content="One tap captures both 9:16 and 16:9 from the same take. Built for content creators.">
-  <meta property="og:image" content="assets/icon.png">
+  <meta name="theme-color" content="#0c1416">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Record Portrait + Landscape Video at Once — ContentCam</title>
+  <meta name="description" content="ContentCam records 9:16 portrait and 16:9 landscape video simultaneously from one take, with a built-in teleprompter and manual controls. iPhone and Android.">
+  <link rel="canonical" href="https://contentcam.app/">
+  <link rel="preload" as="image" href="/assets/img/hero-poster.jpg" fetchpriority="high">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="Record Portrait + Landscape Video at Once — ContentCam">
+  <meta property="og:description" content="One take captures both 9:16 and 16:9, with a built-in teleprompter and manual controls. iPhone and Android.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://contentcam.app">
-  <link rel="stylesheet" href="styles.css">
+  <meta property="og:url" content="https://contentcam.app/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Record Portrait + Landscape Video at Once — ContentCam">
+  <meta name="twitter:description" content="One take captures both 9:16 and 16:9, with a built-in teleprompter and manual controls. iPhone and Android.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://contentcam.app/#org",
+        "name": "ContentCam",
+        "url": "https://contentcam.app/",
+        "logo": "https://contentcam.app/assets/icon-512.png",
+        "email": "contentcam.app@gmail.com",
+        "sameAs": [
+          "https://www.instagram.com/contentcam.app",
+          "https://www.tiktok.com/@contentcam.app",
+          "https://www.youtube.com/@ContentCam-app",
+          "https://discord.gg/YxUpbUgthH",
+          "https://apps.apple.com/app/id6765881795",
+          "https://play.google.com/store/apps/details?id=app.contentcam.android"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://contentcam.app/#website",
+        "name": "ContentCam",
+        "url": "https://contentcam.app/",
+        "publisher": { "@id": "https://contentcam.app/#org" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://contentcam.app/#app",
+        "name": "ContentCam",
+        "alternateName": "ContentCam: Dual Camera Video",
+        "description": "ContentCam is a camera app for iPhone and Android that records 9:16 portrait and 16:9 landscape video simultaneously from a single take. It includes a built-in teleprompter, manual camera controls (exposure, white balance, ISO, shutter speed), timelapse, 4K, and a project/scene/take workflow for content creators.",
+        "operatingSystem": "iOS 18.0 or later, Android",
+        "applicationCategory": "MultimediaApplication",
+        "url": "https://contentcam.app/",
+        "downloadUrl": "https://apps.apple.com/app/id6765881795",
+        "installUrl": "https://apps.apple.com/app/id6765881795",
+        "screenshot": [
+          "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
+          "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
+          "https://contentcam.app/assets/img/ui-projects-640.webp"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "ratingCount": "10",
+          "bestRating": "5"
+        },
+        "offers": [
+          { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD", "description": "Single Lens recording, 1080p, 30fps, front camera, 3 projects, 4 free Dual Lens takes." },
+          { "@type": "Offer", "name": "Premium Annual", "price": "19.99", "priceCurrency": "USD", "description": "All premium features. 7-day free trial, then US$19.99/year." },
+          { "@type": "Offer", "name": "Premium Monthly", "price": "4.99", "priceCurrency": "USD", "description": "All premium features, billed monthly." },
+          { "@type": "Offer", "name": "Premium Lifetime", "price": "39.99", "priceCurrency": "USD", "description": "All premium features, one-time purchase." }
+        ],
+        "author": { "@id": "https://contentcam.app/#org" }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "ContentCam demo: portrait and landscape from one take",
+        "description": "Short demo of ContentCam recording 9:16 portrait and 16:9 landscape video simultaneously on iPhone.",
+        "thumbnailUrl": "https://contentcam.app/assets/img/hero-poster.jpg",
+        "contentUrl": "https://contentcam.app/assets/video/hero.mp4",
+        "uploadDate": "2026-07-05",
+        "duration": "PT9S"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
+<!-- @nav -->
   <header>
     <nav class="nav">
-      <a class="brand" href="/"><img src="assets/icon.png" alt="ContentCam icon">ContentCam</a>
+      <a class="brand" href="/"><img src="/assets/icon.png" alt="ContentCam icon" width="32" height="32">ContentCam</a>
       <div class="nav-links">
-        <a href="#features">Features</a>
-        <a href="#privacy">Privacy</a>
-        <a href="#support">Support</a>
+        <a href="/features/">Features</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Support</a>
       </div>
     </nav>
   </header>
+<!-- /@nav -->
 
   <main class="wrap">
     <section class="hero" style="border-top:none">
-      <img class="appicon" src="assets/icon.png" alt="ContentCam app icon">
+      <img class="appicon" src="/assets/icon.png" alt="ContentCam app icon" width="104" height="104">
       <h1>Record <span class="accent">portrait</span> and <span class="accent">landscape</span><br>in a single take</h1>
-      <p class="tagline">One tap captures both 9:16 (Reels, TikTok, Shorts) and 16:9 (YouTube, cinematic) from the same recording. No re-shoots, no cropping in post. Built for content creators.</p>
-      <a class="cta" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=Website&amp;mt=8">Download on the App Store</a>
+      <p class="tagline">ContentCam is a camera app for iPhone and Android that records 9:16 and 16:9 video simultaneously. One take gives you a file for TikTok, Reels and Shorts, and a second file for YouTube. No re-shoots, no cropping in post.</p>
+      <div class="badges">
+        <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=Website&amp;mt=8"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
+        <a href="https://play.google.com/store/apps/details?id=app.contentcam.android"><img src="/assets/google-play-badge.png" alt="Get it on Google Play" width="134" height="52"></a>
+      </div>
+      <p style="margin-top:16px; font-size:14px; color:var(--text-dim)">Free to download · 5.0★ on the App Store</p>
+      <div class="hero-media">
+        <video class="phone-video" width="1080" height="1920" poster="/assets/img/hero-poster.jpg" preload="none" muted loop playsinline controls>
+          <source src="/assets/video/hero.mp4" type="video/mp4">
+        </video>
+      </div>
     </section>
 
-    <section id="features">
-      <h2>What it does</h2>
-      <p class="lead">ContentCam is a focused camera app for people who publish to multiple platforms — shoot once, get both aspect ratios.</p>
+    <section id="how">
+      <h2>How one take becomes two videos</h2>
+      <p class="lead">Most "dual format" apps record portrait, then chop the top and bottom off to fake a landscape file. You lose everything left and right of the phone frame. ContentCam works differently.</p>
       <div class="grid">
         <div class="card">
-          <h3><span class="dot"></span>Two formats, one take</h3>
-          <p>Every recording produces a portrait 9:16 file and a landscape 16:9 file at the same time, from the same moment.</p>
+          <h3><span class="dot"></span>Single Lens mode</h3>
+          <p>Records from the sensor's native 4:3 frame, then crops 9:16 and 16:9 out of it. The landscape file keeps the full horizontal field of view, and the portrait keeps the full vertical. Neither is a crop of the other.</p>
         </div>
         <div class="card">
-          <h3><span class="dot"></span>Full field of view, both ways</h3>
-          <p>Single-lens mode captures from the 4:3 sensor, so the landscape crop keeps full horizontal FOV — not just a stretched portrait crop.</p>
+          <h3><span class="dot"></span>Dual Lens mode</h3>
+          <p>On iPhone 11 and later, the wide and ultra-wide cameras record at the same time. Portrait from one lens, landscape from the other, with genuinely different framing. iOS only for now.</p>
         </div>
         <div class="card">
-          <h3><span class="dot"></span>Dual-lens mode</h3>
-          <p>On supported iPhones, the wide and ultra-wide cameras run together for genuinely different portrait and landscape framing.</p>
+          <h3><span class="dot"></span>Front camera too</h3>
+          <p>Talking-head creators get the same two files from the selfie camera.</p>
         </div>
         <div class="card">
-          <h3><span class="dot red"></span>Creator workflow</h3>
-          <p>Project / scene / take organisation, automatic file naming, and a side-by-side review after every take — save, delete, or share.</p>
-        </div>
-        <div class="card">
-          <h3><span class="dot"></span>Manual controls</h3>
-          <p>Tap to focus, drag to set exposure, pinch to zoom, switch lenses, torch toggle. Familiar, like the native camera.</p>
-        </div>
-        <div class="card">
-          <h3><span class="dot"></span>On-device, private</h3>
-          <p>No account, no login, no analytics, no third-party SDKs. Everything stays on your phone.</p>
+          <h3><span class="dot red"></span>Both files, instantly</h3>
+          <p>Stop recording and both versions are ready to review side by side. Save, share, or delete each one.</p>
         </div>
       </div>
+      <div class="shots">
+        <figure>
+          <img src="/assets/img/ui-record-handsup-640.webp" alt="ContentCam recording screen showing portrait view with landscape preview tile" width="640" height="1387" loading="lazy" decoding="async">
+          <figcaption>Both framings visible while you record</figcaption>
+        </figure>
+        <figure>
+          <img src="/assets/img/ui-review-sunset-640.webp" alt="ContentCam review screen with portrait and landscape takes side by side" width="640" height="1387" loading="lazy" decoding="async">
+          <figcaption>Side-by-side review after every take</figcaption>
+        </figure>
+        <figure>
+          <img src="/assets/img/ui-projects-640.webp" alt="ContentCam projects view organising takes by project and scene" width="640" height="1387" loading="lazy" decoding="async">
+          <figcaption>Projects, scenes and takes, auto-named</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="teleprompter">
+      <p class="pill cyan">New in 2.0 · iPhone</p>
+      <h2>Built-in Teleprompter</h2>
+      <p class="lead">Write or paste your script and read it straight off the screen while you record. It scrolls hands-free, so you can look down the lens and get your lines in one take instead of six.</p>
+      <div class="grid">
+        <div class="card">
+          <h3><span class="dot"></span>Set your pace</h3>
+          <p>Adjust scroll speed and text size until reading feels natural. Pick where the reading line sits: top, upper third, or middle.</p>
+        </div>
+        <div class="card">
+          <h3><span class="dot"></span>Mirror mode</h3>
+          <p>Horizontal flip for teleprompter reflector rigs. Eight text colours so the script stays readable over any scene.</p>
+        </div>
+      </div>
+      <p style="margin-top:18px"><a href="/features/teleprompter/">More on the teleprompter →</a></p>
+    </section>
+
+    <section id="controls">
+      <h2>Manual controls when auto gets it wrong</h2>
+      <p class="lead">Auto exposure hunts. Auto white balance drifts mid-take. When that costs you a shot, take over.</p>
+      <div class="grid">
+        <div class="card">
+          <h3><span class="dot"></span>Exposure, ISO, shutter</h3>
+          <p>Dial EV bias, or go fully manual with ISO and shutter speed wheels. On Android too.</p>
+        </div>
+        <div class="card">
+          <h3><span class="dot"></span>White balance</h3>
+          <p>Colour temperature dial from 2500K to 8000K. Lock it so your footage stops shifting colour between takes.</p>
+        </div>
+        <div class="card">
+          <h3><span class="dot"></span>The basics, done right</h3>
+          <p>Tap to focus, drag to expose, pinch to zoom, 0.5×/1×/2× lens switching, torch. Like the native camera, but it records two files.</p>
+        </div>
+        <div class="card">
+          <h3><span class="dot"></span>Settings that stick</h3>
+          <p>Manual settings persist across lens switches and between sessions, if you want them to.</p>
+        </div>
+      </div>
+      <p style="margin-top:18px"><a href="/features/manual-controls/">More on manual controls →</a></p>
+    </section>
+
+    <section id="quality">
+      <h2>Timelapse, 4K, HDR</h2>
+      <div class="grid">
+        <div class="card">
+          <h3><span class="dot"></span>Timelapse</h3>
+          <p>Dual-format timelapse: the same hands-off recording produces a portrait and a landscape version.</p>
+        </div>
+        <div class="card">
+          <h3><span class="dot"></span>4K + frame rates</h3>
+          <p>1080p HEVC by default, 4K when you want it, at 24, 30 or 60 fps depending on your phone.</p>
+        </div>
+        <div class="card">
+          <h3><span class="dot"></span>HDR video</h3>
+          <p>One toggle, on any tier.</p>
+        </div>
+        <div class="card">
+          <h3><span class="dot"></span>Stabilised by default</h3>
+          <p>Stabilisation is on out of the box. Recordings survive calls, alarms and notifications, and interrupted takes are recovered on next launch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="platforms">
+      <h2>On iPhone and Android</h2>
+      <p class="lead">Most apps in this category are iPhone-only. ContentCam runs on both platforms, with the same core idea on each: one take, two files.</p>
+      <div class="badges badges-left">
+        <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=Website&amp;mt=8"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
+        <a href="https://play.google.com/store/apps/details?id=app.contentcam.android"><img src="/assets/google-play-badge.png" alt="Get it on Google Play" width="134" height="52"></a>
+      </div>
+      <p style="margin-top:16px">Some features ship on iPhone first. <a href="/android/">See what's on Android →</a></p>
     </section>
 
     <section id="privacy">
       <h2>Privacy</h2>
       <p class="lead">ContentCam collects nothing.</p>
       <div class="privacy-box">
-        <p>The app does not request, transmit, or store any personally identifiable information. There is no account, no login, no telemetry, and no third-party SDKs. It only asks for <strong>Camera</strong>, <strong>Microphone</strong>, and <strong>Photo Library (add-only)</strong> permissions — all required to record video and save your takes.</p>
-        <p style="margin-top:14px"><a href="privacy.html">Read the full privacy policy →</a></p>
+        <p>No account, no login, no analytics, no telemetry, no third-party SDKs. The app works fully offline and asks for exactly three permissions: <strong>Camera</strong>, <strong>Microphone</strong>, and <strong>Photo Library (add-only)</strong>. Your footage stays on your phone.</p>
+        <p style="margin-top:14px"><a href="/privacy.html">Read the full privacy policy →</a></p>
       </div>
+    </section>
+
+    <section id="pricing-teaser">
+      <h2>Free to use, premium if you want more</h2>
+      <p class="lead">The free tier records real dual-format video: 1080p, 30fps, front camera, three projects. Premium adds Dual Lens, 4K, 60fps, manual controls, the teleprompter, timelapse and unlimited projects.</p>
+      <p>Annual US$19.99 with a 7-day free trial · Monthly US$4.99 · Lifetime US$39.99 one-off. <a href="/pricing/">Full pricing and feature table →</a></p>
+    </section>
+
+    <section id="faq-teaser" class="faq">
+      <h2>Quick answers</h2>
+      <h3>Does recording both formats halve the quality?</h3>
+      <p>No. Both files are encoded independently in HEVC: portrait at 1080×1920 and landscape at 1920×1080 (or 4K equivalents).</p>
+      <h3>Which phones does it support?</h3>
+      <p>iPhone XS and later on iOS 18+. Dual Lens mode needs iPhone 11 or later. On Android, any phone with a reasonable camera; features like 4K and manual exposure depend on the hardware.</p>
+      <h3>Is there a watermark?</h3>
+      <p>No watermarks on any tier, free included.</p>
+      <p style="margin-top:18px"><a href="/support/">All questions answered →</a></p>
     </section>
 
     <section id="support">
       <h2>Support</h2>
       <p class="lead">Questions, bugs, or feature requests? I read every message.</p>
-      <p>Email <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a>.</p>
+      <p>Email <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a> or join the <a href="https://discord.gg/YxUpbUgthH">Discord</a>.</p>
     </section>
   </main>
 
+<!-- @footer -->
   <footer>
     <div class="wrap">
       <div class="foot-links">
-        <a href="#features">Features</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="mailto:contentcam.app@gmail.com">Support</a>
+        <a href="/features/">Features</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/features/dual-camera/">Dual Camera</a>
+        <a href="/features/manual-controls/">Manual Controls</a>
+        <a href="/android/">Android</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Support</a>
+        <a href="/press/">Press</a>
+        <a href="/privacy.html">Privacy</a>
       </div>
-      <div>ContentCam is an independent app built in Australia. © 2026. iPhone, App Store, and related marks are trademarks of Apple Inc.</div>
+      <div>ContentCam is an independent camera app built in Australia by one developer. © 2026 ContentCam. Apple, the Apple logo, iPhone, and App Store are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</div>
     </div>
   </footer>
+<!-- /@footer -->
 </body>
 </html>
