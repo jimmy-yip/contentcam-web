@@ -50,7 +50,7 @@ html { scroll-behavior: smooth; }
    (images have huge intrinsic widths) — prevents horizontal overflow. */
 .hero-grid > *, .proof-stage, .proof-stage > .frame,
 .grid > *, .grid-3 > *, .outcomes > *, .shot-pair > *,
-.price-cards > *, .badges > * { min-width: 0; }
+.price-cards > *, .badges > *, .lifestyle-strip > *, .shots > * { min-width: 0; }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -103,8 +103,10 @@ header {
 /* Apple + Google badges normalise to the same optical height */
 .badges a { display: inline-flex; }
 .badges a:hover { filter: brightness(1.04); text-decoration: none; }
-.badge-appstore { height: 52px; width: auto; display: block; }
-.badge-play { height: 52px; width: auto; display: block; }
+/* Google's badge PNG carries internal clear-space, so it renders ~15% taller
+   to match the App Store badge's optical height. */
+.badge-appstore { height: 48px; width: auto; display: block; }
+.badge-play { height: 56px; width: auto; display: block; }
 
 .eyebrow {
   display: inline-flex; align-items: center; gap: 8px;
@@ -123,7 +125,7 @@ header {
 .hero { padding: 78px 0 40px; }
 .hero-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px; align-items: center; }
 .hero h1 { font-size: clamp(38px, 6.4vw, 66px); line-height: 1.02; letter-spacing: -0.035em; margin-bottom: 22px; }
-.hero h1 .accent { color: var(--cyan-ink); }
+.hero h1 .accent { color: var(--cyan); }
 .hero p.tagline { font-size: clamp(17px, 2.2vw, 20px); color: var(--text-soft); max-width: 540px; margin-bottom: 30px; }
 .hero .subnote { margin-top: 16px; font-size: 14px; color: var(--text-dim); }
 .hero .subnote .star { color: var(--amber); }
@@ -194,6 +196,12 @@ section .lead { color: var(--text-soft); margin-bottom: 30px; max-width: 620px; 
 /* Callout box */
 .privacy-box { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px; }
 .privacy-box strong { color: var(--ink); }
+
+/* ---------- Lifestyle gallery strip ---------- */
+.lifestyle-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 26px; }
+.lifestyle-strip figure { margin: 0; }
+.lifestyle-strip img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 16px; display: block; box-shadow: 0 10px 30px rgba(24,20,12,.14); }
+.band-dark .lifestyle-strip img { box-shadow: 0 12px 34px rgba(0,0,0,.4); }
 
 /* ---------- Screenshots / media ---------- */
 .shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 26px; }
@@ -295,6 +303,8 @@ footer .fine { font-size: 12.5px; color: #6f8082; line-height: 1.5; }
   .shots { grid-template-columns: 1fr 1fr; }
   .nav-links a { margin-left: 15px; font-size: 14px; }
   .hero { padding: 52px 0 32px; }
-  .badge-appstore, .badge-play { height: 46px; }
+  .badge-appstore { height: 42px; }
+  .badge-play { height: 49px; }
   .proof-stage { padding: 18px; gap: 4%; }
+  .lifestyle-strip { grid-template-columns: 1fr 1fr; }
 }
