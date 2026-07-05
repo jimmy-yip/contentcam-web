@@ -103,10 +103,10 @@ header {
 /* Apple + Google badges normalise to the same optical height */
 .badges a { display: inline-flex; }
 .badges a:hover { filter: brightness(1.04); text-decoration: none; }
-/* Google's badge PNG carries internal clear-space, so it renders ~15% taller
-   to match the App Store badge's optical height. */
-.badge-appstore { height: 48px; width: auto; display: block; }
-.badge-play { height: 56px; width: auto; display: block; }
+/* Both badge assets now have their pill filling the box (Google's was trimmed),
+   so equal heights give equal optical size. */
+.badge-appstore { height: 46px; width: auto; display: block; }
+.badge-play { height: 46px; width: auto; display: block; }
 
 .eyebrow {
   display: inline-flex; align-items: center; gap: 8px;
@@ -200,7 +200,7 @@ section .lead { color: var(--text-soft); margin-bottom: 30px; max-width: 620px; 
 /* ---------- Lifestyle gallery strip ---------- */
 .lifestyle-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 26px; }
 .lifestyle-strip figure { margin: 0; }
-.lifestyle-strip img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 16px; display: block; box-shadow: 0 10px 30px rgba(24,20,12,.14); }
+.lifestyle-strip img { width: 100%; aspect-ratio: 9/16; object-fit: cover; border-radius: 16px; display: block; box-shadow: 0 10px 30px rgba(24,20,12,.14); }
 .band-dark .lifestyle-strip img { box-shadow: 0 12px 34px rgba(0,0,0,.4); }
 
 /* ---------- Screenshots / media ---------- */
@@ -306,5 +306,4 @@ footer .fine { font-size: 12.5px; color: #6f8082; line-height: 1.5; }
   .badge-appstore { height: 42px; }
   .badge-play { height: 49px; }
   .proof-stage { padding: 18px; gap: 4%; }
-  .lifestyle-strip { grid-template-columns: 1fr 1fr; }
 }

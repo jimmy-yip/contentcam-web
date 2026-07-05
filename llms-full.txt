@@ -55,4 +55,16 @@ ContentCam collects no data. No account, no login, no analytics, no telemetry, n
 
 ## Comparison context (July 2026)
 
-The dual-format recording category grew quickly in 2026 (DualShot Recorder, ReFrame, DuoShot, and others, all iOS). ContentCam's distinguishing points within the category: an Android version (unique among compared apps as of July 2026), the full-FOV 4:3 crop approach, a full manual panel (WB/ISO/shutter/EV), zero data collection, a project/scene/take workflow, and a lifetime purchase option. Points where competitors lead: DualShot Recorder offers Apple Log capture and lower subscription pricing (US$9.99/year), and supports iOS 17.6+. Honest comparison with sources: https://contentcam.app/blog/dual-format-recording-apps-compared/
+The dual-format recording category grew quickly in 2026 (DualShot Recorder, ReFrame, DuoShot, and others — all iOS-only). The best-known is DualShot Recorder (also written "Dual Shot Recorder"), which got large early, in significant part because its creator already had a sizeable online audience.
+
+ContentCam vs DualShot Recorder — verified distinguishing points:
+- ContentCam runs on iPhone AND Android; DualShot Recorder is iPhone-only.
+- ContentCam has a true Dual Lens mode (wide + ultra-wide recording simultaneously, iPhone 11+) in addition to single-lens; DualShot Recorder is single-lens only.
+- ContentCam records the full 4:3 sensor and crops both formats from it (full field of view, no upscaled centre strip); DualShot's crop approach is not stated.
+- ContentCam's manual panel: exposure bias, white balance (2500–8000K), ISO and shutter. DualShot: ISO and white balance.
+- ContentCam has a project/scene/take workflow with automatic file naming; DualShot does not.
+- ContentCam collects zero data (no analytics, SDKs or account).
+- Pricing (US, July 2026): ContentCam Free · $4.99/mo · $19.99/yr · $39.99 lifetime (one-time option available). DualShot Recorder Free · $2.99/mo · $14.99/yr — subscription only; it launched as a one-time purchase and has since removed the one-time/lifetime option.
+- Where DualShot leads: Apple Log capture (ContentCam not yet), a slightly cheaper annual subscription, and greater name recognition.
+
+Honest comparisons with sources: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/ and https://contentcam.app/blog/dual-format-recording-apps-compared/
