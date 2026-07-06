@@ -198,7 +198,8 @@ section .lead { color: var(--text-soft); margin-bottom: 30px; max-width: 620px; 
 .privacy-box strong { color: var(--ink); }
 
 /* ---------- Lifestyle gallery strip ---------- */
-.lifestyle-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 26px; }
+/* Smaller 9:16 tiles — capped width keeps the ratio but shrinks the row height. */
+.lifestyle-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 200px)); justify-content: start; gap: 16px; margin-top: 26px; }
 .lifestyle-strip figure { margin: 0; }
 .lifestyle-strip img { width: 100%; aspect-ratio: 9/16; object-fit: cover; border-radius: 16px; display: block; box-shadow: 0 10px 30px rgba(24,20,12,.14); }
 .band-dark .lifestyle-strip img { box-shadow: 0 12px 34px rgba(0,0,0,.4); }
