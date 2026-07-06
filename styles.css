@@ -201,7 +201,7 @@ section .lead { color: var(--text-soft); margin-bottom: 30px; max-width: 620px; 
 /* 9:16 tiles. Ratio lives on the FIGURE (block element) — aspect-ratio on an
    <img> with a height attribute is ignored, which stretched it before.
    Capped + centred so the row is ~40% shorter than full-bleed. */
-.lifestyle-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 26px auto 0; max-width: 820px; align-items: start; }
+.lifestyle-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 26px 0 0; align-items: start; }
 .lifestyle-strip figure { margin: 0; aspect-ratio: 9/16; overflow: hidden; border-radius: 16px; box-shadow: 0 10px 30px rgba(24,20,12,.14); }
 .lifestyle-strip img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .band-dark .lifestyle-strip figure { box-shadow: 0 12px 34px rgba(0,0,0,.4); }
