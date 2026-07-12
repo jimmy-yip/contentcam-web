@@ -64,13 +64,13 @@
     <p><strong>None.</strong> The app does not request, transmit, or store any personally identifiable information. There is no account, no login, no telemetry, no third-party SDKs.</p>
 
     <h2>Permissions</h2>
-    <p>ContentCam requests three iOS permissions, all required for its core function:</p>
+    <p>ContentCam requests only the permissions required for its core function:</p>
     <ul>
       <li><strong>Camera</strong> — to record video.</li>
       <li><strong>Microphone</strong> — to record audio with your video.</li>
-      <li><strong>Photo Library (add only)</strong> — to save your recorded videos to your Photos library. The app does not request read access to your existing photo library; it can only add new videos that you record in the app.</li>
+      <li><strong>Saving videos to your device library (add only)</strong> — to save the videos you record into your device's photo/video library. On iOS this uses the add-only Photo Library permission; on Android, videos are written through the system media store. On both platforms the app can only <em>add</em> the videos you record — it never requests read access to your existing photos or videos. (On Android 9 and older, a legacy storage permission is used solely to save your recordings; it is not requested on Android 10 or newer.)</li>
     </ul>
-    <p>All three are explained in iOS's permission prompts. You can revoke them at any time in iOS Settings → ContentCam.</p>
+    <p>Each permission is explained in your device's system prompt. You can revoke them at any time in your device settings (iOS Settings → ContentCam, or Android Settings → Apps → ContentCam → Permissions).</p>
 
     <h2>Data we don't collect</h2>
     <ul>
@@ -81,24 +81,24 @@
 
     <h2>Where your videos are stored</h2>
     <ul>
-      <li>Inside the app's sandboxed Documents directory until you delete them or uninstall the app.</li>
-      <li>In your iOS Photos library when you choose to save a take from the in-app review screen. ContentCam does not delete videos from your Photos library; that's managed by you in the iOS Photos app.</li>
+      <li>Inside the app's own private, sandboxed storage on your device until you delete them or uninstall the app.</li>
+      <li>In your device's photo/video library (the iOS Photos library, or your Android gallery via the system media store) when you choose to save a take from the in-app review screen. ContentCam does not delete videos from your device library; that's managed by you in your Photos or Gallery app.</li>
     </ul>
 
     <h2>Third-party services</h2>
     <p>None. ContentCam does not use any third-party SDKs, analytics services, ad networks, or backend servers. It is a fully on-device app.</p>
 
     <h2>Purchases and subscriptions</h2>
-    <p>ContentCam offers optional in-app purchases and subscriptions. All payments are processed by Apple through the App Store — ContentCam never sees or stores your payment details. We receive only anonymised, aggregated sales data from Apple (such as how many subscriptions were sold), never anything that identifies you. Your subscription is managed entirely through your Apple Account in iOS Settings.</p>
+    <p>ContentCam offers optional in-app purchases and subscriptions. All payments are processed by the platform's store — Apple through the App Store on iOS, or Google through Google Play on Android — and ContentCam never sees or stores your payment details. We receive only anonymised, aggregated sales data from Apple or Google (such as how many subscriptions were sold), never anything that identifies you. Your subscription is managed entirely through your Apple Account (iOS Settings) or your Google Play account (Play Store → Payments &amp; subscriptions).</p>
 
     <h2>Children</h2>
-    <p>ContentCam is rated 4+ on the App Store and is suitable for general audiences. We do not knowingly collect any data from anyone, including children.</p>
+    <p>ContentCam is rated for general audiences (4+ on the App Store; rated by the IARC for Google Play) and is suitable for general use. We do not knowingly collect any data from anyone, including children.</p>
 
     <h2>Contact</h2>
     <p>For questions about this policy, email <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a>.</p>
 
     <h2>Changes to this policy</h2>
-    <p>If we ever change this policy (e.g., adding cloud sync or accounts in a future version), we'll update this page and notify users via App Store release notes.</p>
+    <p>If we ever change this policy (e.g., adding cloud sync or accounts in a future version), we'll update this page and notify users via the App Store and Google Play release notes.</p>
   </main>
 
 <!-- @footer -->
@@ -116,6 +116,7 @@
         <a href="/support/">Support</a>
         <a href="/press/">Press</a>
         <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
       </div>
       <div class="fine">ContentCam is an independent camera app built in Australia by one developer. © 2026 ContentCam. Apple, the Apple logo, iPhone, and App Store are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</div>
     </div>
