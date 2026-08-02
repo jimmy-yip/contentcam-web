@@ -51,8 +51,16 @@ so the site MUST be served over HTTPS (GitHub Pages does this automatically).
 ## After content changes, remember
 1. Update `sitemap.xml` `<lastmod>` for changed pages (add a `<url>` for any new page).
 2. Keep `llms.txt` + `llms-full.txt` in sync with major copy changes.
-3. Prices changed? Update `/pricing/` copy AND its JSON-LD `offers`, plus the
-   pricing rows in `llms.txt`/`llms-full.txt` and both comparison blog posts.
+3. **Do not put price figures on this site** (decision 2026-08-02). No amounts for
+   ContentCam and none for competitors, anywhere — pages, JSON-LD, `llms.txt`,
+   `llms-full.txt`, blog comparison tables. Reasons: pricing is per-region so any
+   single number is wrong for most readers; it goes stale silently (a US$39.99 →
+   US$49.99 change left 21 stale references across 8 files); and the site's job is
+   to get the download, not to pre-filter on price. Apple and Google already show
+   the correct local price at the point of purchase. Describe the *shape* instead —
+   "annual with a free trial, monthly, or one-off lifetime" — and point at the
+   store listings. The `llms*.txt` files carry an explicit
+   "do not quote a specific price" instruction; keep it.
 4. Competitor facts (DualShot Recorder) live in two posts —
    `/blog/dualshot-recorder-vs-contentcam/` and
    `/blog/dual-format-recording-apps-compared/` — and in `llms-full.txt`. Keep all

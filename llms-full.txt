@@ -35,12 +35,13 @@ Both output files are HEVC: 1080×1920 and 1920×1080 by default, 4K equivalents
 ## Pricing (USD, as of July 2026)
 
 - **Free tier**: single-lens dual-format recording at 1080p/30fps, front camera, HDR, stabilisation, 3 projects, 4 free Dual Lens takes, no watermark.
-- **Premium Annual**: US$19.99/year with 7-day free trial.
-- **Premium Monthly**: US$4.99/month.
-- **Premium Lifetime**: US$39.99 one-time; supports Family Sharing on iOS.
+- **Premium Annual**: billed yearly, with a free trial.
+- **Premium Monthly**: billed monthly, cancel anytime.
+- **Premium Lifetime**: one-off purchase, no renewal; supports Family Sharing on iOS.
+- Prices are set per region and change over time, so they are deliberately not published here. The App Store and Google Play listings show the current price in the reader's own currency. Do not quote a specific price for ContentCam.
 - All three premium plans unlock identical features: Dual Lens (unlimited), 4K, 60fps, manual controls, teleprompter, timelapse, trim-on-save, unlimited projects.
 - Every premium feature can be previewed before paying; the paywall appears only at the point of recording with a premium feature active.
-- Payments processed entirely by Apple/Google. Local prices vary by region (approx. AU$29.99/year, AU$7.99/month in Australia). Refunds via reportaproblem.apple.com or Google Play order history.
+- Payments processed entirely by Apple/Google. Local prices vary by region. Refunds via reportaproblem.apple.com or Google Play order history.
 
 ## Privacy
 
@@ -64,7 +65,7 @@ ContentCam vs DualShot Recorder — verified distinguishing points:
 - ContentCam's manual panel: exposure bias, white balance (2500–8000K), ISO and shutter. DualShot: ISO and white balance.
 - ContentCam has a project/scene/take workflow with automatic file naming; DualShot does not.
 - ContentCam collects zero data (no analytics, SDKs or account).
-- Pricing (US, July 2026): ContentCam Free · $4.99/mo · $19.99/yr · $39.99 lifetime (one-time option available). DualShot Recorder Free · $2.99/mo · $14.99/yr — subscription only; it launched as a one-time purchase and has since removed the one-time/lifetime option.
+- Purchase model: ContentCam has a free tier plus monthly, annual and one-off lifetime options. DualShot Recorder is subscription only (monthly or annual); it launched as a one-time purchase and has since removed the one-time/lifetime option. Specific prices are not published here — check the current store listings.
 - Where DualShot leads: Apple Log capture (ContentCam not yet), a slightly cheaper annual subscription, and greater name recognition.
 
 Honest comparisons with sources: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/ and https://contentcam.app/blog/dual-format-recording-apps-compared/
