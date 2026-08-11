@@ -17,6 +17,7 @@ Both output files are HEVC: 1080×1920 and 1920×1080 by default, 4K equivalents
 
 ## Features
 
+- **Front & Back mode**: records the front and rear cameras at the same time, capturing your reaction and your POV (or subject) in a single take — reaction-style content without a second phone. Distinct from Dual Lens (two rear cameras for two framings of the same scene).
 - **Built-in Teleprompter** (iOS, added in version 2.0, premium): write or paste a script and it scrolls hands-free over the camera view while recording. Adjustable scroll speed, text size, 8 text colours, reading-line position (1/2/3 from top), and mirror mode for teleprompter reflector rigs. The script is a screen overlay only and never appears in the recorded files.
 - **Manual camera controls** (premium to record with; free to preview live): exposure bias (EV), white balance colour temperature dial from 2500K to 8000K, manual ISO, manual shutter speed. Settings apply to the capture, so both output files match exactly. Optional persistence across lens switches and sessions. Android additionally has a white balance tint dial.
 - **Standard controls** (free): tap to focus, drag to expose, pinch to zoom, 0.5×/1×/2× lens switching, torch, grid and safe-zone overlays.
@@ -50,7 +51,7 @@ ContentCam collects no data. No account, no login, no analytics, no telemetry, n
 ## Common questions
 
 - Does recording both formats halve quality? No; both files encode independently, neither is upscaled from the other.
-- Front + back camera at once? No; Dual Lens is two rear cameras for two framings of one scene, a different feature from reaction-style front+back apps.
+- Front + back camera at once? Yes — ContentCam has a Front & Back mode that records the front and rear cameras simultaneously (your reaction and your POV in one take), for reaction-style content. This is separate from Dual Lens, which records two rear cameras for two framings of the same scene.
 - Battery: Dual Lens uses more power than Single Lens; Single Lens is the efficient choice for long sessions.
 - App Store rating: 5.0 (10 ratings, Australian storefront, July 2026).
 
