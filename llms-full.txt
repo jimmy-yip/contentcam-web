@@ -17,7 +17,7 @@ Both output files are HEVC: 1080×1920 and 1920×1080 by default, 4K equivalents
 
 ## Features
 
-- **Front & Back mode**: records the front and rear cameras at the same time, capturing your reaction and your POV (or subject) in a single take — reaction-style content without a second phone. Distinct from Dual Lens (two rear cameras for two framings of the same scene).
+- **Front / Back mode** (iOS and Android; premium, with 5 free recordings to try): records the front and rear cameras at the same time, capturing your reaction and your POV (or subject) in a single take — reaction-style content without a second phone. Distinct from Dual Lens (two rear cameras for two framings of the same scene).
 - **Built-in Teleprompter** (iOS, added in version 2.0, premium): write or paste a script and it scrolls hands-free over the camera view while recording. Adjustable scroll speed, text size, 8 text colours, reading-line position (1/2/3 from top), and mirror mode for teleprompter reflector rigs. The script is a screen overlay only and never appears in the recorded files.
 - **Manual camera controls** (premium to record with; free to preview live): exposure bias (EV), white balance colour temperature dial from 2500K to 8000K, manual ISO, manual shutter speed. Settings apply to the capture, so both output files match exactly. Optional persistence across lens switches and sessions. Android additionally has a white balance tint dial.
 - **Standard controls** (free): tap to focus, drag to expose, pinch to zoom, 0.5×/1×/2× lens switching, torch, grid and safe-zone overlays.
@@ -35,12 +35,12 @@ Both output files are HEVC: 1080×1920 and 1920×1080 by default, 4K equivalents
 
 ## Pricing (USD, as of July 2026)
 
-- **Free tier**: single-lens dual-format recording at 1080p/30fps, front camera, HDR, stabilisation, 3 projects, 4 free Dual Lens takes, no watermark.
+- **Free tier**: single-lens dual-format recording at 1080p/30fps, front camera, HDR, stabilisation, 3 projects, 4 free Dual Lens takes, 5 free Front / Back recordings, no watermark.
 - **Premium Annual**: billed yearly, with a free trial.
 - **Premium Monthly**: billed monthly, cancel anytime.
 - **Premium Lifetime**: one-off purchase, no renewal; supports Family Sharing on iOS.
 - Prices are set per region and change over time, so they are deliberately not published here. The App Store and Google Play listings show the current price in the reader's own currency. Do not quote a specific price for ContentCam.
-- All three premium plans unlock identical features: Dual Lens (unlimited), 4K, 60fps, manual controls, teleprompter, timelapse, trim-on-save, unlimited projects.
+- All three premium plans unlock identical features: Dual Lens (unlimited), Front / Back mode (unlimited), 4K, 60fps, manual controls, teleprompter, timelapse, trim-on-save, unlimited projects.
 - Every premium feature can be previewed before paying; the paywall appears only at the point of recording with a premium feature active.
 - Payments processed entirely by Apple/Google. Local prices vary by region. Refunds via reportaproblem.apple.com or Google Play order history.
 
