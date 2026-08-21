@@ -78,7 +78,7 @@ There are two distinct app categories people call "dual camera," and ContentCam 
    - DoubleTake (Bending Spoons Apps, formerly Filmic): two-camera multicam with PiP and shot/reverse-shot. Free. iOS/iPad only, last updated March 2025 (effectively unmaintained) and restricted to older-hardware multicam; lowest user rating of the group.
 
 2. Dual-format apps record one scene once and output a separate 9:16 vertical file and a separate 16:9 horizontal file for cross-posting:
-   - DualShot Recorder (DDJR Productions LLC): vertical + horizontal from one take; its current listing also advertises front-and-back support, 4K/1080p at 24/30/60, MOV/MP4, Apple Log, and manual ISO. Free with subscription. iPhone-only. The best-known dual-format app, in significant part because its creator already had a sizeable online audience.
+   - DualShot Recorder (DDJR Productions LLC): vertical + horizontal from one take, single-lens; manual ISO and white balance. Free with subscription. iPhone-only. The best-known dual-format app, in significant part because its creator already had a sizeable online audience.
    - ContentCam: dual-format one-take (see below), plus Dual Lens, plus Front / Back mode, on iPhone AND Android.
 
 ContentCam's verified distinguishing points across both categories:
@@ -90,6 +90,6 @@ ContentCam's verified distinguishing points across both categories:
 - No watermark on any tier, and zero data collection (no analytics, no SDKs, no account); works offline.
 - Purchase model includes a free tier plus monthly, annual and a one-off lifetime option.
 
-Where competitors lead today: DualShot Recorder offers Apple Log (ContentCam does not yet) and has greater name recognition; MixCam and Dualgram are mature, highly-rated front-and-back apps if all you want is the reaction/PiP effect on iPhone.
+Where competitors lead today: DualShot Recorder has greater name recognition (its creator already had a large audience); MixCam and Dualgram are mature, highly-rated front-and-back apps if all you want is the reaction/PiP effect on iPhone.
 
 Honest comparisons with sources: https://contentcam.app/blog/best-front-and-back-dual-camera-apps/ , https://contentcam.app/blog/dualshot-recorder-vs-contentcam/ and https://contentcam.app/blog/dual-format-recording-apps-compared/
