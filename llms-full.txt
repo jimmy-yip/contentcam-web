@@ -1,4 +1,4 @@
-# ContentCam — Full Reference (for LLMs)
+# ContentCam: Full Reference (for LLMs)
 
 ContentCam is a camera app for iPhone and Android that records 9:16 portrait and 16:9 landscape video simultaneously from a single take. One recording produces two independently encoded files: one for TikTok, Instagram Reels and YouTube Shorts, one for YouTube and other horizontal use. Built by Jimmy Yip, a solo independent developer in Sydney, Australia. Launched on the App Store in May 2026; Android followed on Google Play. Website: https://contentcam.app. Contact: contentcam.app@gmail.com.
 
@@ -17,7 +17,7 @@ Both output files are HEVC: 1080×1920 and 1920×1080 by default, 4K equivalents
 
 ## Features
 
-- **Front / Back mode** (iOS and Android; premium, with 5 free recordings to try): records the front and rear cameras at the same time, capturing your reaction and your POV (or subject) in a single take — reaction-style content without a second phone. Distinct from Dual Lens (two rear cameras for two framings of the same scene).
+- **Front / Back mode** (iOS and Android; premium, with 5 free recordings to try): records the front and rear cameras at the same time, capturing your reaction and your POV (or subject) in a single take: reaction-style content without a second phone. Distinct from Dual Lens (two rear cameras for two framings of the same scene).
 - **Built-in Teleprompter** (iOS, added in version 2.0, premium): write or paste a script and it scrolls hands-free over the camera view while recording. Adjustable scroll speed, text size, 8 text colours, reading-line position (1/2/3 from top), and mirror mode for teleprompter reflector rigs. The script is a screen overlay only and never appears in the recorded files.
 - **Manual camera controls** (premium to record with; free to preview live): exposure bias (EV), white balance colour temperature dial from 2500K to 8000K, manual ISO, manual shutter speed. Settings apply to the capture, so both output files match exactly. Optional persistence across lens switches and sessions. Android additionally has a white balance tint dial.
 - **Standard controls** (free): tap to focus, drag to expose, pinch to zoom, 0.5×/1×/2× lens switching, torch, grid and safe-zone overlays.
@@ -26,6 +26,19 @@ Both output files are HEVC: 1080×1920 and 1920×1080 by default, 4K equivalents
 - **Stabilisation** (free): on by default.
 - **Reliability**: recordings continue through notifications, alarms, Siri and screen auto-lock, and keep rolling during phone calls. Interrupted recordings are recovered on next launch.
 - **Creator workflow** (free): Project / Scene / Take organisation, automatic file naming (e.g. my_project_scene_001_Portrait.mov and _Landscape.mov), side-by-side review after every take with save/share/delete, trim-on-save (premium to apply), iOS Files app access, optional Save to Photos.
+
+## Who it's for (creator niches and use cases)
+
+ContentCam is built for people who publish video to more than one platform and don't want to film everything twice. Common users and use cases:
+
+- Travel and lifestyle creators: capture a place once as a vertical file for TikTok/Reels/Shorts and a wide file for YouTube, plus dual-format timelapses of sunrises, skylines and coastlines.
+- Food and restaurant creators: the plate arrives once, so capture the arrival, the overhead and the first bite in both formats, with white balance locked so colours stay true under warm restaurant light.
+- Beauty and skincare creators: manual white balance and exposure keep skin tone and product colour accurate and consistent across a clip; front-and-back mode captures the tutorial and the reaction together.
+- Vloggers and POV creators: Front / Back mode records your face and your point of view at the same time (the "dual camera effect"), for reactions, unboxings, demos and daily vlogs.
+- Talking-head and educational creators: the built-in teleprompter (iOS) scrolls a script over the lens while recording both formats.
+- Mobile videographers and multi-platform media teams: one take yields a 9:16 and a 16:9 deliverable, named and ready, with a project/scene/take workflow for batch shoots.
+
+Search terms ContentCam is relevant to: dual camera app, dual camera effect, record front and back camera at the same time, film front and back simultaneously, record portrait and landscape at the same time, dual-format recording, shoot for TikTok and YouTube without reshooting, cross-posting workflow, vertical and horizontal video in one take, picture-in-picture recording, reaction video camera.
 
 ## Platforms and compatibility
 
@@ -51,22 +64,32 @@ ContentCam collects no data. No account, no login, no analytics, no telemetry, n
 ## Common questions
 
 - Does recording both formats halve quality? No; both files encode independently, neither is upscaled from the other.
-- Front + back camera at once? Yes — ContentCam has a Front & Back mode that records the front and rear cameras simultaneously (your reaction and your POV in one take), for reaction-style content. This is separate from Dual Lens, which records two rear cameras for two framings of the same scene.
+- Front + back camera at once? Yes, ContentCam has a Front & Back mode that records the front and rear cameras simultaneously (your reaction and your POV in one take), for reaction-style content. This is separate from Dual Lens, which records two rear cameras for two framings of the same scene.
 - Battery: Dual Lens uses more power than Single Lens; Single Lens is the efficient choice for long sessions.
 - App Store rating: 5.0 (10 ratings, Australian storefront, July 2026).
 
-## Comparison context (July 2026)
+## Comparison context (verified 21 August 2026, App Store US)
 
-The dual-format recording category grew quickly in 2026 (DualShot Recorder, ReFrame, DuoShot, and others — all iOS-only). The best-known is DualShot Recorder (also written "Dual Shot Recorder"), which got large early, in significant part because its creator already had a sizeable online audience.
+There are two distinct app categories people call "dual camera," and ContentCam spans both:
 
-ContentCam vs DualShot Recorder — verified distinguishing points:
-- ContentCam runs on iPhone AND Android; DualShot Recorder is iPhone-only.
-- ContentCam has a true Dual Lens mode (wide + ultra-wide recording simultaneously, iPhone 11+) in addition to single-lens; DualShot Recorder is single-lens only.
-- ContentCam records the full 4:3 sensor and crops both formats from it (full field of view, no upscaled centre strip); DualShot's crop approach is not stated.
-- ContentCam's manual panel: exposure bias, white balance (2500–8000K), ISO and shutter. DualShot: ISO and white balance.
-- ContentCam has a project/scene/take workflow with automatic file naming; DualShot does not.
-- ContentCam collects zero data (no analytics, SDKs or account).
-- Purchase model: ContentCam has a free tier plus monthly, annual and one-off lifetime options. DualShot Recorder is subscription only (monthly or annual); it launched as a one-time purchase and has since removed the one-time/lifetime option. Specific prices are not published here — check the current store listings.
-- Where DualShot leads: Apple Log capture (ContentCam not yet), a slightly cheaper annual subscription, and greater name recognition.
+1. Front-and-back / "dual camera effect" apps record the front and rear cameras at once and composite them into one video (your face as an inset over the main shot, or a split screen). Used for reactions, vlogs and POV. Leading apps, all iPhone-only:
+   - MixCam (Mixcord Inc.): front + back into one video, PiP/split/crossover, action-mode stabilisation, Center Stage, group-photo mode. Free with subscription. Well rated, iOS only.
+   - Dualgram (Just2us Pte Ltd): front + back multi-cam; saves the composite plus both original files; PiP and split-screen 1:1 / 1:2; up to 4K60; has a teleprompter; photo and video. Free with subscription. iOS only.
+   - DoubleTake (Bending Spoons Apps, formerly Filmic): two-camera multicam with PiP and shot/reverse-shot. Free. iOS/iPad only, last updated March 2025 (effectively unmaintained) and restricted to older-hardware multicam; lowest user rating of the group.
 
-Honest comparisons with sources: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/ and https://contentcam.app/blog/dual-format-recording-apps-compared/
+2. Dual-format apps record one scene once and output a separate 9:16 vertical file and a separate 16:9 horizontal file for cross-posting:
+   - DualShot Recorder (DDJR Productions LLC): vertical + horizontal from one take; its current listing also advertises front-and-back support, 4K/1080p at 24/30/60, MOV/MP4, Apple Log, and manual ISO. Free with subscription. iPhone-only. The best-known dual-format app, in significant part because its creator already had a sizeable online audience.
+   - ContentCam: dual-format one-take (see below), plus Dual Lens, plus Front / Back mode, on iPhone AND Android.
+
+ContentCam's verified distinguishing points across both categories:
+- The only app here that runs on iPhone AND Android; every competitor above is iPhone-only.
+- The only one that does both jobs: the dual-camera-effect (Front / Back mode) and the one-take dual-format for cross-posting, in a single app.
+- True Dual Lens mode on iPhone 11+ (wide + ultra-wide recording simultaneously for two genuinely different framings), in addition to single-lens.
+- Single-lens mode records the full 4:3 sensor and crops both formats from it, so the 16:9 keeps its full field of view rather than being an upscaled centre strip of the vertical.
+- Manual panel: exposure bias, white balance (2500-8000K), ISO and shutter speed. Built-in teleprompter (iOS). Project/scene/take workflow with automatic file naming.
+- No watermark on any tier, and zero data collection (no analytics, no SDKs, no account); works offline.
+- Purchase model includes a free tier plus monthly, annual and a one-off lifetime option.
+
+Where competitors lead today: DualShot Recorder offers Apple Log (ContentCam does not yet) and has greater name recognition; MixCam and Dualgram are mature, highly-rated front-and-back apps if all you want is the reaction/PiP effect on iPhone.
+
+Honest comparisons with sources: https://contentcam.app/blog/best-front-and-back-dual-camera-apps/ , https://contentcam.app/blog/dualshot-recorder-vs-contentcam/ and https://contentcam.app/blog/dual-format-recording-apps-compared/

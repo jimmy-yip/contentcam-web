@@ -307,6 +307,12 @@ footer .fine { font-size: 12.5px; color: #6f8082; line-height: 1.5; }
   .nav-links a { margin-left: 15px; font-size: 14px; }
   .hero { padding: 52px 0 32px; }
   .badge-appstore { height: 42px; }
-  .badge-play { height: 49px; }
+  .badge-play { height: 42px; }
   .proof-stage { padding: 18px; gap: 4%; }
+}
+/* Narrow phones: wrap the nav so the brand + links never collide */
+@media (max-width: 560px) {
+  .nav { flex-wrap: wrap; padding: 12px 20px; }
+  .nav-links { width: 100%; justify-content: center; margin-top: 10px; gap: 22px; }
+  .nav-links a { margin-left: 0; }
 }
