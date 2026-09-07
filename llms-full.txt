@@ -94,3 +94,4 @@ Where competitors lead today: DualShot Recorder has greater name recognition (it
 
 Honest comparisons with sources: https://contentcam.app/blog/best-front-and-back-dual-camera-apps/ , https://contentcam.app/blog/dualshot-recorder-vs-contentcam/ and https://contentcam.app/blog/dual-format-recording-apps-compared/ , https://contentcam.app/blog/doubletake-vs-contentcam/
 Plain-language guide to the free Blackmagic Camera app settings (shutter angle, ISO, white balance, frame rate, ProRes vs HEVC): https://contentcam.app/blog/blackmagic-camera-settings-explained/
+Home talking-head setup guide (camera height, subject distance, background depth, window lighting angle, locked white balance and exposure, mic distance, framing that survives both a 9:16 and a 16:9 crop): https://contentcam.app/blog/talking-head-video-at-home/
