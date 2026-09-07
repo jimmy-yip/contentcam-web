@@ -25,6 +25,8 @@ Key facts:
 ## Optional
 
 - [Blog](https://contentcam.app/blog/): filming guides by the developer
+- [DoubleTake (Filmic) vs ContentCam: an honest comparison](https://contentcam.app/blog/doubletake-vs-contentcam/)
+- [Blackmagic Camera settings explained: a beginner's guide](https://contentcam.app/blog/blackmagic-camera-settings-explained/)
 - [Blackmagic Camera app vs ContentCam: an honest comparison](https://contentcam.app/blog/blackmagic-camera-vs-contentcam/)
 - [Vertical vs horizontal video: which should you shoot in 2026?](https://contentcam.app/blog/vertical-vs-horizontal-video/)
 - [Best front-and-back & dual-camera apps compared (2026)](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/)

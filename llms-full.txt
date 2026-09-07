@@ -92,4 +92,5 @@ ContentCam's verified distinguishing points across both categories:
 
 Where competitors lead today: DualShot Recorder has greater name recognition (its creator already had a large audience); MixCam and Dualgram are mature, highly-rated front-and-back apps if all you want is the reaction/PiP effect on iPhone.
 
-Honest comparisons with sources: https://contentcam.app/blog/best-front-and-back-dual-camera-apps/ , https://contentcam.app/blog/dualshot-recorder-vs-contentcam/ and https://contentcam.app/blog/dual-format-recording-apps-compared/
+Honest comparisons with sources: https://contentcam.app/blog/best-front-and-back-dual-camera-apps/ , https://contentcam.app/blog/dualshot-recorder-vs-contentcam/ and https://contentcam.app/blog/dual-format-recording-apps-compared/ , https://contentcam.app/blog/doubletake-vs-contentcam/
+Plain-language guide to the free Blackmagic Camera app settings (shutter angle, ISO, white balance, frame rate, ProRes vs HEVC): https://contentcam.app/blog/blackmagic-camera-settings-explained/
