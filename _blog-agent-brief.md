@@ -102,3 +102,25 @@ Create a branch named `blog/<slug>`, commit, push, and open a pull request. The 
    top of the PR body so a human knows to top it up
 
 Do not merge it.
+
+## If the push is refused
+
+`git push` may return 403 ("Claude doesn't have GitHub access to this repository"), and the GitHub
+MCP integration may be read-only. If that happens, do not treat the run as failed and do not retry
+in a loop. Instead:
+
+1. Commit everything on the local branch as normal.
+2. Run `git format-patch main --stdout > <scratchpad>/<branch-name>.patch`.
+3. Send the patch and the new post file to the user with SendUserFile, with a caption giving the
+   apply command: `git checkout -b <branch> && git am < <branch>.patch`
+4. State plainly in your final message that the PR could not be opened, quote the exact error, and
+   say the fix is installing the Claude GitHub App or reconnecting GitHub with write access.
+
+The container is ephemeral, so work that is only committed locally is lost. Sending the patch is
+what makes the run worth having.
+
+## Fix what your own checks find
+
+Before committing, grep your post for em dashes, the banned words listed above, and US spellings
+(color, organize, stabilize, favorite, center). **Fix every hit.** Reporting a problem you found and
+leaving it in the file is not acceptable.
