@@ -4,18 +4,21 @@ Pool of upcoming post ideas. Pick one unpublished topic per run, **from a CLOUD-
 varied rather than becoming all app comparisons. Delete a line once its post is live, or just leave
 it: the drafting agent checks `blog/` for what already exists.
 
-## Bucket 1 — cross-posting and core intent — **LOCAL ONLY**
-Needs platform documentation the cloud sandbox cannot reach. A human writes these.
-- How to post the same video to TikTok, Instagram and YouTube (the cross-posting workflow)
-- Best apps for repurposing and cross-posting video in 2026
+## Bucket 1a — cross-posting workflow — **CLOUD-SAFE**
+Argument and workflow, no platform specifications to look up.
 - How to repurpose one video for every platform without an editor
 - The creator's guide to "shoot once, post everywhere"
 - How to turn one long video into 10 short-form clips
+- How to film b-roll that works vertical and wide
+- Why cropping vertical to horizontal never looks right, and what to do instead
+
+## Bucket 1b — platform specifications — **LOCAL ONLY**
+Needs vendor documentation the cloud sandbox cannot reach.
+- How to post the same video to TikTok, Instagram and YouTube (the cross-posting workflow)
+- Best apps for repurposing and cross-posting video in 2026
 - Aspect ratio cheat sheet: every platform, every size (2026)
 - Vertical video safe zones: where TikTok, Reels and Shorts cover your frame
 - Export settings for TikTok, Reels, Shorts and YouTube
-- How to film b-roll that works vertical and wide
-- Why cropping vertical to horizontal never looks right, and what to do instead
 
 ## Bucket 2 — named apps — **LOCAL ONLY**
 Needs live App Store / Play listings the cloud sandbox cannot reach. A human writes these.

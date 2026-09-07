@@ -22,6 +22,9 @@ The sandbox egress proxy blocks `apps.apple.com`, `play.google.com`, `support.go
 `help.instagram.com` and `support.tiktok.com`. Confirmed 2026-09-07. WebSearch works, but it returns
 SEO content blogs, which are **not** acceptable sources for a factual claim.
 
+Reachable and useful: `developer.apple.com`, `developer.android.com`, `github.com`. Also blocked:
+**contentcam.app itself**, so never try to fetch the live site. Read the files in this repo instead.
+
 Therefore:
 
 - **Do not write any post that depends on a named product's version, price, publisher, feature list,
