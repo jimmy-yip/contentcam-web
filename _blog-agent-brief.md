@@ -12,6 +12,10 @@ Front / Back mode (both platforms, premium, 5 free recordings), a teleprompter, 
 analytics: no SDKs, no account. Pricing is monthly, annual with a 7-day free trial, or a one-time
 lifetime option. It is built solo in Australia by Jimmy, who is the author of every post.
 
+**This section is your only source of truth for ContentCam.** Do not attribute a feature, price,
+platform or limitation to it that is not written above. If you want to say the app does something and
+it is not listed here, either leave it out or check the site's own `/features/` pages.
+
 ## Hard constraint: you cannot verify product facts in this environment
 
 The sandbox egress proxy blocks `apps.apple.com`, `play.google.com`, `support.google.com`,
@@ -42,7 +46,7 @@ List the directories under `blog/` and the post titles in `blog/index.html` so y
 exists. Pick ONE unpublished topic. Rotate: if the two newest posts came from the same section,
 choose a different one. Never duplicate an existing topic under a new slug.
 
-## Step 2 — write from craft knowledge, not from research
+## Step 2 — sourcing: craft knowledge, not search results
 
 The cloud-safe topics are evergreen technique: lighting, audio, composition, frame rates, workflow,
 filming for a niche, the business of UGC. They do not need a live source, and that is exactly why
@@ -91,5 +95,7 @@ Create a branch named `blog/<slug>`, commit, push, and open a pull request. The 
 1. The topic chosen and why
 2. Every source URL you verified, and what each one confirmed
 3. Anything you could not verify and therefore cut
+4. If fewer than about 8 unpublished CLOUD-SAFE topics remain in the backlog, say so plainly at the
+   top of the PR body so a human knows to top it up
 
 Do not merge it.
