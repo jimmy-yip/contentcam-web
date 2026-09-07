@@ -12,28 +12,48 @@ Front / Back mode (both platforms, premium, 5 free recordings), a teleprompter, 
 analytics: no SDKs, no account. Pricing is monthly, annual with a 7-day free trial, or a one-time
 lifetime option. It is built solo in Australia by Jimmy, who is the author of every post.
 
+## Hard constraint: you cannot verify product facts in this environment
+
+The sandbox egress proxy blocks `apps.apple.com`, `play.google.com`, `support.google.com`,
+`help.instagram.com` and `support.tiktok.com`. Confirmed 2026-09-07. WebSearch works, but it returns
+SEO content blogs, which are **not** acceptable sources for a factual claim.
+
+Therefore:
+
+- **Do not write any post that depends on a named product's version, price, publisher, feature list,
+  release date or maintenance status.** You cannot check those here, and a wrong claim about a real
+  company's product on a live site is the worst outcome this job can produce.
+- **Do not state a platform specification as a number** (resolution, file size cap, maximum length,
+  bitrate) unless you reached the platform's own documentation. If it is blocked, describe the thing
+  qualitatively instead, or drop that section.
+- Never invent numbers, benchmarks, prices, quotes or review counts. Not once, not as a placeholder.
+- If the topic you picked turns out to need any of the above, **abandon it and pick another.** An
+  honest "I picked a different topic because I could not verify X" in the PR body is a good outcome.
+
+Competitor and app-comparison posts are handled by a human in a session with working access. They are
+not your job. Do not attempt them even if they sit unpublished in the backlog.
+
 ## Step 1 — pick a topic
 
-Read `_blog-backlog.md`. List the directories under `blog/` and the post titles in
-`blog/index.html` so you know what already exists. Pick ONE unpublished topic.
+Read `_blog-backlog.md`. Only pick from the sections marked **CLOUD-SAFE**. Ignore every section
+marked **LOCAL ONLY**, no matter how attractive the topic looks.
 
-Prefer bucket 1, but rotate: if the two newest posts came from the same bucket, choose a different
-bucket. Never duplicate an existing topic under a new slug.
+List the directories under `blog/` and the post titles in `blog/index.html` so you know what already
+exists. Pick ONE unpublished topic. Rotate: if the two newest posts came from the same section,
+choose a different one. Never duplicate an existing topic under a new slug.
 
-## Step 2 — verify before you write
+## Step 2 — write from craft knowledge, not from research
 
-This is the rule that matters most.
+The cloud-safe topics are evergreen technique: lighting, audio, composition, frame rates, workflow,
+filming for a niche, the business of UGC. They do not need a live source, and that is exactly why
+they are the ones you have been given.
 
-Every factual claim about a named product, company, price, version, specification or date must be
-checked against a **live primary source during this run**, using WebSearch and WebFetch. Primary
-sources are the App Store or Google Play listing, or the vendor's own specifications page. Cite the
-source in the post with the date you checked it.
+Be concrete anyway. Real settings, real reasons, real trade-offs. "Set white balance to about 5600K
+outdoors and lock it" beats "adjust your settings appropriately". Specificity is the whole value of
+the post. Draw it from established filming practice, not from a search result.
 
-- If you cannot verify a claim, **cut it**.
-- Never state that a product is discontinued, abandoned or unmaintained unless a primary source says
-  so. A stale "last updated" date is a fact you may report; "abandoned" is a conclusion you may not.
-- Never invent numbers, benchmarks, quotes or review counts.
-- Check who currently publishes an app before describing it. Ownership changes.
+If you genuinely need to check something and the source is reachable, do check it and cite it with
+the date. If it is blocked, work around it as described above.
 
 ## Step 3 — write it
 

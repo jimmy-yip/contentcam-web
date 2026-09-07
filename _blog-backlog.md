@@ -1,10 +1,11 @@
 # Blog topic backlog
 
-Pool of upcoming post ideas. Pick one unpublished topic per run. Rotate buckets so the blog stays
+Pool of upcoming post ideas. Pick one unpublished topic per run, **from a CLOUD-SAFE section only**. Rotate buckets so the blog stays
 varied rather than becoming all app comparisons. Delete a line once its post is live, or just leave
 it: the drafting agent checks `blog/` for what already exists.
 
-## Bucket 1 — cross-posting and core intent (highest priority, least covered)
+## Bucket 1 — cross-posting and core intent — **LOCAL ONLY**
+Needs platform documentation the cloud sandbox cannot reach. A human writes these.
 - How to post the same video to TikTok, Instagram and YouTube (the cross-posting workflow)
 - Best apps for repurposing and cross-posting video in 2026
 - How to repurpose one video for every platform without an editor
@@ -16,7 +17,8 @@ it: the drafting agent checks `blog/` for what already exists.
 - How to film b-roll that works vertical and wide
 - Why cropping vertical to horizontal never looks right, and what to do instead
 
-## Bucket 2 — named apps (some competitors, many complementary tools)
+## Bucket 2 — named apps — **LOCAL ONLY**
+Needs live App Store / Play listings the cloud sandbox cannot reach. A human writes these.
 Honest and sourced. Where the app is not a competitor, the post is purely a useful guide.
 - Filmic Pro in 2026: what happened, and what to use now
 - Filmic Pro alternatives for iPhone video (2026)
@@ -37,7 +39,9 @@ Honest and sourced. Where the app is not a competitor, the post is purely a usef
 - Repurpose.io and automated cross-posting tools reviewed
 - OBS and Ecamm for creators who also film on a phone
 
-## Bucket 3 — educational, value-first (ContentCam optional or absent)
+## Bucket 3 — educational, value-first — **CLOUD-SAFE**
+Evergreen craft and business topics. No versions, prices or publishers to verify. This is the
+scheduled agent's pool.
 Craft and gear
 - Lighting phone video on a budget: what actually matters
 - Phone audio: why it ruins good footage, and the cheapest real fixes
