@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /_blog-backlog.md
 
 # AI: machine-readable summary at /llms.txt and /llms-full.txt
 Sitemap: https://contentcam.app/sitemap.xml
