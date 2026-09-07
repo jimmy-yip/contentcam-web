@@ -25,6 +25,7 @@ Key facts:
 ## Optional
 
 - [Blog](https://contentcam.app/blog/): filming guides by the developer
+- [How to film a talking head at home that doesn't look like a webcam](https://contentcam.app/blog/talking-head-video-at-home/)
 - [DoubleTake (Filmic) vs ContentCam: an honest comparison](https://contentcam.app/blog/doubletake-vs-contentcam/)
 - [Blackmagic Camera settings explained: a beginner's guide](https://contentcam.app/blog/blackmagic-camera-settings-explained/)
 - [Blackmagic Camera app vs ContentCam: an honest comparison](https://contentcam.app/blog/blackmagic-camera-vs-contentcam/)
