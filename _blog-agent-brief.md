@@ -68,7 +68,11 @@ Copy the structure of `blog/dualshot-recorder-vs-contentcam/index.html` exactly:
 `@head-common` block, title / description / canonical / og / twitter tags, the BlogPosting and
 BreadcrumbList JSON-LD, the `@nav` block, crumbs, `article`, the byline
 "By Jimmy, developer of ContentCam", the `post-cta` block and the `@footer` block. Update every URL,
-slug, title and date. Use today's date.
+slug, title and date.
+
+**Dates use Australia/Sydney time, not UTC.** Jimmy is the author and he is in Sydney. Get it with
+`TZ=Australia/Sydney date '+%-d %B %Y'` for the byline and `TZ=Australia/Sydney date '+%Y-%m-%d'`
+for the JSON-LD and the sitemap. A run firing late UTC evening is already the next day in Sydney.
 
 **Voice:** direct, specific, honest, first person. Australian and British spelling (colour,
 stabilisation, organised). Value first: the post must be genuinely useful to someone who never
