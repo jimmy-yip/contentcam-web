@@ -93,24 +93,32 @@ crucial, pivotal, transformative, game-changer, "In today's", "Let's dive in", "
 note", "Furthermore", "Moreover". Avoid the "it's not X, it's Y" construction. Prefer concrete
 numbers and specifics over adjectives. Vary sentence length. Do not pad every list to three items.
 
-### The seven rules that decide whether this post gets cited
+### The rules that decide whether this post gets cited
 
 These come from measured research, not taste. The only controlled experiment in the field (KDD 2024,
 10,000 queries) found that adding statistics, quotations and cited sources lifts visibility in
 generative engines by 30-41%, and that **low-ranking sites gain far more than high-ranking ones**
 (+115% at rank 5 versus -30% at rank 1). This site is low-ranking. These rules are the whole game.
 
-1. **Open every section with one answer-bearing sentence**, in the first two lines. Passage rerankers
-   score chunks independently of the page. A section that meanders before answering scores near zero.
+1. **Open every section with the answer**, in the first two lines. Note the evidence is mixed: one
+   study found the middle sentence of a paragraph cited most (53%) against the first (24.5%). Do it
+   anyway because it serves readers and Google, but the next rule matters more for citation.
 2. **Include real numbers.** Measurements, pixel dimensions, settings, prices, durations, percentages.
    A post with no numbers in it has failed this brief.
 3. **Quote and cite named sources** where a claim needs support, with the date checked.
 4. **Use explicit nouns, never pronouns**, across section boundaries. Chunks get cut and lose their
    antecedents, so "it" and "this" become meaningless out of context.
-5. **Title the page as the literal question someone would type.** Title-to-query similarity is the
-   dominant predictor of citation.
-6. **Put the year in the title.**
-7. **Write dense, not long.** 53.4% of AI Overview citations go to pages under 1,000 words. Length is
+5. **Title the page AND phrase every heading as the literal question someone would type.** 78.4% of
+   question-linked citations traced to question-phrased headings, and title-to-query similarity is
+   the dominant predictor of ChatGPT citation. Editorial headings read better and retrieve worse;
+   use the question form.
+6. **Name things explicitly.** Cited pages carry ~20.6% proper nouns against a typical 5-8%. Name
+   the phones, apps, platforms, codecs and settings rather than saying "the app" or "your device".
+7. **Include an FAQ block** of three to six real questions with direct answers. 56% of AI-cited
+   pages have one.
+8. **Write plainly.** Cited pages average reading grade 16 against 19.1 for uncited ones.
+9. **Put the year in the title.**
+10. **Write dense, not long.** 53.4% of AI Overview citations go to pages under 1,000 words. Length is
    a link lever, not a citation lever. Cut anything that does not carry information.
 
 ## Step 4 — wire it up
