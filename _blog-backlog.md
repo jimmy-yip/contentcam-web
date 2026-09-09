@@ -4,6 +4,33 @@ Pool of upcoming post ideas. Pick one unpublished topic per run, **from a CLOUD-
 varied rather than becoming all app comparisons. Delete a line once its post is live, or just leave
 it: the drafting agent checks `blog/` for what already exists.
 
+## PRIORITY — the assets worth building first (2026-09-10 re-set)
+These beat anything below. Each is a reference or measurement asset in a category nobody owns.
+They need real numbers, so a human writes the ones marked LOCAL ONLY.
+
+- [ ] **The vertical video safe zone reference (2026)** — **LOCAL ONLY.** `tiktok safe zone`
+  autocompletes nine deep including `checker` and `2026`. Six top-ranking pages give NO pixel
+  offsets, the #1 TikTok result is a 404, Sprout Social is factually wrong on Reels resolution, and
+  the four published sources disagree by 372 pixels with no methodology. Publish measured numbers,
+  show the method, ungated overlay downloads.
+- [ ] **What TikTok, Reels and Shorts actually do to your upload** — **LOCAL ONLY.** Measured
+  compression teardown using our own test files. Confirmed zero competition. Feeds real demand:
+  `why instagram reel quality bad`, `instagram reels quality loss`.
+- [ ] **Rebuild the four "vs ContentCam" posts as measured spec matrices** — **LOCAL ONLY.**
+  Comparison pages have the highest AI citation rate of any page type (1.87) and are the most
+  under-supplied. Ours currently carry no measurements.
+
+## Bucket 0 — abandoned SERPs worth taking — **CLOUD-SAFE**
+Audience-shaped, no product framing, and the incumbents are genuinely old or broken.
+- How to film a two person interview with one phone
+  (a 350-word 2017 clip-on-lens ad and a Wikipedia stub currently rank)
+- How to light a video when the room has no windows
+  (a 2017 film-crew guide currently ranks)
+- How to repurpose one video into multiple posts
+  (a dead domain sits at #2)
+- Which microphone actually helps phone video, and when
+  (the #1 result was last updated April 2021)
+
 ## Bucket 1a — cross-posting workflow — **CLOUD-SAFE**
 Argument and workflow, no platform specifications to look up.
 - How to repurpose one video for every platform without an editor

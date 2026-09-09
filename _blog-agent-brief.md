@@ -42,7 +42,8 @@ not your job. Do not attempt them even if they sit unpublished in the backlog.
 
 ## Step 1 — pick a topic
 
-Read `_blog-backlog.md`. Only pick from the sections marked **CLOUD-SAFE**. Ignore every section
+Read `_blog-backlog.md`. Take from **Bucket 0** first (abandoned SERPs, audience-shaped) until it is
+empty, then the other **CLOUD-SAFE** sections. Never take a LOCAL ONLY item. Ignore every section
 marked **LOCAL ONLY**, no matter how attractive the topic looks.
 
 List the directories under `blog/` and the post titles in `blog/index.html` so you know what already
@@ -74,6 +75,11 @@ slug, title and date.
 `TZ=Australia/Sydney date '+%-d %B %Y'` for the byline and `TZ=Australia/Sydney date '+%Y-%m-%d'`
 for the JSON-LD and the sitemap. A run firing late UTC evening is already the next day in Sydney.
 
+**What this post is for.** It is not a traffic play. The blog produced 14 clicks in 90 days and that
+is not the point. The job is to be the page an LLM cites and a Reddit thread links, which feeds
+branded App Store search. Write for the person who will never install the app, and make the piece
+worth quoting.
+
 **Voice:** direct, specific, honest, first person. Australian and British spelling (colour,
 stabilisation, organised). Value first: the post must be genuinely useful to someone who never
 installs the app.
@@ -87,12 +93,34 @@ crucial, pivotal, transformative, game-changer, "In today's", "Let's dive in", "
 note", "Furthermore", "Moreover". Avoid the "it's not X, it's Y" construction. Prefer concrete
 numbers and specifics over adjectives. Vary sentence length. Do not pad every list to three items.
 
+### The seven rules that decide whether this post gets cited
+
+These come from measured research, not taste. The only controlled experiment in the field (KDD 2024,
+10,000 queries) found that adding statistics, quotations and cited sources lifts visibility in
+generative engines by 30-41%, and that **low-ranking sites gain far more than high-ranking ones**
+(+115% at rank 5 versus -30% at rank 1). This site is low-ranking. These rules are the whole game.
+
+1. **Open every section with one answer-bearing sentence**, in the first two lines. Passage rerankers
+   score chunks independently of the page. A section that meanders before answering scores near zero.
+2. **Include real numbers.** Measurements, pixel dimensions, settings, prices, durations, percentages.
+   A post with no numbers in it has failed this brief.
+3. **Quote and cite named sources** where a claim needs support, with the date checked.
+4. **Use explicit nouns, never pronouns**, across section boundaries. Chunks get cut and lose their
+   antecedents, so "it" and "this" become meaningless out of context.
+5. **Title the page as the literal question someone would type.** Title-to-query similarity is the
+   dominant predictor of citation.
+6. **Put the year in the title.**
+7. **Write dense, not long.** 53.4% of AI Overview citations go to pages under 1,000 words. Length is
+   a link lever, not a citation lever. Cut anything that does not carry information.
+
 ## Step 4 — wire it up
 
 - `blog/index.html` — add a card, newest first, matching the existing markup exactly
 - `sitemap.xml` — add the post with today's `lastmod`, and bump the `/blog/` entry to today
-- `llms.txt` — add a line in the blog list
-- `llms-full.txt` — add it where the related posts are referenced
+- Do NOT touch `llms.txt` or `llms-full.txt`. Measured inert: one study logged OpenAI fetching
+  robots.txt 3,990 times against llms.txt 7 times, and Perplexity 775 against 0. Leave them alone.
+- Do NOT add or expand JSON-LD schema beyond what the template already carries. A controlled
+  1,885-page test measured AI Overviews **down 4.6%** for pages that added it.
 - Add a link to the new post from the "Related:" line of 2-3 related existing posts
 
 ## Step 5 — open a PR
