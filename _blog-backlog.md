@@ -20,16 +20,43 @@ They need real numbers, so a human writes the ones marked LOCAL ONLY.
   Comparison pages have the highest AI citation rate of any page type (1.87) and are the most
   under-supplied. Ours currently carry no measurements.
 
-## Bucket 0 — abandoned SERPs worth taking — **CLOUD-SAFE**
-Audience-shaped, no product framing, and the incumbents are genuinely old or broken.
-- How to film a two person interview with one phone
-  (a 350-word 2017 clip-on-lens ad and a Wikipedia stub currently rank)
-- How to light a video when the room has no windows
-  (a 2017 film-crew guide currently ranks)
-- How to repurpose one video into multiple posts
-  (a dead domain sits at #2)
-- Which microphone actually helps phone video, and when
-  (the #1 result was last updated April 2021)
+## Bucket 0 — abandoned SERPs, ranked — **CLOUD-SAFE**
+Audience-shaped, no product framing. Incumbents verified stale by direct fetch, not assumed.
+Take these before anything else.
+
+- [x] ~~How to film a two person interview with one phone~~ — DONE 2026-09-10
+- [x] ~~How to light a video when the room has no windows~~ — DONE 2026-09-10
+- [ ] **How to film a reaction video on your phone** — #1 is a 2023 desktop-software guide whose
+  entire phone advice is "set up your phone on your desk"; one vendor's docs fill four of ten slots;
+  nobody covers iPhone 17 Dual Capture.
+- [ ] **How to film in low light on your phone (video, not photos)** — Google returns photography
+  results for this because the video answer does not exist. Pure intent gap.
+- [ ] **How to repurpose one video into multiple posts** — Quora at #1, and a dead domain
+  (creatorspond.com, no A record, verified) sitting at #2.
+- [ ] **24fps vs 30fps vs 60fps for social media** — CapCut's #1 result never names TikTok, Reels or
+  Shorts and never addresses platform re-encoding. Two of the top seven are forum threads.
+- [ ] **How to hold your phone steady while filming** — every ranking page is written by someone
+  selling a grip or a gimbal. No neutral technique-first answer exists.
+- [ ] **How to film b-roll with your phone** — #1 is a gimbal ad; a 2019 personal blog is on page one.
+- [ ] **Lavalier vs shotgun mic for phone creators** — #1 is a LinkedIn AI-collaborative article, and
+  a 2016 post is in the top five. Nothing phone-specific.
+- [ ] **How to batch film content for a week** — best result is ~900 words; page one includes guides
+  aimed at solo attorneys and at restaurants.
+- [ ] **How to film yourself talking to camera** — #1 is a 2018 post answering a different question
+  (the duplicate-yourself editing effect).
+- [ ] **How to read a script without looking like you are reading** — one vendor holds two
+  near-duplicate slots; a Goodreads author blog ranks.
+- [ ] **How to film a podcast with two phones** — Riverside and RODE own the head term; nobody
+  covers coordinating multiple phones.
+- [ ] **Content creator setup under $200** — page one includes a $2K setup guide and a webcam forum
+  thread.
+
+### Needs current gear or device facts — **LOCAL ONLY**
+- [ ] Best wireless mic for filming on iPhone (2026) — the #1 result was last updated 2021-04-26 and
+  mentions no DJI Mic and no RODE Wireless (verified by direct fetch). Needs current gear knowledge.
+- [ ] iPhone 17 Dual Capture limitations — the how-to is covered; the limits angle is open. Needs
+  verified specs.
+- [ ] Best iPhone 17 camera settings for video — the #1 result covers no Log and no ProRes.
 
 ## Bucket 1a — cross-posting workflow — **CLOUD-SAFE**
 Argument and workflow, no platform specifications to look up.
