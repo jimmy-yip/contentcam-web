@@ -26,12 +26,12 @@ Take these before anything else.
 
 - [x] ~~How to film a two person interview with one phone~~ — DONE 2026-09-10
 - [x] ~~How to light a video when the room has no windows~~ — DONE 2026-09-10
-- [ ] **How to film a reaction video on your phone** — #1 is a 2023 desktop-software guide whose
+- [x] ~~How to film a reaction video on your phone~~ — DONE 2026-09-13. Was: — #1 is a 2023 desktop-software guide whose
   entire phone advice is "set up your phone on your desk"; one vendor's docs fill four of ten slots;
   nobody covers iPhone 17 Dual Capture.
-- [ ] **How to film in low light on your phone (video, not photos)** — Google returns photography
+- [x] ~~How to film in low light on your phone~~ — DONE 2026-09-13. Was: — Google returns photography
   results for this because the video answer does not exist. Pure intent gap.
-- [ ] **How to repurpose one video into multiple posts** — Quora at #1, and a dead domain
+- [x] ~~How to repurpose one video into multiple posts~~ — DONE 2026-09-13. Was: — Quora at #1, and a dead domain
   (creatorspond.com, no A record, verified) sitting at #2.
 - [ ] **24fps vs 30fps vs 60fps for social media** — CapCut's #1 result never names TikTok, Reels or
   Shorts and never addresses platform re-encoding. Two of the top seven are forum threads.
