@@ -33,12 +33,12 @@ Take these before anything else.
   results for this because the video answer does not exist. Pure intent gap.
 - [x] ~~How to repurpose one video into multiple posts~~ — DONE 2026-09-13. Was: — Quora at #1, and a dead domain
   (creatorspond.com, no A record, verified) sitting at #2.
-- [ ] **24fps vs 30fps vs 60fps for social media** — CapCut's #1 result never names TikTok, Reels or
+- [x] ~~24fps vs 30fps vs 60fps for social media ~~ DONE 2026-09-15. Was: — CapCut's #1 result never names TikTok, Reels or
   Shorts and never addresses platform re-encoding. Two of the top seven are forum threads.
-- [ ] **How to hold your phone steady while filming** — every ranking page is written by someone
+- [x] ~~How to hold your phone steady while filming ~~ DONE 2026-09-15. Was: — every ranking page is written by someone
   selling a grip or a gimbal. No neutral technique-first answer exists.
 - [ ] **How to film b-roll with your phone** — #1 is a gimbal ad; a 2019 personal blog is on page one.
-- [ ] **Lavalier vs shotgun mic for phone creators** — #1 is a LinkedIn AI-collaborative article, and
+- [x] ~~Lavalier vs shotgun mic for phone creators ~~ DONE 2026-09-15. Was: — #1 is a LinkedIn AI-collaborative article, and
   a 2016 post is in the top five. Nothing phone-specific.
 - [ ] **How to batch film content for a week** — best result is ~900 words; page one includes guides
   aimed at solo attorneys and at restaurants.
