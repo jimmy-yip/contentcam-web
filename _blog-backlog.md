@@ -102,7 +102,7 @@ scheduled agent's pool.
 Craft and gear
 - Lighting phone video on a budget: what actually matters
 - Phone audio: why it ruins good footage, and the cheapest real fixes
-- Filming outdoors: wind, backlight and bright sun
+- ~~Filming outdoors: wind, backlight and bright sun~~ DONE 2026-09-16
 - Gimbals vs in-phone stabilisation: what's worth buying
 - Frame rate explained: 24, 30, 60 and when to use each
 - Resolution explained: do you actually need 4K
