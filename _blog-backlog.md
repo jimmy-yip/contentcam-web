@@ -40,11 +40,11 @@ Take these before anything else.
 - [ ] **How to film b-roll with your phone** — #1 is a gimbal ad; a 2019 personal blog is on page one.
 - [x] ~~Lavalier vs shotgun mic for phone creators ~~ DONE 2026-09-15. Was: — #1 is a LinkedIn AI-collaborative article, and
   a 2016 post is in the top five. Nothing phone-specific.
-- [ ] **How to batch film content for a week** — best result is ~900 words; page one includes guides
+- [x] ~~How to batch film content for a week ~~ DONE 2026-09-19. Was: — best result is ~900 words; page one includes guides
   aimed at solo attorneys and at restaurants.
 - [ ] **How to film yourself talking to camera** — #1 is a 2018 post answering a different question
   (the duplicate-yourself editing effect).
-- [ ] **How to read a script without looking like you are reading** — one vendor holds two
+- [x] ~~How to read a script without looking like you are reading ~~ DONE 2026-09-19. Was: — one vendor holds two
   near-duplicate slots; a Goodreads author blog ranks.
 - [ ] **How to film a podcast with two phones** — Riverside and RODE own the head term; nobody
   covers coordinating multiple phones.
