@@ -1,8 +1,25 @@
 # Blog topic backlog
 
+> **NEXT SESSION, START HERE (set 2026-09-20).** Bucket 2 (named apps) is the highest-intent,
+> lowest-competition lane on the blog and it is blocked on one thing: a working WebSearch budget.
+> The 2026-09-20 session had already spent its 200 calls, so it wrote the two cloud-safe reference
+> assets instead (`phone-video-cheat-sheet`, `video-terms-explained`, PR #4) and left Bucket 2
+> untouched rather than write product claims from memory. **Do Bucket 2 first, and verify every
+> product fact against the live listing or the vendor's own page before asserting it.**
+>
+> Ordering for the whole blog, decided 2026-09-20 with Jimmy:
+> **1. named apps / competitors → 2. cheat-sheet reference assets → 3. viral effect terms →
+> 4. general craft** (the last is the scheduled cloud agent's pool, Mon/Wed/Fri).
+
 Pool of upcoming post ideas. Pick one unpublished topic per run, **from a CLOUD-SAFE section only**. Rotate buckets so the blog stays
 varied rather than becoming all app comparisons. Delete a line once its post is live, or just leave
 it: the drafting agent checks `blog/` for what already exists.
+
+## Shipped 2026-09-20 (PR #4)
+- [x] **The phone video cheat sheet** — four tables + two checklists. The reference-asset format,
+  which is what holds the best save rate on TikTok. No vendor lookup needed, so it was safe to
+  write without search.
+- [x] **Video terms explained, in plain english** — glossary + every label on the camera screen.
 
 ## PRIORITY — the assets worth building first (2026-09-10 re-set)
 These beat anything below. Each is a reference or measurement asset in a category nobody owns.
@@ -74,7 +91,7 @@ Needs vendor documentation the cloud sandbox cannot reach.
 - Vertical video safe zones: where TikTok, Reels and Shorts cover your frame
 - Export settings for TikTok, Reels, Shorts and YouTube
 
-## Bucket 2 — named apps — **LOCAL ONLY**
+## Bucket 2 — named apps — **LOCAL ONLY** ⭐ DO THESE FIRST
 Needs live App Store / Play listings the cloud sandbox cannot reach. A human writes these.
 Honest and sourced. Where the app is not a competitor, the post is purely a useful guide.
 - Filmic Pro in 2026: what happened, and what to use now
