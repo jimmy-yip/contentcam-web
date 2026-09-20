@@ -1,11 +1,23 @@
 # Blog topic backlog
 
-> **NEXT SESSION, START HERE (set 2026-09-20).** Bucket 2 (named apps) is the highest-intent,
-> lowest-competition lane on the blog and it is blocked on one thing: a working WebSearch budget.
-> The 2026-09-20 session had already spent its 200 calls, so it wrote the two cloud-safe reference
-> assets instead (`phone-video-cheat-sheet`, `video-terms-explained`, PR #4) and left Bucket 2
-> untouched rather than write product claims from memory. **Do Bucket 2 first, and verify every
-> product fact against the live listing or the vendor's own page before asserting it.**
+> **NEXT SESSION, START HERE (updated 2026-09-21).** Bucket 2 (named apps) is underway. Two are
+> published: `what-happened-to-filmic-pro` and `phone-teleprompter-apps-compared`.
+>
+> **The method that works, and it does not need a WebSearch budget at all.** The 2026-09-20 session
+> stalled because it had spent its 200 searches. That turned out to be the wrong tool. Use these
+> instead, they are free, exact, and are the primary source:
+>
+> - **iOS:** `https://itunes.apple.com/search?term=<app>&country=us&entity=software&limit=6` and
+>   `https://itunes.apple.com/lookup?id=<trackId>&country=us`. Returns name, seller, version,
+>   `currentVersionReleaseDate`, price, rating, rating count and `fileSizeBytes` as JSON.
+> - **In-app purchase prices and app size:** WebFetch the `apps.apple.com` product page. Works.
+> - **Android:** `curl` the Play listing with a desktop User-Agent and regex
+>   `<div class="lXlx5">Updated on</div><div class="xg1aie">([^<]+)</div>`. WebFetch truncates Play
+>   pages and returns nothing; raw curl works.
+>
+> **The angle that keeps paying off is the last-updated date.** Both published posts found abandoned
+> or half-abandoned apps still holding high star ratings, because ratings accumulate and never
+> expire. Nobody else publishes that, and it is a 10-second check.
 >
 > Ordering for the whole blog, decided 2026-09-20 with Jimmy:
 > **1. named apps / competitors → 2. cheat-sheet reference assets → 3. viral effect terms →
@@ -94,8 +106,7 @@ Needs vendor documentation the cloud sandbox cannot reach.
 ## Bucket 2 — named apps — **LOCAL ONLY** ⭐ DO THESE FIRST
 Needs live App Store / Play listings the cloud sandbox cannot reach. A human writes these.
 Honest and sourced. Where the app is not a competitor, the post is purely a useful guide.
-- Filmic Pro in 2026: what happened, and what to use now
-- Filmic Pro alternatives for iPhone video (2026)
+- [x] ~~Filmic Pro in 2026: what happened, and what to use now~~ DONE 2026-09-21 (`what-happened-to-filmic-pro`, absorbed the alternatives topic too: v7.5.35 iOS 8 Sep 2026 vs Android stuck on 7.6.4 since 5 Nov 2025)
 - Halide vs ContentCam: stills-first vs video-first
 - Kino app review: what it does well
 - Blackmagic Camera vs Filmic Pro: which app for phone video
@@ -108,7 +119,7 @@ Honest and sourced. Where the app is not a competitor, the post is purely a usef
 - Descript for creators: when it helps and when it doesn't
 - Opus Clip and AI clipping tools reviewed
 - Riverside and StreamYard: recording remote video worth clipping
-- BIGVU, PromptSmart and phone teleprompter apps compared
+- [x] ~~BIGVU, PromptSmart and phone teleprompter apps compared~~ DONE 2026-09-21 (`phone-teleprompter-apps-compared`: three near-identical apps from Teleprompter Apps Ltd, one last updated Jul 2022; BIGVU is 1.6 GB)
 - Elgato Prompter vs a phone teleprompter app
 - Repurpose.io and automated cross-posting tools reviewed
 - OBS and Ecamm for creators who also film on a phone
