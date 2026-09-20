@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>What Are the Best Android Camera Settings for Video in 2026?</title>
+  <meta name="description" content="Open Camera, Blackmagic Camera and your phone's Pro mode compared, plus the settings to change first. Why two Android phones running the same app behave differently, and what to do about it.">
+  <link rel="canonical" href="https://contentcam.app/blog/android-camera-settings-for-video/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="What Are the Best Android Camera Settings for Video in 2026?">
+  <meta property="og:description" content="The settings that matter, the three apps worth having, and the Camera2 reason your phone may not expose half of them.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/blog/android-camera-settings-for-video/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What Are the Best Android Camera Settings for Video in 2026?">
+  <meta name="twitter:description" content="Open Camera, Blackmagic Camera and Pro mode, and the settings to change first.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/blog/android-camera-settings-for-video/",
+        "headline": "What Are the Best Android Camera Settings for Video in 2026?",
+        "description": "Open Camera, Blackmagic Camera and Pro mode compared, the settings to change first, and why Camera2 support decides what your phone can do.",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-09-21",
+        "dateModified": "2026-09-21",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "Developer of ContentCam", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/blog/android-camera-settings-for-video/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://contentcam.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Android camera settings for video", "item": "https://contentcam.app/blog/android-camera-settings-for-video/" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/"><img src="/assets/logo-mark.png" alt="ContentCam logo" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Features</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Support</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/blog/">Blog</a> › Android camera settings for video</div>
+    <article class="post">
+      <h1>What Are the Best Android Camera Settings for Video in 2026?</h1>
+      <p class="byline">By Jimmy, developer of ContentCam · 21 September 2026</p>
+
+      <p><strong>Disclosure first:</strong> ContentCam is <a href="/android/">on Android</a>, so I have an interest here. Every claim about another app is read from its own Play listing or its developer's own site on <strong>21 September 2026</strong>, and the app I would actually recommend to most people in this post is free and is not mine.</p>
+
+      <p>Most "best camera settings" guides are written for iPhone and then relabelled. Android has a structural difference that changes the answer, and nobody explains it: <strong>what your phone can do depends on what its manufacturer chose to expose</strong>, not on what the app can ask for. Two phones running the identical app will offer different settings. That is not a bug in the app.</p>
+
+      <h2>Why do two Android phones running the same camera app behave differently?</h2>
+      <p>Because of <a href="https://developer.android.com/media/camera/camera2">Camera2</a>, the Android API that lets an app control the camera manually. Camera2 defines <strong>hardware support levels</strong>, and the manufacturer decides which one a given phone reports: <code>LEGACY</code>, <code>LIMITED</code>, <code>FULL</code> or <code>LEVEL_3</code>.</p>
+      <p>A phone reporting <code>LEGACY</code> gives an app almost no manual control, no matter how good the app is. A phone at <code>FULL</code> or <code>LEVEL_3</code> exposes manual ISO, shutter, focus and more. This is why a mid-range phone can have an excellent sensor and still refuse to let any third-party app set the shutter speed, and it is why the answer to "why can't I change this setting" is usually the phone, not the software.</p>
+      <p>Open Camera's own site says the same thing plainly: several of its features, including <strong>slow motion video and log profile video</strong>, are listed as dependent on Camera2 support. Check what your phone reports before you go hunting for an app that will fix it.</p>
+
+      <h2>Which camera apps are worth having on Android in 2026?</h2>
+      <p>Three, and two of them are free.</p>
+
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>App</th><th>Developer</th><th>Cost</th><th>Last updated</th><th>Installs</th><th>Rating</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Open Camera</strong></td><td>Mark Harman</td><td>Free, GPL v3, no ads in the app</td><td>28 May 2026</td><td><strong>100M+</strong></td><td>4.0 (288K)</td></tr>
+            <tr><td><strong>Blackmagic Camera</strong></td><td>Blackmagic Design</td><td>Free, no subscription</td><td><strong>3 Sep 2026</strong></td><td>1M+</td><td><strong>4.5 (14.4K)</strong></td></tr>
+            <tr><td><strong>Your phone's Pro mode</strong></td><td>Samsung, Google, others</td><td>Already installed</td><td>With the system</td><td>n/a</td><td>n/a</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Google Play listings, read 21 September 2026. For contrast, <a href="/blog/what-happened-to-filmic-pro/">Filmic Pro's Android build has not been updated since 5 November 2025</a>, so the free options are currently better maintained than the paid incumbent.</p>
+
+      <h2>Which Android camera app should you install first?</h2>
+      <p><strong>Blackmagic Camera, if your phone is supported.</strong> It is free with no subscription and no unlock, it comes from a company that builds actual cinema cameras, and at 4.5 stars it is the best-rated serious camera app on Android. The catch is device support: Blackmagic restricts it to specific Samsung Galaxy and Google Pixel models, and its own listing warns that "some features are device dependent and may not be available on your device." Install it first and find out in thirty seconds.</p>
+      <p><strong>Open Camera if Blackmagic will not run.</strong> It is free, GPL v3, written by Mark Harman, and has passed <strong>100 million installs</strong>. Its developer states there are no third-party ads in the app. The 4.0 rating is lower than Blackmagic's, and that is fair: it is a utility with a dense interface, not a designed product. It is also the app most likely to expose whatever your particular phone is capable of, because exposing the hardware is the entire point of it.</p>
+
+      <h2>What settings should you change in Open Camera for video?</h2>
+      <p>In order of how much difference each one makes.</p>
+      <ol>
+        <li><strong>Resolution to 4K, not 1080.</strong> The extra pixels are crop room and stabilisation room, not delivery quality. Shoot big, finish small.</li>
+        <li><strong>Frame rate to 30.</strong> 24 for a filmic cadence, 60 only for footage you will slow down. 60fps played at normal speed reads like a home camcorder.</li>
+        <li><strong>Lock exposure before the take.</strong> The single biggest amateur tell on Android is the picture brightening and darkening every time you turn.</li>
+        <li><strong>White balance to a fixed number, not auto.</strong> Roughly 5600K in daylight, 3200K under household bulbs. Auto white balance shifts mid-take and it is very hard to fix later.</li>
+        <li><strong>ISO as low as the light allows.</strong> ISO is gain. Every step up adds noise that no edit removes.</li>
+        <li><strong>Shutter to about double the frame rate.</strong> 1/60 at 30fps, 1/48 at 24fps. This is the 180 degree rule and it is why motion looks natural rather than stuttery.</li>
+        <li><strong>Video bitrate up, if your phone offers it.</strong> Bitrate decides how much detail survives compression, and it matters more than resolution.</li>
+        <li><strong>Audio source to the best available.</strong> Then get the phone closer to the person talking, which beats every setting on this list.</li>
+      </ol>
+      <p>Items 3 to 6 are the ones a <code>LEGACY</code> phone may simply not offer. If they are greyed out, that is your answer about the hardware.</p>
+
+      <h2>Should you use Samsung Pro mode or Pixel's camera instead?</h2>
+      <p>For a quick shot, yes. The manufacturer's own app has access to processing that third-party apps do not, which is why a Pixel's standard video often looks better than the same scene shot manually in a third-party app by someone who is not careful.</p>
+      <p>Use a third-party app when you need something the stock camera will not give you: a locked white balance that stays locked, a specific shutter, a flat profile to grade, or two framings from one take. Use the stock camera when you need to look good with no setup. Both answers are correct at different times, and the confident blanket recommendation in either direction is wrong.</p>
+
+      <h2>What Android video settings actually make footage look worse?</h2>
+      <table>
+        <thead><tr><th>Setting</th><th>What it costs you</th></tr></thead>
+        <tbody>
+          <tr><td>Auto exposure left on</td><td>Brightness pumps every time you move</td></tr>
+          <tr><td>Auto white balance left on</td><td>Colour shifts mid-take, hard to fix afterwards</td></tr>
+          <tr><td>60fps as the default</td><td>Reads like a camcorder, doubles your file size</td></tr>
+          <tr><td>Recording at 1080</td><td>No crop room and no room to stabilise</td></tr>
+          <tr><td>Beauty or skin smoothing on</td><td>Texture is removed at capture. It does not come back</td></tr>
+          <tr><td>Ultrawide for faces</td><td>Smallest sensor, worst low light, distorted at the edges</td></tr>
+          <tr><td>Digital zoom</td><td>A crop pretending to be a lens. Step closer</td></tr>
+          <tr><td>HDR video on</td><td>Looks right on your phone, unpredictable after a platform re-encodes it</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Where does ContentCam fit on Android?</h2>
+      <p>It solves one problem and it is not "better manual controls." ContentCam records <a href="/blog/record-portrait-and-landscape-video-same-time-iphone/">vertical and horizontal at the same time</a> from one take, so the widescreen version is a real wide shot rather than a crop of a tall one. It also has Front / Back mode on Android, manual white balance with temperature and tint dials, and manual ISO and shutter on phones whose cameras support it.</p>
+      <p>Two things on it are relevant to everything above. First, it checks what your camera actually exposes and only offers what it can deliver, rather than showing you a control that does nothing, which is the Camera2 problem from the top of this post handled at the app level. Second, its Play Data Safety label reads <strong>no data collected</strong>, because there are no accounts, no analytics and no third-party SDKs in it.</p>
+      <p>The honest boundaries: it does not shoot Log or ProRes, the teleprompter is iPhone only for now, and if what you want is the deepest manual control your specific phone can expose, Open Camera is more likely to surface it. Install Blackmagic Camera or Open Camera for cinema work. Install ContentCam if you are posting the same take to more than one place.</p>
+
+      <h2>Frequently asked questions</h2>
+      <p><strong>Is Open Camera free?</strong> Yes. It is released under GPL v3 and its developer, Mark Harman, states there are no third-party ads in the app.</p>
+      <p><strong>Does Blackmagic Camera work on Android?</strong> Yes, and it was updated on 3 September 2026. It is restricted to specific Samsung Galaxy and Google Pixel models, so check it installs on your phone before planning around it.</p>
+      <p><strong>Why can't I change ISO or shutter speed in my camera app?</strong> Because your phone reports a low Camera2 hardware support level. The manufacturer decides that, not the app, and no app can work around it.</p>
+      <p><strong>What frame rate should I record at on Android?</strong> 30fps for almost everything. 24fps for a filmic cadence, 60fps only when you intend to slow the footage down in an edit.</p>
+      <p><strong>Should I record in 4K on Android?</strong> Yes, if you have the storage. The benefit is crop and stabilisation room rather than delivered sharpness, since most platforms re-encode what you upload anyway.</p>
+      <p><strong>Is Filmic Pro still good on Android?</strong> Its Android build was last updated 5 November 2025, while Blackmagic Camera updated 3 September 2026. The free option is better maintained.</p>
+
+      <div class="post-cta">
+        <p><strong>Try ContentCam free on Android.</strong> One take, a vertical file and a widescreen file, no reshoot.</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android"><img class="badge-play" src="/assets/google-play-badge.png" alt="Get it on Google Play" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=Website&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>App figures were read from Google Play and <a href="https://opencamera.org.uk/">opencamera.org.uk</a> on 21 September 2026. Camera2 hardware support levels are documented at <a href="https://developer.android.com/media/camera/camera2">developer.android.com</a>. If something here is out of date, <a href="mailto:contentcam.app@gmail.com">email me</a> and I will fix it. Related: <a href="/blog/what-happened-to-filmic-pro/">what happened to Filmic Pro</a> · <a href="/blog/iphone-manual-camera-controls-video/">iPhone manual camera controls for video</a> · <a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">24 vs 30 vs 60fps for social</a>.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam logo" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Features</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/features/dual-camera/">Dual Camera</a>
+        <a href="/features/manual-controls/">Manual Controls</a>
+        <a href="/android/">Android</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Support</a>
+        <a href="/press/">Press</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+      </div>
+      <div class="fine">ContentCam is an independent camera app built in Australia by one developer. © 2026 ContentCam. Apple, the Apple logo, iPhone, and App Store are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</div>
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

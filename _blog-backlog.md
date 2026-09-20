@@ -112,7 +112,7 @@ Honest and sourced. Where the app is not a competitor, the post is purely a usef
 - Blackmagic Camera vs Filmic Pro: which app for phone video
 - ProCam, Moment Pro and Protake compared
 - Dualora vs ContentCam
-- Open Camera and Android camera app settings for video
+- [x] ~~Open Camera and Android camera app settings for video~~ DONE 2026-09-21 (`android-camera-settings-for-video`: Camera2 hardware support levels as the real explanation; Open Camera 100M+ installs GPL v3, Blackmagic Camera Android updated 3 Sep 2026)
 - Samsung Expert RAW and Galaxy camera settings for video creators
 - CapCut: the editing settings that matter for multi-platform posting
 - InShot vs CapCut vs VN for short-form editing
