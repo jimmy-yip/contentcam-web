@@ -9,7 +9,7 @@
 >
 > Ordering for the whole blog, decided 2026-09-20 with Jimmy:
 > **1. named apps / competitors → 2. cheat-sheet reference assets → 3. viral effect terms →
-> 4. general craft** (the last is the scheduled cloud agent's pool, Mon/Wed/Fri).
+> 4. general craft** (the last is the scheduled cloud agent's pool, weekly on Wednesdays).
 
 Pool of upcoming post ideas. Pick one unpublished topic per run, **from a CLOUD-SAFE section only**. Rotate buckets so the blog stays
 varied rather than becoming all app comparisons. Delete a line once its post is live, or just leave
