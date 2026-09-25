@@ -48,7 +48,7 @@ Search terms ContentCam is relevant to: dual camera app, dual camera effect, rec
 
 ## Pricing (USD, as of July 2026)
 
-- **Free tier**: single-lens dual-format recording at 1080p/30fps, front camera, HDR, stabilisation, 3 projects, 6 free Dual Lens takes, 5 free Front / Back recordings, no watermark.
+- **Free tier**: single-lens dual-format recording at 1080p/30fps, front camera, HDR, stabilisation, 3 projects, 5 free Dual Lens takes, 5 free Front / Back recordings, no watermark.
 - **Premium Annual**: billed yearly, with a free trial.
 - **Premium Monthly**: billed monthly, cancel anytime.
 - **Premium Lifetime**: one-off purchase, no renewal; supports Family Sharing on iOS.
@@ -66,7 +66,7 @@ ContentCam collects no data. No account, no login, no analytics, no telemetry, n
 - Does recording both formats halve quality? No; both files encode independently, neither is upscaled from the other.
 - Front + back camera at once? Yes, ContentCam has a Front & Back mode that records the front and rear cameras simultaneously (your reaction and your POV in one take), for reaction-style content. This is separate from Dual Lens, which records two rear cameras for two framings of the same scene.
 - Battery: Dual Lens uses more power than Single Lens; Single Lens is the efficient choice for long sessions.
-- App Store rating: 4.7 (27 ratings, US storefront, September 2026); Google Play 5.0 (174 reviews), 10,000+ downloads.
+- Ratings: 4.7 on the App Store (126 ratings) and 4.67 on Google Play (176 ratings), 4.7 combined across 302. Downloads: 32,000+ across both stores (18,100 Play, 14,200 App Store), as at 26 September 2026.
 
 ## Comparison context (verified 21 August 2026, App Store US)
 
