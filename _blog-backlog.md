@@ -1,7 +1,7 @@
 # Blog topic backlog
 
 > **NEXT SESSION, START HERE (updated 2026-09-21).** Bucket 2 (named apps) is underway. Two are
-> published: `what-happened-to-filmic-pro` and `phone-teleprompter-apps-compared`.
+> published: `what-happened-to-filmic-pro`, `phone-teleprompter-apps-compared`, `android-camera-settings-for-video` and `blackmagic-camera-vs-filmic-pro`.
 >
 > **The method that works, and it does not need a WebSearch budget at all.** The 2026-09-20 session
 > stalled because it had spent its 200 searches. That turned out to be the wrong tool. Use these
@@ -109,7 +109,7 @@ Honest and sourced. Where the app is not a competitor, the post is purely a usef
 - [x] ~~Filmic Pro in 2026: what happened, and what to use now~~ DONE 2026-09-21 (`what-happened-to-filmic-pro`, absorbed the alternatives topic too: v7.5.35 iOS 8 Sep 2026 vs Android stuck on 7.6.4 since 5 Nov 2025)
 - Halide vs ContentCam: stills-first vs video-first
 - Kino app review: what it does well
-- Blackmagic Camera vs Filmic Pro: which app for phone video
+- [x] ~~Blackmagic Camera vs Filmic Pro: which app for phone video~~ DONE 2026-09-25 (`blackmagic-camera-vs-filmic-pro`: Filmic Pro on Android 324 days stale at 2.3 stars vs Blackmagic Camera 4.6 updated 3 Sep 2026; Blackmagic iOS 3.5.1 shipped 23 Sep 2026, free, no IAP; Filmic Pro wins only on old hardware, iOS 14.1/iPhone 5s vs iOS 18 + A12)
 - ProCam, Moment Pro and Protake compared
 - Dualora vs ContentCam
 - [x] ~~Open Camera and Android camera app settings for video~~ DONE 2026-09-21 (`android-camera-settings-for-video`: Camera2 hardware support levels as the real explanation; Open Camera 100M+ installs GPL v3, Blackmagic Camera Android updated 3 Sep 2026)
