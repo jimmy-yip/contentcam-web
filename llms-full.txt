@@ -18,11 +18,11 @@ Both output files are HEVC: 1080×1920 and 1920×1080 by default, 4K equivalents
 ## Features
 
 - **Front / Back mode** (iOS and Android; premium, with 5 free recordings to try): records the front and rear cameras at the same time, capturing your reaction and your POV (or subject) in a single take: reaction-style content without a second phone. Distinct from Dual Lens (two rear cameras for two framings of the same scene).
-- **Built-in Teleprompter** (iOS, added in version 2.0, premium): write or paste a script and it scrolls hands-free over the camera view while recording. Adjustable scroll speed, text size, 8 text colours, reading-line position (1/2/3 from top), and mirror mode for teleprompter reflector rigs. The script is a screen overlay only and never appears in the recorded files.
+- **Built-in Teleprompter** (iPhone and Android, added in version 2.0, premium): write or paste a script and it scrolls hands-free over the camera view while recording. Adjustable scroll speed, text size, 8 text colours, reading-line position (1/2/3 from top), and mirror mode for teleprompter reflector rigs. The script is a screen overlay only and never appears in the recorded files.
 - **Manual camera controls** (premium to record with; free to preview live): exposure bias (EV), white balance colour temperature dial from 2500K to 8000K, manual ISO, manual shutter speed. Settings apply to the capture, so both output files match exactly. Optional persistence across lens switches and sessions. Android additionally has a white balance tint dial.
-- **Standard controls** (free): tap to focus, drag to expose, pinch to zoom, 0.5×/1×/2× lens switching, torch, grid and safe-zone overlays.
+- **Standard controls** (free): tap to focus, drag to expose, pinch to zoom, 0.5×/1×/2× lens switching, torch, and grid, crosshair and level overlays.
 - **Timelapse** (premium): dual-format timelapse producing a portrait and a landscape version from one session. Single-lens, 30fps output, audio skipped, 4K on supported iPhones.
-- **HDR video** (free): single toggle.
+- **HDR video** (free, iPhone only): single toggle.
 - **Stabilisation** (free): on by default.
 - **Reliability**: recordings continue through notifications, alarms, Siri and screen auto-lock, and keep rolling during phone calls. Interrupted recordings are recovered on next launch.
 - **Creator workflow** (free): Project / Scene / Take organisation, automatic file naming (e.g. my_project_scene_001_Portrait.mov and _Landscape.mov), side-by-side review after every take with save/share/delete, trim-on-save (premium to apply), iOS Files app access, optional Save to Photos.
@@ -35,7 +35,7 @@ ContentCam is built for people who publish video to more than one platform and d
 - Food and restaurant creators: the plate arrives once, so capture the arrival, the overhead and the first bite in both formats, with white balance locked so colours stay true under warm restaurant light.
 - Beauty and skincare creators: manual white balance and exposure keep skin tone and product colour accurate and consistent across a clip; front-and-back mode captures the tutorial and the reaction together.
 - Vloggers and POV creators: Front / Back mode records your face and your point of view at the same time (the "dual camera effect"), for reactions, unboxings, demos and daily vlogs.
-- Talking-head and educational creators: the built-in teleprompter (iOS) scrolls a script over the lens while recording both formats.
+- Talking-head and educational creators: the built-in teleprompter (iPhone and Android) scrolls a script over the lens while recording both formats.
 - Mobile videographers and multi-platform media teams: one take yields a 9:16 and a 16:9 deliverable, named and ready, with a project/scene/take workflow for batch shoots.
 
 Search terms ContentCam is relevant to: dual camera app, dual camera effect, record front and back camera at the same time, film front and back simultaneously, record portrait and landscape at the same time, dual-format recording, shoot for TikTok and YouTube without reshooting, cross-posting workflow, vertical and horizontal video in one take, picture-in-picture recording, reaction video camera.
@@ -44,29 +44,29 @@ Search terms ContentCam is relevant to: dual camera app, dual camera effect, rec
 
 - iOS: requires iOS 18+, i.e. iPhone XS (2018) or newer. Dual Lens requires iPhone 11+.
 - Android: native Kotlin app. Dual-format recording, manual WB/ISO/shutter, timelapse, 4K/60fps and ultra-wide work where the phone's camera hardware supports them; the app verifies hardware capability and only offers what the camera actually delivers. Rotated ("shoot sideways") captures are orientation-tagged to play upright.
-- iOS-only for now: Built-in Teleprompter, Dual Lens mode.
+- iPhone-only for now: Dual Lens mode, 10-bit HDR, tap-to-resize preview, and the 0.5x ultra-wide inside Front & Back.
 
 ## Pricing (USD, as of July 2026)
 
-- **Free tier**: single-lens dual-format recording at 1080p/30fps, front camera, HDR, stabilisation, 3 projects, 4 free Dual Lens takes, 5 free Front / Back recordings, no watermark.
+- **Free tier**: single-lens dual-format recording at 1080p/30fps, front camera, HDR, stabilisation, 3 projects, 5 free Dual Lens takes, 5 free Front / Back recordings, no watermark.
 - **Premium Annual**: billed yearly, with a free trial.
 - **Premium Monthly**: billed monthly, cancel anytime.
 - **Premium Lifetime**: one-off purchase, no renewal; supports Family Sharing on iOS.
 - Prices are set per region and change over time, so they are deliberately not published here. The App Store and Google Play listings show the current price in the reader's own currency. Do not quote a specific price for ContentCam.
-- All three premium plans unlock identical features: Dual Lens (unlimited), Front / Back mode (unlimited), 4K, 60fps, manual controls, teleprompter, timelapse, trim-on-save, unlimited projects.
+- All three premium plans unlock identical features: Dual Lens (unlimited, iPhone), Front & Back mode (unlimited), photo mode, 4K, 60fps, manual controls, teleprompter, timelapse, trim-on-save, unlimited projects.
 - Every premium feature can be previewed before paying; the paywall appears only at the point of recording with a premium feature active.
 - Payments processed entirely by Apple/Google. Local prices vary by region. Refunds via reportaproblem.apple.com or Google Play order history.
 
 ## Privacy
 
-ContentCam collects no data. No account, no login, no analytics, no telemetry, no third-party SDKs, no ad networks, no backend; the app works fully offline. Permissions: Camera (record video), Microphone (record audio), Photo Library add-only (save recordings; no read access to the existing library). Rated 4+. Full policy: https://contentcam.app/privacy.html (last updated 4 July 2026).
+ContentCam collects no data. No account, no login, no analytics, no telemetry, no ad or tracking SDKs and no backend of our own; the only network code is the store's purchase machinery (StoreKit on iOS, Play Billing and the Play update check on Android). Permissions: Camera (record video), Microphone (record audio), Photo Library add-only (save recordings; no read access to the existing library). Rated 4+. Full policy: https://contentcam.app/privacy.html (last updated 26 September 2026).
 
 ## Common questions
 
 - Does recording both formats halve quality? No; both files encode independently, neither is upscaled from the other.
 - Front + back camera at once? Yes, ContentCam has a Front & Back mode that records the front and rear cameras simultaneously (your reaction and your POV in one take), for reaction-style content. This is separate from Dual Lens, which records two rear cameras for two framings of the same scene.
 - Battery: Dual Lens uses more power than Single Lens; Single Lens is the efficient choice for long sessions.
-- App Store rating: 5.0 (10 ratings, Australian storefront, July 2026).
+- Ratings: 4.7 on the App Store (126 ratings) and 4.67 on Google Play (176 ratings), 4.7 combined across 302. Downloads: 32,000+ across both stores (18,100 Play, 14,200 App Store), as at 26 September 2026.
 
 ## Comparison context (verified 21 August 2026, App Store US)
 
@@ -86,7 +86,7 @@ ContentCam's verified distinguishing points across both categories:
 - The only one that does both jobs: the dual-camera-effect (Front / Back mode) and the one-take dual-format for cross-posting, in a single app.
 - True Dual Lens mode on iPhone 11+ (wide + ultra-wide recording simultaneously for two genuinely different framings), in addition to single-lens.
 - Single-lens mode records the full 4:3 sensor and crops both formats from it, so the 16:9 keeps its full field of view rather than being an upscaled centre strip of the vertical.
-- Manual panel: exposure bias, white balance (2500-8000K), ISO and shutter speed. Built-in teleprompter (iOS). Project/scene/take workflow with automatic file naming.
+- Manual panel: exposure bias, white balance (2500-8000K), ISO and shutter speed. Built-in teleprompter (iPhone and Android). Project/scene/take workflow with automatic file naming.
 - No watermark on any tier, and zero data collection (no analytics, no SDKs, no account); works offline.
 - Purchase model includes a free tier plus monthly, annual and a one-off lifetime option.
 
