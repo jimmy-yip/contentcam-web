@@ -83,13 +83,8 @@ Take these before anything else.
 ### Needs current gear or device facts — **LOCAL ONLY**
 - [ ] Best wireless mic for filming on iPhone (2026) — the #1 result was last updated 2021-04-26 and
   mentions no DJI Mic and no RODE Wireless (verified by direct fetch). Needs current gear knowledge.
-- [x] ~~iPhone 17 Dual Capture limitations~~ DONE 2026-09-28 (`iphone-17-dual-capture-limitations`:
-  Apple's published line is "Dual Capture up to 4K Dolby Vision at 30 fps"; the iOS 27 User Guide aside
-  "Models that support Dual Capture video" lists six — iPhone 17 / 17 Pro / 17 Pro Max / Air / 18 Pro /
-  18 Pro Max — and the iPhone Duo specs page carries the line too; iPhone 16 and iPhone 17e do not.
-  NOTE for future runs: `apple.com/iphone-17-pro/specs/` now 301s to `/iphone/`, so Pro-model facts have
-  to come from the User Guide rather than a specs page. Current lineup on apple.com/iphone/ is 18 Pro,
-  Duo, Air, 17, 17e, 16.)
+- [ ] iPhone 17 Dual Capture limitations — the how-to is covered; the limits angle is open. Needs
+  verified specs.
 - [ ] Best iPhone 17 camera settings for video — the #1 result covers no Log and no ProRes.
 
 ## Bucket 1a — cross-posting workflow — **CLOUD-SAFE**
