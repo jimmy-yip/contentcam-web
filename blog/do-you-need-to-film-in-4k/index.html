@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Do You Actually Need to Film in 4K? (2026)</title>
+  <meta name="description" content="4K is four times the pixels of 1080p. Whether you need it comes down to one sum: a vertical crop of 4K is 1215 px wide, of 1080p only 608 px.">
+  <link rel="canonical" href="https://contentcam.app/blog/do-you-need-to-film-in-4k/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="Do You Actually Need to Film in 4K? (2026)">
+  <meta property="og:description" content="The crop maths, the storage sum, the heat cost, and when 1080p is the better answer.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/blog/do-you-need-to-film-in-4k/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Do You Actually Need to Film in 4K? (2026)">
+  <meta name="twitter:description" content="The crop maths, the storage sum, the heat cost, and when 1080p is the better answer.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/blog/do-you-need-to-film-in-4k/",
+        "headline": "Do You Actually Need to Film in 4K? (2026)",
+        "description": "4K is 3840 x 2160, four times the pixels of 1080p. When that matters for phone video, when 1080p is the better choice, and the storage and heat costs of each.",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-10-04",
+        "dateModified": "2026-10-04",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "Developer of ContentCam", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/blog/do-you-need-to-film-in-4k/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://contentcam.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Do You Need to Film in 4K?", "item": "https://contentcam.app/blog/do-you-need-to-film-in-4k/" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/"><img src="/assets/logo-mark.png" alt="ContentCam logo" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Features</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Support</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/">Home</a> › <a href="/blog/">Blog</a> › Do You Need to Film in 4K?</div>
+    <article class="post">
+      <h1>Do You Actually Need to Film in 4K? (2026)</h1>
+      <p class="byline">By Jimmy, developer of ContentCam · 4 October 2026</p>
+
+      <p>Film in 4K when the frame you post is not the frame you recorded. Film in 1080p when the take goes out roughly as shot, the room is dark, the recording runs long, or the phone is nearly full. Almost every argument about 4K is an argument about cropping, and cropping is arithmetic, so a calculator settles it.</p>
+
+      <h2>What is the difference between 4K and 1080p, in pixels?</h2>
+      <p>4K on a phone means 3840 x 2160, which is 8,294,400 pixels. 1080p means 1920 x 1080, which is 2,073,600 pixels. 4K is exactly four times the pixel count, and exactly twice the width and twice the height.</p>
+      <p>Those two figures are not marketing. Apple's AVFoundation documentation defines the <code>hd4K3840x2160</code> capture preset as "a preset suitable for capturing 2160p-quality (3840 x 2160 pixels) video output" and <code>hd1920x1080</code> as the 1080p equivalent (<a href="https://developer.apple.com/documentation/avfoundation/avcapturesession/preset/hd4k3840x2160">developer.apple.com</a>, checked 30 September 2026). Android's <code>CamcorderProfile</code> constants match: <code>QUALITY_2160P</code> is 3840 x 2160, <code>QUALITY_1080P</code> is 1920 x 1080 (<a href="https://developer.android.com/reference/android/media/CamcorderProfile">developer.android.com</a>, checked 30 September 2026).</p>
+      <p>The same page names the labels confused with 4K: <code>QUALITY_4KDCI</code> is 4096 x 2160, the cinema standard, 256 pixels wider than the 3840 x 2160 a phone calls 4K, <code>QUALITY_720P</code> is 1280 x 720, and <code>QUALITY_8KUHD</code> is 7680 x 4320.</p>
+
+      <h2>When does filming in 4K actually pay off?</h2>
+      <p>4K pays off the moment a crop enters the workflow, and the reason is one sum. A full-height 9:16 vertical cut out of a 16:9 frame keeps 31.6% of the width. Out of a 3840 x 2160 recording, that vertical is 1215 x 2160 real pixels. Out of a 1920 x 1080 recording, the same vertical is 608 x 1080.</p>
+      <p>A 1080p vertical file is 1080 x 1920, the 1920 x 1080 profile turned on its side. The crop from 4K arrives 12.5% wider than the delivery needs. The crop from 1080p arrives at 56% of that width and has to be scaled up 78%, which is where soft faces and mushy on-screen text come from.</p>
+      <p>Three other jobs spend the same surplus pixels:</p>
+      <ul>
+        <li><strong>Punching in.</strong> A 4K recording delivered at 1080p can be zoomed to 2x linear with no upscaling at all. A 1.5x punch in still leaves 2560 x 1440, comfortably above the 1920 x 1080 needed.</li>
+        <li><strong>Stabilisation and levelling in the edit.</strong> Warp stabilisation and straightening a tilted horizon both work by cropping into the frame. Those crops are free in 4K and expensive in 1080p.</li>
+        <li><strong>Reframing one shot into several.</strong> A wide two-shot at 3840 x 2160 can be cut into two separate 1080p singles that look like a second camera.</li>
+      </ul>
+      <p>If none of those three apply, and the vertical was filmed vertical, 4K is buying storage rather than quality.</p>
+
+      <h2>When is 1080p the better choice for phone video?</h2>
+      <p>1080p wins on long recordings, hot phones and tight storage, and those three arrive together. Encoding four times the pixels is four times the work for the chip, so a phone recording 4K heats faster, and a hot phone throttles, dims and eventually stops. A 90 minute interview is a 1080p job on most phones. A 40 second piece to camera is not.</p>
+      <p>1080p also wins where 4K locks you out of a mode: plenty of phones offer their highest frame rates, or their strongest stabilisation, only at 1080p, and the restriction varies by model and by camera app, so check your own menu. Editing is the third cost, since a 4K timeline drops frames on an older laptop until you stop to generate proxy files.</p>
+      <p>One place 4K helps even when the output is 1080p: shrinking 3840 x 2160 to 1920 x 1080 averages four pixels into one, and averaging reduces visible noise, so a high ISO shot in a dim room comes out cleaner through that downscale than the same scene recorded at 1080p directly. Heat and file size are the price.</p>
+
+      <h2>Does 4K survive being uploaded to TikTok, Instagram Reels and YouTube Shorts?</h2>
+      <p>No upload reaches a viewer untouched. TikTok, Instagram Reels and YouTube Shorts all re-encode what they receive to their own settings, and I am not quoting numbers for those encoding ladders here, because they change and a stale figure is worse than none.</p>
+      <p>What holds regardless of the ladder: a compressor fed a sharp, well exposed, low noise source beats the same compressor fed a soft, noisy one, because noise and busy motion eat the available bits. The value of 4K sits at the capture and edit stage, so export at the resolution the delivery needs rather than the biggest file you can make.</p>
+
+      <h2>How much storage does 4K video use?</h2>
+      <p>Work it from bitrate, not from resolution. Divide the bitrate in megabits per second by 8 to get megabytes per second. At 50 Mbps that is 6.25 MB every second, 375 MB a minute, and 22.5 GB an hour. Read the bitrate your own phone or camera app reports for the mode you have selected, then multiply.</p>
+      <p>Two things bend the result. HEVC (H.265) stores the same picture in a smaller file than H.264, so two phones at identical resolutions write very different file sizes, and 60fps carries twice the frames of 30fps. Leave a few gigabytes of margin, because a phone that fills up stops recording without asking.</p>
+
+      <h2>What matters more than resolution?</h2>
+      <p>Light, microphone distance and locked settings all beat resolution, and none of them cost anything. A well lit 1080p talking head with a clip-on microphone 20cm below the chin looks and sounds better than a 4K one lit by a ceiling downlight with the phone's own microphone two metres away. No pixel count adds light to a face.</p>
+      <p>So settle white balance (a fixed Kelvin value, roughly 5600K in daylight, roughly 4000K under warm domestic LEDs), locked exposure, lens choice and frame rate first. Resolution is one line in a menu; those four decide whether the take is usable.</p>
+
+      <h2>Common questions</h2>
+      <p><strong>Is 4K worth it if I only post to TikTok?</strong> Only if you crop. A vertical clip filmed vertical gains almost nothing from 3840 x 2160. A vertical clip cut out of a horizontal frame needs it, because the 1080p version of that crop is 608 pixels wide.</p>
+      <p><strong>Does 4K look sharper on a phone screen?</strong> Barely, at normal viewing distance, when the clip is posted as filmed. The difference shows up after cropping, punching in and re-encoding.</p>
+      <p><strong>Should I film in 8K?</strong> 7680 x 4320 is four times the data of 4K for a deliverable nobody asks for. Extreme reframing is the one real use, and the heat and storage costs are steep.</p>
+      <p><strong>Is 4K at 30fps better than 1080p at 60fps?</strong> Choose by motion. Fast movement and anything you plan to slow down want 60fps; a seated talking head wants the resolution.</p>
+      <p><strong>Can I upscale 1080p to 4K afterwards?</strong> You can fill the frame, but no detail comes back. Upscaling invents pixels from the ones already there.</p>
+      <p><strong>How do I avoid the crop problem entirely?</strong> Record both aspect ratios in the same take, so the vertical and the widescreen versions are both recordings rather than one being a crop of the other. That is what <a href="/">ContentCam</a> exists to do.</p>
+
+      <div class="post-cta">
+        <p><strong>Try ContentCam free.</strong> Records vertical and horizontal at the same time, on iPhone and Android.</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=Website&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android"><img class="badge-play" src="/assets/google-play-badge.png" alt="Get it on Google Play" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>Related: <a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">24fps vs 30fps vs 60fps for social media</a> · <a href="/blog/video-terms-explained/">video terms explained in plain English</a> · <a href="/blog/film-b-roll-vertical-and-wide/">filming b-roll that works vertical and wide</a> · <a href="/blog/phone-video-cheat-sheet/">the phone video cheat sheet</a></p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam logo" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Features</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/features/dual-camera/">Dual Camera</a>
+        <a href="/features/manual-controls/">Manual Controls</a>
+        <a href="/android/">Android</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Support</a>
+        <a href="/press/">Press</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+      </div>
+      <div class="fine">ContentCam is an independent camera app built in Australia by one developer. © 2026 ContentCam. Apple, the Apple logo, iPhone, and App Store are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</div>
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>
