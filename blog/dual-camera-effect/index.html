@@ -87,6 +87,11 @@
           },
           {
             "@type": "Question",
+            "name": "Why is the Instagram dual camera not showing?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Usually the Instagram app is out of date, you are in the wrong part of the Instagram camera, or the phone can't run its front and back cameras together. Update Instagram, look for Dual in the Reels camera first and then the Stories camera, and check that the phone supports two cameras at once (Apple's AVCaptureMultiCamSession on iPhone, getConcurrentCameraIds() on Android 11 and later). If Dual still doesn't show up, record with Dual Capture on an iPhone 17, iPhone Air or iPhone 18 Pro model, or with a front and back camera app, and upload the clip." }
+          },
+          {
+            "@type": "Question",
             "name": "Can I move the small frame afterwards?",
             "acceptedAnswer": { "@type": "Answer", "text": "Not with the free options. They record one file with the layout baked in. To change the layout in the edit you need the two cameras saved as two separate files." }
           },
@@ -146,7 +151,7 @@
       </ul>
       <p>If one of those covers what you need, use it. There is no reason to install anything.</p>
 
-      <h2>How do you record front and back camera at the same time on iPhone?</h2>
+      <h2 id="iphone-dual-capture">How do you record front and back camera at the same time on iPhone?</h2>
       <p>On a supported iPhone, Dual Capture in the Camera app is the quickest way. Apple's iPhone User Guide gives these steps:</p>
       <ol>
         <li>Open Camera and select Video mode.</li>
@@ -156,7 +161,7 @@
       </ol>
       <p>Apple lists six models that support it: iPhone 17, iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, iPhone 18 Pro and iPhone 18 Pro Max. On an older iPhone, use Snapchat, Instagram or a third-party app instead. For the model-by-model detail, the iOS versions and the resolution limits, see <a href="/blog/record-front-and-back-camera-same-time-iphone/">which iPhones can record front and back at once, and their limits</a>. For what Dual Capture can't do with the file afterwards, see <a href="/blog/iphone-17-dual-capture-limitations/">iPhone 17 Dual Capture and where it stops</a>.</p>
 
-      <h2>How do you use both cameras at the same time on Android?</h2>
+      <h2 id="android">How do you use both cameras at the same time on Android?</h2>
       <p>Use a camera app with a front and back mode, and check Instagram's Dual in the Instagram camera. Meta's announcement describes Dual as using "your phone's front and back cameras" without limiting it to iPhone. Whether any of it works comes down to your phone's hardware.</p>
       <ul>
         <li><strong>The Android side of it.</strong> Android 11 (API level 30) added <code>getConcurrentCameraIds()</code>, which tells an app which cameras on the phone can run at the same time. If a phone reports no front and rear pair there, apps using that official route cannot record both cameras on it.</li>
@@ -164,6 +169,15 @@
         <li><strong>Apple's Dual Capture is iPhone only</strong>, for obvious reasons.</li>
       </ul>
       <p>ContentCam's Front &amp; Back mode runs on Android as well as iPhone, and the app only offers what your phone's camera actually supports.</p>
+
+      <h2>Why is the Instagram dual camera not showing?</h2>
+      <p>The usual causes are an out-of-date Instagram app, the wrong part of the Instagram camera, or a phone that can't run its front and back cameras together. Meta announced Dual in July 2022 as a Reels tool that lets you "record using your phone's front and back cameras simultaneously" in the Instagram camera. I couldn't confirm where Instagram puts Dual today: Instagram's Help Centre pages load their text with JavaScript, and I couldn't read them when I checked on 4 October 2026. So the checks below are general ones and don't name an exact icon or menu.</p>
+      <ol>
+        <li><strong>Update Instagram</strong> from the App Store or Google Play, then close and reopen the app.</li>
+        <li><strong>Start in the Reels camera.</strong> Meta launched Dual with the Reels creation tools, so look there first, then try the Stories camera.</li>
+        <li><strong>Check that the phone can run two cameras at once.</strong> Not every phone can. On iPhone, apps ask Apple's <code>AVCaptureMultiCamSession</code> whether the device supports multi-camera sessions. On Android 11 and later, <code>getConcurrentCameraIds()</code> lists which cameras can run together. If a phone reports no front and back pair, an app can't offer a dual mode on it.</li>
+      </ol>
+      <p>If Dual still doesn't show up, record the clip outside Instagram and upload it as a Reel. On an iPhone 17, iPhone Air or iPhone 18 Pro model, use <a href="#iphone-dual-capture">Dual Capture in the Camera app</a>. On other phones, use a camera app with a front and back mode (see <a href="#android">the Android section</a> and <a href="/blog/best-front-and-back-dual-camera-apps/">the dual-camera apps compared</a>).</p>
 
       <h2>How do you take a selfie and a back camera photo at the same time?</h2>
       <p>Use Snapchat's Dual Camera, which takes a Snap with both cameras in one frame. Apple's Dual Capture and Instagram's Dual are video features, so with those the workaround is to record a couple of seconds and save a still from the clip. Either way you get one image with the layout fixed, so put the selfie corner somewhere it won't cover the shot.</p>
@@ -226,6 +240,7 @@
       <p><strong>Is the dual camera effect free?</strong> Yes. Instagram's Dual, Snapchat's Dual Camera and the iPhone's Dual Capture are all free. You only need a separate app when you want the two angles as usable footage rather than a finished post.</p>
       <p><strong>Do I need an iPhone 17 to use both cameras at once?</strong> No. Dual Capture in the stock Camera app needs an iPhone 17 model, iPhone Air or iPhone 18 Pro model. Snapchat's Dual Camera works from iPhone XS and XR, and third-party apps have been able to run the front and back cameras together since iOS 13.</p>
       <p><strong>Does the dual camera effect work on Android?</strong> On phones whose hardware supports it, yes. Android 11 added an official way for apps to run two cameras at once, and each phone reports which cameras it can run together. Apple's Dual Capture is iPhone only, and Snapchat's help centre still lists Dual Camera as coming to Android.</p>
+      <p><strong>Why is the Instagram dual camera not showing?</strong> Usually the Instagram app is out of date, you are in the wrong part of the Instagram camera, or the phone can't run its front and back cameras together. Update Instagram, look for Dual in the Reels camera first and then the Stories camera, and check that the phone supports two cameras at once (Apple's AVCaptureMultiCamSession on iPhone, getConcurrentCameraIds() on Android 11 and later). If Dual still doesn't show up, record with Dual Capture on an iPhone 17, iPhone Air or iPhone 18 Pro model, or with a front and back camera app, and upload the clip.</p>
       <p><strong>Can I move the small frame afterwards?</strong> Not with the free options. They record one file with the layout baked in. To change the layout in the edit you need the two cameras saved as two separate files.</p>
       <p><strong>Why does my dual camera video only work on one platform?</strong> Because it was captured in one aspect ratio. A vertical capture cropped to widescreen keeps only about a third of the frame, which is why the same clip rarely works on both TikTok and YouTube.</p>
 
