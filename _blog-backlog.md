@@ -50,6 +50,11 @@ They need real numbers, so a human writes the ones marked LOCAL ONLY.
   under-supplied. Ours currently carry no measurements.
 
 ## Bucket 0 — abandoned SERPs, ranked — **CLOUD-SAFE**
+> **Exhausted for cloud runs as of 2026-10-07.** The three remaining lines are not takeable by the
+> scheduled agent: "film b-roll with your phone" duplicates the published `film-b-roll-vertical-and-wide`,
+> "film yourself talking to camera" duplicates `talking-head-video-at-home`, and "Content creator setup
+> under $200" depends entirely on named-product prices, which the cloud sandbox cannot verify. Needs a
+> top-up of audience-shaped SERP gaps, or a human to write the $200 setup post.
 Audience-shaped, no product framing. Incumbents verified stale by direct fetch, not assumed.
 Take these before anything else.
 
@@ -159,7 +164,7 @@ Niche guides
 - How to film fitness content for TikTok and YouTube simultaneously
 - How to film UGC that works on every platform
 - How to film cooking content for every platform
-- How real estate agents can film a listing for Reels and YouTube in one walkthrough
+- [x] ~~How real estate agents can film a listing for Reels and YouTube in one walkthrough~~ DONE 2026-10-07 (`film-property-listing-walkthrough`)
 - How to film product content a brand will actually use
 - How to film podcast clips for multiple platforms
 AI and content
