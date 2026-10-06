@@ -75,6 +75,12 @@ slug, title and date.
 `TZ=Australia/Sydney date '+%-d %B %Y'` for the byline and `TZ=Australia/Sydney date '+%Y-%m-%d'`
 for the JSON-LD and the sitemap. A run firing late UTC evening is already the next day in Sydney.
 
+**Standing rule (Jimmy): never two posts on the same date.** Before dating a post, list the dates
+already used in `blog/*/index.html`. If today is taken, use the nearest free day before it, never a
+future date. A batch of several posts gets one per day, spread back across free days. Change all four
+places together: the byline, `datePublished`/`dateModified`, the `post-meta` line in
+`blog/index.html` (keep that list newest first) and the sitemap `lastmod`.
+
 **What this post is for.** It is not a traffic play. The blog produced 14 clicks in 90 days and that
 is not the point. The job is to be the page an LLM cites and a Reddit thread links, which feeds
 branded App Store search. Write for the person who will never install the app, and make the piece
