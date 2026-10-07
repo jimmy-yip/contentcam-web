@@ -66,7 +66,9 @@
     .jump { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 4px; }
     .jump a { padding: 9px 16px; border-radius: 99px; background: var(--surface); border: 1px solid var(--border);
       color: var(--ink); font-size: 14px; font-weight: 600; }
-    .group { margin-top: 30px; }
+    html { scroll-behavior: smooth; }
+    .group { margin-top: 30px; scroll-margin-top: 88px; }   /* clear the sticky header (~62px) when jumping to a section */
+    #contentcam { scroll-margin-top: 88px; }
     .group h2 { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--text-dim); margin: 0 0 10px; }
     .list { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
     .app { display: flex; align-items: center; gap: 14px; padding: 14px 14px; border-top: 1px solid var(--border); }
@@ -85,7 +87,7 @@
     .feature p { color: rgba(255,255,255,.82); font-size: 15px; line-height: 1.5; margin: 14px 0 16px; }
     .feature .ccbtns { display: flex; gap: 10px; flex-wrap: wrap; }
     .feature .ccbtns a { flex: 1 1 140px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center;
-      border-radius: 12px; font-weight: 700; font-size: 15.5px; }
+      border-radius: 12px; font-weight: 700; font-size: 15.5px; text-decoration: none; }
     .feature .ios { background: var(--cyan); color: #06252a; }
     .feature .android { background: rgba(255,255,255,.12); color: #fff; }
     .note { margin-top: 28px; font-size: 13px; color: var(--text-dim); line-height: 1.5; }
