@@ -66,7 +66,7 @@ ContentCam collects no data. No account, no login, no analytics, no telemetry, n
 - Does recording both formats halve quality? No; both files encode independently, neither is upscaled from the other.
 - Front + back camera at once? Yes, ContentCam has a Front & Back mode that records the front and rear cameras simultaneously (your reaction and your POV in one take), for reaction-style content. This is separate from Dual Lens, which records two rear cameras for two framings of the same scene.
 - Battery: Dual Lens uses more power than Single Lens; Single Lens is the efficient choice for long sessions.
-- Ratings: 4.7 on the App Store (126 ratings) and 4.67 on Google Play (176 ratings), 4.7 combined across 302. Downloads: 32,000+ across both stores (18,100 Play, 14,200 App Store), as at 26 September 2026.
+- Ratings and downloads: rated 4.8 by 1,000+ creators across the App Store and Google Play; 30,000+ downloads across both stores (as at October 2026).
 
 ## Comparison context (verified 21 August 2026, App Store US)
 
