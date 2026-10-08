@@ -83,11 +83,13 @@
         "@type": "FAQPage",
         "@id": "https://contentcam.app/#faq",
         "mainEntity": [
-          { "@type": "Question", "name": "Does recording both formats halve the quality?", "acceptedAnswer": { "@type": "Answer", "text": "No. Both files encode independently in HEVC: portrait at 1080x1920 and landscape at 1920x1080, or 4K equivalents." } },
-          { "@type": "Question", "name": "Which phones does ContentCam support?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone XS and later on iOS 18+. Dual Lens mode needs iPhone 11 or later. On Android, any phone with a capable camera; 4K and manual exposure depend on the hardware." } },
-          { "@type": "Question", "name": "Do I need a subscription?", "acceptedAnswer": { "@type": "Answer", "text": "No. The free tier is free forever. Premium is optional: an annual plan with a free trial, a monthly plan, or a one-off lifetime purchase." } },
+          { "@type": "Question", "name": "Isn't the landscape just a crop of the portrait?", "acceptedAnswer": { "@type": "Answer", "text": "No. In Single Lens mode ContentCam records the sensor's full 4:3 frame and cuts each format from it, so the landscape keeps the full width and the portrait keeps the full height. Each file is encoded on its own in HEVC, at 1080×1920 and 1920×1080 or the 4K equivalents. Neither is an upscaled crop of the other." } },
+          { "@type": "Question", "name": "Is ContentCam free, or do I need a subscription?", "acceptedAnswer": { "@type": "Answer", "text": "It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark. Premium is optional and sold three ways: an annual plan with a free trial, a monthly plan, or a one-off lifetime purchase. All three unlock the same features, priced in your own currency in the App Store and Google Play." } },
+          { "@type": "Question", "name": "Can I try the premium features before paying?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every premium feature can be previewed live, including the manual dials. The paywall only appears when you press record with a premium feature switched on. Dual Lens and Front & Back also give you 5 free recordings each, and the annual plan starts with a free trial." } },
+          { "@type": "Question", "name": "Is there a watermark?", "acceptedAnswer": { "@type": "Answer", "text": "Never, on any tier, free included." } },
+          { "@type": "Question", "name": "Which phones does it work on?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone XS and later on iOS 18 or newer; Dual Lens mode needs iPhone 11 or later. Android 8.0 or newer; 4K, 60fps and manual exposure depend on what your phone's camera supports. Dual Lens and HDR are iPhone-only for now." } },
           { "@type": "Question", "name": "Can it record the front and back cameras at the same time?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, on iPhone and Android. Front & Back is a premium mode with 5 free recordings to try." } },
-          { "@type": "Question", "name": "Is there a watermark?", "acceptedAnswer": { "@type": "Answer", "text": "Never, on any tier, free included." } }
+          { "@type": "Question", "name": "How is it different from Blackmagic Camera?", "acceptedAnswer": { "@type": "Answer", "text": "Blackmagic Camera is a great manual camera, but it records one video that you reframe in an editor afterwards. ContentCam saves a portrait file and a landscape file the moment you stop recording, named and ready to post, with manual controls built in." } }
         ]
       }
     ]
@@ -114,6 +116,46 @@
     .ccbar .t { flex: 1; min-width: 0; font-size: 14px; line-height: 1.25; }
     .ccbar .t b { display: block; font-size: 15px; }
     .ccbar a.go { flex: none; min-height: 44px; padding: 0 18px; display: inline-flex; align-items: center; border-radius: 12px; background: var(--cyan); color: #06252a; font-weight: 700; font-size: 15px; text-decoration: none; }
+    /* spacing pass (Jimmy 2026-10-08): tighter section rhythm, scoped to this page */
+    body.hx main > section { padding: 44px 0; }
+    body.hx main > section.hero { padding: 44px 0 24px; }
+    body.hx .hero p.tagline { margin-bottom: 22px; }
+    body.hx main > section.band-dark { padding: 48px 0; }
+    body.hx main > section.hx-final { padding: 60px 0 76px; }
+    body.hx section .lead, body.hx .page-hero .lead { max-width: none; }
+    body.hx .shot-pair img { border: 0; }
+    .rv time { color: var(--text-dim); }
+    section .rv-strip { padding-bottom: 0; }
+    .hx-pricing-note { margin: 4px 0 26px; }
+    .hx-feats { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 6px; }
+    .hx-feat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 20px 16px; }
+    .hx-feat h3 { font-size: 18px; margin: 0 0 10px; }
+    .hx-feat ul { list-style: none; margin: 0; padding: 0; }
+    .hx-feat li { position: relative; padding: 0 0 0 24px; margin: 0 0 8px; font-size: 15px; line-height: 1.45; color: var(--text-soft); }
+    .hx-feat li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--cyan-ink); font-weight: 700; }
+    .hx-feat li b { color: var(--ink); font-weight: 600; }
+    .hx-links { margin-top: 18px; font-size: 15px; display: flex; flex-wrap: wrap; gap: 6px 22px; }
+    .hx-private { display: flex; gap: 18px; align-items: flex-start; background: var(--band); color: #e9f3f4; border-radius: var(--radius); padding: 24px; }
+    .hx-private svg { flex: none; width: 46px; height: 52px; }
+    .hx-private .big { font-size: 18px; color: #fff; margin: 0 0 12px; font-weight: 600; }
+    .hx-private ul { list-style: none; margin: 0 0 12px; padding: 0; }
+    .hx-private li { position: relative; padding-left: 26px; margin-bottom: 6px; color: #c6d4d5; font-size: 15.5px; }
+    .hx-private li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan); font-weight: 700; }
+    .hx-private a { color: var(--cyan); }
+    .hx-faq details { border-bottom: 1px solid var(--border); padding: 4px 0; }
+    .hx-faq summary { cursor: pointer; list-style: none; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 17px; padding: 14px 32px 14px 0; position: relative; }
+    .hx-faq summary::-webkit-details-marker { display: none; }
+    .hx-faq summary::after { content: "+"; position: absolute; right: 4px; top: 10px; font-size: 22px; color: var(--cyan-ink); font-weight: 400; }
+    .hx-faq details[open] summary::after { content: "−"; }
+    .hx-faq details p { margin: 0 0 14px; color: var(--text-soft); }
+    @media (max-width: 860px) {
+      body.hx main > section { padding: 34px 0; }
+      body.hx main > section.hero { padding: 26px 0 18px; }
+      body.hx main > section.band-dark { padding: 36px 0; }
+      .hx-feats { grid-template-columns: 1fr; gap: 12px; }
+      .hx-private { padding: 20px 18px; gap: 14px; }
+      .hx-private svg { width: 36px; height: 42px; }
+    }
     @media (max-width: 860px) {
       .rv-strip { grid-template-columns: 1fr; gap: 12px; padding-bottom: 32px; }
       .ccbar { display: flex; }
@@ -122,7 +164,7 @@
   </style>
 </head>
 
-<body class="has-ccbar">
+<body class="has-ccbar hx">
 <!-- @nav -->
   <header>
     <nav class="nav">
@@ -153,8 +195,9 @@
           <!-- Proof numbers, verified 2026-10-08: US App Store 4.78 from 37 ratings (iTunes lookup API).
                Downloads: Android 21,019 device installs Jun-Sep 2026 (Play bulk reports) + iOS >= 9,814 first-time
                downloads (all-time to 30 Jun = 7,170 and Aug = 2,644 from ASC via the Hub; Jul + Sep-Oct not recorded),
-               so 30,833 is a verified floor. The live page's "4.7 by 300+ creators" and "32,000+" are not verified. -->
-          <p class="subnote">Free to download · <span class="star">★</span> 4.8 on the US App Store · 30,000+ downloads · No watermark · No account</p>
+               so 30,833 is a verified floor. "4.8 by 1,000+ creators" is Jimmy's call (2026-10-08): ratings + reviews across
+               the App Store and Google Play (Play US shows 4.9 from 187 reviews). -->
+          <p class="subnote">Rated <span class="star">★</span> 4.8 by 1,000+ creators · 30,000+ downloads · Free to download · No ads · No watermark · No account</p>
         </div>
         <div class="proof">
           <div class="proof-stage">
@@ -173,11 +216,12 @@
       </div>
     </section>
 
-    <!-- Real App Store reviews, quoted verbatim (checked on apps.apple.com US/AU, 2026-10-08) -->
+    <!-- Real reviews quoted verbatim (excerpts end at a full stop). App Store via apps.apple.com / RSS, Google Play via the
+         public listing; checked 2026-10-08. -->
     <div class="rv-strip">
-      <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>This app literally saves me so much time with the way that it records in both angles separates to two different albums and just makes editing so much easier</blockquote><figcaption>Blowinbagzz · App Store US</figcaption></figure>
-      <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Sometimes I have to take a video twice on two different devices and it’s great to be able to do it in one take now!</blockquote><figcaption>Jessxlin · App Store AU</figcaption></figure>
-      <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>If you are a content creator doing UGC videos check out this app. It will change your life. Think about getting all the shots in one filming - think about reactions while filming -amazing.</blockquote><figcaption>pinkcarrib · App Store US</figcaption></figure>
+      <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>This app literally saves me so much time with the way that it records in both angles separates to two different albums and just makes editing so much easier</blockquote><figcaption>Blowinbagzz · App Store US · <time datetime="2026-09-12">Sep 2026</time></figcaption></figure>
+      <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Sometimes I have to take a video twice on two different devices and it’s great to be able to do it in one take now!</blockquote><figcaption>Jessxlin · App Store AU · <time datetime="2026-07-25">Jul 2026</time></figcaption></figure>
+      <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>This app is a lifesaver for people who love recording videos but need the same version horizontally and vertically at the same time</blockquote><figcaption>Yulahandro · Google Play · <time datetime="2026-06-12">Jun 2026</time></figcaption></figure>
     </div>
 
     <section class="band-dark">
@@ -189,32 +233,50 @@
           <img src="/assets/img/ui-record-handsup-640.webp" alt="ContentCam recording screen with both the portrait and landscape framings visible" width="640" height="1387" loading="lazy" decoding="async">
           <img src="/assets/img/ui-review-sunset-640.webp" alt="ContentCam review screen showing the portrait and landscape takes side by side" width="640" height="1387" loading="lazy" decoding="async">
         </div>
-        <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Tried three other apps before this, none worked as good as this one. Most just crop the same view, but this app you can actually choose between single or dual lens, which gives different outputs.</blockquote><figcaption>aimeèy · App Store AU</figcaption></figure>
+        <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Tried three other apps before this, none worked as good as this one. Most just crop the same view, but this app you can actually choose between single or dual lens, which gives different outputs.</blockquote><figcaption>aimeèy · App Store AU · <time datetime="2026-05-19">May 2026</time></figcaption></figure>
         <p style="margin-top:18px"><a href="/features/dual-camera/">How the dual-format capture works →</a></p>
       </div>
     </section>
 
     <section>
-      <p class="section-eyebrow">Three jobs people use it for</p>
+      <p class="section-eyebrow">What you actually get</p>
       <h2>One take. Everywhere you post.</h2>
-      <div class="outcomes">
-        <div class="outcome">
-          <span class="tag">Post everywhere</span>
-          <div class="k">Vertical and wide, done</div>
-          <p>A 9:16 for TikTok, Reels and Shorts and a 16:9 for YouTube come out of the same tap, named by project, scene and take, ready to drop into your edit.</p>
+      <p class="lead">You film the moment once and walk away with what every platform wants: no reshoot, no reframing, no second phone.</p>
+      <div class="hx-feats">
+        <div class="hx-feat">
+          <h3>Ways to record</h3>
+          <ul>
+            <li><b>Single Lens:</b> portrait and landscape from the full sensor, neither a crop of the other</li>
+            <li><b>Dual Lens:</b> wide and ultra-wide at once (iPhone 11+)</li>
+            <li><b>Front &amp; Back:</b> your reaction and the scene together</li>
+            <li><b>Front Cam</b> in both formats, or <b>Stock Cam</b> for portrait only</li>
+            <li><b>Photo mode:</b> a 9:16 and a 16:9 photo in one tap</li>
+          </ul>
         </div>
-        <div class="outcome">
-          <span class="tag">Front &amp; back</span>
-          <div class="k">Your face and the moment</div>
-          <p>Record the front and back cameras at the same time: reactions, vlogs, narrating what you're filming, or finally being in the shot yourself. Premium, with 5 free recordings to try.</p>
+        <div class="hx-feat">
+          <h3>Shoot like a camera</h3>
+          <ul>
+            <li>HD or 4K, set per format, at 24, 30 or 60fps</li>
+            <li>Manual exposure, white balance, ISO and shutter</li>
+            <li>Tap to focus, hold to lock focus and exposure</li>
+            <li>Built-in teleprompter that scrolls as you record</li>
+            <li>Timelapse, 10x to 900x</li>
+            <li>Stabilisation, grid, level and an audio meter</li>
+          </ul>
         </div>
-        <div class="outcome">
-          <span class="tag">Shoot like a camera</span>
-          <div class="k">Real control, full res</div>
-          <p>Lock exposure, white balance, ISO and shutter. Two rear lenses at once on iPhone. 4K and 60fps where your phone supports it. <a href="/features/manual-controls/">Manual controls →</a></p>
+        <div class="hx-feat">
+          <h3>Stay organised</h3>
+          <ul>
+            <li>Projects, scenes and takes, with files named for you</li>
+            <li>Review both clips side by side and trim to the frame</li>
+            <li>Send each project's takes to its own folder</li>
+            <li>See how much you can record before you start</li>
+            <li>Interrupted takes recovered on next launch</li>
+            <li>Overheat warnings before your phone gets too hot</li>
+          </ul>
         </div>
       </div>
-      <p class="hx-note">Plus a built-in teleprompter: read your script while you look down the lens. <a href="/features/teleprompter/">Teleprompter →</a></p>
+      <p class="hx-links"><a href="/features/">All features →</a><a href="/features/manual-controls/">Manual controls →</a><a href="/features/teleprompter/">Teleprompter →</a></p>
     </section>
 
     <section>
@@ -244,9 +306,9 @@
 
     <section class="band-dark">
       <div class="wrap">
-        <p class="section-eyebrow">iPhone and Android</p>
-        <h2>The only dual-format app on both.</h2>
-        <p class="lead">The copycats are iPhone-only. ContentCam runs natively on both. Same idea on each: one take, two files. Some features land on iPhone first.</p>
+        <p class="section-eyebrow">iPhone or Android</p>
+        <h2>Works on the phone you've got.</h2>
+        <p class="lead">Same one take, same two files, built natively for iPhone and Android. Almost everything is on both; Dual Lens and HDR are iPhone-only for now.</p>
         <div class="badges">
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-android%26utm_campaign%3Dhome2-android"><img class="badge-play" src="/assets/google-play-badge.png" alt="Get it on Google Play" width="175" height="52"></a>
@@ -257,39 +319,50 @@
 
     <section>
       <p class="section-eyebrow">Pricing</p>
-      <h2>Free to start. No watermark, ever.</h2>
+      <h2>Free to use. Premium when you want more.</h2>
       <p class="lead">The free tier is a real dual-format camera: 1080p, 30fps, front camera, three projects, no watermark. Premium adds Dual Lens (iPhone), Front &amp; Back, photo mode, 4K, 60fps, manual controls, the teleprompter and timelapse.</p>
-      <p>Try premium with a free trial on the annual plan, pay monthly, or buy it once and own it. Same features on all three. <a href="/pricing/">Full feature table →</a></p>
-      <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Love this app, so much better than competitors and offers a lifetime purchase option.</blockquote><figcaption>cjxsutton · App Store US</figcaption></figure>
+      <p class="hx-pricing-note">Try premium with a free trial on the annual plan, pay monthly, or buy it once and own it. Same features on all three. <a href="/pricing/">Full feature table →</a></p>
+      <div class="rv-strip">
+        <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Love this app, so much better than competitors and offers a lifetime purchase option.</blockquote><figcaption>cjxsutton · App Store US · <time datetime="2026-10-04">Oct 2026</time></figcaption></figure>
+        <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Free version gives us option to shoot in 1080p, 4k gets unblocked at premium but to try this, is more than enough. will be getting my paid version soon.</blockquote><figcaption>Siddhartha Pandey · Google Play · <time datetime="2026-09-10">Sep 2026</time></figcaption></figure>
+        <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>ContentCam has been such a helpful app for creating my content. It’s easy to use and makes my workflow so much smoother! Loving the teleprompter feature.</blockquote><figcaption>Maia D 001 · App Store US · <time datetime="2026-07-29">Jul 2026</time></figcaption></figure>
+      </div>
     </section>
 
     <section>
       <p class="section-eyebrow">Private by design</p>
-      <h2>It collects nothing.</h2>
-      <div class="privacy-box">
-        <p>No account, no analytics, no ads, no backend of our own. It asks for Camera, Microphone and add-only Photo Library access, and your footage stays on your phone. <a href="/privacy.html">Privacy policy →</a></p>
+      <h2>Totally private. Zero data collection.</h2>
+      <div class="hx-private">
+        <svg viewBox="0 0 46 52" aria-hidden="true"><path d="M23 2 4 9v14c0 12.5 8 22.7 19 27 11-4.3 19-14.5 19-27V9L23 2z" fill="#25d0e5"/><path d="m14 26 6.5 6.5L32.5 20" fill="none" stroke="#101a1c" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <p class="big">Your footage never leaves your device. Ever.</p>
+          <ul>
+            <li>No sign-up or account</li>
+            <li>No analytics, tracking or ads</li>
+            <li>Works offline; only the store's purchase check goes online</li>
+            <li>Can add videos to your Photos, never read them</li>
+          </ul>
+          <a href="/privacy.html">Privacy policy →</a>
+        </div>
       </div>
     </section>
 
-    <section class="faq">
-      <p class="section-eyebrow">Quick answers</p>
-      <h2>The usual questions</h2>
-      <h3>Does recording both formats halve the quality?</h3>
-      <p>No. Both files encode independently in HEVC: portrait at 1080×1920 and landscape at 1920×1080, or 4K equivalents.</p>
-      <h3>Do I need a subscription?</h3>
-      <p>No. The free tier is free forever. Premium is optional: an annual plan with a free trial, a monthly plan, or a one-off lifetime purchase.</p>
-      <h3>Can it record the front and back cameras at the same time?</h3>
-      <p>Yes, on iPhone and Android. Front &amp; Back is a premium mode with 5 free recordings to try.</p>
-      <h3>Which phones does it support?</h3>
-      <p>iPhone XS and later on iOS 18+. Dual Lens mode needs iPhone 11 or later. On Android, any phone with a capable camera. 4K and manual exposure depend on the hardware. <a href="/android/">What's different on Android →</a></p>
-      <h3>Is there a watermark?</h3>
-      <p>Never, on any tier, free included.</p>
-      <p style="margin-top:18px"><a href="/support/">All questions answered →</a></p>
+    <section class="faq hx-faq" id="faq">
+      <p class="section-eyebrow">FAQ</p>
+      <h2>Frequently asked questions</h2>
+      <details><summary>Isn't the landscape just a crop of the portrait?</summary><p>No. In Single Lens mode ContentCam records the sensor's full 4:3 frame and cuts each format from it, so the landscape keeps the full width and the portrait keeps the full height. Each file is encoded on its own in HEVC, at 1080×1920 and 1920×1080 or the 4K equivalents. Neither is an upscaled crop of the other.</p></details>
+      <details><summary>Is ContentCam free, or do I need a subscription?</summary><p>It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark. Premium is optional and sold three ways: an annual plan with a free trial, a monthly plan, or a one-off lifetime purchase. All three unlock the same features, priced in your own currency in the App Store and Google Play.</p></details>
+      <details><summary>Can I try the premium features before paying?</summary><p>Yes. Every premium feature can be previewed live, including the manual dials. The paywall only appears when you press record with a premium feature switched on. Dual Lens and Front &amp; Back also give you 5 free recordings each, and the annual plan starts with a free trial.</p></details>
+      <details><summary>Is there a watermark?</summary><p>Never, on any tier, free included.</p></details>
+      <details><summary>Which phones does it work on?</summary><p>iPhone XS and later on iOS 18 or newer; Dual Lens mode needs iPhone 11 or later. Android 8.0 or newer; 4K, 60fps and manual exposure depend on what your phone's camera supports. Dual Lens and HDR are iPhone-only for now.</p></details>
+      <details><summary>Can it record the front and back cameras at the same time?</summary><p>Yes, on iPhone and Android. Front &amp; Back is a premium mode with 5 free recordings to try.</p></details>
+      <details><summary>How is it different from Blackmagic Camera?</summary><p>Blackmagic Camera is a great manual camera, but it records one video that you reframe in an editor afterwards. ContentCam saves a portrait file and a landscape file the moment you stop recording, named and ready to post, with manual controls built in.</p></details>
+      <p style="margin-top:18px"><a href="/support/">More questions answered →</a></p>
     </section>
 
-    <section class="center" style="padding-bottom:76px">
-      <h2>Your next shoot is the test.</h2>
-      <p class="lead" style="margin:0 auto 26px">Film it once and look at both files. Decide later.</p>
+    <section class="center hx-final">
+      <h2>Stop filming everything twice.</h2>
+      <p class="lead" style="margin:0 auto 26px;max-width:700px">Download it free, record one take, and get your vertical and wide files ready to post.</p>
       <div class="badges center-x">
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-final&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-final%26utm_campaign%3Dhome2-final"><img class="badge-play" src="/assets/google-play-badge.png" alt="Get it on Google Play" width="175" height="52"></a>
