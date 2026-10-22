@@ -71,6 +71,12 @@ BreadcrumbList JSON-LD, the `@nav` block, crumbs, `article`, the byline
 "By Jimmy, developer of ContentCam", the `post-cta` block and the `@footer` block. Update every URL,
 slug, title and date.
 
+**Each post's store links carry that post's own campaign, so App Store Connect and Play Console
+show which post sells.** In the `post-cta` block, set the App Store `ct=` to `b-<slug>`, at most 40
+characters. Shorten a long slug by hand and never cut it mid-word. Set the Play link to
+`...android&amp;gl=us&amp;referrer=utm_source%3Dblog%26utm_campaign%3D<slug>`. Keep `gl=us`: from
+most countries, the generic Play link shows no rating or review count.
+
 **Dates use Australia/Sydney time, not UTC.** Jimmy is the author and he is in Sydney. Get it with
 `TZ=Australia/Sydney date '+%-d %B %Y'` for the byline and `TZ=Australia/Sydney date '+%Y-%m-%d'`
 for the JSON-LD and the sitemap. A run firing late UTC evening is already the next day in Sydney.
