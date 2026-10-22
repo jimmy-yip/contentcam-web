@@ -45,6 +45,12 @@ They need real numbers, so a human writes the ones marked LOCAL ONLY.
 - [ ] **What TikTok, Reels and Shorts actually do to your upload** — **LOCAL ONLY.** Measured
   compression teardown using our own test files. Confirmed zero competition. Feeds real demand:
   `why instagram reel quality bad`, `instagram reels quality loss`.
+  **2026-10-22 pilot:** logged-out web delivery of 10 @contentcam.app TikToks (Aug 2026): 8 served
+  ONLY 576x1024 H.264 at 0.2-1.0 Mbps, 2 had an HEVC ladder up to 1080x1920 (0.4-0.6 Mbps). Not
+  explained by views (825 views 540p-only vs 829 with 1080p). Needs a CONTROLLED test before it's a
+  post: Jimmy uploads 3 known files (1080p30 H.264 ~16 Mbps, 4K30 HEVC, 1080p HDR) to TikTok, IG and
+  YT Shorts, with and without the TikTok "upload HD" toggle, then pull back with yt-dlp (python3.13
+  venv + curl-cffi) and ffprobe. IG needs logged-in cookies, so Jimmy pulls those himself.
 - [ ] **Rebuild the four "vs ContentCam" posts as measured spec matrices** — **LOCAL ONLY.**
   Comparison pages have the highest AI citation rate of any page type (1.87) and are the most
   under-supplied. Ours currently carry no measurements.
@@ -96,6 +102,14 @@ Take these before anything else.
   to come from the User Guide rather than a specs page. Current lineup on apple.com/iphone/ is 18 Pro,
   Duo, Air, 17, 17e, 16.)
 - [ ] Best iPhone 17 camera settings for video — the #1 result covers no Log and no ProRes.
+
+### iPhone video problems lane (local, Apple-documented) — started 2026-10-22
+- [x] Orange / washed out after editing (HDR) — 22 Oct
+- [x] Switching lenses while recording (Lock Camera, macro, Enhanced Stabilization) — 20 Oct
+- [x] Choppy in low light (Auto FPS) — 19 Oct
+- [ ] High Efficiency vs Most Compatible: HEVC files on Windows/editors (Apple HT207022)
+- [ ] Why is my iPhone video so big? (MB per minute per format, Settings > Camera > Record Video)
+- [ ] iPhone video has no sound / quiet audio (Spatial Audio vs Stereo vs Mono on iPhone 16+)
 
 ## Bucket 1a — cross-posting workflow — **CLOUD-SAFE**
 Argument and workflow, no platform specifications to look up.
