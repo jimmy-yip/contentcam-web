@@ -74,8 +74,9 @@ slug, title and date.
 **Each post's store links carry that post's own campaign, so App Store Connect and Play Console
 show which post sells.** In the `post-cta` block, set the App Store `ct=` to `b-<slug>`, at most 40
 characters. Shorten a long slug by hand and never cut it mid-word. Set the Play link to
-`...android&amp;gl=us&amp;referrer=utm_source%3Dblog%26utm_campaign%3D<slug>`. Keep `gl=us`: from
-most countries, the generic Play link shows no rating or review count.
+`...android&amp;referrer=utm_source%3Dblog%26utm_campaign%3D<slug>`. Never add `gl=us`:
+on the Play website it blocks installs for anyone outside the US (reported by a Dutch user,
+24 Oct 2026).
 
 **Dates use Australia/Sydney time, not UTC.** Jimmy is the author and he is in Sydney. Get it with
 `TZ=Australia/Sydney date '+%-d %B %Y'` for the byline and `TZ=Australia/Sydney date '+%Y-%m-%d'`
