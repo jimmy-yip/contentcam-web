@@ -102,8 +102,8 @@
       </div>
 
       <figure>
-        <video src="/assets/blog/film-travel-food-content-every-platform/lantern-street-both-formats.mp4" poster="/assets/blog/film-travel-food-content-every-platform/lantern-street-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A man standing in the middle of a street under strings of paper and fish-shaped lanterns, playing as a 16:9 landscape file and a 9:16 portrait file side by side"></video>
-        <figcaption>Subject in the centre third: the vertical keeps the person and a strip of lanterns, the wide keeps both rows of buildings.</figcaption>
+        <img src="/assets/blog/film-travel-food-content-every-platform/turquoise-pool-portrait-and-landscape.webp" alt="A clear turquoise pool under autumn trees with clouds reflected in the water, shown as a 9:16 portrait file beside a 16:9 landscape file" width="1200" height="520" loading="lazy" decoding="async">
+        <figcaption>Scenery on its own works too: a clear pool under autumn trees, the vertical and the wide from one take.</figcaption>
       </figure>
 
       <h2>The travel shot list that always works</h2>
@@ -121,12 +121,12 @@
         <figcaption>Filming a turquoise mountain lake. One take gives the vertical for Reels and TikTok and the wide for YouTube.</figcaption>
       </figure>
       <figure>
-        <video src="/assets/blog/film-travel-food-content-every-platform/red-ribbon-bridge-walk-both-formats.mp4" poster="/assets/blog/film-travel-food-content-every-platform/red-ribbon-bridge-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A man walking along a covered timber bridge under a ceiling of red ribbons and lanterns, playing as a 16:9 landscape file and a 9:16 portrait file side by side"></video>
-        <figcaption>You in it, from behind: walk the shot and let the place frame you. The wide keeps the river and the walls; the vertical keeps you and the red ceiling.</figcaption>
+        <video src="/assets/blog/film-travel-food-content-every-platform/red-ribbon-bridge-walk-both-formats.mp4" poster="/assets/blog/film-travel-food-content-every-platform/red-ribbon-bridge-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A man walking along a covered timber bridge under a ceiling of red ribbons and lanterns, playing as a 9:16 portrait file and a 16:9 landscape file side by side"></video>
+        <figcaption>You in it, from behind: walk the shot and let the place frame you. The vertical keeps you and the red ceiling; the wide keeps the river and the walls.</figcaption>
       </figure>
 
       <figure>
-        <video src="/assets/blog/film-travel-food-content-every-platform/waterfall-path-walk-both-formats.mp4" poster="/assets/blog/film-travel-food-content-every-platform/waterfall-path-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A man in a cap walking a path behind a waterfall under a mossy rock overhang, playing as a 16:9 landscape file and a 9:16 portrait file side by side"></video>
+        <video src="/assets/blog/film-travel-food-content-every-platform/waterfall-path-walk-both-formats.mp4" poster="/assets/blog/film-travel-food-content-every-platform/waterfall-path-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A man in a cap walking a path behind a waterfall under a mossy rock overhang, playing as a 9:16 portrait file and a 16:9 landscape file side by side"></video>
         <figcaption>The movement shot: a slow walk behind a waterfall, one take, both formats.</figcaption>
       </figure>
 
@@ -190,5 +190,19 @@
     </div>
   </footer>
 <!-- /@footer -->
+<script>
+(function () {
+  var vids = document.querySelectorAll('article.post video[autoplay]');
+  if (!vids.length || !('IntersectionObserver' in window)) return;
+  var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting && !still) { var p = e.target.play(); if (p && p.catch) p.catch(function () {}); }
+      else e.target.pause();
+    });
+  }, { rootMargin: '200px 0px' });
+  vids.forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); io.observe(v); });
+})();
+</script>
 </body>
 </html>

@@ -86,8 +86,8 @@
       <p>In 2026 a whole category of "record vertical and horizontal at the same time" apps appeared on the App Store within a few months of each other. If you've searched for one, you've seen the wall of near-identical names: DualShot Recorder, DuoShot, ReFrame, Dual Recorder. Here's how to actually tell them apart.</p>
 
       <figure>
-        <video src="/assets/blog/dual-format-recording-apps-compared/night-city-walk-both-formats.mp4" poster="/assets/blog/dual-format-recording-apps-compared/night-city-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A man standing in a night crowd facing a gold-lit multi-storey building, playing as a 16:9 landscape file and a 9:16 portrait file side by side"></video>
-        <figcaption>What a dual-format app should give you: one take, a 16:9 file and a 9:16 file. This night walk was shot in ContentCam on a travel creator's trip.</figcaption>
+        <video src="/assets/blog/dual-format-recording-apps-compared/night-city-walk-both-formats.mp4" poster="/assets/blog/dual-format-recording-apps-compared/night-city-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A man standing in a night crowd facing a gold-lit multi-storey building, playing as a 9:16 portrait file and a 16:9 landscape file side by side"></video>
+        <figcaption>What a dual-format app should give you: one take, a 9:16 file and a 16:9 file. This night walk was shot in ContentCam on a travel creator's trip.</figcaption>
       </figure>
 
       <h2>The two apps with real feature depth</h2>
@@ -139,12 +139,12 @@
       <p>If the app records a portrait stream and crops a 16:9 strip from it, the landscape version shows less of your scene than the portrait does, upscaled. If the app records the sensor's full 4:3 frame and crops both formats from that, the landscape file genuinely shows more left-and-right than the portrait. ContentCam does the latter (<a href="/features/dual-camera/">explained here</a>); for any other app, record one take and compare the two files side by side.</p>
 
       <figure>
-        <video src="/assets/blog/dual-format-recording-apps-compared/lake-pan-both-formats.mp4" poster="/assets/blog/dual-format-recording-apps-compared/lake-pan-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A slow pan across a turquoise mountain lake, playing as a 16:9 landscape file and a 9:16 portrait file side by side"></video>
-        <figcaption>One take of a turquoise mountain lake in ContentCam: the 16:9 file and the 9:16 file side by side, each with its own framing.</figcaption>
+        <video src="/assets/blog/dual-format-recording-apps-compared/lake-pan-both-formats.mp4" poster="/assets/blog/dual-format-recording-apps-compared/lake-pan-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A slow pan across a turquoise mountain lake, playing as a 9:16 portrait file and a 16:9 landscape file side by side"></video>
+        <figcaption>One take of a turquoise mountain lake in ContentCam: the 9:16 file and the 16:9 file side by side, each with its own framing.</figcaption>
       </figure>
       <figure>
-        <video src="/assets/blog/dual-format-recording-apps-compared/panda-both-formats.mp4" poster="/assets/blog/dual-format-recording-apps-compared/panda-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A panda lying in long grass chewing bamboo, playing as a 16:9 landscape file and a 9:16 portrait file side by side"></video>
-        <figcaption>A panda eating bamboo, one take: the landscape and portrait files from the same moment.</figcaption>
+        <img src="/assets/blog/dual-format-recording-apps-compared/panda-portrait-and-landscape.webp" alt="A panda lying in long grass chewing bamboo, shown as a 9:16 portrait file beside a 16:9 landscape file from the same take" width="1200" height="520" loading="lazy" decoding="async">
+        <figcaption>A panda eating bamboo, one take: the portrait and landscape files from the same moment.</figcaption>
       </figure>
 
       <h2>Common questions</h2>
@@ -187,5 +187,19 @@
     </div>
   </footer>
 <!-- /@footer -->
+<script>
+(function () {
+  var vids = document.querySelectorAll('article.post video[autoplay]');
+  if (!vids.length || !('IntersectionObserver' in window)) return;
+  var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting && !still) { var p = e.target.play(); if (p && p.catch) p.catch(function () {}); }
+      else e.target.pause();
+    });
+  }, { rootMargin: '200px 0px' });
+  vids.forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); io.observe(v); });
+})();
+</script>
 </body>
 </html>

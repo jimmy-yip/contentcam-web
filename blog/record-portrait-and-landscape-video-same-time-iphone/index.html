@@ -85,8 +85,8 @@
       <p>There are three real ways to get both formats out of one shoot. I build a camera app for a living, so I'll be upfront that my app does two of them, but the trade-offs below apply whatever tool you use.</p>
 
       <figure>
-        <video src="/assets/blog/record-portrait-and-landscape-video-same-time-iphone/one-take-walk-both-formats.mp4" poster="/assets/blog/record-portrait-and-landscape-video-same-time-iphone/one-take-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A man walking away from the camera through a tunnel of moss-covered branches, playing as a 16:9 landscape file and a 9:16 portrait file side by side"></video>
-        <figcaption>One take on a travel creator's trip, walking through a tunnel of mossy branches: the landscape and portrait files ContentCam saved, playing in sync. Neither one is a crop of the other.</figcaption>
+        <video src="/assets/blog/record-portrait-and-landscape-video-same-time-iphone/one-take-walk-both-formats.mp4" poster="/assets/blog/record-portrait-and-landscape-video-same-time-iphone/one-take-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A man walking away from the camera through a tunnel of moss-covered branches, playing as a 9:16 portrait file and a 16:9 landscape file side by side"></video>
+        <figcaption>One take on a travel creator's trip, walking through a tunnel of mossy branches: the portrait and landscape files ContentCam saved, playing in sync. Neither one is a crop of the other.</figcaption>
       </figure>
 
       <h2>Option 1: Film portrait, crop landscape in post</h2>
@@ -183,5 +183,19 @@
     </div>
   </footer>
 <!-- /@footer -->
+<script>
+(function () {
+  var vids = document.querySelectorAll('article.post video[autoplay]');
+  if (!vids.length || !('IntersectionObserver' in window)) return;
+  var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting && !still) { var p = e.target.play(); if (p && p.catch) p.catch(function () {}); }
+      else e.target.pause();
+    });
+  }, { rootMargin: '200px 0px' });
+  vids.forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); io.observe(v); });
+})();
+</script>
 </body>
 </html>
