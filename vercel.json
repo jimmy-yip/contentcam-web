@@ -1,3 +1,6 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/go/:id", "destination": "https://contentcam-hub.vercel.app/r/:id" }
+  ]
 }
