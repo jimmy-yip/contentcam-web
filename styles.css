@@ -268,6 +268,10 @@ article.post img { max-width: 100%; height: auto; border-radius: 14px; border: 1
 article.post .badges img { height: 46px; width: auto; max-width: none; border: 0; border-radius: 0; box-shadow: none; }
 article.post figure { margin: 26px 0; }
 article.post figcaption { color: var(--text-dim); font-size: 13px; margin-top: 9px; }
+article.post figure .shot-pair { margin: 0; }
+article.post figure.narrow img { display: block; max-width: 420px; width: 100%; margin: 0 auto; }
+article.post figure.narrow figcaption { text-align: center; }
+article.post video { display: block; width: 100%; height: auto; border-radius: 14px; border: 1.5px solid var(--cyan); background: #101617; }
 article.post blockquote { border-left: 3px solid var(--amber); padding: 4px 0 4px 18px; color: var(--text-soft); margin: 22px 0; font-style: italic; }
 article.post code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; background: var(--surface-2); padding: 1px 6px; border-radius: 5px; color: var(--amber-ink); }
 .post-cta { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; margin: 34px 0; }
