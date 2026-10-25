@@ -97,7 +97,7 @@
       <p>Take the same 16:9 framing from the full 4:3 readout and the frame measures 3024&times;1701 pixels, against 2268&times;1275 cut from the vertical file. That is 78% more area and a third more horizontal field of view. No editor recovers the difference, because those pixels were never written to the file.</p>
 
       <h2>What are the three ways to put a vertical clip into a 16:9 slot?</h2>
-      <p>Crop it, pillarbox it, or record both shapes in the first place. The first two are documented video scaling behaviours rather than editing tricks, and each carries a fixed price.</p>
+      <p>Crop it, pillarbox it, or record both shapes in the first place. The first two are documented video scaling behaviours rather than editing tricks, and each carries a fixed price. The step-by-step for each in Photos, iMovie and CapCut is in <a href="/blog/convert-vertical-video-to-horizontal/">how to convert vertical video to horizontal</a>.</p>
       <ul>
         <li><strong>Crop, which is aspect fill.</strong> Apple's AVFoundation documentation describes <code>AVVideoScalingModeResizeAspectFill</code>: "This mode crops the video to fit the destination dimensions, preserving the aspect ratio of the source video" (<a href="https://developer.apple.com/documentation/avfoundation/avvideoscalingmoderesizeaspectfill">developer.apple.com</a>, checked 14 October 2026). Price: 68.4% of the picture, plus the eyeline correction above.</li>
         <li><strong>Pillarbox, which is aspect fit.</strong> The same documentation describes <code>AVVideoScalingModeResizeAspect</code>: "This mode preserves the aspect ratio of the source and fills the remaining areas with black to fit the destination dimensions" (<a href="https://developer.apple.com/documentation/avfoundation/avvideoscalingmoderesizeaspect">developer.apple.com</a>, checked 14 October 2026). A 1080&times;1920 clip at full height inside a 1920&times;1080 frame is 607 pixels wide with 656 pixels of filler down each side, so 31.6% of the delivered width carries picture. Swapping a blurred copy of the clip in for the black changes the colour of the filler and nothing else.</li>
@@ -136,7 +136,7 @@
         </div>
       </div>
 
-      <p>Related: <a href="/blog/film-b-roll-vertical-and-wide/">filming b-roll that works vertical and wide</a> · <a href="/blog/vertical-vs-horizontal-video/">vertical vs horizontal video, and which to shoot</a> · <a href="/blog/how-to-record-landscape-video-on-iphone/">how to record landscape video on iPhone</a> · <a href="/blog/film-ugc-vertical-and-horizontal/">filming UGC in vertical and horizontal from one take</a></p>
+      <p>Related: <a href="/blog/film-b-roll-vertical-and-wide/">filming b-roll that works vertical and wide</a> · <a href="/blog/vertical-vs-horizontal-video/">vertical vs horizontal video, and which to shoot</a> · <a href="/blog/how-to-record-landscape-video-on-iphone/">how to record landscape video on iPhone</a> · <a href="/blog/film-ugc-vertical-and-horizontal/">filming UGC in vertical and horizontal from one take</a> · <a href="/blog/convert-vertical-video-to-horizontal/">how to convert vertical video to horizontal</a></p>
     </article>
   </main>
 
