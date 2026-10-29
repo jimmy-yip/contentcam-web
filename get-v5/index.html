@@ -33,7 +33,7 @@
     .brand span img { width: 20px; height: 20px; border-radius: 50%; }
     h1 { font-size: 27px; line-height: 1.17; margin: 0 0 16px; letter-spacing: -.4px; }
     /* brand cyan is too pale for text on white (1.9:1), so light mode marks the phrase with a cyan bar; dark mode uses cyan text */
-    h1 em { font-style: normal; padding: 0 2px; background: linear-gradient(transparent 56%, var(--cyan) 56%); }
+    h1 em { font-style: normal; padding: 0 2px; background: linear-gradient(transparent 52%, var(--cyan) 52%, var(--cyan) 80%, transparent 80%); }
     @media (prefers-color-scheme: dark) { h1 em { background: none; padding: 0; color: var(--cyan); } }
     .pair { text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 10px; }
     .pair figure { margin: 0; }
@@ -78,7 +78,7 @@
     // link-click ads land here as /get?c=<creative>: the store links carry that ad's campaign token (ct=mt-<creative>),
     // and the hub counts the page view and the badge tap so landing loss and store loss can be told apart
     (function () {
-      var c = (new URLSearchParams(location.search).get("c") || "").replace(/[^\w-]/g, "").slice(0, 30);
+      var c = (new URLSearchParams(location.search).get("c") || "163k").replace(/[^\w-]/g, "").slice(0, 30);
       var ct = c ? "mt-" + c : "mt";
       // show the take each ad's reel demos, so the page opens on the scene the visitor just watched
       var take = { "163k": "064", "36k": "064", "37k": "064", "109k": "047" }[c];
