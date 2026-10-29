@@ -28,6 +28,12 @@
       box-shadow: 0 8px 28px rgba(41,198,218,.35);
     }
     a.btn:active { transform: translateY(1px); }
+    a.badge { display: inline-block; line-height: 0; }
+    a.badge img { width: 220px; height: auto; }
+    a.badge:active { transform: scale(.97); }
+    .cue { font-size: 2rem; line-height: 1; color: #16b8c7; margin: -8px 0 14px; animation: nudge 1.2s ease-in-out infinite; }
+    @keyframes nudge { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+    @media (prefers-reduced-motion: reduce) { .cue { animation: none; } }
     p.foot { margin-top: 28px; font-size: .85rem; color: #999; }
     p.foot a { color: #16b8c7; }
   </style>
@@ -35,13 +41,12 @@
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-  <img class="logo" src="../assets/app-icon.png" alt="ContentCam">
+  <img class="logo" src="/assets/app-icon.png" alt="ContentCam">
   <p class="brand">ContentCam</p>
   <h1>One take. Portrait <em>and</em> landscape.</h1>
   <p class="sub">Record both formats at the same time. No reshoots, no cropping in post. Ready-to-post for Reels, TikTok, Shorts and YouTube.</p>
-  <a class="btn" id="dl" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=mt&amp;mt=8">
-    Download on the App&nbsp;Store
-  </a>
+  <div class="cue" aria-hidden="true">↓</div>
+  <a class="badge" id="dl" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=mt&amp;mt=8"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="220" height="74"></a>
   <p class="foot">Also on <a id="play" href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dmeta%26utm_campaign%3Dmt">Google Play</a></p>
   <script>
     // link-click ads land here as /get?c=<creative>: the store links carry that ad's campaign token (ct=mt-<creative>)
