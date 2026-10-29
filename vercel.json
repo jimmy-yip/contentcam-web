@@ -1,6 +1,16 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/go/:id", "destination": "https://contentcam-hub.vercel.app/r/:id" }
+    {
+      "source": "/go/:id",
+      "destination": "https://contentcam-hub.vercel.app/r/:id"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/ios",
+      "destination": "/get?c=ios",
+      "permanent": false
+    }
   ]
 }
