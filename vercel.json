@@ -11,11 +11,6 @@
       "source": "/ios",
       "destination": "/get?c=ios",
       "permanent": false
-    },
-    {
-      "source": "/get-preview",
-      "destination": "/get-v5",
-      "permanent": false
     }
   ]
 }
