@@ -2,60 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ContentCam - Shoot portrait & landscape at the same time</title>
-  <meta name="description" content="ContentCam records portrait and landscape at the same time: one take, two formats, no reshoots. Download on the App Store.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ContentCam - Record vertical and horizontal at the same time</title>
+  <meta name="description" content="ContentCam records a vertical and a horizontal video from the same take: one for Reels and TikTok, one for YouTube. Free to download on the App Store.">
   <meta name="robots" content="noindex,follow">
-  <link rel="icon" href="../assets/icon.png">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="/assets/icon.png">
+  <link rel="preload" as="image" href="/assets/img/hero-portrait-400.webp">
+  <link rel="preload" as="image" href="/assets/img/hero-landscape-600.webp">
+  <!-- Landing page for Meta link-click ads (/get?c=<creative>). One screen, dark like the reel and the store screenshots.
+       The visitor's tap on the badge is the only way to the store: no auto-forward (Meta rejects App Store links on
+       Traffic ads, and forwarding would be cloaking). Page views and badge taps are counted at the hub (/api/lp). -->
   <style>
     * { box-sizing: border-box; }
+    html, body { margin: 0; background: #000; color: #fff; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      margin: 0; min-height: 100vh; background: #fafafa; color: #111;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      text-align: center; padding: 32px 24px;
+      min-height: 100svh; display: flex; flex-direction: column;
+      padding: max(16px, env(safe-area-inset-top)) 16px max(16px, env(safe-area-inset-bottom));
     }
-    img.logo { width: 104px; height: 104px; border-radius: 23px; margin-bottom: 14px;
-      box-shadow: 0 10px 30px rgba(30,198,212,.30); }
-    p.brand { font-weight: 700; font-size: 1.15rem; letter-spacing: .2px; margin: 0 0 22px; color: #111; }
-    h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 12px; max-width: 18ch; }
-    h1 em { color: #16b8c7; font-style: normal; }
-    p.sub { font-size: 1.05rem; line-height: 1.5; margin: 0 0 32px; max-width: 30ch; color: #555; }
-    a.btn {
-      display: inline-flex; align-items: center; gap: 10px;
-      background: #29c6da; color: #fff; text-decoration: none;
-      font-weight: 700; font-size: 1.1rem; padding: 16px 28px; border-radius: 14px;
-      box-shadow: 0 8px 28px rgba(41,198,218,.35);
-    }
-    a.btn:active { transform: translateY(1px); }
-    a.badge { display: inline-block; line-height: 0; }
-    a.badge img { width: 220px; height: auto; }
-    a.badge:active { transform: scale(.97); }
-    .cue { font-size: 2rem; line-height: 1; color: #16b8c7; margin: -8px 0 14px; animation: nudge 1.2s ease-in-out infinite; }
-    @keyframes nudge { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
-    @media (prefers-reduced-motion: reduce) { .cue { animation: none; } }
-    p.foot { margin-top: 28px; font-size: .85rem; color: #999; }
-    p.foot a { color: #16b8c7; }
+    main { width: 100%; max-width: 420px; margin: 0 auto; text-align: center; }
+    .brand { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 4px 0 20px; }
+    .brand img { width: 28px; height: 28px; border-radius: 7px; }
+    .brand span { font-weight: 600; font-size: 15px; color: #e6e6e6; }
+    .eyebrow { font-size: 13px; color: #8a8a8a; margin: 0 0 8px; }
+    h1 { font-size: 28px; line-height: 1.15; margin: 0 0 10px; letter-spacing: -.3px; }
+    h1 em { font-style: normal; color: #29c6da; }
+    .sub { font-size: 15px; line-height: 1.45; color: #a8a8a8; margin: 0 auto 20px; max-width: 32ch; }
+    .pair { display: flex; align-items: flex-end; justify-content: center; gap: 10px; margin: 0 0 8px; }
+    .pair figure { margin: 0; }
+    .pair img { display: block; border-radius: 10px; border: 1px solid #222; object-fit: cover; }
+    .pair .v img { width: 104px; height: 185px; }
+    .pair .h img { width: 222px; height: 125px; }
+    .pair figcaption { font-size: 11px; color: #8a8a8a; margin-top: 6px; }
+    .proof { font-size: 14px; color: #d0d0d0; margin: 18px 0 0; }
+    .proof b { color: #ffcc00; letter-spacing: 1px; font-weight: 600; }
+    .cta { display: inline-block; line-height: 0; margin: 18px 0; }
+    .cta img { width: 180px; height: auto; }
+    .reassure { font-size: 13px; color: #8a8a8a; margin: 0; }
+    blockquote { margin: 20px auto 0; max-width: 34ch; font-size: 14px; line-height: 1.45; color: #c8c8c8; }
+    blockquote cite { display: block; font-style: normal; font-size: 12px; color: #6f6f6f; margin-top: 4px; }
+    .android { font-size: 13px; color: #8a8a8a; margin: 18px 0 0; }
+    .android a { color: #29c6da; text-decoration: none; }
+    footer { margin-top: auto; padding-top: 24px; text-align: center; font-size: 12px; }
+    footer a { color: #777; margin: 0 6px; text-decoration: none; }
   </style>
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-  <img class="logo" src="/assets/app-icon.png" alt="ContentCam">
-  <p class="brand">ContentCam</p>
-  <h1>One take. Portrait <em>and</em> landscape.</h1>
-  <p class="sub">Record both formats at the same time. No reshoots, no cropping in post. Ready-to-post for Reels, TikTok, Shorts and YouTube.</p>
-  <div class="cue" aria-hidden="true">↓</div>
-  <a class="badge" id="dl" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=mt&amp;mt=8"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="220" height="74"></a>
-  <p class="foot">Also on <a id="play" href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dmeta%26utm_campaign%3Dmt">Google Play</a></p>
+  <main>
+    <div class="brand"><img src="/assets/icon.png" alt="" width="28" height="28"><span>ContentCam</span></div>
+    <p class="eyebrow">The app from Jimmy's reel</p>
+    <h1>Record vertical <em>and</em> horizontal at the same time</h1>
+    <p class="sub">Two videos from one take: one for Reels and TikTok, one for YouTube. No reshoots, no cropping.</p>
+
+    <div class="pair" aria-label="The same take saved as a vertical and a horizontal video">
+      <figure class="v"><img src="/assets/img/hero-portrait-400.webp" alt="Vertical 9:16 video of a sunset" width="104" height="185"><figcaption>9:16 · Reels, TikTok</figcaption></figure>
+      <figure class="h"><img src="/assets/img/hero-landscape-600.webp" alt="Horizontal 16:9 video of the same sunset" width="222" height="125"><figcaption>16:9 · YouTube</figcaption></figure>
+    </div>
+
+    <p class="proof"><b>★★★★★</b> 4.8 on the US App Store</p>
+    <a class="cta" id="dl" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=mt&amp;mt=8"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="180" height="60"></a>
+    <p class="reassure">Free to download · No account needed</p>
+
+    <blockquote>“Sometimes I have to take a video twice on two different devices and it’s great to be able to do it in one take now!”<cite>Jessxlin · App Store review</cite></blockquote>
+
+    <p class="android">On Android? <a id="play" href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dmeta%26utm_campaign%3Dmt">Get it on Google Play</a></p>
+  </main>
+  <footer><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/support">Contact</a></footer>
   <script>
-    // link-click ads land here as /get?c=<creative>: the store links carry that ad's campaign token (ct=mt-<creative>)
+    // link-click ads land here as /get?c=<creative>: the store links carry that ad's campaign token (ct=mt-<creative>),
+    // and the hub counts the page view and the badge tap so landing loss and store loss can be told apart
     (function () {
       var c = (new URLSearchParams(location.search).get("c") || "").replace(/[^\w-]/g, "").slice(0, 30);
-      if (!c) return;
-      var ct = "mt-" + c;
-      document.getElementById("dl").href = "https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=" + ct + "&mt=8";
-      document.getElementById("play").href = "https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=" + encodeURIComponent("utm_source=meta&utm_campaign=" + ct);
+      var ct = c ? "mt-" + c : "mt";
+      if (c) {
+        document.getElementById("dl").href = "https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=" + ct + "&mt=8";
+        document.getElementById("play").href = "https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=" + encodeURIComponent("utm_source=meta&utm_campaign=" + ct);
+      }
+      var hit = function (e) {
+        try { navigator.sendBeacon("https://contentcam-hub.vercel.app/api/lp?e=" + e + "&c=" + encodeURIComponent(ct)); } catch (_) {}
+      };
+      hit("view");
+      document.getElementById("dl").addEventListener("click", function () { hit("tap"); });
+      document.getElementById("play").addEventListener("click", function () { hit("play"); });
     })();
   </script>
 </body>
