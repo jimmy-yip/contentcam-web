@@ -89,6 +89,21 @@
       };
       hit("view");
       document.querySelectorAll(".store").forEach(function (a) { a.addEventListener("click", function () { hit("tap"); }); });
+
+      // Meta Pixel: the store-tap ad set optimises for StoreTap. Not loaded for European time zones (no consent
+      // banner here; the ads don't target Europe). Fired on pointerdown so it goes out before the App Store opens.
+      var tz = ""; try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (_) {}
+      if (!/^Europe\//.test(tz)) {
+        !function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); };
+          if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = "2.0"; n.queue = []; t = b.createElement(e); t.async = !0;
+          t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s); }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+        fbq("init", "2082369295778152");
+        fbq("track", "PageView");
+        var sent = false;
+        document.querySelectorAll(".store").forEach(function (a) {
+          a.addEventListener("pointerdown", function () { if (!sent) { sent = true; fbq("trackCustom", "StoreTap", { ct: ct }); } });
+        });
+      }
       document.getElementById("play").addEventListener("click", function () { hit("play"); });
     })();
   </script>
