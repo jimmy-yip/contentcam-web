@@ -83,7 +83,7 @@
         "@id": "https://contentcam.app/#faq",
         "mainEntity": [
           { "@type": "Question", "name": "Isn't the landscape just a crop of the portrait?", "acceptedAnswer": { "@type": "Answer", "text": "No. In Single Lens mode ContentCam records the sensor's full 4:3 frame and cuts each format from it, so the landscape keeps the full width and the portrait keeps the full height. Each file is encoded on its own in HEVC, at 1080×1920 and 1920×1080 or the 4K equivalents. Neither is an upscaled crop of the other." } },
-          { "@type": "Question", "name": "Is ContentCam free, or do I need a subscription?", "acceptedAnswer": { "@type": "Answer", "text": "It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark. Premium is optional and sold three ways: an annual plan with a free trial, a monthly plan, or a one-off lifetime purchase. All three unlock the same features, priced in your own currency in the App Store and Google Play." } },
+          { "@type": "Question", "name": "Is ContentCam free, or do I need a subscription?", "acceptedAnswer": { "@type": "Answer", "text": "It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark. Premium is optional, and you choose how to pay: an annual plan with a free trial, a monthly plan, or a one-time lifetime purchase. They all unlock the same features, priced in your local currency in the App Store and Google Play." } },
           { "@type": "Question", "name": "Can I try the premium features before paying?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every premium feature can be previewed live, including the manual dials. The paywall only appears when you press record with a premium feature switched on. Dual Lens and Front & Back also give you 5 free recordings each, and the annual plan starts with a free trial." } },
           { "@type": "Question", "name": "Is there a watermark?", "acceptedAnswer": { "@type": "Answer", "text": "Never, on any tier, free included." } },
           { "@type": "Question", "name": "Which phones does it work on?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone XS and later on iOS 18 or newer; Dual Lens mode needs iPhone 11 or later. Android 8.0 or newer; 4K, 60fps and manual exposure depend on what your phone's camera supports. Dual Lens and HDR are iPhone-only for now." } },
@@ -165,47 +165,54 @@
     .proof-stage { background: none; border: 0; padding: 0; align-items: flex-end; }
     .proof-9x16 { flex: 0 0 34%; } .proof-16x9 { flex: 0 0 62%; }
     .frame { box-shadow: none; }
-    .frame .tags { position: absolute; top: 8px; left: 8px; right: 8px; display: flex; flex-wrap: wrap; gap: 4px; }
-    .frame .tags span { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 600; line-height: 1; color: #fff; background: rgba(9,16,18,.74); padding: 4px 7px; border-radius: 6px; letter-spacing: .04em; white-space: nowrap; }
+    .frame .tags { position: absolute; top: 8px; left: 8px; right: 6px; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+    .frame .tags .row { display: flex; gap: 4px; }
+    .frame .tags .row span { font-size: 13px; font-weight: 600; line-height: 1; color: #fff; background: rgba(9,16,18,.74); padding: 5px 8px; border-radius: 7px; white-space: nowrap; }
+    @media (max-width: 860px) { .frame .tags .row span { font-size: 11px; padding: 4px 6px; border-radius: 6px; } }
     .hx-proofline { margin: 0; color: var(--text-soft); }
     .hx-reassure { margin: 2px 0 0; }
     .hx-kicker { margin: 0 0 4px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--cyan-ink); }
     .hx-feat { border-top: 3px solid var(--cyan); }
-    .hx-collage { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; padding: 14px 0 0; overflow-x: clip; }
-    .hx-col { display: flex; flex-direction: column; gap: 22px; }
-    .hx-collage figure { margin: 0; }
-    .hx-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.08); border-radius: 4px; }
-    .hx-col:nth-child(1) figure:nth-child(1) { transform: rotate(-1.4deg); }
-    .hx-col:nth-child(1) figure:nth-child(2) { transform: rotate(.8deg); }
-    .hx-col:nth-child(2) { padding-top: 26px; }
-    .hx-col:nth-child(2) figure:nth-child(1) { transform: rotate(1deg); }
-    .hx-col:nth-child(2) figure:nth-child(2) { transform: rotate(-.9deg); }
+    .hx-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 18px 0; }
+    .hx-col { display: flex; flex-direction: column; }
+    .hx-collage figure { margin: 0 -14px; position: relative; }
+    .hx-col figure + figure { margin-top: -12px; }
+    .hx-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.10); border-radius: 4px; }
+    .hx-col:nth-child(1) figure:nth-child(1) { transform: rotate(-1.6deg); z-index: 2; }
+    .hx-col:nth-child(1) figure:nth-child(2) { transform: rotate(1deg); z-index: 3; }
+    .hx-col:nth-child(2) { padding-top: 30px; }
+    .hx-col:nth-child(2) figure:nth-child(1) { transform: rotate(1.2deg); z-index: 4; }
+    .hx-col:nth-child(2) figure:nth-child(2) { transform: rotate(-1deg); z-index: 5; }
     .hx-col:nth-child(3) { padding-top: 8px; }
-    .hx-col:nth-child(3) figure:nth-child(1) { transform: rotate(-.7deg); }
-    .hx-col:nth-child(3) figure:nth-child(2) { transform: rotate(1.2deg); }
+    .hx-col:nth-child(3) figure:nth-child(1) { transform: rotate(-.8deg); z-index: 1; }
+    .hx-col:nth-child(3) figure:nth-child(2) { transform: rotate(1.4deg); z-index: 6; }
+    .hx-cta { margin-top: 24px; }
+    .hx-go { box-shadow: none; }
+    .hx-founder .lead { margin-bottom: 14px; }
     .hx-collage-cap { text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); margin: 26px 0 40px; }
     .hx-loops figure { position: relative; cursor: pointer; }
     .hx-loops video { width: 100%; height: 100%; object-fit: cover; display: block; background: #0b1416; }
     .hx-loops figure.paused::after { content: ""; position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%;
       background: rgba(9,16,18,.6) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z' fill='%23fff'/%3E%3C/svg%3E") center/26px no-repeat; }
-    .hx-founder { display: grid; grid-template-columns: 260px 1fr; gap: 36px; align-items: center; }
-    .hx-founder figure { margin: 0; aspect-ratio: 4/5; overflow: hidden; border-radius: 14px; }
-    .hx-founder img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .hx-founder-grid { display: grid; grid-template-columns: 300px 1fr; gap: 40px; align-items: center; }
+    .hx-founder figure { margin: 0; aspect-ratio: 3/4; overflow: hidden; border-radius: 16px; }
+    .hx-founder img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 0; display: block; }
     .hx-founder h2 { margin-top: 0; }
-    .hx-founder-text { font-size: 19px; line-height: 1.5; color: var(--ink); margin: 0 0 12px; }
     .hx-founder-by { margin: 0; color: var(--text-soft); font-size: 15px; }
+    .hx-founder-by b { color: var(--cyan-ink); }
     @media (max-width: 860px) {
-      .hx-collage { grid-template-columns: 1fr; gap: 14px; padding: 6px 4px 0; }
+      .hx-collage { grid-template-columns: 1fr; padding: 6px 6px 0; }
       .hx-col { display: contents; }
-      .hx-col figure:nth-child(2) { display: none; }
-      .hx-col:nth-child(1) figure:nth-child(1) { order: 1; width: 94%; }
-      .hx-col:nth-child(2) figure:nth-child(1) { order: 2; width: 94%; justify-self: end; }
-      .hx-col:nth-child(3) figure:nth-child(1) { order: 3; width: 94%; }
+      .hx-collage figure { margin: 0; width: 94%; }
+      .hx-col figure + figure { margin-top: 0; }
+      .hx-m1 { order: 1; } .hx-m2 { order: 2; justify-self: end; margin-top: -8px !important; } .hx-m3 { order: 3; margin-top: -8px !important; }
+      .hx-collage figure:not(.hx-m1):not(.hx-m2):not(.hx-m3) { display: none; }
+      .hx-col:nth-child(2) { padding-top: 0; }
       .hx-loops { grid-template-columns: 1fr 1fr; gap: 12px; }
       .hx-loops figure:nth-child(3) { display: none; }
       .hx-collage-cap { margin: 18px 0 30px; }
-      .hx-founder { grid-template-columns: 1fr; gap: 16px; }
-      .hx-founder figure { max-width: 300px; }
+      .hx-founder-grid { grid-template-columns: 1fr; gap: 20px; }
+      .hx-founder figure { aspect-ratio: 4/5; }
     }
   </style>
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -235,23 +242,23 @@
         <div>
           <span class="eyebrow"><span class="rec-dot"></span>One take · two formats</span>
           <h1>Stop filming<br>everything <span class="accent">twice.</span></h1>
-          <p class="tagline">ContentCam records <strong>portrait (9:16)</strong> and <strong>landscape (16:9)</strong> at the same time. One take gives you a vertical video for TikTok, Reels and Shorts, and a horizontal video for YouTube.</p>
+          <p class="tagline">ContentCam records <strong>portrait (9:16)</strong> and <strong>landscape (16:9)</strong> at the same time. One take gives you a vertical video for TikTok, Reels and Shorts, and a horizontal video for YouTube. Full frame both ways, not a crop.</p>
+          <p class="subnote hx-proofline">Rated <span class="star">★</span> 4.8 by 1,000+ creators · 50,000+ downloads</p>
           <div class="badges">
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-hero&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-hero%26utm_campaign%3Dhome2-hero"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Get it on Google Play" width="175" height="52"></a>
         </div>
-          <p class="subnote hx-proofline">Rated <span class="star">★</span> 4.8 by 1,000+ creators · 50,000+ downloads</p>
           <p class="subnote hx-reassure">Free to download · No ads · No watermark · No account needed</p>
         </div>
         <div class="proof">
           <div class="proof-stage">
             <div class="frame proof-9x16">
               <img src="/assets/img/hero-portrait.webp" srcset="/assets/img/hero-portrait-400.webp 400w, /assets/img/hero-portrait-700.webp 700w, /assets/img/hero-portrait.webp 1179w" sizes="(max-width: 860px) 48vw, 240px" alt="Portrait 9:16 still from a ContentCam recording at a Sydney sunset" width="900" height="1600" decoding="async">
-              <span class="tags"><span>TikTok</span><span>Reels</span><span>Shorts</span></span>
+              <span class="tags"><span class="row"><span>TikTok</span><span>Reels</span></span><span class="row"><span>Shorts</span></span></span>
             </div>
             <div class="frame proof-16x9">
               <img src="/assets/img/hero-landscape.webp" srcset="/assets/img/hero-landscape-600.webp 600w, /assets/img/hero-landscape-900.webp 900w, /assets/img/hero-landscape.webp 1179w" sizes="(max-width: 860px) 88vw, 340px" alt="Landscape 16:9 still from the same ContentCam recording" width="1179" height="663" fetchpriority="high" decoding="async">
-              <span class="tags"><span>YouTube</span></span>
+              <span class="tags"><span class="row"><span>YouTube</span></span></span>
             </div>
           </div>
           <p class="proof-cap">same moment · two files · one tap</p>
@@ -262,9 +269,9 @@
     <!-- Real reviews quoted verbatim (excerpts end at a full stop). App Store via apps.apple.com / RSS, Google Play via the
          public listing; checked 2026-10-08. -->
     <div class="hx-collage" aria-label="Real reviews from the App Store and Google Play">
-      <div class="hx-col"><figure><img src="/assets/reviews/r-ios-blowinbagzz.webp" alt="App Store review by Blowinbagzz, 5 stars: This app literally saves me so much time with the way that it records in both angles separates to two different albums and just makes editing so much easier ⭐️⭐️⭐️⭐️⭐️❤️🪴🐾☕️👶🏻 and the fact of using the front and back camera at the same time come on now it’s given you everything." width="1020" height="948" decoding="async"></figure><figure><img src="/assets/reviews/r-ios-amanda112.webp" alt="App Store review by Amanda112, 5 stars: Such a good app, saved me so much time and headache. Thank u jimmy solo developer" width="1027" height="617" loading="lazy" decoding="async"></figure></div>
-      <div class="hx-col"><figure><img src="/assets/reviews/r-play-yulahandro.webp" alt="Google Play review by Yulahandro, 5 stars: This app is a lifesaver for people who love recording videos but need the same version horizontally and vertically at the same time" width="995" height="546" decoding="async"></figure><figure><img src="/assets/reviews/r-ios-cindy26.webp" alt="App Store review by cindy_.26, 5 stars: this app has completelyyyy changed the way i record videos. especially if you're a content creator or someone who likes to document life, recording portrait and landscape at the same time is a game-changer!! it's also incredibly easy to use and the camera footage comes out perfect :)))" width="1027" height="945" loading="lazy" decoding="async"></figure></div>
-      <div class="hx-col"><figure><img src="/assets/reviews/r-ios-jessxlin.webp" alt="App Store review by Jessxlin, 5 stars: Sometimes I have to take a video twice on two different devices and it’s great to be able to do it in one take now!" width="1026" height="684" decoding="async"></figure><figure><img src="/assets/reviews/r-ios-pinkcarrib.webp" alt="App Store review by pinkcarrib, 5 stars: If you are a content creator doing UGC videos check out this app. It will change your life. Think about getting all the shots in one filming - think about reactions while filming -amazing." width="1027" height="825" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure class="hx-m1"><img src="/assets/reviews/r-ios-jessxlin.webp" alt="App Store review by Jessxlin, 5 stars: Sometimes I have to take a video twice on two different devices and it’s great to be able to do it in one take now!" width="1026" height="684" decoding="async"></figure><figure><img src="/assets/reviews/r-play-sue-ange.webp" alt="Google Play review by sue ange, 5 stars: Thank you for making this app! i think it totally save lots a hassle and lots of pain for user like me who always torn in between, whether should i take it in portrait or lanscape mode, lol." width="968" height="616" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure class="hx-m2"><img src="/assets/reviews/r-play-yulahandro.webp" alt="Google Play review by Yulahandro, 5 stars: This app is a lifesaver for people who love recording videos but need the same version horizontally and vertically at the same time" width="995" height="546" decoding="async"></figure><figure class="hx-m3"><img src="/assets/reviews/r-ios-pinkcarrib.webp" alt="App Store review by pinkcarrib, 5 stars: If you are a content creator doing UGC videos check out this app. It will change your life. Think about getting all the shots in one filming - think about reactions while filming -amazing." width="1027" height="825" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure><img src="/assets/reviews/r-ios-blowinbagzz.webp" alt="App Store review by Blowinbagzz, 5 stars: This app literally saves me so much time with the way that it records in both angles separates to two different albums and just makes editing so much easier ⭐️⭐️⭐️⭐️⭐️❤️🪴🐾☕️👶🏻 and the fact of using the front and back camera at the same time come on now it’s given you everything." width="1020" height="948" decoding="async"></figure><figure><img src="/assets/reviews/r-play-franciskurt.webp" alt="Google Play review by Franciskurt Rengalota, 5 stars: This is game changer 💖💖💖 you can record in two orientations 💖" width="1016" height="494" loading="lazy" decoding="async"></figure></div>
     </div>
     <p class="hx-collage-cap">Real reviews from the App Store and Google Play</p>
 
@@ -272,12 +279,13 @@
       <div class="wrap">
         <p class="section-eyebrow">Isn't one just a crop of the other?</p>
         <h2>No. Your landscape keeps the whole scene.</h2>
-        <p class="lead">Most apps record vertical, then chop a strip out of the middle to fake a wide shot. You lose everything left and right, upscaled. ContentCam records the sensor's full 4:3 frame and cuts both formats from it. The landscape genuinely shows more of the scene, at full resolution.</p>
+        <p class="lead">Most apps record vertical, then cut a horizontal strip out of the middle for YouTube. You lose the sides of the scene and most of the resolution. ContentCam uses the camera's full frame for both, so each video gets its own framing, and the landscape shows the whole width of the scene at full resolution.</p>
         <div class="shot-pair">
           <img src="/assets/img/ui-record-handsup-640.webp" srcset="/assets/img/ui-record-handsup-480.webp 480w, /assets/img/ui-record-handsup-640.webp 640w" sizes="(max-width: 860px) 66vw, 300px" alt="ContentCam recording screen with both the portrait and landscape framings visible" width="640" height="1387" loading="lazy" decoding="async">
           <img src="/assets/img/ui-review-sunset-640.webp" srcset="/assets/img/ui-review-sunset-480.webp 480w, /assets/img/ui-review-sunset-640.webp 640w" sizes="(max-width: 860px) 66vw, 300px" alt="ContentCam review screen showing the portrait and landscape takes side by side" width="640" height="1387" loading="lazy" decoding="async">
         </div>
         <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Tried three other apps before this, none worked as good as this one. Most just crop the same view, but this app you can actually choose between single or dual lens, which gives different outputs.</blockquote><figcaption>aimeèy · App Store AU · <time datetime="2026-05-19">May 2026</time></figcaption></figure>
+        <div class="hx-cta"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-crop&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-crop%26utm_campaign%3Dhome2-crop">Try it free</a></div>
         <p style="margin-top:18px"><a href="/features/dual-camera/">How the dual-format capture works →</a></p>
       </div>
     </section>
@@ -292,7 +300,7 @@
           <ul>
             <li><b>Single Lens:</b> portrait and landscape from the full sensor, neither a crop of the other</li>
             <li><b>Dual Lens:</b> wide and ultra-wide at once, for two different perspectives</li>
-            <li><b>Front &amp; Back:</b> your reaction and the scene together</li>
+            <li><b>Front &amp; Back:</b> your reaction and the scene, separate or combined</li>
             <li><b>Front Cam</b> in both formats, or <b>Stock Cam</b> for portrait only</li>
             <li><b>Photo mode:</b> a 9:16 and a 16:9 photo in one tap</li>
           </ul>
@@ -302,7 +310,7 @@
           <ul>
             <li>HD or 4K, set per format, at 24, 25, 30, 50 or 60fps</li>
             <li>Manual exposure, white balance, ISO, shutter and background blur</li>
-            <li>Tap to focus, hold to lock focus and exposure</li>
+            <li>Tap to focus, hold for AE/AF lock</li>
             <li>Built-in teleprompter that scrolls as you record</li>
             <li>Timelapse, 10x to 900x</li>
             <li>Stabilisation, grid, level and an audio meter</li>
@@ -332,20 +340,20 @@
         <figure><video src="/assets/video/loop-cant-record-both.mp4" poster="/assets/video/loop-cant-record-both-poster.jpg" muted loop playsinline preload="metadata" aria-label="Jimmy at a mountain lake, then the ContentCam recording and review screens"></video></figure>
         <figure><video src="/assets/video/loop-sunset-filming.mp4" poster="/assets/video/loop-sunset-filming-poster.jpg" muted loop playsinline preload="metadata" aria-label="Jimmy filming a Sydney sunset with ContentCam, then the portrait and landscape results"></video></figure>
       </div>
-      <div style="margin-top:26px"><div class="badges">
-          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-howitworks&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
-          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-howitworks%26utm_campaign%3Dhome2-howitworks"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Get it on Google Play" width="175" height="52"></a>
-        </div></div>
+      <div class="hx-cta"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-howitworks&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-howitworks%26utm_campaign%3Dhome2-howitworks">Try it free</a></div>
     </section>
 
     <!-- DRAFT founder story for Jimmy to edit -->
     <section class="hx-founder">
-      <figure><img src="/assets/img/life-couple.webp" alt="Jimmy and his girlfriend on a bench at sunset, watching a take back in ContentCam" width="720" height="1280" loading="lazy" decoding="async"></figure>
-      <div>
-        <h2>Made for creators</h2>
-        <p class="hx-founder-text">My girlfriend makes content, and every time we went out she filmed the same scene twice: once vertical for TikTok and Reels, then again horizontal for YouTube. By the second take the light had usually changed. I'd never built an app before, but I made one so she could hit record once and get both.</p>
-        <p class="hx-founder-text">Now creators all over the world use it, and I still build every update and read every review myself.</p>
-        <p class="hx-founder-by"><b>Jimmy Yip</b> · Sydney · <a href="https://www.instagram.com/contentwjimmy/" target="_blank" rel="noopener">@contentwjimmy</a></p>
+      <p class="section-eyebrow">From the founder</p>
+      <div class="hx-founder-grid">
+        <figure><img src="/assets/img/life-couple.webp" alt="Jimmy and his girlfriend on a bench at sunset, watching a take back in ContentCam" width="720" height="1280" loading="lazy" decoding="async"></figure>
+        <div>
+          <h2>Made for creators</h2>
+          <p class="lead">My girlfriend makes content, and every time we went out she filmed the same scene twice: once vertical for TikTok and Reels, then again horizontal for YouTube. By the second take, something had usually changed. So I made her an app that records both at once, and we could get back to our date.</p>
+          <p class="lead">Now creators all over the world use it, and I still build every update and read every review myself.</p>
+          <p class="hx-founder-by"><b>Jimmy Yip</b> · Sydney · <a href="https://www.instagram.com/contentwjimmy/" target="_blank" rel="noopener">@contentwjimmy</a></p>
+        </div>
       </div>
     </section>
 
@@ -366,8 +374,9 @@
     <section>
       <p class="section-eyebrow">Pricing</p>
       <h2>Free to use. Premium if you want more.</h2>
-      <p class="lead"><b>Free:</b> unlimited Single Lens recordings with pause and resume. No ads, no watermark, no account.<br><b>Premium:</b> Dual Lens (iPhone), Front &amp; Back, 4K, 60fps, manual controls, teleprompter, timelapse and every new feature as it lands.</p>
-      <p class="hx-pricing-note">Try it free on the annual plan, or buy it once and keep it. <a href="/pricing/">Compare plans →</a></p>
+      <p class="lead"><b>Free:</b> unlimited Single Lens recordings in both formats. No ads, no watermark, no account needed.<br><b>Premium:</b> Dual Lens (iPhone), Front &amp; Back, 4K, 50/60fps, manual controls, teleprompter, timelapse and every new feature that comes out.</p>
+      <p class="hx-pricing-note">Try Premium free on the annual plan, go monthly, or buy it once and keep it. <a href="/pricing/">Compare plans →</a></p>
+      <div class="hx-cta" style="margin:0 0 30px"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-pricing&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-pricing%26utm_campaign%3Dhome2-pricing">Try it free</a></div>
       <div class="rv-strip">
         <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Love this app, so much better than competitors and offers a lifetime purchase option.</blockquote><figcaption>cjxsutton · App Store US · <time datetime="2026-10-04">Oct 2026</time></figcaption></figure>
         <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>looking for a way to capture horizontal and vertical videos for YouTube and reels at once this is perfect💯. smooth and easy to use app, using for a month and not experienced any lagging with android phone.</blockquote><figcaption>Evangeline Eigbobo · Google Play · <time datetime="2026-10-04">Oct 2026</time></figcaption></figure>
@@ -396,7 +405,7 @@
       <p class="section-eyebrow">FAQ</p>
       <h2>Frequently asked questions</h2>
       <details><summary>Isn't the landscape just a crop of the portrait?</summary><p>No. In Single Lens mode ContentCam records the sensor's full 4:3 frame and cuts each format from it, so the landscape keeps the full width and the portrait keeps the full height. Each file is encoded on its own in HEVC, at 1080×1920 and 1920×1080 or the 4K equivalents. Neither is an upscaled crop of the other.</p></details>
-      <details><summary>Is ContentCam free, or do I need a subscription?</summary><p>It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark. Premium is optional and sold three ways: an annual plan with a free trial, a monthly plan, or a one-off lifetime purchase. All three unlock the same features, priced in your own currency in the App Store and Google Play.</p></details>
+      <details><summary>Is ContentCam free, or do I need a subscription?</summary><p>It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark. Premium is optional, and you choose how to pay: an annual plan with a free trial, a monthly plan, or a one-time lifetime purchase. They all unlock the same features, priced in your local currency in the App Store and Google Play.</p></details>
       <details><summary>Can I try the premium features before paying?</summary><p>Yes. Every premium feature can be previewed live, including the manual dials. The paywall only appears when you press record with a premium feature switched on. Dual Lens and Front &amp; Back also give you 5 free recordings each, and the annual plan starts with a free trial.</p></details>
       <details><summary>Is there a watermark?</summary><p>Never, on any tier, free included.</p></details>
       <details><summary>Which phones does it work on?</summary><p>iPhone XS and later on iOS 18 or newer; Dual Lens mode needs iPhone 11 or later. Android 8.0 or newer; 4K, 60fps and manual exposure depend on what your phone's camera supports. Dual Lens and HDR are iPhone-only for now.</p></details>
@@ -406,7 +415,7 @@
     </section>
 
     <section class="center hx-final">
-      <h2>Film your next video once.</h2>
+      <h2>Stop filming the same video twice.</h2>
       <p class="lead" style="margin:0 auto 26px;max-width:700px">Download it free, record one take, and get both formats ready to post.</p>
       <div class="badges center-x">
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-final&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
@@ -424,6 +433,7 @@
   <script>
     (function () {
       var bar = document.getElementById('ccbar'), go = document.getElementById('ccbar-go');
+      if (/android/i.test(navigator.userAgent || '')) document.querySelectorAll('.hx-go').forEach(function (a) { a.href = a.getAttribute('data-play').replace(/&amp;/g, '&'); });
       if (/android/i.test(navigator.userAgent || '')) go.href = 'https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dhome2-sticky%26utm_campaign%3Dhome2-sticky';
       var hero = document.getElementById('hx-hero');
       if (!('IntersectionObserver' in window)) { bar.classList.add('on'); bar.inert = false; return; }
