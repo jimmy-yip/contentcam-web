@@ -173,7 +173,7 @@
     .hx-reassure { margin: 2px 0 0; }
     .hx-kicker { margin: 0 0 4px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--cyan-ink); }
     .hx-feat { border-top: 3px solid var(--cyan); }
-    .hx-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 44px 0; }
+    .hx-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 12px 0; }
     .hx-col { display: flex; flex-direction: column; }
     .hx-collage figure { margin: 0 -2px; position: relative; }
     .hx-col figure + figure { margin-top: -6px; }
@@ -192,11 +192,13 @@
     body.hx .hero .hx-proofline { margin: 0 0 12px; }
     body.hx .hero .hx-reassure { margin-top: 12px; }
     .hx-founder .lead { margin-bottom: 14px; }
-    .hx-prv { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: start; padding: 6px 6px 0; }
+    .hx-prv { display: grid; grid-template-columns: 1fr 1fr; gap: 0 4px; align-items: start; max-width: 860px; margin: 0 auto; padding: 6px 8px 0; }
     .hx-prv figure { margin: 0; }
+    .hx-prv figure:nth-child(n+3) { margin-top: -4px; }
     .hx-prv img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.08); border-radius: 4px; }
-    .hx-prv figure:nth-child(1) { transform: rotate(-1deg); } .hx-prv figure:nth-child(2) { transform: rotate(.8deg); margin-top: 14px; } .hx-prv figure:nth-child(3) { transform: rotate(-.6deg); }
-    @media (max-width: 860px) { .hx-prv { grid-template-columns: 1fr; gap: 12px; } .hx-prv figure { width: 94%; } .hx-prv figure:nth-child(2) { justify-self: end; margin-top: 0; } .hx-prv .hx-dk { display: none; } }
+    .hx-prv figure:nth-child(1) { transform: rotate(-1.2deg); } .hx-prv figure:nth-child(2) { transform: rotate(.9deg); margin-top: 18px; }
+    .hx-prv figure:nth-child(3) { transform: rotate(.7deg); } .hx-prv figure:nth-child(4) { transform: rotate(-.8deg); }
+    @media (max-width: 860px) { .hx-prv { grid-template-columns: 1fr; padding: 6px 6px 0; } .hx-prv figure { width: 94%; margin-top: -8px !important; } .hx-prv figure:first-child { margin-top: 0 !important; } .hx-prv figure:nth-child(3) { justify-self: end; } .hx-prv .hx-dk { display: none; } }
     .hx-collage-cap { text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); margin: 26px 0 40px; }
     .hx-loops figure { position: relative; cursor: pointer; }
     .hx-loops video { width: 100%; height: 100%; object-fit: cover; display: block; background: #0b1416; }
@@ -359,7 +361,7 @@
         <figure><img src="/assets/img/life-couple.webp" alt="Jimmy and his girlfriend on a bench at sunset, watching a take back in ContentCam" width="720" height="1280" loading="lazy" decoding="async"></figure>
         <div>
           <h2>Made for creators</h2>
-          <p class="lead">My girlfriend makes content, and every time we went out she filmed the same scene twice: once vertically for TikTok and Reels, then again horizontally for YouTube. By the second take, something had usually changed. So I made her an app that records both at once.</p>
+          <p class="lead">My girlfriend makes content, and every time we went out she filmed the same scene twice: once vertically for TikTok and Reels, then again horizontally for YouTube. By the second take, something had usually changed. So I made her an app that records both at once, and now we spend less time filming and more time together.</p>
           <p class="lead">Now creators all over the world use it, and I still build every update and read every review myself.</p>
           <p class="hx-founder-by"><b>Jimmy Yip</b><br>Sydney · <a href="https://www.instagram.com/contentwjimmy/" target="_blank" rel="noopener">@contentwjimmy</a></p>
         </div>
@@ -384,12 +386,13 @@
       <p class="section-eyebrow">Pricing</p>
       <h2>Free to use. Premium when you want more.</h2>
       <p class="lead"><b>Free:</b> unlimited Single Lens recordings in both formats. No ads, no watermark, no account needed.<br><b>Premium:</b> Dual Lens (iPhone), Front &amp; Back, 4K, 50/60fps, manual controls, teleprompter, timelapse and every new feature that comes out.</p>
-      <p class="hx-pricing-note">Try Premium free on the annual plan, go monthly, or buy it once and keep it for life. <a href="/pricing/">Compare plans →</a></p>
+      <p class="lead hx-pricing-note">Try Premium free on the annual plan, go monthly, or buy it once and keep it for life. <a href="/pricing/">Compare plans →</a></p>
       <div class="hx-cta" style="margin:0 0 30px"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-pricing&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-pricing%26utm_campaign%3Dhome2-pricing">Try it free</a></div>
       <div class="hx-prv">
         <figure><img src="/assets/reviews/r-ios-amanda112.webp" alt="App Store review by Amanda112, 5 stars: Such a good app, saved me so much time and headache. Thank u jimmy solo developer" width="1027" height="617" loading="lazy" decoding="async"></figure>
+        <figure class="hx-dk"><img src="/assets/reviews/r-play-queen-werandra.webp" alt="Google Play review by Queen WerandRa, 5 stars: Fantastic, what a great app! Definitely buying the premium edit: Jimmy is awesome!" width="1021" height="494" loading="lazy" decoding="async"></figure>
         <figure><img src="/assets/reviews/r-ios-dhuddz.webp" alt="App Store review by Dhuddz, 5 stars: For months I tested other apps that brought the same proposal, but ContentCam became the best option to help with my work with content creation for social networks. The controls are simple, but complete and the interface is super intuitive. I bought it on Android and I have it again on iOS. I highly recommend it!" width="1020" height="940" loading="lazy" decoding="async"></figure>
-        <figure class="hx-dk"><img src="/assets/reviews/r-ios-maia-d.webp" alt="App Store review by Maia D 001, 5 stars: ContentCam has been such a helpful app for creating my content. It’s easy to use and makes my workflow so much smoother! Loving the teleprompter feature." width="1017" height="674" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-ios-maia-d.webp" alt="App Store review by Maia D 001, 5 stars: ContentCam has been such a helpful app for creating my content. It’s easy to use and makes my workflow so much smoother! Loving the teleprompter feature." width="1017" height="674" loading="lazy" decoding="async"></figure>
       </div>
     </section>
 
