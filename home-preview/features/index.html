@@ -14,12 +14,12 @@
   <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="/styles.css">
 <!-- /@head-common -->
-  <title>ContentCam Features: Portrait + Landscape at Once, Dual Lens, Teleprompter</title>
-  <meta name="description" content="Everything ContentCam does on iPhone and Android: portrait and landscape from one take, Dual Lens, Front &amp; Back with Combine, a teleprompter, manual controls, 4K, 60fps, timelapse and projects. See what's free and what's Premium.">
+  <title>ContentCam Features: Dual-Format Recording, Teleprompter &amp; More</title>
+  <meta name="description" content="Everything ContentCam does: simultaneous portrait + landscape recording, Dual Lens capture, Front &amp; Back with Combine, a built-in teleprompter, manual controls, timelapse, 4K and a creator workflow.">
   <link rel="canonical" href="https://contentcam.app/features/">
   <meta property="og:site_name" content="ContentCam">
   <meta property="og:title" content="ContentCam Features">
-  <meta property="og:description" content="Portrait and landscape from one take, Dual Lens, Front &amp; Back, teleprompter, manual controls, 4K and 60fps. What's free and what's Premium.">
+  <meta property="og:description" content="Simultaneous portrait + landscape recording, Dual Lens capture, Front &amp; Back, built-in teleprompter, manual controls, timelapse, 4K.">
   <meta property="og:image" content="https://contentcam.app/assets/og/og-features.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -27,7 +27,7 @@
   <meta property="og:url" content="https://contentcam.app/features/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ContentCam Features">
-  <meta name="twitter:description" content="Portrait and landscape from one take, Dual Lens, Front &amp; Back, teleprompter, manual controls, 4K and 60fps. What's free and what's Premium.">
+  <meta name="twitter:description" content="Portrait and landscape from one take, Dual Lens, Front &amp; Back, teleprompter, manual controls, 4K and 60fps.">
   <meta name="twitter:image" content="https://contentcam.app/assets/og/og-features.jpg">
   <script type="application/ld+json">
   {
@@ -37,7 +37,7 @@
         "@type": "WebPage",
         "@id": "https://contentcam.app/features/",
         "name": "ContentCam Features",
-        "description": "Everything ContentCam does on iPhone and Android: portrait and landscape from one take, Dual Lens, Front & Back with Combine, a teleprompter, manual controls, 4K, 60fps, timelapse and projects, with what's free and what's Premium.",
+        "description": "Everything ContentCam does on iPhone and Android: portrait and landscape from one take, Dual Lens, Front & Back with Combine, a teleprompter, manual controls, 4K, 60fps, timelapse and projects.",
         "about": { "@id": "https://contentcam.app/#app" },
         "primaryImageOfPage": "https://contentcam.app/assets/img/ui-record-handsdown-640.webp"
       },
@@ -104,9 +104,11 @@
     .fx-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; max-width: 460px; margin: 0 auto; }
     .fx-pair > * { min-width: 0; }
     .fx-solo { max-width: 250px; margin: 0 auto; }
+    .fx-proof { margin: 0 0 18px; font-size: 14px; color: var(--text-dim); } .fx-proof .star { color: var(--amber); }
     .fx-shot { margin: 0; }
+    .fx-photo img { border: 0 !important; }
     .fx-shot img { display: block; width: 100%; height: auto; border-radius: 18px; border: 1.5px solid var(--cyan); }
-    .fx-pair > :nth-child(2) { margin-top: 36px; }
+
     .fx-ph { aspect-ratio: 640/1388; border: 1.5px dashed var(--line-strong); border-radius: 18px; background: var(--surface-2); display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; line-height: 1.5; color: var(--amber-ink); }
     .fx-ph.wide { aspect-ratio: 4/3; max-width: 460px; margin: 0 auto; }
     .fx-review { margin: 22px auto 0; max-width: 420px; }
@@ -152,7 +154,7 @@
       .fx-row { grid-template-columns: 1fr; gap: 26px; }
       .fx-row.flip .fx-media { order: 0; }
       .fx-pair { gap: 12px; }
-      .fx-pair > :nth-child(2) { margin-top: 24px; }
+      .fx-dk-media { display: none; }
       .fx-ph { font-size: 11px; padding: 10px; }
       .fx-collage { grid-template-columns: 1fr; padding: 0 4px; }
       .fx-collage figure { margin: 0; width: 94%; }
@@ -189,19 +191,14 @@
       <div class="fx-hero-grid">
         <div>
           <p class="section-eyebrow">Features</p>
-          <h1>Film it once. Get it in <span class="accent">every shape.</span></h1>
-          <p class="lead">ContentCam records 9:16 portrait and 16:9 landscape at the same time, on iPhone and Android. Here's everything built around that, and exactly which parts are free.</p>
-          <a class="cta fx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=features-hero&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dfeatures-hero%26utm_campaign%3Dfeatures-hero">Try it free</a>
-          <div class="badges fx-dk">
-            <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=features-hero&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
-            <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dfeatures-hero%26utm_campaign%3Dfeatures-hero"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Get it on Google Play" width="175" height="52"></a>
-          </div>
-          <p class="fx-reassure">Free to download · No ads · No watermark · No account needed</p>
+          <h1>Record portrait and landscape <span class="accent">at the same time.</span></h1>
+          <p class="lead">One take gives you a vertical video for TikTok, Reels and Shorts, and a horizontal video for YouTube. Full frame both ways, not a crop. Here's everything else the app does.</p>
+          <p class="fx-proof">Rated <span class="star">★</span> 4.8 by 1,000+ creators · 50,000+ downloads</p>
           <nav class="fx-jump" aria-label="Jump to a feature group"><span>Jump to:</span><a href="#formats">Two formats</a><a href="#modes">Modes</a><a href="#controls">Controls</a><a href="#teleprompter">Teleprompter</a><a href="#organise">Projects</a><a href="#platforms">iPhone vs Android</a></nav>
         </div>
         <div class="fx-hero-media">
-          <figure class="fx-loop"><video src="/assets/video/loop-sunset-filming.mp4" poster="/assets/video/loop-sunset-filming-poster.jpg" muted loop playsinline preload="metadata" aria-label="Jimmy filming a Sydney sunset with ContentCam, then the portrait and landscape results"></video></figure>
-          <p class="fx-cap">filmed with ContentCam · tap to pause</p>
+          <figure class="fx-loop"><video src="/assets/video/loop-demo-sunset.mp4" poster="/assets/video/loop-demo-sunset-poster.jpg" muted loop playsinline preload="metadata" aria-label="Screen recording of ContentCam recording a sunset in both formats"></video></figure>
+          <p class="fx-cap">screen recording</p>
         </div>
       </div>
     </section>
@@ -210,17 +207,16 @@
       <div class="fx-row">
         <div>
           <p class="section-eyebrow">Two formats, one take</p>
-          <h2>Portrait and landscape from the same moment</h2>
-          <p class="lead">Single Lens mode uses the camera's full 4:3 frame and cuts both shapes from it. The portrait keeps the full height, the horizontal video keeps the full width, and each one is saved as its own file.</p>
+          <h2>A vertical and a horizontal video from every take</h2>
+          <p class="lead">Single Lens mode records the camera's full 4:3 frame and saves a 9:16 and a 16:9 from it. The vertical keeps the full height, the horizontal keeps the full width, and each one is its own file.</p>
           <ul class="fx-list">
-            <li><b>A vertical video</b> for TikTok, Reels and Shorts and <b>a horizontal video</b> for YouTube, every time you press record <span class="fx-tag">Free</span></li>
-            <li><b>1080p in both formats</b>, as many recordings as you like <span class="fx-tag">Free</span></li>
-            <li><b>4K</b>, set separately for each format <span class="fx-tag p">Premium</span></li>
-            <li><b>Portrait only</b> when you don't need the horizontal video <span class="fx-tag">Free</span></li>
+            <li><b>Vertical for TikTok, Reels and Shorts</b> and <b>horizontal for YouTube</b>, every time you press record</li>
+            <li><b>HD or 4K</b>, set separately for each format</li>
+            <li><b>Portrait only</b> when you don't need the horizontal video</li>
           </ul>
           <p class="fx-more"><a href="/features/dual-camera/">How dual-format capture works →</a></p>
         </div>
-        <div class="fx-media">
+        <div class="fx-media fx-dk-media">
           <div class="fx-formats">
             <div class="frame f9"><img src="/assets/img/hero-portrait-400.webp" srcset="/assets/img/hero-portrait-400.webp 400w, /assets/img/hero-portrait-700.webp 700w" sizes="(max-width: 860px) 32vw, 170px" alt="Portrait 9:16 still from a ContentCam recording at a Sydney sunset" width="400" height="712" loading="lazy" decoding="async"><span class="lbl">9:16</span></div>
             <div class="frame f16"><img src="/assets/img/hero-landscape-600.webp" srcset="/assets/img/hero-landscape-600.webp 600w, /assets/img/hero-landscape-900.webp 900w" sizes="(max-width: 860px) 58vw, 320px" alt="Landscape 16:9 still from the same ContentCam recording" width="600" height="338" loading="lazy" decoding="async"><span class="lbl">16:9</span></div>
@@ -234,14 +230,15 @@
       <div class="fx-row flip">
         <div>
           <p class="section-eyebrow">Recording modes</p>
-          <h2>More than one way to film</h2>
-          <p class="lead">Switch modes from the camera screen. The two big Premium modes come with free recordings, so you can see what you get before paying.</p>
+          <h2>Many ways to record</h2>
+          <p class="lead">Switch modes from the bar at the bottom of the camera screen.</p>
           <ul class="fx-list">
-            <li><b>Dual Lens:</b> the wide and ultra-wide cameras at once, so the two videos have different framing. iPhone 11 or later. <span class="fx-tag p">Premium · 5 free</span></li>
-            <li><b>Front &amp; Back:</b> your face and the scene in one take. Keep them as separate files, or Combine them into one video, picture-in-picture or split screen. <span class="fx-tag p">Premium · 5 free</span></li>
-            <li><b>Front camera</b> in both formats <span class="fx-tag">Free</span></li>
-            <li><b>Photo mode:</b> a 9:16 and a 16:9 photo in one tap <span class="fx-tag p">Premium</span></li>
-            <li><b>Timelapse</b> in both formats <span class="fx-tag p">Premium</span></li>
+            <li><b>Single Lens:</b> portrait and landscape from the full sensor, neither a crop of the other</li>
+            <li><b>Dual Lens:</b> wide and ultra-wide at once, for two different perspectives. iPhone 11 or later.</li>
+            <li><b>Front &amp; Back:</b> your reaction and the scene in one take, as two files or combined into one video, picture-in-picture or split screen</li>
+            <li><b>Front camera</b> in both formats, for talking to camera</li>
+            <li><b>Photo mode:</b> a 9:16 and a 16:9 photo in one tap</li>
+            <li><b>Timelapse</b>, 10x to 900x</li>
           </ul>
         </div>
         <div class="fx-media">
@@ -256,24 +253,23 @@
     <section id="controls">
       <div class="fx-row">
         <div>
-          <p class="section-eyebrow">Camera controls</p>
-          <h2>Leave it on auto, or take over</h2>
-          <p class="lead">Every Premium dial works in the live preview first. You only see the paywall when you press record with one switched on.</p>
+          <p class="section-eyebrow">Pro camera controls</p>
+          <h2>Shoot like a pro</h2>
+          <p class="lead">Leave everything on auto, or set it yourself and lock it so the shot doesn't drift mid-take.</p>
           <ul class="fx-list">
-            <li><b>Tap to focus</b>, hold for AE/AF lock <span class="fx-tag">Free</span></li>
-            <li><b>Exposure compensation</b> <span class="fx-tag">Free</span></li>
-            <li><b>Manual white balance, ISO and shutter speed</b> <span class="fx-tag p">Premium</span></li>
-            <li><b>24, 25 or 30fps</b> <span class="fx-tag">Free</span><br><b>50 or 60fps</b> <span class="fx-tag p">Premium</span></li>
-            <li><b>Stabilisation</b> on by default, plus <b>HDR video</b> on iPhone <span class="fx-tag">Free</span></li>
-            <li><b>Background blur</b>, in beta on Android <span class="fx-tag p">Premium</span></li>
-            <li><b>Grid, level and audio meter</b> <span class="fx-tag">Free</span></li>
+            <li><b>HD or 4K</b> at 24, 25, 30, 50 or 60fps</li>
+            <li><b>Manual exposure, white balance, ISO and shutter</b></li>
+            <li><b>Tap to focus</b>, hold for AE/AF lock</li>
+            <li><b>Stabilisation</b>, plus <b>HDR video</b> on iPhone</li>
+            <li><b>Background blur</b> on Android, in beta</li>
+            <li><b>Grid, level and audio meter</b></li>
           </ul>
           <p class="fx-note">On Android, 4K, 60fps and manual ISO and shutter depend on what your phone's camera supports. The app checks and only offers what it can record.</p>
           <p class="fx-more"><a href="/features/manual-controls/">Manual controls in detail →</a></p>
         </div>
         <div class="fx-media">
           <div class="fx-solo">
-            <figure class="fx-loop"><video src="/assets/video/loop-demo-sunset.mp4" poster="/assets/video/loop-demo-sunset-poster.jpg" muted loop playsinline preload="none" aria-label="Screen recording of ContentCam recording a sunset in both formats"></video></figure>
+            <figure class="fx-shot fx-photo"><img src="/assets/img/life-jimmy-2.webp" alt="Filming a sunset over the water with ContentCam, the resolution and frame rate settings at the top of the screen" width="720" height="1280" loading="lazy" decoding="async"></figure>
           </div>
         </div>
       </div>
@@ -283,12 +279,11 @@
       <div class="fx-row flip">
         <div>
           <p class="section-eyebrow">Teleprompter</p>
-          <h2>Read your script without looking away</h2>
-          <p class="lead">Write or paste up to 15,000 characters. It scrolls over the camera view while you record, at the speed you set.</p>
+          <h2>Read your script while you record</h2>
+          <p class="lead">Paste up to 15,000 characters and it scrolls over the camera view at the speed you set, so your eyes stay near the lens.</p>
           <ul class="fx-list">
-            <li><b>Speed, text size, colour</b> and where the reading line sits <span class="fx-tag p">Premium</span></li>
-            <li><b>Mirror mode</b> for teleprompter rigs <span class="fx-tag p">Premium</span></li>
-            <li><b>Set it up and test it</b> before you pay. Premium is only needed to record with it on. <span class="fx-tag">Free</span></li>
+            <li><b>Speed, text size and colour</b>, and where the reading line sits</li>
+            <li><b>Mirror mode</b> for teleprompter rigs</li>
           </ul>
           <p class="fx-more"><a href="/features/teleprompter/">More on the teleprompter →</a></p>
         </div>
@@ -301,16 +296,15 @@
     <section id="organise">
       <div class="fx-row">
         <div>
-          <p class="section-eyebrow">Projects and review</p>
-          <h2>Every take filed, named and easy to find</h2>
-          <p class="lead">No more digging through your camera roll for the right version. Takes are sorted as you film.</p>
+          <p class="section-eyebrow">Projects and takes</p>
+          <h2>Stay organised</h2>
+          <p class="lead">Every take is filed by project and scene and named for you, so you're not digging through your camera roll for the right version.</p>
           <ul class="fx-list">
-            <li><b>Projects, scenes and takes</b>, with files named for you, like <code>my_project_scene_001_Portrait.mov</code> <span class="fx-tag">3 free</span> <span class="fx-tag p">Unlimited</span></li>
-            <li><b>Review both videos side by side</b> after every take <span class="fx-tag">Free</span></li>
-            <li><b>Trim</b> before you save <span class="fx-tag p">Premium</span></li>
-            <li><b>Pause and carry on</b> in the same take <span class="fx-tag">Free</span></li>
-            <li><b>Pick the folder</b> your recordings go into, and move or reorder your library <span class="fx-tag">Free</span></li>
-            <li><b>Interrupted takes recovered</b> next time you open the app <span class="fx-tag">Free</span></li>
+            <li><b>Projects, scenes and takes</b>, with files named like <code>my_project_scene_001_Portrait.mov</code></li>
+            <li><b>Review both videos side by side</b> after every take, and trim before you save</li>
+            <li><b>Pause and carry on</b> in the same take</li>
+            <li><b>Pick the folder</b> your recordings go into</li>
+            <li><b>Interrupted takes recovered</b> next time you open the app</li>
           </ul>
         </div>
         <div class="fx-media">
@@ -323,8 +317,8 @@
     </section>
 
     <section>
-      <p class="section-eyebrow">From people who use it</p>
-      <h2>Simple to use, hard to go back</h2>
+      <p class="section-eyebrow">Reviews</p>
+      <h2>What creators say</h2>
       <!-- Real reviews, screenshots in assets/reviews (same source set as the homepage) -->
       <div class="fx-collage" aria-label="Real reviews from the App Store and Google Play">
         <figure><img src="/assets/reviews/r-ios-cindy26.webp" alt="App Store review by cindy_.26, 5 stars: this app has completelyyyy changed the way i record videos. especially if you're a content creator or someone who likes to document life, recording portrait and landscape at the same time is a game-changer!! it's also incredibly easy to use and the camera footage comes out perfect :)))" width="1027" height="945" loading="lazy" decoding="async"></figure>
@@ -338,7 +332,7 @@
     <section id="platforms">
       <p class="section-eyebrow">iPhone and Android</p>
       <h2>Same app on both, with a few differences</h2>
-      <p class="lead">One developer builds both apps natively. Almost everything on this page works on either phone. Here's where they differ today.</p>
+      <p class="lead">Both apps are built natively, and almost everything on this page works on either phone. These are the differences today.</p>
       <div class="fx-plat">
         <div>
           <h3>iPhone only</h3>
@@ -355,7 +349,7 @@
           </ul>
         </div>
       </div>
-      <p class="fx-more"><a href="/android/">More about the Android app →</a><a href="/pricing/">Free vs Premium, side by side →</a></p>
+      <p class="fx-more"><a href="/android/">More about the Android app →</a><a href="/pricing/">Compare Free and Premium →</a></p>
     </section>
 
     <section>
@@ -370,7 +364,7 @@
     </section>
 
     <section class="fx-final">
-      <h2>Try it on your next video.</h2>
+      <h2>Stop filming the same video twice.</h2>
       <p class="lead">Download it free, record one take, and get both formats ready to post.</p>
       <div class="badges center-x">
         <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=features-final&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
