@@ -161,43 +161,51 @@
     }
 
     /* human pass (31 Oct / 1 Nov) */
-    body.hx { --maxw: 1160px; }
-    body.hx .hero-grid { grid-template-columns: 0.95fr 1.05fr; }
-    .proof-stage { background: none; border: 0; padding: 0; align-items: center; }
+    @media (min-width: 861px) { body.hx .hero-grid { grid-template-columns: 0.95fr 1.05fr; gap: 48px; } }
+    .proof-stage { background: none; border: 0; padding: 0; align-items: flex-end; }
     .proof-9x16 { flex: 0 0 34%; } .proof-16x9 { flex: 0 0 62%; }
     .frame { box-shadow: none; }
     .frame .tags { position: absolute; top: 8px; left: 8px; right: 8px; display: flex; flex-wrap: wrap; gap: 4px; }
-    .frame .tags span { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 600; line-height: 1; color: var(--cyan); background: rgba(9,16,18,.74); padding: 4px 7px; border-radius: 6px; letter-spacing: .02em; white-space: nowrap; }
+    .frame .tags span { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; font-weight: 600; line-height: 1; color: #fff; background: rgba(9,16,18,.74); padding: 4px 7px; border-radius: 6px; letter-spacing: .04em; white-space: nowrap; }
     .hx-proofline { margin: 0; color: var(--text-soft); }
     .hx-reassure { margin: 2px 0 0; }
-    .hx-kicker { margin: 0 0 2px; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--text-dim); }
-    .hx-collage { display: flex; justify-content: center; align-items: flex-start; padding: 18px 0 6px; }
-    .hx-collage figure { margin: 0 -1.2%; flex: 0 1 35%; }
-    .hx-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 8px 24px rgba(24,20,12,.10); border-radius: 4px; }
-    .hx-collage figure:nth-child(1) { transform: rotate(-2deg); z-index: 3; }
-    .hx-collage figure:nth-child(2) { transform: rotate(1.5deg) translateY(22px); z-index: 2; }
-    .hx-collage figure:nth-child(3) { transform: rotate(-1deg) translateY(6px); z-index: 1; }
+    .hx-kicker { margin: 0 0 4px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--cyan-ink); }
+    .hx-feat { border-top: 3px solid var(--cyan); }
+    .hx-collage { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; padding: 14px 0 0; overflow-x: clip; }
+    .hx-col { display: flex; flex-direction: column; gap: 22px; }
+    .hx-collage figure { margin: 0; }
+    .hx-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.08); border-radius: 4px; }
+    .hx-col:nth-child(1) figure:nth-child(1) { transform: rotate(-1.4deg); }
+    .hx-col:nth-child(1) figure:nth-child(2) { transform: rotate(.8deg); }
+    .hx-col:nth-child(2) { padding-top: 26px; }
+    .hx-col:nth-child(2) figure:nth-child(1) { transform: rotate(1deg); }
+    .hx-col:nth-child(2) figure:nth-child(2) { transform: rotate(-.9deg); }
+    .hx-col:nth-child(3) { padding-top: 8px; }
+    .hx-col:nth-child(3) figure:nth-child(1) { transform: rotate(-.7deg); }
+    .hx-col:nth-child(3) figure:nth-child(2) { transform: rotate(1.2deg); }
     .hx-collage-cap { text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); margin: 26px 0 40px; }
     .hx-loops figure { position: relative; cursor: pointer; }
     .hx-loops video { width: 100%; height: 100%; object-fit: cover; display: block; background: #0b1416; }
     .hx-loops figure.paused::after { content: ""; position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%;
       background: rgba(9,16,18,.6) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z' fill='%23fff'/%3E%3C/svg%3E") center/26px no-repeat; }
-    .hx-founder { display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: center; }
+    .hx-founder { display: grid; grid-template-columns: 260px 1fr; gap: 36px; align-items: center; }
     .hx-founder figure { margin: 0; aspect-ratio: 4/5; overflow: hidden; border-radius: 14px; }
     .hx-founder img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .hx-founder h2 { margin-top: 0; }
     .hx-founder-text { font-size: 19px; line-height: 1.5; color: var(--ink); margin: 0 0 12px; }
     .hx-founder-by { margin: 0; color: var(--text-soft); font-size: 15px; }
     @media (max-width: 860px) {
-      .hx-collage { flex-direction: column; align-items: stretch; padding-top: 10px; }
-      .hx-collage figure { margin: 0; width: 90%; }
-      .hx-collage figure + figure { margin-top: -14px; }
-      .hx-collage figure:nth-child(1) { transform: rotate(-1.5deg); }
-      .hx-collage figure:nth-child(2) { transform: rotate(1.2deg); align-self: flex-end; }
-      .hx-collage figure:nth-child(3) { transform: rotate(-0.8deg); }
+      .hx-collage { grid-template-columns: 1fr; gap: 14px; padding: 6px 4px 0; }
+      .hx-col { display: contents; }
+      .hx-col figure:nth-child(2) { display: none; }
+      .hx-col:nth-child(1) figure:nth-child(1) { order: 1; width: 94%; }
+      .hx-col:nth-child(2) figure:nth-child(1) { order: 2; width: 94%; justify-self: end; }
+      .hx-col:nth-child(3) figure:nth-child(1) { order: 3; width: 94%; }
+      .hx-loops { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .hx-loops figure:nth-child(3) { display: none; }
       .hx-collage-cap { margin: 18px 0 30px; }
       .hx-founder { grid-template-columns: 1fr; gap: 16px; }
-      .hx-founder figure { max-width: 260px; }
+      .hx-founder figure { max-width: 300px; }
     }
   </style>
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -254,9 +262,9 @@
     <!-- Real reviews quoted verbatim (excerpts end at a full stop). App Store via apps.apple.com / RSS, Google Play via the
          public listing; checked 2026-10-08. -->
     <div class="hx-collage" aria-label="Real reviews from the App Store and Google Play">
-      <figure><img src="/assets/reviews/r-ios-blowinbagzz.webp" alt="App Store review by Blowinbagzz, 5 stars: This app literally saves me so much time with the way that it records in both angles separates to two different albums and just makes editing so much easier ⭐️⭐️⭐️⭐️⭐️❤️🪴🐾☕️👶🏻 and the fact of using the front and back camera at the same time come on now it’s given you everything." width="1020" height="948" decoding="async"></figure>
-      <figure><img src="/assets/reviews/r-ios-jessxlin.webp" alt="App Store review by Jessxlin, 5 stars: Sometimes I have to take a video twice on two different devices and it’s great to be able to do it in one take now!" width="1026" height="684" decoding="async"></figure>
-      <figure><img src="/assets/reviews/r-play-yulahandro.webp" alt="Google Play review by Yulahandro, 5 stars: This app is a lifesaver for people who love recording videos but need the same version horizontally and vertically at the same time" width="995" height="546" decoding="async"></figure>
+      <div class="hx-col"><figure><img src="/assets/reviews/r-ios-blowinbagzz.webp" alt="App Store review by Blowinbagzz, 5 stars: This app literally saves me so much time with the way that it records in both angles separates to two different albums and just makes editing so much easier ⭐️⭐️⭐️⭐️⭐️❤️🪴🐾☕️👶🏻 and the fact of using the front and back camera at the same time come on now it’s given you everything." width="1020" height="948" decoding="async"></figure><figure><img src="/assets/reviews/r-ios-amanda112.webp" alt="App Store review by Amanda112, 5 stars: Such a good app, saved me so much time and headache. Thank u jimmy solo developer" width="1027" height="617" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure><img src="/assets/reviews/r-play-yulahandro.webp" alt="Google Play review by Yulahandro, 5 stars: This app is a lifesaver for people who love recording videos but need the same version horizontally and vertically at the same time" width="995" height="546" decoding="async"></figure><figure><img src="/assets/reviews/r-ios-cindy26.webp" alt="App Store review by cindy_.26, 5 stars: this app has completelyyyy changed the way i record videos. especially if you're a content creator or someone who likes to document life, recording portrait and landscape at the same time is a game-changer!! it's also incredibly easy to use and the camera footage comes out perfect :)))" width="1027" height="945" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure><img src="/assets/reviews/r-ios-jessxlin.webp" alt="App Store review by Jessxlin, 5 stars: Sometimes I have to take a video twice on two different devices and it’s great to be able to do it in one take now!" width="1026" height="684" decoding="async"></figure><figure><img src="/assets/reviews/r-ios-pinkcarrib.webp" alt="App Store review by pinkcarrib, 5 stars: If you are a content creator doing UGC videos check out this app. It will change your life. Think about getting all the shots in one filming - think about reactions while filming -amazing." width="1027" height="825" loading="lazy" decoding="async"></figure></div>
     </div>
     <p class="hx-collage-cap">Real reviews from the App Store and Google Play</p>
 
@@ -293,7 +301,7 @@
           <p class="hx-kicker">Pro camera controls</p><h3>Shoot like a pro</h3>
           <ul>
             <li>HD or 4K, set per format, at 24, 25, 30, 50 or 60fps</li>
-            <li>Manual exposure, white balance, ISO, shutter and blur</li>
+            <li>Manual exposure, white balance, ISO, shutter and background blur</li>
             <li>Tap to focus, hold to lock focus and exposure</li>
             <li>Built-in teleprompter that scrolls as you record</li>
             <li>Timelapse, 10x to 900x</li>
@@ -317,8 +325,8 @@
 
     <section>
       <p class="section-eyebrow">How it works</p>
-      <h2>Tap record once, get both videos</h2>
-      <p class="lead">Real videos, filmed with the app by Jimmy, who builds it.</p>
+      <h2>Record once, get both videos</h2>
+      <p class="lead">Real videos, filmed with the app by Jimmy, the solo developer behind ContentCam.</p>
       <div class="lifestyle-strip hx-loops">
         <figure><video src="/assets/video/loop-demo-sunset.mp4" poster="/assets/video/loop-demo-sunset-poster.jpg" muted loop playsinline preload="metadata" aria-label="Screen recording of ContentCam recording a sunset in both formats"></video></figure>
         <figure><video src="/assets/video/loop-cant-record-both.mp4" poster="/assets/video/loop-cant-record-both-poster.jpg" muted loop playsinline preload="metadata" aria-label="Jimmy at a mountain lake, then the ContentCam recording and review screens"></video></figure>
@@ -330,12 +338,13 @@
         </div></div>
     </section>
 
-    <!-- PREVIEW PLACEHOLDER: Jimmy writes these sentences himself -->
+    <!-- DRAFT founder story for Jimmy to edit -->
     <section class="hx-founder">
-      <figure><img src="/assets/img/life-jimmy-2.webp" alt="Jimmy Yip filming a sunset in Sydney with ContentCam" width="720" height="1280" loading="lazy" decoding="async"></figure>
+      <figure><img src="/assets/img/life-couple.webp" alt="Jimmy and his girlfriend on a bench at sunset, watching a take back in ContentCam" width="720" height="1280" loading="lazy" decoding="async"></figure>
       <div>
         <h2>Made for creators</h2>
-        <p class="hx-founder-text">[Your story, in your words: you built it for your girlfriend after watching her film every scene twice.]</p>
+        <p class="hx-founder-text">My girlfriend makes content, and every time we went out she filmed the same scene twice: once vertical for TikTok and Reels, then again horizontal for YouTube. By the second take the light had usually changed. I'd never built an app before, but I made one so she could hit record once and get both.</p>
+        <p class="hx-founder-text">Now creators all over the world use it, and I still build every update and read every review myself.</p>
         <p class="hx-founder-by"><b>Jimmy Yip</b> · Sydney · <a href="https://www.instagram.com/contentwjimmy/" target="_blank" rel="noopener">@contentwjimmy</a></p>
       </div>
     </section>
@@ -356,9 +365,9 @@
 
     <section>
       <p class="section-eyebrow">Pricing</p>
-      <h2>Free to use, with an optional upgrade</h2>
-      <p class="lead">The free tier is a real dual-format camera: unlimited recordings at 1080p and 30fps, front camera, three projects, no ads, no watermark and no account needed. Premium adds Dual Lens (iPhone), Front &amp; Back, photo mode, 4K, 60fps, manual controls, the teleprompter, timelapse, and every new Premium feature as it comes out.</p>
-      <p class="hx-pricing-note">Start Premium with a free trial on the annual plan, or unlock it for good with a one-time purchase. Same features either way. <a href="/pricing/">Full feature table →</a></p>
+      <h2>Free to use. Premium if you want more.</h2>
+      <p class="lead"><b>Free:</b> unlimited Single Lens recordings with pause and resume. No ads, no watermark, no account.<br><b>Premium:</b> Dual Lens (iPhone), Front &amp; Back, 4K, 60fps, manual controls, teleprompter, timelapse and every new feature as it lands.</p>
+      <p class="hx-pricing-note">Try it free on the annual plan, or buy it once and keep it. <a href="/pricing/">Compare plans →</a></p>
       <div class="rv-strip">
         <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Love this app, so much better than competitors and offers a lifetime purchase option.</blockquote><figcaption>cjxsutton · App Store US · <time datetime="2026-10-04">Oct 2026</time></figcaption></figure>
         <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>looking for a way to capture horizontal and vertical videos for YouTube and reels at once this is perfect💯. smooth and easy to use app, using for a month and not experienced any lagging with android phone.</blockquote><figcaption>Evangeline Eigbobo · Google Play · <time datetime="2026-10-04">Oct 2026</time></figcaption></figure>
