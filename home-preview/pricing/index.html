@@ -57,7 +57,7 @@
           { "@type": "Question", "name": "What happens if I cancel my subscription?", "acceptedAnswer": { "@type": "Answer", "text": "You keep Premium until the end of the period you paid for, then the app goes back to the free tier. Your recordings and projects stay where they are." } },
           { "@type": "Question", "name": "Lifetime or subscription: which should I pick?", "acceptedAnswer": { "@type": "Answer", "text": "All three plans unlock the same features, including every new feature that comes out. Lifetime is one payment with nothing to renew. Annual costs much less per month than monthly and is the only plan with a free trial. Monthly suits a single project: use it while you need it, then cancel." } },
           { "@type": "Question", "name": "Does Premium work with Family Sharing?", "acceptedAnswer": { "@type": "Answer", "text": "On iPhone, the lifetime purchase includes Family Sharing for up to 6 people." } },
-          { "@type": "Question", "name": "Does my purchase carry over between iPhone and Android?", "acceptedAnswer": { "@type": "Answer", "text": "Purchases belong to the Apple or Google account you bought with, so they come with you to any new phone on the same store: tap Restore Purchases in Settings. They don't move between the App Store and Google Play by themselves. If you bought lifetime and you're switching between iPhone and Android, email contentcam.app@gmail.com with your order number and I'll help you move it." } },
+          { "@type": "Question", "name": "Does my purchase carry over between iPhone and Android?", "acceptedAnswer": { "@type": "Answer", "text": "Purchases belong to the Apple or Google account you bought with, so they come with you to any new phone on the same store: tap Restore Purchases in Settings. They don't move between the App Store and Google Play by themselves." } },
           { "@type": "Question", "name": "Where do I see the price?", "acceptedAnswer": { "@type": "Answer", "text": "In the app, or on the App Store and Google Play listings. Prices are set for each country in your local currency, so one number here would be wrong for most people. You always see the exact price before you confirm." } },
           { "@type": "Question", "name": "Are there ads or a watermark on the free version?", "acceptedAnswer": { "@type": "Answer", "text": "No. There are no ads and no watermark on any plan, free included, and no account needed." } }
         ]
@@ -84,6 +84,8 @@
     .px-hero .lead { font-size: 18px; margin-bottom: 24px; }
     .px-reassure { margin: 14px 0 0; font-size: 14px; color: var(--text-dim); }
     a.cta.px-go { box-shadow: none; color: #06222a; }
+    @media (max-width: 860px) { a.cta.px-go { display: flex; justify-content: center; width: 100%; padding: 15px 20px; } .px-dk { display: none; } }
+    @media (min-width: 861px) { a.cta.px-go { display: none; } .px-dk { margin-top: 4px; } }
     a.cta.px-go:hover { transform: none; }
     .px-hero-media { justify-self: center; width: 100%; max-width: 260px; }
     .px-loop { margin: 0; position: relative; cursor: pointer; aspect-ratio: 9/16; overflow: hidden; border-radius: 18px; background: #0b1416; }
@@ -105,7 +107,7 @@
     .px-tier li { position: relative; padding: 0 0 0 24px; margin: 0 0 10px; font-size: 15.5px; line-height: 1.45; color: var(--text-soft); }
     .px-tier li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--cyan-ink); font-weight: 700; }
     .px-tier li b { color: var(--ink); font-weight: 600; }
-    .px-try { margin: 20px 0 0; padding: 14px 16px; border-left: 3px solid var(--amber); background: var(--surface-2); border-radius: 0 10px 10px 0; font-size: 15.5px; color: var(--text-soft); }
+    .px-try { margin: 20px 0 0; font-size: 15.5px; color: var(--text-soft); }
     .px-try b { color: var(--ink); }
 
     .px-full { margin-top: 22px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
@@ -119,7 +121,7 @@
     .px-full td small { display: block; color: var(--text-dim); font-size: 12.5px; }
 
     /* plans */
-    .px-plans-grid { display: grid; grid-template-columns: 1.35fr 0.65fr; gap: 44px; align-items: center; }
+    .px-plans-grid { display: grid; grid-template-columns: 1fr; max-width: 760px; }
     .px-plans-grid > * { min-width: 0; }
     .px-plans { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line-strong); }
     .px-plan { display: grid; grid-template-columns: 130px 1fr; gap: 6px 20px; padding: 18px 0; border-bottom: 1px solid var(--border); }
@@ -133,9 +135,9 @@
     .px-cta { margin-top: 24px; }
 
     /* review collage */
-    .px-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 10px 18px 0; align-items: start; }
+    .px-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 10px 40px 0; align-items: start; }
     .px-collage > * { min-width: 0; }
-    .px-collage figure { margin: 0 -10px; position: relative; }
+    .px-collage figure { margin: 0 -2px; position: relative; }
     .px-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.10); border-radius: 4px; }
     .px-collage figure:nth-child(1) { transform: rotate(-1.3deg); z-index: 1; margin-top: 10px; }
     .px-collage figure:nth-child(2) { transform: rotate(1deg); z-index: 2; }
@@ -205,6 +207,10 @@
           <h1>Free to use. <span class="accent">Premium</span> when you want more.</h1>
           <p class="lead">Record unlimited portrait and landscape videos for free, with no ads, no watermark and no account needed. Premium unlocks the rest of the camera, and the annual plan starts with a 7-day free trial.</p>
           <a class="cta px-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=pricing-hero&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dpricing-hero%26utm_campaign%3Dpricing-hero">Try it free</a>
+          <div class="badges px-dk">
+            <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=pricing-hero&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
+            <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dpricing-hero%26utm_campaign%3Dpricing-hero"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Get it on Google Play" width="175" height="52"></a>
+          </div>
           <p class="px-reassure">Free to download on iPhone and Android</p>
         </div>
         <div class="px-hero-media">
@@ -302,7 +308,6 @@
           <p class="px-pricenote">Prices are set for each country and shown in your local currency in the App Store and Google Play. Payments go through Apple or Google, so ContentCam never sees your card details.</p>
           <div class="px-cta"><a class="cta px-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=pricing-plans&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dpricing-plans%26utm_campaign%3Dpricing-plans">Try it free</a></div>
         </div>
-        <div class="px-ph" role="img" aria-label="Screenshot placeholder">[Screenshot needed: the in-app Premium screen showing the three plans]</div>
       </div>
     </section>
 
@@ -311,7 +316,7 @@
       <h2>Worth it, according to the people who use it</h2>
       <!-- Real reviews, screenshots in assets/reviews (same source set as the homepage) -->
       <div class="px-collage" aria-label="Real reviews from the App Store and Google Play">
-        <figure><img src="/assets/reviews/r-play-queen-werandra.webp" alt="Google Play review by Queen WerandRa, 5 stars: Fantastic, what a great app! Definitely buying the premium edit: Jimmy is awesome!" width="1021" height="564" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-play-queen-werandra.webp" alt="Google Play review by Queen WerandRa, 5 stars: Fantastic, what a great app! Definitely buying the premium edit: Jimmy is awesome!" width="1021" height="494" loading="lazy" decoding="async"></figure>
         <figure><img src="/assets/reviews/r-ios-cindy26.webp" alt="App Store review by cindy_.26, 5 stars: this app has completelyyyy changed the way i record videos. especially if you're a content creator or someone who likes to document life, recording portrait and landscape at the same time is a game-changer!! it's also incredibly easy to use and the camera footage comes out perfect :)))" width="1027" height="945" loading="lazy" decoding="async"></figure>
         <figure><img src="/assets/reviews/r-ios-amanda112.webp" alt="App Store review by Amanda112, 5 stars: Such a good app, saved me so much time and headache. Thank u jimmy solo developer" width="1027" height="617" loading="lazy" decoding="async"></figure>
       </div>
@@ -326,7 +331,7 @@
       <details><summary>What happens if I cancel my subscription?</summary><p>You keep Premium until the end of the period you paid for, then the app goes back to the free tier. Your recordings and projects stay where they are.</p></details>
       <details><summary>Lifetime or subscription: which should I pick?</summary><p>All three plans unlock the same features, including every new feature that comes out. Lifetime is one payment with nothing to renew. Annual costs much less per month than monthly and is the only plan with a free trial. Monthly suits a single project: use it while you need it, then cancel.</p></details>
       <details><summary>Does Premium work with Family Sharing?</summary><p>On iPhone, the lifetime purchase includes Family Sharing for up to 6 people.</p></details>
-      <details><summary>Does my purchase carry over between iPhone and Android?</summary><p>Purchases belong to the Apple or Google account you bought with, so they come with you to any new phone on the same store: tap Restore Purchases in Settings. They don't move between the App Store and Google Play by themselves. If you bought lifetime and you're switching between iPhone and Android, email <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a> with your order number and I'll help you move it.</p></details>
+      <details><summary>Does my purchase carry over between iPhone and Android?</summary><p>Purchases belong to the Apple or Google account you bought with, so they come with you to any new phone on the same store: tap Restore Purchases in Settings. They don't move between the App Store and Google Play by themselves.</p></details>
       <details><summary>Where do I see the price?</summary><p>In the app, or on the App Store and Google Play listings. Prices are set for each country in your local currency, so one number here would be wrong for most people. You always see the exact price before you confirm.</p></details>
       <details><summary>Are there ads or a watermark on the free version?</summary><p>No. There are no ads and no watermark on any plan, free included, and no account needed.</p></details>
       <p style="margin-top:18px"><a href="/support/">Refunds, restoring and more →</a></p>
