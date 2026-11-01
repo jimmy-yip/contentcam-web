@@ -87,7 +87,7 @@
           { "@type": "Question", "name": "Can I try the premium features before paying?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every premium feature can be previewed live, including the manual dials. The paywall only appears when you press record with a premium feature switched on. Dual Lens and Front & Back also give you 5 free recordings each, and the annual plan starts with a free trial." } },
           { "@type": "Question", "name": "Is there a watermark?", "acceptedAnswer": { "@type": "Answer", "text": "Never, on any tier, free included." } },
           { "@type": "Question", "name": "Which phones does it work on?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone XS and later on iOS 18 or newer; Dual Lens mode needs iPhone 11 or later. Android 8.0 or newer; 4K, 60fps and manual exposure depend on what your phone's camera supports. Dual Lens and HDR are iPhone-only for now." } },
-          { "@type": "Question", "name": "Can it record the front and back cameras at the same time?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, on iPhone and Android, as two separate files. Front & Back is a premium mode with 5 free recordings to try. Recent iPhones such as iPhone 17 also have Apple's Dual Capture, which saves both cameras as one picture-in-picture file." } },
+          { "@type": "Question", "name": "Can it record the front and back cameras at the same time?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, on iPhone and Android, as two separate files or one combined video. Front & Back is a premium mode with 5 free recordings to try. Recent iPhones such as iPhone 17 also have Apple's Dual Capture, which saves both cameras as one picture-in-picture file." } },
           { "@type": "Question", "name": "How is it different from DualShot Recorder?", "acceptedAnswer": { "@type": "Answer", "text": "Both record portrait and landscape from one take. DualShot Recorder is iPhone-only; ContentCam runs on iPhone and Android, adds Dual Lens (wide and ultra-wide at once on iPhone 11 and later) and a projects, scenes and takes workflow with automatic file naming, and still offers a one-off lifetime purchase alongside its subscriptions. Full comparison: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/" } }
         ]
       }
@@ -173,10 +173,10 @@
     .hx-reassure { margin: 2px 0 0; }
     .hx-kicker { margin: 0 0 4px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--cyan-ink); }
     .hx-feat { border-top: 3px solid var(--cyan); }
-    .hx-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 18px 0; }
+    .hx-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 44px 0; }
     .hx-col { display: flex; flex-direction: column; }
-    .hx-collage figure { margin: 0 -14px; position: relative; }
-    .hx-col figure + figure { margin-top: -12px; }
+    .hx-collage figure { margin: 0 -2px; position: relative; }
+    .hx-col figure + figure { margin-top: -6px; }
     .hx-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.10); border-radius: 4px; }
     .hx-col:nth-child(1) figure:nth-child(1) { transform: rotate(-1.6deg); z-index: 2; }
     .hx-col:nth-child(1) figure:nth-child(2) { transform: rotate(1deg); z-index: 3; }
@@ -187,10 +187,16 @@
     .hx-col:nth-child(3) figure:nth-child(1) { transform: rotate(-.8deg); z-index: 1; }
     .hx-col:nth-child(3) figure:nth-child(2) { transform: rotate(1.4deg); z-index: 6; }
     .hx-cta { margin-top: 24px; }
-    a.cta.hx-go { box-shadow: none; color: #06222a; }
+    a.cta.hx-go { box-shadow: none; color: #06222a; display: flex; justify-content: center; width: 100%; padding: 15px 20px; }
+    @media (min-width: 861px) { .hx-cta { display: none; } }
     body.hx .hero .hx-proofline { margin: 0 0 12px; }
     body.hx .hero .hx-reassure { margin-top: 12px; }
     .hx-founder .lead { margin-bottom: 14px; }
+    .hx-prv { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: start; padding: 6px 6px 0; }
+    .hx-prv figure { margin: 0; }
+    .hx-prv img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.08); border-radius: 4px; }
+    .hx-prv figure:nth-child(1) { transform: rotate(-1deg); } .hx-prv figure:nth-child(2) { transform: rotate(.8deg); margin-top: 14px; } .hx-prv figure:nth-child(3) { transform: rotate(-.6deg); }
+    @media (max-width: 860px) { .hx-prv { grid-template-columns: 1fr; gap: 12px; } .hx-prv figure { width: 94%; } .hx-prv figure:nth-child(2) { justify-self: end; margin-top: 0; } .hx-prv .hx-dk { display: none; } }
     .hx-collage-cap { text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); margin: 26px 0 40px; }
     .hx-loops figure { position: relative; cursor: pointer; }
     .hx-loops video { width: 100%; height: 100%; object-fit: cover; display: block; background: #0b1416; }
@@ -201,7 +207,8 @@
     .hx-founder img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 0; display: block; }
     .hx-founder h2 { margin-top: 0; }
     .hx-founder-by { margin: 0; color: var(--text-soft); font-size: 15px; }
-    .hx-founder-by b { color: var(--cyan-ink); }
+    .hx-founder-by { line-height: 1.6; }
+    .hx-founder-by b { color: var(--cyan-ink); font-size: 16px; }
     @media (max-width: 860px) {
       .hx-collage { grid-template-columns: 1fr; padding: 6px 6px 0; }
       .hx-col { display: contents; }
@@ -352,9 +359,9 @@
         <figure><img src="/assets/img/life-couple.webp" alt="Jimmy and his girlfriend on a bench at sunset, watching a take back in ContentCam" width="720" height="1280" loading="lazy" decoding="async"></figure>
         <div>
           <h2>Made for creators</h2>
-          <p class="lead">My girlfriend makes content, and every time we went out she filmed the same scene twice: once vertical for TikTok and Reels, then again horizontal for YouTube. By the second take, something had usually changed. So I made her an app that records both at once, and we could get back to our date.</p>
+          <p class="lead">My girlfriend makes content, and every time we went out she filmed the same scene twice: once vertically for TikTok and Reels, then again horizontally for YouTube. By the second take, something had usually changed. So I made her an app that records both at once.</p>
           <p class="lead">Now creators all over the world use it, and I still build every update and read every review myself.</p>
-          <p class="hx-founder-by"><b>Jimmy Yip</b> · Sydney · <a href="https://www.instagram.com/contentwjimmy/" target="_blank" rel="noopener">@contentwjimmy</a></p>
+          <p class="hx-founder-by"><b>Jimmy Yip</b><br>Sydney · <a href="https://www.instagram.com/contentwjimmy/" target="_blank" rel="noopener">@contentwjimmy</a></p>
         </div>
       </div>
     </section>
@@ -375,14 +382,14 @@
 
     <section>
       <p class="section-eyebrow">Pricing</p>
-      <h2>Free to use. Premium if you want more.</h2>
+      <h2>Free to use. Premium when you want more.</h2>
       <p class="lead"><b>Free:</b> unlimited Single Lens recordings in both formats. No ads, no watermark, no account needed.<br><b>Premium:</b> Dual Lens (iPhone), Front &amp; Back, 4K, 50/60fps, manual controls, teleprompter, timelapse and every new feature that comes out.</p>
-      <p class="hx-pricing-note">Try Premium free on the annual plan, go monthly, or buy it once and keep it. <a href="/pricing/">Compare plans →</a></p>
+      <p class="hx-pricing-note">Try Premium free on the annual plan, go monthly, or buy it once and keep it for life. <a href="/pricing/">Compare plans →</a></p>
       <div class="hx-cta" style="margin:0 0 30px"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-pricing&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-pricing%26utm_campaign%3Dhome2-pricing">Try it free</a></div>
-      <div class="rv-strip">
-        <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>Love this app, so much better than competitors and offers a lifetime purchase option.</blockquote><figcaption>cjxsutton · App Store US · <time datetime="2026-10-04">Oct 2026</time></figcaption></figure>
-        <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>looking for a way to capture horizontal and vertical videos for YouTube and reels at once this is perfect💯. smooth and easy to use app, using for a month and not experienced any lagging with android phone.</blockquote><figcaption>Evangeline Eigbobo · Google Play · <time datetime="2026-10-04">Oct 2026</time></figcaption></figure>
-        <figure class="rv"><div class="rv-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>ContentCam has been such a helpful app for creating my content. It’s easy to use and makes my workflow so much smoother! Loving the teleprompter feature.</blockquote><figcaption>Maia D 001 · App Store US · <time datetime="2026-07-29">Jul 2026</time></figcaption></figure>
+      <div class="hx-prv">
+        <figure><img src="/assets/reviews/r-ios-amanda112.webp" alt="App Store review by Amanda112, 5 stars: Such a good app, saved me so much time and headache. Thank u jimmy solo developer" width="1027" height="617" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-ios-dhuddz.webp" alt="App Store review by Dhuddz, 5 stars: For months I tested other apps that brought the same proposal, but ContentCam became the best option to help with my work with content creation for social networks. The controls are simple, but complete and the interface is super intuitive. I bought it on Android and I have it again on iOS. I highly recommend it!" width="1020" height="940" loading="lazy" decoding="async"></figure>
+        <figure class="hx-dk"><img src="/assets/reviews/r-ios-maia-d.webp" alt="App Store review by Maia D 001, 5 stars: ContentCam has been such a helpful app for creating my content. It’s easy to use and makes my workflow so much smoother! Loving the teleprompter feature." width="1017" height="674" loading="lazy" decoding="async"></figure>
       </div>
     </section>
 
@@ -407,12 +414,12 @@
       <p class="section-eyebrow">FAQ</p>
       <h2>Frequently asked questions</h2>
       <details><summary>Isn't the landscape just a crop of the portrait?</summary><p>No. In Single Lens mode ContentCam records the sensor's full 4:3 frame and cuts each format from it, so the landscape keeps the full width and the portrait keeps the full height. Each file is encoded on its own in HEVC, at 1080×1920 and 1920×1080 or the 4K equivalents. Neither is an upscaled crop of the other.</p></details>
-      <details><summary>Is ContentCam free, or do I need a subscription?</summary><p>It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark. Premium is optional, and you choose how to pay: an annual plan with a free trial, a monthly plan, or a one-time lifetime purchase. They all unlock the same features, priced in your local currency in the App Store and Google Play.</p></details>
-      <details><summary>Can I try the premium features before paying?</summary><p>Yes. Every premium feature can be previewed live, including the manual dials. The paywall only appears when you press record with a premium feature switched on. Dual Lens and Front &amp; Back also give you 5 free recordings each, and the annual plan starts with a free trial.</p></details>
+      <details><summary>Is ContentCam free, or do I need a subscription?</summary><p>It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark.</p><p>Premium is optional, and you choose how to pay: an annual plan with a free trial, a monthly plan, or a one-time lifetime purchase. They all unlock the same features, priced in your local currency in the App Store and Google Play.</p></details>
+      <details><summary>Can I try the premium features before paying?</summary><p>Yes. Every premium feature can be previewed live, including the manual dials. The paywall only appears when you press record with a premium feature switched on.</p><p>Dual Lens and Front &amp; Back also give you 5 free recordings each, and the annual plan starts with a free trial.</p></details>
       <details><summary>Is there a watermark?</summary><p>Never, on any tier, free included.</p></details>
-      <details><summary>Which phones does it work on?</summary><p>iPhone XS and later on iOS 18 or newer; Dual Lens mode needs iPhone 11 or later. Android 8.0 or newer; 4K, 60fps and manual exposure depend on what your phone's camera supports. Dual Lens and HDR are iPhone-only for now.</p></details>
-      <details><summary>Can it record the front and back cameras at the same time?</summary><p>Yes, on iPhone and Android, as two separate files. Front &amp; Back is a premium mode with 5 free recordings to try. Recent iPhones such as iPhone 17 also have Apple's built-in Dual Capture, which saves both cameras as one picture-in-picture file: <a href="/blog/iphone-17-dual-capture-limitations/">which iPhones have Dual Capture</a>. <a href="/blog/record-front-and-back-camera-same-time-android/">How to do it on Android →</a></p></details>
-      <details><summary>How is it different from DualShot Recorder?</summary><p>Both record portrait and landscape from one take. DualShot Recorder is iPhone-only; ContentCam runs on iPhone and Android, adds Dual Lens (wide and ultra-wide at once on iPhone 11 and later) and a projects, scenes and takes workflow with automatic file naming, and still offers a one-off lifetime purchase alongside its subscriptions. <a href="/blog/dualshot-recorder-vs-contentcam/">Full comparison →</a></p></details>
+      <details><summary>Which phones does it work on?</summary><p>iPhone XS and later on iOS 18 or newer; Dual Lens mode needs iPhone 11 or later.</p><p>Android 8.0 or newer; 4K, 60fps and manual exposure depend on what your phone's camera supports. Dual Lens and HDR are iPhone-only for now.</p></details>
+      <details><summary>Can it record the front and back cameras at the same time?</summary><p>Yes, on iPhone and Android, as two separate files or one combined video. Front &amp; Back is a premium mode with 5 free recordings to try.</p><p>Recent iPhones such as iPhone 17 also have Apple's built-in Dual Capture, which saves both cameras as one picture-in-picture file: <a href="/blog/iphone-17-dual-capture-limitations/">which iPhones have Dual Capture</a>. <a href="/blog/record-front-and-back-camera-same-time-android/">How to do it on Android →</a></p></details>
+      <details><summary>How is it different from DualShot Recorder?</summary><p>Both record portrait and landscape from one take. DualShot Recorder is iPhone-only; ContentCam runs on iPhone and Android, adds Dual Lens (wide and ultra-wide at once on iPhone 11 and later) and a projects, scenes and takes workflow with automatic file naming, and still offers a one-off lifetime purchase alongside its subscriptions.</p><p><a href="/blog/dualshot-recorder-vs-contentcam/">Full comparison →</a></p></details>
       <p style="margin-top:18px"><a href="/support/">More questions answered →</a></p>
     </section>
 
