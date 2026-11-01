@@ -140,9 +140,12 @@
     .fx-plat li { padding: 10px 0; border-bottom: 1px solid var(--border); color: var(--text-soft); font-size: 15px; }
     .fx-plat li b { color: var(--ink); font-weight: 600; }
 
-    .fx-priv { display: flex; flex-wrap: wrap; gap: 8px 28px; list-style: none; margin: 0 0 14px; padding: 0; }
-    .fx-priv li { position: relative; padding-left: 24px; color: var(--text-soft); font-size: 15.5px; }
-    .fx-priv li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan-ink); font-weight: 700; }
+    .fx-privbox { display: flex; gap: 18px; align-items: flex-start; }
+    .fx-privbox svg { flex: none; width: 40px; height: 46px; margin-top: 2px; }
+    .fx-privbox ul { list-style: none; margin: 0 0 12px; padding: 0; }
+    .fx-privbox li { position: relative; padding-left: 26px; margin-bottom: 6px; color: var(--text-soft); font-size: 15.5px; }
+    .fx-privbox li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan-ink); font-weight: 700; }
+    @media (max-width: 860px) { .fx-privbox { padding: 20px 18px; gap: 14px; } .fx-privbox svg { width: 32px; height: 37px; } }
     .fx-main > section.fx-final { text-align: center; padding: 60px 0 76px; }
     .fx-final .lead { margin: 0 auto 24px; }
 
@@ -194,7 +197,7 @@
           <h1>Record portrait and landscape <span class="accent">at the same time.</span></h1>
           <p class="lead">One take gives you a vertical video for TikTok, Reels and Shorts, and a horizontal video for YouTube. Full frame both ways, not a crop. Here's everything else the app does.</p>
           <p class="fx-proof">Rated <span class="star">★</span> 4.8 by 1,000+ creators · 50,000+ downloads</p>
-          <nav class="fx-jump" aria-label="Jump to a feature group"><span>Jump to:</span><a href="#formats">Two formats</a><a href="#modes">Modes</a><a href="#controls">Controls</a><a href="#teleprompter">Teleprompter</a><a href="#organise">Projects</a><a href="#platforms">iPhone vs Android</a></nav>
+          <nav class="fx-jump" aria-label="Jump to a feature group"><span>Jump to:</span><a href="#formats">Dual format</a><a href="#modes">Modes</a><a href="#controls">Controls</a><a href="#teleprompter">Teleprompter</a><a href="#organise">Projects</a><a href="#privacy">Privacy</a></nav>
         </div>
         <div class="fx-hero-media">
           <figure class="fx-loop"><video src="/assets/video/loop-demo-sunset.mp4" poster="/assets/video/loop-demo-sunset-poster.jpg" muted loop playsinline preload="metadata" aria-label="Screen recording of ContentCam recording a sunset in both formats"></video></figure>
@@ -329,38 +332,21 @@
       <div class="fx-center-cta"><a class="cta fx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=features-reviews&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dfeatures-reviews%26utm_campaign%3Dfeatures-reviews">Try it free</a></div>
     </section>
 
-    <section id="platforms">
-      <p class="section-eyebrow">iPhone and Android</p>
-      <h2>Same app on both, with a few differences</h2>
-      <p class="lead">Both apps are built natively, and almost everything on this page works on either phone. These are the differences today.</p>
-      <div class="fx-plat">
-        <div>
-          <h3>iPhone only</h3>
-          <ul>
-            <li><b>Dual Lens</b>, on iPhone 11 or later</li>
-            <li><b>HDR video</b></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Android only</h3>
-          <ul>
-            <li><b>Background blur</b>, in beta</li>
-            <li><b>4K, 60fps and manual ISO and shutter</b> depend on your phone's camera</li>
-          </ul>
-        </div>
-      </div>
-      <p class="fx-more"><a href="/android/">More about the Android app →</a><a href="/pricing/">Compare Free and Premium →</a></p>
-    </section>
-
-    <section>
+    <section id="privacy">
       <p class="section-eyebrow">Private by design</p>
       <h2>Your footage stays on your phone</h2>
-      <ul class="fx-priv">
-        <li>No account needed</li>
-        <li>No ads, analytics or tracking</li>
-        <li>Works offline, apart from the store's purchase check</li>
-      </ul>
-      <a href="/privacy.html">Privacy policy →</a>
+      <div class="privacy-box fx-privbox">
+        <svg viewBox="0 0 46 52" aria-hidden="true"><path d="M23 2 4 9v14c0 12.5 8 22.7 19 27 11-4.3 19-14.5 19-27V9L23 2z" fill="#25d0e5"/><path d="m14 26 6.5 6.5L32.5 20" fill="none" stroke="#101a1c" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <ul>
+            <li>No sign-up or account</li>
+            <li>No analytics, tracking or ads</li>
+            <li>Works offline; only the store's purchase check needs internet</li>
+            <li>Never reads your photos, only adds your videos and photos to them</li>
+          </ul>
+          <a href="/privacy.html">Privacy policy →</a>
+        </div>
+      </div>
     </section>
 
     <section class="fx-final">
