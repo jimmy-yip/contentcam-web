@@ -1,5 +1,7 @@
 # Blog topic backlog
 
+> **3 Nov 2026: the scheduled cloud drafter is DISABLED.** Posts are written in local sessions, topics picked from GSC gaps + Google autocomplete (see contentcam-hub `marketing/seo-content-plan.md`). Kept for reference.
+
 > **NEXT SESSION, START HERE (updated 2026-09-21).** Bucket 2 (named apps) is underway. Two are
 > published: `what-happened-to-filmic-pro`, `phone-teleprompter-apps-compared`, `android-camera-settings-for-video` and `blackmagic-camera-vs-filmic-pro`.
 >

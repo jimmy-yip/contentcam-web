@@ -1,5 +1,7 @@
 # Brief: scheduled blog drafting agent
 
+> **3 Nov 2026: the scheduled cloud drafter is DISABLED.** Posts are written in local sessions, topics picked from GSC gaps + Google autocomplete (see contentcam-hub `marketing/seo-content-plan.md`). Kept for reference.
+
 Draft ONE blog post for contentcam.app (this repo, a static GitHub Pages site) and open a pull
 request. **Do NOT push to main.** Nothing goes live until a human merges.
 
