@@ -74,6 +74,11 @@
             "@type": "Question",
             "name": "Why can't my phone take a front and back photo at the same time?",
             "acceptedAnswer": { "@type": "Answer", "text": "The phone's hardware has to run both cameras at once. On iPhone, apps check AVCaptureMultiCamSession.isMultiCamSupported. On Android 11 and later, apps call getConcurrentCameraIds() to see which cameras can run together. If a phone reports no front and rear pair, no app can capture both through the official route." }
+          },
+          {
+            "@type": "Question",
+            "name": "Which phones can take a front and back photo in ContentCam?",
+            "acceptedAnswer": { "@type": "Answer", "text": "On iPhone, every model that runs ContentCam: iOS 18 or later, so iPhone XS, iPhone XS Max and iPhone XR, every iPhone 11 to iPhone 16 model including iPhone 16e, iPhone SE (2nd and 3rd generation), and iPhone 17, iPhone Air and iPhone 18 Pro. On Android, phones whose hardware can run the front and rear cameras together, which Android reports to apps from Android 11; ContentCam checks this on your phone." }
           }
         ]
       }
@@ -164,6 +169,9 @@
       <p>Yes, with a camera app that captures each camera to its own file. ContentCam's photo mode does this in Front &amp; Back mode on iPhone and Android. Photo mode is premium.</p>
       <h3>Why can't my phone take a front and back photo at the same time?</h3>
       <p>The hardware has to run both cameras at once and report it to apps, through <code>isMultiCamSupported</code> on iPhone or <code>getConcurrentCameraIds()</code> on Android 11 and later. If it doesn't, no app can do it through the official route.</p>
+
+      <h3>Which phones can take a front and back photo in ContentCam?</h3>
+      <p>On iPhone, every model that runs ContentCam: iOS 18 or later, so iPhone XS, iPhone XS Max and iPhone XR, every iPhone 11 to iPhone 16 model including iPhone 16e, iPhone SE (2nd and 3rd generation), and iPhone 17, iPhone Air and iPhone 18 Pro. On Android, phones whose hardware can run the front and rear cameras together, which Android reports to apps from Android 11; ContentCam checks this on your phone.</p>
 
       <div class="post-cta">
         <p><strong>Try ContentCam free.</strong> Front and back from one press as separate files, plus vertical and wide video from a single shoot. Free to download on iPhone and Android.</p>
