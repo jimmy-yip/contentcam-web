@@ -51,6 +51,43 @@
           { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/blog/" },
           { "@type": "ListItem", "position": 3, "name": "Switch camera while recording on iPhone", "item": "https://contentcam.app/blog/switch-camera-while-recording-iphone/" }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can you switch from the back camera to the front camera while recording on iPhone 17?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not in the Camera app. Use Dual Capture for one combined video, or record both cameras as two files in ContentCam and cut between them later."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does pausing a recording let you flip the camera?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not according to Apple's guide, which lists Pause during recording but describes no camera swap while paused."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you record front and back on iPhone 15 or iPhone 16?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Neither has Apple's Dual Capture, so use a third-party app. ContentCam's Front & Back mode works on every iPhone that runs iOS 18 and saves two separate files. Front and back camera on iPhone 15 and 16 compares the options."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you switch cameras while recording on Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on the phone maker's camera app. Some Samsung Galaxy phones have Director's View with Dual recording, which records front and back together, and ContentCam's Front & Back mode runs on Android phones that can use both cameras at once. Recording front and back at the same time on Android has the details."
+            }
+          }
+        ]
       }
     ]
   }
@@ -81,65 +118,53 @@
       <h1>How to Switch Camera While Recording on iPhone (2026)</h1>
       <p class="byline">By Jimmy, developer of ContentCam · 3 November 2026 · Updated 5 November 2026</p>
 
-      <p>You can't switch between the front and back camera mid-recording in the iPhone's own Camera app. Apple's iPhone User Guide lists what you can do while a video is recording, and flipping the camera is not on the list. There are three ways around it: stop and start a new clip on the other camera, use Dual Capture on an iPhone 17 or later to record both cameras at once, or record both cameras into separate files with a third-party app, such as ContentCam's Front &amp; Back mode (which I build), and cut between them in the edit. The last one is the only way to get a clean "cut to my face, cut back to the view" result from a single take.</p>
+      <p>You can't switch between the front and back camera mid-recording in the iPhone's own Camera app; Apple's iPhone User Guide lists what you can do while recording, and flipping the camera isn't on it. The cleanest way around it is to record both cameras at once as two separate files and cut between them in the edit, which is what ContentCam's Front &amp; Back mode does (I build ContentCam). It works on every iPhone that runs iOS 18, including iPhone 15 and 16, which don't have Apple's Dual Capture, with no ads and no watermark. The other options: stop and flip between clips, or use Dual Capture on iPhone 17 or later, which saves one video with the front camera fixed in a window.</p>
 
       <h2>Can you switch camera while recording on iPhone?</h2>
-      <p>Not in Apple's Camera app. Apple's page <a href="https://support.apple.com/guide/iphone/record-videos-iph61f49e4bb/ios">Record a video with your iPhone camera</a> (iOS 27 edition, checked 4 November 2026) says that while recording you can tap the white Shutter button to take a still photo, tap Pause, pinch to zoom, or tap the .5x, 1x, 2x and other zoom buttons. Those zoom buttons change rear lenses, the ultra wide, main and telephoto. None of them reach the front camera, and the guide describes no control that swaps the front camera and the back camera during a take.</p>
-      <p>That holds for every model from iPhone 11 to iPhone 18 Pro, because it's a Camera app limit rather than a hardware one. The search "switch camera while recording iPhone 17 Pro" has the same answer as "iPhone 13".</p>
-      <p>Not to be confused with the iPhone switching rear lenses on its own while you film, usually when you get close to a subject. That's a different problem with its own fix: <a href="/blog/iphone-camera-switching-lenses-while-recording/">why the iPhone camera switches lenses while recording</a>.</p>
+      <p>Not in Apple's Camera app. Apple's page <a href="https://support.apple.com/guide/iphone/record-videos-iph61f49e4bb/ios">Record a video with your iPhone camera</a> (iOS 27 edition, checked 5 November 2026) says that while recording you can take a still photo, tap Pause, pinch to zoom, or tap the .5x, 1x, 2x and other zoom buttons. Those buttons only change rear lenses, and the guide describes no control that swaps to the front camera during a take.</p>
+      <p>That holds for every model from iPhone 11 to iPhone 18 Pro, because it's a Camera app limit, not a hardware one. If your iPhone is jumping between rear lenses on its own, that's a different problem: <a href="/blog/iphone-camera-switching-lenses-while-recording/">why the iPhone camera switches lenses while recording</a>.</p>
 
       <h2>Why can't you switch camera while recording on iPhone?</h2>
-      <p>Because a recording is one continuous file from one camera. Swapping cameras means the phone has to stop one sensor, start another with a different resolution, field of view and colour, and keep writing to the same file without a gap. Apple's Camera app doesn't attempt that. Where an app does let you flip mid-take, expect a brief jump at the switch, because one camera has to stop before the other one starts.</p>
+      <p>Because a recording is one continuous file from one camera. Swapping means stopping one sensor and starting another, with a different field of view and colour, inside the same file. Apple's Camera app doesn't attempt it, and apps that flip mid-take show a brief jump.</p>
 
       <h2>How do you get front and back in one video on iPhone?</h2>
-      <p>Pick the method by what you want the finished video to look like.</p>
       <div class="table-scroll">
         <table>
           <thead><tr><th>Method</th><th>What you get</th><th>Works on</th><th>Can you cut between angles later?</th></tr></thead>
           <tbody>
-            <tr><td>Stop, flip, record again</td><td>Two or more clips, one camera each</td><td>Every iPhone</td><td>Yes, but the moments are not simultaneous</td></tr>
+            <tr><td>ContentCam Front &amp; Back mode</td><td>Two separate files from the same moment, plus an optional combined video</td><td>Every iPhone on iOS 18 (XS, XR and newer), plus supported Android phones</td><td>Yes, freely</td></tr>
             <tr><td>Dual Capture in the Camera app</td><td>One file, front camera in a window over the rear view</td><td>iPhone 17, 17 Pro, 17 Pro Max, iPhone Air, 18 Pro, 18 Pro Max, iPhone Duo</td><td>No, the window is baked into every frame</td></tr>
-            <tr><td>Snapchat Dual Camera</td><td>One Snap with both cameras in a split or window layout</td><td>iPhone XS, XS Max, XR or later</td><td>No</td></tr>
-            <tr><td>A front and back camera app that saves two files</td><td>Two separate files, recorded at the same moment</td><td>iPhones that report multi-camera support to apps</td><td>Yes, freely</td></tr>
+            <tr><td>Snapchat Dual Camera</td><td>One Snap with both cameras in one layout</td><td>iPhone XS, XS Max, XR or later</td><td>No</td></tr>
+            <tr><td>Stop, flip, record again</td><td>Two or more clips, one camera each</td><td>Every iPhone</td><td>Yes, but the moments are not simultaneous</td></tr>
           </tbody>
         </table>
       </div>
 
-      <h2>How do you switch cameras by stopping and starting?</h2>
-      <p>This is the free method that works on every iPhone:</p>
+      <h2>How do you switch between front and back camera in the edit instead?</h2>
+      <p>Record both cameras into separate files, then cut between them like a two-camera TV shoot: the view, then your face at the exact moment you reacted, then the view again.</p>
       <ol>
-        <li>Record the first part on the back camera and tap Record to stop.</li>
-        <li>Tap the flip button (the circular arrows, bottom right) to switch to the front camera.</li>
-        <li>Record the next part, then stop.</li>
-        <li>Join the clips in an editor. iMovie is free from Apple and lays clips end to end on one timeline; CapCut does the same.</li>
+        <li><strong>Record front and back at the same time</strong> in ContentCam's Front &amp; Back mode, which saves each camera as its own file. Apple has let third-party apps run two cameras at once since iOS 13.</li>
+        <li><strong>Clap once at the start.</strong> The spike in the audio waveform is your sync point.</li>
+        <li><strong>Stack the two clips</strong> in iMovie or CapCut, rear camera on the main track, front camera above it, lined up on the clap.</li>
+        <li><strong>Cut the top layer</strong> wherever you want your face to show. Every cut is a "camera switch", and you can move the cuts later.</li>
       </ol>
-      <p>Two tips make the joins invisible. Finish each clip on a natural pause, a breath or a look away, so the cut lands on silence. And keep the phone in the same orientation for every clip, otherwise one part comes out sideways.</p>
-      <p>The limit: nothing in clip one happens at the same moment as clip two. For a reaction, an unboxing or a "watch this" moment, that gap is the whole problem, because a face filmed after the event reads as acted.</p>
+      <p>Front &amp; Back comes with 5 free recordings, then Premium. On iPhone, ContentCam's Combine editor can also turn a take into one picture-in-picture or split-screen video with the two original files kept, so you can post the combined version and still cut between angles. No account, and the footage stays on your phone. Resolution is HD, at up to 60 fps on iPhones that support it (60 fps is Premium): Apple caps multi-camera formats, and on every iPhone ContentCam has run on, Pro models included, they top out at 1920×1440.</p>
 
       <h2>How does Dual Capture work instead of switching?</h2>
-      <p>Dual Capture records the front camera and the back camera together in Apple's Camera app, so there is nothing to switch. Open Camera, choose Video, tap the camera-controls button, then tap Dual Capture, per the same Apple guide. Apple's specs pages list it at up to 4K Dolby Vision at 30 fps.</p>
-      <p>The catch is the layout. Apple's guide illustration shows the front camera in a window at the top left of the frame with the rear camera filling the rest, and everything Apple publishes points to one file with that window painted in. You can't cut to a clean rear-only shot later or move the window. The models, the 30 fps cap and the other limits are in <a href="/blog/iphone-17-dual-capture-limitations/">which iPhones have Dual Capture, and where it stops</a>.</p>
+      <p>Dual Capture records the front camera and the back camera together in Apple's Camera app: open Camera, choose Video, tap the camera-controls button, then tap Dual Capture, per the same Apple guide. Apple's iPhone 17 and iPhone Air specs pages list it at up to 4K Dolby Vision at 30 fps.</p>
+      <p>The catch is the layout. Apple's guide illustration shows the front camera in a window at the top left over the rear view, and everything Apple publishes points to one file with that window painted in. You can't cut to a clean rear-only shot later, and iPhone 16, 16e and 17e don't have Dual Capture at all. More in <a href="/blog/iphone-17-dual-capture-limitations/">which iPhones have Dual Capture, and where it stops</a>.</p>
 
-      <h2>How do you switch between front and back camera in the edit instead?</h2>
-      <p>Record both cameras into separate files, then cut between them like a two-camera shoot. This is how TV does it, and it gives the result people searching "switch camera while recording" usually want: the view, then your face at the exact moment you reacted, then the view again.</p>
-      <ol>
-        <li><strong>Record front and back at the same time</strong> in an app that saves each camera as its own file. Third-party apps have been able to run two iPhone cameras at once since Apple added AVCaptureMultiCamSession in iOS 13.</li>
-        <li><strong>Clap once at the start</strong> with both cameras rolling. The spike in the audio waveform gives you a sync point if the editor needs one.</li>
-        <li><strong>Stack the two clips</strong> in iMovie, CapCut or any editor with layers, rear camera on the main track and front camera above it, lined up on the clap.</li>
-        <li><strong>Cut the top layer</strong> wherever you want the front camera to show, and delete the rest of it. Every cut is a "camera switch", and you can move them after the fact.</li>
-      </ol>
-      <p>The trade-off is resolution. Apple caps the formats a multi-camera session can use, and on every iPhone ContentCam has run on, Pro models included, those formats top out at 1920×1440. So two-file front and back recording on iPhone is an HD job, not 4K.</p>
-      <p>ContentCam, which I build, does it this way: Front &amp; Back mode records the selfie camera and the rear camera together and saves them as two separate files, on iPhone and Android. Since version 2.8 the iPhone app can also combine a Front &amp; Back take into one video with picture-in-picture or a split screen, with the original two files left untouched, so you can post the combined version and still cut between the angles in another edit.</p>
+      <h2>How do you switch cameras by stopping and starting?</h2>
+      <p>Record the first part on the back camera and stop, tap the flip button (the circular arrows, bottom right), record the next part, then join the clips end to end in iMovie or CapCut. It's free on every iPhone. The limit: nothing in clip one happens at the same moment as clip two, so for a reaction or an unboxing, the face filmed after the event reads as acted.</p>
 
       <h2>Which apps let you flip the camera mid-recording?</h2>
-      <p>The cameras built into social apps such as Instagram, Snapchat and TikTok have their own flip controls, and some of them let you flip during a take. The behaviour changes between app versions, so test it before you rely on it, and expect a small jump at the flip. On Snapchat, Snapchat Support says the flip button still works inside Dual Camera, where it swaps which camera fills the main view.</p>
-      <p>The footage stays inside that app until you post or save it, usually as one file with the switch already made. For anything going to more than one platform, recording both cameras and choosing the cuts later gives you more to work with.</p>
+      <p>Instagram, Snapchat and TikTok have their own flip controls, and mid-take behaviour changes between app versions, so test before you rely on it. In Snapchat's Dual Camera, Snapchat Support says the flip button swaps which camera is the primary view. Either way you get one file with the switch baked in.</p>
 
       <h2>Common questions</h2>
-      <p><strong>Can you switch from the back camera to the front camera while recording on iPhone 17?</strong> Not in the Camera app. Use Dual Capture to record both at once, or stop, flip and record a second clip.</p>
-      <p><strong>Does pausing a recording let you flip the camera?</strong> Apple's guide lists Pause as something you can do while recording, but describes no camera swap while paused. If you need two cameras in one video, use Dual Capture or two files.</p>
-      <p><strong>Can you switch cameras while recording on Android?</strong> It depends on the phone maker's camera app, so check whether the flip button stays on screen after you press record. Some Samsung Galaxy phones have Director's View with Dual recording, which records front and back together. <a href="/blog/record-front-and-back-camera-same-time-android/">Recording front and back at the same time on Android</a> has the details.</p>
-      <p><strong>Why does my video jump when I flip the camera?</strong> Because the app stopped one camera and started the other mid-take. Recording both cameras at once avoids it, since neither camera ever stops.</p>
+      <p><strong>Can you switch from the back camera to the front camera while recording on iPhone 17?</strong> Not in the Camera app. Use Dual Capture for one combined video, or record both cameras as two files in ContentCam and cut between them later.</p>
+      <p><strong>Does pausing a recording let you flip the camera?</strong> Not according to Apple's guide, which lists Pause during recording but describes no camera swap while paused.</p>
+      <p><strong>How do you record front and back on iPhone 15 or iPhone 16?</strong> Neither has Apple's Dual Capture, so use a third-party app. ContentCam's Front &amp; Back mode works on every iPhone that runs iOS 18 and saves two separate files. <a href="/blog/record-front-and-back-camera-iphone-15-16/">Front and back camera on iPhone 15 and 16</a> compares the options.</p>
+      <p><strong>Can you switch cameras while recording on Android?</strong> It depends on the phone maker's camera app. Some Samsung Galaxy phones have Director's View with Dual recording, which records front and back together, and ContentCam's Front &amp; Back mode runs on Android phones that can use both cameras at once. <a href="/blog/record-front-and-back-camera-same-time-android/">Recording front and back at the same time on Android</a> has the details.</p>
 
       <div class="post-cta">
         <p><strong>Try ContentCam free.</strong> Front &amp; Back mode records your face and the view at the same time, as two files you can cut between. On iPhone and Android.</p>
