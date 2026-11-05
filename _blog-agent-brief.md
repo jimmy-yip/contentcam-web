@@ -10,8 +10,9 @@ request. **Do NOT push to main.** Nothing goes live until a human merges.
 ContentCam is an iPhone and Android camera app that records vertical (9:16) and horizontal (16:9)
 video at the same time in one take. It also has Dual Lens mode (two cameras at once, iPhone 11+),
 Front / Back mode (both platforms, premium, 5 free recordings), a teleprompter, manual controls
-(exposure, white balance 2500-8000K, ISO, shutter), 4K and 60fps, and timelapse. It collects no
-analytics: no SDKs, no account. Pricing is monthly, annual with a 7-day free trial, or a one-time
+(exposure, white balance 2500-8000K, ISO, shutter), 4K and 60fps, and timelapse. No account; footage
+never leaves the phone. Since iOS 2.8.1 the iPhone app measures ad installs and purchases (Apple AdServices,
+Meta SDK), so NEVER claim "no tracking", "no data collection" or "no SDKs" for iPhone. Android collects nothing. Pricing is monthly, annual with a 7-day free trial, or a one-time
 lifetime option. It is built solo in Australia by Jimmy, who is the author of every post.
 
 **This section is your only source of truth for ContentCam.** Do not attribute a feature, price,
