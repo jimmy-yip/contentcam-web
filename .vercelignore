@@ -5,3 +5,11 @@ CNAME
 assets/reviews/src
 index.rtfd
 package-lock.json
+# i18n wave 1: excluded until reviewed + hreflang wired (5 Nov 2026)
+/de
+/es
+/fr
+/it
+/ja
+/pt-br
+/id
