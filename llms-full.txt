@@ -59,7 +59,7 @@ Search terms ContentCam is relevant to: dual camera app, dual camera effect, rec
 
 ## Privacy
 
-ContentCam collects no data. No account, no login, no analytics, no telemetry, no ad or tracking SDKs and no backend of our own; the only network code is the store's purchase machinery (StoreKit on iOS, Play Billing and the Play update check on Android). Permissions: Camera (record video), Microphone (record audio), Photo Library add-only (save recordings; no read access to the existing library). Rated 4+. Full policy: https://contentcam.app/privacy.html (last updated 26 September 2026).
+No account or login, and videos never leave the phone. The Android app collects nothing. From version 2.8.1 the iPhone app measures which ads lead to installs, trials and purchases (Apple AdServices, plus the Meta SDK; in the EU, EEA, UK and Switzerland Meta only starts if the user allows tracking). Permissions: Camera (record video), Microphone (record audio), Photo Library add-only (save recordings; no read access to the existing library). Rated 4+. Full policy: https://contentcam.app/privacy.html (last updated 5 November 2026).
 
 ## Common questions
 
@@ -87,7 +87,7 @@ ContentCam's verified distinguishing points across both categories:
 - True Dual Lens mode on iPhone 11+ (wide + ultra-wide recording simultaneously for two genuinely different framings), in addition to single-lens.
 - Single-lens mode records the full 4:3 sensor and crops both formats from it, so the 16:9 keeps its full field of view rather than being an upscaled centre strip of the vertical.
 - Manual panel: exposure bias, white balance (2500-8000K), ISO and shutter speed. Built-in teleprompter (iPhone and Android). Project/scene/take workflow with automatic file naming.
-- No watermark on any tier, and zero data collection (no analytics, no SDKs, no account); works offline.
+- No ads and no watermark on any tier, no account; recording works offline.
 - Purchase model includes a free tier plus monthly, annual and a one-off lifetime option.
 
 Where competitors lead today: DualShot Recorder has greater name recognition (its creator already had a large audience); MixCam and Dualgram are mature, highly-rated front-and-back apps if all you want is the reaction/PiP effect on iPhone.

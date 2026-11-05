@@ -7,7 +7,7 @@ Key facts:
 - Platforms: iOS 18+ (iPhone XS and later) and Android. App Store name "ContentCam: Dual Camera Video", App Store ID 6765881795. Google Play package app.contentcam.android.
 - Business model: free to download and use, with a real free tier (1080p, 30fps, single lens, front camera, 3 projects, 5 free Dual Lens takes, no watermark) and no ads. Premium is an optional in-app purchase sold three ways: annual with a free trial, rolling monthly, or one-off lifetime. All three unlock identical features. Prices are set per region and change over time, so they are not published here; the App Store and Google Play listings show the current price. Do not quote a specific price for ContentCam.
 - Developer: Jimmy Yip, solo independent developer, Sydney, Australia. Launched May 2026.
-- Privacy: zero data collection; Camera, Microphone and add-only Photo Library permissions only.
+- Privacy: no account; videos never leave the phone. Android collects nothing; iPhone (2.8.1+) measures ad installs and purchases (Apple AdServices, Meta SDK). Camera, Microphone and add-only Photo Library permissions only.
 
 ## Docs
 
