@@ -39,17 +39,39 @@
         "description": "Which Android phones record the front and back camera at once in the stock camera app, why Pixel Camera can't, and how to get both cameras as separate files with ContentCam's Front & Back mode.",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-10-08",
-        "dateModified": "2026-10-08",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "Developer of ContentCam", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "dateModified": "2026-11-05",
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "Developer of ContentCam",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/blog/record-front-and-back-camera-same-time-android/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://contentcam.app/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "Front and back camera at once on Android", "item": "https://contentcam.app/blog/record-front-and-back-camera-same-time-android/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://contentcam.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://contentcam.app/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Front and back camera at once on Android",
+            "item": "https://contentcam.app/blog/record-front-and-back-camera-same-time-android/"
+          }
         ]
       },
       {
@@ -57,28 +79,43 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Can Android record the front and back camera at the same time?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes, on phones whose hardware can run both cameras at once. Some Samsung Galaxy phones do it in the stock Camera app (Director's View with Dual recording, on select models running One UI 3.1 and later). Pixel Camera has no front and back mode. On other phones, a camera app with a front and back mode can do it if the phone reports that the two cameras can run together." }
+            "name": "Can a Google Pixel record the front and back camera at the same time?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not in Pixel Camera. Dual screen preview on the Pixel Fold models shows the viewfinder on both screens while one camera records. On a Pixel that supports concurrent cameras, an app with a front and back mode, such as ContentCam, records both."
+            }
           },
           {
             "@type": "Question",
-            "name": "Can a Google Pixel record the front and back camera at the same time?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Not in Pixel Camera. Google's Pixel Camera help documents Dual screen preview on the Pixel Fold models, which shows the viewfinder on the inner and outer screens while one camera records. It does not record two cameras. A third-party camera app with a front and back mode is the way to do it on a Pixel that supports concurrent cameras." }
+            "name": "What is the best app to record the front and back camera at the same time on Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ContentCam, if you want to edit the two angles: Front & Back saves your face and the scene as two separate files on any Android phone that can run both cameras together, with no ads or watermark. On a supported Galaxy, stock Dual recording is the quickest way to one finished clip."
+            }
           },
           {
             "@type": "Question",
             "name": "Does Samsung Dual recording save two separate files?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Usually it records one video, with your selfie in a picture-in-picture window or a split screen. Samsung's support page says the Galaxy S22 and S23 have an extra option to save the selfie and rear videos as separate files, set before you start recording." }
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Usually not. It records one video with the layout you picked, and the setting can't be changed once recording starts. Samsung says only the Galaxy S22 and S23 series can save separate selfie and rear files, set before recording."
+            }
           },
           {
             "@type": "Question",
             "name": "Is ContentCam's Front & Back mode free on Android?",
-            "acceptedAnswer": { "@type": "Answer", "text": "ContentCam is free to download and the core dual-format recording is free. Front & Back is a premium mode with 5 free recordings to try it." }
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ContentCam is free to download and its dual-format recording is free. Front & Back is a Premium mode with 5 free recordings to try it."
+            }
           },
           {
             "@type": "Question",
             "name": "Why can't my Android phone record both cameras at once?",
-            "acceptedAnswer": { "@type": "Answer", "text": "It comes down to the hardware. Android 11 (API level 30) added getConcurrentCameraIds(), which tells an app which cameras can run at the same time. If a phone reports no front and rear pair, apps using that official route cannot record both cameras on it." }
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It comes down to the hardware. Android 11 added getConcurrentCameraIds(), which tells apps which cameras can run together. If a phone reports no front and rear pair, apps using that official route can't record both."
+            }
           }
         ]
       }
@@ -120,77 +157,74 @@
     <div class="crumbs"><a href="/">Home</a> › <a href="/blog/">Blog</a> › Front and back camera at once on Android</div>
     <article class="post">
       <h1>How to Record the Front and Back Camera at the Same Time on Android</h1>
-      <p class="byline">By Jimmy, developer of ContentCam · 8 October 2026</p>
+      <p class="byline">By Jimmy, developer of ContentCam · 8 October 2026 · Updated 5 November 2026</p>
 
-      <p>Some Samsung Galaxy phones can record the front and back camera at once in the stock Camera app, and Pixel Camera can't. On any Android phone whose hardware can run both cameras together, a camera app with a front and back mode will do it, and ContentCam's Front &amp; Back mode saves your face and the scene as two separate files.</p>
-      <p>Below is what each route gives you, which phones it works on, and how to shoot it so the reaction actually lands. For every way to do it on iPhone and Android, including Instagram's built-in option, see the main guide to <a href="/blog/dual-camera-effect/">using the front and back camera at the same time</a>. If you also film on an iPhone, the stock Camera app there has its own version on newer models, <a href="/blog/iphone-17-dual-capture-limitations/">iPhone Dual Capture</a>, which saves both cameras as one picture-in-picture file.</p>
-
-      <h2>Samsung Galaxy: Director's View and Dual recording</h2>
-      <p>Samsung has built this into the Camera app. Its support page describes Director's View with Dual recording as a way to "record a video using the rear camera and selfie camera at the same time", available on select devices running One UI 3.1 and later. You choose a layout before you record:</p>
-      <ul>
-        <li><strong>Picture-in-picture:</strong> a small window of you in the corner of the rear shot.</li>
-        <li><strong>Split:</strong> the rear camera on top and the selfie camera underneath.</li>
-        <li><strong>Single:</strong> just one camera, using Director's View to switch lenses.</li>
-      </ul>
-      <p>Two catches. First, the result is normally <em>one</em> video with your face baked into the layout you picked, so you can't move or remove the inset in the edit. Samsung's page notes that the Galaxy S22 and S23 can save the selfie and rear videos as separate files if you turn that on before recording. Second, on the Galaxy S24, S25 and newer, Director's View has been renamed Dual recording, and on One UI 8.5 it moved into Video mode under Quick controls. The full steps and model list are in <a href="/blog/record-front-and-back-camera-samsung-galaxy/">how to record front and back on a Samsung Galaxy</a>.</p>
-
-      <h2>Google Pixel: no front and back mode</h2>
-      <p>Pixel Camera doesn't record two cameras at once. The closest thing in Google's help pages is Dual screen preview on the Pixel Fold models, which shows the viewfinder on the inside and outside screens so the person you're filming can see themselves. It's still one camera recording. On a Pixel, front and back recording means a third-party app.</p>
-
-      <h2>Every other Android phone: it depends on the hardware</h2>
-      <p>Android 11 (API level 30) added <code>getConcurrentCameraIds()</code>, which tells an app which of the phone's cameras can run at the same time. If your phone reports a front and rear pair, an app can record both. If it doesn't, no app using that official route can, however good the app is. This is why front and back recording works on one phone and not on another that looks just as capable.</p>
+      <p>The most flexible way to record the front and back camera at once on Android is a camera app that saves your face and the scene as two separate files. ContentCam's Front &amp; Back mode does that on any Android phone whose hardware can run both cameras together, including Pixels that support it, where Pixel Camera has no front and back mode. Some Samsung Galaxy phones also do it in the stock Camera app, but usually as one video with the layout fixed before you press record.</p>
+      <p>For iPhone and Instagram's built-in option, see the main guide to <a href="/blog/dual-camera-effect/">using the front and back camera at the same time</a>, or <a href="/blog/iphone-17-dual-capture-limitations/">iPhone Dual Capture</a> for Apple's stock version.</p>
 
       <h2>Doing it in ContentCam on Android</h2>
-      <p>ContentCam's Front &amp; Back mode records the selfie camera and the rear camera together, from one tap, and gives you two files rather than one baked-in layout. The rear camera can record vertical or horizontal (you choose), and the selfie is always vertical. Because the two are separate, you decide the layout afterwards: inset, split, cutaways between them, or two different posts from one take.</p>
+      <p>Front &amp; Back records the selfie and rear cameras together from one tap and gives you two files, not one baked-in layout. The rear camera records vertical or horizontal (you choose); the selfie is always vertical. You choose the layout afterwards: inset, split, cutaways, or two posts. For one finished video, the Combine editor renders the pair as picture-in-picture or split screen and keeps your originals.</p>
       <ol>
-        <li>Install <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dandroid-dual-format">ContentCam from Google Play</a> and open it.</li>
-        <li>Switch the recording mode to Front &amp; Back.</li>
-        <li>Choose whether the rear camera records vertical or horizontal.</li>
-        <li>Frame the rear shot, then record once. Both cameras roll on the same timeline, so the reaction and the scene stay in sync.</li>
-        <li>Review the two clips side by side, trim, and export.</li>
+        <li>Install <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dandroid-dual-format">ContentCam from Google Play</a>.</li>
+        <li>Switch the mode to Front &amp; Back. The app checks your phone's cameras and only offers the mode where it works.</li>
+        <li>Choose vertical or horizontal for the rear camera.</li>
+        <li>Frame the rear shot and record once. Both cameras share one timeline, so the reaction and the scene stay in sync.</li>
+        <li>Trim and export the two clips, or open Combine for a single video.</li>
       </ol>
-      <p>Front &amp; Back is a premium mode with 5 free recordings to try it first. Like the rest of the app on Android, it works from what your phone's camera actually reports it supports. The free tier still records dual-format video: a 9:16 portrait and a 16:9 landscape file from one take, which is a different problem covered in <a href="/blog/record-portrait-and-landscape-video-same-time-android/">recording portrait and landscape at the same time on Android</a>.</p>
+      <p>Front &amp; Back records HD at up to 30fps on Android and is Premium, with 5 free recordings to try it. Trying Combine layouts is free; saving one is Premium. The mode also takes front and back photo pairs (Premium). No ads and no watermark, free or Premium. The free tier records a 9:16 and a 16:9 file from one take, covered in <a href="/blog/record-portrait-and-landscape-video-same-time-android/">recording portrait and landscape at the same time on Android</a>.</p>
 
       <div class="shot-pair">
         <img src="/assets/img/ui-record-handsup-640.webp" alt="ContentCam's recording screen with the mode toggle" width="640" height="1387" loading="lazy" decoding="async">
         <img src="/assets/img/ui-review-dark-640.webp" alt="ContentCam's review screen after a take" width="640" height="1387" loading="lazy" decoding="async">
       </div>
 
+      <h2>Samsung Galaxy: Director's View and Dual recording</h2>
+      <p>Samsung's support page describes Dual recording as a way to "record a video using the rear camera and selfie camera at the same time", on select devices running One UI 3.1 and later. You pick picture-in-picture (you in a corner) or split (rear on top, selfie below) before you record.</p>
+      <p>The limits, from Samsung's own pages: the result is normally <em>one</em> video with the inset baked in, so it can't be moved or removed later, and you can't change the Dual recording setting once a video has started. Only the Galaxy S22 and S23 series can save separate selfie and rear files, switched on before recording. On newer Galaxy phones, including the S24 and S25 series, Director's View has been renamed Dual recording, and from One UI 8.5 it sits in Video mode under Quick controls. Full steps are in <a href="/blog/record-front-and-back-camera-samsung-galaxy/">how to record front and back on a Samsung Galaxy</a>.</p>
+
+      <h2>Google Pixel: no front and back mode</h2>
+      <p>Pixel Camera doesn't record two cameras at once. Google's closest feature is Dual screen preview on the Pixel Fold models, which shows the viewfinder on the inside and outside screens so your subject can see themselves. It's still one camera recording. On a Pixel, front and back recording means a third-party app such as ContentCam.</p>
+
+      <h2>Every other Android phone: it depends on the hardware</h2>
+      <p>Android 11 (API level 30) added <code>getConcurrentCameraIds()</code>, which tells an app which cameras can run at the same time. If your phone reports a front and rear pair, an app can record both. If not, no app using that official route can. That's why it works on one phone and not another.</p>
+
       <h2>Which route should you use?</h2>
       <ul>
-        <li><strong>You have a supported Galaxy and want a finished clip fast:</strong> use Dual recording in the stock Camera app. Pick picture-in-picture or split and post it as it is.</li>
-        <li><strong>You want to edit the two angles separately,</strong> or you're on a Pixel or another brand: use an app that saves two files.</li>
-        <li><strong>You just want your face in a corner for one Story:</strong> Instagram's own Dual camera may be enough, as covered in the <a href="/blog/dual-camera-effect/">main dual camera guide</a>.</li>
+        <li><strong>You want the two angles as separate files,</strong> or you're on a Pixel or another brand: ContentCam's Front &amp; Back mode.</li>
+        <li><strong>You have a supported Galaxy and want one finished clip fast:</strong> Dual recording in the stock Camera app.</li>
+        <li><strong>You just want your face in a corner for one Story:</strong> Instagram's Dual camera, covered in the <a href="/blog/dual-camera-effect/">main dual camera guide</a>.</li>
       </ul>
 
       <h2>Shooting it well</h2>
       <ul>
-        <li><strong>Light your face.</strong> The selfie camera is the weaker one and gets noisy in a dim room long before the rear camera does. Face a window or a lamp.</li>
-        <li><strong>Keep your voice close.</strong> The phone mic favours whoever is nearest. If you step back to show something, your voice drops, so come closer for the lines that matter.</li>
-        <li><strong>Lock exposure if you move between light.</strong> Walking from a bright window into a dark room makes both cameras hunt. The <a href="/blog/android-camera-settings-for-video/">Android camera settings guide</a> covers what your phone lets you lock.</li>
-        <li><strong>Watch the heat.</strong> Two cameras at once is hard work for a phone. For long takes, keep it out of direct sun and take the case off.</li>
+        <li><strong>Light your face.</strong> The selfie camera gets noisy in a dim room first. Face a window or a lamp.</li>
+        <li><strong>Keep your voice close.</strong> Step back to show something and your voice drops, so come closer for the lines that matter.</li>
+        <li><strong>Lock exposure between light changes.</strong> The <a href="/blog/android-camera-settings-for-video/">Android camera settings guide</a> covers what your phone lets you lock.</li>
+        <li><strong>Watch the heat.</strong> For long takes, keep out of direct sun and take the case off.</li>
       </ul>
 
       <h2>FAQ</h2>
       <h3>Can a Google Pixel record the front and back camera at the same time?</h3>
-      <p>Not in Pixel Camera. Dual screen preview on the Pixel Fold models uses the two screens, not two cameras. Use a front and back camera app on a Pixel that supports concurrent cameras.</p>
+      <p>Not in Pixel Camera. Dual screen preview on the Pixel Fold models shows the viewfinder on both screens while one camera records. On a Pixel that supports concurrent cameras, an app with a front and back mode, such as ContentCam, records both.</p>
+      <h3>What is the best app to record the front and back camera at the same time on Android?</h3>
+      <p>ContentCam, if you want to edit the two angles: Front &amp; Back saves your face and the scene as two separate files on any Android phone that can run both cameras together, with no ads or watermark. On a supported Galaxy, stock Dual recording is the quickest way to one finished clip.</p>
       <h3>Does Samsung Dual recording save two separate files?</h3>
-      <p>Usually it saves one video with the layout baked in. Samsung says the Galaxy S22 and S23 can save separate selfie and rear files if you set it before recording.</p>
+      <p>Usually not. It records one video with the layout you picked, and the setting can't be changed once recording starts. Samsung says only the Galaxy S22 and S23 series can save separate selfie and rear files, set before recording.</p>
       <h3>Is ContentCam's Front &amp; Back mode free on Android?</h3>
-      <p>The app and its dual-format recording are free. Front &amp; Back is premium, with 5 free recordings to try it.</p>
-      <h3>Why can't my phone record both cameras at once?</h3>
-      <p>The phone's hardware has to support running the front and rear cameras together, and it reports that to apps through <code>getConcurrentCameraIds()</code> on Android 11 and later. If it doesn't, no app can record both through the official route.</p>
+      <p>ContentCam is free to download and its dual-format recording is free. Front &amp; Back is a Premium mode with 5 free recordings to try it.</p>
+      <h3>Why can't my Android phone record both cameras at once?</h3>
+      <p>It comes down to the hardware. Android 11 added getConcurrentCameraIds(), which tells apps which cameras can run together. If a phone reports no front and rear pair, apps using that official route can't record both.</p>
 
       <div class="post-cta">
-        <p><strong>Try ContentCam free.</strong> Front and back in one take as two separate files, plus vertical and wide from a single shoot. Free to download on Android and iPhone.</p>
+        <p><strong>Try ContentCam free.</strong> Front and back in one take as two separate files, plus vertical and wide from a single shoot. No ads, no watermark. Free to download on Android and iPhone.</p>
         <div class="badges badges-left">
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dandroid-dual-format"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Get it on Google Play" width="175" height="52"></a>
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=b-front-back-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
         </div>
       </div>
 
-      <p>Related: <a href="/blog/dual-camera-effect/">the full guide to using the front and back camera at the same time</a> · <a href="/blog/record-portrait-and-landscape-video-same-time-android/">recording portrait and landscape at the same time on Android</a> · <a href="/blog/record-front-and-back-camera-same-time-iphone/">the iPhone version of this guide</a> · <a href="/blog/take-photo-front-and-back-camera-same-time/">taking a front and back photo at once</a> · <a href="/android/">ContentCam for Android</a>. · <a href="/blog/record-front-and-back-camera-samsung-galaxy/">front and back on Samsung Galaxy</a> · <a href="/blog/record-front-and-back-camera-google-pixel/">front and back on Google Pixel</a></p>
-      <p class="byline">Sources: Samsung, "Use Director's View and Dual recording on your Galaxy phone" (samsung.com/us/support); Google, Pixel Camera Help, "Record a video" (support.google.com/pixelcamera); Android Developers, CameraManager.getConcurrentCameraIds(). Checked 8 October 2026; Samsung naming updated 5 November 2026.</p>
+      <p>Related: <a href="/blog/dual-camera-effect/">the full guide to using the front and back camera at the same time</a> · <a href="/blog/record-portrait-and-landscape-video-same-time-android/">recording portrait and landscape at the same time on Android</a> · <a href="/blog/record-front-and-back-camera-same-time-iphone/">the iPhone version of this guide</a> · <a href="/blog/take-photo-front-and-back-camera-same-time/">taking a front and back photo at once</a> · <a href="/android/">ContentCam for Android</a> · <a href="/blog/record-front-and-back-camera-samsung-galaxy/">front and back on Samsung Galaxy</a> · <a href="/blog/record-front-and-back-camera-google-pixel/">front and back on Google Pixel</a>.</p>
+      <p class="byline">Sources: Samsung, "Use Director's View and Dual recording on your Galaxy phone" (samsung.com/us/support); Google, Pixel Camera Help, "Record a video" (support.google.com/pixelcamera); Samsung US, "Dual recording missing in the Camera app on Galaxy phones"; Samsung Gulf, "Director's View Missing in Camera?"; Android Developers, CameraManager.getConcurrentCameraIds(). Checked 5 November 2026.</p>
     </article>
   </main>
 
@@ -208,6 +242,8 @@
         <a href="/blog/">Blog</a>
         <a href="/support/">Support</a>
         <a href="/press/">Press</a>
+        <a href="/vs/">Compare</a>
+        <a href="/changelog/">Changelog</a>
         <a href="/privacy.html">Privacy</a>
         <a href="/terms.html">Terms</a>
       </div>

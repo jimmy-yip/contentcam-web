@@ -93,8 +93,8 @@
       <p class="byline">By Jimmy, developer of ContentCam · 25 July 2026 · Updated 5 November 2026</p>
 
       <p>To record portrait and landscape video at the same time on iPhone, use a camera app that saves a 9:16 vertical file and a 16:9 horizontal file from the same take, because the iPhone Camera app records one shape per take. ContentCam, which I build, does this free at 1080p and up to 30fps on iPhone and Android, taking both files from the full 4:3 sensor so neither is a crop of the other; Premium adds 4K and 60fps. Without an app like that, you either film the piece twice or shoot horizontal in 4K and crop the vertical out afterwards, which keeps about 32% of the frame.</p>
-      <p>Every creator who posts to more than one platform hits the same wall: TikTok, Reels and Shorts want 9:16 vertical. YouTube wants 16:9 horizontal. Same content, incompatible shapes. You end up filming the piece twice, or filming once and butchering the second version in an editor.</p>
-      <p>There are three real ways to get both formats out of one shoot. I build a camera app for a living, so I'll be upfront that my app does two of them, but the trade-offs below apply whatever tool you use.</p>
+      <p>TikTok, Reels and Shorts want 9:16 vertical. YouTube wants 16:9 horizontal. Same content, incompatible shapes, so most creators film the piece twice or butcher the second version in an editor.</p>
+      <p>There are three real ways to get both formats out of one shoot. I build ContentCam, so read this with that in mind: it does options 2 and 3 below, the two that record both files at capture. Option 1 needs only an editor, and the maths shows what it costs.</p>
 
       <figure>
         <video src="/assets/blog/record-portrait-and-landscape-video-same-time-iphone/one-take-walk-both-formats.mp4" poster="/assets/blog/record-portrait-and-landscape-video-same-time-iphone/one-take-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="A man walking away from the camera through a tunnel of moss-covered branches, playing as a 9:16 portrait file and a 16:9 landscape file side by side"></video>
@@ -103,9 +103,8 @@
 
       <h2>Option 1: Film portrait, crop landscape in post</h2>
       <p>The default workflow. Record vertical, drop the clip into CapCut or Premiere, set a 16:9 sequence, and scale the portrait clip until it fills the frame.</p>
-      <p>Here's the maths problem. A 1080×1920 portrait clip cropped to 16:9 gives you a 1080×607 strip, which then gets stretched to 1920×1080. You're upscaling by about three times the pixel area, from a slice that only ever contained your phone-shaped view of the scene. The result is soft, and the framing is whatever survived the chop: usually a face filling the frame with no room around it.</p>
-      <p>When it's fine: talking-head clips where the subject fills the frame anyway and the landscape version is a bonus, not a deliverable.</p>
-      <p>When it hurts: anything where the wide shot matters. Travel, vlogs, sport, product shots, anything with a background you chose on purpose.</p>
+      <p>Here's the maths problem. A 1080×1920 portrait clip cropped to 16:9 gives you a 1080×607 strip, stretched to 1920×1080: about three times the pixel area, upscaled. The result is soft, and the framing is whatever survived the chop, usually a face with no room around it.</p>
+      <p>It's fine for talking heads where the landscape version is a bonus. It hurts anywhere the wide shot matters: travel, vlogs, sport, product shots.</p>
 
       <h2>Option 2: Record the full sensor, crop both ways at capture</h2>
       <p>Your iPhone's camera sensor isn't portrait or landscape. It's 4:3: wider than a 9:16 frame and taller than a 16:9 frame. Standard camera apps throw part of it away the moment you pick an orientation.</p>
@@ -121,8 +120,8 @@
       </figure>
 
       <h2>Option 3: Record two cameras at once</h2>
-      <p>iPhone 11 and later can run two rear cameras simultaneously. ContentCam's Dual Lens mode uses this: the wide lens records your portrait while the ultra-wide records landscape, at the same instant.</p>
-      <p>The difference from option 2 is framing. With full-sensor capture, both files show the same scene at different widths. With two lenses, your portrait can be a tight shot while your landscape is a genuinely wide establishing shot. For a piece to camera in an interesting location, that's two different shots from one take.</p>
+      <p>An iPhone 11 or later with an ultra-wide camera (so not iPhone SE or iPhone 16e) can run two rear cameras simultaneously. ContentCam's Dual Lens mode uses this: the wide lens records your portrait while the ultra-wide records landscape, at the same instant.</p>
+      <p>The difference from option 2 is framing. With two lenses, your portrait can be a tight shot while your landscape is a genuinely wide establishing shot: two different shots from one take.</p>
 
       <figure>
         <div class="shot-pair">
@@ -131,23 +130,24 @@
         </div>
         <figcaption>Dual Lens mode: the live view while recording (left), then the review screen (right). The portrait stays tight on the walk while the landscape takes in the whole tunnel.</figcaption>
       </figure>
-      <p>The honest limits: it runs at 1080p (Apple caps simultaneous two-camera capture at 1920x1440 on every current iPhone), and running two cameras uses more battery. Apple's own Camera app gets past that cap with <a href="/blog/iphone-17-dual-capture-limitations/">iPhone Dual Capture</a>, at 4K30, but only for the front and rear cameras together and only as one picture-in-picture frame.</p>
+      <p>The limits: it runs at 1080p (Apple caps simultaneous two-camera capture by third-party apps at 1920×1440 on every current iPhone), and running two cameras uses more battery. Apple's own Camera app has <a href="/blog/iphone-17-dual-capture-limitations/">iPhone Dual Capture</a> at up to 4K30, but it pairs the front and rear cameras, not two rear framings, and saves one picture-in-picture video. It gives you no 9:16 and 16:9 pair at all.</p>
 
       <h2>How do you record landscape video on an iPhone?</h2>
-      <p>Turn the phone sideways and the Camera app records 16:9 landscape. That is the whole answer for a single format, and it is why the question usually comes with a second one attached: what happens when you also need the vertical version. Rotating the phone gives you one or the other, and cropping a vertical out of that landscape afterwards keeps only about 32% of the width. The single-format steps, Lock Rotation and fixing a clip filmed the wrong way are in <a href="/blog/how-to-record-landscape-video-on-iphone/">how to record landscape video on iPhone</a>.</p>
-      <p>If you need both, record the full sensor once and take both framings out of it at capture, which is Option 2 above. The landscape file stays a real 16:9 recording rather than a crop, and the portrait one keeps its full height.</p>
+      <p>Turn the phone sideways and the Camera app records 16:9 landscape. That covers one format. Rotating gives you one or the other, and cropping a vertical out of that landscape afterwards keeps only about 32% of the width. Lock Rotation and fixing a clip filmed the wrong way are in <a href="/blog/how-to-record-landscape-video-on-iphone/">how to record landscape video on iPhone</a>.</p>
+      <p>If you need both, record the full sensor once in ContentCam and take both framings out of it at capture (Option 2 above). The landscape file stays a real 16:9 recording, and the portrait one keeps its full height.</p>
 
       <h2>Which one should you use?</h2>
       <table>
         <thead><tr><th>Your situation</th><th>Best option</th></tr></thead>
         <tbody>
           <tr><td>Talking head, face fills frame, landscape is secondary</td><td>Crop in post is fine</td></tr>
-          <tr><td>Both versions need to look intentional</td><td>Full-sensor capture (option 2)</td></tr>
-          <tr><td>You want different framing per platform</td><td>Dual Lens (option 3)</td></tr>
-          <tr><td>You need 4K in both formats</td><td>Full-sensor capture, it's the only one that can</td></tr>
-          <tr><td>Front camera</td><td>Full-sensor capture (works on the selfie cam)</td></tr>
+          <tr><td>Both versions need to look intentional</td><td>ContentCam full-sensor capture (option 2), free in HD</td></tr>
+          <tr><td>You want different framing per platform</td><td>ContentCam Dual Lens (option 3)</td></tr>
+          <tr><td>You need 4K in both formats</td><td>ContentCam full-sensor capture (Premium), the only one of the three that can</td></tr>
+          <tr><td>Front camera</td><td>ContentCam full-sensor capture (works on the selfie cam)</td></tr>
         </tbody>
       </table>
+      <p>If you post the same take to TikTok and YouTube more than once a week, record it in ContentCam. Cropping in post only makes sense when the landscape version barely matters.</p>
 
       <h2>Step by step in ContentCam</h2>
       <ol>
@@ -157,7 +157,7 @@
         <li>Stop, and the review screen shows portrait and landscape side by side. Save both, or delete the take and go again.</li>
         <li>Files are auto-named (<code>my_project_scene_001_Portrait.mov</code> and <code>_Landscape.mov</code>) so you can't mix them up in the edit.</li>
       </ol>
-      <p>The free tier does all of this at 1080p with the single lens, no watermark. <a href="/pricing/">Premium</a> adds Dual Lens, 4K and 60fps.</p>
+      <p>The free tier does all of this at 1080p with the single lens: unlimited takes, no account, no ads and no watermark. <a href="/pricing/">Premium</a> adds Dual Lens, 4K and 60fps.</p>
 
       <h2>On Android?</h2>
       <p>Same problem, same fix. <a href="/android/">ContentCam for Android</a> records both formats from the full sensor too, with manual white balance, ISO and shutter on phones that support them. The <a href="/blog/record-portrait-and-landscape-video-same-time-android/">Android version of this guide</a> covers what Samsung Camera and Pixel Camera can and can't do here.</p>
@@ -188,6 +188,8 @@
         <a href="/blog/">Blog</a>
         <a href="/support/">Support</a>
         <a href="/press/">Press</a>
+        <a href="/vs/">Compare</a>
+        <a href="/changelog/">Changelog</a>
         <a href="/privacy.html">Privacy</a>
         <a href="/terms.html">Terms</a>
       </div>
