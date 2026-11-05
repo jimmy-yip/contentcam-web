@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Fonctionnalités ContentCam : filmer en vertical et horizontal, téléprompteur et plus</title>
+  <meta name="description" content="Tout ce que fait ContentCam : enregistrement simultané en vertical et en horizontal, mode Double objectif, Avant et arrière avec combinaison, téléprompteur intégré, commandes manuelles, timelapse, 4K et un flux de travail pensé pour les créateurs.">
+  <link rel="canonical" href="https://contentcam.app/fr/features/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="fr">
+  <meta property="og:title" content="Fonctionnalités de ContentCam">
+  <meta property="og:description" content="Enregistrement simultané en vertical et en horizontal, Double objectif, Avant et arrière, téléprompteur intégré, commandes manuelles, timelapse, 4K.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-features.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/fr/features/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fonctionnalités de ContentCam">
+  <meta name="twitter:description" content="Vertical et horizontal en une seule prise, Double objectif, Avant et arrière, téléprompteur, commandes manuelles, 4K et 60 fps.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-features.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://contentcam.app/fr/features/",
+        "url": "https://contentcam.app/fr/features/",
+        "inLanguage": "fr",
+        "name": "Fonctionnalités de ContentCam",
+        "description": "Tout ce que fait ContentCam sur iPhone et Android : vertical et horizontal en une seule prise, Double objectif, Avant et arrière avec combinaison, téléprompteur, commandes manuelles, 4K, 60 fps, timelapse et projets.",
+        "about": { "@id": "https://contentcam.app/#app" },
+        "primaryImageOfPage": "https://contentcam.app/assets/img/ui-record-handsdown-640.webp"
+      },
+      {
+        "@type": "ItemList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Vertical et horizontal en une seule prise", "url": "https://contentcam.app/features/dual-camera/" },
+          { "@type": "ListItem", "position": 2, "name": "Modes d'enregistrement Double objectif et Avant et arrière", "url": "https://contentcam.app/fr/features/#modes" },
+          { "@type": "ListItem", "position": 3, "name": "Commandes manuelles de la caméra", "url": "https://contentcam.app/features/manual-controls/" },
+          { "@type": "ListItem", "position": 4, "name": "Téléprompteur intégré", "url": "https://contentcam.app/features/teleprompter/" },
+          { "@type": "ListItem", "position": 5, "name": "Projets, visionnage et découpe", "url": "https://contentcam.app/fr/features/#organise" }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://contentcam.app/fr/" },
+          { "@type": "ListItem", "position": 2, "name": "Fonctionnalités", "item": "https://contentcam.app/fr/features/" }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    /* features page (redesigned 1 Nov, human pass). All classes prefixed fx- */
+    .fx-main > section { padding: 52px 0; }
+    .fx-main > section.fx-hero { border-top: none; padding: 28px 0 40px; }
+    .fx-main section .lead { max-width: 640px; }
+    .fx-hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 48px; align-items: center; }
+    .fx-hero-grid > * { min-width: 0; }
+    .fx-hero h1 { font-size: clamp(34px, 5.4vw, 54px); line-height: 1.04; letter-spacing: -0.03em; margin: 0 0 18px; }
+    .fx-hero h1 .accent { color: var(--cyan); }
+    .fx-hero .lead { font-size: 18px; margin-bottom: 24px; }
+    .fx-reassure { margin: 14px 0 0; font-size: 14px; color: var(--text-dim); }
+    a.cta.fx-go { box-shadow: none; color: #06222a; }
+    @media (max-width: 860px) { a.cta.fx-go { display: flex; justify-content: center; width: 100%; padding: 15px 20px; } .fx-dk { display: none; } }
+    @media (min-width: 861px) { a.cta.fx-go { display: none; } .fx-dk { margin-top: 4px; } }
+    a.cta.fx-go:hover { transform: none; }
+    .fx-jump { margin: 26px 0 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; letter-spacing: .04em; }
+    .fx-jump span { color: var(--text-dim); }
+    .fx-hero-media { justify-self: center; width: 100%; max-width: 300px; }
+    .fx-loop { margin: 0; position: relative; cursor: pointer; aspect-ratio: 9/16; overflow: hidden; border-radius: 18px; background: #0b1416; }
+    .fx-loop video { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .fx-loop.paused::after { content: ""; position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%;
+      background: rgba(9,16,18,.6) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z' fill='%23fff'/%3E%3C/svg%3E") center/26px no-repeat; }
+    .fx-cap { margin: 10px 0 0; text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); }
+
+    /* feature rows: text + media, alternating on desktop */
+    .fx-row { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; align-items: center; }
+    .fx-row > * { min-width: 0; }
+    .fx-row.flip .fx-media { order: -1; }
+    .fx-row h2 { margin-bottom: 12px; }
+    .fx-row .lead { margin-bottom: 20px; }
+    .fx-list { list-style: none; margin: 0; padding: 0; border-top: 3px solid var(--cyan); }
+    .fx-list li { padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 15.5px; line-height: 1.45; color: var(--text-soft); }
+    .fx-list li b { color: var(--ink); font-weight: 600; }
+    .fx-list code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; background: var(--surface-2); padding: 1px 5px; border-radius: 5px; color: var(--amber-ink); overflow-wrap: anywhere; }
+    .fx-tag { display: inline-block; margin-left: 4px; padding: 1px 7px; border-radius: 6px; border: 1px solid var(--line-strong); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--text-dim); vertical-align: 1px; white-space: nowrap; }
+    .fx-tag.p { border-color: rgba(37,208,229,.6); color: var(--cyan-ink); }
+    .fx-more { margin: 16px 0 0; font-size: 15px; display: flex; flex-wrap: wrap; gap: 6px 22px; }
+    .fx-note { margin: 14px 0 0; font-size: 14px; color: var(--text-dim); }
+
+    .fx-media { min-width: 0; }
+    .fx-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; max-width: 460px; margin: 0 auto; }
+    .fx-pair > * { min-width: 0; }
+    .fx-solo { max-width: 250px; margin: 0 auto; }
+    .fx-proof { margin: 0 0 18px; font-size: 14px; color: var(--text-dim); } .fx-proof .star { color: var(--amber); }
+    .fx-shot { margin: 0; }
+    .fx-photo img { border: 0 !important; }
+    .fx-shot img { display: block; width: 100%; height: auto; border-radius: 18px; border: 1.5px solid var(--cyan); }
+
+    .fx-ph { aspect-ratio: 640/1388; border: 1.5px dashed var(--line-strong); border-radius: 18px; background: var(--surface-2); display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; line-height: 1.5; color: var(--amber-ink); }
+    .fx-ph.wide { aspect-ratio: 4/3; max-width: 460px; margin: 0 auto; }
+    .fx-review { margin: 22px auto 0; max-width: 420px; }
+    .fx-review img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.10); border-radius: 4px; transform: rotate(-1.2deg); }
+
+    /* dual-format still pair */
+    .fx-formats { display: flex; align-items: flex-end; gap: 4%; }
+    .fx-formats > * { min-width: 0; }
+    .fx-formats .frame { box-shadow: none; }
+    .fx-formats .f9 { flex: 0 0 34%; aspect-ratio: 9/16; }
+    .fx-formats .f16 { flex: 0 0 62%; aspect-ratio: 16/9; }
+    .fx-formats .lbl { position: absolute; top: 8px; left: 8px; font-size: 12px; font-weight: 600; line-height: 1; color: #fff; background: rgba(9,16,18,.74); padding: 5px 8px; border-radius: 7px; white-space: nowrap; }
+
+    /* review collage */
+    .fx-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 10px 40px 0; align-items: start; }
+    .fx-collage > * { min-width: 0; }
+    .fx-collage figure { margin: 0 -2px; position: relative; }
+    .fx-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.10); border-radius: 4px; }
+    .fx-collage figure:nth-child(1) { transform: rotate(-1.4deg); z-index: 1; }
+    .fx-collage figure:nth-child(2) { transform: rotate(1.1deg); z-index: 2; margin-top: 26px; }
+    .fx-collage figure:nth-child(3) { transform: rotate(-.7deg); z-index: 3; margin-top: 8px; }
+    .fx-collage-cap { text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); margin: 22px 0 0; }
+    .fx-center-cta { text-align: center; margin-top: 26px; }
+
+    /* iPhone vs Android */
+    .fx-plat { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; margin-top: 8px; }
+    .fx-plat h3 { font-size: 17px; margin: 0 0 6px; }
+    .fx-plat ul { list-style: none; margin: 0 0 18px; padding: 0; border-top: 3px solid var(--cyan); }
+    .fx-plat li { padding: 10px 0; border-bottom: 1px solid var(--border); color: var(--text-soft); font-size: 15px; }
+    .fx-plat li b { color: var(--ink); font-weight: 600; }
+
+    .fx-privbox { display: flex; gap: 18px; align-items: flex-start; }
+    .fx-privbox svg { flex: none; width: 40px; height: 46px; margin-top: 2px; }
+    .fx-privbox ul { list-style: none; margin: 0 0 12px; padding: 0; }
+    .fx-privbox li { position: relative; padding-left: 26px; margin-bottom: 6px; color: var(--text-soft); font-size: 15.5px; }
+    .fx-privbox li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan-ink); font-weight: 700; }
+    @media (max-width: 860px) { .fx-privbox { padding: 20px 18px; gap: 14px; } .fx-privbox svg { width: 32px; height: 37px; } }
+    .fx-main > section.fx-final { text-align: center; padding: 60px 0 76px; }
+    .fx-final .lead { margin: 0 auto 24px; }
+
+    @media (max-width: 860px) {
+      .fx-main > section { padding: 38px 0; }
+      .fx-main > section.fx-hero { padding: 20px 0 32px; }
+      .fx-hero-grid { grid-template-columns: 1fr; gap: 28px; }
+      .fx-hero-media { max-width: 230px; }
+      .fx-row { grid-template-columns: 1fr; gap: 26px; }
+      .fx-row.flip .fx-media { order: 0; }
+      .fx-pair { gap: 12px; }
+      .fx-dk-media { display: none; }
+      .fx-ph { font-size: 11px; padding: 10px; }
+      .fx-collage { grid-template-columns: 1fr; padding: 0 4px; }
+      .fx-collage figure { margin: 0; width: 94%; }
+      .fx-collage figure:nth-child(2) { justify-self: end; margin-top: -6px; }
+      .fx-collage figure:nth-child(3) { margin-top: -6px; }
+      .fx-plat { grid-template-columns: 1fr; }
+      .fx-main > section.fx-final { padding: 44px 0 56px; }
+    }
+  </style>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/features/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/features/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/features/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/features/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/features/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/features/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/features/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/features/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/features/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/fr/"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Ouvrir le menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/fr/features/">Fonctionnalités</a>
+        <a href="/fr/pricing/">Tarifs</a>
+        <a href="/blog/">Blog</a>
+        <a href="/fr/support/">Assistance</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap fx-main">
+    <div class="crumbs"><a href="/fr/">Accueil</a> › Fonctionnalités</div>
+
+    <section class="fx-hero">
+      <div class="fx-hero-grid">
+        <div>
+          <p class="section-eyebrow">Fonctionnalités</p>
+          <h1>Filmez en vertical et en horizontal <span class="accent">en même temps.</span></h1>
+          <p class="lead">Une seule prise vous donne une vidéo verticale pour TikTok, Reels et Shorts, et une vidéo horizontale pour YouTube. Plein cadre dans les deux sens, sans recadrage. Voici tout ce que l'app sait faire d'autre.</p>
+          <p class="fx-proof">Noté <span class="star">★</span> 4,8 par plus de 1 000 créateurs · plus de 50 000 téléchargements</p>
+          <nav class="fx-jump" aria-label="Aller à un groupe de fonctionnalités"><span>Aller à :</span><a href="#formats">Double format</a><a href="#modes">Modes</a><a href="#controls">Commandes</a><a href="#teleprompter">Téléprompteur</a><a href="#organise">Projets</a><a href="#privacy">Confidentialité</a></nav>
+        </div>
+        <div class="fx-hero-media">
+          <figure class="fx-loop"><video src="/assets/video/loop-demo-sunset.mp4" poster="/assets/video/loop-demo-sunset-poster.jpg" muted loop playsinline preload="metadata" aria-label="Enregistrement d'écran de ContentCam filmant un coucher de soleil dans les deux formats"></video></figure>
+          <p class="fx-cap">enregistrement d'écran</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="formats">
+      <div class="fx-row">
+        <div>
+          <p class="section-eyebrow">Deux formats, une prise</p>
+          <h2>Filmer en vertical et en horizontal en même temps, à chaque prise</h2>
+          <p class="lead">Le mode Objectif unique capte tout le capteur 4:3 de la caméra et en tire une vidéo 9:16 et une vidéo 16:9. La verticale garde toute la hauteur, l'horizontale toute la largeur, et chacune est un fichier distinct.</p>
+          <ul class="fx-list">
+            <li><b>Vertical pour TikTok, Reels et Shorts</b> et <b>horizontal pour YouTube</b>, chaque fois que vous lancez l'enregistrement</li>
+            <li><b>HD ou 4K</b>, réglable séparément pour chaque format</li>
+            <li><b>Vertical seul</b> quand vous n'avez pas besoin de la vidéo horizontale</li>
+          </ul>
+          <p class="fx-more"><a href="/fr/features/dual-camera/">Comment fonctionne la capture en double format →</a></p>
+        </div>
+        <div class="fx-media fx-dk-media">
+          <div class="fx-formats">
+            <div class="frame f9"><img src="/assets/img/hero-portrait-400.webp" srcset="/assets/img/hero-portrait-400.webp 400w, /assets/img/hero-portrait-700.webp 700w" sizes="(max-width: 860px) 32vw, 170px" alt="Image verticale 9:16 extraite d'un enregistrement ContentCam au coucher du soleil à Sydney" width="400" height="712" loading="lazy" decoding="async"><span class="lbl">9:16</span></div>
+            <div class="frame f16"><img src="/assets/img/hero-landscape-600.webp" srcset="/assets/img/hero-landscape-600.webp 600w, /assets/img/hero-landscape-900.webp 900w" sizes="(max-width: 860px) 58vw, 320px" alt="Image horizontale 16:9 extraite du même enregistrement ContentCam" width="600" height="338" loading="lazy" decoding="async"><span class="lbl">16:9</span></div>
+          </div>
+          <p class="fx-cap">même prise · deux fichiers</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="modes">
+      <div class="fx-row flip">
+        <div>
+          <p class="section-eyebrow">Modes d'enregistrement</p>
+          <h2>Plusieurs façons de filmer, dont deux caméras à la fois</h2>
+          <p class="lead">Changez de mode depuis la barre en bas de l'écran de la caméra.</p>
+          <ul class="fx-list">
+            <li><b>Objectif unique :</b> vertical et horizontal sur tout le capteur, aucun des deux n'étant un recadrage de l'autre</li>
+            <li><b>Double objectif :</b> le grand-angle et l'ultra grand-angle en même temps, pour deux points de vue différents. iPhone 11 ou ultérieur.</li>
+            <li><b>Avant et arrière :</b> votre réaction et ce que vous filmez en une seule prise, en deux fichiers ou combinés en une seule vidéo, en image dans l'image ou en écran partagé</li>
+            <li><b>Caméra avant</b> dans les deux formats, pour parler face caméra</li>
+            <li><b>Mode photo :</b> une photo 9:16 et une photo 16:9 d'une seule pression</li>
+            <li><b>Timelapse</b>, de 10x à 900x</li>
+          </ul>
+        </div>
+        <div class="fx-media">
+          <div class="fx-pair">
+            <figure class="fx-shot"><img src="/assets/img/ui-record-handsdown-640.webp" alt="Écran de la caméra ContentCam avec le sélecteur Double objectif et Objectif unique en bas" width="640" height="1388" loading="lazy" decoding="async"></figure>
+            <figure class="fx-shot"><img src="/assets/blog/dual-camera-effect/front-back-pip-recording.webp" alt="ContentCam en train de filmer en mode Avant et arrière, la caméra selfie affichée par-dessus un lac turquoise" width="640" height="1391" loading="lazy" decoding="async"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="controls">
+      <div class="fx-row">
+        <div>
+          <p class="section-eyebrow">Commandes pro</p>
+          <h2>Filmer comme un pro avec votre téléphone</h2>
+          <p class="lead">Laissez tout en automatique, ou réglez vous-même et verrouillez pour que l'image ne dérive pas en pleine prise.</p>
+          <ul class="fx-list">
+            <li><b>HD ou 4K</b> à 24, 25, 30, 50 ou 60 fps</li>
+            <li><b>Exposition, balance des blancs, ISO et vitesse d'obturation manuels</b></li>
+            <li><b>Touchez pour la mise au point</b>, maintenez le doigt pour verrouiller l'exposition et la mise au point (AE/AF)</li>
+            <li><b>Stabilisation</b>, et <b>vidéo HDR</b> sur iPhone</li>
+            <li><b>Flou d'arrière-plan</b> sur Android, en bêta</li>
+            <li><b>Grille, niveau et vumètre</b></li>
+          </ul>
+          <p class="fx-note">Sur Android, la 4K, les 60 fps ainsi que l'ISO et la vitesse d'obturation manuels dépendent de ce que la caméra de votre téléphone prend en charge. L'app vérifie et ne propose que ce qu'elle peut enregistrer.</p>
+          <p class="fx-more"><a href="/fr/features/manual-controls/">Les commandes manuelles en détail →</a></p>
+        </div>
+        <div class="fx-media">
+          <div class="fx-solo">
+            <figure class="fx-shot fx-photo"><img src="/assets/img/life-jimmy-2.webp" alt="Tournage d'un coucher de soleil sur l'eau avec ContentCam, les réglages de résolution et de fréquence d'images en haut de l'écran" width="720" height="1280" loading="lazy" decoding="async"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="teleprompter">
+      <div class="fx-row flip">
+        <div>
+          <p class="section-eyebrow">Téléprompteur</p>
+          <h2>Un téléprompteur pour lire votre texte en filmant</h2>
+          <p class="lead">Collez jusqu'à 15 000 caractères : le texte défile sur l'image de la caméra à la vitesse choisie, et votre regard reste près de l'objectif.</p>
+          <ul class="fx-list">
+            <li><b>Vitesse, taille et couleur du texte</b>, et position de la ligne de lecture</li>
+            <li><b>Mode miroir</b> pour les supports de téléprompteur</li>
+          </ul>
+          <p class="fx-more"><a href="/fr/features/teleprompter/">En savoir plus sur le téléprompteur →</a></p>
+        </div>
+        <div class="fx-media">
+          <figure class="fx-review"><img src="/assets/reviews/r-ios-maia-d.webp" alt="Avis App Store de Maia D 001, 5 étoiles : ContentCam m'aide tellement à créer mon contenu. L'app est simple à utiliser et rend mon flux de travail bien plus fluide ! J'adore la fonction téléprompteur." width="1017" height="674" loading="lazy" decoding="async"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="organise">
+      <div class="fx-row">
+        <div>
+          <p class="section-eyebrow">Projets et prises</p>
+          <h2>Des prises bien rangées, sans fouiller votre pellicule</h2>
+          <p class="lead">Chaque prise est classée par projet et par scène, et nommée pour vous : plus besoin de fouiller votre pellicule pour retrouver la bonne version.</p>
+          <ul class="fx-list">
+            <li><b>Projets, scènes et prises</b>, avec des fichiers nommés par exemple <code>my_project_scene_001_Portrait.mov</code></li>
+            <li><b>Revoyez les deux vidéos côte à côte</b> après chaque prise, et coupez avant d'enregistrer</li>
+            <li><b>Mettez en pause et reprenez</b> dans la même prise</li>
+            <li><b>Choisissez le dossier</b> où vont vos enregistrements</li>
+            <li><b>Prises interrompues récupérées</b> à la prochaine ouverture de l'app</li>
+          </ul>
+        </div>
+        <div class="fx-media">
+          <div class="fx-pair">
+            <figure class="fx-shot"><img src="/assets/img/ui-review-sunset-640.webp" srcset="/assets/img/ui-review-sunset-480.webp 480w, /assets/img/ui-review-sunset-640.webp 640w" sizes="(max-width: 860px) 44vw, 230px" alt="Écran de visionnage ContentCam affichant les prises verticale et horizontale côte à côte, avec la barre de découpe" width="640" height="1388" loading="lazy" decoding="async"></figure>
+            <figure class="fx-shot"><img src="/assets/img/ui-projects-640.webp" alt="Liste des projets ContentCam sur un iPhone tenu au bord d'un port au crépuscule" width="640" height="1388" loading="lazy" decoding="async"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">Avis</p>
+      <h2>Ce qu'en disent les créateurs</h2>
+      <!-- Real reviews, screenshots in assets/reviews (same source set as the homepage) -->
+      <div class="fx-collage" aria-label="De vrais avis de l'App Store et de Google Play">
+        <figure><img src="/assets/reviews/r-ios-cindy26.webp" alt="Avis App Store de cindy_.26, 5 étoiles : cette app a complètement changé ma façon de filmer. Surtout si vous créez du contenu ou aimez filmer votre quotidien, enregistrer en vertical et en horizontal en même temps change tout !! Elle est aussi incroyablement simple à utiliser et les images sont parfaites :)))" width="1027" height="945" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-ios-dhuddz.webp" alt="Avis App Store de Dhuddz, 5 étoiles : Pendant des mois, j'ai testé d'autres apps qui proposaient la même chose, mais ContentCam est devenue la meilleure option pour mon travail de création de contenu pour les réseaux sociaux. Les commandes sont simples, mais complètes, et l'interface est super intuitive." width="1020" height="940" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-play-queen-werandra.webp" alt="Avis Google Play de Queen WerandRa, 5 étoiles : Fantastique, quelle super app ! J'achète Premium sans hésiter. Modification : Jimmy est génial !" width="1021" height="494" loading="lazy" decoding="async"></figure>
+      </div>
+      <p class="fx-collage-cap">De vrais avis de l'App Store et de Google Play</p>
+      <div class="fx-center-cta"><a class="cta fx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=fr-features-reviews&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dfeatures-reviews%26utm_campaign%3Dfr-features-reviews">Essayer gratuitement</a></div>
+    </section>
+
+    <section id="privacy">
+      <p class="section-eyebrow">Confidentialité dès la conception</p>
+      <h2>Vos vidéos restent sur votre téléphone</h2>
+      <div class="privacy-box fx-privbox">
+        <svg viewBox="0 0 46 52" aria-hidden="true"><path d="M23 2 4 9v14c0 12.5 8 22.7 19 27 11-4.3 19-14.5 19-27V9L23 2z" fill="#25d0e5"/><path d="m14 26 6.5 6.5L32.5 20" fill="none" stroke="#101a1c" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <ul>
+            <li>Ni inscription ni compte</li>
+            <li>N'envoie, ne partage et ne stocke jamais vos vidéos</li>
+            <li>Filme hors ligne, sans connexion nécessaire</li>
+            <li>Ne lit jamais votre photothèque, se contente d'y ajouter vos vidéos et photos</li>
+          </ul>
+          <a href="/privacy.html">Politique de confidentialité →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="fx-final">
+      <h2>Arrêtez de filmer deux fois la même vidéo.</h2>
+      <p class="lead">Téléchargez-la gratuitement, filmez une prise et obtenez les deux formats prêts à publier.</p>
+      <div class="badges center-x">
+        <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=fr-features-final&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Télécharger dans l'App Store" width="156" height="52"></a>
+        <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dfeatures-final%26utm_campaign%3Dfr-features-final"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Disponible sur Google Play" width="175" height="52"></a>
+      </div>
+      <p class="fx-reassure">Téléchargement gratuit · Sans publicité · Sans filigrane · Sans compte</p>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      if (/android/i.test(navigator.userAgent || '')) document.querySelectorAll('.fx-go').forEach(function (a) { a.href = a.getAttribute('data-play').replace(/&amp;/g, '&'); });
+      var vids = document.querySelectorAll('.fx-loop video');
+      var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      vids.forEach(function (v) {
+        var fig = v.parentNode;
+        fig.classList.add('paused');
+        v.addEventListener('play', function () { fig.classList.remove('paused'); });
+        v.addEventListener('pause', function () { fig.classList.add('paused'); });
+        fig.addEventListener('click', function () { v.dataset.user = '1'; v.paused ? v.play() : v.pause(); });
+      });
+      if (still || !('IntersectionObserver' in window)) return;
+      var io = new IntersectionObserver(function (es) { es.forEach(function (e) {
+        var v = e.target; if (v.dataset.user) return;
+        if (e.isIntersecting) v.play().catch(function(){}); else v.pause();
+      }); }, { threshold: 0.4 });
+      vids.forEach(function (v) { io.observe(v); });
+    })();
+  </script>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/fr/features/">Fonctionnalités</a>
+        <a href="/fr/features/teleprompter/">Téléprompteur</a>
+        <a href="/fr/features/dual-camera/">Double caméra</a>
+        <a href="/fr/features/manual-controls/">Commandes manuelles</a>
+        <a href="/fr/android/">Android</a>
+        <a href="/fr/pricing/">Tarifs</a>
+        <a href="/blog/">Blog</a>
+        <a href="/fr/support/">Assistance</a>
+        <a href="/press/">Presse</a>
+        <a href="/privacy.html">Confidentialité</a>
+        <a href="/terms.html">Conditions</a>
+      </div>
+      <div class="fine">ContentCam est une app de caméra indépendante, développée en Australie par un seul développeur. © 2026 ContentCam. Apple, le logo Apple, iPhone et App Store sont des marques d'Apple Inc. Google Play et le logo Google Play sont des marques de Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/features/" hreflang="en" lang="en">English</a> · <a href="/de/features/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/features/" hreflang="es" lang="es">Español</a> · <strong>Français</strong> · <a href="/it/features/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/features/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/features/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/features/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

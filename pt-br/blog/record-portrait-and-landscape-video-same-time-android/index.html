@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Gravar vídeo na vertical e horizontal ao mesmo tempo no Android (2026)</title>
+  <meta name="description" content="Três jeitos de ter vídeo 9:16 e 16:9 de uma única gravação no Android: cortar depois, gravar em 4K e reenquadrar, ou gravar os dois arquivos de uma vez. Quanto custa cada um.">
+  <link rel="canonical" href="https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Como gravar vídeo na vertical e na horizontal ao mesmo tempo no Android (2026)">
+  <meta property="og:description" content="Três jeitos de ter 9:16 e 16:9 de uma única gravação no Android, e quanto cada um custa em enquadramento e qualidade.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Como gravar vídeo na vertical e na horizontal ao mesmo tempo no Android (2026)">
+  <meta name="twitter:description" content="Três jeitos de ter 9:16 e 16:9 de uma única gravação no Android, e quanto cada um custa.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/",
+        "url": "https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/",
+        "inLanguage": "pt-BR",
+        "headline": "Como gravar vídeo na vertical e na horizontal ao mesmo tempo no Android (2026)",
+        "description": "Três jeitos de ter vídeo 9:16 e 16:9 de uma única gravação no Android: cortar depois, gravar em 4K e reenquadrar, ou gravar os dois arquivos de uma vez.",
+        "image": "https://contentcam.app/assets/og/og-home.jpg",
+        "datePublished": "2026-09-30",
+        "dateModified": "2026-11-05",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "Desenvolvedor do ContentCam", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://contentcam.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Gravar na vertical e na horizontal ao mesmo tempo no Android", "item": "https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Dá para gravar vídeo na vertical e na horizontal ao mesmo tempo no celular Android?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Não com os apps de câmera nativos. A Câmera da Samsung e a Pixel Camera gravam em um único formato por gravação. Um app de terceiros que grava a partir do quadro completo do sensor 4:3 consegue salvar um arquivo vertical 9:16 e um arquivo horizontal 16:9 da mesma gravação." }
+          },
+          {
+            "@type": "Question",
+            "name": "Existe app para Android que grava vídeo na horizontal e na vertical ao mesmo tempo?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sim. O ContentCam para Android grava um arquivo vertical 9:16 e um arquivo horizontal 16:9 de uma única gravação, com a câmera traseira e a frontal, em 1080p na versão grátis." }
+          },
+          {
+            "@type": "Question",
+            "name": "Quanto da imagem você perde ao cortar um vídeo 16:9 para 9:16?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Cerca de 68%. Um corte 9:16 na altura total de um quadro de 1920×1080 tem 607,5 pixels de largura, ou seja, 31,6% dos 1920 pixels de largura." }
+          },
+          {
+            "@type": "Question",
+            "name": "Dá para gravar com a câmera frontal e a traseira ao mesmo tempo no Android para vídeos de reação?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sim. O modo Frontal e traseira do ContentCam grava a câmera frontal e a traseira em uma única gravação no Android, o que resolve vídeos de reação sem um segundo celular. É um recurso Premium, com 5 gravações grátis para testar." }
+          },
+          {
+            "@type": "Question",
+            "name": "Gravar em 4K no Android permite cortar um vídeo vertical a partir de um horizontal?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sim, com resolução de sobra. Um corte 9:16 de 3840×2160 tem 1215×2160 pixels, mais do que um vídeo vertical de 1080×1920 precisa. Quem ou o que você filma ainda precisa ficar no centro do quadro na hora de gravar." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-android/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/pt-br/"><img src="/assets/logo-mark.png" alt="Logo do ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/pt-br/features/">Recursos</a>
+        <a href="/pt-br/pricing/">Preços</a>
+        <a href="/blog/">Blog</a>
+        <a href="/pt-br/support/">Suporte</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/pt-br/">Início</a> › <a href="/blog/">Blog</a> › Gravar na vertical e na horizontal ao mesmo tempo no Android</div>
+    <article class="post">
+      <h1>Como gravar vídeo na vertical e na horizontal ao mesmo tempo no Android (2026)</h1>
+      <p class="byline">Por Jimmy, desenvolvedor do ContentCam · 30 de setembro de 2026 · Atualizado em 5 de novembro de 2026</p>
+
+      <p><strong>A resposta curta:</strong> o app de câmera que veio no seu celular Android não faz isso. A Câmera da Samsung e a Pixel Camera gravam em um único formato por gravação. Para ter um arquivo vertical 9:16 e um arquivo horizontal 16:9 da mesma gravação, você tem três caminhos: cortar um a partir do outro depois, gravar em 4K para o corte ter pixels de sobra, ou usar um app que grava os dois arquivos de uma vez a partir do sensor inteiro, como o ContentCam, que faz isso de graça em 1080p no Android e no iPhone.</p>
+      <p>Eu desenvolvo o ContentCam, então considere a matemática abaixo a parte útil. As contas são as mesmas, seja qual for a ferramenta que você escolher.</p>
+
+      <h2>A câmera nativa do Android grava na vertical e na horizontal ao mesmo tempo?</h2>
+      <p>Não. Os apps de câmera nativos do Android gravam em um único formato por gravação: o que você escolheu, ou o da posição em que você segurou o celular.</p>
+      <ul>
+        <li><strong>Câmera da Samsung</strong>: tem um ajuste de proporção na própria câmera, e a página de suporte da Samsung lista 9:16, 1:1 e Full entre as opções, com a ressalva de que "available ratios may vary depending on your device's camera specifications" (as proporções disponíveis podem variar conforme as especificações da câmera do aparelho). Você escolhe uma. O celular grava uma.</li>
+        <li><strong>Pixel Camera</strong>: a página de ajuda do Google para o app Pixel Camera documenta opções de proporção para fotos (Wide crop 16:9 e Full image 4:3). Não documenta nenhuma opção de proporção para vídeo. Um vídeo do Pixel sai na horizontal ou na vertical conforme a posição em que você segura o celular.</li>
+        <li><strong>Google Fotos</strong>: consegue cortar um vídeo pronto para outra proporção depois. Essa é a Opção 1 abaixo, com o mesmo custo.</li>
+      </ul>
+      <p>Nem as páginas de suporte da Samsung nem as do Google descrevem um modo que salve um arquivo vertical e um horizontal de uma única gravação.</p>
+
+      <h2>Opção 1: quanto você perde ao cortar um vídeo horizontal para vertical?</h2>
+      <p>Você fica com 31,6% da largura e joga fora 68,4% da cena. Veja as contas para um vídeo horizontal padrão em 1080p:</p>
+      <ul>
+        <li>O quadro horizontal tem 1920×1080.</li>
+        <li>Um corte 9:16 na altura total tem 1080 × 9 ÷ 16 = <strong>607,5 pixels de largura</strong>.</li>
+        <li>607,5 ÷ 1920 = <strong>0,316</strong>, então sobram 31,6% da largura.</li>
+      </ul>
+      <p>Depois, essa faixa de 607×1080 é ampliada para 1080×1920 para o TikTok, Reels ou Shorts. São 1,78 vez em cada eixo, e é por isso que verticais cortados ficam sem nitidez. O caminho inverso é pior: um corte 16:9 de um vertical de 1080×1920 é uma faixa de 1080×607 esticada para 1920×1080, tirada de um recorte que só enxergou o ambiente no formato de um celular em pé.</p>
+      <p>Corte depois quando a pessoa ocupa o meio do quadro e o segundo formato é um bônus. Evite em viagens, esportes, fotos de produto ou qualquer cena em que o fundo importa.</p>
+
+      <h2>Opção 2: dá para gravar em 4K na horizontal e reenquadrar para vertical?</h2>
+      <p>Dá, e em um celular que grava em 4K essa é a melhor solução gratuita. Um corte 9:16 de um quadro de 3840×2160 tem 2160 × 9 ÷ 16 = <strong>1215×2160 pixels</strong>, mais do que os 1080×1920 que uma plataforma vertical reproduz. O problema de resolução da Opção 1 desaparece.</p>
+      <p>O problema de enquadramento continua. O vertical ainda é 31,6% da largura do horizontal, então quem ou o que você filma precisa ficar bem no centro durante toda a gravação, e tudo o que você compôs para o plano aberto (um horizonte de prédios, uma segunda pessoa, um produto na bancada) fica fora do vertical. Você também edita cada vídeo duas vezes, e o 4K tem quatro vezes os pixels do 1080p, então os arquivos enchem o celular bem mais rápido.</p>
+
+      <h2>Opção 3: como gravar os dois formatos de uma vez no Android?</h2>
+      <p>Grave o quadro 4:3 completo do sensor e recorte os dois formatos dele durante a captura. O sensor de um celular é 4:3, mais largo que um quadro 9:16 e mais alto que um quadro 16:9. Pegue, como ilustração, um quadro de sensor de 4000×3000:</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Método</th><th>Recorte vertical de um sensor de 4000×3000</th><th>Parcela da área do sensor</th></tr></thead>
+          <tbody>
+            <tr><td>Gravar em 16:9 e cortar para 9:16 depois</td><td>cerca de 1266×2250</td><td>24%</td></tr>
+            <tr><td>Cortar 9:16 do quadro 4:3 completo</td><td>cerca de 1688×3000</td><td>42%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>O vertical tirado do quadro completo enxerga 1,78 vez mais da cena, e o horizontal 16:9 mantém a largura total do sensor (4000×2250). Nenhum dos dois arquivos é um recorte do outro.</p>
+      <p>É assim que o <a href="/pt-br/android/">ContentCam para Android</a> funciona. Uma gravação salva um arquivo 9:16 e um arquivo 16:9, com a câmera traseira e a frontal. Em celulares que dão acesso à lente ultra-angular, uma opção de 0,5× deixa os dois recortes mais abertos. Se você segura o celular deitado, os dois arquivos recebem a orientação certa para aparecerem em pé no CapCut ou no Premiere. A versão grátis grava em 1080p a 30fps, sem marca d'água; o <a href="/pt-br/pricing/">Premium</a> adiciona 4K e 60fps quando o hardware do celular suporta.</p>
+      <p>O limite, sendo honesto: o modo Lente dupla, que grava a grande-angular e a ultra-angular no mesmo instante para dois enquadramentos diferentes, por enquanto é só para iPhone. A página do próprio app Android lista esse modo como ainda não disponível.</p>
+
+      <h2>Qual opção usar no Android?</h2>
+      <table>
+        <thead><tr><th>Sua situação</th><th>Melhor opção</th></tr></thead>
+        <tbody>
+          <tr><td>Falando para a câmera, rosto ocupa o quadro, horizontal é bônus</td><td>Cortar depois (Opção 1)</td></tr>
+          <tr><td>Celular grava em 4K, quem você filma fica no centro, editar duas vezes não é problema</td><td>Gravar em 4K e reenquadrar (Opção 2)</td></tr>
+          <tr><td>As duas versões precisam parecer enquadradas de propósito</td><td>Gravar os dois de uma vez (Opção 3)</td></tr>
+          <tr><td>Câmera de selfie</td><td>Gravar os dois de uma vez, funciona na câmera frontal</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Perguntas frequentes</h2>
+      <p><strong>Dá para gravar vídeo na vertical e na horizontal ao mesmo tempo no celular Android?</strong> Não com os apps de câmera nativos. A Câmera da Samsung e a Pixel Camera gravam em um único formato por gravação. Um app de terceiros que grava a partir do quadro completo do sensor 4:3 consegue salvar um arquivo vertical 9:16 e um arquivo horizontal 16:9 da mesma gravação.</p>
+      <p><strong>Existe app para Android que grava vídeo na horizontal e na vertical ao mesmo tempo?</strong> Sim. O ContentCam para Android grava um arquivo vertical 9:16 e um arquivo horizontal 16:9 de uma única gravação, com a câmera traseira e a frontal, em 1080p na versão grátis.</p>
+      <p><strong>Quanto da imagem você perde ao cortar um vídeo 16:9 para 9:16?</strong> Cerca de 68%. Um corte 9:16 na altura total de um quadro de 1920×1080 tem 607,5 pixels de largura, ou seja, 31,6% dos 1920 pixels de largura.</p>
+      <p><strong>Dá para gravar com a câmera frontal e a traseira ao mesmo tempo no Android para vídeos de reação?</strong> Sim. O modo Frontal e traseira do ContentCam grava a câmera frontal e a traseira em uma única gravação no Android, o que resolve vídeos de reação sem um segundo celular. É um recurso Premium, com 5 gravações grátis para testar.</p>
+      <p><strong>Gravar em 4K no Android permite cortar um vídeo vertical a partir de um horizontal?</strong> Sim, com resolução de sobra. Um corte 9:16 de 3840×2160 tem 1215×2160 pixels, mais do que um vídeo vertical de 1080×1920 precisa. Quem ou o que você filma ainda precisa ficar no centro do quadro na hora de gravar.</p>
+
+      <div class="post-cta">
+        <p><strong>Pare de gravar tudo duas vezes.</strong> O ContentCam é grátis no Google Play; faça uma gravação e veja os dois arquivos antes de decidir qualquer coisa.</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dpt-br-record-portrait-and-landscape-video-same-time-android"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Disponível no Google Play" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=pt-br-b-portrait-landscape-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Baixar na App Store" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>Os detalhes das câmeras nativas foram consultados na <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">página de suporte da Samsung sobre proporção da câmera</a>, na <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">Ajuda da Pixel Camera</a> e na <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">Ajuda do Google Fotos</a> em 4 de outubro de 2026. Leia também: <a href="/blog/how-to-record-landscape-video-on-android/">como gravar vídeo na horizontal no Android</a> · <a href="/pt-br/blog/record-portrait-and-landscape-video-same-time-iphone/">a versão deste guia para iPhone</a> · <a href="/blog/android-camera-settings-for-video/">as melhores configurações de câmera do Android para vídeo</a> · <a href="/blog/vertical-vs-horizontal-video/">vídeo vertical ou horizontal</a></p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo do ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/pt-br/features/">Recursos</a>
+        <a href="/pt-br/features/teleprompter/">Teleprompter</a>
+        <a href="/pt-br/features/dual-camera/">Câmera dupla</a>
+        <a href="/pt-br/features/manual-controls/">Controles manuais</a>
+        <a href="/pt-br/android/">Android</a>
+        <a href="/pt-br/pricing/">Preços</a>
+        <a href="/blog/">Blog</a>
+        <a href="/pt-br/support/">Suporte</a>
+        <a href="/press/">Imprensa</a>
+        <a href="/privacy.html">Privacidade</a>
+        <a href="/terms.html">Termos</a>
+      </div>
+      <div class="fine">O ContentCam é um app de câmera independente criado na Austrália por um único desenvolvedor. © 2026 ContentCam. Apple, o logotipo da Apple, iPhone e App Store são marcas registradas da Apple Inc. Google Play e o logotipo do Google Play são marcas registradas da Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ja" lang="ja">日本語</a> · <strong>Português (Brasil)</strong> · <a href="/id/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

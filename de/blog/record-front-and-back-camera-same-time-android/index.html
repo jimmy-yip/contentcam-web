@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Android: Vorder- und Rückkamera gleichzeitig filmen, wie geht das? (2026)</title>
+  <meta name="description" content="Mit Vorder- und Rückkamera gleichzeitig filmen auf Android: Welche Samsung-Galaxy-Smartphones das in der Kamera-App können, warum Pixel Kamera es nicht kann und wie du dein Gesicht und die Szene als zwei getrennte Dateien bekommst.">
+  <link rel="canonical" href="https://contentcam.app/de/blog/record-front-and-back-camera-same-time-android/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="de">
+  <meta property="og:title" content="Wie filmst du auf Android mit Vorder- und Rückkamera gleichzeitig? (2026)">
+  <meta property="og:description" content="Dual recording bei Samsung, die Lücke beim Pixel und wie du deine Reaktion und die Szene aus einem Take als zwei getrennte Dateien bekommst.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/de/blog/record-front-and-back-camera-same-time-android/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Android: Vorder- und Rückkamera gleichzeitig filmen">
+  <meta name="twitter:description" content="Dual recording bei Samsung, die Lücke beim Pixel und wie du beide Kameras als getrennte Dateien bekommst.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/de/blog/record-front-and-back-camera-same-time-android/",
+        "url": "https://contentcam.app/de/blog/record-front-and-back-camera-same-time-android/",
+        "inLanguage": "de",
+        "headline": "Wie filmst du auf Android mit Vorder- und Rückkamera gleichzeitig?",
+        "description": "Welche Android-Smartphones in der vorinstallierten Kamera-App mit Vorder- und Rückkamera gleichzeitig filmen, warum Pixel Kamera das nicht kann und wie du mit dem Modus Front und Rück von ContentCam beide Kameras als getrennte Dateien bekommst.",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-10-08",
+        "dateModified": "2026-10-08",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "Entwickler von ContentCam", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/de/blog/record-front-and-back-camera-same-time-android/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://contentcam.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Vorder- und Rückkamera gleichzeitig auf Android", "item": "https://contentcam.app/de/blog/record-front-and-back-camera-same-time-android/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Kann ein Google Pixel mit Vorder- und Rückkamera gleichzeitig filmen?", "acceptedAnswer": {"@type": "Answer", "text": "Nicht in Pixel Kamera. Die Vorschau auf zwei Displays bei den Pixel-Fold-Modellen nutzt zwei Displays, nicht zwei Kameras. Nimm auf einem Pixel, das gleichzeitig laufende Kameras unterstützt, eine App mit Front-und-Rück-Modus."}},
+          {"@type": "Question", "name": "Speichert Dual recording bei Samsung zwei getrennte Dateien?", "acceptedAnswer": {"@type": "Answer", "text": "Meist speichert es ein Video mit festem Layout. Laut Samsung können Galaxy S22 und S23 Selfie und Rückkamera als getrennte Dateien speichern, wenn du das vor der Aufnahme einstellst."}},
+          {"@type": "Question", "name": "Ist der Modus Front und Rück von ContentCam auf Android kostenlos?", "acceptedAnswer": {"@type": "Answer", "text": "Die App und die Aufnahme in zwei Formaten sind kostenlos. Front und Rück ist Premium, mit 5 kostenlosen Aufnahmen zum Testen."}},
+          {"@type": "Question", "name": "Warum kann mein Smartphone nicht mit beiden Kameras gleichzeitig filmen?", "acceptedAnswer": {"@type": "Answer", "text": "Die Hardware deines Smartphones muss den gleichzeitigen Betrieb von Front- und Rückkamera unterstützen und meldet das ab Android 11 über getConcurrentCameraIds() an Apps. Tut sie das nicht, kann keine App über den offiziellen Weg mit beiden aufnehmen."}}
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-front-and-back-camera-same-time-android/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/de/"><img src="/assets/logo-mark.png" alt="ContentCam-Logo" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menü öffnen">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/de/features/">Funktionen</a>
+        <a href="/de/pricing/">Preise</a>
+        <a href="/blog/">Blog</a>
+        <a href="/de/support/">Support</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/de/">Startseite</a> › <a href="/blog/">Blog</a> › Vorder- und Rückkamera gleichzeitig auf Android</div>
+    <article class="post">
+      <h1>Wie filmst du auf Android mit Vorder- und Rückkamera gleichzeitig?</h1>
+      <p class="byline">Von Jimmy, Entwickler von ContentCam · 8. Oktober 2026</p>
+
+      <p>Manche Samsung-Galaxy-Smartphones können in der vorinstallierten Kamera-App mit Vorder- und Rückkamera gleichzeitig filmen, Pixel Kamera kann das nicht. Auf jedem Android-Smartphone, dessen Hardware beide Kameras zusammen betreiben kann, schafft das eine Kamera-App mit Front-und-Rück-Modus. Der Modus Front und Rück von ContentCam speichert dein Gesicht und die Szene als zwei getrennte Dateien.</p>
+      <p>Unten steht, was dir jeder Weg bringt, auf welchen Smartphones er funktioniert und wie du filmst, damit die Reaktion auch wirkt. Alle Wege auf iPhone und Android, auch die eingebaute Option in Instagram, findest du im Hauptratgeber dazu, <a href="/de/blog/dual-camera-effect/">wie du Front- und Rückkamera gleichzeitig nutzt</a>. Wenn du auch mit einem iPhone filmst: Dort hat die Kamera-App auf neueren Modellen eine eigene Version, <a href="/de/blog/iphone-17-dual-capture-limitations/">Dual Capture am iPhone</a>, die beide Kameras als eine Bild-in-Bild-Datei speichert.</p>
+
+      <h2>Wie filmst du am Samsung Galaxy mit Vorder- und Rückkamera gleichzeitig?</h2>
+      <p>Samsung hat das direkt in die Kamera-App eingebaut. Die Support-Seite beschreibt Director's View mit Dual recording als Möglichkeit, „ein Video gleichzeitig mit der Rückkamera und der Selfie-Kamera aufzunehmen“, auf ausgewählten Geräten ab One UI 3.1. Vor der Aufnahme wählst du ein Layout:</p>
+      <ul>
+        <li><strong>Bild-in-Bild:</strong> ein kleines Fenster mit dir in der Ecke der Rückkamera-Aufnahme.</li>
+        <li><strong>Geteilt:</strong> die Rückkamera oben, die Selfie-Kamera darunter.</li>
+        <li><strong>Einzeln:</strong> nur eine Kamera, mit Director's View zum Wechseln der Objektive.</li>
+      </ul>
+      <p>Zwei Haken. Erstens ist das Ergebnis normalerweise <em>ein</em> Video, in dem dein Gesicht fest im gewählten Layout sitzt. Das eingeblendete Fenster kannst du im Schnitt also weder verschieben noch entfernen. Laut Samsungs Seite können Galaxy S22 und S23 Selfie- und Rückkamera-Video als getrennte Dateien speichern, wenn du das vor der Aufnahme einschaltest. Zweitens heißt Director's View auf dem Galaxy S24, S25 und neueren Modellen inzwischen Dual recording, und mit One UI 8.5 ist es in den Videomodus unter die Schnelleinstellungen (Quick controls) gewandert. Alle Schritte und die Modellliste findest du unter <a href="/de/blog/record-front-and-back-camera-samsung-galaxy/">so filmst du am Samsung Galaxy mit Front- und Rückkamera</a>.</p>
+
+      <h2>Kann ein Google Pixel mit Vorder- und Rückkamera gleichzeitig filmen?</h2>
+      <p>Pixel Kamera nimmt nicht mit zwei Kameras gleichzeitig auf. Am nächsten kommt in Googles Hilfeseiten die Vorschau auf zwei Displays (Dual screen preview) bei den Pixel-Fold-Modellen: Sie zeigt den Sucher auf dem inneren und dem äußeren Display, damit sich die gefilmte Person selbst sehen kann. Aufgenommen wird trotzdem nur mit einer Kamera. Auf einem Pixel brauchst du für Aufnahmen mit Front- und Rückkamera eine App eines Drittanbieters.</p>
+
+      <h2>Warum klappt es auf manchen Android-Smartphones und auf anderen nicht?</h2>
+      <p>Android 11 (API-Level 30) hat <code>getConcurrentCameraIds()</code> eingeführt. Darüber erfährt eine App, welche Kameras des Smartphones gleichzeitig laufen können. Meldet dein Smartphone ein Paar aus Front- und Rückkamera, kann eine App mit beiden aufnehmen. Meldet es keins, kann es keine App, die diesen offiziellen Weg nutzt, so gut sie auch sein mag. Deshalb funktioniert die Aufnahme mit Front- und Rückkamera auf einem Smartphone, auf einem anderen, das genauso leistungsfähig wirkt, aber nicht.</p>
+
+      <h2>Wie nimmst du in ContentCam auf Android mit Front- und Rückkamera auf?</h2>
+      <p>Der Modus Front und Rück von ContentCam nimmt Selfie-Kamera und Rückkamera zusammen auf, mit einem Tippen, und gibt dir zwei Dateien statt eines festen Layouts. Die Rückkamera nimmt im Hoch- oder Querformat auf (du wählst), das Selfie immer im Hochformat. Weil beide getrennt sind, entscheidest du das Layout erst danach: eingeblendetes Fenster, Splitscreen, Schnitte zwischen beiden oder zwei verschiedene Posts aus einem Take.</p>
+      <ol>
+        <li>Installiere <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dde-android-dual-format">ContentCam aus Google Play</a> und öffne die App.</li>
+        <li>Stell den Aufnahmemodus auf Front und Rück.</li>
+        <li>Wähle, ob die Rückkamera im Hoch- oder Querformat aufnimmt.</li>
+        <li>Richte das Bild der Rückkamera aus und nimm einmal auf. Beide Kameras laufen auf derselben Zeitachse, also bleiben Reaktion und Szene synchron.</li>
+        <li>Sieh dir die beiden Clips nebeneinander an, trimme sie und exportiere.</li>
+      </ol>
+      <p>Front und Rück ist ein Premium-Modus mit 5 kostenlosen Aufnahmen, damit du ihn zuerst testen kannst. Wie der Rest der App auf Android richtet er sich danach, was die Kamera deines Smartphones als unterstützt meldet. Auch in der kostenlosen Version nimmst du in zwei Formaten auf: eine 9:16-Datei im Hochformat und eine 16:9-Datei im Querformat aus einem Take. Das ist ein anderes Thema, nachzulesen unter <a href="/de/blog/record-portrait-and-landscape-video-same-time-android/">Hoch- und Querformat gleichzeitig auf Android aufnehmen</a>.</p>
+
+      <div class="shot-pair">
+        <img src="/assets/img/ui-record-handsup-640.webp" alt="Aufnahmebildschirm von ContentCam mit dem Modus-Umschalter" width="640" height="1387" loading="lazy" decoding="async">
+        <img src="/assets/img/ui-review-dark-640.webp" alt="Vorschau von ContentCam nach einem Take" width="640" height="1387" loading="lazy" decoding="async">
+      </div>
+
+      <h2>Welcher Weg ist der richtige für dich?</h2>
+      <ul>
+        <li><strong>Du hast ein unterstütztes Galaxy und willst schnell einen fertigen Clip:</strong> Nutze Dual recording in der vorinstallierten Kamera-App. Wähle Bild-in-Bild oder Geteilt und poste das Video so, wie es ist.</li>
+        <li><strong>Du willst die beiden Perspektiven getrennt bearbeiten,</strong> oder du hast ein Pixel oder ein Smartphone einer anderen Marke: Nimm eine App, die zwei Dateien speichert.</li>
+        <li><strong>Du willst für eine einzelne Story nur dein Gesicht in der Ecke:</strong> Dafür reicht vielleicht schon die Dual-Kamera von Instagram, wie im <a href="/de/blog/dual-camera-effect/">Hauptratgeber zur Dual-Kamera</a> beschrieben.</li>
+      </ul>
+
+      <h2>Wie gelingen Aufnahmen mit Front- und Rückkamera?</h2>
+      <ul>
+        <li><strong>Beleuchte dein Gesicht.</strong> Die Selfie-Kamera ist die schwächere und rauscht in einem dunklen Raum viel früher als die Rückkamera. Dreh dich zu einem Fenster oder einer Lampe.</li>
+        <li><strong>Bleib nah am Mikrofon.</strong> Das Mikrofon des Smartphones fängt am besten ein, wer am nächsten dran ist. Wenn du zurücktrittst, um etwas zu zeigen, wird deine Stimme leiser. Komm also für die wichtigen Sätze näher.</li>
+        <li><strong>Sperre die Belichtung, wenn du zwischen hell und dunkel wechselst.</strong> Gehst du von einem hellen Fenster in einen dunklen Raum, suchen beide Kameras ständig nach der richtigen Belichtung. Der <a href="/blog/android-camera-settings-for-video/">Ratgeber zu den Kameraeinstellungen auf Android</a> zeigt, was du an deinem Smartphone sperren kannst.</li>
+        <li><strong>Achte auf die Wärme.</strong> Zwei Kameras gleichzeitig sind Schwerstarbeit für ein Smartphone. Halte es bei langen Takes aus der direkten Sonne und nimm die Hülle ab.</li>
+      </ul>
+
+      <h2>Häufige Fragen</h2>
+      <h3>Kann ein Google Pixel mit Vorder- und Rückkamera gleichzeitig filmen?</h3>
+      <p>Nicht in Pixel Kamera. Die Vorschau auf zwei Displays bei den Pixel-Fold-Modellen nutzt zwei Displays, nicht zwei Kameras. Nimm auf einem Pixel, das gleichzeitig laufende Kameras unterstützt, eine App mit Front-und-Rück-Modus.</p>
+      <h3>Speichert Dual recording bei Samsung zwei getrennte Dateien?</h3>
+      <p>Meist speichert es ein Video mit festem Layout. Laut Samsung können Galaxy S22 und S23 Selfie und Rückkamera als getrennte Dateien speichern, wenn du das vor der Aufnahme einstellst.</p>
+      <h3>Ist der Modus Front und Rück von ContentCam auf Android kostenlos?</h3>
+      <p>Die App und die Aufnahme in zwei Formaten sind kostenlos. Front und Rück ist Premium, mit 5 kostenlosen Aufnahmen zum Testen.</p>
+      <h3>Warum kann mein Smartphone nicht mit beiden Kameras gleichzeitig filmen?</h3>
+      <p>Die Hardware deines Smartphones muss den gleichzeitigen Betrieb von Front- und Rückkamera unterstützen und meldet das ab Android 11 über <code>getConcurrentCameraIds()</code> an Apps. Tut sie das nicht, kann keine App über den offiziellen Weg mit beiden aufnehmen.</p>
+
+      <div class="post-cta">
+        <p><strong>Teste ContentCam kostenlos.</strong> Front und Rück in einem Take als zwei getrennte Dateien, dazu Hoch- und Querformat aus einem einzigen Dreh. Kostenlos für Android und iPhone.</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dde-android-dual-format"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Jetzt bei Google Play" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=de-b-front-back-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Laden im App Store" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>Weiterlesen: <a href="/de/blog/dual-camera-effect/">der komplette Ratgeber zum gleichzeitigen Nutzen von Front- und Rückkamera</a> · <a href="/de/blog/record-portrait-and-landscape-video-same-time-android/">Hoch- und Querformat gleichzeitig auf Android aufnehmen</a> · <a href="/de/blog/record-front-and-back-camera-same-time-iphone/">die iPhone-Version dieses Ratgebers</a> · <a href="/de/blog/take-photo-front-and-back-camera-same-time/">ein Foto mit Front- und Rückkamera gleichzeitig</a> · <a href="/de/android/">ContentCam für Android</a> · <a href="/de/blog/record-front-and-back-camera-samsung-galaxy/">Front und Rück am Samsung Galaxy</a> · <a href="/blog/record-front-and-back-camera-google-pixel/">Front und Rück am Google Pixel</a></p>
+      <p class="byline">Quellen: Samsung, „Use Director's View and Dual recording on your Galaxy phone“ (samsung.com/us/support); Google, Pixel Camera Help, „Record a video“ (support.google.com/pixelcamera); Android Developers, CameraManager.getConcurrentCameraIds(). Geprüft am 8. Oktober 2026; Samsung-Bezeichnungen aktualisiert am 5. November 2026.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam-Logo" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/de/features/">Funktionen</a>
+        <a href="/de/features/teleprompter/">Teleprompter</a>
+        <a href="/de/features/dual-camera/">Dual-Kamera</a>
+        <a href="/de/features/manual-controls/">Manuelle Steuerung</a>
+        <a href="/de/android/">Android</a>
+        <a href="/de/pricing/">Preise</a>
+        <a href="/blog/">Blog</a>
+        <a href="/de/support/">Support</a>
+        <a href="/press/">Presse</a>
+        <a href="/privacy.html">Datenschutz</a>
+        <a href="/terms.html">Nutzungsbedingungen</a>
+      </div>
+      <div class="fine">ContentCam ist eine unabhängige Kamera-App, entwickelt in Australien von einem einzigen Entwickler. © 2026 ContentCam. Apple, das Apple-Logo, iPhone und App Store sind Marken der Apple Inc. Google Play und das Google-Play-Logo sind Marken der Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-front-and-back-camera-same-time-android/" hreflang="en" lang="en">English</a> · <strong>Deutsch</strong> · <a href="/es/blog/record-front-and-back-camera-same-time-android/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-front-and-back-camera-same-time-android/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-front-and-back-camera-same-time-android/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-front-and-back-camera-same-time-android/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/record-front-and-back-camera-same-time-android/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-front-and-back-camera-same-time-android/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

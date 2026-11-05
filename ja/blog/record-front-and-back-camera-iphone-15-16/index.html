@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>iPhone 15・16でインカメラと外カメラを同時に録画する方法（2026年）</title>
+  <meta name="description" content="iPhone 15とiPhone 16にはApple純正のDual Captureがありませんが、サードパーティのアプリを使えばインカメラと外カメラを同時に録画できます。使えるアプリ、それぞれの保存形式、押さえておきたい設定をまとめました。">
+  <link rel="canonical" href="https://contentcam.app/ja/blog/record-front-and-back-camera-iphone-15-16/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ja">
+  <meta property="og:title" content="iPhone 15・16でインカメラと外カメラを同時に録画する方法（2026年）">
+  <meta property="og:description" content="iPhone 15・16にDual Captureはなくても、サードパーティのアプリなら前後のカメラを同時に録画できます。使えるアプリと、それぞれの保存形式。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/ja/blog/record-front-and-back-camera-iphone-15-16/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="iPhone 15・16でインカメラと外カメラを同時に録画する">
+  <meta name="twitter:description" content="iPhone 15・16にDual Captureはなくても、サードパーティのアプリなら前後のカメラを同時に録画できます。使えるアプリと、それぞれの保存形式。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://contentcam.app/ja/blog/record-front-and-back-camera-iphone-15-16/",
+      "headline": "iPhone 15・16でインカメラと外カメラを同時に録画する方法",
+      "description": "iPhone 15とiPhone 16にはApple純正のDual Captureがありませんが、サードパーティのアプリを使えばインカメラと外カメラを同時に録画できます。使えるアプリ、それぞれの保存形式、押さえておきたい設定をまとめました。",
+      "image": "https://contentcam.app/assets/og/og-blog.jpg",
+      "datePublished": "2026-11-05",
+      "dateModified": "2026-11-05",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "ContentCam開発者",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "mainEntityOfPage": "https://contentcam.app/ja/blog/record-front-and-back-camera-iphone-15-16/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://contentcam.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ブログ",
+          "item": "https://contentcam.app/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "iPhone 15・16で前後カメラを同時に録画する",
+          "item": "https://contentcam.app/ja/blog/record-front-and-back-camera-iphone-15-16/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "iPhone 15にDual Captureはありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。AppleがDual Captureの対応機種として挙げているのは、iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max、iPhone Duoです。iPhone 15シリーズはこの一覧に含まれていないため、iPhone 15の「カメラ」アプリには前後カメラのモードがありません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "iPhone 16にDual Captureはありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。iPhone 16、iPhone 16 Plus、iPhone 16 Pro、iPhone 16 Pro Max、iPhone 16eの「カメラ」アプリにはDual Captureがありません。それでも、サードパーティのカメラアプリを使えば、iPhone 16でもインカメラと外カメラを同時に録画できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "iPhone 15でインカメラと外カメラを同時に録画できる無料アプリのおすすめは？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SplitRigとRØDE Captureは、どちらも無料です。SplitRigはiOS 26が必要で、合成済みの動画を1本保存します。RØDE CaptureはiOS 16以降で動作し、App Storeの説明によると、合成した1本のファイルと別々のファイルのどちらでも保存できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "iPhone 16でインカメラと外カメラの映像を別々のファイルで保存できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。ContentCamの前後カメラ（Front/Back）モード、RØDE Capture、Dualgramは、いずれも別々のファイルでの保存を挙げています。ContentCamはインカメラと外カメラの映像を独立した2つの動画ファイルとして保存し、Premiumならワイプ（ピクチャ・イン・ピクチャ）または画面分割で1本の動画に合成できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "iPhone 15・16の前後カメラアプリは、どの解像度で録画できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ContentCamは、両方のカメラを動かしているときはHDで録画します。私がテストしたすべてのiPhoneで、Appleのマルチカメラ用フォーマットの上限が1920×1440だったためです。Apple純正のDual Captureは4K・30fpsまで対応していますが、iPhone 17以降の機種に限られます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ContentCamの前後カメラ（Front/Back）モードはどのiPhoneで使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ContentCamが動作するすべてのiPhoneで使えます。ContentCamにはiOS 18以降が必要で、iOS 18が動作するiPhoneはすべてAppleのマルチカメラ撮影に対応しているからです。対象は、iPhone XS、iPhone XS Max、iPhone XR、iPhone 11・12・13・14・15・16の全モデル（iPhone 16eを含む）、iPhone SE（第2・第3世代）、そしてiPhone 17、iPhone 17 Pro、iPhone Air、iPhone 18 Proです。iPhone 17、iPhone Air、iPhone 18 Pro、iPhone Duoでは、Apple純正のDual Captureも使えます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ContentCamに広告や週額のサブスクリプションはありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "どのプランでも広告は表示されず、ウォーターマークも入りません。週額プランもありません。ContentCamは無料でダウンロードでき、前後カメラ（Front/Back）には無料で試せる録画回数が付いています。Premiumは年額・月額・買い切りから選べ、どのプランでも解放される機能は同じです。"
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-front-and-back-camera-iphone-15-16/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-front-and-back-camera-iphone-15-16/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-front-and-back-camera-iphone-15-16/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-front-and-back-camera-iphone-15-16/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-front-and-back-camera-iphone-15-16/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-front-and-back-camera-iphone-15-16/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-front-and-back-camera-iphone-15-16/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ja/"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="メニューを開く">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/ja/">ホーム</a> › <a href="/blog/">ブログ</a> › iPhone 15・16で前後カメラを同時に録画する</div>
+    <article class="post">
+      <h1>iPhone 15・16でインカメラと外カメラを同時に録画する方法</h1>
+      <p class="byline">文：Jimmy（ContentCam開発者）· 2026年11月5日</p>
+
+      <p>iPhone 15やiPhone 16でインカメラと外カメラを同時に録画するには、前後カメラのモードがあるサードパーティのカメラアプリを使います。どちらの機種も、「カメラ」アプリにApple純正のDual Captureがないからです。私が開発しているContentCamの前後カメラ（Front/Back）モードなら、どちらの機種でもあなたの顔と目の前の光景を独立した2つのファイルとして保存でき、Premiumではそれをワイプ（ピクチャ・イン・ピクチャ）の動画1本に合成できます。無料で同じことができるアプリとしては、SplitRigとRØDE Captureがあります。</p>
+      <p>おことわり：私はContentCamの開発者なので、中立な立場ではありません。以下に書いたほかのアプリについての情報は、すべて2026年11月5日に確認したApp Storeの説明にもとづいています。私のアプリより優れている点も、そのまま書いています。</p>
+
+      <h2>iPhone 15・16にDual Captureはある？</h2>
+      <p>ありません。Appleが、「カメラ」アプリの前後同時録画モードであるDual Captureの対応機種として挙げているのは、iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max、iPhone Duoの7機種です。iPhone 15とiPhone 16は、iPhone 16eを含めてどのモデルもこの一覧に入っていません。新しい機種でDual Captureに何ができるかは、<a href="/ja/blog/iphone-17-dual-capture-limitations/">Dual Captureに対応しているiPhoneとその限界</a>で詳しく解説しています。</p>
+
+      <h2>iPhone 15・16で前後のカメラを同時に録画できる？</h2>
+      <p>できます。iPhone 15とiPhone 16は、アプリ向けのAppleのマルチカメラ撮影に対応しているので、サードパーティのカメラアプリならインカメラと外カメラを同時に動かせます。iPhone 15やiPhone 16でできないのは、「カメラ」アプリそのものでこの機能をオンにすることです。アプリが必要で、アプリごとに大きく違うのは1点だけ。完成した動画が1本で保存されるか、別々のファイルが2つ保存されるかです。</p>
+
+      <h2>iPhone 15・16で前後同時録画ができるアプリは？</h2>
+      <table>
+        <thead><tr><th>アプリ</th><th>料金</th><th>動作環境</th><th>保存されるもの</th></tr></thead>
+        <tbody>
+          <tr><td>ContentCam：前後カメラ（Front/Back）モード</td><td>アプリは無料。前後カメラ（Front/Back）は5回まで無料で録画でき、それ以降はPremium</td><td>iOS 18以降</td><td>独立した2つのファイル。Premiumなら、ワイプ（ピクチャ・イン・ピクチャ）または画面分割で合成した動画1本も。両方のカメラを動かしているときはHD。</td></tr>
+          <tr><td>SplitRig</td><td>無料。App内課金・広告なし（説明による）</td><td>iOS 26以降</td><td>同期した動画1本（ワイプまたは画面分割）。説明には、別々のファイルについての記載はありません。</td></tr>
+          <tr><td>RØDE Capture</td><td>無料</td><td>iOS 16以降</td><td>合成した動画、または別々のファイル（説明による）。RØDEのマイクと組み合わせる前提のアプリです。</td></tr>
+          <tr><td>Dualgram</td><td>無料。Pro機能は有料</td><td>iOS 17以降</td><td>合成した動画と、元の2つのファイルの両方（説明による）。ワイプの位置を動かせます。</td></tr>
+        </tbody>
+      </table>
+      <p>ほかのアプリが優れている点：SplitRigとRØDE Captureは前後同時録画が無料ですが、ContentCamの前後カメラ（Front/Back）モードは5回録画したあとはPremiumが必要です。iOS 26で、手早いリアクション動画のために自分の顔を目の前の映像に重ねたいだけなら、SplitRigで無料でできます。ほかのアプリとの比較は<a href="/ja/blog/best-front-and-back-dual-camera-apps/">インカメラと外カメラを同時に使えるおすすめアプリ</a>にまとめています。</p>
+
+      <h2>ContentCamを使ってiPhone 15・16で前後同時録画するには？</h2>
+      <ol>
+        <li>App StoreからContentCamをインストールします。iOS 18以降が必要ですが、iPhone 15とiPhone 16はすべて対応しています。</li>
+        <li>録画モードを前後カメラ（Front/Back）に切り替えます。</li>
+        <li>録画ボタンを1回押します。インカメラと外カメラが同時に録画を始め、独立した2つのファイルとして保存されます。</li>
+        <li>Premiumなら、アプリ内の「合成」で2つのファイルをワイプ（ピクチャ・イン・ピクチャ）または画面分割の動画1本にできます。</li>
+      </ol>
+      <p>編集する人にとっては、この別々のファイルこそが大事なところです。顔のファイルと光景のファイルは同じ瞬間に始まっているので、CapCut、Final Cut、DaVinci Resolveで位置を合わせ、2つを切り替えながら編集したり、ワイプの位置を自分で決めたりできます。</p>
+
+      <h2>iPhone 15・16ならどのアプリを選べばいい？</h2>
+      <ul>
+        <li>無料で、完成した動画1本がほしい（iOS 26）：SplitRig。</li>
+        <li>無料で、別々のファイルがほしい・RØDEのマイクを使う：RØDE Capture。</li>
+        <li>別々のファイルでも合成した動画でも保存でき、ふだんのテイクも同じアプリで9:16と16:9の両方を残したい：ContentCam。</li>
+      </ul>
+      <p>どのみち機種変更を考えているなら、iPhone 17やiPhone Airにすれば、「カメラ」アプリのDual Captureで最大4K・30fpsの合成済みファイルを1本で撮影できます。</p>
+
+      <h2>よくある質問</h2>
+      <h3>iPhone 15にDual Captureはありますか？</h3>
+      <p>いいえ。AppleがDual Captureの対応機種として挙げているのは、iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max、iPhone Duoです。iPhone 15シリーズはこの一覧に含まれていないため、iPhone 15の「カメラ」アプリには前後カメラのモードがありません。</p>
+      <h3>iPhone 16にDual Captureはありますか？</h3>
+      <p>いいえ。iPhone 16、iPhone 16 Plus、iPhone 16 Pro、iPhone 16 Pro Max、iPhone 16eの「カメラ」アプリにはDual Captureがありません。それでも、サードパーティのカメラアプリを使えば、iPhone 16でもインカメラと外カメラを同時に録画できます。</p>
+      <h3>iPhone 15でインカメラと外カメラを同時に録画できる無料アプリのおすすめは？</h3>
+      <p>SplitRigとRØDE Captureは、どちらも無料です。SplitRigはiOS 26が必要で、合成済みの動画を1本保存します。RØDE CaptureはiOS 16以降で動作し、App Storeの説明によると、合成した1本のファイルと別々のファイルのどちらでも保存できます。</p>
+      <h3>iPhone 16でインカメラと外カメラの映像を別々のファイルで保存できますか？</h3>
+      <p>はい。ContentCamの前後カメラ（Front/Back）モード、RØDE Capture、Dualgramは、いずれも別々のファイルでの保存を挙げています。ContentCamはインカメラと外カメラの映像を独立した2つの動画ファイルとして保存し、Premiumならワイプ（ピクチャ・イン・ピクチャ）または画面分割で1本の動画に合成できます。</p>
+      <h3>iPhone 15・16の前後カメラアプリは、どの解像度で録画できますか？</h3>
+      <p>ContentCamは、両方のカメラを動かしているときはHDで録画します。私がテストしたすべてのiPhoneで、Appleのマルチカメラ用フォーマットの上限が1920×1440だったためです。Apple純正のDual Captureは4K・30fpsまで対応していますが、iPhone 17以降の機種に限られます。</p>
+
+      <h3>ContentCamの前後カメラ（Front/Back）モードはどのiPhoneで使えますか？</h3>
+      <p>ContentCamが動作するすべてのiPhoneで使えます。ContentCamにはiOS 18以降が必要で、iOS 18が動作するiPhoneはすべてAppleのマルチカメラ撮影に対応しているからです。対象は、iPhone XS、iPhone XS Max、iPhone XR、iPhone 11・12・13・14・15・16の全モデル（iPhone 16eを含む）、iPhone SE（第2・第3世代）、そしてiPhone 17、iPhone 17 Pro、iPhone Air、iPhone 18 Proです。iPhone 17、iPhone Air、iPhone 18 Pro、iPhone Duoでは、Apple純正のDual Captureも使えます。</p>
+      <h3>ContentCamに広告や週額のサブスクリプションはありますか？</h3>
+      <p>どのプランでも広告は表示されず、ウォーターマークも入りません。週額プランもありません。ContentCamは無料でダウンロードでき、前後カメラ（Front/Back）には無料で試せる録画回数が付いています。Premiumは年額・月額・買い切りから選べ、どのプランでも解放される機能は同じです。</p>
+
+      <div class="post-cta">
+        <p><strong>ContentCamを無料で試す</strong>。1回のテイクでインカメラと外カメラを同時に録画し、別々の2つのファイルとしても、合成した動画1本としても保存できます。1回の撮影で縦と横の動画を両方残すことも可能です。iPhoneとAndroidで無料でダウンロードできます。</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ja-b-front-back-iphone-15-16&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="App Storeからダウンロード" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dja-record-front-and-back-camera-iphone-15-16"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Google Playで手に入れよう" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>関連記事：<a href="/ja/blog/record-front-and-back-camera-same-time-iphone/">どのiPhoneでも前後カメラを同時に録画する方法</a> · <a href="/ja/blog/iphone-17-dual-capture-limitations/">Dual Captureに対応しているiPhone</a> · <a href="/ja/blog/best-front-and-back-dual-camera-apps/">インカメラと外カメラを同時に使えるおすすめアプリ</a> · <a href="/ja/blog/take-photo-front-and-back-camera-same-time/">自撮りと外カメラの写真を同時に撮る方法</a> · <a href="/blog/splitrig-vs-contentcam/">SplitRigとContentCamの比較</a></p>
+      <p class="byline">出典：Apple「iPhoneユーザガイド」およびiPhone 17／iPhone Air／iPhone 18 Proの技術仕様（Dual Capture対応機種）、SplitRig・RØDE Capture・DualgramのApp Store説明、contentcam.appの料金ページとサポートページ。2026年11月5日確認。</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/features/teleprompter/">テレプロンプター</a>
+        <a href="/ja/features/dual-camera/">デュアルカメラ</a>
+        <a href="/ja/features/manual-controls/">手動コントロール</a>
+        <a href="/ja/android/">Android</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+        <a href="/press/">プレス</a>
+        <a href="/privacy.html">プライバシー</a>
+        <a href="/terms.html">利用規約</a>
+      </div>
+      <div class="fine">ContentCamは、オーストラリアで1人の開発者がつくった独立系のカメラアプリです。© 2026 ContentCam. Apple、Appleロゴ、iPhone、App Storeは、Apple Inc.の商標です。Google PlayおよびGoogle Playロゴは、Google LLCの商標です。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-front-and-back-camera-iphone-15-16/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-front-and-back-camera-iphone-15-16/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-front-and-back-camera-iphone-15-16/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-front-and-back-camera-iphone-15-16/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-front-and-back-camera-iphone-15-16/" hreflang="it" lang="it">Italiano</a> · <strong>日本語</strong> · <a href="/pt-br/blog/record-front-and-back-camera-iphone-15-16/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-front-and-back-camera-iphone-15-16/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

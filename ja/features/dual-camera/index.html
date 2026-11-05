@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>iPhoneで縦と横を同時に録画するデュアルカメラ撮影 - ContentCam</title>
+  <meta name="description" content="ContentCamが縦と横を同時に録画するしくみ：4:3センサーの画角をまるごと使うシングルレンズ（Single Lens）と、広角と超広角で同時に撮るデュアルレンズ（Dual Lens）。">
+  <link rel="canonical" href="https://contentcam.app/ja/features/dual-camera/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ja">
+  <meta property="og:title" content="iPhoneで縦と横を同時に録画するデュアルカメラ撮影 - ContentCam">
+  <meta property="og:description" content="4:3センサーの画角をまるごと使うシングルレンズ（Single Lens）、または広角と超広角で同時に録画するデュアルレンズ（Dual Lens）。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-features.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/ja/features/dual-camera/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="iPhoneで縦と横を同時に録画するデュアルカメラ撮影 - ContentCam">
+  <meta name="twitter:description" content="4:3センサーの画角をまるごと使うシングルレンズ（Single Lens）、または広角と超広角で同時に録画するデュアルレンズ（Dual Lens）。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-features.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://contentcam.app/ja/features/dual-camera/",
+        "url": "https://contentcam.app/ja/features/dual-camera/",
+        "inLanguage": "ja",
+        "name": "ContentCamの縦横同時録画とデュアルレンズ（Dual Lens）撮影",
+        "description": "ContentCamは9:16の縦動画と16:9の横動画を同時に録画します。1つのレンズのネイティブ4:3センサーから切り出す方法（どちらの比率でも画角をまるごと使えます）と、広角カメラと超広角カメラで同時に録画する方法の2つがあります。",
+        "about": { "@id": "https://contentcam.app/#app" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://contentcam.app/" },
+          { "@type": "ListItem", "position": 2, "name": "機能", "item": "https://contentcam.app/features/" },
+          { "@type": "ListItem", "position": 3, "name": "デュアルカメラ", "item": "https://contentcam.app/ja/features/dual-camera/" }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/features/dual-camera/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/features/dual-camera/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/features/dual-camera/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/features/dual-camera/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/features/dual-camera/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/features/dual-camera/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/features/dual-camera/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/features/dual-camera/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/features/dual-camera/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ja/"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="メニューを開く">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/ja/">ホーム</a> › <a href="/ja/features/">機能</a> › デュアルカメラ</div>
+    <div class="page-hero">
+      <h1>1回の録画で、動画が2本</h1>
+      <p class="lead">ContentCamは、9:16の縦動画と16:9の横動画を同時に録画します。その方法は2つあり、両者の違いは思っている以上に大きいのです。</p>
+    </div>
+
+    <section style="border-top:none; padding-top:24px">
+      <h2>縦動画から横動画を切り出すと何が問題？</h2>
+      <p class="lead">2つの比率を手に入れるいちばん手軽な方法は、縦で録画して、その真ん中から16:9の帯を切り出すことです。これでも一応できますし、このジャンルのアプリの多くはこの方式です。ただし代償があります。あなたの「横動画」は、縦の映像を拡大して切り取った一部にすぎません。スマホの形をした範囲の左右にあったものは、センサーがそもそも記録していないので、すべて失われています。</p>
+    </section>
+
+    <section>
+      <h2>シングルレンズ（Single Lens）：センサー全体から切り出す</h2>
+      <p class="lead">スマホのカメラセンサーは4:3で、縦動画より横に広く、横動画より縦に高い形をしています。ContentCamはこのネイティブの4:3で録画し、その大きな映像から縦と横の両方を切り出します。</p>
+      <div class="grid">
+        <div class="card">
+          <h3><span class="dot"></span>縦：高さをまるごと</h3>
+          <p>9:16の切り出しには、センサーの縦方向の画角をまるごと使います。</p>
+        </div>
+        <div class="card">
+          <h3><span class="dot"></span>横：幅をまるごと</h3>
+          <p>16:9の切り出しには、センサーの横方向の画角をまるごと使います。縦動画の一部を切り取った帯ではなく、本物のワイドな映像です。</p>
+        </div>
+      </div>
+      <p style="color:var(--text-dim); max-width:680px; margin-top:18px">対応するすべてのスマホで使え、インカメラにも対応しています。4K録画もこのモードで行います。無料版で使える録画モードはこちらです。</p>
+    </section>
+
+    <section>
+      <h2>デュアルレンズ（Dual Lens）：2つのカメラで、2つの構図</h2>
+      <p class="lead">iPhone 11以降では、ContentCamはAppleのマルチカメラ撮影を使います。広角レンズが縦動画を、超広角レンズが横動画を、まったく同じ瞬間に録画します。</p>
+      <p style="color:var(--text-dim); max-width:680px">ねらいは、本当に違う構図を撮ることです。縦はReels向けに寄りのショット、横はYouTube向けに引きの全景ショット。それが録画ボタン1回で撮れます。デュアルレンズ（Dual Lens）は5テイクまで無料で試せて、<a href="/ja/pricing/">Premium</a>なら無制限です。現在はiPhoneのみの対応です。</p>
+      <div class="shot-pair">
+        <img src="/assets/img/ui-record-handsdown-640.webp" alt="縦と横の両方の構図が表示された、ContentCamの録画画面" width="640" height="1387" loading="lazy" decoding="async">
+        <img src="/assets/img/ui-review-dark-640.webp" alt="縦横同時録画のテイク後に表示される、ContentCamの確認画面" width="640" height="1387" loading="lazy" decoding="async">
+      </div>
+    </section>
+
+    <section>
+      <h2>シングルレンズとデュアルレンズの違いは？</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th></th><th>シングルレンズ（Single Lens）</th><th>デュアルレンズ（Dual Lens）</th></tr></thead>
+          <tbody>
+            <tr><td><strong>しくみ</strong></td><td>1つのカメラでネイティブ4:3録画し、映像全体から両方の比率を切り出し</td><td>広角カメラと超広角カメラで同時に録画</td></tr>
+            <tr><td><strong>構図</strong></td><td>同じ光景を、それぞれの方向で画角をまるごと</td><td>本当に異なる2つの構図</td></tr>
+            <tr><td><strong>対応機種</strong></td><td>iPhone XS以降、Android、インカメラ</td><td>iPhone 11以降（背面カメラのみ）</td></tr>
+            <tr><td><strong>最大解像度</strong></td><td>4K（Premium）</td><td>1080p（ハードウェアの制限：2つのカメラで4Kを維持できるスマホはありません）</td></tr>
+            <tr><td><strong>プラン</strong></td><td>無料</td><td>5テイクまで無料、以降はPremium</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h2>よくある質問</h2>
+      <h3>インカメラと背面カメラの同時録画とは違うのですか？</h3>
+      <p>別のモードで、ContentCamにはどちらもあります。デュアルレンズ（Dual Lens、このページ）は2つの背面カメラで録画し、同じ光景を2つの構図で撮ります。<strong>前後カメラ（Front/Back）モード</strong>は、インカメラと背面カメラで同時に録画するモードです（あなたのリアクションと目の前の光景を1回の撮影で）。リアクション系のコンテンツに向いています。</p>
+      <h3>両方のファイルに音声は入りますか？</h3>
+      <p>はい。どちらのファイルにも、同じ48kHz AACの音声トラックが入ります。</p>
+      <h3>デュアルレンズはバッテリーの減りが早くなりますか？</h3>
+      <p>はい、2つのカメラを動かすので、1つより電力を多く使います。長時間の撮影には、シングルレンズ（Single Lens）のほうが効率的です。</p>
+    </section>
+
+    <section class="center" style="padding-bottom:72px">
+      <h2>同じ場面を2回撮るのは、もう終わり</h2>
+      <div class="badges" style="margin-top:20px">
+        <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ja-feature-dual-camera&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="App Storeからダウンロード" width="156" height="52"></a>
+        <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dwebsite%26utm_campaign%3Dja-feature-dual-camera"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Google Playで手に入れよう" width="175" height="52"></a>
+      </div>
+      <p style="margin-top:16px; font-size:14px; color:var(--text-dim)">次に読む：<a href="/ja/blog/record-portrait-and-landscape-video-same-time-iphone/">縦と横を同時に録画する方法</a></p>
+    </section>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/features/teleprompter/">テレプロンプター</a>
+        <a href="/ja/features/dual-camera/">デュアルカメラ</a>
+        <a href="/ja/features/manual-controls/">手動コントロール</a>
+        <a href="/ja/android/">Android</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+        <a href="/press/">プレス</a>
+        <a href="/privacy.html">プライバシー</a>
+        <a href="/terms.html">利用規約</a>
+      </div>
+      <div class="fine">ContentCamは、オーストラリアで1人の開発者がつくった独立系のカメラアプリです。© 2026 ContentCam. Apple、Appleロゴ、iPhone、App Storeは、Apple Inc.の商標です。Google PlayおよびGoogle Playロゴは、Google LLCの商標です。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/features/dual-camera/" hreflang="en" lang="en">English</a> · <a href="/de/features/dual-camera/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/features/dual-camera/" hreflang="es" lang="es">Español</a> · <a href="/fr/features/dual-camera/" hreflang="fr" lang="fr">Français</a> · <a href="/it/features/dual-camera/" hreflang="it" lang="it">Italiano</a> · <strong>日本語</strong> · <a href="/pt-br/features/dual-camera/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/features/dual-camera/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

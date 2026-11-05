@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Galaxyでインカメラと外カメラを同時に録画する方法（2026年）</title>
+  <meta name="description" content="Samsungはディレクターズビューの名前をデュアル録画に変え、One UI 8.5では動画モードの中に移しました。対応しているGalaxyの機種、オンにする方法、別々のファイルで保存できるか、そしてほかのGalaxyで同時録画できるアプリをまとめました。">
+  <link rel="canonical" href="https://contentcam.app/ja/blog/record-front-and-back-camera-samsung-galaxy/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ja">
+  <meta property="og:title" content="Galaxyでインカメラと外カメラを同時に録画する方法（2026年）">
+  <meta property="og:description" content="ディレクターズビューは今のデュアル録画です。One UI 8.5での場所、対応しているGalaxyの機種、2つのカメラを別々のファイルで残す方法を解説します。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/ja/blog/record-front-and-back-camera-samsung-galaxy/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Galaxyでインカメラと外カメラを同時に録画する方法">
+  <meta name="twitter:description" content="ディレクターズビューは今のデュアル録画です。One UI 8.5での場所、対応しているGalaxyの機種、2つのカメラを別々のファイルで残す方法を解説します。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://contentcam.app/ja/blog/record-front-and-back-camera-samsung-galaxy/",
+      "headline": "Galaxyでインカメラと外カメラを同時に録画する方法",
+      "description": "Samsungはディレクターズビューの名前をデュアル録画に変え、One UI 8.5では動画モードの中に移しました。対応しているGalaxyの機種、オンにする方法、別々のファイルで保存できるか、そしてほかのGalaxyで同時録画できるアプリをまとめました。",
+      "image": "https://contentcam.app/assets/og/og-blog.jpg",
+      "datePublished": "2026-10-10",
+      "dateModified": "2026-11-05",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "ContentCamの開発者",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "mainEntityOfPage": "https://contentcam.app/ja/blog/record-front-and-back-camera-samsung-galaxy/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://contentcam.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ブログ",
+          "item": "https://contentcam.app/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Galaxyで前後カメラを同時に録画する",
+          "item": "https://contentcam.app/ja/blog/record-front-and-back-camera-samsung-galaxy/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Galaxy S24やS25ではディレクターズビューはなくなったのですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "なくなったのは名前だけです。Samsungはディレクターズビューの名前をデュアル録画に変えており、デュアル録画の対応機種として、Galaxy S24シリーズ、Galaxy S25シリーズ、Galaxy Z Foldシリーズ、Galaxy Z Flipシリーズ、一部のGalaxy Aシリーズを挙げています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "One UI 8.5でデュアル録画はどこにありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "One UI 8.5から、Samsungはデュアル録画を動画モードの中に移しました。「カメラ」を開いて「動画」をタップし、クイックコントロール（4つの円）をタップしてから、「デュアル録画」をタップします。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Galaxyでインカメラと外カメラを別々の2つのファイルで保存できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Samsungによると、Samsungの「カメラ」アプリでできるのはGalaxy S22とS23シリーズだけです。ほかのGalaxyでは、デュアル録画は1本の動画として保存されます。ContentCamの前後カメラ（Front/Back）モードやDuoCamなどのアプリなら、2つのカメラを同時に動かせるGalaxyで、別々のファイルとして保存できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "自分のGalaxyがインカメラと外カメラを同時に使えるか確認するには？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "スマホが、Android 11で追加されたAndroidの同時カメラ機能android.hardware.camera.concurrentに対応していると報告する必要があります。ContentCamとDuoCamはスマホを自動でチェックし、動作する場合にだけ前後カメラの録画を表示します。"
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-front-and-back-camera-samsung-galaxy/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-front-and-back-camera-samsung-galaxy/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-front-and-back-camera-samsung-galaxy/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-front-and-back-camera-samsung-galaxy/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-front-and-back-camera-samsung-galaxy/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-front-and-back-camera-samsung-galaxy/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-front-and-back-camera-samsung-galaxy/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-front-and-back-camera-samsung-galaxy/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-front-and-back-camera-samsung-galaxy/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ja/"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="メニューを開く">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/ja/">ホーム</a> › <a href="/blog/">ブログ</a> › Galaxyで前後カメラを同時に録画する</div>
+    <article class="post">
+      <h1>Galaxyでインカメラと外カメラを同時に録画する方法</h1>
+      <p class="byline">文：Jimmy（ContentCam開発者）· 2026年10月10日 · 2026年11月5日更新</p>
+
+      <p>Samsung Galaxyでインカメラと外カメラを同時に録画するには、Samsungの「カメラ」アプリのデュアル録画（Dual recording）を使います。One UI 8.5では動画モードのクイックコントロールの中に、それより前のソフトウェアでは「その他」の中にあります。デュアル録画は、ディレクターズビュー（Director's View）の新しい名前です。自分の顔と目の前の光景を別々の2つのファイルで残したい場合、Samsungの「カメラ」アプリでそれができるのはGalaxy S22とS23だけです。ほかのGalaxyでは、ContentCamの前後カメラ（Front/Back）モードのようなアプリを使いましょう。</p>
+      <p>お断り：私はContentCamをつくっているので、中立ではありません。以下のSamsungに関する情報はすべてSamsung自身のサポートページから、ほかのアプリの詳細はすべてGoogle Playの掲載情報から引用しており、2026年11月5日に確認しました。Pixelを含むAndroidスマホ全般については、<a href="/ja/blog/record-front-and-back-camera-same-time-android/">Androidで前後カメラを同時に録画する方法</a>をご覧ください。</p>
+
+      <h2>Galaxy S24・S25でディレクターズビューが見つからないのはなぜ？</h2>
+      <p>Samsungがディレクターズビューの名前をデュアル録画に変えたからです。Samsungのサポートページ「Use Director's View and Dual recording on your Galaxy phone」によると、ディレクターズビューはOne UI 3.1以降を搭載した一部の機種に導入された機能で、「ディレクターズビューはGalaxy S24シリーズおよびS25シリーズでは利用できません」と書かれています。Samsungの別のページ「Director's View Missing in Camera?」（2026年7月1日更新）がその理由を説明しています。「新しいSamsung Galaxyでは、ディレクターズビューのメニューの名前がデュアル録画に変更されました」。</p>
+
+      <h2>デュアル録画に対応しているGalaxyの機種は？</h2>
+      <p>Samsungは、デュアル録画の対応機種として次の5つのグループを挙げています。</p>
+      <ul>
+        <li>Galaxy S24シリーズ</li>
+        <li>Galaxy S25シリーズ</li>
+        <li>Galaxy Z Foldシリーズ</li>
+        <li>Galaxy Z Flipシリーズ</li>
+        <li>Galaxy Aシリーズ（一部の機種。Samsungは機種名を公表していません）</li>
+      </ul>
+      <p>新しい機種ほど選べる設定が増えます。SamsungはFHDまたはUHDの30fps、「Front + Rear Camera」（インカメラ＋背面カメラ）、「Rear + Rear Camera」（背面カメラ＋背面カメラ）を挙げており、Galaxy S23シリーズはFHDの30fpsと「Front + Rear Camera」に限られていたと記しています。</p>
+
+      <h2>One UI 8.5でデュアル録画をオンにするには？</h2>
+      <p>Samsung米国のサポートページによると、One UI 8.5からデュアル録画（Dual rec）は「動画メニューに統合されました」。</p>
+      <ol>
+        <li><strong>「カメラ」</strong>アプリを開き、<strong>「動画」</strong>をタップします。</li>
+        <li><strong>クイックコントロール</strong>のアイコン（4つの円）をタップします。</li>
+        <li><strong>「デュアル録画」</strong>（四角の隅に小さな四角があるアイコン）をタップして録画します。</li>
+      </ol>
+      <p>デュアル録画を独立したモードに戻すには、クイックコントロール、歯車アイコン、<strong>Camera Assistant</strong>の順にタップし、追加モードの<strong>デュアル録画</strong>をオンにします。Samsung Indiaのページでは「Camera Assistant (Downloadable)」と表記されているため、最初にダウンロードが必要な場合があります。オンにすると、デュアル録画は<strong>「その他」</strong>の中に表示されます。One UI 8.5より前のソフトウェアでは、Samsungの手順は「カメラ」、「その他」、「デュアル録画」の順です（古い機種では「ディレクターズビュー」）。</p>
+
+      <h2>Samsungのデュアル録画は別々のファイルで保存できる？</h2>
+      <p>できるのはGalaxy S22とS23シリーズだけです。Samsungのサポートページによると、S22とS23では録画前にダウンロードアイコンをタップすると、セルフィーの動画と背面カメラの動画を別々のファイルとして保存できます。また「この設定は現在、S22シリーズとS23シリーズ以外の機種では利用できません」とも書かれています。それ以外の機種では、デュアル録画は録画前に選んだワイプ（ピクチャ・イン・ピクチャ）か画面分割が焼き込まれた、1本の動画として保存されます。</p>
+
+      <h2>Galaxyがほかのアプリで2つのカメラを同時に使えるか確認するには？</h2>
+      <p>Android 11（APIレベル30）で、同時に動かせるカメラの組み合わせを返す<code>CameraManager.getConcurrentCameraIds()</code>と、機能フラグ<code>android.hardware.camera.concurrent</code>が追加されました。Android Developersのドキュメントでは、このフラグを「デバイスのメインのインカメラと背面カメラが同時にストリーミングできる」ことと定義しています。インカメラと背面カメラの組み合わせがなければ、この公式の方法で両方を録画できるサードパーティ製アプリはありません。GoogleのCameraXのドキュメントでは、2つのカメラを使う場合の上限はスマホによって「720pまたは1440p」とされています。</p>
+      <p>いちばん簡単な確認方法は、スマホをチェックしてくれるアプリを使うことです。ContentCamは動作する場合にだけ前後カメラ（Front/Back）を表示し、DuoCamの掲載情報には「起動時にスマホのハードウェアをチェックする」とあります。パソコンがあれば、<code>adb shell pm list features</code>を実行し、<code>android.hardware.camera.concurrent</code>が表示されれば対応しています。</p>
+
+      <h2>Galaxyでインカメラと外カメラを同時に録画できるアプリは？</h2>
+      <table>
+        <thead><tr><th>選択肢</th><th>保存されるもの</th><th>必要なもの</th><th>料金（掲載情報より）</th></tr></thead>
+        <tbody>
+          <tr><td>Samsungのデュアル録画</td><td>1本の動画（ワイプまたは分割）。別々のファイルはS22とS23のみ。新しい機種では最大UHD 30fps。</td><td>Samsungの対応リストにあるGalaxy</td><td>標準搭載</td></tr>
+          <tr><td>ContentCam（前後カメラ（Front/Back）モード）</td><td>別々の2つのファイル、HDで最大30fps。背面カメラは縦または横で録画。</td><td>2つのカメラを同時に動かせるスマホ（アプリがチェックします）</td><td>アプリは無料、前後カメラの録画は5回まで無料、その後はPremium</td></tr>
+          <tr><td>DuoCam（Zyntec LLC）</td><td>合成した動画に加え、フル解像度のインカメラと背面カメラの別々のファイル</td><td>Android 11以降と、同時カメラ対応のハードウェア</td><td>無料、アプリ内課金あり、広告なし</td></tr>
+          <tr><td>Dual Cam: Front and Back Video（VysionApps）</td><td>合成した1本の動画。画面分割、ワイプ、トランジション、背景差し替えのエフェクトつき</td><td>Android</td><td>無料、アプリ内課金あり</td></tr>
+          <tr><td>DualCam Recorder（Worldwide Choices）</td><td>別々の2つのMP4ファイル。画面オフのままバックグラウンドで録画</td><td>Android</td><td>無料、アプリ内課金あり</td></tr>
+        </tbody>
+      </table>
+      <p>ほかの選択肢が勝っている点もあります。Samsungのデュアル録画は無料で最初から入っており、新しい機種ではUHD 30fpsまで対応していますが、ContentCamはHDです。DuoCamは別々のファイルを残したうえで、録画後にレイアウトを変えられます。VysionAppsのDual CamにはContentCamにないエフェクトがあります。完成したワイプの動画だけが必要なら、Samsungの「カメラ」アプリを使いましょう。ほかのアプリは<a href="/ja/blog/best-front-and-back-dual-camera-apps/">前後カメラのおすすめアプリ</a>で紹介しています。</p>
+
+      <h2>ContentCamでGalaxyの前後カメラを同時に録画するには？</h2>
+      <ol>
+        <li><a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dja-record-front-and-back-camera-samsung-galaxy">Google PlayからContentCam</a>をインストールします。</li>
+        <li>録画モードを前後カメラ（Front/Back）に切り替えます。このモードが表示されない場合、そのGalaxyはアプリで2つのカメラを同時に動かせません。</li>
+        <li>背面カメラの縦か横を選び、1回録画します。セルフィーと背面カメラの映像が同期して録画され、別々の2つのファイルとして保存されます。</li>
+      </ol>
+      <p>ファイルが2つあるので、顔と光景を切り替えて編集したり、別々に投稿したり、ContentCamの「合成」エディタでワイプ（ピクチャ・イン・ピクチャ）や画面分割の1本の動画にしたりできます（保存はPremiumの機能です）。照明や音声のコツは<a href="/ja/blog/film-reaction-video-phone/">リアクション動画の撮り方ガイド</a>にまとめています。</p>
+
+      <h2>よくある質問</h2>
+      <h3>Galaxy S24やS25ではディレクターズビューはなくなったのですか？</h3>
+      <p>なくなったのは名前だけです。Samsungはディレクターズビューの名前をデュアル録画に変えており、デュアル録画の対応機種として、Galaxy S24シリーズ、Galaxy S25シリーズ、Galaxy Z Foldシリーズ、Galaxy Z Flipシリーズ、一部のGalaxy Aシリーズを挙げています。</p>
+      <h3>One UI 8.5でデュアル録画はどこにありますか？</h3>
+      <p>One UI 8.5から、Samsungはデュアル録画を動画モードの中に移しました。「カメラ」を開いて「動画」をタップし、クイックコントロール（4つの円）をタップしてから、「デュアル録画」をタップします。</p>
+      <h3>Galaxyでインカメラと外カメラを別々の2つのファイルで保存できますか？</h3>
+      <p>Samsungによると、Samsungの「カメラ」アプリでできるのはGalaxy S22とS23シリーズだけです。ほかのGalaxyでは、デュアル録画は1本の動画として保存されます。ContentCamの前後カメラ（Front/Back）モードやDuoCamなどのアプリなら、2つのカメラを同時に動かせるGalaxyで、別々のファイルとして保存できます。</p>
+      <h3>自分のGalaxyがインカメラと外カメラを同時に使えるか確認するには？</h3>
+      <p>スマホが、Android 11で追加されたAndroidの同時カメラ機能android.hardware.camera.concurrentに対応していると報告する必要があります。ContentCamとDuoCamはスマホを自動でチェックし、動作する場合にだけ前後カメラの録画を表示します。</p>
+
+      <div class="post-cta">
+        <p><strong>ContentCamを無料で試す</strong>。前後カメラを1回のテイクで別々の2つのファイルに、さらに1回の撮影で縦と横の両方も。AndroidとiPhoneで無料でダウンロードできます。</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dja-record-front-and-back-camera-samsung-galaxy"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Google Playで手に入れよう" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ja-b-front-back-samsung-galaxy&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="App Storeからダウンロード" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>関連記事：<a href="/ja/blog/record-front-and-back-camera-same-time-android/">Androidスマホで前後カメラを同時に録画する</a> · <a href="/ja/blog/best-front-and-back-dual-camera-apps/">前後カメラのおすすめアプリ</a> · <a href="/ja/blog/dual-camera-effect/">デュアルカメラ完全ガイド</a> · <a href="/ja/blog/film-reaction-video-phone/">スマホでリアクション動画を撮る方法</a></p>
+      <p class="byline">出典：Samsung US「Use Director's View and Dual recording on your Galaxy phone」「Dual recording missing in the Camera app on Galaxy phones」（samsung.com/us/support）、Samsung Gulf「Director's View Missing in Camera?」（2026年7月1日更新）、Samsung India「How to enable or run the Night, Single take &amp; Dual rec modes」（2026年4月29日更新）、Android Developers「CameraManager.getConcurrentCameraIds()」「PackageManager.FEATURE_CAMERA_CONCURRENT」「CameraX ConcurrentCamera」、Google PlayのDuoCam、Dual Cam: Front and Back Video、DualCam Recorderの掲載情報。2026年11月5日に確認。</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/features/teleprompter/">テレプロンプター</a>
+        <a href="/ja/features/dual-camera/">デュアルカメラ</a>
+        <a href="/ja/features/manual-controls/">手動コントロール</a>
+        <a href="/ja/android/">Android</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+        <a href="/press/">プレス</a>
+        <a href="/privacy.html">プライバシー</a>
+        <a href="/terms.html">利用規約</a>
+      </div>
+      <div class="fine">ContentCamは、オーストラリアで1人の開発者がつくった独立系のカメラアプリです。© 2026 ContentCam. Apple、Appleロゴ、iPhone、App Storeは、Apple Inc.の商標です。Google PlayおよびGoogle Playロゴは、Google LLCの商標です。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-front-and-back-camera-samsung-galaxy/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-front-and-back-camera-samsung-galaxy/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-front-and-back-camera-samsung-galaxy/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-front-and-back-camera-samsung-galaxy/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-front-and-back-camera-samsung-galaxy/" hreflang="it" lang="it">Italiano</a> · <strong>日本語</strong> · <a href="/pt-br/blog/record-front-and-back-camera-samsung-galaxy/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-front-and-back-camera-samsung-galaxy/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

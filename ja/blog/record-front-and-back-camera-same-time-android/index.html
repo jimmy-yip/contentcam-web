@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Androidでインカメラと外カメラを同時に録画する方法（2026年）</title>
+  <meta name="description" content="Androidでインカメラと外カメラを同時に録画する方法。標準カメラでできるGalaxyの機種、Pixelカメラでできない理由、自分の顔と目の前の光景を別々の2つのファイルで残す方法を解説します。">
+  <link rel="canonical" href="https://contentcam.app/ja/blog/record-front-and-back-camera-same-time-android/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ja">
+  <meta property="og:title" content="Androidでインカメラと外カメラを同時に録画する方法（2026年）">
+  <meta property="og:description" content="Galaxyのデュアル録画、Pixelでできないこと、そして1回のテイクでリアクションと目の前の光景を別々の2つのファイルで残す方法。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/ja/blog/record-front-and-back-camera-same-time-android/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Androidでインカメラと外カメラを同時に録画する方法">
+  <meta name="twitter:description" content="Galaxyのデュアル録画、Pixelでできないこと、2つのカメラを別々のファイルで残す方法。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/ja/blog/record-front-and-back-camera-same-time-android/",
+        "headline": "Androidでインカメラと外カメラを同時に録画する方法",
+        "description": "標準カメラアプリでインカメラと外カメラを同時に録画できるAndroidスマホ、Pixelカメラでできない理由、ContentCamの前後カメラ（Front/Back）モードで2つのカメラを別々のファイルとして残す方法を解説します。",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-10-08",
+        "dateModified": "2026-10-08",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "ContentCam開発者", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/ja/blog/record-front-and-back-camera-same-time-android/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://contentcam.app/" },
+          { "@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Androidで前後カメラを同時に録画する", "item": "https://contentcam.app/ja/blog/record-front-and-back-camera-same-time-android/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Pixelでインカメラと外カメラを同時に録画できますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "Pixelカメラではできません。Pixel Foldシリーズのデュアルスクリーンプレビュー（Dual screen preview）は2つの画面を使う機能で、2つのカメラを使う機能ではありません。2つのカメラの同時使用に対応したPixelで、前後カメラのモードがあるアプリを使ってください。" }
+          },
+          {
+            "@type": "Question",
+            "name": "Galaxyのデュアル録画は2つのファイルに分けて保存できますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "通常は、レイアウトが焼き込まれた1本の動画として保存されます。Samsungによると、Galaxy S22とS23では、録画前に設定しておけば、インカメラと背面カメラのファイルを別々に保存できます。" }
+          },
+          {
+            "@type": "Question",
+            "name": "ContentCamの前後カメラ（Front/Back）モードはAndroidで無料で使えますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "アプリ本体と、縦と横を同時に撮る録画は無料です。前後カメラ（Front/Back）はPremiumの機能で、5回まで無料で試せます。" }
+          },
+          {
+            "@type": "Question",
+            "name": "自分のスマホでインカメラと外カメラを同時に録画できないのはなぜですか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "スマホのハードウェアが、インカメラと背面カメラの同時動作に対応している必要があります。Android 11以降では、スマホがその対応状況をgetConcurrentCameraIds()を通じてアプリに伝えます。対応していなければ、公式の方法で両方のカメラを録画できるアプリはありません。" }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-front-and-back-camera-same-time-android/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ja/"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="メニューを開く">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/ja/">ホーム</a> › <a href="/blog/">ブログ</a> › Androidで前後カメラを同時に録画する</div>
+    <article class="post">
+      <h1>Androidでインカメラと外カメラを同時に録画する方法</h1>
+      <p class="byline">文：Jimmy（ContentCam開発者）· 2026年10月8日</p>
+
+      <p>一部のSamsung Galaxyは、標準の「カメラ」アプリでインカメラと外カメラを同時に録画できます。Pixelカメラではできません。2つのカメラを同時に動かせるハードウェアを持つAndroidスマホなら、前後カメラのモードがあるカメラアプリで同時録画ができます。ContentCamの前後カメラ（Front/Back）モードは、あなたの顔と目の前の光景を別々の2つのファイルとして保存します。</p>
+      <p>以下では、それぞれの方法で何ができるのか、どの機種で使えるのか、そしてリアクションがきちんと伝わる撮り方を紹介します。Instagramに内蔵された機能を含め、iPhoneとAndroidでの方法をすべて知りたい場合は、<a href="/ja/blog/dual-camera-effect/">インカメラと外カメラを同時に使う方法</a>のメインガイドをご覧ください。iPhoneでも撮影するなら、新しい機種の標準「カメラ」アプリには独自の機能、<a href="/ja/blog/iphone-17-dual-capture-limitations/">iPhoneのDual Capture</a>があります。こちらは2つのカメラの映像を、ワイプ（ピクチャ・イン・ピクチャ）の1つのファイルとして保存します。</p>
+
+      <h2>Galaxyでインカメラと外カメラを同時に録画するには？（ディレクターズビューとデュアル録画）</h2>
+      <p>Samsungは、この機能を「カメラ」アプリに組み込んでいます。サポートページでは、ディレクターズビュー（Director's View）のデュアル録画（Dual recording）を「背面カメラとセルフィーカメラで同時に動画を録画する」方法として紹介しており、One UI 3.1以降の一部の機種で使えます。録画の前にレイアウトを選びます。</p>
+      <ul>
+        <li><strong>ピクチャ・イン・ピクチャ：</strong>背面カメラの映像の隅に、あなたが小さなワイプで入ります。</li>
+        <li><strong>分割：</strong>上が背面カメラ、下がセルフィーカメラです。</li>
+        <li><strong>シングル：</strong>カメラは1つだけで、ディレクターズビューを使ってレンズを切り替えます。</li>
+      </ul>
+      <p>注意点が2つあります。1つ目は、仕上がりが通常は<em>1本</em>の動画で、選んだレイアウトに顔が焼き込まれることです。編集でワイプを動かしたり消したりはできません。Samsungのページによると、Galaxy S22とS23では、録画前にオンにしておけば、セルフィーと背面カメラの動画を別々のファイルとして保存できます。2つ目は、Galaxy S24、S25以降ではディレクターズビューの名前がデュアル録画に変わり、One UI 8.5では動画モードのクイックコントロールの中に移ったことです。詳しい手順と対応機種は、<a href="/ja/blog/record-front-and-back-camera-samsung-galaxy/">Galaxyで前後カメラを同時に録画する方法</a>にまとめています。</p>
+
+      <h2>Pixelでインカメラと外カメラを同時に録画できる？</h2>
+      <p>Pixelカメラでは、2つのカメラを同時に録画できません。Googleのヘルプページでいちばん近いのは、Pixel Foldシリーズのデュアルスクリーンプレビュー（Dual screen preview）です。内側と外側の画面にプレビューを映して、撮られている人が自分の姿を確認できるようにする機能ですが、録画しているのはやはり1つのカメラです。Pixelで前後カメラを同時に録画するには、サードパーティ製のアプリが必要です。</p>
+
+      <h2>ほかのAndroidスマホで同時録画できるかはどう決まる？</h2>
+      <p>Android 11（APIレベル30）で追加された<code>getConcurrentCameraIds()</code>は、スマホのどのカメラを同時に動かせるかをアプリに伝えます。スマホがインカメラと背面カメラの組み合わせを報告していれば、アプリは両方を録画できます。報告していなければ、その公式の方法を使う限り、どんなに優れたアプリでも録画できません。見た目は同じくらい高性能なスマホなのに、前後カメラの同時録画が片方ではでき、もう片方ではできないのはこのためです。</p>
+
+      <h2>ContentCamを使ってAndroidで前後カメラを同時に録画するには？</h2>
+      <p>ContentCamの前後カメラ（Front/Back）モードは、1回タップするだけでインカメラと背面カメラを同時に録画し、レイアウトが焼き込まれた1本の動画ではなく、2つのファイルとして保存します。背面カメラは縦か横かを選んで録画でき、インカメラは常に縦です。2つが別々なので、レイアウトはあとから決められます。ワイプ、画面分割、2つの映像の切り替え、あるいは1回のテイクから2本の別々の投稿をつくることもできます。</p>
+      <ol>
+        <li><a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dja-android-dual-format">Google PlayからContentCam</a>をインストールして開きます。</li>
+        <li>録画モードを前後カメラ（Front/Back）に切り替えます。</li>
+        <li>背面カメラを縦で録画するか横で録画するかを選びます。</li>
+        <li>背面カメラの構図を決めて、1回録画します。2つのカメラは同じタイムラインで録画されるので、リアクションと目の前の光景はずれません。</li>
+        <li>2つのクリップを並べて確認し、トリミングして書き出します。</li>
+      </ol>
+      <p>前後カメラ（Front/Back）はPremiumの機能で、まずは5回まで無料で試せます。Android版のほかの機能と同じく、スマホのカメラが報告する実際の対応状況に合わせて動作します。無料版でも、縦と横を同時に撮る録画はできます。1回のテイクから9:16の縦と16:9の横のファイルを録画する機能で、これは別のテーマとして<a href="/ja/blog/record-portrait-and-landscape-video-same-time-android/">Androidで縦と横の動画を同時に録画する方法</a>で解説しています。</p>
+
+      <div class="shot-pair">
+        <img src="/assets/img/ui-record-handsup-640.webp" alt="モード切り替えが表示されたContentCamの録画画面" width="640" height="1387" loading="lazy" decoding="async">
+        <img src="/assets/img/ui-review-dark-640.webp" alt="撮影後のContentCamの確認画面" width="640" height="1387" loading="lazy" decoding="async">
+      </div>
+
+      <h2>どの方法を選べばいい？</h2>
+      <ul>
+        <li><strong>対応するGalaxyを持っていて、完成した動画をすぐに作りたい：</strong>標準の「カメラ」アプリのデュアル録画を使いましょう。ピクチャ・イン・ピクチャか分割を選び、そのまま投稿できます。</li>
+        <li><strong>2つのアングルを別々に編集したい、</strong>またはPixelやほかのメーカーのスマホを使っている：2つのファイルを保存するアプリを使いましょう。</li>
+        <li><strong>ストーリーズ1本のために、隅に顔を入れたいだけ：</strong>Instagramのデュアルカメラ機能で足りるかもしれません。<a href="/ja/blog/dual-camera-effect/">デュアルカメラのメインガイド</a>で紹介しています。</li>
+      </ul>
+
+      <h2>前後カメラの動画を上手に撮るコツは？</h2>
+      <ul>
+        <li><strong>顔に光を当てる。</strong>インカメラは性能が低いほうで、暗い部屋では背面カメラよりずっと早くノイズが出ます。窓かライトのほうを向きましょう。</li>
+        <li><strong>声はマイクの近くで。</strong>スマホのマイクは、いちばん近くにいる人の声を拾います。何かを見せようと後ろに下がると声が小さくなるので、大事なセリフのときは近づきましょう。</li>
+        <li><strong>明るさの違う場所を移動するなら露出を固定する。</strong>明るい窓際から暗い部屋に歩いていくと、2つのカメラとも露出が定まらず、明るさがふらつきます。スマホで何を固定できるかは、<a href="/blog/android-camera-settings-for-video/">Androidのカメラ設定ガイド</a>で解説しています。</li>
+        <li><strong>発熱に気をつける。</strong>2つのカメラを同時に動かすのは、スマホにとって重い処理です。長回しのときは直射日光を避け、ケースを外しましょう。</li>
+      </ul>
+
+      <h2>よくある質問</h2>
+      <h3>Pixelでインカメラと外カメラを同時に録画できますか？</h3>
+      <p>Pixelカメラではできません。Pixel Foldシリーズのデュアルスクリーンプレビュー（Dual screen preview）は2つの画面を使う機能で、2つのカメラを使う機能ではありません。2つのカメラの同時使用に対応したPixelで、前後カメラのモードがあるアプリを使ってください。</p>
+      <h3>Galaxyのデュアル録画は2つのファイルに分けて保存できますか？</h3>
+      <p>通常は、レイアウトが焼き込まれた1本の動画として保存されます。Samsungによると、Galaxy S22とS23では、録画前に設定しておけば、インカメラと背面カメラのファイルを別々に保存できます。</p>
+      <h3>ContentCamの前後カメラ（Front/Back）モードはAndroidで無料で使えますか？</h3>
+      <p>アプリ本体と、縦と横を同時に撮る録画は無料です。前後カメラ（Front/Back）はPremiumの機能で、5回まで無料で試せます。</p>
+      <h3>自分のスマホでインカメラと外カメラを同時に録画できないのはなぜですか？</h3>
+      <p>スマホのハードウェアが、インカメラと背面カメラの同時動作に対応している必要があります。Android 11以降では、スマホがその対応状況を<code>getConcurrentCameraIds()</code>を通じてアプリに伝えます。対応していなければ、公式の方法で両方のカメラを録画できるアプリはありません。</p>
+
+      <div class="post-cta">
+        <p><strong>ContentCamを無料で試す</strong>。前後カメラを1回のテイクで別々の2つのファイルに、さらに1回の撮影で縦と横の両方も。AndroidとiPhoneで無料でダウンロードできます。</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dja-android-dual-format"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Google Playで手に入れよう" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ja-b-front-back-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="App Storeからダウンロード" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>関連記事：<a href="/ja/blog/dual-camera-effect/">インカメラと外カメラを同時に使う方法の完全ガイド</a> · <a href="/ja/blog/record-portrait-and-landscape-video-same-time-android/">Androidで縦と横を同時に録画する方法</a> · <a href="/ja/blog/record-front-and-back-camera-same-time-iphone/">このガイドのiPhone版</a> · <a href="/ja/blog/take-photo-front-and-back-camera-same-time/">インカメラと外カメラで同時に写真を撮る方法</a> · <a href="/ja/android/">Android版ContentCam</a> · <a href="/ja/blog/record-front-and-back-camera-samsung-galaxy/">Galaxyで前後カメラを同時に録画する方法</a> · <a href="/blog/record-front-and-back-camera-google-pixel/">Pixelで前後カメラを同時に録画する方法</a></p>
+      <p class="byline">出典：Samsung「Use Director's View and Dual recording on your Galaxy phone」（samsung.com/us/support）、Google Pixelカメラ ヘルプ「Record a video」（support.google.com/pixelcamera）、Android Developers「CameraManager.getConcurrentCameraIds()」。2026年10月8日に確認、2026年11月5日にSamsungの機能名を更新。</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/features/teleprompter/">テレプロンプター</a>
+        <a href="/ja/features/dual-camera/">デュアルカメラ</a>
+        <a href="/ja/features/manual-controls/">手動コントロール</a>
+        <a href="/ja/android/">Android</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+        <a href="/press/">プレス</a>
+        <a href="/privacy.html">プライバシー</a>
+        <a href="/terms.html">利用規約</a>
+      </div>
+      <div class="fine">ContentCamは、オーストラリアで1人の開発者がつくった独立系のカメラアプリです。© 2026 ContentCam. Apple、Appleロゴ、iPhone、App Storeは、Apple Inc.の商標です。Google PlayおよびGoogle Playロゴは、Google LLCの商標です。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-front-and-back-camera-same-time-android/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-front-and-back-camera-same-time-android/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-front-and-back-camera-same-time-android/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-front-and-back-camera-same-time-android/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-front-and-back-camera-same-time-android/" hreflang="it" lang="it">Italiano</a> · <strong>日本語</strong> · <a href="/pt-br/blog/record-front-and-back-camera-same-time-android/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-front-and-back-camera-same-time-android/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

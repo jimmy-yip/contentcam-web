@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>インカメラと外カメラで同時に写真を撮る方法（自撮りと背面、2026年）</title>
+  <meta name="description" content="SnapchatのDual Cameraは、インカメラと外カメラを合成した1枚の写真になります。ContentCamの前後カメラ（Front/Back）の写真モードなら、自撮りと背面カメラの写真を独立した2つのファイルで保存。iPhoneのDual CaptureとInstagramのDualは動画専用です。">
+  <link rel="canonical" href="https://contentcam.app/ja/blog/take-photo-front-and-back-camera-same-time/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ja">
+  <meta property="og:title" content="インカメラと外カメラで同時に写真を撮る方法（自撮りと背面、2026年）">
+  <meta property="og:description" content="合成された1枚にするか、独立した2枚の写真にするか。iPhoneとAndroidで、自撮りと外カメラを1回のシャッターで撮る方法をすべて紹介します。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/ja/blog/take-photo-front-and-back-camera-same-time/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="インカメラと外カメラで同時に写真を撮る方法">
+  <meta name="twitter:description" content="合成された1枚か、独立した2枚の写真か。iPhoneとAndroidで撮る方法。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/ja/blog/take-photo-front-and-back-camera-same-time/",
+        "url": "https://contentcam.app/ja/blog/take-photo-front-and-back-camera-same-time/",
+        "headline": "インカメラと外カメラで同時に写真を撮る方法",
+        "description": "iPhoneとAndroidで、自撮りと外カメラの写真を1回のシャッターで撮る方法をすべて紹介します。合成された1枚ならSnapchatのDual Camera、Dual CaptureとInstagramは動画を使う回避策、独立した2枚の写真ならContentCamの写真モードです。",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-10-16",
+        "dateModified": "2026-11-05",
+        "inLanguage": "ja",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "ContentCamの開発者", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/ja/blog/take-photo-front-and-back-camera-same-time/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://contentcam.app/" },
+          { "@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "インカメラと外カメラで同時に写真を撮る", "item": "https://contentcam.app/ja/blog/take-photo-front-and-back-camera-same-time/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "iPhoneの標準カメラで、インカメラと外カメラの写真を同時に撮れますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "直接は撮れません。Dual Captureは、iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max、iPhone Duoの「ビデオ」モードの機能です。数秒だけ録画し、いちばん良い瞬間で一時停止してスクリーンショットを撮ってください。" }
+          },
+          {
+            "@type": "Question",
+            "name": "自撮りと外カメラの写真を同時に撮る、いちばん簡単な無料の方法は？",
+            "acceptedAnswer": { "@type": "Answer", "text": "SnapchatのDual Cameraです。レイアウトを選んでSnapを撮れば、両方のカメラが入った1枚の画像になります。" }
+          },
+          {
+            "@type": "Question",
+            "name": "自撮りと外カメラの写真を、別々の2つのファイルで保存できますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。それぞれのカメラを別々のファイルに書き出すカメラアプリなら可能です。ContentCamの写真モードは、iPhoneとAndroidの前後カメラ（Front/Back）モードでこれができます。写真モードはPremiumの機能です。" }
+          },
+          {
+            "@type": "Question",
+            "name": "なぜ自分のスマホでは、インカメラと外カメラの写真を同時に撮れないのですか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "ハードウェアが2つのカメラを同時に動かせて、そのことをアプリに伝えられる必要があります。iPhoneでは isMultiCamSupported、Android 11以降では getConcurrentCameraIds() を通じて伝えます。それができない端末では、公式の方法でこれを実現できるアプリはありません。" }
+          },
+          {
+            "@type": "Question",
+            "name": "ContentCamでインカメラと外カメラの写真を撮れるのはどの機種ですか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "iPhoneは、ContentCamが動作するすべての機種です。必要なのはiOS 18以降なので、iPhone XS、iPhone XS Max、iPhone XR、iPhone 16eを含むiPhone 11からiPhone 16までの全モデル、iPhone SE（第2世代・第3世代）、そしてiPhone 17、iPhone Air、iPhone 18 Pro、iPhone Duoが対象です。Androidは、前面と背面のカメラを同時に動かせるハードウェアを持つ端末です。これはAndroid 11以降でアプリに報告され、ContentCamがお使いのスマホで確認します。" }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/take-photo-front-and-back-camera-same-time/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ja/"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="メニューを開く">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/ja/">ホーム</a> › <a href="/blog/">ブログ</a> › インカメラと外カメラで同時に写真を撮る</div>
+    <article class="post">
+      <h1>インカメラと外カメラで同時に写真を撮る方法</h1>
+      <p class="byline">文：Jimmy（ContentCam開発者）· 2026年10月16日 · 2026年11月5日更新</p>
+
+      <p>自撮りと外カメラの写真を1回のシャッターで撮る方法は2つです。合成された1枚の画像を無料で撮りたいならSnapchatのDual Camera。自撮りと背面の写真を独立した2つのファイルで保存し、レイアウトを自分で決めたいならContentCamの前後カメラ（Front/Back）の写真モード（iPhoneとAndroid、Premium）を使います。iPhoneのDual CaptureとInstagramのDualは動画の機能なので、数秒録画していちばん良いフレームをスクリーンショットすることになります。</p>
+      <p>お断り：私はContentCamの開発者で、ContentCamは以下で紹介するアプリのひとつです。ここに書いた内容はすべて、Apple、Snapchat、Meta、Androidの公式ドキュメントに基づいており、出典は記事の最後にまとめています。写真ではなく動画を撮りたい場合は、<a href="/ja/blog/dual-camera-effect/">インカメラと外カメラを同時に使う方法の完全ガイド</a>をご覧ください。</p>
+
+      <h2>iPhoneの標準カメラで、インカメラと外カメラの写真を同時に撮れる？</h2>
+      <p>写真としては撮れません。AppleのiPhoneユーザガイドでは、Dual Captureはカメラアプリの「ビデオ」モードの機能として説明されています。カメラを開き、「ビデオ」を選んで画面上のコントロールボタンをタップし、Dual Captureをタップします。Appleは「自分自身」と「目の前の様子」を同時に録画する機能と説明しており、対象は7機種です。iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max、iPhone Duo。Appleのガイドでは、動画の機能としてのみ説明されています。</p>
+      <p>この7機種での回避策は、Dual Captureで2〜3秒録画し、再生をいちばん良い瞬間で一時停止してスクリーンショットを撮ることです。Dual Captureはインカメラの映像を1つの画面に合成して記録するので、その静止画では自撮りのウィンドウが左上に固定されています。<a href="/ja/blog/iphone-17-dual-capture-limitations/">Dual Captureの制限</a>については別の記事で詳しく説明しています。</p>
+
+      <h2>自撮りと外カメラの写真を同時に撮る、いちばん簡単な無料の方法は？</h2>
+      <p>SnapchatのDual Cameraです。Snapchatのヘルプセンターによると、Dual Cameraは「前面と背面のカメラを同時に使ってコンテンツを撮影できる」機能です。Snapchatのカメラでツールバーにある Dual Camera のアイコンをタップし、レイアウトを試してからSnapを撮ります。対象はiPhone XS、XS Max、XR以降で、Android版はヘルプセンターで「近日」対応予定とされています。</p>
+      <p>撮れるのは、両方のカメラが入った1枚の画像です。サッとストーリーに載せるには向いています。ただし、あとで編集したいものには向きません。自撮りのウィンドウが画素の一部になっているので、動かすことも、サイズを変えることも、取り除くこともできないからです。</p>
+
+      <h2>Instagramでインカメラと外カメラの写真を同時に撮れる？</h2>
+      <p>InstagramのDualは録画の機能です。Metaは2022年7月21日のリール機能のアップデートでこれを発表し、Instagramのカメラで「スマホの前面と背面のカメラを使って同時に録画する」方法として紹介しました。回避策は同じで、Dualで短いクリップを録画し、いちばん良い瞬間で一時停止してスクリーンショットを撮ります。</p>
+
+      <h2>自撮りと外カメラの写真を、別々の2つのファイルで保存するには？</h2>
+      <p>それぞれのカメラを別々のファイルに書き出すカメラアプリを使います。ContentCamでは、前後カメラ（Front/Back）モードの中の写真モードがこれにあたり、iPhoneとAndroidの両方で使えます。</p>
+      <ol>
+        <li>ContentCamを開き、撮影モードを<strong>前後カメラ（Front/Back）</strong>に切り替えます。</li>
+        <li>背面カメラを縦で撮るか横で撮るかを選びます。インカメラは常に縦です。</li>
+        <li>背面カメラの構図を決めて、<strong>録画ボタンの隣にあるシャッターボタン</strong>を押します。</li>
+        <li>1回押すだけで両方のカメラが同時に撮影され、背面カメラの写真とインカメラの写真の2枚が保存されます。</li>
+      </ol>
+      <p>2枚の写真は別々なので、レイアウトは撮ったあとで自由に決められます。自撮りを好きな隅に置く、2枚を左右に並べる、上下に重ねる、カルーセル投稿の2枚として載せる、どれでも可能です。背面の写真には顔が一切かぶらないので、それだけで1枚の写真として使えます。これは合成された画像では絶対に得られません。</p>
+
+      <figure>
+        <img src="/assets/blog/take-photo-front-and-back-camera-same-time/front-and-back-two-files.webp" alt="前後カメラ（Front/Back）の1回のテイクから得られた別々の2つのフレーム。背面カメラで撮ったターコイズ色の湖と、インカメラで撮った笑顔の自撮り" width="1000" height="857" loading="lazy" decoding="async">
+        <figcaption>山の湖のほとりで撮った、前後カメラ（Front/Back）の1回のテイクから得られた別々の2つのファイル。これは動画のテイクですが、写真モードでも同じ組み合わせが2枚の写真として保存されます。</figcaption>
+      </figure>
+      <p>正直にお伝えしておきたい制限が2つあります。ひとつは、写真モードがContentCamのPremium機能で、無料で撮れる写真はないこと。ただし、アプリ自体と縦横同時の動画録画は無料です。もうひとつは、スマホが2つのカメラの同時動作に対応している必要があることで、これが次の質問です。</p>
+
+      <h2>なぜ自分のスマホでは、インカメラと外カメラの写真を同時に撮れない？</h2>
+      <p>スマホのハードウェアが前面と背面のカメラを同時に動かせて、さらにそのことをアプリに伝えられる必要があります。iPhoneでは、iOS 13から<code>AVCaptureMultiCamSession</code>を通じてアプリが複数のカメラを動かせるようになり、アプリは<code>isMultiCamSupported</code>でそのiPhoneが対応しているかを確認します。Android 11（APIレベル30）以降では、アプリが<code>getConcurrentCameraIds()</code>を呼び出し、スマホが同時に動かせるカメラの組み合わせを受け取ります。前面と背面の組み合わせが報告されない端末では、どれほど優れたアプリでも、公式の方法で両方のカメラを撮影することはできません。</p>
+      <p>同じくらい高性能に見えるのに、インカメラと外カメラの写真がこのスマホでは撮れて、あのスマホでは撮れない。その理由はここにあります。</p>
+
+      <h2>どの方法を選べばいい？</h2>
+      <ul>
+        <li><strong>ストーリーや友だちに送る写真をサッと撮りたい：</strong>SnapchatのDual Camera。無料で、ワンタップで、完成した画像が1枚できます。</li>
+        <li><strong>iPhone 17、iPhone Air、iPhone 18 Pro、iPhone Duoを持っていて、Snapchatは使っていない：</strong>Dual Captureで短い動画を撮り、いちばん良いフレームをスクリーンショット。</li>
+        <li><strong>カルーセル投稿、サムネイル、あとで編集するもの：</strong>別々の2枚の写真。背面の写真はきれいなまま残り、自撮りは好きな場所に置けます。</li>
+      </ul>
+
+      <h2>インカメラと外カメラの写真をきれいに撮るコツは？</h2>
+      <ul>
+        <li><strong>まず顔を明るく。</strong>インカメラはメインの背面カメラよりセンサーが小さく、暗い部屋ではノイズが出やすくなります。窓やライトのほうを向きましょう。</li>
+        <li><strong>一瞬だけ手を止める。</strong>1回のシャッターで両方のカメラが撮影するので、手が動くと2枚とも同時にブレます。</li>
+        <li><strong>自撮りを置く場所を空けておく。</strong>2枚の写真を合成するつもりなら、隅のひとつに大事なものが写らないように背面の構図を決めます。</li>
+        <li><strong>明るさの差に気をつける。</strong>背面の写真の明るい空と、自撮りの日陰の顔は、合成された1枚の画像では両方ともきれいに写ることはありません。別々の2つのファイルなら、空には手を加えずに自撮りだけを明るくできます。</li>
+      </ul>
+
+      <h2>よくある質問</h2>
+      <h3>iPhoneの標準カメラで、インカメラと外カメラの写真を同時に撮れますか？</h3>
+      <p>直接は撮れません。Dual Captureは、iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max、iPhone Duoの「ビデオ」モードの機能です。数秒だけ録画し、いちばん良い瞬間で一時停止してスクリーンショットを撮ってください。</p>
+      <h3>自撮りと外カメラの写真を同時に撮る、いちばん簡単な無料の方法は？</h3>
+      <p>SnapchatのDual Cameraです。レイアウトを選んでSnapを撮れば、両方のカメラが入った1枚の画像になります。</p>
+      <h3>自撮りと外カメラの写真を、別々の2つのファイルで保存できますか？</h3>
+      <p>はい。それぞれのカメラを別々のファイルに書き出すカメラアプリなら可能です。ContentCamの写真モードは、iPhoneとAndroidの前後カメラ（Front/Back）モードでこれができます。写真モードはPremiumの機能です。</p>
+      <h3>なぜ自分のスマホでは、インカメラと外カメラの写真を同時に撮れないのですか？</h3>
+      <p>ハードウェアが2つのカメラを同時に動かせて、そのことをアプリに伝えられる必要があります。iPhoneでは <code>isMultiCamSupported</code>、Android 11以降では <code>getConcurrentCameraIds()</code> を通じて伝えます。それができない端末では、公式の方法でこれを実現できるアプリはありません。</p>
+
+      <h3>ContentCamでインカメラと外カメラの写真を撮れるのはどの機種ですか？</h3>
+      <p>iPhoneは、ContentCamが動作するすべての機種です。必要なのはiOS 18以降なので、iPhone XS、iPhone XS Max、iPhone XR、iPhone 16eを含むiPhone 11からiPhone 16までの全モデル、iPhone SE（第2世代・第3世代）、そしてiPhone 17、iPhone Air、iPhone 18 Pro、iPhone Duoが対象です。Androidは、前面と背面のカメラを同時に動かせるハードウェアを持つ端末です。これはAndroid 11以降でアプリに報告され、ContentCamがお使いのスマホで確認します。</p>
+
+      <div class="post-cta">
+        <p><strong>ContentCamを無料で試す</strong>。インカメラと外カメラを1回のシャッターで別々のファイルに。さらに1回の撮影で縦と横の動画も。iPhoneとAndroidで無料でダウンロードできます。</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ja-b-front-back-photo&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="App Storeからダウンロード" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dja-front-back-photo"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Google Playで手に入れよう" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>関連記事：<a href="/ja/blog/dual-camera-effect/">インカメラと外カメラを同時に使う方法の完全ガイド</a> · <a href="/ja/blog/record-front-and-back-camera-same-time-iphone/">iPhoneでインカメラと外カメラを同時に録画する方法</a> · <a href="/ja/blog/record-front-and-back-camera-same-time-android/">Androidでインカメラと外カメラを同時に録画する方法</a> · <a href="/ja/blog/iphone-17-dual-capture-limitations/">Dual Captureに対応しているiPhone</a> · <a href="/blog/snapchat-front-and-back-camera/">Snapchatでインカメラと外カメラを使ってSnapを撮る方法</a> · <a href="/blog/bereal-style-photo-without-bereal/">BeRealを使わずにBeReal風の写真を撮る方法</a></p>
+      <p class="byline">出典：Apple「iPhoneのカメラでビデオを撮影する」「Dual Captureビデオに対応しているモデル」（iPhoneユーザガイド、support.apple.com）、Apple Developer「AVCaptureMultiCamSession」、Snapchatサポート「What is Dual Camera on Snapchat」「Who is Dual Camera available for」（help.snapchat.com）、Meta「New Ways to Create Instagram Reels」（about.fb.com、2022年7月）、Android Developers「CameraManager.getConcurrentCameraIds()」。Appleのページは2026年9月28日、Snapchatのページは2026年10月16日に確認。</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/features/teleprompter/">テレプロンプター</a>
+        <a href="/ja/features/dual-camera/">デュアルカメラ</a>
+        <a href="/ja/features/manual-controls/">手動コントロール</a>
+        <a href="/ja/android/">Android</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+        <a href="/press/">プレス</a>
+        <a href="/privacy.html">プライバシー</a>
+        <a href="/terms.html">利用規約</a>
+      </div>
+      <div class="fine">ContentCamは、オーストラリアで1人の開発者がつくった独立系のカメラアプリです。© 2026 ContentCam. Apple、Appleロゴ、iPhone、App Storeは、Apple Inc.の商標です。Google PlayおよびGoogle Playロゴは、Google LLCの商標です。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/take-photo-front-and-back-camera-same-time/" hreflang="en" lang="en">English</a> · <a href="/de/blog/take-photo-front-and-back-camera-same-time/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/take-photo-front-and-back-camera-same-time/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/take-photo-front-and-back-camera-same-time/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/take-photo-front-and-back-camera-same-time/" hreflang="it" lang="it">Italiano</a> · <strong>日本語</strong> · <a href="/pt-br/blog/take-photo-front-and-back-camera-same-time/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/take-photo-front-and-back-camera-same-time/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>
