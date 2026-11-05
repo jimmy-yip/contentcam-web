@@ -81,8 +81,6 @@ def main(check=False):
             sw = "\n      <!-- @langs -->\n      <div class=\"langs\" style=\"margin-top:12px;font-size:14px\">" + " · ".join(
                 (f'<strong>{n}</strong>' if dd == d else f'<a href="/{(dd + "/") if dd else ""}{r[:-len("index.html")] if r.endswith("index.html") else r.replace(".html", "")}" hreflang="{c}" lang="{c}">{n}</a>')
                 for c, n, r, dd in versions) + "</div>\n      <!-- /@langs -->"
-            if "</footer>" in html:
-                html = put_block(html, "langs", sw, r"\s*</div>\s*</footer>")
             if d:
                 def loc(m):
                     href = m.group(2)
@@ -97,6 +95,8 @@ def main(check=False):
                 html = re.sub(r"utm_campaign%3D(?!" + re.escape(d) + r"-)", f"utm_campaign%3D{d}-", html)
                 man[f"{d}/{rel}"] = sha(os.path.join(ROOT, rel))
                 sm_urls.append(url_for(d + "/" + rel))
+            if "</footer>" in html:
+                html = put_block(html, "langs", sw, r"\s*</div>\s*</footer>")
             open(path, "w", encoding="utf-8").write(html)
     sm_path = os.path.join(ROOT, "sitemap.xml")
     sm = open(sm_path, encoding="utf-8").read()
