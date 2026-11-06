@@ -65,7 +65,7 @@
           {
             "@type": "Question",
             "name": "Existe-t-il une app Android pour filmer en horizontal et en vertical simultanément ?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Oui. ContentCam pour Android filme un fichier vertical 9:16 et un fichier horizontal 16:9 en une seule prise, avec la caméra arrière comme avec la caméra avant, en 1080p dans la version gratuite." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Oui. ContentCam pour Android filme un fichier vertical 9:16 et un fichier horizontal 16:9 en une seule prise, avec la caméra arrière comme avec la caméra avant, en 1080p dans la version gratuite, sans publicité ni filigrane." }
           },
           {
             "@type": "Question",
@@ -75,7 +75,7 @@
           {
             "@type": "Question",
             "name": "Peut-on filmer avec la caméra avant et la caméra arrière en même temps sur Android pour des vidéos de réaction ?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Oui. Le mode Avant et arrière (Front/Back) de ContentCam filme avec la caméra avant et la caméra arrière en une seule prise sur Android, ce qui suffit pour des vidéos de réaction sans second téléphone. C'est une fonction Premium, avec 5 enregistrements gratuits pour l'essayer." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Oui. Le mode Avant et arrière (Front/Back) de ContentCam filme avec la caméra avant et la caméra arrière en une seule prise, sur les téléphones Android dont les caméras peuvent fonctionner ensemble, en deux fichiers HD séparés jusqu'à 30 fps. L'outil Combiner peut ensuite les réunir en une seule vidéo, en image dans l'image ou en écran partagé. C'est une fonction Premium, avec 5 enregistrements gratuits pour l'essayer." }
           },
           {
             "@type": "Question",
@@ -124,34 +124,32 @@
       <h1>Comment filmer en vertical et en horizontal en même temps sur Android (2026)</h1>
       <p class="byline">Par Jimmy, développeur de ContentCam · 30 septembre 2026 · Mis à jour le 5 novembre 2026</p>
 
-      <p><strong>La réponse courte :</strong> l'app photo installée sur votre téléphone Android ne sait pas le faire. L'app Appareil photo de Samsung et Pixel Camera filment dans un seul format par prise. Pour obtenir un fichier vertical 9:16 et un fichier horizontal 16:9 à partir de la même prise, il faut soit recadrer l'un dans l'autre après coup, soit filmer en 4K pour que le recadrage ait des pixels en réserve, soit utiliser une app qui filme les deux fichiers à la fois à partir de tout le capteur, comme ContentCam, qui le fait gratuitement en 1080p sur Android et sur iPhone.</p>
-      <p>Je développe ContentCam, alors retenez surtout les calculs ci-dessous. Ils restent les mêmes quel que soit l'outil choisi.</p>
+      <p><strong>La réponse courte :</strong> utilisez une app qui filme les deux fichiers à la fois à partir de tout le capteur. ContentCam le fait sur Android et sur iPhone : une seule prise enregistre un fichier vertical 9:16 et un fichier horizontal 16:9, gratuitement en 1080p, sans publicité, sans filigrane et sans compte. L'app photo installée sur votre téléphone ne sait pas le faire, car l'app Appareil photo de Samsung et Pixel Camera filment dans un seul format par prise. Les solutions gratuites, recadrer après coup ou filmer en 4K puis recadrer, perdent toutes les deux la majeure partie de la scène.</p>
+      <p>Je développe ContentCam, alors vérifiez vous-même les calculs ci-dessous. Ils restent les mêmes quel que soit l'outil choisi.</p>
 
       <h2>L'appareil photo d'origine d'Android peut-il filmer en vertical et en horizontal en même temps ?</h2>
-      <p>Non. Les apps photo d'origine d'Android filment dans un seul format par prise : celui que vous avez choisi, ou celui dans lequel vous tenez le téléphone.</p>
+      <p>Non. Les apps photo d'origine d'Android filment dans un seul format par prise.</p>
       <ul>
-        <li><strong>Appareil photo Samsung</strong> propose un réglage de format, et la page d'assistance de Samsung cite 9:16, 1:1 et Plein écran parmi les options, en précisant que les formats disponibles peuvent varier selon les caractéristiques de la caméra de votre téléphone. Vous en choisissez un. Le téléphone en filme un.</li>
-        <li><strong>Pixel Camera</strong> : la page d'aide de Google pour l'app Pixel Camera décrit des choix de format pour les photos (recadrage large 16:9 et image complète 4:3). Elle ne décrit aucun choix de format pour la vidéo. Une vidéo Pixel est horizontale ou verticale selon la façon dont vous tenez le téléphone.</li>
+        <li><strong>Appareil photo Samsung</strong> propose un réglage de format ; la page d'assistance de Samsung cite 1:1, 3:4, 9:16 et Plein écran, en précisant que les formats disponibles peuvent varier selon les caractéristiques de la caméra de votre téléphone. Vous en choisissez un. Le téléphone en filme un.</li>
+        <li><strong>Pixel Camera</strong> : l'aide Pixel Camera de Google ne décrit des formats que pour les photos (recadrage large 16:9, image complète 4:3), aucun pour la vidéo. Une vidéo Pixel est horizontale ou verticale selon la façon dont vous tenez le téléphone.</li>
         <li><strong>Google Photos</strong> peut recadrer une vidéo terminée dans un autre format après coup. C'est l'option 1 ci-dessous, avec le même coût.</li>
       </ul>
-      <p>Ni les pages d'assistance de Samsung ni celles de Google ne décrivent un mode qui enregistre un fichier vertical et un fichier horizontal à partir d'une seule prise.</p>
 
       <h2>Option 1 : combien perd-on en recadrant une vidéo horizontale en vertical ?</h2>
-      <p>Vous gardez 31,6 % de la largeur et vous jetez 68,4 % de la scène. Voici le calcul pour une vidéo horizontale standard en 1080p :</p>
+      <p>Vous gardez 31,6 % de la largeur et vous jetez 68,4 % de la scène. Pour une vidéo horizontale en 1080p :</p>
       <ul>
         <li>L'image horizontale fait 1920×1080.</li>
         <li>Un recadrage 9:16 sur toute la hauteur fait 1080 × 9 ÷ 16 = <strong>607,5 pixels de large</strong>.</li>
         <li>607,5 ÷ 1920 = <strong>0,316</strong>, il reste donc 31,6 % de la largeur.</li>
       </ul>
-      <p>Ensuite, cette bande de 607×1080 est agrandie en 1080×1920 pour TikTok, Reels ou Shorts. Cela fait 1,78 fois sur chaque axe, et c'est pour ça que les vidéos verticales recadrées paraissent floues. Dans l'autre sens, c'est pire : un recadrage 16:9 d'une vidéo verticale 1080×1920 donne une bande de 1080×607 étirée en 1920×1080, tirée d'une tranche qui n'a jamais vu la pièce qu'à travers un cadre en forme de téléphone.</p>
-      <p>Recadrez au montage quand la personne remplit le centre de l'image et que le second format est un bonus. Évitez cette méthode pour le voyage, le sport, les plans produit, ou toute scène où l'arrière-plan compte.</p>
+      <p>Cette bande de 607×1080 est ensuite agrandie 1,78 fois en 1080×1920 pour TikTok, Reels ou Shorts, et c'est pour ça que les vidéos verticales recadrées paraissent floues. Évitez le recadrage pour le voyage, le sport, les plans produit, ou toute scène où l'arrière-plan compte.</p>
 
       <h2>Option 2 : peut-on filmer en 4K à l'horizontale puis recadrer en vertical ?</h2>
-      <p>Oui, et sur un téléphone qui filme en 4K, c'est la meilleure solution gratuite. Un recadrage 9:16 dans une image 3840×2160 fait 2160 × 9 ÷ 16 = <strong>1215×2160 pixels</strong>, soit plus que les 1080×1920 qu'affiche une plateforme verticale. Le problème de résolution de l'option 1 disparaît.</p>
-      <p>Le problème de cadrage, lui, reste. La vidéo verticale ne représente toujours que 31,6 % de la largeur du plan horizontal : le sujet doit donc rester pile au centre pendant toute la prise, et tout ce que vous avez composé pour le plan large (une ligne d'horizon, une deuxième personne, un produit sur l'établi) se retrouve hors du cadre vertical. Vous montez aussi chaque vidéo deux fois, et la 4K contient quatre fois plus de pixels que le 1080p, donc les fichiers remplissent votre téléphone bien plus vite.</p>
+      <p>Oui, et c'est la meilleure solution gratuite. Un recadrage 9:16 dans une image 3840×2160 fait 2160 × 9 ÷ 16 = <strong>1215×2160 pixels</strong>, soit plus que les 1080×1920 qu'affiche une plateforme verticale. Le problème de résolution de l'option 1 disparaît.</p>
+      <p>Le problème de cadrage, lui, reste : la vidéo verticale ne représente toujours que 31,6 % de la largeur du plan horizontal, donc le sujet doit rester pile au centre, et tout ce qui est composé pour le plan large (une ligne d'horizon, une deuxième personne) se retrouve hors du cadre. Vous montez aussi chaque vidéo deux fois, et les fichiers 4K contiennent quatre fois plus de pixels que le 1080p.</p>
 
       <h2>Option 3 : comment filmer les deux formats en même temps sur Android ?</h2>
-      <p>Filmez toute l'image 4:3 du capteur et découpez les deux formats dedans pendant la capture. Le capteur d'un téléphone est en 4:3, donc plus large qu'une image 9:16 et plus haut qu'une image 16:9. Prenons à titre d'exemple une image de capteur de 4000×3000 :</p>
+      <p>Filmez toute l'image 4:3 du capteur, plus large que le 9:16 et plus haute que le 16:9, et découpez-y les deux formats pendant la capture. Sur un capteur de 4000×3000, à titre d'exemple :</p>
       <div class="table-scroll">
         <table>
           <thead><tr><th>Méthode</th><th>Tranche verticale d'un capteur 4000×3000</th><th>Part de la surface du capteur</th></tr></thead>
@@ -162,25 +160,27 @@
         </table>
       </div>
       <p>La vidéo verticale tirée de toute l'image voit 1,78 fois plus de la scène, et la vidéo horizontale 16:9 garde toute la largeur du capteur (4000×2250). Aucun des deux fichiers n'est un recadrage de l'autre.</p>
-      <p>C'est ainsi que fonctionne <a href="/fr/android/">ContentCam pour Android</a>. Une seule prise enregistre un fichier 9:16 et un fichier 16:9, avec la caméra arrière comme avec la caméra avant. Sur les téléphones qui donnent accès à un objectif ultra grand-angle, une option 0,5x offre un champ plus large aux deux recadrages. Si vous tenez le téléphone à l'horizontale, les deux fichiers sont marqués avec la bonne orientation pour s'afficher droits dans CapCut ou Premiere. La version gratuite filme en 1080p à 30 fps sans filigrane ; <a href="/fr/pricing/">Premium</a> ajoute la 4K et le 60 fps quand le matériel du téléphone les prend en charge.</p>
-      <p>La limite, en toute franchise : le mode Double objectif (Dual Lens), qui filme avec le grand-angle et l'ultra grand-angle au même moment pour obtenir deux cadrages différents, est pour l'instant réservé à l'iPhone. La page de l'app Android l'indique elle-même comme pas encore disponible.</p>
+      <p>C'est ainsi que fonctionne <a href="/fr/android/">ContentCam pour Android</a>. Une seule prise enregistre un fichier 9:16 et un fichier 16:9, avec la caméra arrière comme avec la caméra avant. Sur les téléphones qui donnent accès à un objectif ultra grand-angle, une option 0,5x offre un champ plus large aux deux recadrages. Si vous tenez le téléphone à l'horizontale, les deux fichiers sont marqués avec la bonne orientation pour s'afficher droits dans CapCut ou Premiere. La version gratuite filme des prises illimitées dans les deux formats en 1080p et jusqu'à 30 fps, sans publicité ni filigrane ; <a href="/fr/pricing/">Premium</a> ajoute la 4K et le 60 fps quand le matériel du téléphone les prend en charge.</p>
+      <p>Par rapport aux options 1 et 2, rien n'est recadré après coup, vous cadrez chaque prise une seule fois, et vous ne montez pas chaque vidéo deux fois.</p>
+      <p>Une limite : le mode Double objectif (Dual Lens), qui filme avec le grand-angle et l'ultra grand-angle au même moment, est pour l'instant réservé à l'iPhone.</p>
 
       <h2>Quelle option choisir sur Android ?</h2>
       <table>
         <thead><tr><th>Votre situation</th><th>Meilleure option</th></tr></thead>
         <tbody>
-          <tr><td>Face caméra, le visage remplit l'image, l'horizontal est un bonus</td><td>Recadrer au montage (option 1)</td></tr>
-          <tr><td>Le téléphone filme en 4K, le sujet reste centré, monter deux fois ne vous dérange pas</td><td>Filmer en 4K et recadrer (option 2)</td></tr>
-          <tr><td>Les deux versions doivent avoir l'air cadrées exprès</td><td>Filmer les deux à la fois (option 3)</td></tr>
+          <tr><td>Vous publiez régulièrement dans les deux formats et voulez que chacun ait l'air cadré exprès</td><td>Filmer les deux à la fois (option 3, recommandée)</td></tr>
+          <tr><td>Voyage, sport ou plans produit où l'arrière-plan compte</td><td>Filmer les deux à la fois (option 3)</td></tr>
           <tr><td>Caméra selfie</td><td>Filmer les deux à la fois, ça marche avec la caméra avant</td></tr>
+          <tr><td>Le téléphone filme en 4K, le sujet reste centré, monter deux fois ne vous dérange pas</td><td>Filmer en 4K et recadrer (option 2)</td></tr>
+          <tr><td>Face caméra, le visage remplit l'image, l'horizontal est un bonus ponctuel</td><td>Recadrer au montage (option 1)</td></tr>
         </tbody>
       </table>
 
       <h2>Questions fréquentes</h2>
       <p><strong>Un téléphone Android peut-il filmer en vertical et en horizontal en même temps ?</strong> Pas avec les apps photo d'origine. L'app Appareil photo de Samsung et Pixel Camera filment dans un seul format par prise. Une app tierce qui filme à partir de toute l'image 4:3 du capteur peut enregistrer un fichier vertical 9:16 et un fichier horizontal 16:9 à partir de la même prise.</p>
-      <p><strong>Existe-t-il une app Android pour filmer en horizontal et en vertical simultanément ?</strong> Oui. ContentCam pour Android filme un fichier vertical 9:16 et un fichier horizontal 16:9 en une seule prise, avec la caméra arrière comme avec la caméra avant, en 1080p dans la version gratuite.</p>
+      <p><strong>Existe-t-il une app Android pour filmer en horizontal et en vertical simultanément ?</strong> Oui. ContentCam pour Android filme un fichier vertical 9:16 et un fichier horizontal 16:9 en une seule prise, avec la caméra arrière comme avec la caméra avant, en 1080p dans la version gratuite, sans publicité ni filigrane.</p>
       <p><strong>Quelle part de l'image perd-on en recadrant une vidéo 16:9 en 9:16 ?</strong> Environ 68 %. Un recadrage 9:16 sur toute la hauteur d'une image 1920x1080 fait 607,5 pixels de large, soit 31,6 % des 1920 pixels de largeur. Les 68,4 % restants de la scène sont perdus.</p>
-      <p><strong>Peut-on filmer avec la caméra avant et la caméra arrière en même temps sur Android pour des vidéos de réaction ?</strong> Oui. Le mode Avant et arrière (Front/Back) de ContentCam filme avec la caméra avant et la caméra arrière en une seule prise sur Android, ce qui suffit pour des vidéos de réaction sans second téléphone. C'est une fonction Premium, avec 5 enregistrements gratuits pour l'essayer.</p>
+      <p><strong>Peut-on filmer avec la caméra avant et la caméra arrière en même temps sur Android pour des vidéos de réaction ?</strong> Oui. Le mode Avant et arrière (Front/Back) de ContentCam filme avec la caméra avant et la caméra arrière en une seule prise, sur les téléphones Android dont les caméras peuvent fonctionner ensemble, en deux fichiers HD séparés jusqu'à 30 fps. L'outil Combiner peut ensuite les réunir en une seule vidéo, en image dans l'image ou en écran partagé. C'est une fonction Premium, avec 5 enregistrements gratuits pour l'essayer.</p>
       <p><strong>Filmer en 4K sur Android permet-il de recadrer une vidéo verticale dans une vidéo horizontale ?</strong> Oui, avec assez de résolution en réserve. Un recadrage 9:16 dans une image 3840x2160 fait 1215x2160 pixels, soit plus que ce qu'exige une vidéo verticale 1080x1920. Le cadrage reste une fine tranche du plan horizontal : le sujet doit donc être centré au moment du tournage.</p>
 
       <div class="post-cta">
@@ -191,7 +191,7 @@
         </div>
       </div>
 
-      <p>Les informations sur les apps photo d'origine proviennent de la <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">page d'assistance de Samsung sur le format de l'appareil photo</a>, de l'<a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">aide Pixel Camera</a> et de l'<a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">aide Google Photos</a>, consultées le 4 octobre 2026. À lire aussi : <a href="/blog/how-to-record-landscape-video-on-android/">comment filmer en horizontal sur Android</a> · <a href="/fr/blog/record-portrait-and-landscape-video-same-time-iphone/">la version iPhone de ce guide</a> · <a href="/blog/android-camera-settings-for-video/">les meilleurs réglages vidéo de l'appareil photo Android</a> · <a href="/blog/vertical-vs-horizontal-video/">vidéo verticale ou horizontale</a></p>
+      <p>Les informations sur les apps photo d'origine proviennent de la <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">page d'assistance de Samsung sur le format de l'appareil photo</a>, de l'<a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">aide Pixel Camera</a> et de l'<a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">aide Google Photos</a>, vérifiées le 5 novembre 2026. À lire aussi : <a href="/blog/how-to-record-landscape-video-on-android/">comment filmer en horizontal sur Android</a> · <a href="/fr/blog/record-portrait-and-landscape-video-same-time-iphone/">la version iPhone de ce guide</a> · <a href="/blog/android-camera-settings-for-video/">les meilleurs réglages vidéo de l'appareil photo Android</a> · <a href="/blog/vertical-vs-horizontal-video/">vidéo verticale ou horizontale</a></p>
     </article>
   </main>
 

@@ -96,8 +96,8 @@
       <p class="byline">Por Jimmy, desenvolvedor do ContentCam · 25 de julho de 2026 · Atualizado em 5 de novembro de 2026</p>
 
       <p>Para gravar vídeo na vertical e na horizontal ao mesmo tempo no iPhone, use um app de câmera que salve um arquivo vertical 9:16 e um arquivo horizontal 16:9 do mesmo take, porque o app Câmera do iPhone grava um formato só por take. O ContentCam, que eu desenvolvo, faz isso de graça em 1080p e até 30fps no iPhone e no Android, tirando os dois arquivos do sensor 4:3 inteiro, então nenhum é um recorte do outro; o Premium adiciona 4K e 60fps. Sem um app assim, ou você grava tudo duas vezes, ou grava na horizontal em 4K e recorta o vertical depois, o que aproveita só cerca de 32% da imagem.</p>
-      <p>Todo criador que publica em mais de uma plataforma esbarra no mesmo problema: TikTok, Reels e Shorts pedem vídeo vertical 9:16. O YouTube pede horizontal 16:9. O mesmo conteúdo, em formatos incompatíveis. Você acaba gravando tudo duas vezes, ou grava uma vez e estraga a segunda versão no editor.</p>
-      <p>Existem três formas de verdade de tirar os dois formatos de uma só gravação. Eu desenvolvo um app de câmera, então já aviso que o meu app faz duas delas, mas os prós e contras abaixo valem para qualquer ferramenta que você usar.</p>
+      <p>TikTok, Reels e Shorts pedem vídeo vertical 9:16. O YouTube pede horizontal 16:9. O mesmo conteúdo, em formatos incompatíveis, então a maioria dos criadores grava tudo duas vezes ou estraga a segunda versão no editor.</p>
+      <p>Existem três formas de verdade de tirar os dois formatos de uma só gravação. Eu desenvolvo o ContentCam, então leia isto sabendo disso: ele faz as opções 2 e 3 abaixo, as duas que gravam os dois arquivos na captura. A opção 1 só precisa de um editor, e a matemática mostra o quanto ela custa.</p>
 
       <figure>
         <video src="/assets/blog/record-portrait-and-landscape-video-same-time-iphone/one-take-walk-both-formats.mp4" poster="/assets/blog/record-portrait-and-landscape-video-same-time-iphone/one-take-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="Um homem caminhando de costas para a câmera por um túnel de galhos cobertos de musgo, exibido como um arquivo vertical 9:16 e um arquivo horizontal 16:9 lado a lado"></video>
@@ -106,9 +106,8 @@
 
       <h2>Opção 1: gravar na vertical e recortar a horizontal na edição</h2>
       <p>O fluxo padrão. Grave na vertical, jogue o clipe no CapCut ou no Premiere, crie uma sequência 16:9 e aumente a escala do clipe vertical até ele preencher o quadro.</p>
-      <p>Aí entra o problema da matemática. Um clipe vertical de 1080×1920 recortado para 16:9 vira uma faixa de 1080×607, que depois é esticada para 1920×1080. Você está ampliando em cerca de três vezes a área em pixels, a partir de uma fatia que só continha a visão da cena no formato do celular. O resultado fica sem nitidez, e o enquadramento é o que sobrou do corte: normalmente um rosto ocupando o quadro inteiro, sem respiro ao redor.</p>
-      <p>Quando funciona: clipes de talking head em que a pessoa já preenche o quadro e a versão horizontal é um bônus, não algo que você precisa entregar.</p>
-      <p>Quando atrapalha: qualquer coisa em que o plano aberto importa. Viagem, vlog, esporte, vídeos de produto, tudo que tenha um fundo escolhido de propósito.</p>
+      <p>Aí entra o problema da matemática. Um clipe vertical de 1080×1920 recortado para 16:9 vira uma faixa de 1080×607, esticada para 1920×1080: cerca de três vezes a área em pixels, ampliada. O resultado fica sem nitidez, e o enquadramento é o que sobrou do corte, normalmente um rosto sem respiro ao redor.</p>
+      <p>Funciona bem para talking head, quando a versão horizontal é um bônus. Atrapalha sempre que o plano aberto importa: viagem, vlog, esporte, vídeos de produto.</p>
 
       <h2>Opção 2: gravar o sensor inteiro e recortar os dois formatos na captura</h2>
       <p>O sensor da câmera do iPhone não é vertical nem horizontal. Ele é 4:3: mais largo que um quadro 9:16 e mais alto que um quadro 16:9. Os apps de câmera comuns jogam parte dele fora no momento em que você escolhe uma orientação.</p>
@@ -124,8 +123,8 @@
       </figure>
 
       <h2>Opção 3: gravar com duas câmeras ao mesmo tempo</h2>
-      <p>O iPhone 11 e os modelos mais novos conseguem usar duas câmeras traseiras ao mesmo tempo. O modo Lente dupla do ContentCam aproveita isso: a lente grande-angular grava o vertical enquanto a ultra-angular grava o horizontal, no mesmo instante.</p>
-      <p>A diferença em relação à opção 2 é o enquadramento. Na captura do sensor inteiro, os dois arquivos mostram a mesma cena em larguras diferentes. Com duas lentes, o vertical pode ser um plano fechado enquanto o horizontal é um plano geral aberto de verdade. Para quem fala para a câmera em um lugar interessante, são dois planos diferentes em um único take.</p>
+      <p>Um iPhone 11 ou mais novo com câmera ultra-angular (ou seja, não o iPhone SE nem o iPhone 16e) consegue usar duas câmeras traseiras ao mesmo tempo. O modo Lente dupla do ContentCam aproveita isso: a lente grande-angular grava o vertical enquanto a ultra-angular grava o horizontal, no mesmo instante.</p>
+      <p>A diferença em relação à opção 2 é o enquadramento. Com duas lentes, o vertical pode ser um plano fechado enquanto o horizontal é um plano geral aberto de verdade: dois planos diferentes em um único take.</p>
 
       <figure>
         <div class="shot-pair">
@@ -134,23 +133,24 @@
         </div>
         <figcaption>Modo Lente dupla: a imagem ao vivo durante a gravação (à esquerda) e depois a tela de revisão (à direita). O vertical fica fechado na caminhada, enquanto o horizontal mostra o túnel inteiro.</figcaption>
       </figure>
-      <p>Os limites, sendo sincero: ele grava em 1080p (a Apple limita a captura simultânea com duas câmeras a 1920x1440 em todos os iPhones atuais), e usar duas câmeras gasta mais bateria. O próprio app Câmera da Apple passa desse limite com a <a href="/pt-br/blog/iphone-17-dual-capture-limitations/">Captura Dupla do iPhone</a>, em 4K30, mas só com a câmera frontal e a traseira juntas e só em um único quadro picture-in-picture.</p>
+      <p>Os limites: ele grava em 1080p (a Apple limita a captura simultânea com duas câmeras por apps de terceiros a 1920×1440 em todos os iPhones atuais), e usar duas câmeras gasta mais bateria. O próprio app Câmera da Apple tem a <a href="/pt-br/blog/iphone-17-dual-capture-limitations/">Captura Dupla do iPhone</a> em até 4K30, mas ela junta a câmera frontal e a traseira, não dois enquadramentos traseiros, e salva um único vídeo picture-in-picture. Ela não entrega nenhum par 9:16 e 16:9.</p>
 
       <h2>Como gravar vídeo na horizontal no iPhone?</h2>
-      <p>Vire o celular de lado e o app Câmera grava em 16:9 na horizontal. Para um formato só, a resposta é essa, e é por isso que a pergunta costuma vir com outra junto: o que fazer quando você também precisa da versão vertical. Girar o celular dá um formato ou o outro, e recortar um vertical dessa gravação horizontal depois aproveita só cerca de 32% da largura. O passo a passo para um formato só, o Bloqueio de Orientação Retrato e como corrigir um clipe gravado do jeito errado estão em <a href="/blog/how-to-record-landscape-video-on-iphone/">como gravar vídeo na horizontal no iPhone</a>.</p>
-      <p>Se você precisa dos dois, grave o sensor inteiro uma vez e tire os dois enquadramentos dele na captura, que é a Opção 2 acima. O arquivo horizontal continua sendo uma gravação 16:9 de verdade, e não um recorte, e o vertical mantém a altura inteira.</p>
+      <p>Vire o celular de lado e o app Câmera grava em 16:9 na horizontal. Isso resolve um formato. Girar o celular dá um formato ou o outro, e recortar um vertical dessa gravação horizontal depois aproveita só cerca de 32% da largura. O Bloqueio de Orientação Retrato e como corrigir um clipe gravado do jeito errado estão em <a href="/blog/how-to-record-landscape-video-on-iphone/">como gravar vídeo na horizontal no iPhone</a>.</p>
+      <p>Se você precisa dos dois, grave o sensor inteiro uma vez no ContentCam e tire os dois enquadramentos dele na captura (Opção 2 acima). O arquivo horizontal continua sendo uma gravação 16:9 de verdade, e o vertical mantém a altura inteira.</p>
 
       <h2>Qual opção usar?</h2>
       <table>
         <thead><tr><th>Sua situação</th><th>Melhor opção</th></tr></thead>
         <tbody>
           <tr><td>Talking head, rosto preenchendo o quadro, horizontal é secundário</td><td>Recortar na edição resolve</td></tr>
-          <tr><td>As duas versões precisam parecer intencionais</td><td>Captura do sensor inteiro (opção 2)</td></tr>
-          <tr><td>Você quer um enquadramento diferente para cada plataforma</td><td>Lente dupla (opção 3)</td></tr>
-          <tr><td>Você precisa de 4K nos dois formatos</td><td>Captura do sensor inteiro, a única que consegue</td></tr>
-          <tr><td>Câmera frontal</td><td>Captura do sensor inteiro (funciona na câmera de selfie)</td></tr>
+          <tr><td>As duas versões precisam parecer intencionais</td><td>Captura do sensor inteiro do ContentCam (opção 2), grátis em HD</td></tr>
+          <tr><td>Você quer um enquadramento diferente para cada plataforma</td><td>Lente dupla do ContentCam (opção 3)</td></tr>
+          <tr><td>Você precisa de 4K nos dois formatos</td><td>Captura do sensor inteiro do ContentCam (Premium), a única das três que consegue</td></tr>
+          <tr><td>Câmera frontal</td><td>Captura do sensor inteiro do ContentCam (funciona na câmera de selfie)</td></tr>
         </tbody>
       </table>
+      <p>Se você publica o mesmo take no TikTok e no YouTube mais de uma vez por semana, grave no ContentCam. Recortar na edição só faz sentido quando a versão horizontal quase não importa.</p>
 
       <h2>Passo a passo no ContentCam</h2>
       <ol>
@@ -160,7 +160,7 @@
         <li>Pare, e a tela de revisão mostra o vertical e o horizontal lado a lado. Salve os dois, ou apague o take e grave de novo.</li>
         <li>Os arquivos são nomeados sozinhos (<code>my_project_scene_001_Portrait.mov</code> e <code>_Landscape.mov</code>), então não tem como confundir na edição.</li>
       </ol>
-      <p>A versão grátis faz tudo isso em 1080p com a lente única, sem marca d'água. O <a href="/pt-br/pricing/">Premium</a> adiciona Lente dupla, 4K e 60fps.</p>
+      <p>A versão grátis faz tudo isso em 1080p com a lente única: takes ilimitados, sem conta, sem anúncios e sem marca d'água. O <a href="/pt-br/pricing/">Premium</a> adiciona Lente dupla, 4K e 60fps.</p>
 
       <h2>Usa Android?</h2>
       <p>Mesmo problema, mesma solução. O <a href="/pt-br/android/">ContentCam para Android</a> também grava os dois formatos a partir do sensor inteiro, com balanço de branco, ISO e obturador manuais nos celulares compatíveis. A <a href="/pt-br/blog/record-portrait-and-landscape-video-same-time-android/">versão deste guia para Android</a> explica o que a câmera da Samsung e a Câmera Pixel conseguem e não conseguem fazer aqui.</p>

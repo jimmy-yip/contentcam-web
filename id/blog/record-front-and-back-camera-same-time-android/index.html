@@ -40,7 +40,7 @@
         "description": "HP Android mana yang bisa merekam kamera depan dan belakang sekaligus lewat aplikasi kamera bawaan, kenapa Pixel Camera tidak bisa, dan cara mendapatkan kedua kamera sebagai file terpisah dengan mode Depan dan Belakang (Front & Back) di ContentCam.",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-10-08",
-        "dateModified": "2026-10-08",
+        "dateModified": "2026-11-05",
         "author": { "@type": "Person", "name": "Jimmy", "description": "Developer ContentCam", "url": "https://contentcam.app/press/" },
         "publisher": { "@id": "https://contentcam.app/#org" },
         "mainEntityOfPage": "https://contentcam.app/id/blog/record-front-and-back-camera-same-time-android/"
@@ -58,28 +58,28 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Apakah Android bisa merekam kamera depan dan belakang bersamaan?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Bisa, di HP yang hardware-nya mampu menjalankan kedua kamera sekaligus. Beberapa HP Samsung Galaxy bisa melakukannya di aplikasi Kamera bawaan (Director's View dengan Dual recording, di model tertentu dengan One UI 3.1 ke atas). Pixel Camera tidak punya mode depan dan belakang. Di HP lain, aplikasi kamera yang punya mode depan dan belakang bisa melakukannya kalau HP-nya melaporkan bahwa kedua kamera bisa jalan bersamaan." }
+            "name": "Apakah Google Pixel bisa merekam kamera depan dan belakang bersamaan?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Tidak di Pixel Camera. Dual screen preview di model Pixel Fold menampilkan viewfinder di kedua layar sementara satu kamera merekam. Di Pixel yang mendukung kamera bersamaan, aplikasi yang punya mode depan dan belakang, seperti ContentCam, bisa merekam keduanya." }
           },
           {
             "@type": "Question",
-            "name": "Apakah Google Pixel bisa merekam kamera depan dan belakang bersamaan?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Tidak di Pixel Camera. Halaman bantuan Pixel Camera dari Google menjelaskan Dual screen preview di model Pixel Fold, yang menampilkan viewfinder di layar dalam dan layar luar sementara satu kamera merekam. Fitur itu tidak merekam dua kamera. Di Pixel yang mendukung kamera bersamaan, caranya adalah aplikasi kamera pihak ketiga yang punya mode depan dan belakang." }
+            "name": "Apa aplikasi terbaik untuk merekam kamera depan dan belakang bersamaan di Android?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ContentCam, kalau kamu mau mengedit kedua sudut pandang: mode Depan dan Belakang menyimpan wajahmu dan adegannya sebagai dua file terpisah di HP Android mana pun yang bisa menjalankan kedua kamera bersamaan, tanpa iklan dan watermark. Di Galaxy yang didukung, Dual recording bawaan adalah cara tercepat untuk mendapatkan satu klip jadi." }
           },
           {
             "@type": "Question",
             "name": "Apakah Dual recording Samsung menyimpan dua file terpisah?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Biasanya yang terekam satu video, dengan selfie-mu di jendela gambar dalam gambar atau layar terbagi. Halaman bantuan Samsung menyebutkan bahwa Galaxy S22 dan S23 punya opsi tambahan untuk menyimpan video selfie dan video kamera belakang sebagai file terpisah, yang diatur sebelum mulai merekam." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Biasanya tidak. Hasilnya satu video dengan tata letak yang kamu pilih, dan pengaturannya tidak bisa diubah setelah perekaman dimulai. Menurut Samsung, hanya seri Galaxy S22 dan S23 yang bisa menyimpan file selfie dan file kamera belakang secara terpisah, yang diatur sebelum merekam." }
           },
           {
             "@type": "Question",
             "name": "Apakah mode Depan dan Belakang ContentCam gratis di Android?",
-            "acceptedAnswer": { "@type": "Answer", "text": "ContentCam gratis diunduh dan perekaman dua format intinya gratis. Depan dan Belakang adalah mode premium dengan 5 rekaman gratis untuk mencobanya." }
+            "acceptedAnswer": { "@type": "Answer", "text": "ContentCam gratis diunduh dan perekaman dua formatnya gratis. Depan dan Belakang adalah mode Premium dengan 5 rekaman gratis untuk mencobanya." }
           },
           {
             "@type": "Question",
             "name": "Kenapa HP Android saya tidak bisa merekam dua kamera sekaligus?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Semuanya tergantung hardware. Android 11 (API level 30) menambahkan getConcurrentCameraIds(), yang memberi tahu aplikasi kamera mana saja yang bisa jalan bersamaan. Kalau HP tidak melaporkan pasangan kamera depan dan belakang, aplikasi yang memakai jalur resmi itu tidak bisa merekam kedua kamera di HP tersebut." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Semuanya tergantung hardware. Android 11 menambahkan getConcurrentCameraIds(), yang memberi tahu aplikasi kamera mana saja yang bisa jalan bersamaan. Kalau HP tidak melaporkan pasangan kamera depan dan belakang, aplikasi yang memakai jalur resmi itu tidak bisa merekam keduanya." }
           }
         ]
       }
@@ -121,79 +121,74 @@
     <div class="crumbs"><a href="/id/">Beranda</a> › <a href="/blog/">Blog</a> › Kamera depan dan belakang sekaligus di Android</div>
     <article class="post">
       <h1>Cara Merekam Kamera Depan dan Belakang Bersamaan di HP Android</h1>
-      <p class="byline">Oleh Jimmy, developer ContentCam · 8 Oktober 2026</p>
+      <p class="byline">Oleh Jimmy, developer ContentCam · 8 Oktober 2026 · Diperbarui 5 November 2026</p>
 
-      <p>Beberapa HP Samsung Galaxy bisa merekam kamera depan dan belakang sekaligus di aplikasi Kamera bawaan, sedangkan Pixel Camera tidak bisa. Di HP Android mana pun yang hardware-nya mampu menjalankan kedua kamera bersamaan, aplikasi kamera yang punya mode depan dan belakang bisa melakukannya, dan mode Depan dan Belakang (Front &amp; Back) di ContentCam menyimpan wajahmu dan adegannya sebagai dua file terpisah.</p>
-      <p>Di bawah ini kamu bisa lihat hasil dari tiap cara, HP mana yang bisa, dan cara merekamnya supaya reaksinya benar-benar kena. Untuk semua cara melakukannya di iPhone dan Android, termasuk opsi bawaan Instagram, lihat panduan utama tentang <a href="/id/blog/dual-camera-effect/">memakai kamera depan dan belakang bersamaan</a>. Kalau kamu juga merekam pakai iPhone, aplikasi Kamera bawaannya punya versi sendiri di model yang lebih baru, <a href="/id/blog/iphone-17-dual-capture-limitations/">Dual Capture di iPhone</a>, yang menyimpan kedua kamera sebagai satu file gambar dalam gambar.</p>
-
-      <h2>Bagaimana cara merekam depan dan belakang di Samsung Galaxy (Director's View dan Dual recording)?</h2>
-      <p>Samsung sudah menanamkan fitur ini di aplikasi Kamera. Halaman bantuannya menjelaskan Director's View dengan Dual recording sebagai cara untuk "merekam video memakai kamera belakang dan kamera selfie secara bersamaan", tersedia di perangkat tertentu dengan One UI 3.1 ke atas. Kamu pilih tata letaknya sebelum merekam:</p>
-      <ul>
-        <li><strong>Gambar dalam gambar:</strong> jendela kecil berisi kamu di pojok bidikan kamera belakang.</li>
-        <li><strong>Layar terbagi:</strong> kamera belakang di atas dan kamera selfie di bawahnya.</li>
-        <li><strong>Tunggal:</strong> cuma satu kamera, dengan Director's View untuk berpindah lensa.</li>
-      </ul>
-      <p>Ada dua catatan. Pertama, hasilnya biasanya <em>satu</em> video dengan wajahmu yang sudah menempel permanen di tata letak yang kamu pilih, jadi jendela kecilnya tidak bisa dipindah atau dihapus saat editing. Halaman Samsung menyebutkan bahwa Galaxy S22 dan S23 bisa menyimpan video selfie dan video kamera belakang sebagai file terpisah kalau opsi itu kamu nyalakan sebelum merekam. Kedua, di Galaxy S24, S25 dan yang lebih baru, Director's View sudah berganti nama jadi Dual recording, dan di One UI 8.5 fitur ini pindah ke mode Video di bagian Quick controls. Langkah lengkap dan daftar modelnya ada di <a href="/id/blog/record-front-and-back-camera-samsung-galaxy/">cara merekam depan dan belakang di Samsung Galaxy</a>.</p>
-
-      <h2>Apakah Google Pixel bisa merekam kamera depan dan belakang bersamaan?</h2>
-      <p>Pixel Camera tidak merekam dua kamera sekaligus. Yang paling mendekati di halaman bantuan Google adalah Dual screen preview di model Pixel Fold, yang menampilkan viewfinder di layar dalam dan layar luar supaya orang yang kamu rekam bisa melihat dirinya sendiri. Tetap saja yang merekam cuma satu kamera. Di Pixel, merekam depan dan belakang berarti pakai aplikasi pihak ketiga.</p>
-
-      <h2>Kenapa HP Android lain ada yang bisa dan ada yang tidak?</h2>
-      <p>Android 11 (API level 30) menambahkan <code>getConcurrentCameraIds()</code>, yang memberi tahu aplikasi kamera mana saja di HP yang bisa jalan bersamaan. Kalau HP-mu melaporkan pasangan kamera depan dan belakang, aplikasi bisa merekam keduanya. Kalau tidak, aplikasi apa pun yang memakai jalur resmi itu tidak akan bisa, sebagus apa pun aplikasinya. Inilah kenapa perekaman depan dan belakang jalan di satu HP tapi tidak di HP lain yang kelihatannya sama canggihnya.</p>
+      <p>Cara paling fleksibel untuk merekam kamera depan dan belakang sekaligus di Android adalah aplikasi kamera yang menyimpan wajahmu dan adegannya sebagai dua file terpisah. Mode Depan dan Belakang (Front &amp; Back) di ContentCam melakukan itu di HP Android mana pun yang hardware-nya mampu menjalankan kedua kamera bersamaan, termasuk Pixel yang mendukungnya, padahal Pixel Camera sendiri tidak punya mode depan dan belakang. Beberapa HP Samsung Galaxy juga bisa melakukannya di aplikasi Kamera bawaan, tapi biasanya hasilnya satu video dengan tata letak yang sudah dikunci sebelum kamu menekan tombol rekam.</p>
+      <p>Untuk iPhone dan opsi bawaan Instagram, lihat panduan utama tentang <a href="/id/blog/dual-camera-effect/">memakai kamera depan dan belakang bersamaan</a>, atau <a href="/id/blog/iphone-17-dual-capture-limitations/">Dual Capture di iPhone</a> untuk versi bawaan Apple.</p>
 
       <h2>Bagaimana cara merekam depan dan belakang di ContentCam untuk Android?</h2>
-      <p>Mode Depan dan Belakang (Front &amp; Back) di ContentCam merekam kamera selfie dan kamera belakang bersamaan, dengan satu tap, dan memberimu dua file, bukan satu tata letak yang sudah menempel permanen. Kamera belakang bisa merekam vertikal atau horizontal (kamu yang pilih), dan selfie-nya selalu vertikal. Karena keduanya terpisah, kamu yang menentukan tata letaknya belakangan: jendela kecil, layar terbagi, potongan bergantian di antara keduanya, atau dua postingan berbeda dari satu take.</p>
+      <p>Mode Depan dan Belakang merekam kamera selfie dan kamera belakang bersamaan dengan satu tap dan memberimu dua file, bukan satu tata letak yang sudah menempel permanen. Kamera belakang merekam vertikal atau horizontal (kamu yang pilih), sedangkan selfie-nya selalu vertikal. Tata letaknya kamu tentukan belakangan: jendela kecil, layar terbagi, potongan bergantian, atau dua postingan. Kalau mau satu video jadi, editor Gabungkan (Combine) menyatukan pasangan itu sebagai gambar dalam gambar atau layar terbagi, dan file aslinya tetap tersimpan.</p>
       <ol>
-        <li>Instal <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Did-android-dual-format">ContentCam dari Google Play</a> lalu buka.</li>
-        <li>Ganti mode perekaman ke Depan dan Belakang.</li>
-        <li>Pilih kamera belakang merekam vertikal atau horizontal.</li>
-        <li>Atur bidikan kamera belakang, lalu rekam sekali. Kedua kamera berjalan di timeline yang sama, jadi reaksi dan adegannya tetap sinkron.</li>
-        <li>Cek kedua klip berdampingan, potong bagian yang tidak perlu, lalu ekspor.</li>
+        <li>Instal <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Did-android-dual-format">ContentCam dari Google Play</a>.</li>
+        <li>Ganti mode ke Depan dan Belakang. Aplikasi akan mengecek kamera HP-mu dan hanya menawarkan mode ini kalau memang bisa jalan.</li>
+        <li>Pilih vertikal atau horizontal untuk kamera belakang.</li>
+        <li>Atur bidikan kamera belakang dan rekam sekali. Kedua kamera berbagi satu timeline, jadi reaksi dan adegannya tetap sinkron.</li>
+        <li>Potong lalu ekspor kedua klip, atau buka Gabungkan untuk satu video.</li>
       </ol>
-      <p>Depan dan Belakang adalah mode premium dengan 5 rekaman gratis untuk mencobanya dulu. Sama seperti bagian lain aplikasi ini di Android, mode ini bekerja berdasarkan apa yang benar-benar dilaporkan kamera HP-mu sebagai fitur yang didukung. Versi gratisnya tetap merekam video dua format: satu file vertikal 9:16 dan satu file horizontal 16:9 dari satu take, yang merupakan masalah berbeda dan dibahas di <a href="/id/blog/record-portrait-and-landscape-video-same-time-android/">merekam vertikal dan horizontal bersamaan di Android</a>.</p>
+      <p>Di Android, Depan dan Belakang merekam HD hingga 30fps dan termasuk Premium, dengan 5 rekaman gratis untuk mencobanya. Mencoba tata letak Gabungkan itu gratis; menyimpannya butuh Premium. Mode ini juga bisa mengambil pasangan foto depan dan belakang (Premium). Tanpa iklan dan tanpa watermark, baik gratis maupun Premium. Versi gratisnya merekam satu file 9:16 dan satu file 16:9 dari satu take, yang dibahas di <a href="/id/blog/record-portrait-and-landscape-video-same-time-android/">merekam vertikal dan horizontal bersamaan di Android</a>.</p>
 
       <div class="shot-pair">
         <img src="/assets/img/ui-record-handsup-640.webp" alt="Layar perekaman ContentCam dengan tombol ganti mode" width="640" height="1387" loading="lazy" decoding="async">
         <img src="/assets/img/ui-review-dark-640.webp" alt="Layar review ContentCam setelah satu take" width="640" height="1387" loading="lazy" decoding="async">
       </div>
 
+      <h2>Bagaimana cara merekam depan dan belakang di Samsung Galaxy (Director's View dan Dual recording)?</h2>
+      <p>Halaman bantuan Samsung menjelaskan Dual recording sebagai cara untuk "merekam video memakai kamera belakang dan kamera selfie secara bersamaan", di perangkat tertentu dengan One UI 3.1 ke atas. Sebelum merekam, kamu pilih gambar dalam gambar (kamu di pojok) atau layar terbagi (kamera belakang di atas, selfie di bawah).</p>
+      <p>Batasannya, menurut halaman Samsung sendiri: hasilnya biasanya <em>satu</em> video dengan jendela kecil yang sudah menempel permanen, jadi tidak bisa dipindah atau dihapus belakangan, dan pengaturan Dual recording tidak bisa diubah setelah video mulai direkam. Hanya seri Galaxy S22 dan S23 yang bisa menyimpan file selfie dan file kamera belakang secara terpisah, dan opsinya harus dinyalakan sebelum merekam. Di Galaxy yang lebih baru, termasuk seri S24 dan S25, Director's View sudah berganti nama jadi Dual recording, dan mulai One UI 8.5 fitur ini ada di mode Video di bagian Quick controls. Langkah lengkapnya ada di <a href="/id/blog/record-front-and-back-camera-samsung-galaxy/">cara merekam depan dan belakang di Samsung Galaxy</a>.</p>
+
+      <h2>Apakah Google Pixel bisa merekam kamera depan dan belakang bersamaan?</h2>
+      <p>Pixel Camera tidak merekam dua kamera sekaligus. Fitur Google yang paling mendekati adalah Dual screen preview di model Pixel Fold, yang menampilkan viewfinder di layar dalam dan layar luar supaya orang yang kamu rekam bisa melihat dirinya sendiri. Tetap saja yang merekam cuma satu kamera. Di Pixel, merekam depan dan belakang berarti pakai aplikasi pihak ketiga seperti ContentCam.</p>
+
+      <h2>Kenapa HP Android lain ada yang bisa dan ada yang tidak?</h2>
+      <p>Android 11 (API level 30) menambahkan <code>getConcurrentCameraIds()</code>, yang memberi tahu aplikasi kamera mana saja yang bisa jalan bersamaan. Kalau HP-mu melaporkan pasangan kamera depan dan belakang, aplikasi bisa merekam keduanya. Kalau tidak, aplikasi apa pun yang memakai jalur resmi itu tidak akan bisa. Itulah kenapa fitur ini jalan di satu HP tapi tidak di HP lain.</p>
+
       <h2>Cara mana yang sebaiknya kamu pakai?</h2>
       <ul>
-        <li><strong>Kamu punya Galaxy yang didukung dan mau klip jadi dengan cepat:</strong> pakai Dual recording di aplikasi Kamera bawaan. Pilih gambar dalam gambar atau layar terbagi, lalu posting apa adanya.</li>
-        <li><strong>Kamu mau mengedit kedua sudut pandang secara terpisah,</strong> atau kamu pakai Pixel atau merek lain: pakai aplikasi yang menyimpan dua file.</li>
-        <li><strong>Kamu cuma mau wajahmu di pojok untuk satu Story:</strong> Dual camera bawaan Instagram mungkin sudah cukup, seperti dibahas di <a href="/id/blog/dual-camera-effect/">panduan utama dual camera</a>.</li>
+        <li><strong>Kamu mau kedua sudut pandang sebagai file terpisah,</strong> atau kamu pakai Pixel atau merek lain: mode Depan dan Belakang di ContentCam.</li>
+        <li><strong>Kamu punya Galaxy yang didukung dan mau satu klip jadi dengan cepat:</strong> Dual recording di aplikasi Kamera bawaan.</li>
+        <li><strong>Kamu cuma mau wajahmu di pojok untuk satu Story:</strong> Dual camera Instagram, yang dibahas di <a href="/id/blog/dual-camera-effect/">panduan utama dual camera</a>.</li>
       </ul>
 
       <h2>Tips merekam video depan dan belakang yang bagus</h2>
       <ul>
-        <li><strong>Beri cahaya ke wajahmu.</strong> Kamera selfie adalah kamera yang lebih lemah dan lebih cepat jadi noise di ruangan redup dibanding kamera belakang. Hadapkan wajahmu ke jendela atau lampu.</li>
-        <li><strong>Jaga suaramu tetap dekat.</strong> Mikrofon HP mengutamakan suara yang paling dekat. Kalau kamu mundur untuk menunjukkan sesuatu, suaramu turun, jadi mendekatlah untuk kalimat yang penting.</li>
-        <li><strong>Kunci eksposur kalau kamu berpindah antara terang dan gelap.</strong> Berjalan dari jendela yang terang ke ruangan gelap membuat kedua kamera terus menyesuaikan diri. <a href="/blog/android-camera-settings-for-video/">Panduan pengaturan kamera Android</a> membahas apa saja yang bisa dikunci di HP-mu.</li>
-        <li><strong>Perhatikan suhu.</strong> Menjalankan dua kamera sekaligus itu kerja berat untuk HP. Untuk take yang panjang, jauhkan dari sinar matahari langsung dan lepas casing-nya.</li>
+        <li><strong>Beri cahaya ke wajahmu.</strong> Kamera selfie paling cepat jadi noise di ruangan redup. Hadapkan wajahmu ke jendela atau lampu.</li>
+        <li><strong>Jaga suaramu tetap dekat.</strong> Kalau kamu mundur untuk menunjukkan sesuatu, suaramu turun, jadi mendekatlah untuk kalimat yang penting.</li>
+        <li><strong>Kunci eksposur saat cahaya berubah.</strong> <a href="/blog/android-camera-settings-for-video/">Panduan pengaturan kamera Android</a> membahas apa saja yang bisa dikunci di HP-mu.</li>
+        <li><strong>Perhatikan suhu.</strong> Untuk take yang panjang, jauhkan dari sinar matahari langsung dan lepas casing-nya.</li>
       </ul>
 
       <h2>FAQ</h2>
-      <h3>Apakah Android bisa merekam kamera depan dan belakang bersamaan?</h3>
-      <p>Bisa, di HP yang hardware-nya mampu menjalankan kedua kamera sekaligus. Beberapa HP Samsung Galaxy bisa melakukannya di aplikasi Kamera bawaan (Director's View dengan Dual recording, di model tertentu dengan One UI 3.1 ke atas). Pixel Camera tidak punya mode depan dan belakang. Di HP lain, aplikasi kamera yang punya mode depan dan belakang bisa melakukannya kalau HP-nya melaporkan bahwa kedua kamera bisa jalan bersamaan.</p>
       <h3>Apakah Google Pixel bisa merekam kamera depan dan belakang bersamaan?</h3>
-      <p>Tidak di Pixel Camera. Halaman bantuan Pixel Camera dari Google menjelaskan Dual screen preview di model Pixel Fold, yang menampilkan viewfinder di layar dalam dan layar luar sementara satu kamera merekam. Fitur itu tidak merekam dua kamera. Di Pixel yang mendukung kamera bersamaan, caranya adalah aplikasi kamera pihak ketiga yang punya mode depan dan belakang.</p>
+      <p>Tidak di Pixel Camera. Dual screen preview di model Pixel Fold menampilkan viewfinder di kedua layar sementara satu kamera merekam. Di Pixel yang mendukung kamera bersamaan, aplikasi yang punya mode depan dan belakang, seperti ContentCam, bisa merekam keduanya.</p>
+      <h3>Apa aplikasi terbaik untuk merekam kamera depan dan belakang bersamaan di Android?</h3>
+      <p>ContentCam, kalau kamu mau mengedit kedua sudut pandang: mode Depan dan Belakang menyimpan wajahmu dan adegannya sebagai dua file terpisah di HP Android mana pun yang bisa menjalankan kedua kamera bersamaan, tanpa iklan dan watermark. Di Galaxy yang didukung, Dual recording bawaan adalah cara tercepat untuk mendapatkan satu klip jadi.</p>
       <h3>Apakah Dual recording Samsung menyimpan dua file terpisah?</h3>
-      <p>Biasanya yang terekam satu video, dengan selfie-mu di jendela gambar dalam gambar atau layar terbagi. Halaman bantuan Samsung menyebutkan bahwa Galaxy S22 dan S23 punya opsi tambahan untuk menyimpan video selfie dan video kamera belakang sebagai file terpisah, yang diatur sebelum mulai merekam.</p>
+      <p>Biasanya tidak. Hasilnya satu video dengan tata letak yang kamu pilih, dan pengaturannya tidak bisa diubah setelah perekaman dimulai. Menurut Samsung, hanya seri Galaxy S22 dan S23 yang bisa menyimpan file selfie dan file kamera belakang secara terpisah, yang diatur sebelum merekam.</p>
       <h3>Apakah mode Depan dan Belakang ContentCam gratis di Android?</h3>
-      <p>ContentCam gratis diunduh dan perekaman dua format intinya gratis. Depan dan Belakang adalah mode premium dengan 5 rekaman gratis untuk mencobanya.</p>
+      <p>ContentCam gratis diunduh dan perekaman dua formatnya gratis. Depan dan Belakang adalah mode Premium dengan 5 rekaman gratis untuk mencobanya.</p>
       <h3>Kenapa HP Android saya tidak bisa merekam dua kamera sekaligus?</h3>
-      <p>Semuanya tergantung hardware. Android 11 (API level 30) menambahkan <code>getConcurrentCameraIds()</code>, yang memberi tahu aplikasi kamera mana saja yang bisa jalan bersamaan. Kalau HP tidak melaporkan pasangan kamera depan dan belakang, aplikasi yang memakai jalur resmi itu tidak bisa merekam kedua kamera di HP tersebut.</p>
+      <p>Semuanya tergantung hardware. Android 11 menambahkan getConcurrentCameraIds(), yang memberi tahu aplikasi kamera mana saja yang bisa jalan bersamaan. Kalau HP tidak melaporkan pasangan kamera depan dan belakang, aplikasi yang memakai jalur resmi itu tidak bisa merekam keduanya.</p>
 
       <div class="post-cta">
-        <p><strong>Coba ContentCam gratis.</strong> Depan dan belakang dalam satu take sebagai dua file terpisah, plus vertikal dan horizontal dari sekali syuting. Gratis diunduh di Android dan iPhone.</p>
+        <p><strong>Coba ContentCam gratis.</strong> Depan dan belakang dalam satu take sebagai dua file terpisah, plus vertikal dan horizontal dari sekali syuting. Tanpa iklan, tanpa watermark. Gratis diunduh di Android dan iPhone.</p>
         <div class="badges badges-left">
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Did-android-dual-format"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Temukan di Google Play" width="175" height="52"></a>
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=id-b-front-back-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download di App Store" width="156" height="52"></a>
         </div>
       </div>
 
-      <p>Terkait: <a href="/id/blog/dual-camera-effect/">panduan lengkap memakai kamera depan dan belakang bersamaan</a> · <a href="/id/blog/record-portrait-and-landscape-video-same-time-android/">merekam vertikal dan horizontal bersamaan di Android</a> · <a href="/id/blog/record-front-and-back-camera-same-time-iphone/">versi iPhone dari panduan ini</a> · <a href="/id/blog/take-photo-front-and-back-camera-same-time/">mengambil foto depan dan belakang sekaligus</a> · <a href="/id/android/">ContentCam untuk Android</a>. · <a href="/id/blog/record-front-and-back-camera-samsung-galaxy/">depan dan belakang di Samsung Galaxy</a> · <a href="/blog/record-front-and-back-camera-google-pixel/">depan dan belakang di Google Pixel</a></p>
-      <p class="byline">Sumber: Samsung, "Use Director's View and Dual recording on your Galaxy phone" (samsung.com/us/support); Google, Pixel Camera Help, "Record a video" (support.google.com/pixelcamera); Android Developers, CameraManager.getConcurrentCameraIds(). Dicek 8 Oktober 2026; penamaan Samsung diperbarui 5 November 2026.</p>
+      <p>Terkait: <a href="/id/blog/dual-camera-effect/">panduan lengkap memakai kamera depan dan belakang bersamaan</a> · <a href="/id/blog/record-portrait-and-landscape-video-same-time-android/">merekam vertikal dan horizontal bersamaan di Android</a> · <a href="/id/blog/record-front-and-back-camera-same-time-iphone/">versi iPhone dari panduan ini</a> · <a href="/id/blog/take-photo-front-and-back-camera-same-time/">mengambil foto depan dan belakang sekaligus</a> · <a href="/id/android/">ContentCam untuk Android</a> · <a href="/id/blog/record-front-and-back-camera-samsung-galaxy/">depan dan belakang di Samsung Galaxy</a> · <a href="/blog/record-front-and-back-camera-google-pixel/">depan dan belakang di Google Pixel</a>.</p>
+      <p class="byline">Sumber: Samsung, "Use Director's View and Dual recording on your Galaxy phone" (samsung.com/us/support); Google, Pixel Camera Help, "Record a video" (support.google.com/pixelcamera); Samsung US, "Dual recording missing in the Camera app on Galaxy phones"; Samsung Gulf, "Director's View Missing in Camera?"; Android Developers, CameraManager.getConcurrentCameraIds(). Dicek 5 November 2026.</p>
     </article>
   </main>
 

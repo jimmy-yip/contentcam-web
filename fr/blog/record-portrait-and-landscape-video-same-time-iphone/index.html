@@ -95,8 +95,8 @@
       <p class="byline">Par Jimmy, développeur de ContentCam · 25 juillet 2026 · Mis à jour le 5 novembre 2026</p>
 
       <p>Pour filmer en vertical et en horizontal en même temps sur iPhone, utilisez une app de caméra qui enregistre un fichier vertical 9:16 et un fichier horizontal 16:9 à partir de la même prise, car l'app Appareil photo de l'iPhone ne filme qu'un seul format par prise. ContentCam, que je développe, le fait gratuitement en 1080p et jusqu'à 30 fps sur iPhone et Android, en tirant les deux fichiers de tout le capteur 4:3 : aucun des deux n'est donc un recadrage de l'autre. Premium ajoute la 4K et le 60 fps. Sans une app de ce genre, il faut soit filmer deux fois, soit filmer en horizontal en 4K et recadrer la version verticale après coup, ce qui ne garde qu'environ 32 % de l'image.</p>
-      <p>Tous les créateurs qui publient sur plus d'une plateforme se heurtent au même mur : TikTok, Reels et Shorts veulent du vertical 9:16. YouTube veut de l'horizontal 16:9. Même contenu, formats incompatibles. Vous finissez par filmer deux fois, ou par filmer une fois et massacrer la seconde version dans un logiciel de montage.</p>
-      <p>Il existe trois vraies façons d'obtenir les deux formats d'un seul tournage. Je développe une app de caméra, alors autant être clair : la mienne en propose deux. Mais les compromis décrits ci-dessous valent quel que soit l'outil que vous utilisez.</p>
+      <p>TikTok, Reels et Shorts veulent du vertical 9:16. YouTube veut de l'horizontal 16:9. Même contenu, formats incompatibles : la plupart des créateurs filment donc deux fois, ou massacrent la seconde version dans un logiciel de montage.</p>
+      <p>Il existe trois vraies façons d'obtenir les deux formats d'un seul tournage. Je développe ContentCam, alors lisez ceci en connaissance de cause : l'app propose les options 2 et 3 ci-dessous, les deux qui enregistrent les deux fichiers à la prise de vue. L'option 1 ne demande qu'un logiciel de montage, et le calcul montre ce qu'elle coûte.</p>
 
       <figure>
         <video src="/assets/blog/record-portrait-and-landscape-video-same-time-iphone/one-take-walk-both-formats.mp4" poster="/assets/blog/record-portrait-and-landscape-video-same-time-iphone/one-take-walk-both-formats-poster.webp" width="1200" height="520" autoplay muted loop playsinline preload="none" aria-label="Vidéo d'un homme qui s'éloigne de la caméra dans un tunnel de branches couvertes de mousse, lue côte à côte en fichier vertical 9:16 et en fichier horizontal 16:9"></video>
@@ -105,9 +105,8 @@
 
       <h2>Option 1 : filmer en vertical, recadrer l'horizontal au montage</h2>
       <p>La méthode par défaut. Vous filmez en vertical, glissez le clip dans CapCut ou Premiere, créez une séquence 16:9 et agrandissez le clip vertical jusqu'à ce qu'il remplisse le cadre.</p>
-      <p>Le problème, c'est le calcul. Un clip vertical de 1080×1920 recadré en 16:9 donne une bande de 1080×607, qu'il faut ensuite étirer en 1920×1080. Vous agrandissez donc d'environ trois fois la surface en pixels, à partir d'une tranche qui n'a jamais contenu que la vue en forme de téléphone de la scène. Le résultat est flou, et le cadrage se limite à ce qui a survécu à la coupe : en général un visage qui remplit l'image, sans aucun espace autour.</p>
-      <p>Quand ça passe : les clips face caméra où le sujet remplit déjà l'image et où la version horizontale est un bonus, pas un livrable.</p>
-      <p>Quand ça coince : dès que le plan large compte. Voyage, vlog, sport, plans produits, tout ce qui a un arrière-plan choisi exprès.</p>
+      <p>Le problème, c'est le calcul. Un clip vertical de 1080×1920 recadré en 16:9 donne une bande de 1080×607, étirée en 1920×1080 : environ trois fois la surface en pixels, agrandie. Le résultat est flou, et le cadrage se limite à ce qui a survécu à la coupe, en général un visage sans aucun espace autour.</p>
+      <p>Ça passe pour le face caméra, quand la version horizontale n'est qu'un bonus. Ça coince dès que le plan large compte : voyage, vlog, sport, plans produits.</p>
 
       <h2>Option 2 : filmer tout le capteur et recadrer dans les deux sens à la prise de vue</h2>
       <p>Le capteur de votre iPhone n'est ni vertical ni horizontal. Il est en 4:3 : plus large qu'une image 9:16 et plus haut qu'une image 16:9. Les apps de caméra classiques en jettent une partie dès que vous choisissez une orientation.</p>
@@ -123,8 +122,8 @@
       </figure>
 
       <h2>Option 3 : filmer avec deux caméras à la fois</h2>
-      <p>À partir de l'iPhone 11, l'iPhone peut faire tourner deux caméras arrière simultanément. Le mode Double objectif de ContentCam s'en sert : le grand-angle filme la version verticale pendant que l'ultra grand-angle filme la version horizontale, au même instant.</p>
-      <p>La différence avec l'option 2, c'est le cadrage. Avec la capture de tout le capteur, les deux fichiers montrent la même scène à des largeurs différentes. Avec deux objectifs, votre vertical peut être un plan serré pendant que votre horizontal est un vrai plan large d'ensemble. Pour une séquence face caméra dans un lieu intéressant, cela fait deux plans différents en une seule prise.</p>
+      <p>Un iPhone 11 ou plus récent doté d'un ultra grand-angle (donc ni l'iPhone SE ni l'iPhone 16e) peut faire tourner deux caméras arrière simultanément. Le mode Double objectif de ContentCam s'en sert : le grand-angle filme la version verticale pendant que l'ultra grand-angle filme la version horizontale, au même instant.</p>
+      <p>La différence avec l'option 2, c'est le cadrage. Avec deux objectifs, votre vertical peut être un plan serré pendant que votre horizontal est un vrai plan large d'ensemble : deux plans différents en une seule prise.</p>
 
       <figure>
         <div class="shot-pair">
@@ -133,23 +132,24 @@
         </div>
         <figcaption>Mode Double objectif : le viseur pendant l'enregistrement (à gauche), puis l'écran de visionnage (à droite). Le vertical reste serré sur la marche tandis que l'horizontal englobe tout le tunnel.</figcaption>
       </figure>
-      <p>Les limites, en toute honnêteté : ce mode tourne en 1080p (Apple plafonne la capture simultanée avec deux caméras à 1920x1440 sur tous les iPhone actuels), et faire tourner deux caméras consomme plus de batterie. L'app Appareil photo d'Apple dépasse ce plafond avec la <a href="/fr/blog/iphone-17-dual-capture-limitations/">Double capture de l'iPhone</a>, en 4K à 30 images par seconde, mais uniquement avec la caméra avant et la caméra arrière ensemble, et uniquement en une seule image en incrustation.</p>
+      <p>Les limites : ce mode tourne en 1080p (Apple plafonne la capture simultanée avec deux caméras par les apps tierces à 1920×1440 sur tous les iPhone actuels), et faire tourner deux caméras consomme plus de batterie. L'app Appareil photo d'Apple propose la <a href="/fr/blog/iphone-17-dual-capture-limitations/">Double capture de l'iPhone</a> jusqu'en 4K à 30 images par seconde, mais elle associe la caméra avant et la caméra arrière, pas deux cadrages de la caméra arrière, et enregistre une seule vidéo en incrustation. Elle ne vous donne aucune paire 9:16 et 16:9.</p>
 
       <h2>Comment filmer une vidéo à l'horizontale sur iPhone ?</h2>
-      <p>Tournez le téléphone sur le côté, et l'app Appareil photo filme en horizontal 16:9. C'est toute la réponse pour un seul format, et c'est pour cela que la question arrive presque toujours avec une deuxième : que faire quand il vous faut aussi la version verticale ? Tourner le téléphone vous donne l'un ou l'autre, et recadrer une vidéo verticale dans cette vidéo horizontale après coup ne garde qu'environ 32 % de la largeur. Les étapes pour un seul format, le verrouillage de l'orientation et la façon de corriger un clip filmé dans le mauvais sens sont dans <a href="/blog/how-to-record-landscape-video-on-iphone/">comment filmer à l'horizontale sur iPhone</a>.</p>
-      <p>Si vous avez besoin des deux, filmez tout le capteur une seule fois et tirez-en les deux cadrages à la prise de vue : c'est l'option 2 ci-dessus. Le fichier horizontal reste un véritable enregistrement 16:9 et non un recadrage, et le fichier vertical garde toute sa hauteur.</p>
+      <p>Tournez le téléphone sur le côté, et l'app Appareil photo filme en horizontal 16:9. Cela règle un seul format. Tourner le téléphone vous donne l'un ou l'autre, et recadrer une vidéo verticale dans cette vidéo horizontale après coup ne garde qu'environ 32 % de la largeur. Le verrouillage de l'orientation et la façon de corriger un clip filmé dans le mauvais sens sont dans <a href="/blog/how-to-record-landscape-video-on-iphone/">comment filmer à l'horizontale sur iPhone</a>.</p>
+      <p>Si vous avez besoin des deux, filmez tout le capteur une seule fois dans ContentCam et tirez-en les deux cadrages à la prise de vue (l'option 2 ci-dessus). Le fichier horizontal reste un véritable enregistrement 16:9, et le fichier vertical garde toute sa hauteur.</p>
 
       <h2>Quelle méthode choisir ?</h2>
       <table>
         <thead><tr><th>Votre situation</th><th>Meilleure option</th></tr></thead>
         <tbody>
           <tr><td>Face caméra, le visage remplit l'image, l'horizontal est secondaire</td><td>Le recadrage au montage suffit</td></tr>
-          <tr><td>Les deux versions doivent avoir l'air voulues</td><td>Capture de tout le capteur (option 2)</td></tr>
-          <tr><td>Vous voulez un cadrage différent pour chaque plateforme</td><td>Double objectif (option 3)</td></tr>
-          <tr><td>Il vous faut de la 4K dans les deux formats</td><td>Capture de tout le capteur, la seule qui le permet</td></tr>
-          <tr><td>Caméra avant</td><td>Capture de tout le capteur (fonctionne avec la caméra selfie)</td></tr>
+          <tr><td>Les deux versions doivent avoir l'air voulues</td><td>Capture de tout le capteur de ContentCam (option 2), gratuite en HD</td></tr>
+          <tr><td>Vous voulez un cadrage différent pour chaque plateforme</td><td>Mode Double objectif de ContentCam (option 3)</td></tr>
+          <tr><td>Il vous faut de la 4K dans les deux formats</td><td>Capture de tout le capteur de ContentCam (Premium), la seule des trois qui le permet</td></tr>
+          <tr><td>Caméra avant</td><td>Capture de tout le capteur de ContentCam (fonctionne avec la caméra selfie)</td></tr>
         </tbody>
       </table>
+      <p>Si vous publiez la même prise sur TikTok et YouTube plus d'une fois par semaine, filmez-la dans ContentCam. Recadrer au montage n'a de sens que si la version horizontale compte à peine.</p>
 
       <h2>Comment faire dans ContentCam, étape par étape</h2>
       <ol>
@@ -159,7 +159,7 @@
         <li>Arrêtez, et l'écran de visionnage affiche le vertical et l'horizontal côte à côte. Enregistrez les deux, ou supprimez la prise et recommencez.</li>
         <li>Les fichiers se nomment seuls (<code>my_project_scene_001_Portrait.mov</code> et <code>_Landscape.mov</code>), donc impossible de les confondre au montage.</li>
       </ol>
-      <p>La version gratuite fait tout cela en 1080p avec un seul objectif, sans filigrane. <a href="/fr/pricing/">Premium</a> ajoute le mode Double objectif, la 4K et le 60 fps.</p>
+      <p>La version gratuite fait tout cela en 1080p avec un seul objectif : prises illimitées, sans compte, sans publicité et sans filigrane. <a href="/fr/pricing/">Premium</a> ajoute le mode Double objectif, la 4K et le 60 fps.</p>
 
       <h2>Et sur Android ?</h2>
       <p>Même problème, même solution. <a href="/fr/android/">ContentCam pour Android</a> filme aussi les deux formats à partir de tout le capteur, avec balance des blancs, ISO et vitesse d'obturation manuelles sur les téléphones qui les prennent en charge. La <a href="/fr/blog/record-portrait-and-landscape-video-same-time-android/">version Android de ce guide</a> explique ce que Samsung Appareil photo et Pixel Camera savent faire ou non dans ce domaine.</p>

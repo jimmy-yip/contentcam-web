@@ -59,47 +59,22 @@
           {
             "@type": "Question",
             "name": "Come si registra con la fotocamera frontale e posteriore contemporaneamente?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Attiva una modalità doppia fotocamera prima di premere Registra. Su iPhone 17, iPhone Air, iPhone 18 Pro o iPhone Duo è Dual Capture nell'app Fotocamera. Sugli altri telefoni è la funzione Dual di Instagram, Dual Camera di Snapchat su iPhone oppure un'app fotocamera di terze parti con una modalità frontale e posteriore." }
-          },
-          {
-            "@type": "Question",
-            "name": "Come si attiva la doppia fotocamera sul telefono?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Probabilmente ce l'hai già. Se hai un iPhone 17, iPhone Air, iPhone 18 Pro o iPhone Duo, controlla prima l'app Fotocamera, poi l'opzione Dual nella fotocamera di Instagram. Se non compare nessuna delle due, la aggiunge un'app fotocamera con una modalità frontale e posteriore, a patto che il telefono riesca a usare due fotocamere insieme." }
-          },
-          {
-            "@type": "Question",
-            "name": "Come si fa un video con la doppia fotocamera?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Scegli la modalità prima di registrare: Dual Capture su un iPhone compatibile, Dual nella fotocamera di Instagram, Dual Camera in Snapchat su iPhone oppure un'app con fotocamera frontale e posteriore. Inquadra la scena principale lasciando libero un angolo per il tuo viso, illumina il viso, poi registra in un'unica ripresa così la reazione e la scena condividono la stessa timeline." }
-          },
-          {
-            "@type": "Question",
-            "name": "L'effetto doppia fotocamera è gratis?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Sì. Dual di Instagram, Dual Camera di Snapchat e Dual Capture di iPhone sono tutti gratuiti. Un'app separata serve solo quando vuoi le due inquadrature come girato utilizzabile invece che come post già finito." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Attiva una modalità doppia fotocamera prima di registrare. Su iPhone 17, iPhone Air, iPhone 18 Pro o iPhone Duo è Dual Capture nell'app Fotocamera. Sugli altri iPhone con iOS 18 o successivo e sui telefoni Android in grado di far funzionare entrambe le fotocamere, un'app con fotocamera frontale e posteriore come ContentCam le registra entrambe in file separati." }
           },
           {
             "@type": "Question",
             "name": "Serve un iPhone 17 per usare entrambe le fotocamere insieme?",
-            "acceptedAnswer": { "@type": "Answer", "text": "No. Dual Capture nell'app Fotocamera di serie richiede un modello di iPhone 17, iPhone Air, un modello di iPhone 18 Pro o iPhone Duo. Dual Camera di Snapchat funziona da iPhone XS e XR in poi, e le app di terze parti possono usare insieme la fotocamera frontale e quella posteriore da iOS 13." }
+            "acceptedAnswer": { "@type": "Answer", "text": "No. Dual Capture richiede un modello di iPhone 17, iPhone Air, un modello di iPhone 18 Pro o iPhone Duo. Su iPhone 15, iPhone 16 e gli altri iPhone con iOS 18 o successivo, la modalità Frontale e posteriore di ContentCam registra con entrambe le fotocamere, e Dual Camera di Snapchat funziona da iPhone XS e XR in poi." }
           },
           {
             "@type": "Question",
-            "name": "L'effetto doppia fotocamera funziona su Android?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Sì, sui telefoni il cui hardware lo supporta. Android 11 ha introdotto un modo ufficiale per far usare alle app due fotocamere insieme, e ogni telefono indica quali fotocamere può far funzionare contemporaneamente. Dual Capture di Apple è solo per iPhone, e il centro assistenza di Snapchat indica ancora Dual Camera come in arrivo su Android." }
-          },
-          {
-            "@type": "Question",
-            "name": "Perché la doppia fotocamera di Instagram non compare?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Di solito l'app di Instagram non è aggiornata, sei nella sezione sbagliata della fotocamera di Instagram, oppure il telefono non riesce a usare insieme la fotocamera frontale e quella posteriore. Aggiorna Instagram, cerca Dual prima nella fotocamera dei Reels e poi in quella delle Storie, e verifica che il telefono supporti due fotocamere insieme (AVCaptureMultiCamSession di Apple su iPhone, getConcurrentCameraIds() su Android 11 e successivi). Se Dual continua a non comparire, registra con Dual Capture su iPhone 17, iPhone Air, iPhone 18 Pro o iPhone Duo, oppure con un'app con fotocamera frontale e posteriore, e carica la clip." }
+            "name": "L'effetto doppia fotocamera è gratis?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Le versioni integrate sì: Dual di Instagram, Dual Camera di Snapchat e Dual Capture di iPhone ti danno ciascuna un unico file finito con il layout fisso. Frontale e posteriore di ContentCam offre 5 registrazioni gratuite in due file separati, poi richiede Premium." }
           },
           {
             "@type": "Question",
             "name": "Posso spostare il riquadro piccolo dopo?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Non con le opzioni gratuite. Registrano un solo file con il layout già impresso. Per cambiare il layout in fase di montaggio ti servono le due fotocamere salvate in due file separati." }
-          },
-          {
-            "@type": "Question",
-            "name": "Perché il mio video con doppia fotocamera funziona solo su una piattaforma?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Perché è stato registrato in un solo formato. Un video verticale ritagliato in orizzontale conserva solo circa un terzo dell'inquadratura, ed è per questo che la stessa clip raramente funziona sia su TikTok sia su YouTube." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Non con le opzioni integrate, che imprimono il layout in un unico file. Ti servono le due fotocamere salvate in file separati, ed è proprio quello che registra la modalità Frontale e posteriore di ContentCam." }
           }
         ]
       }
@@ -143,136 +118,82 @@
       <h1>Effetto doppia fotocamera: come registrare con fotocamera frontale e posteriore contemporaneamente</h1>
       <p class="byline">Di Jimmy, sviluppatore di ContentCam · 15 agosto 2026 · Aggiornato il 5 novembre 2026</p>
 
-      <p>Per usare la fotocamera frontale e quella posteriore contemporaneamente, attiva una modalità doppia fotocamera prima di registrare: Dual Capture nell'app Fotocamera su iPhone 17, iPhone Air, iPhone 18 Pro e iPhone Duo, Dual di Instagram o Dual Camera di Snapchat sugli altri telefoni, oppure un'app fotocamera con una modalità frontale e posteriore. Le modalità integrate ti danno un unico video finito con il layout già impresso, mentre un'app dedicata come la modalità Frontale e posteriore di ContentCam (iPhone e Android) può salvare il tuo viso e la scena in due file separati, oppure unirli in un unico video in Picture in Picture o a schermo diviso.</p>
+      <p>Per usare la fotocamera frontale e quella posteriore contemporaneamente, attiva una modalità doppia fotocamera prima di registrare. Su iPhone 17, iPhone Air, iPhone 18 Pro e iPhone Duo è Dual Capture nell'app Fotocamera. Su qualsiasi altro iPhone con iOS 18 o successivo, e sui telefoni Android in grado di far funzionare entrambe le fotocamere, la modalità Frontale e posteriore di ContentCam registra il tuo viso e la scena in due file separati. Snapchat e Instagram vanno bene per una clip veloce dentro l'app.</p>
 
-      <p>L'hai visto cento volte senza saperne il nome: un video in cui la scena principale riempie lo schermo e il viso del creator sta in un riquadro piccolo nell'angolo, mentre reagisce in tempo reale. È l'<strong>effetto doppia fotocamera</strong>: fotocamera frontale e posteriore che registrano insieme, il tuo viso e quello che stai riprendendo in un'unica inquadratura. È il look della maggior parte dei video reaction, di tanti vlog e di quasi tutte le clip "guardalo con me" che ti passano nel feed.</p>
-      <p>Questa guida copre iPhone e Android: le opzioni gratuite già integrate, dove si fermano e come ottenere un risultato che si vede bene invece che sacrificato.</p>
-
-      <h2>Come si usa la fotocamera frontale e posteriore contemporaneamente?</h2>
-      <p>Attiva una modalità doppia fotocamera prima di premere Registra. Il telefono fa funzionare le due fotocamere insieme e registra il tuo viso e la scena sulla stessa timeline. Quale modalità usare dipende dal telefono:</p>
-      <ul>
-        <li><strong>iPhone 17, iPhone Air, iPhone 18 Pro o iPhone Duo:</strong> Dual Capture, integrata nell'app Fotocamera di Apple. Trovi i passaggi più sotto.</li>
-        <li><strong>iPhone meno recenti, compresi iPhone 15 e iPhone 16:</strong> un'app fotocamera con una modalità frontale e posteriore, come la modalità Frontale e posteriore di ContentCam (ogni iPhone con iOS 18, da iPhone XS in poi), che salva il tuo viso e la scena in due file separati. Vanno bene anche Dual Camera di Snapchat e Dual di Instagram se ti serve solo una clip veloce con il layout già impresso. Le app possono usare insieme la fotocamera frontale e quella posteriore da iOS 13.</li>
-        <li><strong>Android:</strong> un'app fotocamera con una modalità frontale e posteriore, sui telefoni il cui hardware riesce a far funzionare due fotocamere insieme. Vale la pena controllare anche Dual di Instagram.</li>
-      </ul>
-      <p>Tutte le opzioni integrate ti danno un unico video finito con il layout già impresso. Un'app dedicata può invece salvare le due fotocamere in file separati. È questa differenza a decidere quale ti serve, e la vediamo più avanti.</p>
-
-      <h2>Come avere l'effetto doppia fotocamera gratis?</h2>
-      <p>Per molti la risposta è che ce l'hai già. Queste strade sono gratuite e non richiedono altri download:</p>
-      <ul>
-        <li><strong>App Fotocamera di iPhone.</strong> <strong>Dual Capture</strong> di Apple registra te e quello che succede davanti a te nello stesso momento. La pagina delle specifiche di iPhone 17 la indica fino a 4K Dolby Vision a 30 fps, e la guida di Apple mostra la fotocamera frontale come una finestra in alto a sinistra sopra la ripresa posteriore.</li>
-        <li><strong>Instagram.</strong> L'annuncio di Meta sulla funzione Dual dice che permette di «registrare usando contemporaneamente la fotocamera frontale e quella posteriore del telefono» dalla fotocamera di Instagram, così puoi registrare un contenuto e la tua reazione nello stesso momento.</li>
-        <li><strong>Snapchat.</strong> Dual Camera è un'icona nella barra degli strumenti della fotocamera. Toccala, prova i layout e scatta uno Snap. Il centro assistenza di Snapchat la indica per iPhone XS, XS Max, XR o successivi. Passo per passo: <a href="/blog/snapchat-front-and-back-camera/">come fare uno Snap con la fotocamera frontale e posteriore</a>.</li>
-        <li><strong>TikTok.</strong> Quando ho controllato il 4 ottobre 2026 non ho trovato conferma di una funzione doppia fotocamera nelle pagine di assistenza di TikTok, quindi non te ne indico una. Registrando con Dual Capture o con un'app fotocamera e caricando il file su TikTok ottieni lo stesso look.</li>
-      </ul>
-      <p>Se una di queste fa al caso tuo, usala. Non c'è motivo di installare nulla.</p>
-
-      <h2 id="iphone-dual-capture">Come registrare con fotocamera frontale e posteriore insieme su iPhone?</h2>
-      <p>Su un iPhone compatibile, Dual Capture nell'app Fotocamera è il modo più rapido. Il Manuale utente di iPhone di Apple indica questi passaggi:</p>
-      <ol>
-        <li>Apri Fotocamera e seleziona la modalità Video.</li>
-        <li>Tocca il pulsante dei controlli della fotocamera, poi tocca <strong>Dual Capture</strong>.</li>
-        <li>Tocca lo schermo per far comparire il pulsante Registra, poi tocca Registra.</li>
-        <li>Per disattivarla, tocca il pulsante Dual Capture.</li>
-      </ol>
-      <p>Apple indica sette modelli compatibili: iPhone 17, iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, iPhone 18 Pro, iPhone 18 Pro Max e iPhone Duo. Su un iPhone meno recente usa invece Snapchat, Instagram o un'app di terze parti. Per il dettaglio modello per modello, le versioni di iOS e i limiti di risoluzione, leggi <a href="/it/blog/record-front-and-back-camera-same-time-iphone/">quali iPhone registrano con fotocamera frontale e posteriore insieme, e i loro limiti</a>. Per quello che Dual Capture non ti lascia fare con il file dopo, leggi <a href="/it/blog/iphone-17-dual-capture-limitations/">Dual Capture di iPhone 17 e dove si ferma</a>.</p>
-
-      <h2 id="android">Come usare entrambe le fotocamere insieme su Android?</h2>
-      <p>Usa un'app fotocamera con una modalità frontale e posteriore, e controlla Dual nella fotocamera di Instagram. L'annuncio di Meta descrive Dual come una funzione che usa «la fotocamera frontale e quella posteriore del telefono» senza limitarla a iPhone. Se funziona o no dipende dall'hardware del tuo telefono.</p>
-      <ul>
-        <li><strong>Il lato Android.</strong> Android 11 (livello API 30) ha introdotto <code>getConcurrentCameraIds()</code>, che dice a un'app quali fotocamere del telefono possono funzionare contemporaneamente. Se un telefono non indica lì nessuna coppia frontale e posteriore, le app che usano questa strada ufficiale non possono registrare con entrambe le fotocamere.</li>
-        <li><strong>Snapchat non c'è ancora.</strong> Il centro assistenza di Snapchat dice che Dual Camera «sarà presto disponibile su Android», quindi per ora è una funzione per iPhone.</li>
-        <li><strong>Dual Capture di Apple è solo per iPhone</strong>, per ovvi motivi.</li>
-      </ul>
-      <p>La modalità Frontale e posteriore di ContentCam funziona su Android oltre che su iPhone, e l'app offre solo quello che la fotocamera del tuo telefono supporta davvero.</p>
-
-      <h2>Perché la doppia fotocamera di Instagram non compare?</h2>
-      <p>Le cause più comuni sono un'app di Instagram non aggiornata, la sezione sbagliata della fotocamera di Instagram, oppure un telefono che non riesce a usare insieme la fotocamera frontale e quella posteriore. Meta ha annunciato Dual a luglio 2022 come strumento dei Reels che permette di «registrare usando contemporaneamente la fotocamera frontale e quella posteriore del telefono» nella fotocamera di Instagram. Non sono riuscito a verificare dove Instagram metta Dual oggi: quando ho controllato il 4 ottobre 2026 le pagine di assistenza di Instagram non lo confermavano. Per questo i controlli qui sotto sono generici e non indicano un'icona o un menu preciso.</p>
-      <ol>
-        <li><strong>Aggiorna Instagram</strong> dall'App Store o da Google Play, poi chiudi e riapri l'app.</li>
-        <li><strong>Parti dalla fotocamera dei Reels.</strong> Meta ha lanciato Dual insieme agli strumenti di creazione dei Reels, quindi cerca prima lì, poi prova la fotocamera delle Storie.</li>
-        <li><strong>Verifica che il telefono riesca a usare due fotocamere insieme.</strong> Non tutti i telefoni ci riescono. Su iPhone le app chiedono ad <code>AVCaptureMultiCamSession</code> di Apple se il dispositivo supporta le sessioni con più fotocamere. Su Android 11 e successivi, <code>getConcurrentCameraIds()</code> elenca quali fotocamere possono funzionare insieme. Se un telefono non indica nessuna coppia frontale e posteriore, un'app non può offrire una modalità doppia su quel telefono.</li>
-      </ol>
-      <p>Se Dual continua a non comparire, registra la clip fuori da Instagram e caricala come Reel. Su iPhone 17, iPhone Air, iPhone 18 Pro o iPhone Duo usa <a href="#iphone-dual-capture">Dual Capture nell'app Fotocamera</a>. Sugli altri telefoni usa un'app fotocamera con una modalità frontale e posteriore (vedi <a href="#android">la sezione Android</a> e <a href="/it/blog/best-front-and-back-dual-camera-apps/">il confronto tra app doppia fotocamera</a>).</p>
-
-      <h2>Come fare un selfie e una foto con la fotocamera posteriore nello stesso momento?</h2>
-      <p>Usa Dual Camera di Snapchat, che scatta uno Snap con entrambe le fotocamere in un'unica inquadratura. Dual Capture di Apple e Dual di Instagram sono funzioni video, quindi con queste il trucco è registrare un paio di secondi e salvare un fotogramma dalla clip. In entrambi i casi ottieni un'unica immagine con il layout fisso, quindi metti l'angolo del selfie dove non copre la scena. Se invece vuoi due foto separate, leggi <a href="/it/blog/take-photo-front-and-back-camera-same-time/">come scattare una foto con fotocamera frontale e posteriore contemporaneamente</a>.</p>
-
-      <h2>Dove si fermano le versioni gratuite?</h2>
-      <p>Si fermano sul controllo dei file e sulla libertà di montaggio, e i limiti sono gli stessi per tutte.</p>
-      <ul>
-        <li><strong>Ottieni un solo file già impresso.</strong> Il layout è fissato nel video, quindi non puoi spostare il riquadro piccolo dopo, ridimensionarlo o separare le due inquadrature in montaggio.</li>
-        <li><strong>Il layout si decide al momento della ripresa.</strong> Quello che scegli mentre registri è quello che ti resta.</li>
-        <li><strong>Le versioni dentro le app ti tengono nell'app.</strong> Registrare in Instagram o Snapchat ti dà un post in quell'app, non un file pulito che puoi mettere anche su YouTube.</li>
-        <li><strong>Ottieni un solo formato.</strong> È il limite che coglie tutti di sorpresa, e lo vediamo più avanti.</li>
-      </ul>
-      <p>Niente di tutto questo conta per una clip reaction veloce. Conta parecchio se il girato deve sopravvivere a un montaggio o finire su più di una piattaforma.</p>
+      <p>Sviluppo ContentCam, quindi tienine conto. Le informazioni sulle altre app le ho verificate sulle pagine ufficiali dei rispettivi sviluppatori il 5 novembre 2026.</p>
 
       <h2>Che cos'è l'effetto doppia fotocamera?</h2>
-      <p>L'effetto doppia fotocamera, spesso chiamato semplicemente dual cam, è un video in cui la fotocamera frontale e quella posteriore registrano insieme e finiscono in un'unica inquadratura. Il telefono ha almeno due fotocamere: quella posteriore, che punti sul mondo, e quella frontale per i selfie, che vede te. Di solito ne usi una alla volta. L'effetto in genere mette il tuo viso in un piccolo riquadro (Picture in Picture) sopra la ripresa principale della fotocamera posteriore. Alcune app offrono anche uno schermo diviso sopra e sotto.</p>
-      <p>Si è diffuso perché rende le reazioni sincere. Quando il tuo viso e quello a cui stai reagendo sono registrati sulla stessa timeline, i tempi sono reali. Se registri la reazione dopo, a parte, chi guarda sente che è finta, anche se non saprebbe dire perché.</p>
+      <p>È un video in cui la fotocamera frontale e quella posteriore registrano insieme: la scena principale riempie lo schermo e il tuo viso sta in un piccolo riquadro, oppure le due inquadrature sono una sopra l'altra a schermo diviso. È il look della maggior parte dei video reaction e dei vlog in movimento, e siccome le due riprese condividono la stessa timeline, i tempi della reazione sono reali.</p>
 
-      <h2>A cosa serve l'effetto doppia fotocamera?</h2>
+      <h2>Quale opzione doppia fotocamera conviene usare?</h2>
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th>Opzione</th><th>Cosa ottieni</th><th>Telefoni</th><th>Puoi cambiare il layout dopo?</th><th>Costo</th></tr></thead>
+        <tbody>
+          <tr><td>ContentCam Frontale e posteriore</td><td>Due file separati, selfie e posteriore, da un solo take; se vuoi, poi un video in Picture in Picture o a schermo diviso</td><td>Qualsiasi iPhone con iOS 18 o successivo (iPhone XS, XR e successivi); telefoni Android in grado di far funzionare entrambe le fotocamere</td><td>Sì</td><td>5 registrazioni gratuite, poi Premium</td></tr>
+          <tr><td>Fotocamera di iPhone, Dual Capture</td><td>Un video di te e della scena</td><td>iPhone 17, 17 Pro, 17 Pro Max, Air, 18 Pro, 18 Pro Max, Duo</td><td>No</td><td>Integrata</td></tr>
+          <tr><td>Dual Camera di Snapchat</td><td>Uno Snap con entrambe le fotocamere</td><td>iPhone XS, XS Max, XR o successivi; Android «a breve»</td><td>No</td><td>Gratis</td></tr>
+          <tr><td>Dual di Instagram</td><td>Una clip nella fotocamera di Instagram</td><td>Non indicato da Meta</td><td>No</td><td>Gratis</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Usa una modalità integrata quando la clip che registri è la clip che pubblichi. Usa ContentCam quando vuoi montare le due inquadrature o il tuo telefono non ha Dual Capture: iPhone 16 e precedenti, iPhone 16e, iPhone 17e e telefoni Android.</p>
+
+      <h2>Perché registrare le due fotocamere in file separati?</h2>
+      <p>Tutte le opzioni integrate imprimono il layout in un unico file al momento della ripresa. Con file separati puoi:</p>
       <ul>
-        <li><strong>Reaction.</strong> Il tuo viso sopra la clip, il trailer, il messaggio o il prodotto a cui stai reagendo.</li>
-        <li><strong>Vlog e POV.</strong> Mostra la passeggiata, il piatto, il panorama, con te nell'angolo che racconti mentre succede.</li>
-        <li><strong>Unboxing e demo.</strong> Le tue mani sull'oggetto dalla fotocamera posteriore, il tuo viso che reagisce da quella frontale, in un solo take.</li>
-        <li><strong>Tutorial.</strong> Punta la fotocamera posteriore su quello che stai facendo mentre il tuo viso lo spiega.</li>
+        <li><strong>Posizionare il riquadro dopo.</strong> Spostalo, ridimensionalo o nascondilo quando copre la scena.</li>
+        <li><strong>Alternare le inquadrature.</strong> Il tuo viso a schermo intero per la reazione, poi la scena a schermo intero.</li>
+        <li><strong>Tenere un B-roll pulito</strong>, senza il viso sovrapposto.</li>
+        <li><strong>Montare dove vuoi.</strong> Instagram e Snapchat ti danno una sola clip combinata, non due file da usare in CapCut o Premiere.</li>
       </ul>
 
-      <h2>Meglio una modalità integrata o un'app dedicata?</h2>
-      <p>Usa la modalità integrata quando la clip che registri è la clip che pubblichi. Usa un'app dedicata quando vuoi montare le due inquadrature.</p>
-      <ul>
-        <li><strong>Le modalità integrate</strong> (Dual Capture, Instagram, Snapchat) ti danno un unico video finito con l'inquadratura di quell'app e, di solito, solo il suo formato.</li>
-        <li><strong>Un'app dedicata</strong> può tenere le due inquadrature in file separati, così dimensione, posizione del riquadro e layout li decidi in montaggio invece che al momento della ripresa.</li>
-      </ul>
+      <h3>Come si fa in ContentCam?</h3>
+      <ol>
+        <li>Apri ContentCam e passa a <a href="/it/features/">Frontale e posteriore</a>.</li>
+        <li>Registra una volta. La fotocamera posteriore e quella per i selfie escono dallo stesso take in due file.</li>
+        <li>Per pubblicare un solo video, apri l'editor Unisci e scegli Picture in Picture o schermo diviso. Provare i layout è gratis, mentre per salvare un video unito serve Premium. I file originali restano.</li>
+      </ol>
 
-      <h3>Come farlo in ContentCam</h3>
-      <p>ContentCam ha una <a href="/it/features/">modalità Frontale e posteriore</a>: apri l'app, passa a Frontale e posteriore, registra una volta, e la fotocamera posteriore e quella per i selfie escono dallo stesso take in due file separati, così il riquadro lo posizioni tu in montaggio. Può anche unire i due in un unico video in Picture in Picture o a schermo diviso direttamente nell'app. È su iPhone e Android, e non c'è filigrana su niente di quello che produce.</p>
+      <p>Niente pubblicità e niente filigrana, gratis o con Premium. Frontale e posteriore registra in HD: fino a 60 fps sugli iPhone compatibili (i 60 fps sono Premium), fino a 30 fps su Android.</p>
 
       <figure>
         <div class="shot-pair">
           <img src="/assets/blog/dual-camera-effect/front-back-pip-recording.webp" alt="ContentCam che registra in modalità Frontale e posteriore accanto a un lago turchese, con la fotocamera selfie in Picture in Picture sopra la vista della fotocamera posteriore" width="640" height="1391" loading="lazy" decoding="async">
           <img src="/assets/blog/dual-camera-effect/front-back-review.webp" alt="Schermata di revisione di ContentCam dopo un take Frontale e posteriore, con il file del lago e il file del selfie affiancati" width="640" height="1391" loading="lazy" decoding="async">
         </div>
-        <figcaption>Frontale e posteriore accanto a un lago di montagna turchese: la vista in Picture in Picture dal vivo durante la registrazione (a sinistra), poi la schermata di revisione con il file posteriore e quello del selfie affiancati (a destra).</figcaption>
+        <figcaption>L'anteprima dal vivo durante la registrazione (a sinistra), poi il file posteriore e quello del selfie affiancati (a destra).</figcaption>
       </figure>
 
-      <h2>Si può avere l'effetto doppia fotocamera in verticale e in orizzontale?</h2>
-      <p>Non da una sola ripresa con le modalità integrate, perché ognuna registra un solo formato. Il look reaction è perfetto per TikTok, Reels e Shorts, che sono tutti verticali (9:16). Se vuoi la clip anche su YouTube ti serve una versione orizzontale (16:9), e rigirare una reazione per ottenerla non ha senso, perché la reazione non sarà la stessa.</p>
-      <p>È il problema attorno a cui è nata ContentCam. A parte la modalità Frontale e posteriore, la sua modalità principale registra una scena <a href="/it/blog/record-portrait-and-landscape-video-same-time-iphone/">come file verticale e file orizzontale contemporaneamente</a>, da un solo take, così puoi girare per <a href="/it/blog/film-for-tiktok-and-youtube-at-the-same-time/">TikTok e YouTube senza rigirare</a>.</p>
+      <h2 id="iphone-dual-capture">Come si usa Dual Capture su iPhone?</h2>
+      <p>Secondo il Manuale utente di iPhone di Apple: apri Fotocamera, seleziona Video, tocca il pulsante dei controlli della fotocamera, tocca <strong>Dual Capture</strong>, poi tocca lo schermo e registra. Apple indica sette modelli (quelli nella tabella qui sopra); iPhone 16 e precedenti, iPhone 16e e iPhone 17e non ce l'hanno. Approfondisci in <a href="/it/blog/iphone-17-dual-capture-limitations/">Dual Capture di iPhone 17 e dove si ferma</a>.</p>
 
-      <h2>Come fare un video con doppia fotocamera che si veda bene?</h2>
-      <p>Scegli la modalità prima di registrare, poi illumina il viso e inquadra tenendo conto del riquadro. La fotocamera frontale ha il sensore più debole e l'audio è facile da sbagliare, quindi poche abitudini fanno quasi tutto il lavoro:</p>
-      <ul>
-        <li><strong>Illumina il viso.</strong> Mettiti di fronte a una finestra o a una lampada. La fotocamera selfie diventa granulosa negli ambienti bui prima di quella posteriore, e il tuo viso è la parte che la gente guarda.</li>
-        <li><strong>Trova un posto fisso al riquadro.</strong> Inquadra la ripresa posteriore con un angolo già riservato, così il tuo viso non copre quello che stai mostrando. In Dual Capture, l'illustrazione di Apple mette la finestra della fotocamera frontale in alto a sinistra.</li>
-        <li><strong>Parla verso il telefono.</strong> I microfoni del telefono favoriscono chi è più vicino e parla più forte. Se ti allontani per mostrare qualcosa la tua voce cala, quindi alza la voce, o avvicinati per le frasi che contano.</li>
-        <li><strong>Blocca l'esposizione se ti muovi.</strong> Passare da una finestra luminosa a un corridoio buio manda in crisi entrambe le fotocamere, con l'esposizione che oscilla di continuo. Bloccarla mantiene il look stabile, e i <a href="/it/features/manual-controls/">controlli manuali</a> di ContentCam lo fanno.</li>
-        <li><strong>Gira pensando subito alla piattaforma.</strong> Verticale per TikTok, Reels e Shorts. Se vuoi anche YouTube, registra la versione orizzontale nello stesso take invece di ritagliare dopo.</li>
-      </ul>
+      <h2 id="android">Come usare entrambe le fotocamere insieme su Android?</h2>
+      <p>Usa un'app fotocamera con una modalità frontale e posteriore, oppure controlla Dual di Instagram. Dual Capture di Apple è solo per iPhone, e il centro assistenza di Snapchat dice ancora che Dual Camera «sarà presto disponibile su Android». Il resto lo decide l'hardware: Android 11 ha introdotto <code>getConcurrentCameraIds()</code>, che indica quali fotocamere possono funzionare insieme, e ContentCam offre Frontale e posteriore solo dove funziona.</p>
+
+      <h2>Perché la doppia fotocamera di Instagram non compare?</h2>
+      <p>Meta ha annunciato Dual a luglio 2022 come strumento dei Reels per «registrare usando contemporaneamente la fotocamera frontale e quella posteriore del telefono». Se non la trovi, aggiorna Instagram, cerca nella fotocamera dei Reels e poi in quella delle Storie, e verifica che il telefono riesca a usare due fotocamere insieme. Se ancora non c'è, registra con <a href="#iphone-dual-capture">Dual Capture</a> o con un'app con fotocamera frontale e posteriore (vedi <a href="/it/blog/best-front-and-back-dual-camera-apps/">il confronto tra app doppia fotocamera</a>) e carica la clip come Reel.</p>
+
+      <h2>Come fare un selfie e una foto con la fotocamera posteriore nello stesso momento?</h2>
+      <p>Dual Camera di Snapchat scatta un unico Snap con entrambe le fotocamere in un layout fisso; Dual Capture e Dual di Instagram funzionano solo in video. La foto Frontale e posteriore di ContentCam salva il selfie e lo scatto posteriore come due foto separate con un solo tocco, su iPhone e Android (è una funzione Premium). <a href="/it/blog/take-photo-front-and-back-camera-same-time/">Qui i passaggi uno per uno</a>.</p>
+
+      <h2>Si può avere l'effetto doppia fotocamera in verticale e in orizzontale?</h2>
+      <p>Non con le modalità integrate, che registrano un solo formato: ritagliare un video verticale in 16:9 conserva circa un terzo dell'inquadratura. La modalità principale di ContentCam registra una scena <a href="/it/blog/record-portrait-and-landscape-video-same-time-iphone/">come file verticale e file orizzontale contemporaneamente</a>, così puoi girare per <a href="/it/blog/film-for-tiktok-and-youtube-at-the-same-time/">TikTok e YouTube senza rigirare</a>.</p>
 
       <h2>Domande frequenti</h2>
-      <p><strong>Come si registra con la fotocamera frontale e posteriore contemporaneamente?</strong> Attiva una modalità doppia fotocamera prima di premere Registra. Su iPhone 17, iPhone Air, iPhone 18 Pro o iPhone Duo è Dual Capture nell'app Fotocamera. Sugli altri telefoni è la funzione Dual di Instagram, Dual Camera di Snapchat su iPhone oppure un'app fotocamera di terze parti con una modalità frontale e posteriore.</p>
-      <p><strong>Come si attiva la doppia fotocamera sul telefono?</strong> Probabilmente ce l'hai già. Se hai un iPhone 17, iPhone Air, iPhone 18 Pro o iPhone Duo, controlla prima l'app Fotocamera, poi l'opzione Dual nella fotocamera di Instagram. Se non compare nessuna delle due, la aggiunge un'app fotocamera con una modalità frontale e posteriore, a patto che il telefono riesca a usare due fotocamere insieme.</p>
-      <p><strong>Come si fa un video con la doppia fotocamera?</strong> Scegli la modalità prima di registrare: Dual Capture su un iPhone compatibile, Dual nella fotocamera di Instagram, Dual Camera in Snapchat su iPhone oppure un'app con fotocamera frontale e posteriore. Inquadra la scena principale lasciando libero un angolo per il tuo viso, illumina il viso, poi registra in un'unica ripresa così la reazione e la scena condividono la stessa timeline.</p>
-      <p><strong>L'effetto doppia fotocamera è gratis?</strong> Sì. Dual di Instagram, Dual Camera di Snapchat e Dual Capture di iPhone sono tutti gratuiti. Un'app separata serve solo quando vuoi le due inquadrature come girato utilizzabile invece che come post già finito.</p>
-      <p><strong>Serve un iPhone 17 per usare entrambe le fotocamere insieme?</strong> No. Dual Capture nell'app Fotocamera di serie richiede un modello di iPhone 17, iPhone Air, un modello di iPhone 18 Pro o iPhone Duo. Dual Camera di Snapchat funziona da iPhone XS e XR in poi, e le app di terze parti possono usare insieme la fotocamera frontale e quella posteriore da iOS 13.</p>
-      <p><strong>L'effetto doppia fotocamera funziona su Android?</strong> Sì, sui telefoni il cui hardware lo supporta. Android 11 ha introdotto un modo ufficiale per far usare alle app due fotocamere insieme, e ogni telefono indica quali fotocamere può far funzionare contemporaneamente. Dual Capture di Apple è solo per iPhone, e il centro assistenza di Snapchat indica ancora Dual Camera come in arrivo su Android.</p>
-      <p><strong>Perché la doppia fotocamera di Instagram non compare?</strong> Di solito l'app di Instagram non è aggiornata, sei nella sezione sbagliata della fotocamera di Instagram, oppure il telefono non riesce a usare insieme la fotocamera frontale e quella posteriore. Aggiorna Instagram, cerca Dual prima nella fotocamera dei Reels e poi in quella delle Storie, e verifica che il telefono supporti due fotocamere insieme (AVCaptureMultiCamSession di Apple su iPhone, getConcurrentCameraIds() su Android 11 e successivi). Se Dual continua a non comparire, registra con Dual Capture su iPhone 17, iPhone Air, iPhone 18 Pro o iPhone Duo, oppure con un'app con fotocamera frontale e posteriore, e carica la clip.</p>
-      <p><strong>Posso spostare il riquadro piccolo dopo?</strong> Non con le opzioni gratuite. Registrano un solo file con il layout già impresso. Per cambiare il layout in fase di montaggio ti servono le due fotocamere salvate in due file separati.</p>
-      <p><strong>Perché il mio video con doppia fotocamera funziona solo su una piattaforma?</strong> Perché è stato registrato in un solo formato. Un video verticale ritagliato in orizzontale conserva solo circa un terzo dell'inquadratura, ed è per questo che la stessa clip raramente funziona sia su TikTok sia su YouTube.</p>
+      <p><strong>Come si registra con la fotocamera frontale e posteriore contemporaneamente?</strong> Attiva una modalità doppia fotocamera prima di registrare. Su iPhone 17, iPhone Air, iPhone 18 Pro o iPhone Duo è Dual Capture nell'app Fotocamera. Sugli altri iPhone con iOS 18 o successivo e sui telefoni Android in grado di far funzionare entrambe le fotocamere, un'app con fotocamera frontale e posteriore come ContentCam le registra entrambe in file separati.</p>
+      <p><strong>Serve un iPhone 17 per usare entrambe le fotocamere insieme?</strong> No. Dual Capture richiede un modello di iPhone 17, iPhone Air, un modello di iPhone 18 Pro o iPhone Duo. Su iPhone 15, iPhone 16 e gli altri iPhone con iOS 18 o successivo, la modalità Frontale e posteriore di ContentCam registra con entrambe le fotocamere, e Dual Camera di Snapchat funziona da iPhone XS e XR in poi.</p>
+      <p><strong>L'effetto doppia fotocamera è gratis?</strong> Le versioni integrate sì: Dual di Instagram, Dual Camera di Snapchat e Dual Capture di iPhone ti danno ciascuna un unico file finito con il layout fisso. Frontale e posteriore di ContentCam offre 5 registrazioni gratuite in due file separati, poi richiede Premium.</p>
+      <p><strong>Posso spostare il riquadro piccolo dopo?</strong> Non con le opzioni integrate, che imprimono il layout in un unico file. Ti servono le due fotocamere salvate in file separati, ed è proprio quello che registra la modalità Frontale e posteriore di ContentCam.</p>
 
-      <p>Fonti, verificate il 4 ottobre 2026: le pagine di Apple <a href="https://support.apple.com/en-au/guide/iphone/iph61f49e4bb/27/ios/27">Registrare un video con la fotocamera di iPhone</a> e <a href="https://support.apple.com/en-au/guide/iphone/aside/glos3842gv5b/27/ios/27">Modelli che supportano i video Dual Capture</a>, la <a href="https://www.apple.com/iphone-17/specs/">pagina delle specifiche di iPhone 17</a>, la documentazione di Apple su <a href="https://developer.apple.com/documentation/avfoundation/avcapturemulticamsession">AVCaptureMultiCamSession</a>, le pagine di Snapchat <a href="https://help.snapchat.com/hc/en-us/articles/8132982011668-What-is-Dual-Camera-on-Snapchat-and-how-do-I-use-it">Che cos'è Dual Camera su Snapchat</a> e <a href="https://help.snapchat.com/hc/en-us/articles/8866040216084-Who-is-Dual-Camera-available-for-on-Snapchat">Per chi è disponibile Dual Camera</a>, l'<a href="https://about.fb.com/news/2022/07/new-ways-to-create-instagram-reels-remix/">annuncio di Meta sui Reels</a> e il riferimento Android <a href="https://developer.android.com/reference/android/hardware/camera2/CameraManager">CameraManager</a>.</p>
+      <p>Fonti, verificate il 5 novembre 2026: le pagine di Apple <a href="https://support.apple.com/en-au/guide/iphone/iph61f49e4bb/27/ios/27">Registrare un video con la fotocamera di iPhone</a> e <a href="https://support.apple.com/en-au/guide/iphone/aside/glos3842gv5b/27/ios/27">Modelli che supportano i video Dual Capture</a>, la documentazione di Apple su <a href="https://developer.apple.com/documentation/avfoundation/avcapturemulticamsession">AVCaptureMultiCamSession</a>, le pagine di Snapchat <a href="https://help.snapchat.com/hc/en-us/articles/8132982011668-What-is-Dual-Camera-on-Snapchat-and-how-do-I-use-it">Che cos'è Dual Camera su Snapchat</a> e <a href="https://help.snapchat.com/hc/en-us/articles/8866040216084-Who-is-Dual-Camera-available-for-on-Snapchat">Per chi è disponibile Dual Camera</a>, l'<a href="https://about.fb.com/news/2022/07/new-ways-to-create-instagram-reels-remix/">annuncio di Meta sui Reels</a> e il riferimento Android <a href="https://developer.android.com/reference/android/hardware/camera2/CameraManager">CameraManager</a>.</p>
       <div class="post-cta">
-        <p><strong>Prova ContentCam gratis</strong>, verticale e orizzontale da un unico shooting, più Frontale e posteriore per il look a doppia fotocamera. Ogni take ti dà due file puliti. Senza filigrana, su iPhone e Android.</p>
+        <p><strong>Prova ContentCam gratis</strong>, verticale e orizzontale da un unico shooting, più Frontale e posteriore per il look a doppia fotocamera in due file separati. Senza pubblicità, senza filigrana, su iPhone e Android.</p>
         <div class="badges">
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=it-b-dual-camera-effect&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Scarica su App Store" width="156" height="52"></a>
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dit-dual-camera-effect"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Disponibile su Google Play" width="175" height="52"></a>
         </div>
       </div>
-
-      <p>Leggi anche: <a href="/it/blog/film-reaction-video-phone/">come registrare un video reaction con il telefono</a> · <a href="/blog/snapchat-front-and-back-camera/">fotocamera frontale e posteriore su Snapchat</a> · <a href="/it/blog/record-front-and-back-camera-same-time-iphone/">modelli di iPhone, versioni di iOS e limiti per registrare con frontale e posteriore</a>, <a href="/it/blog/best-front-and-back-dual-camera-apps/">le migliori app doppia fotocamera e frontale e posteriore a confronto</a> e <a href="/it/features/dual-camera/">la differenza tra registrazione frontale/posteriore e doppio obiettivo</a>. E ancora: <a href="/it/blog/iphone-17-dual-capture-limitations/">Dual Capture di iPhone 17 e dove si ferma</a>. · <a href="/blog/film-kid-reaction-and-what-they-see/">come riprendere la reazione di tuo figlio e quello che vede</a> · <a href="/blog/bereal-style-photo-without-bereal/">una foto in stile BeReal senza BeReal</a></p>
     </article>
   </main>
 

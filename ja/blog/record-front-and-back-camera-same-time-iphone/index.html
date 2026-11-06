@@ -93,35 +93,34 @@
       <h1>iPhoneでインカメラと外カメラを同時に録画する方法</h1>
       <p class="byline">文：Jimmy（ContentCam開発者）· 2026年8月3日 · 2026年11月5日更新</p>
 
-      <p>iPhoneでインカメラと背面カメラを同時に録画するには、iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max、iPhone Duoのいずれかなら、Dual Captureを使います。「カメラ」アプリを開いて「ビデオ」を選び、カメラコントロールのボタンをタップしてから、Dual Captureをタップします。それ以前のiPhoneでは、前後カメラのモードがあるサードパーティ製カメラアプリを使います。iPhoneがアプリに対してマルチカメラ対応を報告していれば使えます。Dual Captureは、隅にあなたの顔が入った動画を1本保存します。ContentCamの前後カメラ（Front/Back）モードは、2つのカメラの映像を別々の2つのファイルとして保存するか、ワイプ（ピクチャ・イン・ピクチャ）または画面分割でひとつの動画に合成します。SplitRigはiOS 26以降で使える無料アプリで、合成済みの動画を1本保存します。</p>
-      <p>なぜ同時に撮るのでしょうか。リアクション、開封動画、POVの実況は、あなたの顔と撮っているものが同じ瞬間に録画されていてこそ成り立ちます。別々に撮ると、リアクションがわざとらしく見えてしまいます。</p>
-      <p>このページでは、iPhoneならではの点、つまり対応機種、対応するiOSのバージョン、そしてどこに限界があるかを扱います。InstagramやSnapchatの無料の方法を含め、iPhoneとAndroidのあらゆるやり方を知りたい場合は、まずメインのガイド<a href="/ja/blog/dual-camera-effect/">インカメラと外カメラを同時に使う方法</a>をご覧ください。</p>
+      <p>iPhoneでインカメラと背面カメラを同時に録画するには、iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max、iPhone Duoのいずれかなら、Dual Captureを使います。「カメラ」アプリを開いて「ビデオ」を選び、カメラコントロールのボタンをタップしてから、Dual Captureをタップします。それ以外のiPhoneでも、iOS 18が動作する機種（iPhone XS、XR以降。iPhone 15やiPhone 16も含みます）なら、ContentCamの前後カメラ（Front/Back）モードを使えます。Dual Captureは、あなたの顔が映像に焼き込まれた動画を最大30fpsで1本保存します。ContentCamは、対応するiPhoneならインカメラと背面カメラの映像を最大60fpsで別々の2つのファイルとして保存するので、ワイプ（ピクチャ・イン・ピクチャ）にするか画面分割にするかは、あとから合成（Combine）エディタで選べます。無料の代替アプリとしてはSplitRigがあり、iOS 26以降が必要で、合成済みの動画を1本保存します。</p>
+      <p>私はContentCamの開発者なので、その点は割り引いてお読みください。Apple、Snapchat、SplitRigについての記述は、すべて2026年11月5日にそれぞれの公式ページで確認しました。InstagramやSnapchatを含め、iPhoneとAndroidのあらゆる方法については、メインのガイド<a href="/ja/blog/dual-camera-effect/">インカメラと外カメラを同時に使う方法</a>をご覧ください。</p>
 
       <h2>インカメラと外カメラを同時に録画できるiPhoneはどれ？</h2>
-      <p>どのアプリで録画するかによって変わります。2026年10月4日時点の情報です。</p>
+      <p>どのアプリで録画するかによって変わります。2026年11月5日に確認した情報です。</p>
       <ul>
         <li><strong>Appleの「カメラ」アプリ（Dual Capture）：</strong>AppleのiPhoneユーザガイドによると、対象は7機種です。iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max、iPhone Duo。iPhone 17の仕様ページでは、Dual Captureは最大4K Dolby Vision・30fpsとされています。</li>
-        <li><strong>サードパーティ製カメラアプリ：</strong>Appleは、アプリが複数のカメラを同時に動かせるようにするシステム機能AVCaptureMultiCamSessionを、iOS 13で追加しました。それ以前のiPhoneで使えるのは、その端末がアプリに対してマルチカメラ対応を報告する場合だけです。</li>
+        <li><strong>サードパーティ製カメラアプリ：</strong>Appleは、アプリが複数のカメラを同時に動かせるようにするシステム機能AVCaptureMultiCamSessionを、iOS 13で追加しました。ContentCamの前後カメラ（Front/Back）モードはiOS 18が必要なので、iPhone XS、XRとそれ以降のすべての機種で動作します。SplitRigはApp StoreのページでiOS 26以降が必要とされています。</li>
         <li><strong>SnapchatのDual Camera：</strong>SnapchatのヘルプセンターではiPhone XS、XS Max、XR以降が対象とされています。</li>
       </ul>
-      <p>つまずきやすい限界が2つあります。Dual Captureは顔が映像に焼き込まれた1つのファイルとして録画すること、そしてiPhoneのサードパーティ製アプリは2つのカメラを4KではなくHDで録画することです。どちらも<a href="/ja/blog/iphone-17-dual-capture-limitations/">iPhone 17のDual Captureとその限界</a>で詳しく説明しています。</p>
+      <p>つまずきやすい限界が2つあります。Dual Captureは顔が映像に焼き込まれた1つのファイルとして録画するので、撮影後にレイアウトを変えられません。ContentCamは2つのカメラを4KではなくHDで録画しますが、2つのファイルとして残るので、レイアウトはあとから決められます。どちらも<a href="/ja/blog/iphone-17-dual-capture-limitations/">iPhone 17のDual Captureとその限界</a>で詳しく説明しています。</p>
 
       <h2>前後カメラの同時録画は何に使える？</h2>
       <p>両方のカメラが同時に回っていることが決め手になる動画のジャンルがあります。</p>
       <ul>
-        <li><strong>リアクション。</strong>反応しているクリップ、動画、メッセージの上に、あなたの顔を重ねます。タイミングが本物でなければならず、本物になるのは両方を一緒に録画したときだけです。</li>
+        <li><strong>リアクション。</strong>反応しているクリップやメッセージの上に、あなたの顔を重ねます。タイミングも本物のままです。</li>
         <li><strong>開封動画とデモ。</strong>背面カメラで商品を触る手元を、インカメラで反応する顔を撮ります。1回のテイクで、2つのクリップを切り替える編集も不要です。</li>
         <li><strong>実況つきのPOV。</strong>景色、食事、ワークアウトを見せながら、隅のあなたがその場で語ります。</li>
-        <li><strong>チュートリアル。</strong>背面カメラを作業中の手元に向け、あなたの顔がそれを解説します。見る人は手順と話し手を同時に見られます。</li>
+        <li><strong>チュートリアル。</strong>背面カメラで作業を映し、あなたの顔がそれを解説します。</li>
       </ul>
-      <p>共通しているのは、2つの映像が同時でなければ成り立たないということです。あとから撮ったリアクションがわざとらしく見えるのは、実際にわざとらしいからです。</p>
+      <p>2つの映像は同時でなければなりません。あとから撮ったリアクションがわざとらしく見えるのは、実際にわざとらしいからです。</p>
 
       <h2>iPhoneで前後カメラを同時に録画する仕組みは？</h2>
-      <p>最近のiPhoneは、複数のカメラを同時に動かせます。前後カメラのモードはそれを使い、背面のレンズと前面のレンズで一緒に録画して、あなたの顔を映像の中に、たいていはメインの映像の上の小窓として入れます。録画ボタンを1回押せば両方のカメラが同じタイムラインで回るので、音声もリアクションも、編集の手間なしでずれずにそろいます。</p>
-      <p>これは、同じ光景を2つの構図で撮るために<em>背面</em>のカメラを2つ使って録画するのとは別物です。そちらはデュアルレンズで、<a href="/ja/features/dual-camera/">別の問題</a>を解決するものです。前後カメラは、あなた自身と、あなたが見ているものを撮るためのものです。</p>
+      <p>最近のiPhoneは、複数のカメラを同時に動かせます。前後カメラのモードはそれを使い、背面のレンズと前面のレンズで一緒に録画して、あなたの顔を映像の中に、たいていはメインの映像の上の小窓として入れます。録画ボタンを1回押せば両方のカメラが同じタイムラインで回るので、音声もリアクションもずれずにそろいます。</p>
+      <p>同じ光景を2つの構図で撮るために<em>背面</em>のカメラを2つ使って録画するのはデュアルレンズで、<a href="/ja/features/dual-camera/">別の機能</a>です。</p>
 
       <h2>ContentCamで前後カメラを同時に録画するには？</h2>
-      <p>ContentCamには、縦と横を同時に撮る録画とあわせて、前後カメラ（Front/Back）モードがあります。アプリを開いて前後カメラ（Front/Back）に切り替え、録画するだけです。1回のテイクから、背面カメラとインカメラの映像が別々の2つのファイルとして、またはワイプ（ピクチャ・イン・ピクチャ）や画面分割でひとつにまとめた動画として保存されます。2つのカメラはHDで録画されます。私がテストしたすべてのiPhoneで、Appleのマルチカメラ用フォーマットの上限が1920×1440だったからです。同じアプリで9:16と16:9を同時に録画でき、<a href="/ja/features/teleprompter/">テレプロンプター</a>も内蔵しています。リアクション動画に使うツールが、そのまま普段の動画を1回撮って両方の比率で投稿できるツールにもなります。<a href="/ja/features/">機能の一覧はこちらです。</a></p>
+      <p>ContentCamには、縦と横を同時に撮る録画とあわせて、前後カメラ（Front/Back）モードがあります。アプリを開いて前後カメラ（Front/Back）に切り替え、録画するだけです。1回のテイクから、背面カメラとインカメラの映像が別々の2つのファイルとして保存されます。そのあと合成（Combine）エディタで、元のファイルを残したまま、ワイプ（ピクチャ・イン・ピクチャ）または画面分割のひとつの動画にまとめられます。ContentCamは2つのカメラをHDで録画します。私がテストしたすべてのiPhoneで、Appleのマルチカメラ用フォーマットの上限が1920×1440だったからです。フレームレートは、対応するiPhoneなら最大60fps（60fpsはPremium）で、Dual Captureの30fpsを上回ります。前後カメラ（Front/Back）の録画は最初の5回まで無料で、その後はPremiumです。無料版でもPremiumでも、広告は表示されず、ウォーターマークも入りません。ContentCamは9:16と16:9を同時に録画することもでき、<a href="/ja/features/teleprompter/">テレプロンプター</a>も内蔵しています。<a href="/ja/features/">機能の一覧はこちらです。</a></p>
 
       <div class="shot-pair">
         <img src="/assets/img/ui-record-handsup-640.webp" alt="モード切り替えが表示されたContentCamの録画画面" width="640" height="1387" loading="lazy" decoding="async">
@@ -132,13 +131,13 @@
       <p>インカメラは背面カメラよりセンサーが弱く、音声も失敗しやすいので、いくつかのポイントで仕上がりが大きく変わります。</p>
       <ul>
         <li><strong>顔に光を当てる。</strong>窓やライトのほうを向いて座りましょう。暗い部屋では、インカメラは背面カメラより早く粗くなります。そして見る人が注目するのは、あなたの顔です。</li>
-        <li><strong>小窓の位置を意識する。</strong>顔を入れる隅を1か所空けておき、見せたいものに顔が重ならないようにします。背面カメラの構図は、その隅がふさがっている前提で決めましょう。</li>
+        <li><strong>小窓の位置を意識する。</strong>背面カメラの構図は、顔を入れる隅を1か所空けて決めましょう。</li>
         <li><strong>スマホに向かって話す。</strong>スマホのマイクは、いちばん近くて大きな声を優先して拾います。何かを見せるために一歩下がると、声が小さくなります。声を張るか、大事なところでは近づきましょう。</li>
-        <li><strong>動くなら露出を固定する。</strong>明るい窓際から暗い廊下へ歩くと、両方のカメラの露出が迷います。固定すれば明るさが揺れません。ContentCamの<a href="/ja/features/manual-controls/">手動コントロール</a>なら、しっかり固定できます。</li>
+        <li><strong>動くなら露出を固定する。</strong>明るい窓際から暗い廊下へ歩くと、両方のカメラの露出が迷います。ContentCamの<a href="/ja/features/manual-controls/">手動コントロール</a>なら、しっかり固定できます。</li>
       </ul>
 
       <h2>ContentCamの前後カメラ（Front/Back）モードはどのiPhoneで使える？</h2>
-      <p>ContentCamが動作するすべてのiPhoneで使えます。ContentCamにはiOS 18以降が必要で、iOS 18が動作するiPhoneはすべてAppleのマルチカメラ撮影に対応しているからです。対象は、iPhone XS、iPhone XS Max、iPhone XR、iPhone 16eを含むiPhone 11、12、13、14、15、16の全モデル、iPhone SE（第2世代・第3世代）、そしてiPhone 17、iPhone 17 Pro、iPhone Air、iPhone 18 Proです。iPhone 17、iPhone Air、iPhone 18 Pro、iPhone Duoでは、Apple純正のDual Captureも使えます。</p>
+      <p>ContentCamが動作するすべてのiPhoneで使えます。ContentCamにはiOS 18以降が必要で、iOS 18が動作するiPhoneはすべてAppleのマルチカメラ撮影に対応しているからです。対象は、iPhone XS、XS Max、XR、iPhone 16eを含むiPhone 11、12、13、14、15、16の全モデル、iPhone SE（第2世代・第3世代）、そしてiPhone 17e、iPhone Air、iPhone Duoを含むiPhone 17とiPhone 18の全モデルです。Apple純正のDual Captureが使えないiPhone XSからiPhone 16、そしてiPhone 17eでは、ContentCamの前後カメラ（Front/Back）モードがその穴を埋めます。</p>
 
       <div class="post-cta">
         <p><strong>ContentCamを無料で試す</strong>。前後カメラを1回のテイクで、さらに1回の撮影で縦と横の両方も。iPhoneとAndroidで無料でダウンロードできます。</p>

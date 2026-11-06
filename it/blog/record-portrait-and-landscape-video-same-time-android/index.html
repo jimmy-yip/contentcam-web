@@ -64,7 +64,7 @@
           {
             "@type": "Question",
             "name": "Esiste un'app Android per registrare video in verticale e in orizzontale nello stesso momento?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Sì. ContentCam per Android registra un file verticale 9:16 e un file orizzontale 16:9 da un solo take, con la fotocamera posteriore e con quella frontale, in 1080p nella versione gratuita." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Sì. ContentCam per Android registra un file verticale 9:16 e un file orizzontale 16:9 da un solo take, con la fotocamera posteriore e con quella frontale, in 1080p nella versione gratuita, senza pubblicità né filigrana." }
           },
           {
             "@type": "Question",
@@ -74,7 +74,7 @@
           {
             "@type": "Question",
             "name": "Si possono registrare fotocamera frontale e posteriore insieme su Android per i video reaction?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Sì. La modalità frontale e posteriore di ContentCam registra la fotocamera frontale e quella posteriore in un solo take su Android, quindi puoi fare video reaction senza un secondo telefono. È una funzione Premium, con 5 registrazioni gratuite per provarla." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Sì. La modalità frontale e posteriore di ContentCam registra la fotocamera frontale e quella posteriore in un solo take sui telefoni Android le cui fotocamere possono funzionare insieme, salvando due file HD separati fino a 30fps. Con l'editor Unisci puoi poi trasformarli in un unico video in Picture in Picture o a schermo diviso. È una funzione Premium, con 5 registrazioni gratuite per provarla." }
           },
           {
             "@type": "Question",
@@ -123,34 +123,32 @@
       <h1>Come registrare video in verticale e in orizzontale contemporaneamente su Android (2026)</h1>
       <p class="byline">Di Jimmy, sviluppatore di ContentCam · 30 settembre 2026 · Aggiornato il 5 novembre 2026</p>
 
-      <p><strong>In breve:</strong> l'app fotocamera installata sul tuo telefono Android non ci riesce. Fotocamera Samsung e Pixel Camera registrano in un solo formato per take. Per avere un file verticale 9:16 e un file orizzontale 16:9 dallo stesso take puoi ritagliare l'uno dall'altro dopo, girare in 4K così il ritaglio ha pixel in abbondanza, oppure usare un'app che registra entrambi i file insieme da tutto il sensore, come ContentCam, che lo fa gratis in 1080p su Android e iPhone.</p>
-      <p>ContentCam la sviluppo io, quindi considera i calcoli qui sotto la parte utile. I numeri sono gli stessi qualunque strumento tu scelga.</p>
+      <p><strong>In breve:</strong> usa un'app che registra entrambi i file insieme da tutto il sensore. ContentCam lo fa su Android e iPhone: un solo take salva un file verticale 9:16 e un file orizzontale 16:9, gratis in 1080p, senza pubblicità, senza filigrana e senza account. L'app fotocamera installata sul telefono non ci riesce, perché Fotocamera Samsung e Pixel Camera registrano in un solo formato per take. Le alternative gratuite, cioè ritagliare dopo o girare in 4K e reinquadrare, perdono entrambe gran parte della scena.</p>
+      <p>ContentCam la sviluppo io, quindi verifica tu stesso i calcoli qui sotto. I numeri sono gli stessi qualunque strumento tu scelga.</p>
 
       <h2>La fotocamera di serie di Android può registrare in verticale e in orizzontale insieme?</h2>
-      <p>No. Le app fotocamera di serie di Android registrano in un solo formato per take: quello che hai scelto, o quello in cui tieni il telefono.</p>
+      <p>No. Le app fotocamera di serie di Android registrano in un solo formato per take.</p>
       <ul>
-        <li><strong>Fotocamera Samsung</strong> ha un'impostazione del formato nella fotocamera, e la pagina di assistenza di Samsung elenca 9:16, 1:1 e Full tra le opzioni, con l'avvertenza che "i formati disponibili possono variare in base alle specifiche della fotocamera del dispositivo". Ne scegli uno. Il telefono ne registra uno.</li>
-        <li><strong>Pixel Camera</strong>: la pagina di assistenza di Google per l'app Pixel Camera documenta le scelte di formato per le foto (Taglio lungo 16:9 e Immagine completa 4:3). Per i video non documenta alcuna scelta di formato. Un video girato con un Pixel è orizzontale o verticale a seconda di come tieni il telefono.</li>
+        <li><strong>Fotocamera Samsung</strong> ha un'impostazione del formato; la pagina di assistenza di Samsung elenca 1:1, 3:4, 9:16 e Schermo intero, con l'avvertenza che "i formati disponibili possono variare in base alle specifiche della fotocamera del dispositivo". Ne scegli uno. Il telefono ne registra uno.</li>
+        <li><strong>Pixel Camera</strong>: la guida di Pixel Camera di Google documenta i formati solo per le foto (Taglio lungo 16:9, Immagine completa 4:3), nessuno per i video. Un video girato con un Pixel è orizzontale o verticale a seconda di come tieni il telefono.</li>
         <li><strong>Google Foto</strong> può ritagliare un video finito in un altro formato a posteriori. È l'Opzione 1 qui sotto, con lo stesso costo.</li>
       </ul>
-      <p>Né le pagine di assistenza di Samsung né quelle di Google descrivono una modalità che salvi un file verticale e uno orizzontale da un solo take.</p>
 
       <h2>Opzione 1: quanto si perde ritagliando un video orizzontale in verticale?</h2>
-      <p>Tieni il 31,6% della larghezza e butti via il 68,4% della scena. Ecco il calcolo per un normale video orizzontale in 1080p:</p>
+      <p>Tieni il 31,6% della larghezza e butti via il 68,4% della scena. Per un video orizzontale in 1080p:</p>
       <ul>
         <li>Il fotogramma orizzontale è 1920×1080.</li>
         <li>Un ritaglio 9:16 a tutta altezza è 1080 × 9 ÷ 16 = <strong>607,5 pixel di larghezza</strong>.</li>
         <li>607,5 ÷ 1920 = <strong>0,316</strong>, quindi resta il 31,6% della larghezza.</li>
       </ul>
-      <p>Poi quella striscia di 607×1080 viene ingrandita a 1080×1920 per TikTok, Reels o Shorts. Sono 1,78 volte su ogni asse, ed è per questo che i verticali ritagliati risultano poco nitidi. Al contrario va peggio: un ritaglio 16:9 da un verticale 1080×1920 è una striscia di 1080×607 stirata a 1920×1080, ricavata da una porzione che della stanza ha sempre visto solo una fetta alta e stretta, a forma di telefono.</p>
-      <p>Ritaglia in post quando la persona riempie il centro dell'inquadratura e il secondo formato è un extra. Evitalo per viaggi, sport, riprese di prodotto o qualunque scena in cui lo sfondo conta.</p>
+      <p>Quella striscia di 607×1080 viene poi ingrandita 1,78 volte fino a 1080×1920 per TikTok, Reels o Shorts, ed è per questo che i verticali ritagliati risultano poco nitidi. Evita di ritagliare per viaggi, sport, riprese di prodotto o qualunque scena in cui lo sfondo conta.</p>
 
       <h2>Opzione 2: si può girare in 4K orizzontale e reinquadrare in verticale?</h2>
-      <p>Sì, e su un telefono che registra in 4K è la soluzione gratuita migliore. Un ritaglio 9:16 da un fotogramma 3840×2160 è 2160 × 9 ÷ 16 = <strong>1215×2160 pixel</strong>, più dei 1080×1920 che una piattaforma verticale riproduce. Il problema di risoluzione dell'Opzione 1 sparisce.</p>
-      <p>Il problema di inquadratura resta. Il verticale è sempre il 31,6% della larghezza orizzontale, quindi il soggetto deve stare esattamente al centro per tutto il take, e tutto ciò che hai composto per l'inquadratura larga (uno skyline, una seconda persona, un prodotto sul banco di lavoro) resta fuori dal verticale. In più monti ogni video due volte, e il 4K ha quattro volte i pixel del 1080p, quindi i file riempiono il telefono molto più in fretta.</p>
+      <p>Sì, ed è la migliore alternativa gratuita. Un ritaglio 9:16 da un fotogramma 3840×2160 è 2160 × 9 ÷ 16 = <strong>1215×2160 pixel</strong>, più dei 1080×1920 che una piattaforma verticale riproduce. Il problema di risoluzione dell'Opzione 1 sparisce.</p>
+      <p>Il problema di inquadratura resta: il verticale è sempre il 31,6% della larghezza orizzontale, quindi il soggetto deve stare esattamente al centro e tutto ciò che hai composto per l'inquadratura larga (uno skyline, una seconda persona) ne resta fuori. In più monti ogni video due volte, e i file 4K hanno quattro volte i pixel del 1080p.</p>
 
       <h2>Opzione 3: come si registrano entrambi i formati insieme su Android?</h2>
-      <p>Si registra tutto il fotogramma 4:3 del sensore e se ne ritagliano entrambi i formati durante la ripresa. Il sensore di un telefono è 4:3, più largo di un fotogramma 9:16 e più alto di un fotogramma 16:9. Prendiamo come esempio un fotogramma del sensore di 4000×3000:</p>
+      <p>Si registra tutto il fotogramma 4:3 del sensore, più largo del 9:16 e più alto del 16:9, e se ne ritagliano entrambi i formati durante la ripresa. Su un sensore di esempio di 4000×3000:</p>
       <div class="table-scroll">
         <table>
           <thead><tr><th>Metodo</th><th>Porzione verticale di un sensore 4000×3000</th><th>Percentuale dell'area del sensore</th></tr></thead>
@@ -161,25 +159,27 @@
         </table>
       </div>
       <p>Il verticale da tutto il fotogramma vede 1,78 volte più scena, e l'orizzontale 16:9 mantiene tutta la larghezza del sensore (4000×2250). Nessuno dei due file è un ritaglio dell'altro.</p>
-      <p>È così che funziona <a href="/it/android/">ContentCam per Android</a>. Un take salva un file 9:16 e un file 16:9, con la fotocamera posteriore e con quella frontale. Sui telefoni che danno accesso a un obiettivo ultra-grandangolo, l'opzione 0,5× dà a entrambi i ritagli una visuale più ampia. Se tieni il telefono di lato, entrambi i file vengono marcati con l'orientamento giusto e si riproducono dritti in CapCut o Premiere. La versione gratuita registra in 1080p a 30fps senza filigrana; <a href="/it/pricing/">Premium</a> aggiunge 4K e 60fps dove l'hardware del telefono li supporta.</p>
-      <p>Il limite, detto onestamente: la modalità Doppio obiettivo, che registra grandangolo e ultra-grandangolo nello stesso istante per due inquadrature diverse, per ora è solo su iPhone. La pagina dell'app Android la indica come non ancora disponibile.</p>
+      <p>È così che funziona <a href="/it/android/">ContentCam per Android</a>. Un take salva un file 9:16 e un file 16:9, con la fotocamera posteriore e con quella frontale. Sui telefoni che danno accesso a un obiettivo ultra-grandangolo, l'opzione 0,5× dà a entrambi i ritagli una visuale più ampia. Se tieni il telefono di lato, entrambi i file vengono marcati con l'orientamento giusto e si riproducono dritti in CapCut o Premiere. La versione gratuita registra take illimitati in entrambi i formati in 1080p e fino a 30fps, senza pubblicità e senza filigrana; <a href="/it/pricing/">Premium</a> aggiunge 4K e 60fps dove l'hardware del telefono li supporta.</p>
+      <p>Rispetto alle Opzioni 1 e 2, niente viene ritagliato a posteriori, inquadri ogni take una volta sola e non monti ogni video due volte.</p>
+      <p>Un limite: la modalità Doppio obiettivo, che registra grandangolo e ultra-grandangolo nello stesso istante, per ora è solo su iPhone.</p>
 
       <h2>Quale metodo conviene usare su Android?</h2>
       <table>
         <thead><tr><th>La tua situazione</th><th>Opzione migliore</th></tr></thead>
         <tbody>
-          <tr><td>Parli in camera, il viso riempie l'inquadratura, l'orizzontale è un extra</td><td>Ritagliare in post (Opzione 1)</td></tr>
-          <tr><td>Il telefono registra in 4K, il soggetto resta al centro, montare due volte non ti pesa</td><td>Girare in 4K e reinquadrare (Opzione 2)</td></tr>
-          <tr><td>Entrambe le versioni devono sembrare inquadrate apposta</td><td>Registrare entrambi insieme (Opzione 3)</td></tr>
+          <tr><td>Pubblichi spesso in entrambi i formati e vuoi che ognuno sembri inquadrato apposta</td><td>Registrare entrambi insieme (Opzione 3, consigliata)</td></tr>
+          <tr><td>Viaggi, sport o riprese di prodotto in cui lo sfondo conta</td><td>Registrare entrambi insieme (Opzione 3)</td></tr>
           <tr><td>Fotocamera frontale</td><td>Registrare entrambi insieme, funziona anche con la fotocamera frontale</td></tr>
+          <tr><td>Il telefono registra in 4K, il soggetto resta al centro, montare due volte non ti pesa</td><td>Girare in 4K e reinquadrare (Opzione 2)</td></tr>
+          <tr><td>Parli in camera, il viso riempie l'inquadratura, l'orizzontale è un extra occasionale</td><td>Ritagliare in post (Opzione 1)</td></tr>
         </tbody>
       </table>
 
       <h2>Domande frequenti</h2>
       <p><strong>Un telefono Android può registrare in verticale e in orizzontale contemporaneamente?</strong> Non con le app fotocamera di serie. Fotocamera Samsung e Pixel Camera registrano in un solo formato per take. Un'app di terze parti che registra da tutto il fotogramma 4:3 del sensore può salvare un file verticale 9:16 e un file orizzontale 16:9 dallo stesso take.</p>
-      <p><strong>Esiste un'app Android per registrare video in verticale e in orizzontale nello stesso momento?</strong> Sì. ContentCam per Android registra un file verticale 9:16 e un file orizzontale 16:9 da un solo take, con la fotocamera posteriore e con quella frontale, in 1080p nella versione gratuita.</p>
+      <p><strong>Esiste un'app Android per registrare video in verticale e in orizzontale nello stesso momento?</strong> Sì. ContentCam per Android registra un file verticale 9:16 e un file orizzontale 16:9 da un solo take, con la fotocamera posteriore e con quella frontale, in 1080p nella versione gratuita, senza pubblicità né filigrana.</p>
       <p><strong>Quanta parte dell'immagine si perde ritagliando un video da 16:9 a 9:16?</strong> Circa il 68%. Un ritaglio 9:16 a tutta altezza da un fotogramma 1920×1080 è largo 607,5 pixel, cioè il 31,6% dei 1920 pixel di larghezza. Il restante 68,4% della scena viene scartato.</p>
-      <p><strong>Si possono registrare fotocamera frontale e posteriore insieme su Android per i video reaction?</strong> Sì. La modalità frontale e posteriore di ContentCam registra la fotocamera frontale e quella posteriore in un solo take su Android, quindi puoi fare video reaction senza un secondo telefono. È una funzione Premium, con 5 registrazioni gratuite per provarla.</p>
+      <p><strong>Si possono registrare fotocamera frontale e posteriore insieme su Android per i video reaction?</strong> Sì. La modalità frontale e posteriore di ContentCam registra la fotocamera frontale e quella posteriore in un solo take sui telefoni Android le cui fotocamere possono funzionare insieme, salvando due file HD separati fino a 30fps. Con l'editor Unisci puoi poi trasformarli in un unico video in Picture in Picture o a schermo diviso. È una funzione Premium, con 5 registrazioni gratuite per provarla.</p>
       <p><strong>Girando in 4K su Android si può ricavare un video verticale da uno orizzontale?</strong> Sì, e la risoluzione avanza. Un ritaglio 9:16 da un fotogramma 3840×2160 misura 1215×2160 pixel, più di quanto serva a un video verticale 1080×1920. L'inquadratura resta però una fetta stretta della ripresa orizzontale, quindi quando giri il soggetto deve stare al centro.</p>
 
       <div class="post-cta">
@@ -190,7 +190,7 @@
         </div>
       </div>
 
-      <p>I dettagli sulle fotocamere di serie provengono dalla <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">pagina di assistenza Samsung sul formato della fotocamera</a>, dalla <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">guida di Pixel Camera</a> e dalla <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">guida di Google Foto</a>, consultate il 4 ottobre 2026. Articoli correlati: <a href="/blog/how-to-record-landscape-video-on-android/">come registrare video in orizzontale su Android</a> · <a href="/it/blog/record-portrait-and-landscape-video-same-time-iphone/">la versione per iPhone di questa guida</a> · <a href="/blog/android-camera-settings-for-video/">le migliori impostazioni della fotocamera Android per i video</a> · <a href="/blog/vertical-vs-horizontal-video/">video verticale o orizzontale</a></p>
+      <p>I dettagli sulle fotocamere di serie provengono dalla <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">pagina di assistenza Samsung sul formato della fotocamera</a>, dalla <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">guida di Pixel Camera</a> e dalla <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">guida di Google Foto</a>, verificate il 5 novembre 2026. Articoli correlati: <a href="/blog/how-to-record-landscape-video-on-android/">come registrare video in orizzontale su Android</a> · <a href="/it/blog/record-portrait-and-landscape-video-same-time-iphone/">la versione per iPhone di questa guida</a> · <a href="/blog/android-camera-settings-for-video/">le migliori impostazioni della fotocamera Android per i video</a> · <a href="/blog/vertical-vs-horizontal-video/">video verticale o orizzontale</a></p>
     </article>
   </main>
 

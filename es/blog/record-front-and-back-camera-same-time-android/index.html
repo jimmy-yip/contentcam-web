@@ -42,7 +42,7 @@
         "description": "Qué teléfonos Android graban con la cámara frontal y trasera a la vez en la app Cámara de fábrica, por qué Pixel Camera no puede y cómo obtener las dos cámaras como archivos separados con el modo Frontal y trasera de ContentCam.",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-10-08",
-        "dateModified": "2026-10-08",
+        "dateModified": "2026-11-05",
         "author": { "@type": "Person", "name": "Jimmy", "description": "Desarrollador de ContentCam", "url": "https://contentcam.app/press/" },
         "publisher": { "@id": "https://contentcam.app/#org" },
         "mainEntityOfPage": "https://contentcam.app/es/blog/record-front-and-back-camera-same-time-android/"
@@ -60,28 +60,28 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "¿Android puede grabar con la cámara frontal y trasera al mismo tiempo?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Sí, en teléfonos cuyo hardware puede usar las dos cámaras a la vez. Algunos Samsung Galaxy lo hacen en la app Cámara de fábrica (Vista del director con Grabación dual, en modelos seleccionados con One UI 3.1 o posterior). Pixel Camera no tiene un modo frontal y trasera. En otros teléfonos, una app de cámara con modo frontal y trasera puede hacerlo si el teléfono indica que las dos cámaras pueden funcionar juntas." }
+            "name": "¿Un Google Pixel puede grabar con la cámara frontal y trasera al mismo tiempo?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No con Pixel Camera. La vista previa en pantalla dual (Dual screen preview) de los modelos Pixel Fold muestra el visor en las dos pantallas mientras graba una sola cámara. En un Pixel que admite cámaras simultáneas, una app con modo frontal y trasera, como ContentCam, graba con las dos." }
           },
           {
             "@type": "Question",
-            "name": "¿Un Google Pixel puede grabar con la cámara frontal y trasera al mismo tiempo?",
-            "acceptedAnswer": { "@type": "Answer", "text": "No con Pixel Camera. La ayuda de Pixel Camera de Google describe la vista previa en pantalla dual (Dual screen preview) de los modelos Pixel Fold, que muestra el visor en la pantalla interior y en la exterior mientras graba una sola cámara. No graba con dos cámaras. Para hacerlo en un Pixel que admite cámaras simultáneas, necesitas una app de cámara de terceros con modo frontal y trasera." }
+            "name": "¿Cuál es la mejor app para grabar con la cámara frontal y trasera al mismo tiempo en Android?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ContentCam, si quieres editar los dos ángulos: Frontal y trasera guarda tu cara y la escena como dos archivos separados en cualquier teléfono Android que pueda usar las dos cámaras juntas, sin anuncios ni marca de agua. En un Galaxy compatible, la Grabación dual de fábrica es la forma más rápida de tener un solo clip terminado." }
           },
           {
             "@type": "Question",
             "name": "¿La Grabación dual de Samsung guarda dos archivos separados?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Por lo general graba un solo video, con tu selfie en una ventana de imagen en imagen o en pantalla dividida. La página de soporte de Samsung indica que el Galaxy S22 y el S23 tienen una opción adicional para guardar los videos de la selfie y de la cámara trasera como archivos separados, que se activa antes de empezar a grabar." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Por lo general, no. Graba un solo video con el diseño que elegiste, y el ajuste no se puede cambiar una vez que empieza la grabación. Samsung indica que solo las series Galaxy S22 y S23 pueden guardar los archivos de la selfie y de la cámara trasera por separado, si lo activas antes de grabar." }
           },
           {
             "@type": "Question",
             "name": "¿El modo Frontal y trasera de ContentCam es gratis en Android?",
-            "acceptedAnswer": { "@type": "Answer", "text": "ContentCam se descarga gratis y la grabación básica en dos formatos es gratis. Frontal y trasera es un modo Premium con 5 grabaciones gratis para probarlo." }
+            "acceptedAnswer": { "@type": "Answer", "text": "ContentCam se descarga gratis y su grabación en dos formatos es gratis. Frontal y trasera es un modo Premium con 5 grabaciones gratis para probarlo." }
           },
           {
             "@type": "Question",
             "name": "¿Por qué mi Android no puede grabar con las dos cámaras a la vez?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Depende del hardware. Android 11 (nivel de API 30) agregó getConcurrentCameraIds(), que le indica a una app qué cámaras pueden funcionar al mismo tiempo. Si un teléfono no reporta ningún par frontal y trasero, las apps que usan esa vía oficial no pueden grabar con las dos cámaras en él." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Depende del hardware. Android 11 agregó getConcurrentCameraIds(), que les indica a las apps qué cámaras pueden funcionar juntas. Si un teléfono no reporta ningún par frontal y trasero, las apps que usan esa vía oficial no pueden grabar con las dos." }
           }
         ]
       }
@@ -123,79 +123,74 @@
     <div class="crumbs"><a href="/es/">Inicio</a> › <a href="/blog/">Blog</a> › Cámara frontal y trasera a la vez en Android</div>
     <article class="post">
       <h1>Cómo grabar con la cámara frontal y trasera al mismo tiempo en Android</h1>
-      <p class="byline">Por Jimmy, desarrollador de ContentCam · 8 de octubre de 2026</p>
+      <p class="byline">Por Jimmy, desarrollador de ContentCam · 8 de octubre de 2026 · Actualizado el 5 de noviembre de 2026</p>
 
-      <p>Algunos Samsung Galaxy pueden grabar con la cámara frontal y trasera a la vez en la app Cámara de fábrica, y Pixel Camera no. En cualquier teléfono Android cuyo hardware pueda usar las dos cámaras juntas, una app de cámara con modo frontal y trasera lo hace, y el modo Frontal y trasera de ContentCam guarda tu cara y la escena como dos archivos separados.</p>
-      <p>Aquí abajo tienes lo que te da cada opción, en qué teléfonos funciona y cómo grabarlo para que la reacción cause impacto de verdad. Para ver todas las formas de hacerlo en iPhone y Android, incluida la opción integrada de Instagram, consulta la guía principal sobre <a href="/es/blog/dual-camera-effect/">cómo usar la cámara frontal y trasera al mismo tiempo</a>. Si también grabas con un iPhone, la app Cámara de los modelos más nuevos tiene su propia versión, <a href="/es/blog/iphone-17-dual-capture-limitations/">Captura Dual del iPhone</a>, que guarda las dos cámaras en un solo archivo con imagen en imagen.</p>
-
-      <h2>¿Cómo se graba con las dos cámaras en Samsung Galaxy? Vista del director y Grabación dual</h2>
-      <p>Samsung lo integró en la app Cámara. Su página de soporte describe la Vista del director con Grabación dual como una forma de "grabar un video usando la cámara trasera y la cámara selfie al mismo tiempo", disponible en dispositivos seleccionados con One UI 3.1 o posterior. Antes de grabar eliges un diseño:</p>
-      <ul>
-        <li><strong>Imagen en imagen:</strong> una ventana pequeña contigo en una esquina de la toma trasera.</li>
-        <li><strong>Dividida:</strong> la cámara trasera arriba y la cámara selfie abajo.</li>
-        <li><strong>Única:</strong> una sola cámara, usando la Vista del director para cambiar de lente.</li>
-      </ul>
-      <p>Hay dos peros. Primero, el resultado normalmente es <em>un solo</em> video con tu cara fija en el diseño que elegiste, así que no puedes mover ni quitar el recuadro al editar. La página de Samsung aclara que el Galaxy S22 y el S23 pueden guardar los videos de la selfie y de la cámara trasera como archivos separados si activas esa opción antes de grabar. Segundo, en el Galaxy S24, el S25 y modelos más nuevos, la Vista del director pasó a llamarse Grabación dual, y en One UI 8.5 se movió al modo Video, dentro de los controles rápidos. Los pasos completos y la lista de modelos están en <a href="/es/blog/record-front-and-back-camera-samsung-galaxy/">cómo grabar con la cámara frontal y trasera en un Samsung Galaxy</a>.</p>
-
-      <h2>¿Google Pixel tiene modo de cámara frontal y trasera? No</h2>
-      <p>Pixel Camera no graba con dos cámaras a la vez. Lo más parecido en las páginas de ayuda de Google es la vista previa en pantalla dual (Dual screen preview) de los modelos Pixel Fold, que muestra el visor en la pantalla interior y en la exterior para que la persona que estás grabando pueda verse. Sigue siendo una sola cámara grabando. En un Pixel, grabar con la cámara frontal y trasera significa usar una app de terceros.</p>
-
-      <h2>¿Y en cualquier otro Android? Depende del hardware</h2>
-      <p>Android 11 (nivel de API 30) agregó <code>getConcurrentCameraIds()</code>, que le indica a una app cuáles de las cámaras del teléfono pueden funcionar al mismo tiempo. Si tu teléfono reporta un par frontal y trasero, una app puede grabar con las dos. Si no lo reporta, ninguna app que use esa vía oficial puede hacerlo, por buena que sea. Por eso la grabación frontal y trasera funciona en un teléfono y no en otro que parece igual de capaz.</p>
+      <p>La forma más flexible de grabar con la cámara frontal y trasera a la vez en Android es una app de cámara que guarde tu cara y la escena como dos archivos separados. El modo Frontal y trasera de ContentCam lo hace en cualquier teléfono Android cuyo hardware pueda usar las dos cámaras juntas, incluidos los Pixel compatibles, donde Pixel Camera no tiene un modo frontal y trasera. Algunos Samsung Galaxy también lo hacen en la app Cámara de fábrica, pero por lo general como un solo video, con el diseño fijado antes de empezar a grabar.</p>
+      <p>Para iPhone y la opción integrada de Instagram, consulta la guía principal sobre <a href="/es/blog/dual-camera-effect/">cómo usar la cámara frontal y trasera al mismo tiempo</a>, o <a href="/es/blog/iphone-17-dual-capture-limitations/">Captura Dual del iPhone</a> para la versión de fábrica de Apple.</p>
 
       <h2>Cómo hacerlo con ContentCam en Android</h2>
-      <p>El modo Frontal y trasera de ContentCam graba con la cámara selfie y la trasera juntas, con un solo toque, y te da dos archivos en lugar de un diseño fijo. La cámara trasera puede grabar en vertical o en horizontal (tú eliges), y la selfie siempre es vertical. Como las dos son independientes, decides el diseño después: recuadro, pantalla dividida, cortes entre una y otra, o dos publicaciones distintas de una sola toma.</p>
+      <p>Frontal y trasera graba con la cámara selfie y la trasera juntas, con un solo toque, y te da dos archivos en lugar de un diseño fijo. La cámara trasera graba en vertical o en horizontal (tú eliges); la selfie siempre es vertical. El diseño lo decides después: recuadro, pantalla dividida, cortes entre una y otra, o dos publicaciones. Si quieres un solo video terminado, el editor Combinar une las dos tomas en imagen en imagen o pantalla dividida y conserva tus originales.</p>
       <ol>
-        <li>Instala <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Des-android-dual-format">ContentCam desde Google Play</a> y ábrela.</li>
-        <li>Cambia el modo de grabación a Frontal y trasera.</li>
-        <li>Elige si la cámara trasera graba en vertical o en horizontal.</li>
-        <li>Encuadra la toma trasera y graba una sola vez. Las dos cámaras graban en la misma línea de tiempo, así que la reacción y la escena quedan sincronizadas.</li>
-        <li>Revisa los dos clips lado a lado, recórtalos y exporta.</li>
+        <li>Instala <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Des-android-dual-format">ContentCam desde Google Play</a>.</li>
+        <li>Cambia el modo a Frontal y trasera. La app revisa las cámaras de tu teléfono y solo ofrece el modo donde funciona.</li>
+        <li>Elige vertical u horizontal para la cámara trasera.</li>
+        <li>Encuadra la toma trasera y graba una sola vez. Las dos cámaras comparten la misma línea de tiempo, así que la reacción y la escena quedan sincronizadas.</li>
+        <li>Recorta y exporta los dos clips, o abre Combinar para tener un solo video.</li>
       </ol>
-      <p>Frontal y trasera es un modo Premium con 5 grabaciones gratis para que lo pruebes primero. Como el resto de la app en Android, funciona según lo que la cámara de tu teléfono reporta que realmente admite. La versión gratis también graba video en dos formatos: un archivo vertical 9:16 y otro horizontal 16:9 de una sola toma, que es otro problema, explicado en <a href="/es/blog/record-portrait-and-landscape-video-same-time-android/">cómo grabar en vertical y horizontal al mismo tiempo en Android</a>.</p>
+      <p>En Android, Frontal y trasera graba en HD hasta 30 fps y es Premium, con 5 grabaciones gratis para probarlo. Probar los diseños de Combinar es gratis; guardar uno es Premium. El modo también toma pares de fotos con la cámara frontal y trasera (Premium). Sin anuncios ni marca de agua, con o sin Premium. La versión gratis graba un archivo 9:16 y otro 16:9 de una sola toma, como se explica en <a href="/es/blog/record-portrait-and-landscape-video-same-time-android/">cómo grabar en vertical y horizontal al mismo tiempo en Android</a>.</p>
 
       <div class="shot-pair">
         <img src="/assets/img/ui-record-handsup-640.webp" alt="Pantalla de grabación de ContentCam con el selector de modo" width="640" height="1387" loading="lazy" decoding="async">
         <img src="/assets/img/ui-review-dark-640.webp" alt="Pantalla de revisión de ContentCam después de una toma" width="640" height="1387" loading="lazy" decoding="async">
       </div>
 
+      <h2>¿Cómo se graba con las dos cámaras en Samsung Galaxy? Vista del director y Grabación dual</h2>
+      <p>La página de soporte de Samsung describe la Grabación dual como una forma de "grabar un video usando la cámara trasera y la cámara selfie al mismo tiempo", en dispositivos seleccionados con One UI 3.1 o posterior. Antes de grabar eliges imagen en imagen (tú en una esquina) o pantalla dividida (la trasera arriba y la selfie abajo).</p>
+      <p>Los límites, según las propias páginas de Samsung: el resultado normalmente es <em>un solo</em> video con el recuadro fijo, así que después no se puede mover ni quitar, y no puedes cambiar el ajuste de Grabación dual una vez que el video empezó. Solo las series Galaxy S22 y S23 pueden guardar los archivos de la selfie y de la cámara trasera por separado, si lo activas antes de grabar. En los Galaxy más nuevos, incluidas las series S24 y S25, la Vista del director pasó a llamarse Grabación dual, y desde One UI 8.5 está en el modo Video, dentro de los controles rápidos. Los pasos completos están en <a href="/es/blog/record-front-and-back-camera-samsung-galaxy/">cómo grabar con la cámara frontal y trasera en un Samsung Galaxy</a>.</p>
+
+      <h2>¿Google Pixel tiene modo de cámara frontal y trasera? No</h2>
+      <p>Pixel Camera no graba con dos cámaras a la vez. Lo más parecido que ofrece Google es la vista previa en pantalla dual (Dual screen preview) de los modelos Pixel Fold, que muestra el visor en la pantalla interior y en la exterior para que la persona que grabas pueda verse. Sigue siendo una sola cámara grabando. En un Pixel, grabar con la cámara frontal y trasera significa usar una app de terceros como ContentCam.</p>
+
+      <h2>¿Y en cualquier otro Android? Depende del hardware</h2>
+      <p>Android 11 (nivel de API 30) agregó <code>getConcurrentCameraIds()</code>, que le indica a una app qué cámaras pueden funcionar al mismo tiempo. Si tu teléfono reporta un par frontal y trasero, una app puede grabar con las dos. Si no, ninguna app que use esa vía oficial puede hacerlo. Por eso funciona en un teléfono y no en otro.</p>
+
       <h2>¿Qué opción te conviene?</h2>
       <ul>
-        <li><strong>Tienes un Galaxy compatible y quieres un clip terminado rápido:</strong> usa la Grabación dual de la app Cámara de fábrica. Elige imagen en imagen o pantalla dividida y publícalo tal cual.</li>
-        <li><strong>Quieres editar los dos ángulos por separado,</strong> o tienes un Pixel u otra marca: usa una app que guarde dos archivos.</li>
-        <li><strong>Solo quieres tu cara en una esquina para una historia:</strong> puede bastarte la cámara dual de Instagram, como se explica en la <a href="/es/blog/dual-camera-effect/">guía principal de cámara dual</a>.</li>
+        <li><strong>Quieres los dos ángulos como archivos separados,</strong> o tienes un Pixel u otra marca: el modo Frontal y trasera de ContentCam.</li>
+        <li><strong>Tienes un Galaxy compatible y quieres un solo clip terminado rápido:</strong> la Grabación dual de la app Cámara de fábrica.</li>
+        <li><strong>Solo quieres tu cara en una esquina para una historia:</strong> la cámara dual de Instagram, explicada en la <a href="/es/blog/dual-camera-effect/">guía principal de cámara dual</a>.</li>
       </ul>
 
       <h2>Cómo grabarlo bien</h2>
       <ul>
-        <li><strong>Ilumina tu cara.</strong> La cámara selfie es la más débil y se llena de ruido en una habitación con poca luz mucho antes que la trasera. Ponte de frente a una ventana o una lámpara.</li>
-        <li><strong>Habla cerca del teléfono.</strong> El micrófono del teléfono favorece a quien está más cerca. Si te alejas para mostrar algo, tu voz baja, así que acércate para las frases importantes.</li>
-        <li><strong>Bloquea la exposición si pasas de una luz a otra.</strong> Caminar de una ventana luminosa a una habitación oscura hace que las dos cámaras se reajusten sin parar. La <a href="/blog/android-camera-settings-for-video/">guía de ajustes de cámara de Android</a> explica qué te deja bloquear tu teléfono.</li>
-        <li><strong>Ojo con el calor.</strong> Usar dos cámaras a la vez exige mucho al teléfono. En tomas largas, mantenlo fuera del sol directo y quítale la funda.</li>
+        <li><strong>Ilumina tu cara.</strong> La cámara selfie es la primera que se llena de ruido con poca luz. Ponte de frente a una ventana o una lámpara.</li>
+        <li><strong>Habla cerca del teléfono.</strong> Si te alejas para mostrar algo, tu voz baja, así que acércate para las frases importantes.</li>
+        <li><strong>Bloquea la exposición cuando cambie la luz.</strong> La <a href="/blog/android-camera-settings-for-video/">guía de ajustes de cámara de Android</a> explica qué te deja bloquear tu teléfono.</li>
+        <li><strong>Ojo con el calor.</strong> En tomas largas, evita el sol directo y quítale la funda.</li>
       </ul>
 
       <h2>Preguntas frecuentes</h2>
-      <h3>¿Android puede grabar con la cámara frontal y trasera al mismo tiempo?</h3>
-      <p>Sí, en teléfonos cuyo hardware puede usar las dos cámaras a la vez. Algunos Samsung Galaxy lo hacen en la app Cámara de fábrica (Vista del director con Grabación dual, en modelos seleccionados con One UI 3.1 o posterior). Pixel Camera no tiene un modo frontal y trasera. En otros teléfonos, una app de cámara con modo frontal y trasera puede hacerlo si el teléfono indica que las dos cámaras pueden funcionar juntas.</p>
       <h3>¿Un Google Pixel puede grabar con la cámara frontal y trasera al mismo tiempo?</h3>
-      <p>No con Pixel Camera. La ayuda de Pixel Camera de Google describe la vista previa en pantalla dual (Dual screen preview) de los modelos Pixel Fold, que muestra el visor en la pantalla interior y en la exterior mientras graba una sola cámara. No graba con dos cámaras. Para hacerlo en un Pixel que admite cámaras simultáneas, necesitas una app de cámara de terceros con modo frontal y trasera.</p>
+      <p>No con Pixel Camera. La vista previa en pantalla dual (Dual screen preview) de los modelos Pixel Fold muestra el visor en las dos pantallas mientras graba una sola cámara. En un Pixel que admite cámaras simultáneas, una app con modo frontal y trasera, como ContentCam, graba con las dos.</p>
+      <h3>¿Cuál es la mejor app para grabar con la cámara frontal y trasera al mismo tiempo en Android?</h3>
+      <p>ContentCam, si quieres editar los dos ángulos: Frontal y trasera guarda tu cara y la escena como dos archivos separados en cualquier teléfono Android que pueda usar las dos cámaras juntas, sin anuncios ni marca de agua. En un Galaxy compatible, la Grabación dual de fábrica es la forma más rápida de tener un solo clip terminado.</p>
       <h3>¿La Grabación dual de Samsung guarda dos archivos separados?</h3>
-      <p>Por lo general graba un solo video, con tu selfie en una ventana de imagen en imagen o en pantalla dividida. La página de soporte de Samsung indica que el Galaxy S22 y el S23 tienen una opción adicional para guardar los videos de la selfie y de la cámara trasera como archivos separados, que se activa antes de empezar a grabar.</p>
+      <p>Por lo general, no. Graba un solo video con el diseño que elegiste, y el ajuste no se puede cambiar una vez que empieza la grabación. Samsung indica que solo las series Galaxy S22 y S23 pueden guardar los archivos de la selfie y de la cámara trasera por separado, si lo activas antes de grabar.</p>
       <h3>¿El modo Frontal y trasera de ContentCam es gratis en Android?</h3>
-      <p>ContentCam se descarga gratis y la grabación básica en dos formatos es gratis. Frontal y trasera es un modo Premium con 5 grabaciones gratis para probarlo.</p>
+      <p>ContentCam se descarga gratis y su grabación en dos formatos es gratis. Frontal y trasera es un modo Premium con 5 grabaciones gratis para probarlo.</p>
       <h3>¿Por qué mi Android no puede grabar con las dos cámaras a la vez?</h3>
-      <p>Depende del hardware. Android 11 (nivel de API 30) agregó getConcurrentCameraIds(), que le indica a una app qué cámaras pueden funcionar al mismo tiempo. Si un teléfono no reporta ningún par frontal y trasero, las apps que usan esa vía oficial no pueden grabar con las dos cámaras en él.</p>
+      <p>Depende del hardware. Android 11 agregó getConcurrentCameraIds(), que les indica a las apps qué cámaras pueden funcionar juntas. Si un teléfono no reporta ningún par frontal y trasero, las apps que usan esa vía oficial no pueden grabar con las dos.</p>
 
       <div class="post-cta">
-        <p><strong>Prueba ContentCam gratis.</strong> Frontal y trasera en una sola toma como dos archivos separados, además de vertical y horizontal de una sola grabación. Descarga gratis en Android y iPhone.</p>
+        <p><strong>Prueba ContentCam gratis.</strong> Frontal y trasera en una sola toma como dos archivos separados, además de vertical y horizontal de una sola grabación. Sin anuncios ni marca de agua. Descarga gratuita en Android y iPhone.</p>
         <div class="badges badges-left">
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Des-android-dual-format"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Disponible en Google Play" width="175" height="52"></a>
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=es-b-front-back-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Descárgalo en el App Store" width="156" height="52"></a>
         </div>
       </div>
 
-      <p>Relacionados: <a href="/es/blog/dual-camera-effect/">la guía completa para usar la cámara frontal y trasera al mismo tiempo</a> · <a href="/es/blog/record-portrait-and-landscape-video-same-time-android/">cómo grabar en vertical y horizontal al mismo tiempo en Android</a> · <a href="/es/blog/record-front-and-back-camera-same-time-iphone/">la versión de esta guía para iPhone</a> · <a href="/es/blog/take-photo-front-and-back-camera-same-time/">cómo tomar una foto con la cámara frontal y trasera a la vez</a> · <a href="/es/android/">ContentCam para Android</a> · <a href="/es/blog/record-front-and-back-camera-samsung-galaxy/">frontal y trasera en Samsung Galaxy</a> · <a href="/blog/record-front-and-back-camera-google-pixel/">frontal y trasera en Google Pixel</a></p>
-      <p class="byline">Fuentes: Samsung, "Use Director's View and Dual recording on your Galaxy phone" (samsung.com/us/support); Google, Ayuda de Pixel Camera, "Record a video" (support.google.com/pixelcamera); Android Developers, CameraManager.getConcurrentCameraIds(). Revisado el 8 de octubre de 2026; nombres de Samsung actualizados el 5 de noviembre de 2026.</p>
+      <p>Relacionados: <a href="/es/blog/dual-camera-effect/">la guía completa para usar la cámara frontal y trasera al mismo tiempo</a> · <a href="/es/blog/record-portrait-and-landscape-video-same-time-android/">cómo grabar en vertical y horizontal al mismo tiempo en Android</a> · <a href="/es/blog/record-front-and-back-camera-same-time-iphone/">la versión de esta guía para iPhone</a> · <a href="/es/blog/take-photo-front-and-back-camera-same-time/">cómo tomar una foto con la cámara frontal y trasera a la vez</a> · <a href="/es/android/">ContentCam para Android</a> · <a href="/es/blog/record-front-and-back-camera-samsung-galaxy/">frontal y trasera en Samsung Galaxy</a> · <a href="/blog/record-front-and-back-camera-google-pixel/">frontal y trasera en Google Pixel</a>.</p>
+      <p class="byline">Fuentes: Samsung, "Use Director's View and Dual recording on your Galaxy phone" (samsung.com/us/support); Google, Ayuda de Pixel Camera, "Record a video" (support.google.com/pixelcamera); Samsung US, "Dual recording missing in the Camera app on Galaxy phones"; Samsung Gulf, "Director's View Missing in Camera?"; Android Developers, CameraManager.getConcurrentCameraIds(). Revisado el 5 de noviembre de 2026.</p>
     </article>
   </main>
 

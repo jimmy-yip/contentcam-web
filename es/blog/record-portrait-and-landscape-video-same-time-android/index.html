@@ -64,7 +64,7 @@
           {
             "@type": "Question",
             "name": "¿Hay alguna app para Android que grabe video horizontal y vertical a la vez?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Sí. ContentCam para Android graba un archivo vertical 9:16 y uno horizontal 16:9 de una sola toma, con la cámara trasera y la frontal, en 1080p en la versión gratis." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Sí. ContentCam para Android graba un archivo vertical 9:16 y uno horizontal 16:9 de una sola toma, con la cámara trasera y la frontal, en 1080p en la versión gratis, sin anuncios ni marca de agua." }
           },
           {
             "@type": "Question",
@@ -74,7 +74,7 @@
           {
             "@type": "Question",
             "name": "¿Puedo grabar con la cámara frontal y la trasera al mismo tiempo en Android para videos de reacción?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Sí. El modo Frontal y trasera de ContentCam graba con la cámara frontal y la trasera en una sola toma en Android, lo que sirve para videos de reacción sin un segundo teléfono. Es una función Premium con 5 grabaciones gratis para probarla." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Sí. El modo Frontal y trasera de ContentCam graba con la cámara frontal y la trasera en una sola toma en los teléfonos Android cuyas cámaras pueden funcionar juntas, y guarda dos archivos HD separados a hasta 30fps. Después, el editor Combinar puede convertirlos en un solo video con imagen en imagen o pantalla dividida. Es una función Premium con 5 grabaciones gratis para probarla." }
           },
           {
             "@type": "Question",
@@ -123,34 +123,32 @@
       <h1>Cómo grabar video vertical y horizontal al mismo tiempo en Android (2026)</h1>
       <p class="byline">Por Jimmy, desarrollador de ContentCam · 30 de septiembre de 2026 · Actualizado el 5 de noviembre de 2026</p>
 
-      <p><strong>La respuesta corta:</strong> la app de cámara que trae tu Android no puede hacerlo. Samsung Camera y Pixel Camera graban en un solo formato por toma. Para tener un archivo vertical 9:16 y uno horizontal 16:9 de la misma toma, o recortas uno a partir del otro después, o grabas en 4K para que el recorte tenga píxeles de sobra, o usas una app que grabe los dos archivos a la vez desde todo el sensor, como ContentCam, que lo hace gratis en 1080p en Android y en iPhone.</p>
-      <p>Yo desarrollo ContentCam, así que lo que de verdad sirve son las cuentas de abajo. La aritmética es la misma con cualquier herramienta que elijas.</p>
+      <p><strong>La respuesta corta:</strong> usa una app que grabe los dos archivos a la vez desde todo el sensor. ContentCam lo hace en Android y en iPhone: una sola toma guarda un archivo vertical 9:16 y uno horizontal 16:9, gratis en 1080p, sin anuncios, sin marca de agua y sin crear cuenta. La app de cámara que trae tu celular no puede hacerlo, porque Samsung Camera y Pixel Camera graban en un solo formato por toma. Las alternativas gratis, recortar después o grabar en 4K y reencuadrar, pierden casi toda la escena.</p>
+      <p>Yo desarrollo ContentCam, así que revisa tú mismo las cuentas de abajo. La aritmética es la misma con cualquier herramienta que elijas.</p>
 
       <h2>¿La cámara de Android que viene de fábrica graba vertical y horizontal a la vez?</h2>
-      <p>No. Las apps de cámara de fábrica de Android graban en un solo formato por toma: el que elegiste, o el de la posición en la que sostenías el teléfono.</p>
+      <p>No. Las apps de cámara de fábrica de Android graban en un solo formato por toma.</p>
       <ul>
-        <li><strong>Samsung Camera</strong> tiene un ajuste de relación de aspecto en la cámara, y la propia página de soporte de Samsung incluye 9:16, 1:1 y Completa entre las opciones, con la advertencia de que "las relaciones de aspecto disponibles pueden variar según las especificaciones de la cámara de tu dispositivo". Eliges una. El teléfono graba una.</li>
-        <li><strong>Pixel Camera</strong>: la página de ayuda de Google sobre la app Pixel Camera documenta opciones de relación de aspecto para fotos (recorte panorámico 16:9 e imagen completa 4:3). No documenta ninguna opción de relación de aspecto para video. Un video del Pixel sale horizontal o vertical según cómo sostengas el teléfono.</li>
+        <li><strong>Samsung Camera</strong> tiene un ajuste de relación de aspecto; la página de soporte de Samsung incluye 1:1, 3:4, 9:16 y Pantalla completa, con la advertencia de que "las relaciones de aspecto disponibles pueden variar según las especificaciones de la cámara de tu dispositivo". Eliges una. El teléfono graba una.</li>
+        <li><strong>Pixel Camera</strong>: la ayuda de Google sobre Pixel Camera documenta relaciones de aspecto solo para fotos (recorte panorámico 16:9, imagen completa 4:3), ninguna para video. Un video del Pixel sale horizontal o vertical según cómo sostengas el teléfono.</li>
         <li><strong>Google Fotos</strong> puede recortar un video terminado a otra relación de aspecto después. Es la Opción 1 de abajo, con el mismo costo.</li>
       </ul>
-      <p>Ni las páginas de soporte de Samsung ni las de Google describen un modo que guarde un archivo vertical y uno horizontal de una sola toma.</p>
 
       <h2>Opción 1: ¿Cuánto se pierde al recortar un video horizontal a vertical?</h2>
-      <p>Te quedas con el 31.6% del ancho y tiras el 68.4% de la escena. Estas son las cuentas para un video horizontal estándar en 1080p:</p>
+      <p>Te quedas con el 31.6% del ancho y tiras el 68.4% de la escena. Para un video horizontal en 1080p:</p>
       <ul>
         <li>El cuadro horizontal mide 1920×1080.</li>
         <li>Un recorte 9:16 a la altura completa mide 1080 × 9 ÷ 16 = <strong>607.5 píxeles de ancho</strong>.</li>
         <li>607.5 ÷ 1920 = <strong>0.316</strong>, así que sobrevive el 31.6% del ancho.</li>
       </ul>
-      <p>Después, esa franja de 607×1080 se escala a 1080×1920 para TikTok, Reels o Shorts. Eso es 1.78 veces en cada eje, y por eso los verticales recortados se ven poco nítidos. Al revés es peor: un recorte 16:9 de un vertical de 1080×1920 es una franja de 1080×607 estirada a 1920×1080, sacada de una franja que nunca captó más que una vista angosta, con forma de teléfono, de la habitación.</p>
-      <p>Recorta en edición cuando la persona llena el centro del cuadro y el segundo formato es un extra. Evítalo en viajes, deportes, tomas de producto o cualquier escena donde el fondo importe.</p>
+      <p>Después, esa franja de 607×1080 se escala 1.78 veces a 1080×1920 para TikTok, Reels o Shorts, y por eso los verticales recortados se ven poco nítidos. Evita recortar en viajes, deportes, tomas de producto o cualquier escena donde el fondo importe.</p>
 
       <h2>Opción 2: ¿Se puede grabar en 4K horizontal y reencuadrar a vertical?</h2>
-      <p>Sí, y en un teléfono que graba en 4K es la mejor solución gratis. Un recorte 9:16 de un cuadro de 3840×2160 mide 2160 × 9 ÷ 16 = <strong>1215×2160 píxeles</strong>, más que los 1080×1920 que reproduce una plataforma vertical. El problema de resolución de la Opción 1 desaparece.</p>
-      <p>El problema de encuadre sigue ahí. El vertical sigue siendo el 31.6% del ancho horizontal, así que el sujeto tiene que estar justo en el centro durante toda la toma, y todo lo que compusiste para el plano abierto (un horizonte de edificios, una segunda persona, un producto sobre la mesa) queda fuera del vertical. Además editas cada video dos veces, y el 4K tiene cuatro veces los píxeles del 1080p, así que los archivos llenan tu teléfono mucho más rápido.</p>
+      <p>Sí, y es la mejor alternativa gratis. Un recorte 9:16 de un cuadro de 3840×2160 mide 2160 × 9 ÷ 16 = <strong>1215×2160 píxeles</strong>, más que los 1080×1920 que reproduce una plataforma vertical. El problema de resolución de la Opción 1 desaparece.</p>
+      <p>El problema de encuadre sigue ahí: el vertical sigue siendo el 31.6% del ancho horizontal, así que el sujeto tiene que estar justo en el centro, y todo lo que compusiste para el plano abierto (un horizonte de edificios, una segunda persona) queda fuera. Además editas cada video dos veces, y los archivos 4K tienen cuatro veces los píxeles del 1080p.</p>
 
       <h2>Opción 3: ¿Cómo se graban los dos formatos a la vez en Android?</h2>
-      <p>Graba el cuadro 4:3 completo del sensor y saca los dos formatos de ahí mientras grabas. El sensor de un teléfono es 4:3, más ancho que un cuadro 9:16 y más alto que un cuadro 16:9. Toma como ejemplo un cuadro de sensor de 4000×3000:</p>
+      <p>Graba el cuadro 4:3 completo del sensor, que es más ancho que 9:16 y más alto que 16:9, y saca los dos formatos de ahí mientras grabas. Con un sensor de ejemplo de 4000×3000:</p>
       <div class="table-scroll">
         <table>
           <thead><tr><th>Método</th><th>Franja vertical de un sensor de 4000×3000</th><th>Porcentaje del área del sensor</th></tr></thead>
@@ -161,25 +159,27 @@
         </table>
       </div>
       <p>El vertical a cuadro completo ve 1.78 veces más de la escena, y el horizontal 16:9 conserva todo el ancho del sensor (4000×2250). Ninguno de los dos archivos es un recorte del otro.</p>
-      <p>Así funciona <a href="/es/android/">ContentCam para Android</a>. Una toma guarda un archivo 9:16 y uno 16:9, con la cámara trasera y la frontal. En los teléfonos que dan acceso a un lente ultra gran angular, la opción 0.5× les da a los dos recortes una vista más amplia. Si sostienes el teléfono de lado, los dos archivos se etiquetan con la orientación correcta para que se reproduzcan derechos en CapCut o Premiere. La versión gratis graba en 1080p a 30fps sin marca de agua; <a href="/es/pricing/">Premium</a> agrega 4K y 60fps cuando el hardware del teléfono los soporta.</p>
-      <p>El límite, sin rodeos: el modo Doble lente, que graba con el gran angular y el ultra gran angular en el mismo momento para tener dos encuadres distintos, por ahora es solo para iPhone. La propia página de la app para Android lo marca como todavía no disponible.</p>
+      <p>Así funciona <a href="/es/android/">ContentCam para Android</a>. Una toma guarda un archivo 9:16 y uno 16:9, con la cámara trasera y la frontal. En los teléfonos que dan acceso a un lente ultra gran angular, la opción 0.5× les da a los dos recortes una vista más amplia. Si sostienes el teléfono de lado, los dos archivos se etiquetan con la orientación correcta para que se reproduzcan derechos en CapCut o Premiere. La versión gratis graba tomas ilimitadas en los dos formatos en 1080p y hasta 30fps, sin anuncios ni marca de agua; <a href="/es/pricing/">Premium</a> agrega 4K y 60fps cuando el hardware del teléfono los soporta.</p>
+      <p>Comparado con las Opciones 1 y 2, nada se recorta después, encuadras cada toma una sola vez y no editas cada video dos veces.</p>
+      <p>Un límite: el modo Doble lente, que graba con el gran angular y el ultra gran angular en el mismo momento, por ahora es solo para iPhone.</p>
 
       <h2>¿Qué opción te conviene en Android?</h2>
       <table>
         <thead><tr><th>Tu situación</th><th>La mejor opción</th></tr></thead>
         <tbody>
-          <tr><td>Hablas a cámara, tu cara llena el cuadro y el horizontal es un extra</td><td>Recortar en edición (Opción 1)</td></tr>
-          <tr><td>Tu teléfono graba en 4K, el sujeto se queda centrado y no te molesta editar dos veces</td><td>Grabar en 4K y reencuadrar (Opción 2)</td></tr>
-          <tr><td>Las dos versiones tienen que verse encuadradas a propósito</td><td>Grabar los dos a la vez (Opción 3)</td></tr>
+          <tr><td>Publicas en los dos formatos seguido y quieres que cada uno se vea encuadrado a propósito</td><td>Grabar los dos a la vez (Opción 3, recomendada)</td></tr>
+          <tr><td>Viajes, deportes o tomas de producto donde el fondo importa</td><td>Grabar los dos a la vez (Opción 3)</td></tr>
           <tr><td>Cámara selfie</td><td>Grabar los dos a la vez, funciona con la cámara frontal</td></tr>
+          <tr><td>Tu teléfono graba en 4K, el sujeto se queda centrado y no te molesta editar dos veces</td><td>Grabar en 4K y reencuadrar (Opción 2)</td></tr>
+          <tr><td>Hablas a cámara, tu cara llena el cuadro y el horizontal es un extra ocasional</td><td>Recortar en edición (Opción 1)</td></tr>
         </tbody>
       </table>
 
       <h2>Preguntas frecuentes</h2>
       <p><strong>¿Un celular Android puede grabar video vertical y horizontal al mismo tiempo?</strong> No con las apps de cámara que vienen de fábrica. Samsung Camera y Pixel Camera graban en un solo formato por toma. Una app de terceros que graba desde todo el cuadro 4:3 del sensor puede guardar un archivo vertical 9:16 y uno horizontal 16:9 de la misma toma.</p>
-      <p><strong>¿Hay alguna app para Android que grabe video horizontal y vertical a la vez?</strong> Sí. ContentCam para Android graba un archivo vertical 9:16 y uno horizontal 16:9 de una sola toma, con la cámara trasera y la frontal, en 1080p en la versión gratis.</p>
+      <p><strong>¿Hay alguna app para Android que grabe video horizontal y vertical a la vez?</strong> Sí. ContentCam para Android graba un archivo vertical 9:16 y uno horizontal 16:9 de una sola toma, con la cámara trasera y la frontal, en 1080p en la versión gratis, sin anuncios ni marca de agua.</p>
       <p><strong>¿Cuánta imagen pierdes al recortar un video 16:9 a 9:16?</strong> Alrededor del 68%. Un recorte 9:16 a la altura completa de un cuadro de 1920×1080 mide 607.5 píxeles de ancho, que es el 31.6% de los 1920 píxeles de ancho. El otro 68.4% de la escena se descarta.</p>
-      <p><strong>¿Puedo grabar con la cámara frontal y la trasera al mismo tiempo en Android para videos de reacción?</strong> Sí. El modo Frontal y trasera de ContentCam graba con la cámara frontal y la trasera en una sola toma en Android, lo que sirve para videos de reacción sin un segundo teléfono. Es una función Premium con 5 grabaciones gratis para probarla.</p>
+      <p><strong>¿Puedo grabar con la cámara frontal y la trasera al mismo tiempo en Android para videos de reacción?</strong> Sí. El modo Frontal y trasera de ContentCam graba con la cámara frontal y la trasera en una sola toma en los teléfonos Android cuyas cámaras pueden funcionar juntas, y guarda dos archivos HD separados a hasta 30fps. Después, el editor Combinar puede convertirlos en un solo video con imagen en imagen o pantalla dividida. Es una función Premium con 5 grabaciones gratis para probarla.</p>
       <p><strong>Si grabo en 4K en Android, ¿puedo recortar un video vertical de uno horizontal?</strong> Sí, y te sobra resolución. Un recorte 9:16 de un cuadro de 3840×2160 mide 1215×2160 píxeles, más de lo que necesita un video vertical de 1080×1920. Aun así, el encuadre es una franja angosta de la toma horizontal, así que el sujeto tiene que quedar centrado cuando grabas.</p>
 
       <div class="post-cta">
@@ -190,7 +190,7 @@
         </div>
       </div>
 
-      <p>Los datos de las cámaras de fábrica se tomaron de <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">la página de soporte de Samsung sobre la relación de aspecto de la cámara</a>, la <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">Ayuda de Pixel Camera</a> y la <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">Ayuda de Google Fotos</a> el 4 de octubre de 2026. Relacionados: <a href="/blog/how-to-record-landscape-video-on-android/">cómo grabar video horizontal en Android</a> · <a href="/es/blog/record-portrait-and-landscape-video-same-time-iphone/">la versión para iPhone de esta guía</a> · <a href="/blog/android-camera-settings-for-video/">la mejor configuración de cámara de Android para video</a> · <a href="/blog/vertical-vs-horizontal-video/">video vertical vs. horizontal</a></p>
+      <p>Los datos de las cámaras de fábrica se tomaron de <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">la página de soporte de Samsung sobre la relación de aspecto de la cámara</a>, la <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">Ayuda de Pixel Camera</a> y la <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">Ayuda de Google Fotos</a>, revisados el 5 de noviembre de 2026. Relacionados: <a href="/blog/how-to-record-landscape-video-on-android/">cómo grabar video horizontal en Android</a> · <a href="/es/blog/record-portrait-and-landscape-video-same-time-iphone/">la versión para iPhone de esta guía</a> · <a href="/blog/android-camera-settings-for-video/">la mejor configuración de cámara de Android para video</a> · <a href="/blog/vertical-vs-horizontal-video/">video vertical vs. horizontal</a></p>
     </article>
   </main>
 

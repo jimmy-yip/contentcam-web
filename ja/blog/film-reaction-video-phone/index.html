@@ -53,6 +53,51 @@
           { "@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://contentcam.app/blog/" },
           { "@type": "ListItem", "position": 3, "name": "スマホでリアクション動画を撮る", "item": "https://contentcam.app/ja/blog/film-reaction-video-phone/" }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "スマホ1台でリアクション動画は撮れますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "撮れます。ContentCamの前後カメラ（Front/Back）は、iPhoneとAndroidで、自分の顔と目の前の光景を2つのファイルとして録画します。InstagramのDual、SnapchatのDual Camera、そしてiPhone 7機種のDual Captureは、どれも1本に合成された動画を録画します。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "リアクション動画を撮るのにいちばんいいアプリは？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "編集したり複数のプラットフォームに投稿したりするリアクションなら、ContentCamの前後カメラ（Front/Back）のように、自分の顔と目の前の光景を別々のファイルで保存できるアプリです。編集せずにさっと投稿するだけなら、InstagramのDualやSnapchatのDual Cameraが無料で使えます。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "自分の声と動画の音声がぶつかるのを防ぐには？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ヘッドホンをつけて自分の声だけがマイクに入るようにし、元の音声は編集で加えます。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "縦型動画で、顔のワイプはどこに置けばいいですか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "左上です。下3分の1と右端は、プラットフォームの表示で隠れます。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "リアクション動画が1つのプラットフォームでしか使えないのはなぜですか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1つのアスペクト比で撮影しているからです。縦の映像を横長に切り出すと、高さの約32%しか残りません。"
+            }
+          }
+        ]
       }
     ]
   }
@@ -94,25 +139,37 @@
       <h1>スマホでリアクション動画を撮るには？顔と映像を同時に録画する方法</h1>
       <p class="byline">文：Jimmy（ContentCam開発者）· 2026年9月10日 · 2026年11月5日更新</p>
 
-      <p>スマホでリアクション動画を撮るには、自分の顔と、反応する対象を同じテイクで録画します。やり方は4つあります。TikTok、Snapchat、Instagramのデュアルカメラ機能。iPhone 17、iPhone Air、iPhone 18 Pro、iPhone Duoの「カメラ」アプリにあるDual Capture。対象がスマホの中にあるなら、画面収録と自分の顔の動画の組み合わせ。そして、私が開発しているContentCamのようなカメラアプリです。ContentCamの前後カメラ（Front/Back）モードは、iPhoneとAndroidで、自分の顔と目の前の光景を独立した2つのファイルとして保存します（無料で5回録画でき、それ以降はPremium）。最初の3つは無料なので、まずはそこから始めてください。</p>
+      <p>スマホでリアクション動画を撮るには、自分の顔と、反応する対象を同じテイクで録画します。そのリアクションを編集したり、複数のプラットフォームに投稿したりするなら、2つのカメラを別々のファイルで録画してください。ContentCamの前後カメラ（Front/Back）モードなら、iPhoneとAndroidでこれができます（無料で5回録画でき、それ以降はPremium）。1回きりの投稿をさっと済ませたいなら、無料で使える標準機能として、InstagramのDual、SnapchatのDual Camera、新しいiPhoneのDual Captureがあります。どれも1本に合成された動画として保存されます。</p>
+      <p><em>開示：私はContentCamの開発者です。標準機能については、Apple、Meta、Snapchatそれぞれの公式ページの記載をもとに説明しています。</em></p>
 
       <h2>スマホでリアクション動画はどうやって撮る？</h2>
-      <p>自分の顔と、反応する対象を、同時に1回のテイクで録画します。やることはそれだけで、そのための方法が4つあります。</p>
+      <p>両方を1回のテイクで録画する方法は4つあります。</p>
       <ul>
-        <li><strong>アプリ内のエフェクト。</strong>TikTokのDualエフェクト、SnapchatのDual Camera、Instagramのデュアルカメラは、どれもインカメラと背面カメラを同時に録画します。無料ですぐに使え、そのまま投稿できる完成した動画になります。</li>
-        <li><strong>iPhone 17の「カメラ」アプリのDual Capture。</strong>AppleがiPhone 17シリーズ全体に追加した機能です。背面カメラの映像の上に、インカメラの映像を小さなウインドウで重ねて、最大4K Dolby Vision・30fpsで録画できます。<em>（MacRumorsとTom's Guideの報道による。2026年9月10日に確認。）</em></li>
+        <li><strong>ContentCamの前後カメラ（Front/Back）モード。</strong>インカメラと背面カメラが同時に録画し、独立した2つのファイルとして保存されます。iOS 18以降が動作するiPhoneならどの機種でも使え、AppleのDual Captureに対応していないiPhone 15やiPhone 16も含まれます。Androidでも、2つのカメラを同時に動かせる機種で使えます。撮影後に合成（Combine）エディタで、2つの映像をワイプ（ピクチャ・イン・ピクチャ）か画面分割の1本にできます。</li>
+        <li><strong>iPhoneの「カメラ」アプリのDual Capture。</strong>Appleが対応機種として挙げているのは、iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max、iPhone Duoの7機種です。背面カメラの映像の上にインカメラの映像をウインドウで重ねた、1本の動画として保存されます。</li>
+        <li><strong>InstagramのDualか、SnapchatのDual Camera。</strong>MetaはDualを「コンテンツと自分のリアクションを同時に録画できる」機能と説明しています。SnapchatのDual Cameraには録画前に選ぶ4つのレイアウトがあり、iPhone XS以降で使えます。Androidについては、ヘルプセンターに今も「近日対応」と書かれています。どちらも、アプリの中に1本のクリップが残ります。</li>
         <li><strong>画面収録と自分の顔。</strong>スマホの中のものに反応するなら、画面収録をしながら自分を別に撮影し、編集で重ねます。</li>
-        <li><strong>専用アプリ。</strong>焼き込まれた1本の動画ではなく、2つのアングルを素材として使いたいときだけ、検討する価値があります。</li>
       </ul>
-      <p>まずは無料の方法から始めてください。それで足りるなら、そこで終わりで大丈夫です。</p>
+
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th>方法</th><th>残るもの</th><th>レイアウト</th><th>対応機種</th><th>料金</th></tr></thead>
+        <tbody>
+          <tr><td>ContentCamの前後カメラ（Front/Back）</td><td>独立した2つのファイル</td><td>録画後に選べる</td><td>iPhone XS・XR以降、対応するAndroid</td><td>無料で5回録画でき、それ以降はPremium</td></tr>
+          <tr><td>iPhoneのDual Capture</td><td>1本の動画</td><td>ファイルに固定</td><td>Appleが挙げる7機種</td><td>無料</td></tr>
+          <tr><td>InstagramのDual</td><td>Instagram内の1本のクリップ</td><td>Metaの記載なし</td><td>Metaの記載なし</td><td>無料</td></tr>
+          <tr><td>SnapchatのDual Camera</td><td>1つのスナップ</td><td>録画前に選ぶ</td><td>iPhone XS以降、Androidは「近日対応」</td><td>無料</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2>ワイプ（顔の小窓）はどこに置けばいい？</h2>
       <p>顔は四隅のどこかに置き、画面の下3分の1には入れないようにします。</p>
-      <p>縦型のプラットフォームはどれも、画面の上に独自の表示を重ねます。TikTokやリールの下部にはキャプション、ユーザー名、ボタンの列が並び、右端にはアクションボタンの列があります。右下に置いた顔は、少なくともどれかひとつのプラットフォームで必ず隠れてしまう位置です。</p>
-      <p>いちばん安全なのは左上です。ワイプは表情が読み取れる大きさにしてください。目安は、画面の幅の5分の1以上です。それより小さいとリアクションが伝わらなくなり、撮る意味がなくなります。</p>
+      <p>縦型のプラットフォームはどれも、画面の上に独自の表示を重ねます。TikTokやリールの下部にはキャプション、ユーザー名、ボタンの列が並び、右端にはアクションボタンの列があります。</p>
+      <p>いちばん安全なのは左上です。ワイプは表情が読み取れる大きさにしてください。目安は、画面の幅の5分の1以上です。</p>
+      <p>Dual CaptureやSnapchatのDual Cameraでは、これを録画ボタンを押す前に決めます。別々の2つのファイルなら、ワイプの位置と大きさは編集で決められ、プラットフォームごとに違う位置に置くこともできます。</p>
 
       <h2>リアクション動画の音声がかぶる問題はどう直す？</h2>
-      <p>ここはほとんど誰も触れない部分で、しかもリアクション動画の多くを台なしにしている部分です。</p>
       <p>あなたは音の出るものに反応しながら、自分も声を出しています。両方がスピーカーから流れて1つのマイクに入ると、音がぶつかり合い、スマホの自動レベル調整がどちらかの音量を予測できない形で下げてしまいます。</p>
       <p>直し方は3つあります。効果の高い順に紹介します。</p>
       <ul>
@@ -124,19 +181,22 @@
 
       <h2>リアクションを自然に見せるコツは？</h2>
       <p>反応は早すぎるより遅めに。そして、実況はしないことです。</p>
-      <p>よくある失敗は、何が起きるかをすでに知っているせいで、その瞬間が来る前にリアクションを演じてしまうことです。カメラの前で本当に初めて見る反応には、どんな編集よりも価値があります。もう見たことがあるなら、メインの場面で驚いたふりをするより、見落としていた細かい部分に反応してください。</p>
+      <p>よくある失敗は、何が起きるかをすでに知っているせいで、その瞬間が来る前にリアクションを演じてしまうことです。もう見たことがあるなら、メインの場面で驚いたふりをするより、見落としていた細かい部分に反応してください。</p>
       <p>沈黙はそのまま残しましょう。表情が変わっていく間（ま）は、コメントで埋めるよりも視聴者の注意を引きつけ、きれいなカット点にもなります。</p>
 
-      <h2>2つのアングルを別々のファイルで残したいときは？</h2>
-      <p>その場合、アプリ内のエフェクトでは足りません。レイアウトが焼き込まれた1本の動画しか残らないからです。あとからワイプを動かしたり、サイズを変えたり、片方のアングルだけに切り替えたりはできません。</p>
-      <p>これが問題になるのは、リアクションをきちんと編集したいときや、同じテイクを縦型のプラットフォームと横長のプラットフォームの両方に出したいときです。別々のファイルがあるかどうかが、素材として使えるか、完成した投稿で終わるかの違いになります。</p>
+      <h2>2つのアングルを別々のファイルで録画するのはなぜ？</h2>
+      <p>標準のエフェクトでは、1本に合成されたクリップしか残らないからです。たとえばAppleのDual Captureは、インカメラの映像を画面内のウインドウに入れて記録します。そのため、あとからワイプを動かしたり、サイズを変えたり、片方のアングルだけに切り替えたりはできません。</p>
+      <p>別々のファイルなら、この3つがすべてできます。いちばんの見せ場では自分の顔に切り替え、黙って見ている間は目の前の光景を全画面で流し、同じテイクから縦型と横長の両方のレイアウトをつくれます。ContentCamの前後カメラ（Front/Back）が2つのファイルを保存するのは、このためです。合成（Combine）エディタで1本にまとめても、両方をCapCutやPremiereに持っていってもかまいません。</p>
+      <p>標準のエフェクトが向いているのは、編集せずにアプリからそのまま投稿する、手早いリアクションです。</p>
 
       <h2>よくある質問</h2>
-      <p><strong>スマホ1台でリアクション動画は撮れますか？</strong> 撮れます。最近のスマホの多くは、投稿先のアプリか、iPhone 17なら「カメラ」アプリで、インカメラと背面カメラを同時に録画できます。</p>
-      <p><strong>スマホは2台必要ですか？</strong> 必要ありません。ただ、2台目は音声専用のレコーダーとして、または反応する映像を映す画面として役に立ちます。</p>
+      <p><strong>スマホ1台でリアクション動画は撮れますか？</strong> 撮れます。ContentCamの前後カメラ（Front/Back）は、iPhoneとAndroidで、自分の顔と目の前の光景を2つのファイルとして録画します。InstagramのDual、SnapchatのDual Camera、そしてiPhone 7機種のDual Captureは、どれも1本に合成された動画を録画します。</p>
+      <p><strong>リアクション動画を撮るのにいちばんいいアプリは？</strong> 編集したり複数のプラットフォームに投稿したりするリアクションなら、ContentCamの前後カメラ（Front/Back）のように、自分の顔と目の前の光景を別々のファイルで保存できるアプリです。編集せずにさっと投稿するだけなら、InstagramのDualやSnapchatのDual Cameraが無料で使えます。</p>
       <p><strong>自分の声と動画の音声がぶつかるのを防ぐには？</strong> ヘッドホンをつけて自分の声だけがマイクに入るようにし、元の音声は編集で加えます。</p>
       <p><strong>縦型動画で、顔のワイプはどこに置けばいいですか？</strong> 左上です。下3分の1と右端は、プラットフォームの表示で隠れます。</p>
       <p><strong>リアクション動画が1つのプラットフォームでしか使えないのはなぜですか？</strong> 1つのアスペクト比で撮影しているからです。縦の映像を横長に切り出すと、高さの約32%しか残りません。</p>
+
+      <p>出典（2026年11月5日確認）：Appleの<a href="https://support.apple.com/en-au/guide/iphone/iph61f49e4bb/27/ios/27">iPhoneのカメラでビデオを撮影する</a>と<a href="https://support.apple.com/en-au/guide/iphone/aside/glos3842gv5b/27/ios/27">Dual Captureビデオに対応しているモデル</a>、Metaの<a href="https://about.fb.com/news/2022/07/new-ways-to-create-instagram-reels-remix/">リールに関する発表</a>、Snapchatの<a href="https://help.snapchat.com/hc/en-us/articles/8132982011668-What-is-Dual-Camera-on-Snapchat-and-how-do-I-use-it">SnapchatのDual Cameraとは</a>、<a href="https://help.snapchat.com/hc/en-us/articles/8866040216084-Who-is-Dual-Camera-available-for-on-Snapchat">Dual Cameraを使えるユーザー</a>、<a href="https://newsroom.snap.com/dual-camera">Dual Cameraの発表記事</a>。</p>
 
       <div class="post-cta">
         <p><strong>ContentCamを無料で試す</strong>。縦と横を同時に録画でき、前後カメラ（Front/Back）では2つのカメラを独立した2つのファイルとして録画します。iPhoneとAndroidに対応しています。</p>
