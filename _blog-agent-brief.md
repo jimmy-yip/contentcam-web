@@ -8,12 +8,33 @@ request. **Do NOT push to main.** Nothing goes live until a human merges.
 ## About the app
 
 ContentCam is an iPhone and Android camera app that records vertical (9:16) and horizontal (16:9)
-video at the same time in one take. It also has Dual Lens mode (two cameras at once, iPhone 11+),
+video at the same time in one take. It also has Dual Lens mode (wide + ultra-wide at once; needs an ultra-wide camera: iPhone 11 and later, not SE or 16e),
 Front / Back mode (both platforms, premium, 5 free recordings), a teleprompter, manual controls
 (exposure, white balance 2500-8000K, ISO, shutter), 4K and 60fps, and timelapse. No account; footage
 never leaves the phone. Since iOS 2.8.1 the iPhone app measures ad installs and purchases (Apple AdServices,
 Meta SDK), so NEVER claim "no tracking", "no data collection" or "no SDKs" for iPhone. Android collects nothing. Pricing is monthly, annual with a 7-day free trial, or a one-time
 lifetime option. It is built solo in Australia by Jimmy, who is the author of every post.
+
+Facts confirmed 5–6 Nov 2026 (use them):
+- **Recording:**
+  - Single Lens records the full 4:3 sensor and cuts both formats from it; neither file is a crop of the other.
+  - Projects, scenes and takes, with automatic file names.
+  - Front & Back saves TWO separate files. Combine (iOS 2.8, Android 2.7) renders them into picture-in-picture or
+    split screen AFTERWARDS and keeps the originals. Trying layouts is free; saving is Premium.
+- **Devices and frame rates:**
+  - Front & Back works on every iPhone with iOS 18 (XS, XR and newer, including iPhone 15 and 16).
+  - On iPhone it records HD at up to 60fps where the phone supports it (60fps is Premium; some older iPhones cap at
+    30). On Android it records HD at up to 30fps, on phones that can run both cameras.
+  - 24, 25, 30, 50 and 60fps (25/50 are a Settings toggle).
+- **Photos:** Front & Back photos (two separate photos) on iPhone AND Android. Photo capture is Premium on both.
+- **Free and cadence:**
+  - No ads and no watermark, free or Premium.
+  - Updates every 1 to 2 weeks (see /changelog/).
+- **Competitors** (verified; keep them current):
+  - DualShot Recorder records ONE camera at a time.
+  - SplitRig asks for FULL Photo Library access although its policy says add-only. Its dual mode is 24/30fps.
+  - Apple Dual Capture is iPhone 17-family only, at 24/30fps, as one combined video.
+  - ReFrame contains ads, sells weekly and lifetime plans, and has no front + back mode.
 
 **This section is your only source of truth for ContentCam.** Do not attribute a feature, price,
 platform or limitation to it that is not written above. If you want to say the app does something and
