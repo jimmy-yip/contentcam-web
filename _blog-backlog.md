@@ -35,6 +35,14 @@ it: the drafting agent checks `blog/` for what already exists.
   write without search.
 - [x] **Video terms explained, in plain english** — glossary + every label on the camera screen.
 
+## NEXT LOCAL POST (Jimmy, 8 Nov 2026)
+- [ ] **iPhone video not in Photos after recording: where did it go? (2026)** — LOCAL ONLY. Jimmy saw it first-hand
+  in DualShot's Telegram group: users repeatedly can't find a recording after filming (not in Photos, and DualShot has
+  no Files folder), with no support reply. He has screenshots (private group: use them as evidence only, never publish
+  them or name users). Angle: how third-party camera apps store takes (in-app storage vs Photos vs the Files app), where
+  to look, and why some apps only save to Photos on export. ContentCam's folder choice + Files visibility must be
+  verified in code first. Don't name DualShot's bug without a public source; describe the pattern. Free date: 7 Nov.
+
 ## PRIORITY — the assets worth building first (2026-09-10 re-set)
 These beat anything below. Each is a reference or measurement asset in a category nobody owns.
 They need real numbers, so a human writes the ones marked LOCAL ONLY.
