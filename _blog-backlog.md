@@ -36,7 +36,7 @@ it: the drafting agent checks `blog/` for what already exists.
 - [x] **Video terms explained, in plain english** — glossary + every label on the camera screen.
 
 ## NEXT LOCAL POST (Jimmy, 8 Nov 2026)
-- [ ] **iPhone video not in Photos after recording: where did it go? (2026)** — LOCAL ONLY. Jimmy saw it first-hand
+- [x] **iPhone video not in Photos after recording: where did it go? (2026)** — SHIPPED 7 Nov as `iphone-video-not-in-photos-after-recording` (DualShot named, Jimmy's call). — LOCAL ONLY. Jimmy saw it first-hand
   in DualShot's Telegram group: users repeatedly can't find a recording after filming (not in Photos, and DualShot has
   no Files folder), with no support reply. He has screenshots (private group: use them as evidence only, never publish
   them or name users). Angle: how third-party camera apps store takes (in-app storage vs Photos vs the Files app), where
