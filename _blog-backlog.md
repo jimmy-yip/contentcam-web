@@ -119,7 +119,7 @@ Take these before anything else.
 - [x] Choppy in low light (Auto FPS) — 19 Oct
 - [ ] High Efficiency vs Most Compatible: HEVC files on Windows/editors (Apple HT207022)
 - [ ] Why is my iPhone video so big? (MB per minute per format, Settings > Camera > Record Video)
-- [ ] iPhone video has no sound / quiet audio (Spatial Audio vs Stereo vs Mono on iPhone 16+)
+- [x] iPhone video has no sound — SHIPPED 9 Nov as `iphone-video-no-sound` (mic permission → Apple's "silent audio samples", call/alarm interruption, AirPods-as-mic input on iOS 26, covered mics, time-lapse, ContentCam's own 2.3.2/2.4.1 audio-loss bug). Spatial Audio only as a hedged FAQ: untested which apps fail to play it.
 
 ## Bucket 1a — cross-posting workflow — **CLOUD-SAFE**
 Argument and workflow, no platform specifications to look up.
