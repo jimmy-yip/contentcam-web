@@ -124,6 +124,9 @@ installs the app.
 - On any post naming a competitor, open with a disclosure that Jimmy builds ContentCam, and include
   a real section on where the other app genuinely wins.
 - On purely educational posts, mention ContentCam once at most, or not at all.
+- **Never put ContentCam in a negative light** (Jimmy, 9 Nov 2026). No ContentCam bugs, past or present, no internal
+  test numbers, customer bug reports, or "it can still fail on X" caveats. Explain a problem generically and say what
+  ContentCam does well. If a claim would need a caveat about ContentCam, leave ContentCam out of that section.
 
 **Do not use em dashes.** Avoid: delve, unlock, leverage, seamless, robust, elevate, streamline,
 crucial, pivotal, transformative, game-changer, "In today's", "Let's dive in", "It's important to
