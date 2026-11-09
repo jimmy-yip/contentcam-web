@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Как снимать вертикальное и горизонтальное видео одновременно - ContentCam</title>
+  <meta name="description" content="ContentCam снимает вертикальное видео 9:16 и горизонтальное 16:9 одновременно за один дубль, со встроенным телесуфлером и ручными настройками. iPhone и Android.">
+  <link rel="canonical" href="https://contentcam.app/ru/">
+  <link rel="preload" as="image" href="/assets/img/hero-landscape.webp" imagesrcset="/assets/img/hero-landscape-600.webp 600w, /assets/img/hero-landscape-900.webp 900w, /assets/img/hero-landscape.webp 1179w" imagesizes="(max-width: 860px) 88vw, 340px" fetchpriority="high">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Как снимать вертикальное и горизонтальное видео одновременно - ContentCam">
+  <meta property="og:description" content="Один дубль дает сразу 9:16 и 16:9, со встроенным телесуфлером и ручными настройками. iPhone и Android.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/ru/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Как снимать вертикальное и горизонтальное видео одновременно - ContentCam">
+  <meta name="twitter:description" content="Один дубль дает сразу 9:16 и 16:9, со встроенным телесуфлером и ручными настройками. iPhone и Android.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://contentcam.app/#org",
+        "name": "ContentCam",
+        "url": "https://contentcam.app/",
+        "logo": "https://contentcam.app/assets/icon-512.png",
+        "email": "contentcam.app@gmail.com",
+        "sameAs": [
+          "https://www.instagram.com/contentcam.app",
+          "https://www.tiktok.com/@contentcam.app",
+          "https://www.youtube.com/@ContentCam-app",
+          "https://discord.gg/YxUpbUgthH",
+          "https://apps.apple.com/app/id6765881795",
+          "https://play.google.com/store/apps/details?id=app.contentcam.android"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://contentcam.app/#website",
+        "name": "ContentCam",
+        "url": "https://contentcam.app/",
+        "publisher": { "@id": "https://contentcam.app/#org" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://contentcam.app/ru/#app",
+        "name": "ContentCam",
+        "alternateName": "ContentCam: Dual Camera Video",
+        "description": "Приложение-камера ContentCam для iPhone и Android записывает вертикальное видео 9:16 и горизонтальное 16:9 одновременно за один дубль. В нем есть встроенный телесуфлер, ручные настройки камеры (экспозиция, баланс белого, ISO, выдержка), таймлапс, 4K и работа с проектами, сценами и дублями для авторов контента.",
+        "operatingSystem": "iOS 18.0 или новее, Android 8.0 или новее",
+        "applicationCategory": "MultimediaApplication",
+        "url": "https://contentcam.app/ru/",
+        "downloadUrl": "https://apps.apple.com/app/id6765881795",
+        "installUrl": "https://apps.apple.com/app/id6765881795",
+        "screenshot": [
+          "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
+          "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
+          "https://contentcam.app/assets/img/ui-projects-640.webp"
+        ],
+        "offers": [
+          { "@type": "Offer", "name": "Бесплатная загрузка", "price": "0", "priceCurrency": "USD", "description": "Бесплатно скачать и пользоваться: запись в режиме «Один объектив», 1080p, 30 fps, фронтальная камера, 3 проекта, 5 бесплатных дублей в режиме «Два объектива», без водяного знака. Premium по желанию, как встроенная покупка; актуальные цены указаны в App Store и Google Play." }
+        ],
+        "author": { "@id": "https://contentcam.app/#org" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://contentcam.app/ru/#faq",
+        "url": "https://contentcam.app/ru/",
+        "mainEntity": [
+          { "@type": "Question", "name": "Горизонтальное видео просто вырезано из вертикального?", "acceptedAnswer": { "@type": "Answer", "text": "Нет. В режиме «Один объектив» ContentCam записывает полный кадр матрицы 4:3 и вырезает из него каждый формат, поэтому горизонтальное видео сохраняет всю ширину, а вертикальное всю высоту. Каждый файл кодируется отдельно в HEVC, в 1080×1920 и 1920×1080 или в соответствующем 4K. Ни один из них не является растянутой обрезкой другого." } },
+          { "@type": "Question", "name": "ContentCam бесплатный или нужна подписка?", "acceptedAnswer": { "@type": "Answer", "text": "Его можно бесплатно скачать и пользоваться: запись в режиме «Один объектив» в обоих форматах, 1080p, 30 fps, три проекта и никакого водяного знака. Premium по желанию, и способ оплаты выбираете вы: годовой план с бесплатным пробным периодом, месячный план или разовая покупка навсегда. Все варианты открывают одни и те же функции, а цены указаны в вашей местной валюте в App Store и Google Play." } },
+          { "@type": "Question", "name": "Можно ли попробовать функции Premium до оплаты?", "acceptedAnswer": { "@type": "Answer", "text": "Да. Каждую функцию Premium можно посмотреть вживую, включая ручные регуляторы. Экран оплаты появляется, только когда вы нажимаете запись с включенной функцией Premium. Кроме того, режимы «Два объектива» и «Передняя и задняя» дают по 5 бесплатных записей, а годовой план начинается с бесплатного пробного периода." } },
+          { "@type": "Question", "name": "Есть ли реклама или водяной знак?", "acceptedAnswer": { "@type": "Answer", "text": "Нет. Ни рекламы, ни водяного знака ни в одном тарифе, включая бесплатный." } },
+          { "@type": "Question", "name": "На каких телефонах работает приложение?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone XS и новее на iOS 18 или новее; для режима «Два объектива» нужен iPhone 11 или новее со сверхширокоугольной камерой (не iPhone SE и не iPhone 16e). Android 8.0 или новее; 4K, 60 fps и ручная экспозиция зависят от возможностей камеры вашего телефона. Режим «Два объектива» и HDR пока есть только на iPhone." } },
+          { "@type": "Question", "name": "Можно ли снимать на переднюю и заднюю камеру одновременно?", "acceptedAnswer": { "@type": "Answer", "text": "Да, на iPhone и Android, двумя отдельными файлами или одним объединенным видео. Режим «Передняя и задняя» работает на всех iPhone с iOS 18, включая iPhone 15 и 16. Это режим Premium, попробовать его можно на 5 бесплатных записях. На новых iPhone, например iPhone 17, есть еще и функция Apple Dual Capture, которая сохраняет обе камеры одним файлом «картинка в картинке»." } },
+          { "@type": "Question", "name": "Чем ContentCam отличается от DualShot Recorder?", "acceptedAnswer": { "@type": "Answer", "text": "Оба приложения снимают вертикальное и горизонтальное видео за один дубль. DualShot Recorder есть только на iPhone; ContentCam работает на iPhone и Android, добавляет режим «Два объектива» (широкоугольная и сверхширокоугольная камеры одновременно на iPhone 11 и новее) и работу с проектами, сценами и дублями с автоматическим именованием файлов, а помимо подписок по-прежнему предлагает разовую покупку навсегда. Полное сравнение: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/" } }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    /* home page (revamped 2026-10-08). Names prefixed hx- / rv / ccbar to avoid the global .cta class in styles.css */
+    .rv-strip { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; padding: 8px 0 44px; }
+    .rv { margin: 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 18px 16px; }
+    .rv-stars { color: var(--amber); letter-spacing: 2px; font-size: 15px; margin-bottom: 8px; }
+    .rv blockquote { margin: 0 0 10px; font-size: 15.5px; line-height: 1.5; color: var(--ink); }
+    .rv figcaption { font-size: 13px; color: var(--text-dim); }
+    .band-dark .rv { background: rgba(255,255,255,.05); border-color: rgba(255,255,255,.1); box-shadow: none; margin-top: 22px; }
+    .band-dark .rv blockquote { color: #e9f3f4; }
+    .band-dark .rv figcaption { color: #9fb2b4; }
+    .hx-note { margin-top: 18px; font-size: 15px; color: var(--text-soft); }
+    .hx-steps { counter-reset: s; list-style: none; padding: 0; margin: 0 0 26px; display: grid; gap: 12px; }
+    .hx-steps li { counter-increment: s; position: relative; padding: 14px 16px 14px 58px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; font-size: 16px; }
+    .hx-steps li::before { content: counter(s); position: absolute; left: 16px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; border-radius: 50%; background: var(--cyan); color: #06252a; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+    .ccbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; display: none; align-items: center; gap: 12px; padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+      background: rgba(16,26,28,.96); color: #fff; box-shadow: 0 -6px 24px rgba(0,0,0,.18); transform: translateY(110%); transition: transform .25s ease; }
+    .ccbar.on { transform: translateY(0); }
+    .ccbar img { width: 36px; height: 36px; border-radius: 9px; flex: none; }
+    .ccbar .t { flex: 1; min-width: 0; font-size: 14px; line-height: 1.25; }
+    .ccbar .t b { display: block; font-size: 15px; }
+    .ccbar a.go { flex: none; min-height: 44px; padding: 0 18px; display: inline-flex; align-items: center; border-radius: 12px; background: var(--cyan); color: #06252a; font-weight: 700; font-size: 15px; text-decoration: none; }
+    /* tighter section rhythm, scoped to this page */
+    body.hx main > section { padding: 44px 0; }
+    body.hx main > section.hero { padding: 44px 0 24px; }
+    body.hx .hero p.tagline { margin-bottom: 22px; }
+    body.hx main > section.band-dark { padding: 48px 0; }
+    body.hx main > section.hx-final { padding: 60px 0 76px; }
+    body.hx section .lead, body.hx .page-hero .lead { max-width: none; }
+    .rv time { color: var(--text-dim); }
+    .band-dark .rv time { color: #9fb2b4; }
+    section .rv-strip { padding-bottom: 0; }
+    .hx-pricing-note { margin: 4px 0 26px; }
+    .hx-feats { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 6px; }
+    .hx-feat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 20px 16px; }
+    .hx-feat h3 { font-size: 18px; margin: 0 0 10px; }
+    .hx-feat ul { list-style: none; margin: 0; padding: 0; }
+    .hx-feat li { position: relative; padding: 0 0 0 24px; margin: 0 0 8px; font-size: 15px; line-height: 1.45; color: var(--text-soft); }
+    .hx-feat li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--cyan-ink); font-weight: 700; }
+    .hx-feat li b { color: var(--ink); font-weight: 600; }
+    .hx-links { margin-top: 18px; font-size: 15px; display: flex; flex-wrap: wrap; gap: 6px 22px; }
+    .hx-priv { display: flex; gap: 18px; align-items: flex-start; }
+    .hx-priv svg { flex: none; width: 40px; height: 46px; margin-top: 2px; }
+    .hx-priv .big { font-size: 18px; color: var(--ink); margin: 0 0 12px; font-weight: 600; }
+    .hx-priv ul { list-style: none; margin: 0 0 12px; padding: 0; }
+    .hx-priv li { position: relative; padding-left: 26px; margin-bottom: 6px; color: var(--text-soft); font-size: 15.5px; }
+    .hx-priv li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan-ink); font-weight: 700; }
+    .hx-faq details { border-bottom: 1px solid var(--border); padding: 4px 0; }
+    .hx-faq summary { cursor: pointer; list-style: none; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 17px; padding: 14px 32px 14px 0; position: relative; }
+    .hx-faq summary::-webkit-details-marker { display: none; }
+    .hx-faq summary::after { content: "+"; position: absolute; right: 4px; top: 10px; font-size: 22px; color: var(--cyan-ink); font-weight: 400; }
+    .hx-faq details[open] summary::after { content: "−"; }
+    .hx-faq details p { margin: 0 0 14px; color: var(--text-soft); }
+    @media (max-width: 860px) {
+      body.hx main > section { padding: 34px 0; }
+      body.hx main > section.hero { padding: 26px 0 18px; }
+      body.hx main > section.band-dark { padding: 36px 0; }
+      .hx-feats { grid-template-columns: 1fr; gap: 12px; }
+      .hx-priv { padding: 20px 18px; gap: 14px; }
+      .hx-priv svg { width: 32px; height: 37px; }
+    }
+    @media (max-width: 860px) {
+      .rv-strip { grid-template-columns: 1fr; gap: 12px; padding-bottom: 32px; }
+      .ccbar { display: flex; }
+      body.has-ccbar { padding-bottom: 76px; }
+    }
+
+    /* human pass (31 Oct / 1 Nov) */
+    @media (min-width: 861px) { body.hx .hero-grid { grid-template-columns: 0.95fr 1.05fr; gap: 48px; } }
+    .proof-stage { background: none; border: 0; padding: 0; align-items: flex-end; }
+    .proof-9x16 { flex: 0 0 34%; } .proof-16x9 { flex: 0 0 62%; }
+    .frame { box-shadow: none; }
+    .frame .tags { position: absolute; top: 8px; left: 8px; right: 6px; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+    .frame .tags .row { display: flex; gap: 4px; }
+    .frame .tags .row span { font-size: 13px; font-weight: 600; line-height: 1; color: #fff; background: rgba(9,16,18,.74); padding: 5px 8px; border-radius: 7px; white-space: nowrap; }
+    @media (max-width: 860px) { .frame .tags .row span { font-size: 11px; padding: 4px 6px; border-radius: 6px; } }
+    .hx-proofline { margin: 0; color: var(--text-soft); }
+    .hx-reassure { margin: 2px 0 0; }
+    .hx-kicker { margin: 0 0 4px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--cyan-ink); }
+    .hx-feat { border-top: 3px solid var(--cyan); }
+    .hx-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 12px 0; }
+    .hx-col { display: flex; flex-direction: column; }
+    .hx-collage figure { margin: 0 -2px; position: relative; }
+    .hx-col figure + figure { margin-top: -6px; }
+    .hx-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.10); border-radius: 4px; }
+    .hx-col:nth-child(1) figure:nth-child(1) { transform: rotate(-1.6deg); z-index: 2; }
+    .hx-col:nth-child(1) figure:nth-child(2) { transform: rotate(1deg); z-index: 3; }
+    .hx-col:nth-child(2) { padding-top: 30px; }
+    .hx-col:nth-child(2) figure:nth-child(1) { transform: rotate(1.2deg); z-index: 4; }
+    .hx-col:nth-child(2) figure:nth-child(2) { transform: rotate(-1deg); z-index: 5; }
+    .hx-col:nth-child(3) { padding-top: 8px; }
+    .hx-col:nth-child(3) figure:nth-child(1) { transform: rotate(-.8deg); z-index: 1; }
+    .hx-col:nth-child(3) figure:nth-child(2) { transform: rotate(1.4deg); z-index: 6; }
+    .hx-cta { margin-top: 24px; }
+    a.cta.hx-go { box-shadow: none; color: #06222a; display: flex; justify-content: center; width: 100%; padding: 15px 20px; }
+    @media (min-width: 861px) { .hx-cta { display: none; } }
+    body.hx .hero .hx-proofline { margin: 0 0 12px; }
+    body.hx .hero .hx-reassure { margin-top: 12px; }
+    .hx-founder .lead { margin-bottom: 14px; }
+    .hx-prv { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; align-items: start; padding: 8px 14px 0; }
+    .hx-prv figure { margin: 0 -5px; position: relative; }
+    .hx-prv figure:nth-child(1) { z-index: 4; } .hx-prv figure:nth-child(2) { z-index: 3; } .hx-prv figure:nth-child(3) { z-index: 2; } .hx-prv figure:nth-child(4) { z-index: 1; }
+    .hx-prv img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.08); border-radius: 4px; }
+    .hx-prv figure:nth-child(1) { transform: rotate(-1.2deg); } .hx-prv figure:nth-child(2) { transform: rotate(.9deg); margin-top: 18px; }
+    .hx-prv figure:nth-child(3) { transform: rotate(-.7deg); margin-top: 6px; } .hx-prv figure:nth-child(4) { transform: rotate(1deg); margin-top: 22px; }
+    @media (max-width: 860px) { .hx-prv { grid-template-columns: 1fr; padding: 6px 6px 0; } .hx-prv figure { width: 94%; margin: -8px 0 0 !important; } .hx-prv figure:first-child { margin-top: 0 !important; } .hx-prv figure:nth-child(3) { justify-self: end; } .hx-prv .hx-dk { display: none; } .hx-prv figure:nth-child(1) { z-index: 1; } .hx-prv figure:nth-child(3) { z-index: 2; } .hx-prv figure:nth-child(4) { z-index: 3; } }
+    .hx-collage-cap { text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); margin: 26px 0 40px; }
+    .hx-loops figure { position: relative; cursor: pointer; }
+    .hx-reel-cap { margin: 10px 0 0; text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; line-height: 1.4; color: var(--text-dim); }
+    .hx-loops video { width: 100%; height: 100%; object-fit: cover; display: block; background: #0b1416; }
+    .hx-loops figure.paused::after { content: ""; position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%;
+      background: rgba(9,16,18,.6) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z' fill='%23fff'/%3E%3C/svg%3E") center/26px no-repeat; }
+    .hx-founder-grid { display: grid; grid-template-columns: 300px 1fr; gap: 40px; align-items: center; }
+    .hx-founder figure { margin: 0; aspect-ratio: 3/4; overflow: hidden; border-radius: 16px; }
+    .hx-founder img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 0; display: block; }
+    .hx-founder h2 { margin-top: 0; }
+    .hx-founder-by { margin: 0; color: var(--text-soft); font-size: 15px; }
+    .hx-founder-by { line-height: 1.6; }
+    .hx-founder-by b { color: var(--cyan-ink); font-size: 16px; }
+    @media (max-width: 860px) {
+      .hx-collage { grid-template-columns: 1fr; padding: 6px 6px 0; }
+      .hx-col { display: contents; }
+      .hx-collage figure { margin: 0; width: 94%; }
+      .hx-col figure + figure { margin-top: 0; }
+      .hx-m1 { order: 1; } .hx-m2 { order: 2; justify-self: end; margin-top: -8px !important; } .hx-m3 { order: 3; margin-top: -8px !important; }
+      .hx-collage figure:not(.hx-m1):not(.hx-m2):not(.hx-m3) { display: none; }
+      .hx-col:nth-child(2) { padding-top: 0; }
+      .hx-loops { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .hx-loops > :nth-child(3) { display: none; }
+      .hx-collage-cap { margin: 18px 0 30px; }
+      .hx-founder-grid { grid-template-columns: 1fr; gap: 20px; }
+      .hx-founder figure { aspect-ratio: 4/5; }
+    }
+  </style>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/">
+  <!-- /@hreflang -->
+</head>
+
+<body class="has-ccbar hx">
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ru/"><img src="/assets/logo-mark.png" alt="Логотип ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Открыть меню">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Функции</a>
+        <a href="/pricing/">Цены</a>
+        <a href="/blog/">Блог</a>
+        <a href="/support/">Поддержка</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <section class="hero first" id="hx-hero">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow"><span class="rec-dot"></span>Один дубль · два формата</span>
+          <h1>Хватит снимать<br>все <span class="accent">дважды.</span></h1>
+          <p class="tagline">ContentCam записывает <strong>вертикальное (9:16)</strong> и <strong>горизонтальное (16:9)</strong> видео одновременно. Один дубль дает вертикальное видео для TikTok, Reels и Shorts и горизонтальное для YouTube. Полный кадр в обоих форматах, а не обрезка.</p>
+          <p class="subnote hx-proofline">Оценка <span class="star">★</span> 4.8 от 1000+ авторов · 50 000+ загрузок</p>
+          <div class="badges">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ru-home2-hero&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Загрузите в App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-hero%26utm_campaign%3Dru-home2-hero"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Доступно в Google Play" width="175" height="52"></a>
+        </div>
+          <p class="subnote hx-reassure">Бесплатная загрузка · Без рекламы · Без водяного знака · Без регистрации</p>
+        </div>
+        <div class="proof">
+          <div class="proof-stage">
+            <div class="frame proof-9x16">
+              <img src="/assets/img/hero-portrait.webp" srcset="/assets/img/hero-portrait-400.webp 400w, /assets/img/hero-portrait-700.webp 700w, /assets/img/hero-portrait.webp 1179w" sizes="(max-width: 860px) 48vw, 240px" alt="Вертикальный кадр 9:16 из записи ContentCam на закате в Сиднее" width="900" height="1600" decoding="async">
+              <span class="tags"><span class="row"><span>TikTok</span><span>Reels</span></span><span class="row"><span>Shorts</span></span></span>
+            </div>
+            <div class="frame proof-16x9">
+              <img src="/assets/img/hero-landscape.webp" srcset="/assets/img/hero-landscape-600.webp 600w, /assets/img/hero-landscape-900.webp 900w, /assets/img/hero-landscape.webp 1179w" sizes="(max-width: 860px) 88vw, 340px" alt="Горизонтальный кадр 16:9 из той же записи ContentCam" width="1179" height="663" fetchpriority="high" decoding="async">
+              <span class="tags"><span class="row"><span>YouTube</span></span></span>
+            </div>
+          </div>
+          <p class="proof-cap">один момент · два файла · одно нажатие</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Real reviews quoted verbatim (excerpts end at a full stop). App Store via apps.apple.com / RSS, Google Play via the
+         public listing; checked 2026-10-08. -->
+    <div class="hx-collage" aria-label="Настоящие отзывы из App Store и Google Play">
+      <div class="hx-col"><figure class="hx-m1"><img src="/assets/reviews/r-ios-jessxlin.webp" alt="Отзыв в App Store от Jessxlin, 5 звезд: Иногда мне приходится снимать видео дважды на двух разных устройствах, и здорово, что теперь это можно сделать за один дубль!" width="1026" height="684" decoding="async"></figure><figure><img src="/assets/reviews/r-play-sue-ange.webp" alt="Отзыв в Google Play от sue ange, 5 звезд: Спасибо, что сделали это приложение! Думаю, оно избавляет от кучи хлопот и мучений таких пользователей, как я, которые вечно не могут решить, снимать вертикально или горизонтально, лол." width="968" height="616" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure class="hx-m2"><img src="/assets/reviews/r-play-yulahandro.webp" alt="Отзыв в Google Play от Yulahandro, 5 звезд: Это приложение просто спасение для тех, кто любит снимать видео, но кому нужна одна и та же версия и в горизонтали, и в вертикали одновременно" width="995" height="546" decoding="async"></figure><figure class="hx-m3"><img src="/assets/reviews/r-ios-pinkcarrib.webp" alt="Отзыв в App Store от pinkcarrib, 5 звезд: Если вы автор контента и снимаете UGC-видео, попробуйте это приложение. Оно изменит вашу жизнь. Представьте: все кадры за одну съемку, реакции прямо во время съемки, потрясающе." width="1027" height="825" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure><img src="/assets/reviews/r-ios-blowinbagzz.webp" alt="Отзыв в App Store от Blowinbagzz, 5 звезд: Это приложение реально экономит мне кучу времени: оно снимает в обоих ракурсах, раскладывает их по двум разным альбомам и сильно упрощает монтаж ⭐️⭐️⭐️⭐️⭐️❤️🪴🐾☕️👶🏻 а еще передняя и задняя камера одновременно, ну серьезно, тут есть все." width="1020" height="948" decoding="async"></figure><figure><img src="/assets/reviews/r-play-franciskurt.webp" alt="Отзыв в Google Play от Franciskurt Rengalota, 5 звезд: Это меняет правила игры 💖💖💖 можно снимать в двух ориентациях 💖" width="1016" height="494" loading="lazy" decoding="async"></figure></div>
+    </div>
+    <p class="hx-collage-cap">Настоящие отзывы из App Store и Google Play</p>
+
+    <section class="band-dark">
+      <div class="wrap">
+        <p class="section-eyebrow">Разве одно видео не вырезано из другого?</p>
+        <h2>Нет. Горизонтальное видео сохраняет всю сцену.</h2>
+        <p class="lead">Большинство приложений снимают вертикально, а потом вырезают из середины горизонтальную полосу для YouTube. Вы теряете края сцены и большую часть разрешения. ContentCam использует полный кадр камеры для обоих форматов, поэтому у каждого видео своя компоновка, а горизонтальное показывает всю ширину сцены в полном разрешении.</p>
+        <div class="shot-pair">
+          <img src="/assets/img/ui-record-handsup-640.webp" srcset="/assets/img/ui-record-handsup-480.webp 480w, /assets/img/ui-record-handsup-640.webp 640w" sizes="(max-width: 860px) 66vw, 300px" alt="Экран записи ContentCam, на котором видны рамки вертикального и горизонтального кадра" width="640" height="1387" loading="lazy" decoding="async">
+          <img src="/assets/img/ui-review-sunset-640.webp" srcset="/assets/img/ui-review-sunset-480.webp 480w, /assets/img/ui-review-sunset-640.webp 640w" sizes="(max-width: 860px) 66vw, 300px" alt="Экран просмотра ContentCam с вертикальным и горизонтальным дублями рядом" width="640" height="1387" loading="lazy" decoding="async">
+        </div>
+        <figure class="rv"><div class="rv-stars" aria-label="5 из 5 звезд">★★★★★</div><blockquote>До этого были три других приложения, ни одно не работало так хорошо, как это. Большинство просто обрезают один и тот же вид, а здесь можно выбрать один или два объектива, и результат получается разный.</blockquote><figcaption>aimeèy · App Store AU · <time datetime="2026-05-19">май 2026</time></figcaption></figure>
+        <div class="hx-cta"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ru-home2-crop&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-crop%26utm_campaign%3Dru-home2-crop">Попробовать бесплатно</a></div>
+        <p style="margin-top:18px"><a href="/features/dual-camera/">Как работает съемка в двух форматах →</a></p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">Что вы получаете на самом деле</p>
+      <h2>Один дубль. Для всех площадок.</h2>
+      <p class="lead">Вы снимаете момент один раз и получаете то, что нужно каждой платформе: без пересъемки, без перекадрирования, без второго телефона.</p>
+      <div class="hx-feats">
+        <div class="hx-feat">
+          <p class="hx-kicker">Режимы съемки</p><h3>Много способов снимать</h3>
+          <ul>
+            <li><b>Один объектив:</b> вертикальное и горизонтальное видео со всей матрицы, ни одно не вырезано из другого</li>
+            <li><b>Два объектива:</b> широкоугольная и сверхширокоугольная камеры одновременно, два разных ракурса</li>
+            <li><b>Передняя и задняя:</b> ваша реакция и сцена, по отдельности или вместе</li>
+            <li><b>Фронтальная камера</b> в обоих форматах или <b>Стандартная камера</b> только для вертикали</li>
+            <li><b>Режим «Фото»:</b> снимок 9:16 и снимок 16:9 одним нажатием</li>
+          </ul>
+        </div>
+        <div class="hx-feat">
+          <p class="hx-kicker">Профессиональные настройки камеры</p><h3>Снимайте как профи</h3>
+          <ul>
+            <li>HD или 4K отдельно для каждого формата, 24, 25, 30, 50 или 60 fps</li>
+            <li>Ручная экспозиция, баланс белого, ISO, выдержка и размытие фона</li>
+            <li>Касание наводит фокус, удержание фиксирует AE/AF</li>
+            <li>Встроенный телесуфлер, который прокручивается во время записи</li>
+            <li>Таймлапс, от 10x до 900x</li>
+            <li>Стабилизация, сетка, уровень горизонта и индикатор звука</li>
+          </ul>
+        </div>
+        <div class="hx-feat">
+          <p class="hx-kicker">Проекты и дубли</p><h3>Все по полочкам</h3>
+          <ul>
+            <li>Проекты, сцены и дубли, файлы называются автоматически</li>
+            <li>Просмотр обоих клипов рядом и обрезка с точностью до кадра</li>
+            <li>Дубли каждого проекта сохраняются в отдельную папку</li>
+            <li>Сколько еще можно снять, видно до начала записи</li>
+            <li>Прерванные дубли восстанавливаются при следующем запуске</li>
+            <li>Предупреждения о нагреве до того, как телефон перегреется</li>
+          </ul>
+        </div>
+      </div>
+      <p class="hx-links"><a href="/features/">Все функции →</a><a href="/features/manual-controls/">Ручные настройки →</a><a href="/features/teleprompter/">Телесуфлер →</a></p>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">Как это работает</p>
+      <h2>Как получить оба видео за одну съемку</h2>
+      <p class="lead">Настоящие видео, снятые в этом приложении. Снимал Jimmy, единственный разработчик ContentCam.</p>
+      <div class="lifestyle-strip hx-loops">
+        <div class="hx-reel"><figure><video src="/assets/video/loop-demo-sunset.mp4" poster="/assets/video/loop-demo-sunset-poster.jpg" muted loop playsinline preload="metadata" aria-label="Запись экрана: ContentCam снимает закат в обоих форматах"></video></figure><p class="hx-reel-cap">запись экрана</p></div>
+        <div class="hx-reel"><figure><video src="/assets/video/loop-cant-record-both.mp4" poster="/assets/video/loop-cant-record-both-poster.jpg" muted loop playsinline preload="metadata" aria-label="Jimmy у горного озера, затем экраны записи и просмотра ContentCam"></video></figure><p class="hx-reel-cap">одно нажатие · оба сохранены</p></div>
+        <div class="hx-reel"><figure><video src="/assets/video/loop-sunset-filming.mp4" poster="/assets/video/loop-sunset-filming-poster.jpg" muted loop playsinline preload="metadata" aria-label="Jimmy снимает закат в Сиднее на ContentCam, затем вертикальный и горизонтальный результат"></video></figure><p class="hx-reel-cap">закат в Сиднее · один дубль</p></div>
+      </div>
+      <div class="hx-cta"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ru-home2-howitworks&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-howitworks%26utm_campaign%3Dru-home2-howitworks">Попробовать бесплатно</a></div>
+    </section>
+
+    <!-- DRAFT founder story for Jimmy to edit -->
+    <section class="hx-founder">
+      <p class="section-eyebrow">От основателя</p>
+      <div class="hx-founder-grid">
+        <figure><img src="/assets/img/life-couple.webp" alt="Jimmy и его девушка на скамейке на закате смотрят дубль в ContentCam" width="720" height="1280" loading="lazy" decoding="async"></figure>
+        <div>
+          <h2>Сделано для авторов контента</h2>
+          <p class="lead">Моя девушка снимает контент, и каждый раз, когда мы куда-то выходили, она снимала одну и ту же сцену дважды: сначала вертикально для TikTok и Reels, потом горизонтально для YouTube. Ко второму дублю обычно что-то уже менялось. Поэтому я сделал для нее приложение, которое снимает оба формата сразу, и теперь мы тратим меньше времени на съемку и больше проводим вместе!</p>
+          <p class="lead">Сейчас им пользуются авторы по всему миру, а я по-прежнему сам делаю каждое обновление и читаю каждый отзыв.</p>
+          <p class="hx-founder-by"><b>Jimmy Yip</b><br>Сидней · <a href="https://www.instagram.com/contentwjimmy/" target="_blank" rel="noopener">@contentwjimmy</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band-dark">
+      <div class="wrap">
+        <p class="section-eyebrow">iPhone и Android</p>
+        <h2>Единственное приложение для двух форматов на обеих платформах.</h2>
+        <p class="lead">ContentCam создан нативно для iPhone и Android, поэтому какой бы телефон ни был у вас в кармане, один дубль все равно дает оба формата.</p>
+        <div class="badges">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ru-home2-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Загрузите в App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-android%26utm_campaign%3Dru-home2-android"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Доступно в Google Play" width="175" height="52"></a>
+        </div>
+        
+        <p class="hx-links" style="margin-top:16px"><a href="/features/">Что есть на iPhone →</a><a href="/android/">Что есть на Android →</a></p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">Цены</p>
+      <h2>Сколько стоит ContentCam? Бесплатно, а Premium по желанию.</h2>
+      <p class="lead"><b>Бесплатно:</b> неограниченные записи в режиме «Один объектив» в обоих форматах. Без рекламы, без водяного знака, без регистрации.<br><b>Premium:</b> «Два объектива» (iPhone), «Передняя и задняя», 4K, 50/60 fps, ручные настройки, телесуфлер, таймлапс и все новые функции, которые выйдут.</p>
+      <p class="lead hx-pricing-note">Попробуйте Premium бесплатно на годовом плане, платите помесячно или купите один раз навсегда. <a href="/pricing/">Сравнить планы →</a></p>
+
+      <div class="hx-prv">
+        <figure><img src="/assets/reviews/r-ios-cjxsutton.webp" alt="Отзыв в App Store от cjxsutton, 5 звезд: Обожаю это приложение, оно намного лучше конкурентов и предлагает покупку навсегда. Разработчик классный, прислушивается к отзывам в Discord и воплощает их." width="1026" height="683" loading="lazy" decoding="async"></figure>
+        <figure class="hx-dk"><img src="/assets/reviews/r-play-queen-werandra.webp" alt="Отзыв в Google Play от Queen WerandRa, 5 звезд: Фантастика, отличное приложение! Точно куплю Premium. Дополнение: Jimmy классный!" width="1021" height="494" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-ios-dhuddz.webp" alt="Отзыв в App Store от Dhuddz, 5 звезд: Месяцами я тестировал другие приложения с той же идеей, но ContentCam стал лучшим вариантом для моей работы над контентом для соцсетей. Управление простое, но полное, а интерфейс суперинтуитивный. Я купил его на Android, а теперь он у меня есть и на iOS. Очень рекомендую!" width="1020" height="940" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-ios-amanda112.webp" alt="Отзыв в App Store от Amanda112, 5 звезд: Отличное приложение, сэкономило мне кучу времени и нервов. Спасибо, Jimmy, разработчик-одиночка" width="1027" height="617" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="hx-cta" style="margin:26px 0 0"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ru-home2-pricing&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-pricing%26utm_campaign%3Dru-home2-pricing">Попробовать бесплатно</a></div>
+
+    </section>
+
+    <section>
+      <p class="section-eyebrow">Конфиденциальность по умолчанию</p>
+      <h2>Ваши видео остаются на телефоне</h2>
+      <div class="privacy-box hx-priv">
+        <svg viewBox="0 0 46 52" aria-hidden="true"><path d="M23 2 4 9v14c0 12.5 8 22.7 19 27 11-4.3 19-14.5 19-27V9L23 2z" fill="#25d0e5"/><path d="m14 26 6.5 6.5L32.5 20" fill="none" stroke="#101a1c" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+                    <ul>
+            <li>Без регистрации и аккаунта</li>
+            <li>Никогда не загружает, не передает и не хранит ваши видео</li>
+            <li>Снимает офлайн, интернет не нужен</li>
+            <li>Никогда не читает вашу галерею, только добавляет в нее ваши видео и фото</li>
+          </ul>
+          <a href="/privacy.html">Политика конфиденциальности →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq hx-faq" id="faq">
+      <p class="section-eyebrow">Вопросы</p>
+      <h2>Частые вопросы о ContentCam</h2>
+      <details><summary>Горизонтальное видео просто вырезано из вертикального?</summary><p>Нет. В режиме «Один объектив» ContentCam записывает полный кадр матрицы 4:3 и вырезает из него каждый формат, поэтому горизонтальное видео сохраняет всю ширину, а вертикальное всю высоту. Каждый файл кодируется отдельно в HEVC, в 1080×1920 и 1920×1080 или в соответствующем 4K. Ни один из них не является растянутой обрезкой другого.</p></details>
+      <details><summary>ContentCam бесплатный или нужна подписка?</summary><p>Его можно бесплатно скачать и пользоваться: запись в режиме «Один объектив» в обоих форматах, 1080p, 30 fps, три проекта и никакого водяного знака.</p><p>Premium по желанию, и способ оплаты выбираете вы: годовой план с бесплатным пробным периодом, месячный план или разовая покупка навсегда. Все варианты открывают одни и те же функции, а цены указаны в вашей местной валюте в App Store и Google Play.</p></details>
+      <details><summary>Можно ли попробовать функции Premium до оплаты?</summary><p>Да. Каждую функцию Premium можно посмотреть вживую, включая ручные регуляторы. Экран оплаты появляется, только когда вы нажимаете запись с включенной функцией Premium.</p><p>Кроме того, режимы «Два объектива» и «Передняя и задняя» дают по 5 бесплатных записей, а годовой план начинается с бесплатного пробного периода.</p></details>
+      <details><summary>Есть ли реклама или водяной знак?</summary><p>Нет. Ни рекламы, ни водяного знака ни в одном тарифе, включая бесплатный.</p></details>
+      <details><summary>На каких телефонах работает приложение?</summary><p>iPhone XS и новее на iOS 18 или новее; для режима «Два объектива» нужен iPhone 11 или новее со сверхширокоугольной камерой (не iPhone SE и не iPhone 16e).</p><p>Android 8.0 или новее; 4K, 60 fps и ручная экспозиция зависят от возможностей камеры вашего телефона. Режим «Два объектива» и HDR пока есть только на iPhone.</p></details>
+      <details><summary>Можно ли снимать на переднюю и заднюю камеру одновременно?</summary><p>Да, на iPhone и Android, двумя отдельными файлами или одним объединенным видео. Режим «Передняя и задняя» работает на всех iPhone с iOS 18, включая iPhone 15 и 16. Это режим Premium, попробовать его можно на 5 бесплатных записях.</p><p>На новых iPhone, например iPhone 17, есть еще и встроенная функция Apple Dual Capture, которая сохраняет обе камеры одним файлом «картинка в картинке»: <a href="/ru/blog/iphone-17-dual-capture-limitations/">на каких iPhone есть Dual Capture</a>. <a href="/ru/blog/record-front-and-back-camera-same-time-android/">Как это сделать на Android →</a></p></details>
+      <details><summary>Чем ContentCam отличается от DualShot Recorder?</summary><p>Оба приложения снимают вертикальное и горизонтальное видео за один дубль. DualShot Recorder есть только на iPhone; ContentCam работает на iPhone и Android, добавляет режим «Два объектива» (широкоугольная и сверхширокоугольная камеры одновременно на iPhone 11 и новее) и работу с проектами, сценами и дублями с автоматическим именованием файлов, а помимо подписок по-прежнему предлагает разовую покупку навсегда.</p><p><a href="/blog/dualshot-recorder-vs-contentcam/">Полное сравнение →</a></p></details>
+      <p style="margin-top:18px"><a href="/support/">Ответы на другие вопросы →</a></p>
+    </section>
+
+    <section class="center hx-final">
+      <h2>Хватит снимать одно и то же видео дважды.</h2>
+      <p class="lead" style="margin:0 auto 26px;max-width:700px">Скачайте бесплатно, снимите один дубль и получите оба формата, готовые к публикации.</p>
+      <div class="badges center-x">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ru-home2-final&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Загрузите в App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-final%26utm_campaign%3Dru-home2-final"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Доступно в Google Play" width="175" height="52"></a>
+        </div>
+      <p class="subnote" style="margin-top:16px">Вопросы? <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a> · <a href="https://discord.gg/YxUpbUgthH">Discord</a></p>
+    </section>
+  </main>
+
+  <div class="ccbar" id="ccbar" inert>
+    <img src="/assets/app-icon.png" alt="" width="36" height="36">
+    <div class="t"><b>ContentCam</b>Бесплатно на iPhone и Android</div>
+    <a class="go" id="ccbar-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ru-home2-sticky&amp;mt=8">Попробовать бесплатно</a>
+  </div>
+  <script>
+    (function () {
+      var bar = document.getElementById('ccbar'), go = document.getElementById('ccbar-go');
+      if (/android/i.test(navigator.userAgent || '')) document.querySelectorAll('.hx-go').forEach(function (a) { a.href = a.getAttribute('data-play').replace(/&amp;/g, '&'); });
+      if (/android/i.test(navigator.userAgent || '')) go.href = 'https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dhome2-sticky%26utm_campaign%3Dru-home2-sticky';
+      var hero = document.getElementById('hx-hero');
+      if (!('IntersectionObserver' in window)) { bar.classList.add('on'); bar.inert = false; return; }
+      new IntersectionObserver(function (e) {
+        var off = !e[0].isIntersecting; bar.classList.toggle('on', off); bar.inert = !off;
+      }).observe(hero);
+    })();
+  </script>
+
+<script>
+    (function () {
+      var vids = document.querySelectorAll('.hx-loops video');
+      var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      vids.forEach(function (v) {
+        var fig = v.parentNode;
+        fig.classList.add('paused');
+        v.addEventListener('play', function () { fig.classList.remove('paused'); });
+        v.addEventListener('pause', function () { fig.classList.add('paused'); });
+        fig.addEventListener('click', function () { v.dataset.user = '1'; v.paused ? v.play() : v.pause(); });
+      });
+      if (still || !('IntersectionObserver' in window)) return;
+      var io = new IntersectionObserver(function (es) { es.forEach(function (e) {
+        var v = e.target; if (v.dataset.user) return;
+        if (e.isIntersecting) v.play().catch(function(){}); else v.pause();
+      }); }, { threshold: 0.4 });
+      vids.forEach(function (v) { io.observe(v); });
+    })();
+  </script>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Логотип ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Функции</a>
+        <a href="/features/teleprompter/">Телесуфлер</a>
+        <a href="/features/dual-camera/">Две камеры</a>
+        <a href="/features/manual-controls/">Ручные настройки</a>
+        <a href="/android/">Android</a>
+        <a href="/pricing/">Цены</a>
+        <a href="/blog/">Блог</a>
+        <a href="/support/">Поддержка</a>
+        <a href="/press/">Для прессы</a>
+        <a href="/vs/">Сравнения</a>
+        <a href="/changelog/">История версий</a>
+        <a href="/privacy.html">Конфиденциальность</a>
+        <a href="/terms.html">Условия</a>
+      </div>
+      <div class="fine">ContentCam: независимое приложение-камера, которое в Австралии создает один разработчик. © 2026 ContentCam. Apple, логотип Apple, iPhone и App Store являются товарными знаками Apple Inc. Google Play и логотип Google Play являются товарными знаками Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/" hreflang="en" lang="en">English</a> · <a href="/de/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/" hreflang="es" lang="es">Español</a> · <a href="/fr/" hreflang="fr" lang="fr">Français</a> · <a href="/it/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <strong>Русский</strong></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

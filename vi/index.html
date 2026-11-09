@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Cách quay video dọc và ngang cùng lúc - ContentCam</title>
+  <meta name="description" content="ContentCam quay cùng lúc video dọc 9:16 và video ngang 16:9 chỉ trong một lần quay, có teleprompter tích hợp và điều chỉnh thủ công. Có trên iPhone và Android.">
+  <link rel="canonical" href="https://contentcam.app/vi/">
+  <link rel="preload" as="image" href="/assets/img/hero-landscape.webp" imagesrcset="/assets/img/hero-landscape-600.webp 600w, /assets/img/hero-landscape-900.webp 900w, /assets/img/hero-landscape.webp 1179w" imagesizes="(max-width: 860px) 88vw, 340px" fetchpriority="high">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:title" content="Cách quay video dọc và ngang cùng lúc - ContentCam">
+  <meta property="og:description" content="Một lần quay cho ra cả 9:16 lẫn 16:9, có teleprompter tích hợp và điều chỉnh thủ công. Có trên iPhone và Android.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/vi/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cách quay video dọc và ngang cùng lúc - ContentCam">
+  <meta name="twitter:description" content="Một lần quay cho ra cả 9:16 lẫn 16:9, có teleprompter tích hợp và điều chỉnh thủ công. Có trên iPhone và Android.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://contentcam.app/#org",
+        "name": "ContentCam",
+        "url": "https://contentcam.app/",
+        "logo": "https://contentcam.app/assets/icon-512.png",
+        "email": "contentcam.app@gmail.com",
+        "sameAs": [
+          "https://www.instagram.com/contentcam.app",
+          "https://www.tiktok.com/@contentcam.app",
+          "https://www.youtube.com/@ContentCam-app",
+          "https://discord.gg/YxUpbUgthH",
+          "https://apps.apple.com/app/id6765881795",
+          "https://play.google.com/store/apps/details?id=app.contentcam.android"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://contentcam.app/#website",
+        "name": "ContentCam",
+        "url": "https://contentcam.app/",
+        "publisher": { "@id": "https://contentcam.app/#org" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://contentcam.app/vi/#app",
+        "name": "ContentCam",
+        "alternateName": "ContentCam: Dual Camera Video",
+        "description": "ContentCam là app camera cho iPhone và Android, quay cùng lúc video dọc 9:16 và video ngang 16:9 chỉ trong một lần quay. App có teleprompter tích hợp, điều chỉnh camera thủ công (phơi sáng, cân bằng trắng, ISO, tốc độ màn trập), timelapse, 4K và quy trình dự án/cảnh quay/take dành cho nhà sáng tạo nội dung.",
+        "operatingSystem": "iOS 18.0 trở lên, Android 8.0 trở lên",
+        "applicationCategory": "MultimediaApplication",
+        "url": "https://contentcam.app/vi/",
+        "downloadUrl": "https://apps.apple.com/app/id6765881795",
+        "installUrl": "https://apps.apple.com/app/id6765881795",
+        "screenshot": [
+          "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
+          "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
+          "https://contentcam.app/assets/img/ui-projects-640.webp"
+        ],
+        "offers": [
+          { "@type": "Offer", "name": "Tải về miễn phí", "price": "0", "priceCurrency": "USD", "description": "Tải về và dùng miễn phí: quay Ống kính đơn, 1080p, 30fps, camera trước, 3 dự án, 5 take Ống kính kép miễn phí, không logo chìm. Có thể nâng cấp Premium qua mua hàng trong app; giá hiện tại hiển thị trên App Store và Google Play." }
+        ],
+        "author": { "@id": "https://contentcam.app/#org" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://contentcam.app/vi/#faq",
+        "url": "https://contentcam.app/vi/",
+        "mainEntity": [
+          { "@type": "Question", "name": "Bản ngang có phải chỉ là phần cắt ra từ bản dọc không?", "acceptedAnswer": { "@type": "Answer", "text": "Không. Ở chế độ Ống kính đơn, ContentCam ghi trọn khung hình 4:3 của cảm biến rồi cắt từng khổ ra từ đó, nên bản ngang giữ trọn chiều rộng và bản dọc giữ trọn chiều cao. Mỗi file được mã hóa riêng bằng HEVC, ở 1080×1920 và 1920×1080 hoặc mức tương đương ở 4K. Không bản nào là phần cắt phóng to từ bản kia." } },
+          { "@type": "Question", "name": "ContentCam có miễn phí không, hay phải đăng ký gói?", "acceptedAnswer": { "@type": "Answer", "text": "Bạn tải về và dùng miễn phí: quay Ống kính đơn ở cả hai khổ, 1080p, 30fps, ba dự án và không logo chìm. Premium là tùy chọn, và bạn chọn cách trả: gói năm có dùng thử miễn phí, gói tháng, hoặc mua một lần dùng trọn đời. Gói nào cũng mở khóa cùng một bộ tính năng, giá tính theo tiền tệ địa phương của bạn trên App Store và Google Play." } },
+          { "@type": "Question", "name": "Tôi có thể dùng thử tính năng Premium trước khi trả tiền không?", "acceptedAnswer": { "@type": "Answer", "text": "Có. Mọi tính năng Premium đều xem trước trực tiếp được, kể cả các vòng chỉnh thủ công. Màn hình thanh toán chỉ hiện ra khi bạn bấm quay lúc đang bật một tính năng Premium. Ống kính kép và Trước và sau còn cho bạn 5 lần quay miễn phí mỗi chế độ, và gói năm bắt đầu bằng thời gian dùng thử miễn phí." } },
+          { "@type": "Question", "name": "App có quảng cáo hay logo chìm không?", "acceptedAnswer": { "@type": "Answer", "text": "Không. Không quảng cáo và không logo chìm, ở mọi gói, kể cả bản miễn phí." } },
+          { "@type": "Question", "name": "App dùng được trên điện thoại nào?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone XS trở lên chạy iOS 18 hoặc mới hơn; chế độ Ống kính kép cần iPhone 11 trở lên có camera góc siêu rộng (không áp dụng cho iPhone SE hay iPhone 16e). Android 8.0 trở lên; 4K, 60fps và phơi sáng thủ công tùy vào những gì camera điện thoại của bạn hỗ trợ. Ống kính kép và HDR hiện chỉ có trên iPhone." } },
+          { "@type": "Question", "name": "App có quay camera trước và sau cùng lúc được không?", "acceptedAnswer": { "@type": "Answer", "text": "Có, trên cả iPhone và Android, thành hai file riêng biệt hoặc một video đã ghép. Trước và sau chạy trên mọi iPhone có iOS 18, kể cả iPhone 15 và 16, và là chế độ Premium với 5 lần quay miễn phí để dùng thử. Các iPhone gần đây như iPhone 17 còn có sẵn tính năng Dual Capture của Apple, lưu cả hai camera thành một file hình trong hình." } },
+          { "@type": "Question", "name": "ContentCam khác DualShot Recorder ở điểm nào?", "acceptedAnswer": { "@type": "Answer", "text": "Cả hai đều quay dọc và ngang từ một lần quay. DualShot Recorder chỉ có trên iPhone; ContentCam chạy trên iPhone và Android, có thêm Ống kính kép (góc rộng và góc siêu rộng cùng lúc trên iPhone 11 trở lên) cùng quy trình dự án, cảnh quay và take với tên file tự động, và vẫn có lựa chọn mua một lần dùng trọn đời bên cạnh các gói đăng ký. So sánh đầy đủ: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/" } }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    /* home page (revamped 2026-10-08). Names prefixed hx- / rv / ccbar to avoid the global .cta class in styles.css */
+    .rv-strip { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; padding: 8px 0 44px; }
+    .rv { margin: 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 18px 16px; }
+    .rv-stars { color: var(--amber); letter-spacing: 2px; font-size: 15px; margin-bottom: 8px; }
+    .rv blockquote { margin: 0 0 10px; font-size: 15.5px; line-height: 1.5; color: var(--ink); }
+    .rv figcaption { font-size: 13px; color: var(--text-dim); }
+    .band-dark .rv { background: rgba(255,255,255,.05); border-color: rgba(255,255,255,.1); box-shadow: none; margin-top: 22px; }
+    .band-dark .rv blockquote { color: #e9f3f4; }
+    .band-dark .rv figcaption { color: #9fb2b4; }
+    .hx-note { margin-top: 18px; font-size: 15px; color: var(--text-soft); }
+    .hx-steps { counter-reset: s; list-style: none; padding: 0; margin: 0 0 26px; display: grid; gap: 12px; }
+    .hx-steps li { counter-increment: s; position: relative; padding: 14px 16px 14px 58px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; font-size: 16px; }
+    .hx-steps li::before { content: counter(s); position: absolute; left: 16px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; border-radius: 50%; background: var(--cyan); color: #06252a; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+    .ccbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; display: none; align-items: center; gap: 12px; padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+      background: rgba(16,26,28,.96); color: #fff; box-shadow: 0 -6px 24px rgba(0,0,0,.18); transform: translateY(110%); transition: transform .25s ease; }
+    .ccbar.on { transform: translateY(0); }
+    .ccbar img { width: 36px; height: 36px; border-radius: 9px; flex: none; }
+    .ccbar .t { flex: 1; min-width: 0; font-size: 14px; line-height: 1.25; }
+    .ccbar .t b { display: block; font-size: 15px; }
+    .ccbar a.go { flex: none; min-height: 44px; padding: 0 18px; display: inline-flex; align-items: center; border-radius: 12px; background: var(--cyan); color: #06252a; font-weight: 700; font-size: 15px; text-decoration: none; }
+    /* tighter section rhythm, scoped to this page */
+    body.hx main > section { padding: 44px 0; }
+    body.hx main > section.hero { padding: 44px 0 24px; }
+    body.hx .hero p.tagline { margin-bottom: 22px; }
+    body.hx main > section.band-dark { padding: 48px 0; }
+    body.hx main > section.hx-final { padding: 60px 0 76px; }
+    body.hx section .lead, body.hx .page-hero .lead { max-width: none; }
+    .rv time { color: var(--text-dim); }
+    .band-dark .rv time { color: #9fb2b4; }
+    section .rv-strip { padding-bottom: 0; }
+    .hx-pricing-note { margin: 4px 0 26px; }
+    .hx-feats { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 6px; }
+    .hx-feat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 20px 16px; }
+    .hx-feat h3 { font-size: 18px; margin: 0 0 10px; }
+    .hx-feat ul { list-style: none; margin: 0; padding: 0; }
+    .hx-feat li { position: relative; padding: 0 0 0 24px; margin: 0 0 8px; font-size: 15px; line-height: 1.45; color: var(--text-soft); }
+    .hx-feat li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--cyan-ink); font-weight: 700; }
+    .hx-feat li b { color: var(--ink); font-weight: 600; }
+    .hx-links { margin-top: 18px; font-size: 15px; display: flex; flex-wrap: wrap; gap: 6px 22px; }
+    .hx-priv { display: flex; gap: 18px; align-items: flex-start; }
+    .hx-priv svg { flex: none; width: 40px; height: 46px; margin-top: 2px; }
+    .hx-priv .big { font-size: 18px; color: var(--ink); margin: 0 0 12px; font-weight: 600; }
+    .hx-priv ul { list-style: none; margin: 0 0 12px; padding: 0; }
+    .hx-priv li { position: relative; padding-left: 26px; margin-bottom: 6px; color: var(--text-soft); font-size: 15.5px; }
+    .hx-priv li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan-ink); font-weight: 700; }
+    .hx-faq details { border-bottom: 1px solid var(--border); padding: 4px 0; }
+    .hx-faq summary { cursor: pointer; list-style: none; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 17px; padding: 14px 32px 14px 0; position: relative; }
+    .hx-faq summary::-webkit-details-marker { display: none; }
+    .hx-faq summary::after { content: "+"; position: absolute; right: 4px; top: 10px; font-size: 22px; color: var(--cyan-ink); font-weight: 400; }
+    .hx-faq details[open] summary::after { content: "−"; }
+    .hx-faq details p { margin: 0 0 14px; color: var(--text-soft); }
+    @media (max-width: 860px) {
+      body.hx main > section { padding: 34px 0; }
+      body.hx main > section.hero { padding: 26px 0 18px; }
+      body.hx main > section.band-dark { padding: 36px 0; }
+      .hx-feats { grid-template-columns: 1fr; gap: 12px; }
+      .hx-priv { padding: 20px 18px; gap: 14px; }
+      .hx-priv svg { width: 32px; height: 37px; }
+    }
+    @media (max-width: 860px) {
+      .rv-strip { grid-template-columns: 1fr; gap: 12px; padding-bottom: 32px; }
+      .ccbar { display: flex; }
+      body.has-ccbar { padding-bottom: 76px; }
+    }
+
+    /* human pass (31 Oct / 1 Nov) */
+    @media (min-width: 861px) { body.hx .hero-grid { grid-template-columns: 0.95fr 1.05fr; gap: 48px; } }
+    .proof-stage { background: none; border: 0; padding: 0; align-items: flex-end; }
+    .proof-9x16 { flex: 0 0 34%; } .proof-16x9 { flex: 0 0 62%; }
+    .frame { box-shadow: none; }
+    .frame .tags { position: absolute; top: 8px; left: 8px; right: 6px; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+    .frame .tags .row { display: flex; gap: 4px; }
+    .frame .tags .row span { font-size: 13px; font-weight: 600; line-height: 1; color: #fff; background: rgba(9,16,18,.74); padding: 5px 8px; border-radius: 7px; white-space: nowrap; }
+    @media (max-width: 860px) { .frame .tags .row span { font-size: 11px; padding: 4px 6px; border-radius: 6px; } }
+    .hx-proofline { margin: 0; color: var(--text-soft); }
+    .hx-reassure { margin: 2px 0 0; }
+    .hx-kicker { margin: 0 0 4px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--cyan-ink); }
+    .hx-feat { border-top: 3px solid var(--cyan); }
+    .hx-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 12px 0; }
+    .hx-col { display: flex; flex-direction: column; }
+    .hx-collage figure { margin: 0 -2px; position: relative; }
+    .hx-col figure + figure { margin-top: -6px; }
+    .hx-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.10); border-radius: 4px; }
+    .hx-col:nth-child(1) figure:nth-child(1) { transform: rotate(-1.6deg); z-index: 2; }
+    .hx-col:nth-child(1) figure:nth-child(2) { transform: rotate(1deg); z-index: 3; }
+    .hx-col:nth-child(2) { padding-top: 30px; }
+    .hx-col:nth-child(2) figure:nth-child(1) { transform: rotate(1.2deg); z-index: 4; }
+    .hx-col:nth-child(2) figure:nth-child(2) { transform: rotate(-1deg); z-index: 5; }
+    .hx-col:nth-child(3) { padding-top: 8px; }
+    .hx-col:nth-child(3) figure:nth-child(1) { transform: rotate(-.8deg); z-index: 1; }
+    .hx-col:nth-child(3) figure:nth-child(2) { transform: rotate(1.4deg); z-index: 6; }
+    .hx-cta { margin-top: 24px; }
+    a.cta.hx-go { box-shadow: none; color: #06222a; display: flex; justify-content: center; width: 100%; padding: 15px 20px; }
+    @media (min-width: 861px) { .hx-cta { display: none; } }
+    body.hx .hero .hx-proofline { margin: 0 0 12px; }
+    body.hx .hero .hx-reassure { margin-top: 12px; }
+    .hx-founder .lead { margin-bottom: 14px; }
+    .hx-prv { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; align-items: start; padding: 8px 14px 0; }
+    .hx-prv figure { margin: 0 -5px; position: relative; }
+    .hx-prv figure:nth-child(1) { z-index: 4; } .hx-prv figure:nth-child(2) { z-index: 3; } .hx-prv figure:nth-child(3) { z-index: 2; } .hx-prv figure:nth-child(4) { z-index: 1; }
+    .hx-prv img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.08); border-radius: 4px; }
+    .hx-prv figure:nth-child(1) { transform: rotate(-1.2deg); } .hx-prv figure:nth-child(2) { transform: rotate(.9deg); margin-top: 18px; }
+    .hx-prv figure:nth-child(3) { transform: rotate(-.7deg); margin-top: 6px; } .hx-prv figure:nth-child(4) { transform: rotate(1deg); margin-top: 22px; }
+    @media (max-width: 860px) { .hx-prv { grid-template-columns: 1fr; padding: 6px 6px 0; } .hx-prv figure { width: 94%; margin: -8px 0 0 !important; } .hx-prv figure:first-child { margin-top: 0 !important; } .hx-prv figure:nth-child(3) { justify-self: end; } .hx-prv .hx-dk { display: none; } .hx-prv figure:nth-child(1) { z-index: 1; } .hx-prv figure:nth-child(3) { z-index: 2; } .hx-prv figure:nth-child(4) { z-index: 3; } }
+    .hx-collage-cap { text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); margin: 26px 0 40px; }
+    .hx-loops figure { position: relative; cursor: pointer; }
+    .hx-reel-cap { margin: 10px 0 0; text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; line-height: 1.4; color: var(--text-dim); }
+    .hx-loops video { width: 100%; height: 100%; object-fit: cover; display: block; background: #0b1416; }
+    .hx-loops figure.paused::after { content: ""; position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%;
+      background: rgba(9,16,18,.6) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z' fill='%23fff'/%3E%3C/svg%3E") center/26px no-repeat; }
+    .hx-founder-grid { display: grid; grid-template-columns: 300px 1fr; gap: 40px; align-items: center; }
+    .hx-founder figure { margin: 0; aspect-ratio: 3/4; overflow: hidden; border-radius: 16px; }
+    .hx-founder img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 0; display: block; }
+    .hx-founder h2 { margin-top: 0; }
+    .hx-founder-by { margin: 0; color: var(--text-soft); font-size: 15px; }
+    .hx-founder-by { line-height: 1.6; }
+    .hx-founder-by b { color: var(--cyan-ink); font-size: 16px; }
+    @media (max-width: 860px) {
+      .hx-collage { grid-template-columns: 1fr; padding: 6px 6px 0; }
+      .hx-col { display: contents; }
+      .hx-collage figure { margin: 0; width: 94%; }
+      .hx-col figure + figure { margin-top: 0; }
+      .hx-m1 { order: 1; } .hx-m2 { order: 2; justify-self: end; margin-top: -8px !important; } .hx-m3 { order: 3; margin-top: -8px !important; }
+      .hx-collage figure:not(.hx-m1):not(.hx-m2):not(.hx-m3) { display: none; }
+      .hx-col:nth-child(2) { padding-top: 0; }
+      .hx-loops { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .hx-loops > :nth-child(3) { display: none; }
+      .hx-collage-cap { margin: 18px 0 30px; }
+      .hx-founder-grid { grid-template-columns: 1fr; gap: 20px; }
+      .hx-founder figure { aspect-ratio: 4/5; }
+    }
+  </style>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/">
+  <!-- /@hreflang -->
+</head>
+
+<body class="has-ccbar hx">
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/vi/"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Mở menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Tính năng</a>
+        <a href="/pricing/">Bảng giá</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Hỗ trợ</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <section class="hero first" id="hx-hero">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow"><span class="rec-dot"></span>Một lần quay · hai khổ</span>
+          <h1>Đừng quay mọi thứ<br><span class="accent">hai lần</span> nữa.</h1>
+          <p class="tagline">ContentCam quay <strong>video dọc (9:16)</strong> và <strong>video ngang (16:9)</strong> cùng lúc. Một lần quay cho bạn video dọc cho TikTok, Reels và Shorts, và video ngang cho YouTube. Trọn khung hình ở cả hai chiều, không phải bản cắt.</p>
+          <p class="subnote hx-proofline">Được hơn 1.000 nhà sáng tạo chấm <span class="star">★</span> 4,8 · hơn 50.000 lượt tải</p>
+          <div class="badges">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=vi-home2-hero&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Tải về trên App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-hero%26utm_campaign%3Dvi-home2-hero"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Tải nội dung trên Google Play" width="175" height="52"></a>
+        </div>
+          <p class="subnote hx-reassure">Tải miễn phí · Không quảng cáo · Không logo chìm · Không cần tài khoản</p>
+        </div>
+        <div class="proof">
+          <div class="proof-stage">
+            <div class="frame proof-9x16">
+              <img src="/assets/img/hero-portrait.webp" srcset="/assets/img/hero-portrait-400.webp 400w, /assets/img/hero-portrait-700.webp 700w, /assets/img/hero-portrait.webp 1179w" sizes="(max-width: 860px) 48vw, 240px" alt="Khung hình dọc 9:16 từ một bản quay ContentCam lúc hoàng hôn ở Sydney" width="900" height="1600" decoding="async">
+              <span class="tags"><span class="row"><span>TikTok</span><span>Reels</span></span><span class="row"><span>Shorts</span></span></span>
+            </div>
+            <div class="frame proof-16x9">
+              <img src="/assets/img/hero-landscape.webp" srcset="/assets/img/hero-landscape-600.webp 600w, /assets/img/hero-landscape-900.webp 900w, /assets/img/hero-landscape.webp 1179w" sizes="(max-width: 860px) 88vw, 340px" alt="Khung hình ngang 16:9 từ cùng bản quay ContentCam đó" width="1179" height="663" fetchpriority="high" decoding="async">
+              <span class="tags"><span class="row"><span>YouTube</span></span></span>
+            </div>
+          </div>
+          <p class="proof-cap">cùng khoảnh khắc · hai file · một lần chạm</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Real reviews quoted verbatim (excerpts end at a full stop). App Store via apps.apple.com / RSS, Google Play via the
+         public listing; checked 2026-10-08. -->
+    <div class="hx-collage" aria-label="Đánh giá thật từ App Store và Google Play">
+      <div class="hx-col"><figure class="hx-m1"><img src="/assets/reviews/r-ios-jessxlin.webp" alt="Đánh giá App Store của Jessxlin, 5 sao: Đôi khi tôi phải quay một video hai lần trên hai thiết bị khác nhau, giờ làm được trong một lần quay thật tuyệt!" width="1026" height="684" decoding="async"></figure><figure><img src="/assets/reviews/r-play-sue-ange.webp" alt="Đánh giá Google Play của sue ange, 5 sao: Cảm ơn vì đã làm ra app này! Tôi nghĩ nó giúp bớt bao nhiêu phiền phức và mệt mỏi cho người dùng như tôi, lúc nào cũng phân vân nên quay dọc hay quay ngang, lol." width="968" height="616" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure class="hx-m2"><img src="/assets/reviews/r-play-yulahandro.webp" alt="Đánh giá Google Play của Yulahandro, 5 sao: App này là cứu tinh cho những ai thích quay video nhưng cần cùng một bản ở cả khổ ngang lẫn khổ dọc cùng lúc" width="995" height="546" decoding="async"></figure><figure class="hx-m3"><img src="/assets/reviews/r-ios-pinkcarrib.webp" alt="Đánh giá App Store của pinkcarrib, 5 sao: Nếu bạn là nhà sáng tạo làm video UGC thì hãy thử app này. Nó sẽ thay đổi cuộc đời bạn. Hãy nghĩ đến việc có đủ mọi cảnh chỉ trong một lần quay, nghĩ đến biểu cảm ngay khi đang quay, tuyệt vời." width="1027" height="825" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure><img src="/assets/reviews/r-ios-blowinbagzz.webp" alt="Đánh giá App Store của Blowinbagzz, 5 sao: App này đúng là giúp tôi tiết kiệm bao nhiêu thời gian, nó quay cả hai góc, tách ra hai album khác nhau và làm việc dựng video dễ hơn hẳn ⭐️⭐️⭐️⭐️⭐️❤️🪴🐾☕️👶🏻 lại còn dùng được camera trước và sau cùng lúc nữa, thôi nào, nó cho bạn mọi thứ rồi." width="1020" height="948" decoding="async"></figure><figure><img src="/assets/reviews/r-play-franciskurt.webp" alt="Đánh giá Google Play của Franciskurt Rengalota, 5 sao: Đúng là thay đổi cuộc chơi 💖💖💖 bạn quay được theo hai hướng 💖" width="1016" height="494" loading="lazy" decoding="async"></figure></div>
+    </div>
+    <p class="hx-collage-cap">Đánh giá thật từ App Store và Google Play</p>
+
+    <section class="band-dark">
+      <div class="wrap">
+        <p class="section-eyebrow">Một bản có phải chỉ là phần cắt của bản kia?</p>
+        <h2>Không. Bản ngang của bạn giữ trọn cả khung cảnh.</h2>
+        <p class="lead">Phần lớn app quay dọc, rồi cắt một dải ngang ở giữa ra cho YouTube. Bạn mất hai bên khung cảnh và phần lớn độ phân giải. ContentCam dùng trọn khung hình của camera cho cả hai, nên mỗi video có bố cục riêng, và bản ngang hiện đủ chiều rộng khung cảnh ở độ phân giải đầy đủ.</p>
+        <div class="shot-pair">
+          <img src="/assets/img/ui-record-handsup-640.webp" srcset="/assets/img/ui-record-handsup-480.webp 480w, /assets/img/ui-record-handsup-640.webp 640w" sizes="(max-width: 860px) 66vw, 300px" alt="Màn hình quay của ContentCam hiển thị cả khung hình dọc và khung hình ngang" width="640" height="1387" loading="lazy" decoding="async">
+          <img src="/assets/img/ui-review-sunset-640.webp" srcset="/assets/img/ui-review-sunset-480.webp 480w, /assets/img/ui-review-sunset-640.webp 640w" sizes="(max-width: 860px) 66vw, 300px" alt="Màn hình xem lại của ContentCam hiển thị take dọc và take ngang cạnh nhau" width="640" height="1387" loading="lazy" decoding="async">
+        </div>
+        <figure class="rv"><div class="rv-stars" aria-label="5 trên 5 sao">★★★★★</div><blockquote>Tôi đã thử ba app khác trước app này, không app nào tốt bằng. Phần lớn chỉ cắt cùng một góc nhìn, còn app này bạn thật sự chọn được giữa ống kính đơn và ống kính kép, cho ra kết quả khác nhau.</blockquote><figcaption>aimeèy · App Store Úc · <time datetime="2026-05-19">Tháng 5/2026</time></figcaption></figure>
+        <div class="hx-cta"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=vi-home2-crop&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-crop%26utm_campaign%3Dvi-home2-crop">Dùng thử miễn phí</a></div>
+        <p style="margin-top:18px"><a href="/vi/features/dual-camera/">Cách quay hai khổ hoạt động →</a></p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">Bạn thật sự nhận được gì</p>
+      <h2>Một lần quay. Đăng ở mọi nơi.</h2>
+      <p class="lead">Bạn quay khoảnh khắc một lần và có ngay thứ mà mọi nền tảng cần: không quay lại, không chỉnh lại khung hình, không cần điện thoại thứ hai.</p>
+      <div class="hx-feats">
+        <div class="hx-feat">
+          <p class="hx-kicker">Chế độ quay</p><h3>Nhiều cách quay</h3>
+          <ul>
+            <li><b>Ống kính đơn:</b> dọc và ngang từ toàn bộ cảm biến, không bản nào là phần cắt của bản kia</li>
+            <li><b>Ống kính kép:</b> góc rộng và góc siêu rộng cùng lúc, cho hai góc nhìn khác nhau</li>
+            <li><b>Trước và sau:</b> biểu cảm của bạn và khung cảnh, để riêng hoặc ghép lại</li>
+            <li><b>Camera trước</b> ở cả hai khổ, hoặc <b>Camera thường</b> chỉ quay dọc</li>
+            <li><b>Chế độ ảnh:</b> một ảnh 9:16 và một ảnh 16:9 chỉ với một lần chạm</li>
+          </ul>
+        </div>
+        <div class="hx-feat">
+          <p class="hx-kicker">Điều khiển camera chuyên nghiệp</p><h3>Quay như dân chuyên</h3>
+          <ul>
+            <li>HD hoặc 4K, cài riêng từng khổ, ở 24, 25, 30, 50 hoặc 60fps</li>
+            <li>Chỉnh tay phơi sáng, cân bằng trắng, ISO, tốc độ màn trập và làm mờ hậu cảnh</li>
+            <li>Chạm để lấy nét, giữ để khóa AE/AF</li>
+            <li>Teleprompter tích hợp, chạy chữ ngay khi bạn quay</li>
+            <li>Timelapse, từ 10x đến 900x</li>
+            <li>Chống rung, lưới, thước cân bằng và cột đo âm thanh</li>
+          </ul>
+        </div>
+        <div class="hx-feat">
+          <p class="hx-kicker">Dự án và take</p><h3>Luôn gọn gàng</h3>
+          <ul>
+            <li>Dự án, cảnh quay và take, file được tự đặt tên</li>
+            <li>Xem lại hai clip cạnh nhau và cắt chính xác đến từng khung hình</li>
+            <li>Chuyển take của mỗi dự án vào thư mục riêng</li>
+            <li>Biết mình quay được bao lâu trước khi bắt đầu</li>
+            <li>Take bị gián đoạn được khôi phục ở lần mở app kế tiếp</li>
+            <li>Cảnh báo trước khi điện thoại quá nóng</li>
+          </ul>
+        </div>
+      </div>
+      <p class="hx-links"><a href="/features/">Tất cả tính năng →</a><a href="/features/manual-controls/">Điều chỉnh thủ công →</a><a href="/features/teleprompter/">Teleprompter →</a></p>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">Cách hoạt động</p>
+      <h2>Quay một lần, có cả hai video</h2>
+      <p class="lead">Video thật, do Jimmy, nhà phát triển duy nhất đứng sau ContentCam, quay bằng chính app này.</p>
+      <div class="lifestyle-strip hx-loops">
+        <div class="hx-reel"><figure><video src="/assets/video/loop-demo-sunset.mp4" poster="/assets/video/loop-demo-sunset-poster.jpg" muted loop playsinline preload="metadata" aria-label="Quay màn hình ContentCam đang quay hoàng hôn ở cả hai khổ"></video></figure><p class="hx-reel-cap">quay màn hình</p></div>
+        <div class="hx-reel"><figure><video src="/assets/video/loop-cant-record-both.mp4" poster="/assets/video/loop-cant-record-both-poster.jpg" muted loop playsinline preload="metadata" aria-label="Jimmy bên một hồ trên núi, sau đó là màn hình quay và xem lại của ContentCam"></video></figure><p class="hx-reel-cap">một lần chạm · lưu cả hai</p></div>
+        <div class="hx-reel"><figure><video src="/assets/video/loop-sunset-filming.mp4" poster="/assets/video/loop-sunset-filming-poster.jpg" muted loop playsinline preload="metadata" aria-label="Jimmy quay hoàng hôn ở Sydney bằng ContentCam, sau đó là kết quả bản dọc và bản ngang"></video></figure><p class="hx-reel-cap">hoàng hôn Sydney · một lần quay</p></div>
+      </div>
+      <div class="hx-cta"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=vi-home2-howitworks&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-howitworks%26utm_campaign%3Dvi-home2-howitworks">Dùng thử miễn phí</a></div>
+    </section>
+
+    <!-- DRAFT founder story for Jimmy to edit -->
+    <section class="hx-founder">
+      <p class="section-eyebrow">Lời từ nhà sáng lập</p>
+      <div class="hx-founder-grid">
+        <figure><img src="/assets/img/life-couple.webp" alt="Jimmy và bạn gái ngồi trên ghế lúc hoàng hôn, xem lại một take trong ContentCam" width="720" height="1280" loading="lazy" decoding="async"></figure>
+        <div>
+          <h2>Làm ra cho nhà sáng tạo nội dung</h2>
+          <p class="lead">Bạn gái tôi làm nội dung, và mỗi lần đi chơi, cô ấy lại quay cùng một cảnh hai lần: một lần quay dọc cho TikTok và Reels, rồi quay ngang lần nữa cho YouTube. Đến lần quay thứ hai thì thường đã có gì đó thay đổi. Thế là tôi làm cho cô ấy một app quay cả hai cùng lúc, và giờ chúng tôi tốn ít thời gian quay hơn, có nhiều thời gian bên nhau hơn!</p>
+          <p class="lead">Giờ nhà sáng tạo khắp thế giới đều dùng app, và tôi vẫn tự tay làm từng bản cập nhật, tự đọc từng đánh giá.</p>
+          <p class="hx-founder-by"><b>Jimmy Yip</b><br>Sydney, Úc · <a href="https://www.instagram.com/contentwjimmy/" target="_blank" rel="noopener">@contentwjimmy</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band-dark">
+      <div class="wrap">
+        <p class="section-eyebrow">iPhone và Android</p>
+        <h2>App quay hai khổ duy nhất có trên cả hai nền tảng.</h2>
+        <p class="lead">ContentCam được làm riêng cho iPhone và Android, nên dù bạn dùng điện thoại nào, một lần quay vẫn cho bạn cả hai khổ.</p>
+        <div class="badges">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=vi-home2-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Tải về trên App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-android%26utm_campaign%3Dvi-home2-android"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Tải nội dung trên Google Play" width="175" height="52"></a>
+        </div>
+        
+        <p class="hx-links" style="margin-top:16px"><a href="/features/">Xem tính năng trên iPhone →</a><a href="/vi/android/">Xem tính năng trên Android →</a></p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">Bảng giá</p>
+      <h2>Dùng miễn phí. Premium khi bạn muốn nhiều hơn.</h2>
+      <p class="lead"><b>Miễn phí:</b> quay Ống kính đơn không giới hạn ở cả hai khổ. Không quảng cáo, không logo chìm, không cần tài khoản.<br><b>Premium:</b> Ống kính kép (iPhone), Trước và sau, 4K, 50/60fps, điều chỉnh thủ công, teleprompter, timelapse và mọi tính năng mới ra sau này.</p>
+      <p class="lead hx-pricing-note">Dùng thử Premium miễn phí với gói năm, chọn gói tháng, hoặc mua một lần dùng trọn đời. <a href="/pricing/">So sánh các gói →</a></p>
+
+      <div class="hx-prv">
+        <figure><img src="/assets/reviews/r-ios-cjxsutton.webp" alt="Đánh giá App Store của cjxsutton, 5 sao: Rất thích app này, tốt hơn hẳn các đối thủ và có lựa chọn mua trọn đời. Nhà phát triển rất tuyệt, lắng nghe và làm theo góp ý trên Discord." width="1026" height="683" loading="lazy" decoding="async"></figure>
+        <figure class="hx-dk"><img src="/assets/reviews/r-play-queen-werandra.webp" alt="Đánh giá Google Play của Queen WerandRa, 5 sao: Tuyệt vời, app hay quá! Chắc chắn sẽ mua Premium. Cập nhật: Jimmy quá đỉnh!" width="1021" height="494" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-ios-dhuddz.webp" alt="Đánh giá App Store của Dhuddz, 5 sao: Suốt nhiều tháng tôi thử các app khác có cùng ý tưởng, nhưng ContentCam trở thành lựa chọn tốt nhất cho công việc sáng tạo nội dung mạng xã hội của tôi. Các nút điều khiển đơn giản nhưng đầy đủ, giao diện cực kỳ dễ dùng. Tôi đã mua trên Android và giờ mua lại trên iOS. Rất đáng dùng!" width="1020" height="940" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-ios-amanda112.webp" alt="Đánh giá App Store của Amanda112, 5 sao: App quá tốt, giúp tôi đỡ tốn bao nhiêu thời gian và đau đầu. Cảm ơn Jimmy, nhà phát triển một mình" width="1027" height="617" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="hx-cta" style="margin:26px 0 0"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=vi-home2-pricing&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-pricing%26utm_campaign%3Dvi-home2-pricing">Dùng thử miễn phí</a></div>
+
+    </section>
+
+    <section>
+      <p class="section-eyebrow">Riêng tư ngay từ thiết kế</p>
+      <h2>Video của bạn luôn nằm trên điện thoại của bạn</h2>
+      <div class="privacy-box hx-priv">
+        <svg viewBox="0 0 46 52" aria-hidden="true"><path d="M23 2 4 9v14c0 12.5 8 22.7 19 27 11-4.3 19-14.5 19-27V9L23 2z" fill="#25d0e5"/><path d="m14 26 6.5 6.5L32.5 20" fill="none" stroke="#101a1c" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+                    <ul>
+            <li>Không cần đăng ký hay tài khoản</li>
+            <li>Không bao giờ tải lên, chia sẻ hay lưu trữ video của bạn</li>
+            <li>Quay ngoại tuyến, không cần kết nối mạng</li>
+            <li>Không bao giờ đọc thư viện ảnh của bạn, chỉ thêm video và ảnh của bạn vào đó</li>
+          </ul>
+          <a href="/privacy.html">Chính sách quyền riêng tư →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq hx-faq" id="faq">
+      <p class="section-eyebrow">Hỏi đáp</p>
+      <h2>Câu hỏi thường gặp</h2>
+      <details><summary>Bản ngang có phải chỉ là phần cắt ra từ bản dọc không?</summary><p>Không. Ở chế độ Ống kính đơn, ContentCam ghi trọn khung hình 4:3 của cảm biến rồi cắt từng khổ ra từ đó, nên bản ngang giữ trọn chiều rộng và bản dọc giữ trọn chiều cao. Mỗi file được mã hóa riêng bằng HEVC, ở 1080×1920 và 1920×1080 hoặc mức tương đương ở 4K. Không bản nào là phần cắt phóng to từ bản kia.</p></details>
+      <details><summary>ContentCam có miễn phí không, hay phải đăng ký gói?</summary><p>Bạn tải về và dùng miễn phí: quay Ống kính đơn ở cả hai khổ, 1080p, 30fps, ba dự án và không logo chìm.</p><p>Premium là tùy chọn, và bạn chọn cách trả: gói năm có dùng thử miễn phí, gói tháng, hoặc mua một lần dùng trọn đời. Gói nào cũng mở khóa cùng một bộ tính năng, giá tính theo tiền tệ địa phương của bạn trên App Store và Google Play.</p></details>
+      <details><summary>Tôi có thể dùng thử tính năng Premium trước khi trả tiền không?</summary><p>Có. Mọi tính năng Premium đều xem trước trực tiếp được, kể cả các vòng chỉnh thủ công. Màn hình thanh toán chỉ hiện ra khi bạn bấm quay lúc đang bật một tính năng Premium.</p><p>Ống kính kép và Trước và sau còn cho bạn 5 lần quay miễn phí mỗi chế độ, và gói năm bắt đầu bằng thời gian dùng thử miễn phí.</p></details>
+      <details><summary>App có quảng cáo hay logo chìm không?</summary><p>Không. Không quảng cáo và không logo chìm, ở mọi gói, kể cả bản miễn phí.</p></details>
+      <details><summary>App dùng được trên điện thoại nào?</summary><p>iPhone XS trở lên chạy iOS 18 hoặc mới hơn; chế độ Ống kính kép cần iPhone 11 trở lên có camera góc siêu rộng (không áp dụng cho iPhone SE hay iPhone 16e).</p><p>Android 8.0 trở lên; 4K, 60fps và phơi sáng thủ công tùy vào những gì camera điện thoại của bạn hỗ trợ. Ống kính kép và HDR hiện chỉ có trên iPhone.</p></details>
+      <details><summary>App có quay camera trước và sau cùng lúc được không?</summary><p>Có, trên cả iPhone và Android, thành hai file riêng biệt hoặc một video đã ghép. Trước và sau chạy trên mọi iPhone có iOS 18, kể cả iPhone 15 và 16, và là chế độ Premium với 5 lần quay miễn phí để dùng thử.</p><p>Các iPhone gần đây như iPhone 17 còn có sẵn tính năng Dual Capture của Apple, lưu cả hai camera thành một file hình trong hình: <a href="/vi/blog/iphone-17-dual-capture-limitations/">những iPhone nào có Dual Capture</a>. <a href="/vi/blog/record-front-and-back-camera-same-time-android/">Cách làm trên Android →</a></p></details>
+      <details><summary>ContentCam khác DualShot Recorder ở điểm nào?</summary><p>Cả hai đều quay dọc và ngang từ một lần quay. DualShot Recorder chỉ có trên iPhone; ContentCam chạy trên iPhone và Android, có thêm Ống kính kép (góc rộng và góc siêu rộng cùng lúc trên iPhone 11 trở lên) cùng quy trình dự án, cảnh quay và take với tên file tự động, và vẫn có lựa chọn mua một lần dùng trọn đời bên cạnh các gói đăng ký.</p><p><a href="/blog/dualshot-recorder-vs-contentcam/">So sánh đầy đủ →</a></p></details>
+      <p style="margin-top:18px"><a href="/support/">Xem thêm câu trả lời →</a></p>
+    </section>
+
+    <section class="center hx-final">
+      <h2>Đừng quay cùng một video hai lần nữa.</h2>
+      <p class="lead" style="margin:0 auto 26px;max-width:700px">Tải miễn phí, quay một lần, và có ngay cả hai khổ sẵn sàng để đăng.</p>
+      <div class="badges center-x">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=vi-home2-final&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Tải về trên App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-final%26utm_campaign%3Dvi-home2-final"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Tải nội dung trên Google Play" width="175" height="52"></a>
+        </div>
+      <p class="subnote" style="margin-top:16px">Có câu hỏi? <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a> · <a href="https://discord.gg/YxUpbUgthH">Discord</a></p>
+    </section>
+  </main>
+
+  <div class="ccbar" id="ccbar" inert>
+    <img src="/assets/app-icon.png" alt="" width="36" height="36">
+    <div class="t"><b>ContentCam</b>Miễn phí trên iPhone và Android</div>
+    <a class="go" id="ccbar-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=vi-home2-sticky&amp;mt=8">Dùng thử miễn phí</a>
+  </div>
+  <script>
+    (function () {
+      var bar = document.getElementById('ccbar'), go = document.getElementById('ccbar-go');
+      if (/android/i.test(navigator.userAgent || '')) document.querySelectorAll('.hx-go').forEach(function (a) { a.href = a.getAttribute('data-play').replace(/&amp;/g, '&'); });
+      if (/android/i.test(navigator.userAgent || '')) go.href = 'https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dhome2-sticky%26utm_campaign%3Dvi-home2-sticky';
+      var hero = document.getElementById('hx-hero');
+      if (!('IntersectionObserver' in window)) { bar.classList.add('on'); bar.inert = false; return; }
+      new IntersectionObserver(function (e) {
+        var off = !e[0].isIntersecting; bar.classList.toggle('on', off); bar.inert = !off;
+      }).observe(hero);
+    })();
+  </script>
+
+<script>
+    (function () {
+      var vids = document.querySelectorAll('.hx-loops video');
+      var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      vids.forEach(function (v) {
+        var fig = v.parentNode;
+        fig.classList.add('paused');
+        v.addEventListener('play', function () { fig.classList.remove('paused'); });
+        v.addEventListener('pause', function () { fig.classList.add('paused'); });
+        fig.addEventListener('click', function () { v.dataset.user = '1'; v.paused ? v.play() : v.pause(); });
+      });
+      if (still || !('IntersectionObserver' in window)) return;
+      var io = new IntersectionObserver(function (es) { es.forEach(function (e) {
+        var v = e.target; if (v.dataset.user) return;
+        if (e.isIntersecting) v.play().catch(function(){}); else v.pause();
+      }); }, { threshold: 0.4 });
+      vids.forEach(function (v) { io.observe(v); });
+    })();
+  </script>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Tính năng</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/vi/features/dual-camera/">Camera kép</a>
+        <a href="/features/manual-controls/">Điều khiển thủ công</a>
+        <a href="/vi/android/">Android</a>
+        <a href="/pricing/">Bảng giá</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Hỗ trợ</a>
+        <a href="/press/">Báo chí</a>
+        <a href="/vs/">So sánh</a>
+        <a href="/changelog/">Nhật ký cập nhật</a>
+        <a href="/privacy.html">Quyền riêng tư</a>
+        <a href="/terms.html">Điều khoản</a>
+      </div>
+      <div class="fine">ContentCam là ứng dụng camera độc lập do một nhà phát triển duy nhất làm ra tại Úc. © 2026 ContentCam. Apple, logo Apple, iPhone và App Store là nhãn hiệu của Apple Inc. Google Play và logo Google Play là nhãn hiệu của Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/" hreflang="en" lang="en">English</a> · <a href="/de/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/" hreflang="es" lang="es">Español</a> · <a href="/fr/" hreflang="fr" lang="fr">Français</a> · <a href="/it/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/" hreflang="tr" lang="tr">Türkçe</a> · <strong>Tiếng Việt</strong> · <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/" hreflang="ru" lang="ru">Русский</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

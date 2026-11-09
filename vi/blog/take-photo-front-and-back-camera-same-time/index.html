@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Chụp ảnh camera trước và sau cùng lúc thành hai ảnh riêng (2026)</title>
+  <meta name="description" content="Chế độ ảnh Trước và sau (Front/Back) của ContentCam lưu ảnh selfie và ảnh camera sau thành hai file riêng trên iPhone và Android. Snapchat cho ra một ảnh ghép trên iPhone. Dual Capture của iPhone và Dual của Instagram chỉ quay video.">
+  <link rel="canonical" href="https://contentcam.app/vi/blog/take-photo-front-and-back-camera-same-time/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:title" content="Chụp ảnh camera trước và sau cùng lúc thành hai ảnh riêng (2026)">
+  <meta property="og:description" content="Một ảnh ghép hay hai ảnh riêng: mọi cách chụp selfie và camera sau chỉ với một lần bấm, trên iPhone và Android.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/vi/blog/take-photo-front-and-back-camera-same-time/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cách chụp ảnh bằng camera trước và sau cùng lúc">
+  <meta name="twitter:description" content="Một ảnh ghép hay hai ảnh riêng, trên iPhone và Android.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/vi/blog/take-photo-front-and-back-camera-same-time/",
+        "headline": "Cách chụp ảnh selfie và camera sau cùng lúc",
+        "description": "Mọi cách chụp ảnh selfie và ảnh camera sau chỉ với một lần bấm trên iPhone và Android: chế độ ảnh Trước và sau của ContentCam cho hai ảnh riêng, Dual Camera của Snapchat cho một ảnh ghép trên iPhone, và mẹo dùng video với Dual Capture và Instagram.",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-10-16",
+        "dateModified": "2026-11-05",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "Nhà phát triển ContentCam", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/vi/blog/take-photo-front-and-back-camera-same-time/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://contentcam.app/vi/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/vi/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Chụp ảnh camera trước và sau cùng lúc", "item": "https://contentcam.app/vi/blog/take-photo-front-and-back-camera-same-time/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Có thể lấy ảnh selfie và ảnh camera sau thành hai file riêng không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Chế độ ảnh của ContentCam làm được việc này ở chế độ Trước và sau trên iPhone và Android: một lần bấm lưu một ảnh camera sau và một ảnh camera trước. Chế độ ảnh thuộc bản Premium."}},
+          {"@type": "Question", "name": "App Camera của iPhone có chụp ảnh camera trước và sau cùng lúc được không?", "acceptedAnswer": {"@type": "Answer", "text": "Không trực tiếp. Dual Capture chỉ quay video, trên iPhone 17, 17 Pro, 17 Pro Max, Air, 18 Pro, 18 Pro Max và Duo. Hãy quay vài giây rồi chụp màn hình khung hình đẹp nhất."}},
+          {"@type": "Question", "name": "Cách miễn phí dễ nhất để chụp selfie và ảnh camera sau cùng lúc là gì?", "acceptedAnswer": {"@type": "Answer", "text": "Trên iPhone, đó là Dual Camera của Snapchat: một ảnh có cả hai camera với bố cục cố định. Trung tâm trợ giúp của Snapchat nói bản Android sẽ có \"sớm\"."}},
+          {"@type": "Question", "name": "Vì sao điện thoại của tôi không chụp được ảnh camera trước và sau cùng lúc?", "acceptedAnswer": {"@type": "Answer", "text": "Phần cứng phải chạy được cả hai camera cùng lúc và báo điều đó cho app (isMultiCamSupported trên iPhone, getConcurrentCameraIds() trên Android 11 trở lên). Nếu không, không app nào làm được qua cách chính thức."}},
+          {"@type": "Question", "name": "Những điện thoại nào chụp được ảnh camera trước và sau trong ContentCam?", "acceptedAnswer": {"@type": "Answer", "text": "Trên iPhone, mọi mẫu chạy iOS 18 trở lên, từ iPhone XS và XR trở đi, kể cả iPhone 15 và iPhone 16. Trên Android, những máy có phần cứng chạy được camera trước và camera sau cùng lúc; ContentCam sẽ kiểm tra việc này trên máy của bạn."}}
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/take-photo-front-and-back-camera-same-time/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/vi/"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Mở menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Tính năng</a>
+        <a href="/pricing/">Bảng giá</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Hỗ trợ</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/vi/">Trang chủ</a> › <a href="/blog/">Blog</a> › Chụp ảnh camera trước và sau cùng lúc</div>
+    <article class="post">
+      <h1>Cách chụp ảnh selfie và camera sau cùng lúc</h1>
+      <p class="byline">Jimmy, nhà phát triển ContentCam · 16 tháng 10, 2026 · Cập nhật 5 tháng 11, 2026</p>
+
+      <p>Cách linh hoạt nhất để chụp ảnh selfie và ảnh camera sau chỉ với một lần bấm là chế độ ảnh Trước và sau (Front/Back) của ContentCam, trên iPhone và Android: một lần bấm lưu ảnh selfie và ảnh camera sau thành hai file riêng, nên bạn chọn bố cục sau. Chế độ ảnh thuộc bản Premium. Nếu muốn một ảnh ghép trên iPhone, Dual Camera của Snapchat miễn phí. Dual Capture của iPhone và Dual của Instagram chỉ quay video.</p>
+      <p>Công khai: tôi là người làm ContentCam, một trong các app dưới đây. Thông tin về các app khác lấy từ tài liệu hoặc trang giới thiệu của chính họ, được kiểm tra ngày 5 tháng 11, 2026 và liệt kê ở cuối bài. Về video, xem <a href="/vi/blog/dual-camera-effect/">hướng dẫn chính về camera trước và sau</a>.</p>
+
+      <h2>Làm sao để có ảnh selfie và ảnh camera sau thành hai file riêng?</h2>
+      <p>Dùng chế độ ảnh của ContentCam trong chế độ Trước và sau, trên iPhone hoặc Android:</p>
+      <ol>
+        <li>Mở ContentCam và chuyển chế độ quay sang <strong>Trước và sau</strong>.</li>
+        <li>Chọn camera sau chụp dọc hay ngang. Camera selfie luôn chụp dọc.</li>
+        <li>Canh khung hình camera sau rồi bấm <strong>nút chụp ngay cạnh nút quay</strong>.</li>
+        <li>Một lần bấm chụp cả hai camera cùng lúc và lưu hai ảnh: một ảnh từ camera sau và một ảnh từ camera selfie.</li>
+      </ol>
+      <p>Vì hai ảnh tách riêng, bạn có thể đặt ảnh selfie ở góc nào cũng được, xếp hai ảnh cạnh nhau, hoặc đăng thành hai slide carousel. Ảnh camera sau cũng đứng riêng được mà không có khuôn mặt nào che, điều mà một ảnh ghép không bao giờ cho bạn.</p>
+
+      <figure>
+        <img src="/assets/blog/take-photo-front-and-back-camera-same-time/front-and-back-two-files.webp" alt="Hai khung hình riêng từ một take Trước và sau: hồ nước màu ngọc lam từ camera sau và ảnh selfie đang cười từ camera trước" width="1000" height="857" loading="lazy" decoding="async">
+        <figcaption>Hai file riêng từ một take Trước và sau (đây là take video; chế độ ảnh lưu cặp tương tự dưới dạng ảnh).</figcaption>
+      </figure>
+      <p>Chế độ ảnh thuộc bản Premium của ContentCam trên cả iPhone và Android. App tải về miễn phí, không quảng cáo, không logo chìm và không cần tài khoản. Điện thoại của bạn cũng phải chạy được cả hai camera cùng lúc; ContentCam sẽ kiểm tra giúp bạn.</p>
+
+      <h2>App Camera của iPhone có chụp ảnh camera trước và sau cùng lúc được không?</h2>
+      <p>Không ở dạng ảnh. Hướng dẫn sử dụng iPhone của Apple đặt Dual Capture trong chế độ Video, quay "chính bạn" và "khung cảnh trước mặt bạn" cùng lúc, trên bảy mẫu máy: iPhone 17, iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, iPhone 18 Pro, iPhone 18 Pro Max và iPhone Duo. iPhone 16 trở về trước không có tính năng này.</p>
+      <p>Trên các mẫu đó, hãy quay vài giây rồi chụp màn hình khung hình đẹp nhất. Ô selfie đã được in thẳng vào khung hình, nên không thể di chuyển hay xóa đi. Xem thêm ở bài <a href="/vi/blog/iphone-17-dual-capture-limitations/">giới hạn của Dual Capture</a>.</p>
+
+      <h2>Snapchat có chụp ảnh camera trước và sau cùng lúc được không?</h2>
+      <p>Có, trên iPhone, dưới dạng một ảnh ghép. Trung tâm trợ giúp của Snapchat cho biết Dual Camera "cho phép bạn ghi lại nội dung bằng camera trước và camera sau cùng lúc". Snapchat ghi tính năng này dành cho iPhone XS, XS Max, XR trở lên, và trung tâm trợ giúp vẫn nói bản Android sẽ có "sớm".</p>
+      <p>Ô selfie là một phần của điểm ảnh, nên bạn không thể di chuyển hay xóa nó sau đó. Trang App Store của Snapchat cũng ghi "Có quảng cáo", và 26 trong 250 đánh giá App Store Mỹ gần nhất (31 tháng 10 đến 4 tháng 11, 2026) phàn nàn về quảng cáo. Một đánh giá 1 sao ngày 3 tháng 11, 2026 tóm gọn: "Quảng cáo còn nhiều hơn nội dung."</p>
+
+      <h2>Instagram có chụp ảnh camera trước và sau được không?</h2>
+      <p>Không, chỉ quay video. Meta ra mắt Dual của Instagram ngày 21 tháng 7, 2022 để "quay bằng camera trước và camera sau của điện thoại cùng lúc". Hãy quay một clip Dual ngắn rồi chụp màn hình khung hình đẹp nhất.</p>
+
+      <h2>Vì sao điện thoại của tôi không chụp được ảnh camera trước và sau cùng lúc?</h2>
+      <p>Phần cứng phải chạy được cả hai camera cùng lúc và báo cho app biết. Trên iPhone, app kiểm tra <code>isMultiCamSupported</code> trên <code>AVCaptureMultiCamSession</code> (iOS 13 trở lên). Trên Android 11 (API level 30) trở lên, <code>getConcurrentCameraIds()</code> trả về những camera mà máy chạy được cùng lúc. Nếu máy không báo có cặp camera trước và sau nào, không app nào ghi được cả hai qua cách chính thức.</p>
+
+      <h2>Nên dùng cách nào?</h2>
+      <ul>
+        <li><strong>Carousel, ảnh thumbnail, thứ gì bạn sẽ chỉnh sửa, hoặc điện thoại Android:</strong> chế độ ảnh Trước và sau của ContentCam: hai ảnh riêng.</li>
+        <li><strong>Một ảnh nhanh, miễn phí cho Story trên iPhone:</strong> Dual Camera của Snapchat, một ảnh cố định.</li>
+        <li><strong>Có iPhone 17, iPhone Air, iPhone 18 Pro hoặc iPhone Duo và không muốn cài thêm app:</strong> quay một video Dual Capture ngắn rồi chụp màn hình.</li>
+      </ul>
+
+      <h2>Làm sao để ảnh camera trước và sau trông đẹp?</h2>
+      <ul>
+        <li><strong>Chiếu sáng khuôn mặt trước.</strong> Camera selfie bị nhiễu sớm hơn trong phòng tối. Hãy quay mặt về phía cửa sổ hoặc đèn.</li>
+        <li><strong>Giữ yên một nhịp.</strong> Tay rung sẽ làm nhòe cả hai ảnh cùng lúc.</li>
+        <li><strong>Để ý chênh lệch sáng.</strong> Với hai file riêng, bạn có thể làm sáng ảnh selfie bị khuất bóng mà không đụng đến bầu trời đang sáng.</li>
+      </ul>
+
+      <h2>Câu hỏi thường gặp</h2>
+      <h3>Có thể lấy ảnh selfie và ảnh camera sau thành hai file riêng không?</h3>
+      <p>Có. Chế độ ảnh của ContentCam làm được việc này ở chế độ Trước và sau trên iPhone và Android: một lần bấm lưu một ảnh camera sau và một ảnh camera trước. Chế độ ảnh thuộc bản Premium.</p>
+      <h3>App Camera của iPhone có chụp ảnh camera trước và sau cùng lúc được không?</h3>
+      <p>Không trực tiếp. Dual Capture chỉ quay video, trên iPhone 17, 17 Pro, 17 Pro Max, Air, 18 Pro, 18 Pro Max và Duo. Hãy quay vài giây rồi chụp màn hình khung hình đẹp nhất.</p>
+      <h3>Cách miễn phí dễ nhất để chụp selfie và ảnh camera sau cùng lúc là gì?</h3>
+      <p>Trên iPhone, đó là Dual Camera của Snapchat: một ảnh có cả hai camera với bố cục cố định. Trung tâm trợ giúp của Snapchat nói bản Android sẽ có "sớm".</p>
+      <h3>Vì sao điện thoại của tôi không chụp được ảnh camera trước và sau cùng lúc?</h3>
+      <p>Phần cứng phải chạy được cả hai camera cùng lúc và báo điều đó cho app (<code>isMultiCamSupported</code> trên iPhone, <code>getConcurrentCameraIds()</code> trên Android 11 trở lên). Nếu không, không app nào làm được qua cách chính thức.</p>
+      <h3>Những điện thoại nào chụp được ảnh camera trước và sau trong ContentCam?</h3>
+      <p>Trên iPhone, mọi mẫu chạy iOS 18 trở lên, từ iPhone XS và XR trở đi, kể cả iPhone 15 và iPhone 16. Trên Android, những máy có phần cứng chạy được camera trước và camera sau cùng lúc; ContentCam sẽ kiểm tra việc này trên máy của bạn.</p>
+
+      <div class="post-cta">
+        <p><strong>Dùng thử ContentCam miễn phí.</strong> Camera trước và sau chỉ với một lần bấm, thành các file riêng, cùng video dọc và ngang trong một lần quay. Tải miễn phí trên iPhone và Android.</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=vi-b-front-back-photo&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Tải về trên App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dvi-front-back-photo"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Tải nội dung trên Google Play" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>Bài liên quan: <a href="/vi/blog/record-front-and-back-camera-same-time-iphone/">quay video camera trước và sau trên iPhone</a> · <a href="/vi/blog/record-front-and-back-camera-same-time-android/">quay video camera trước và sau trên Android</a> · <a href="/vi/blog/iphone-17-dual-capture-limitations/">những iPhone nào có Dual Capture</a> · <a href="/blog/snapchat-front-and-back-camera/">cách chụp Snap bằng camera trước và sau</a> · <a href="/blog/bereal-style-photo-without-bereal/">ảnh kiểu BeReal không cần BeReal</a></p>
+      <p class="byline">Nguồn: Apple, Hướng dẫn sử dụng iPhone, "Record a video with your iPhone camera" và "Models that support Dual Capture video" (support.apple.com); Apple Developer, AVCaptureMultiCamSession và isMultiCamSupported; Snapchat Support, "What is Dual Camera on Snapchat and how do I use it?" và "Who is Dual Camera available for on Snapchat?" (help.snapchat.com); trang App Store Mỹ của Snapchat và 250 đánh giá Mỹ gần nhất; Meta, "New Ways to Create Instagram Reels" (about.fb.com, tháng 7, 2022); Android Developers, CameraManager.getConcurrentCameraIds(). Tất cả được kiểm tra ngày 5 tháng 11, 2026.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Tính năng</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/vi/features/dual-camera/">Camera kép</a>
+        <a href="/features/manual-controls/">Điều khiển thủ công</a>
+        <a href="/vi/android/">Android</a>
+        <a href="/pricing/">Bảng giá</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Hỗ trợ</a>
+        <a href="/press/">Báo chí</a>
+        <a href="/vs/">So sánh</a>
+        <a href="/changelog/">Nhật ký cập nhật</a>
+        <a href="/privacy.html">Quyền riêng tư</a>
+        <a href="/terms.html">Điều khoản</a>
+      </div>
+      <div class="fine">ContentCam là ứng dụng camera độc lập do một nhà phát triển duy nhất làm ra tại Úc. © 2026 ContentCam. Apple, logo Apple, iPhone và App Store là nhãn hiệu của Apple Inc. Google Play và logo Google Play là nhãn hiệu của Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/take-photo-front-and-back-camera-same-time/" hreflang="en" lang="en">English</a> · <a href="/de/blog/take-photo-front-and-back-camera-same-time/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/take-photo-front-and-back-camera-same-time/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/take-photo-front-and-back-camera-same-time/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/take-photo-front-and-back-camera-same-time/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/take-photo-front-and-back-camera-same-time/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/take-photo-front-and-back-camera-same-time/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/take-photo-front-and-back-camera-same-time/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/blog/take-photo-front-and-back-camera-same-time/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/blog/take-photo-front-and-back-camera-same-time/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/blog/take-photo-front-and-back-camera-same-time/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/blog/take-photo-front-and-back-camera-same-time/" hreflang="tr" lang="tr">Türkçe</a> · <strong>Tiếng Việt</strong> · <a href="/zh-hans/blog/take-photo-front-and-back-camera-same-time/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/blog/take-photo-front-and-back-camera-same-time/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/blog/take-photo-front-and-back-camera-same-time/" hreflang="ru" lang="ru">Русский</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

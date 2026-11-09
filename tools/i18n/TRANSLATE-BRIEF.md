@@ -12,11 +12,18 @@ Single pass, no separate review agent, so self-check carefully before finishing.
 | ja | ja | Japanese | ja.txt | です/ます. Glossary ~/contentcam/docs/localization-glossary-ja.md. Gloss English mode names like 前後カメラ（Front/Back） as the store copy does |
 | pt-br | pt-BR | Portuguese (Brazil) | pt-BR.txt | você. celular, câmera. Apple: "Captura Dupla" |
 | id | id | Indonesian | id.txt | casual-polite, kamu. Glossary ~/contentcam/docs/localization-glossary-id.md |
+| nl | nl | Dutch | nl-NL.txt | je/jij form unless the store copy uses u |
+| pl | pl | Polish | pl.txt | match store copy register |
+| tr | tr | Turkish | tr.txt | match store copy register (sen/siz) |
+| vi | vi | Vietnamese | vi.txt | bạn form |
+| zh-hans | zh-Hans | Simplified Chinese (mainland) | zh-Hans.txt | 前后摄像头 / 横竖屏同时录制 style phrasing; check Baidu-style natural wording |
+| zh-hant | zh-Hant | Traditional Chinese (Taiwan/HK) | zh-Hant.txt | Taiwan vocabulary (影片, 鏡頭, 前後鏡頭), not a character conversion of zh-Hans |
+| ru | ru | Russian | ru.txt | вы form unless store copy uses ты |
 | ko | ko | Korean | ko.txt | 해요체 unless the store copy uses 합니다체; match it. Natural Korean search phrasing (e.g. 가로세로 동시촬영, 전후면 카메라 동시 촬영, 듀얼카메라) |
 
 Store copy files: ~/contentcam/docs/store-descriptions/v2.8.2/desc/<file>. Use its names for ContentCam's modes and
 features exactly. Existing translated pages in ~/contentcam-web/<dir>/ show the established nav/footer wording and
-style: open ONE of them (e.g. <dir>/blog/record-front-and-back-camera-same-time-iphone/index.html) and reuse its
+style: open ONE of them (e.g. <dir>/blog/record-front-and-back-camera-same-time-iphone/index.html, if one exists for your language) and reuse its
 nav, footer, CTA box and byline wording verbatim.
 
 ## Rules
@@ -26,7 +33,7 @@ nav, footer, CTA box and byline wording verbatim.
   fields inside JSON-LD (headline, description, name, FAQ question/answer, breadcrumb names). FAQ JSON-LD text must
   equal the visible FAQ text exactly.
 - Keep HTML structure, classes, ids, marker comments (<!-- @nav --> etc.), scripts, images, and every number, price,
-  date and fact. Do not add, drop or soften any claim. Never add anything negative about ContentCam.
+  date and fact. Do not add, drop or soften any claim. Never add anything about current ContentCam problems.
 - Set <html lang="...">, canonical, og:url and JSON-LD url/@id/mainEntityOfPage to the public URL. Add
   <meta property="og:locale" content="xx_YY"> if absent. Do NOT add hreflang or the language switcher (a script does it;
   if the source contains <!-- @hreflang --> or <!-- @langs --> blocks, drop those blocks entirely).

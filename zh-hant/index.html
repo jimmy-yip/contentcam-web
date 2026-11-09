@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>直式橫式同時錄影 App，一次拍好兩種影片 - ContentCam</title>
+  <meta name="description" content="ContentCam 一次拍攝就同時錄下 9:16 直式和 16:9 橫式影片，內建提詞機和手動控制。支援 iPhone 和 Android。">
+  <link rel="canonical" href="https://contentcam.app/zh-hant/">
+  <link rel="preload" as="image" href="/assets/img/hero-landscape.webp" imagesrcset="/assets/img/hero-landscape-600.webp 600w, /assets/img/hero-landscape-900.webp 900w, /assets/img/hero-landscape.webp 1179w" imagesizes="(max-width: 860px) 88vw, 340px" fetchpriority="high">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="直式橫式同時錄影 App，一次拍好兩種影片 - ContentCam">
+  <meta property="og:description" content="一次拍攝同時錄下 9:16 和 16:9，內建提詞機和手動控制。支援 iPhone 和 Android。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/zh-hant/">
+  <meta property="og:locale" content="zh_TW">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="直式橫式同時錄影 App，一次拍好兩種影片 - ContentCam">
+  <meta name="twitter:description" content="一次拍攝同時錄下 9:16 和 16:9，內建提詞機和手動控制。支援 iPhone 和 Android。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://contentcam.app/#org",
+        "name": "ContentCam",
+        "url": "https://contentcam.app/",
+        "logo": "https://contentcam.app/assets/icon-512.png",
+        "email": "contentcam.app@gmail.com",
+        "sameAs": [
+          "https://www.instagram.com/contentcam.app",
+          "https://www.tiktok.com/@contentcam.app",
+          "https://www.youtube.com/@ContentCam-app",
+          "https://discord.gg/YxUpbUgthH",
+          "https://apps.apple.com/app/id6765881795",
+          "https://play.google.com/store/apps/details?id=app.contentcam.android"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://contentcam.app/#website",
+        "name": "ContentCam",
+        "url": "https://contentcam.app/",
+        "publisher": { "@id": "https://contentcam.app/#org" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://contentcam.app/zh-hant/#app",
+        "name": "ContentCam",
+        "alternateName": "ContentCam: Dual Camera Video",
+        "description": "ContentCam 是一款 iPhone 和 Android 相機 App，一次拍攝就能同時錄下 9:16 直式和 16:9 橫式影片。內建提詞機、手動相機控制（曝光、白平衡、ISO、快門速度）、縮時攝影、4K，以及為內容創作者設計的專案、場景和 take 工作流程。",
+        "operatingSystem": "iOS 18.0 或更新版本、Android 8.0 或更新版本",
+        "applicationCategory": "MultimediaApplication",
+        "url": "https://contentcam.app/zh-hant/",
+        "downloadUrl": "https://apps.apple.com/app/id6765881795",
+        "installUrl": "https://apps.apple.com/app/id6765881795",
+        "screenshot": [
+          "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
+          "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
+          "https://contentcam.app/assets/img/ui-projects-640.webp"
+        ],
+        "offers": [
+          { "@type": "Offer", "name": "免費下載", "price": "0", "priceCurrency": "USD", "description": "免費下載和使用：單鏡頭錄影、1080p、30fps、前鏡頭、3 個專案、5 次免費雙鏡頭 take，沒有浮水印。可透過 App 內購買選購 Premium 升級；目前價格以 App Store 和 Google Play 顯示為準。" }
+        ],
+        "author": { "@id": "https://contentcam.app/#org" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://contentcam.app/zh-hant/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "橫式影片不就是從直式裁出來的嗎？", "acceptedAnswer": { "@type": "Answer", "text": "不是。在單鏡頭模式下，ContentCam 會錄下感光元件完整的 4:3 畫面，再分別裁出兩種格式，所以橫式保有完整寬度，直式保有完整高度。每個檔案都單獨以 HEVC 編碼，解析度為 1080×1920 和 1920×1080，或相對應的 4K。兩者都不是從對方裁切再放大的。" } },
+          { "@type": "Question", "name": "ContentCam 是免費的嗎？還是要訂閱？", "acceptedAnswer": { "@type": "Answer", "text": "免費下載、免費使用：單鏡頭同時錄兩種格式、1080p、30fps、三個專案，而且沒有浮水印。Premium 是選配，付費方式由你決定：附免費試用的年方案、月方案，或一次買斷終身使用。三種方案解鎖的功能完全相同，App Store 和 Google Play 會以你當地的貨幣標價。" } },
+          { "@type": "Question", "name": "付費前可以先試用 Premium 功能嗎？", "acceptedAnswer": { "@type": "Answer", "text": "可以。每一項 Premium 功能都能即時預覽，包括手動轉盤。只有在開啟 Premium 功能後按下錄影，才會出現付費畫面。雙鏡頭和前後鏡頭也各有 5 次免費錄影，年方案則從免費試用開始。" } },
+          { "@type": "Question", "name": "有廣告或浮水印嗎？", "acceptedAnswer": { "@type": "Answer", "text": "沒有。不論哪個方案，包括免費版，都沒有廣告也沒有浮水印。" } },
+          { "@type": "Question", "name": "支援哪些手機？", "acceptedAnswer": { "@type": "Answer", "text": "iOS 18 或更新版本的 iPhone XS 及更新機型；雙鏡頭模式需要配備超廣角鏡頭的 iPhone 11 或更新機型（不含 iPhone SE 和 iPhone 16e）。Android 8.0 或更新版本；4K、60fps 和手動曝光要看你的手機相機支援什麼。雙鏡頭和 HDR 目前只支援 iPhone。" } },
+          { "@type": "Question", "name": "可以前後鏡頭同時錄影嗎？", "acceptedAnswer": { "@type": "Answer", "text": "可以，iPhone 和 Android 都行，可以存成兩個獨立檔案，也可以合成一支影片。前後鏡頭模式支援所有 iOS 18 的 iPhone，包括 iPhone 15 和 16，屬於 Premium 模式，有 5 次免費錄影可以試用。iPhone 17 等較新的 iPhone 也有 Apple 的雙重拍攝（Dual Capture），會把兩顆鏡頭存成一個子母畫面檔案。" } },
+          { "@type": "Question", "name": "ContentCam 和 DualShot Recorder 有什麼不同？", "acceptedAnswer": { "@type": "Answer", "text": "兩者都能一次拍攝同時錄下直式和橫式。DualShot Recorder 只有 iPhone 版；ContentCam 支援 iPhone 和 Android，還多了雙鏡頭（在 iPhone 11 及更新機型上同時用廣角和超廣角錄影）以及自動命名檔案的專案、場景和 take 工作流程，而且除了訂閱之外，仍然提供一次買斷終身使用的方案。完整比較：https://contentcam.app/blog/dualshot-recorder-vs-contentcam/" } }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    /* home page (revamped 2026-10-08). Names prefixed hx- / rv / ccbar to avoid the global .cta class in styles.css */
+    .rv-strip { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; padding: 8px 0 44px; }
+    .rv { margin: 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 18px 16px; }
+    .rv-stars { color: var(--amber); letter-spacing: 2px; font-size: 15px; margin-bottom: 8px; }
+    .rv blockquote { margin: 0 0 10px; font-size: 15.5px; line-height: 1.5; color: var(--ink); }
+    .rv figcaption { font-size: 13px; color: var(--text-dim); }
+    .band-dark .rv { background: rgba(255,255,255,.05); border-color: rgba(255,255,255,.1); box-shadow: none; margin-top: 22px; }
+    .band-dark .rv blockquote { color: #e9f3f4; }
+    .band-dark .rv figcaption { color: #9fb2b4; }
+    .hx-note { margin-top: 18px; font-size: 15px; color: var(--text-soft); }
+    .hx-steps { counter-reset: s; list-style: none; padding: 0; margin: 0 0 26px; display: grid; gap: 12px; }
+    .hx-steps li { counter-increment: s; position: relative; padding: 14px 16px 14px 58px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; font-size: 16px; }
+    .hx-steps li::before { content: counter(s); position: absolute; left: 16px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; border-radius: 50%; background: var(--cyan); color: #06252a; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+    .ccbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; display: none; align-items: center; gap: 12px; padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+      background: rgba(16,26,28,.96); color: #fff; box-shadow: 0 -6px 24px rgba(0,0,0,.18); transform: translateY(110%); transition: transform .25s ease; }
+    .ccbar.on { transform: translateY(0); }
+    .ccbar img { width: 36px; height: 36px; border-radius: 9px; flex: none; }
+    .ccbar .t { flex: 1; min-width: 0; font-size: 14px; line-height: 1.25; }
+    .ccbar .t b { display: block; font-size: 15px; }
+    .ccbar a.go { flex: none; min-height: 44px; padding: 0 18px; display: inline-flex; align-items: center; border-radius: 12px; background: var(--cyan); color: #06252a; font-weight: 700; font-size: 15px; text-decoration: none; }
+    /* tighter section rhythm, scoped to this page */
+    body.hx main > section { padding: 44px 0; }
+    body.hx main > section.hero { padding: 44px 0 24px; }
+    body.hx .hero p.tagline { margin-bottom: 22px; }
+    body.hx main > section.band-dark { padding: 48px 0; }
+    body.hx main > section.hx-final { padding: 60px 0 76px; }
+    body.hx section .lead, body.hx .page-hero .lead { max-width: none; }
+    .rv time { color: var(--text-dim); }
+    .band-dark .rv time { color: #9fb2b4; }
+    section .rv-strip { padding-bottom: 0; }
+    .hx-pricing-note { margin: 4px 0 26px; }
+    .hx-feats { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 6px; }
+    .hx-feat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 20px 16px; }
+    .hx-feat h3 { font-size: 18px; margin: 0 0 10px; }
+    .hx-feat ul { list-style: none; margin: 0; padding: 0; }
+    .hx-feat li { position: relative; padding: 0 0 0 24px; margin: 0 0 8px; font-size: 15px; line-height: 1.45; color: var(--text-soft); }
+    .hx-feat li::before { content: "✓"; position: absolute; left: 0; top: 0; color: var(--cyan-ink); font-weight: 700; }
+    .hx-feat li b { color: var(--ink); font-weight: 600; }
+    .hx-links { margin-top: 18px; font-size: 15px; display: flex; flex-wrap: wrap; gap: 6px 22px; }
+    .hx-priv { display: flex; gap: 18px; align-items: flex-start; }
+    .hx-priv svg { flex: none; width: 40px; height: 46px; margin-top: 2px; }
+    .hx-priv .big { font-size: 18px; color: var(--ink); margin: 0 0 12px; font-weight: 600; }
+    .hx-priv ul { list-style: none; margin: 0 0 12px; padding: 0; }
+    .hx-priv li { position: relative; padding-left: 26px; margin-bottom: 6px; color: var(--text-soft); font-size: 15.5px; }
+    .hx-priv li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan-ink); font-weight: 700; }
+    .hx-faq details { border-bottom: 1px solid var(--border); padding: 4px 0; }
+    .hx-faq summary { cursor: pointer; list-style: none; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 17px; padding: 14px 32px 14px 0; position: relative; }
+    .hx-faq summary::-webkit-details-marker { display: none; }
+    .hx-faq summary::after { content: "+"; position: absolute; right: 4px; top: 10px; font-size: 22px; color: var(--cyan-ink); font-weight: 400; }
+    .hx-faq details[open] summary::after { content: "−"; }
+    .hx-faq details p { margin: 0 0 14px; color: var(--text-soft); }
+    @media (max-width: 860px) {
+      body.hx main > section { padding: 34px 0; }
+      body.hx main > section.hero { padding: 26px 0 18px; }
+      body.hx main > section.band-dark { padding: 36px 0; }
+      .hx-feats { grid-template-columns: 1fr; gap: 12px; }
+      .hx-priv { padding: 20px 18px; gap: 14px; }
+      .hx-priv svg { width: 32px; height: 37px; }
+    }
+    @media (max-width: 860px) {
+      .rv-strip { grid-template-columns: 1fr; gap: 12px; padding-bottom: 32px; }
+      .ccbar { display: flex; }
+      body.has-ccbar { padding-bottom: 76px; }
+    }
+
+    /* human pass (31 Oct / 1 Nov) */
+    @media (min-width: 861px) { body.hx .hero-grid { grid-template-columns: 0.95fr 1.05fr; gap: 48px; } }
+    .proof-stage { background: none; border: 0; padding: 0; align-items: flex-end; }
+    .proof-9x16 { flex: 0 0 34%; } .proof-16x9 { flex: 0 0 62%; }
+    .frame { box-shadow: none; }
+    .frame .tags { position: absolute; top: 8px; left: 8px; right: 6px; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+    .frame .tags .row { display: flex; gap: 4px; }
+    .frame .tags .row span { font-size: 13px; font-weight: 600; line-height: 1; color: #fff; background: rgba(9,16,18,.74); padding: 5px 8px; border-radius: 7px; white-space: nowrap; }
+    @media (max-width: 860px) { .frame .tags .row span { font-size: 11px; padding: 4px 6px; border-radius: 6px; } }
+    .hx-proofline { margin: 0; color: var(--text-soft); }
+    .hx-reassure { margin: 2px 0 0; }
+    .hx-kicker { margin: 0 0 4px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--cyan-ink); }
+    .hx-feat { border-top: 3px solid var(--cyan); }
+    .hx-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 12px 0; }
+    .hx-col { display: flex; flex-direction: column; }
+    .hx-collage figure { margin: 0 -2px; position: relative; }
+    .hx-col figure + figure { margin-top: -6px; }
+    .hx-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.10); border-radius: 4px; }
+    .hx-col:nth-child(1) figure:nth-child(1) { transform: rotate(-1.6deg); z-index: 2; }
+    .hx-col:nth-child(1) figure:nth-child(2) { transform: rotate(1deg); z-index: 3; }
+    .hx-col:nth-child(2) { padding-top: 30px; }
+    .hx-col:nth-child(2) figure:nth-child(1) { transform: rotate(1.2deg); z-index: 4; }
+    .hx-col:nth-child(2) figure:nth-child(2) { transform: rotate(-1deg); z-index: 5; }
+    .hx-col:nth-child(3) { padding-top: 8px; }
+    .hx-col:nth-child(3) figure:nth-child(1) { transform: rotate(-.8deg); z-index: 1; }
+    .hx-col:nth-child(3) figure:nth-child(2) { transform: rotate(1.4deg); z-index: 6; }
+    .hx-cta { margin-top: 24px; }
+    a.cta.hx-go { box-shadow: none; color: #06222a; display: flex; justify-content: center; width: 100%; padding: 15px 20px; }
+    @media (min-width: 861px) { .hx-cta { display: none; } }
+    body.hx .hero .hx-proofline { margin: 0 0 12px; }
+    body.hx .hero .hx-reassure { margin-top: 12px; }
+    .hx-founder .lead { margin-bottom: 14px; }
+    .hx-prv { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; align-items: start; padding: 8px 14px 0; }
+    .hx-prv figure { margin: 0 -5px; position: relative; }
+    .hx-prv figure:nth-child(1) { z-index: 4; } .hx-prv figure:nth-child(2) { z-index: 3; } .hx-prv figure:nth-child(3) { z-index: 2; } .hx-prv figure:nth-child(4) { z-index: 1; }
+    .hx-prv img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.08); border-radius: 4px; }
+    .hx-prv figure:nth-child(1) { transform: rotate(-1.2deg); } .hx-prv figure:nth-child(2) { transform: rotate(.9deg); margin-top: 18px; }
+    .hx-prv figure:nth-child(3) { transform: rotate(-.7deg); margin-top: 6px; } .hx-prv figure:nth-child(4) { transform: rotate(1deg); margin-top: 22px; }
+    @media (max-width: 860px) { .hx-prv { grid-template-columns: 1fr; padding: 6px 6px 0; } .hx-prv figure { width: 94%; margin: -8px 0 0 !important; } .hx-prv figure:first-child { margin-top: 0 !important; } .hx-prv figure:nth-child(3) { justify-self: end; } .hx-prv .hx-dk { display: none; } .hx-prv figure:nth-child(1) { z-index: 1; } .hx-prv figure:nth-child(3) { z-index: 2; } .hx-prv figure:nth-child(4) { z-index: 3; } }
+    .hx-collage-cap { text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); margin: 26px 0 40px; }
+    .hx-loops figure { position: relative; cursor: pointer; }
+    .hx-reel-cap { margin: 10px 0 0; text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; line-height: 1.4; color: var(--text-dim); }
+    .hx-loops video { width: 100%; height: 100%; object-fit: cover; display: block; background: #0b1416; }
+    .hx-loops figure.paused::after { content: ""; position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%;
+      background: rgba(9,16,18,.6) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z' fill='%23fff'/%3E%3C/svg%3E") center/26px no-repeat; }
+    .hx-founder-grid { display: grid; grid-template-columns: 300px 1fr; gap: 40px; align-items: center; }
+    .hx-founder figure { margin: 0; aspect-ratio: 3/4; overflow: hidden; border-radius: 16px; }
+    .hx-founder img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 0; display: block; }
+    .hx-founder h2 { margin-top: 0; }
+    .hx-founder-by { margin: 0; color: var(--text-soft); font-size: 15px; }
+    .hx-founder-by { line-height: 1.6; }
+    .hx-founder-by b { color: var(--cyan-ink); font-size: 16px; }
+    @media (max-width: 860px) {
+      .hx-collage { grid-template-columns: 1fr; padding: 6px 6px 0; }
+      .hx-col { display: contents; }
+      .hx-collage figure { margin: 0; width: 94%; }
+      .hx-col figure + figure { margin-top: 0; }
+      .hx-m1 { order: 1; } .hx-m2 { order: 2; justify-self: end; margin-top: -8px !important; } .hx-m3 { order: 3; margin-top: -8px !important; }
+      .hx-collage figure:not(.hx-m1):not(.hx-m2):not(.hx-m3) { display: none; }
+      .hx-col:nth-child(2) { padding-top: 0; }
+      .hx-loops { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .hx-loops > :nth-child(3) { display: none; }
+      .hx-collage-cap { margin: 18px 0 30px; }
+      .hx-founder-grid { grid-template-columns: 1fr; gap: 20px; }
+      .hx-founder figure { aspect-ratio: 4/5; }
+    }
+  </style>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/">
+  <!-- /@hreflang -->
+</head>
+
+<body class="has-ccbar hx">
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/zh-hant/"><img src="/assets/logo-mark.png" alt="ContentCam 標誌" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="開啟選單">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">功能</a>
+        <a href="/pricing/">價格</a>
+        <a href="/blog/">部落格</a>
+        <a href="/support/">支援</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <section class="hero first" id="hx-hero">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow"><span class="rec-dot"></span>一次拍攝 · 兩種格式</span>
+          <h1>同一支影片<br>別再<span class="accent">拍兩次。</span></h1>
+          <p class="tagline">ContentCam 同時錄下<strong>直式（9:16）</strong>和<strong>橫式（16:9）</strong>影片。拍一次，就有給 TikTok、Reels 和 Shorts 的直式影片，也有給 YouTube 的橫式影片。兩種都是完整畫面，不是裁切。</p>
+          <p class="subnote hx-proofline">1,000+ 位創作者評分 <span class="star">★</span> 4.8 · 下載次數 50,000+</p>
+          <div class="badges">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=zh-hant-home2-hero&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="從 App Store 下載" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-hero%26utm_campaign%3Dzh-hant-home2-hero"><img class="badge-play" src="/assets/google-play-badge.webp" alt="立即在 Google Play 下載" width="175" height="52"></a>
+        </div>
+          <p class="subnote hx-reassure">免費下載 · 沒有廣告 · 沒有浮水印 · 不用註冊帳號</p>
+        </div>
+        <div class="proof">
+          <div class="proof-stage">
+            <div class="frame proof-9x16">
+              <img src="/assets/img/hero-portrait.webp" srcset="/assets/img/hero-portrait-400.webp 400w, /assets/img/hero-portrait-700.webp 700w, /assets/img/hero-portrait.webp 1179w" sizes="(max-width: 860px) 48vw, 240px" alt="用 ContentCam 在雪梨夕陽下錄影的 9:16 直式畫面" width="900" height="1600" decoding="async">
+              <span class="tags"><span class="row"><span>TikTok</span><span>Reels</span></span><span class="row"><span>Shorts</span></span></span>
+            </div>
+            <div class="frame proof-16x9">
+              <img src="/assets/img/hero-landscape.webp" srcset="/assets/img/hero-landscape-600.webp 600w, /assets/img/hero-landscape-900.webp 900w, /assets/img/hero-landscape.webp 1179w" sizes="(max-width: 860px) 88vw, 340px" alt="同一段 ContentCam 錄影的 16:9 橫式畫面" width="1179" height="663" fetchpriority="high" decoding="async">
+              <span class="tags"><span class="row"><span>YouTube</span></span></span>
+            </div>
+          </div>
+          <p class="proof-cap">同一個瞬間 · 兩個檔案 · 按一下</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Real reviews quoted verbatim (excerpts end at a full stop). App Store via apps.apple.com / RSS, Google Play via the
+         public listing; checked 2026-10-08. -->
+    <div class="hx-collage" aria-label="App Store 和 Google Play 上的真實評論">
+      <div class="hx-col"><figure class="hx-m1"><img src="/assets/reviews/r-ios-jessxlin.webp" alt="Jessxlin 在 App Store 的五星評論：有時候我得用兩台裝置把同一段影片拍兩次，現在一次就能搞定，太棒了！" width="1026" height="684" decoding="async"></figure><figure><img src="/assets/reviews/r-play-sue-ange.webp" alt="sue ange 在 Google Play 的五星評論：謝謝你做了這個 App！像我這種老是在糾結該用直式還是橫式拍的人，真的省了好多麻煩和痛苦，哈哈。" width="968" height="616" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure class="hx-m2"><img src="/assets/reviews/r-play-yulahandro.webp" alt="Yulahandro 在 Google Play 的五星評論：對喜歡錄影、又需要同時有橫式和直式版本的人來說，這個 App 根本是救星" width="995" height="546" decoding="async"></figure><figure class="hx-m3"><img src="/assets/reviews/r-ios-pinkcarrib.webp" alt="pinkcarrib 在 App Store 的五星評論：如果你是拍 UGC 影片的內容創作者，一定要試試這個 App。它會改變你的人生。想像一次就拍到所有畫面，想像一邊拍一邊錄下反應，太神了。" width="1027" height="825" loading="lazy" decoding="async"></figure></div>
+      <div class="hx-col"><figure><img src="/assets/reviews/r-ios-blowinbagzz.webp" alt="Blowinbagzz 在 App Store 的五星評論：這個 App 真的幫我省下超多時間，它會同時錄兩種角度，分別存到兩個不同的相簿，剪片變得輕鬆太多 ⭐️⭐️⭐️⭐️⭐️❤️🪴🐾☕️👶🏻 還能同時用前後鏡頭，拜託，它什麼都給你了。" width="1020" height="948" decoding="async"></figure><figure><img src="/assets/reviews/r-play-franciskurt.webp" alt="Franciskurt Rengalota 在 Google Play 的五星評論：這完全改變遊戲規則 💖💖💖 可以同時錄兩種方向 💖" width="1016" height="494" loading="lazy" decoding="async"></figure></div>
+    </div>
+    <p class="hx-collage-cap">App Store 和 Google Play 上的真實評論</p>
+
+    <section class="band-dark">
+      <div class="wrap">
+        <p class="section-eyebrow">其中一個不就是另一個裁出來的嗎？</p>
+        <h2>不是。你的橫式影片保有完整場景。</h2>
+        <p class="lead">大多數 App 先錄直式，再從中間裁一條橫的給 YouTube。你會失去場景兩側的畫面，解析度也掉了一大半。ContentCam 兩種格式都用相機的完整畫面，所以每支影片都有自己的構圖，橫式也能以完整解析度呈現整個場景的寬度。</p>
+        <div class="shot-pair">
+          <img src="/assets/img/ui-record-handsup-640.webp" srcset="/assets/img/ui-record-handsup-480.webp 480w, /assets/img/ui-record-handsup-640.webp 640w" sizes="(max-width: 860px) 66vw, 300px" alt="ContentCam 錄影畫面，同時顯示直式和橫式構圖" width="640" height="1387" loading="lazy" decoding="async">
+          <img src="/assets/img/ui-review-sunset-640.webp" srcset="/assets/img/ui-review-sunset-480.webp 480w, /assets/img/ui-review-sunset-640.webp 640w" sizes="(max-width: 860px) 66vw, 300px" alt="ContentCam 檢視畫面，直式和橫式 take 並排顯示" width="640" height="1387" loading="lazy" decoding="async">
+        </div>
+        <figure class="rv"><div class="rv-stars" aria-label="5 顆星（滿分 5 顆）">★★★★★</div><blockquote>在這之前試過另外三個 App，沒有一個像這個這麼好用。大部分只是裁切同一個畫面，但這個 App 可以選單鏡頭或雙鏡頭，拍出來的結果真的不一樣。</blockquote><figcaption>aimeèy · App Store 澳洲 · <time datetime="2026-05-19">2026 年 5 月</time></figcaption></figure>
+        <div class="hx-cta"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=zh-hant-home2-crop&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-crop%26utm_campaign%3Dzh-hant-home2-crop">免費試用</a></div>
+        <p style="margin-top:18px"><a href="/zh-hant/features/dual-camera/">雙格式錄影的原理 →</a></p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">你實際會得到什麼</p>
+      <h2>拍一次，每個平台都能發。</h2>
+      <p class="lead">同一個瞬間只拍一次，就帶走每個平台要的版本：不用重拍，不用重新構圖，也不用第二支手機。</p>
+      <div class="hx-feats">
+        <div class="hx-feat">
+          <p class="hx-kicker">錄影模式</p><h3>多種錄影方式</h3>
+          <ul>
+            <li><b>單鏡頭：</b>從完整感光元件取直式和橫式，誰也不是誰的裁切版</li>
+            <li><b>雙鏡頭：</b>廣角和超廣角同時錄，兩種不同視角</li>
+            <li><b>前後鏡頭：</b>你的反應和眼前的場景，可分開也可合成</li>
+            <li><b>前鏡頭</b>同時錄兩種格式，或用<b>一般相機</b>只錄直式</li>
+            <li><b>拍照模式：</b>按一下就得到 9:16 和 16:9 兩張照片</li>
+          </ul>
+        </div>
+        <div class="hx-feat">
+          <p class="hx-kicker">專業相機控制</p><h3>拍得像專業的</h3>
+          <ul>
+            <li>HD 或 4K，每種格式分開設定，支援 24、25、30、50 或 60fps</li>
+            <li>手動曝光、白平衡、ISO、快門和背景模糊</li>
+            <li>點一下對焦，按住鎖定 AE/AF</li>
+            <li>內建提詞機，邊錄邊捲動</li>
+            <li>縮時攝影，10 倍到 900 倍</li>
+            <li>防手震、格線、水平儀和音量表</li>
+          </ul>
+        </div>
+        <div class="hx-feat">
+          <p class="hx-kicker">專案和 take</p><h3>井然有序</h3>
+          <ul>
+            <li>專案、場景和 take，檔案自動命名</li>
+            <li>兩支影片並排檢視，可以修剪到指定影格</li>
+            <li>每個專案的 take 存進各自的資料夾</li>
+            <li>開拍前就知道還能錄多久</li>
+            <li>中斷的錄影會在下次開啟時救回來</li>
+            <li>手機過熱前先提醒</li>
+          </ul>
+        </div>
+      </div>
+      <p class="hx-links"><a href="/features/">所有功能 →</a><a href="/features/manual-controls/">手動控制 →</a><a href="/features/teleprompter/">提詞機 →</a></p>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">運作方式</p>
+      <h2>錄一次，兩支影片都到手</h2>
+      <p class="lead">真實影片，由 ContentCam 背後的獨立開發者 Jimmy 用這個 App 拍攝。</p>
+      <div class="lifestyle-strip hx-loops">
+        <div class="hx-reel"><figure><video src="/assets/video/loop-demo-sunset.mp4" poster="/assets/video/loop-demo-sunset-poster.jpg" muted loop playsinline preload="metadata" aria-label="ContentCam 同時用兩種格式錄下夕陽的螢幕錄影"></video></figure><p class="hx-reel-cap">螢幕錄影</p></div>
+        <div class="hx-reel"><figure><video src="/assets/video/loop-cant-record-both.mp4" poster="/assets/video/loop-cant-record-both-poster.jpg" muted loop playsinline preload="metadata" aria-label="Jimmy 在高山湖畔，接著是 ContentCam 的錄影和檢視畫面"></video></figure><p class="hx-reel-cap">按一下 · 兩個都存好</p></div>
+        <div class="hx-reel"><figure><video src="/assets/video/loop-sunset-filming.mp4" poster="/assets/video/loop-sunset-filming-poster.jpg" muted loop playsinline preload="metadata" aria-label="Jimmy 用 ContentCam 拍雪梨夕陽，接著是直式和橫式的成果"></video></figure><p class="hx-reel-cap">雪梨夕陽 · 一次拍攝</p></div>
+      </div>
+      <div class="hx-cta"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=zh-hant-home2-howitworks&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-howitworks%26utm_campaign%3Dzh-hant-home2-howitworks">免費試用</a></div>
+    </section>
+
+    <!-- DRAFT founder story for Jimmy to edit -->
+    <section class="hx-founder">
+      <p class="section-eyebrow">創辦人的話</p>
+      <div class="hx-founder-grid">
+        <figure><img src="/assets/img/life-couple.webp" alt="Jimmy 和女朋友坐在夕陽下的長椅上，用 ContentCam 回看剛拍的 take" width="720" height="1280" loading="lazy" decoding="async"></figure>
+        <div>
+          <h2>為創作者打造</h2>
+          <p class="lead">我女朋友在做內容，每次我們出門，她都要把同一個畫面拍兩次：先直著拍給 TikTok 和 Reels，再橫著拍給 YouTube。到了第二次，通常已經有什麼不一樣了。所以我幫她做了一個能同時錄下兩種格式的 App，現在我們花在拍攝的時間變少，相處的時間變多了！</p>
+          <p class="lead">現在世界各地的創作者都在用它，而每一次更新仍然是我親手做的，每一則評論我也都會自己看。</p>
+          <p class="hx-founder-by"><b>Jimmy Yip</b><br>雪梨 · <a href="https://www.instagram.com/contentwjimmy/" target="_blank" rel="noopener">@contentwjimmy</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band-dark">
+      <div class="wrap">
+        <p class="section-eyebrow">iPhone 和 Android</p>
+        <h2>唯一兩個平台都有的雙格式 App。</h2>
+        <p class="lead">ContentCam 為 iPhone 和 Android 原生打造，不管你口袋裡是哪支手機，一次拍攝一樣得到兩種格式。</p>
+        <div class="badges">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=zh-hant-home2-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="從 App Store 下載" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-android%26utm_campaign%3Dzh-hant-home2-android"><img class="badge-play" src="/assets/google-play-badge.webp" alt="立即在 Google Play 下載" width="175" height="52"></a>
+        </div>
+        
+        <p class="hx-links" style="margin-top:16px"><a href="/features/">看看 iPhone 版有什麼 →</a><a href="/zh-hant/android/">看看 Android 版有什麼 →</a></p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">價格</p>
+      <h2>免費使用，想要更多再升級 Premium。</h2>
+      <p class="lead"><b>免費：</b>單鏡頭同時錄兩種格式，不限次數。沒有廣告、沒有浮水印、不用註冊帳號。<br><b>Premium：</b>雙鏡頭（iPhone）、前後鏡頭、4K、50/60fps、手動控制、提詞機、縮時攝影，以及之後推出的每一項新功能。</p>
+      <p class="lead hx-pricing-note">年方案可以免費試用 Premium，也可以按月付費，或一次買斷終身使用。<a href="/pricing/">比較方案 →</a></p>
+
+      <div class="hx-prv">
+        <figure><img src="/assets/reviews/r-ios-cjxsutton.webp" alt="cjxsutton 在 App Store 的五星評論：超愛這個 App，比競爭對手好太多，還有終身買斷的選項。開發者很棒，會在 Discord 上聽取意見並真的做出來。" width="1026" height="683" loading="lazy" decoding="async"></figure>
+        <figure class="hx-dk"><img src="/assets/reviews/r-play-queen-werandra.webp" alt="Queen WerandRa 在 Google Play 的五星評論：太讚了，超棒的 App！一定會買 Premium。補充：Jimmy 人超好！" width="1021" height="494" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-ios-dhuddz.webp" alt="Dhuddz 在 App Store 的五星評論：好幾個月來我試了其他訴求一樣的 App，但 ContentCam 成了幫我做社群內容創作的最佳選擇。操作簡單卻很完整，介面超直覺。我在 Android 上買過，在 iOS 上又買了一次。大力推薦！" width="1020" height="940" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-ios-amanda112.webp" alt="Amanda112 在 App Store 的五星評論：超好用的 App，幫我省下好多時間和麻煩。謝謝獨立開發者 Jimmy" width="1027" height="617" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="hx-cta" style="margin:26px 0 0"><a class="cta hx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=zh-hant-home2-pricing&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-pricing%26utm_campaign%3Dzh-hant-home2-pricing">免費試用</a></div>
+
+    </section>
+
+    <section>
+      <p class="section-eyebrow">隱私至上的設計</p>
+      <h2>你的影片只會留在你的手機上</h2>
+      <div class="privacy-box hx-priv">
+        <svg viewBox="0 0 46 52" aria-hidden="true"><path d="M23 2 4 9v14c0 12.5 8 22.7 19 27 11-4.3 19-14.5 19-27V9L23 2z" fill="#25d0e5"/><path d="m14 26 6.5 6.5L32.5 20" fill="none" stroke="#101a1c" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+                    <ul>
+            <li>不用註冊，不用帳號</li>
+            <li>絕不上傳、分享或儲存你的影片</li>
+            <li>離線錄影，不需要網路</li>
+            <li>絕不讀取你的照片，只會把你的影片和照片加進去</li>
+          </ul>
+          <a href="/privacy.html">隱私權政策 →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq hx-faq" id="faq">
+      <p class="section-eyebrow">常見問題</p>
+      <h2>常見問題</h2>
+      <details><summary>橫式影片不就是從直式裁出來的嗎？</summary><p>不是。在單鏡頭模式下，ContentCam 會錄下感光元件完整的 4:3 畫面，再分別裁出兩種格式，所以橫式保有完整寬度，直式保有完整高度。每個檔案都單獨以 HEVC 編碼，解析度為 1080×1920 和 1920×1080，或相對應的 4K。兩者都不是從對方裁切再放大的。</p></details>
+      <details><summary>ContentCam 是免費的嗎？還是要訂閱？</summary><p>免費下載、免費使用：單鏡頭同時錄兩種格式、1080p、30fps、三個專案，而且沒有浮水印。</p><p>Premium 是選配，付費方式由你決定：附免費試用的年方案、月方案，或一次買斷終身使用。三種方案解鎖的功能完全相同，App Store 和 Google Play 會以你當地的貨幣標價。</p></details>
+      <details><summary>付費前可以先試用 Premium 功能嗎？</summary><p>可以。每一項 Premium 功能都能即時預覽，包括手動轉盤。只有在開啟 Premium 功能後按下錄影，才會出現付費畫面。</p><p>雙鏡頭和前後鏡頭也各有 5 次免費錄影，年方案則從免費試用開始。</p></details>
+      <details><summary>有廣告或浮水印嗎？</summary><p>沒有。不論哪個方案，包括免費版，都沒有廣告也沒有浮水印。</p></details>
+      <details><summary>支援哪些手機？</summary><p>iOS 18 或更新版本的 iPhone XS 及更新機型；雙鏡頭模式需要配備超廣角鏡頭的 iPhone 11 或更新機型（不含 iPhone SE 和 iPhone 16e）。</p><p>Android 8.0 或更新版本；4K、60fps 和手動曝光要看你的手機相機支援什麼。雙鏡頭和 HDR 目前只支援 iPhone。</p></details>
+      <details><summary>可以前後鏡頭同時錄影嗎？</summary><p>可以，iPhone 和 Android 都行，可以存成兩個獨立檔案，也可以合成一支影片。前後鏡頭模式支援所有 iOS 18 的 iPhone，包括 iPhone 15 和 16，屬於 Premium 模式，有 5 次免費錄影可以試用。</p><p>iPhone 17 等較新的 iPhone 也內建 Apple 的雙重拍攝（Dual Capture），會把兩顆鏡頭存成一個子母畫面檔案：<a href="/zh-hant/blog/iphone-17-dual-capture-limitations/">哪些 iPhone 有雙重拍攝</a>。<a href="/zh-hant/blog/record-front-and-back-camera-same-time-android/">Android 上怎麼做 →</a></p></details>
+      <details><summary>ContentCam 和 DualShot Recorder 有什麼不同？</summary><p>兩者都能一次拍攝同時錄下直式和橫式。DualShot Recorder 只有 iPhone 版；ContentCam 支援 iPhone 和 Android，還多了雙鏡頭（在 iPhone 11 及更新機型上同時用廣角和超廣角錄影）以及自動命名檔案的專案、場景和 take 工作流程，而且除了訂閱之外，仍然提供一次買斷終身使用的方案。</p><p><a href="/blog/dualshot-recorder-vs-contentcam/">完整比較 →</a></p></details>
+      <p style="margin-top:18px"><a href="/support/">更多問題解答 →</a></p>
+    </section>
+
+    <section class="center hx-final">
+      <h2>同一支影片，別再拍兩次。</h2>
+      <p class="lead" style="margin:0 auto 26px;max-width:700px">免費下載，拍一次，兩種格式都準備好可以發。</p>
+      <div class="badges center-x">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=zh-hant-home2-final&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="從 App Store 下載" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-final%26utm_campaign%3Dzh-hant-home2-final"><img class="badge-play" src="/assets/google-play-badge.webp" alt="立即在 Google Play 下載" width="175" height="52"></a>
+        </div>
+      <p class="subnote" style="margin-top:16px">有問題嗎？<a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a> · <a href="https://discord.gg/YxUpbUgthH">Discord</a></p>
+    </section>
+  </main>
+
+  <div class="ccbar" id="ccbar" inert>
+    <img src="/assets/app-icon.png" alt="" width="36" height="36">
+    <div class="t"><b>ContentCam</b>iPhone 和 Android 免費下載</div>
+    <a class="go" id="ccbar-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=zh-hant-home2-sticky&amp;mt=8">免費試用</a>
+  </div>
+  <script>
+    (function () {
+      var bar = document.getElementById('ccbar'), go = document.getElementById('ccbar-go');
+      if (/android/i.test(navigator.userAgent || '')) document.querySelectorAll('.hx-go').forEach(function (a) { a.href = a.getAttribute('data-play').replace(/&amp;/g, '&'); });
+      if (/android/i.test(navigator.userAgent || '')) go.href = 'https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dhome2-sticky%26utm_campaign%3Dzh-hant-home2-sticky';
+      var hero = document.getElementById('hx-hero');
+      if (!('IntersectionObserver' in window)) { bar.classList.add('on'); bar.inert = false; return; }
+      new IntersectionObserver(function (e) {
+        var off = !e[0].isIntersecting; bar.classList.toggle('on', off); bar.inert = !off;
+      }).observe(hero);
+    })();
+  </script>
+
+<script>
+    (function () {
+      var vids = document.querySelectorAll('.hx-loops video');
+      var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      vids.forEach(function (v) {
+        var fig = v.parentNode;
+        fig.classList.add('paused');
+        v.addEventListener('play', function () { fig.classList.remove('paused'); });
+        v.addEventListener('pause', function () { fig.classList.add('paused'); });
+        fig.addEventListener('click', function () { v.dataset.user = '1'; v.paused ? v.play() : v.pause(); });
+      });
+      if (still || !('IntersectionObserver' in window)) return;
+      var io = new IntersectionObserver(function (es) { es.forEach(function (e) {
+        var v = e.target; if (v.dataset.user) return;
+        if (e.isIntersecting) v.play().catch(function(){}); else v.pause();
+      }); }, { threshold: 0.4 });
+      vids.forEach(function (v) { io.observe(v); });
+    })();
+  </script>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam 標誌" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">功能</a>
+        <a href="/features/teleprompter/">提詞機</a>
+        <a href="/zh-hant/features/dual-camera/">雙鏡頭</a>
+        <a href="/features/manual-controls/">手動控制</a>
+        <a href="/zh-hant/android/">Android</a>
+        <a href="/pricing/">價格</a>
+        <a href="/blog/">部落格</a>
+        <a href="/support/">支援</a>
+        <a href="/press/">媒體</a>
+        <a href="/vs/">比較</a>
+        <a href="/changelog/">更新紀錄</a>
+        <a href="/privacy.html">隱私權</a>
+        <a href="/terms.html">條款</a>
+      </div>
+      <div class="fine">ContentCam 是一款由一位開發者在澳洲打造的獨立相機 App。© 2026 ContentCam。Apple、Apple 標誌、iPhone 和 App Store 是 Apple Inc. 的商標。Google Play 和 Google Play 標誌是 Google LLC 的商標。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/" hreflang="en" lang="en">English</a> · <a href="/de/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/" hreflang="es" lang="es">Español</a> · <a href="/fr/" hreflang="fr" lang="fr">Français</a> · <a href="/it/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <strong>繁體中文</strong> · <a href="/ru/" hreflang="ru" lang="ru">Русский</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

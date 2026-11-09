@@ -141,7 +141,7 @@
       <p class="byline">By Jimmy, developer of ContentCam · 8 November 2026 · Updated 8 November 2026</p>
 
       <p>An iPhone video that stops recording by itself almost always hit one of five things: the camera app left the screen, the iPhone got too hot, another app took the microphone, storage ran out, or the camera app crashed. Apple's camera framework, AVFoundation, names most of these as official "interruption reasons", so they are not random. Each one leaves a different clue, and each one has a fix.</p>
-      <p>I build ContentCam, an iPhone and Android camera app, and I deal with every one of these in iOS recording code. The Apple details below come from Apple's developer documentation, checked 8 November 2026.</p>
+      <p>I build ContentCam, an iPhone and Android camera app, and I have debugged every one of these in my own recording code. The Apple details below come from Apple's developer documentation, checked 8 November 2026.</p>
 
       <h2>What are the reasons an iPhone video stops recording?</h2>
       <div class="table-scroll">
@@ -167,7 +167,7 @@
 
       <h2>Does a phone call or notification stop an iPhone video recording?</h2>
       <p>A phone call, Siri or an alarm can, because each one takes the iPhone's microphone. AVFoundation calls this <code>audioDeviceInUseByAnotherClient</code>: "the audio hardware temporarily being made unavailable (for example, for a phone call or alarm)". If the app keeps the microphone attached, the whole capture session is interrupted, video included.</p>
-      <p>Even a notification sound can do it. ContentCam unplugs the microphone from the session the moment audio is taken away, so the video keeps recording with a gap in the sound, and the sound comes back when iOS returns the microphone. Not every app does this. Before a take you can't redo, turn on Airplane Mode (it blocks calls) or a Focus that silences notifications.</p>
+      <p>I found this the hard way. In testing, an Instagram notification sound stopped an 11-second ContentCam timelapse. ContentCam now unplugs the microphone from the session the moment audio is taken away, so the video keeps recording with a gap in the sound, and the sound comes back when iOS returns the microphone. Not every app does this. Before a take you can't redo, turn on Airplane Mode (it blocks calls) or a Focus that silences notifications.</p>
 
       <h2>How much storage does iPhone video recording need?</h2>
       <p>Video bitrate decides it. One megabit per second is 0.45 GB an hour, so:</p>

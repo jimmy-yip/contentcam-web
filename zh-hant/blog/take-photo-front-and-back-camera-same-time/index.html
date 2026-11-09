@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>前後鏡頭同時拍照，自拍和後鏡頭存成兩張獨立照片（2026）</title>
+  <meta name="description" content="ContentCam 的前後鏡頭（Front/Back）拍照模式，在 iPhone 和 Android 上都能把自拍和後鏡頭照片存成兩個獨立檔案。Snapchat 在 iPhone 上只給一張合成照片。iPhone 的 Dual Capture 和 Instagram 的 Dual 只能錄影。">
+  <link rel="canonical" href="https://contentcam.app/zh-hant/blog/take-photo-front-and-back-camera-same-time/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="前後鏡頭同時拍照，自拍和後鏡頭存成兩張獨立照片（2026）">
+  <meta property="og:description" content="一張合成照片，還是兩張獨立照片：在 iPhone 和 Android 上按一次快門同時拍自拍和後鏡頭的所有方法。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/zh-hant/blog/take-photo-front-and-back-camera-same-time/">
+  <meta property="og:locale" content="zh_TW">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="前後鏡頭怎麼同時拍照？">
+  <meta name="twitter:description" content="一張合成照片或兩張獨立照片，iPhone 和 Android 都適用。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/zh-hant/blog/take-photo-front-and-back-camera-same-time/",
+        "headline": "前後鏡頭怎麼同時拍照？自拍和後鏡頭一次拍下",
+        "description": "在 iPhone 和 Android 上按一次快門同時拍自拍和後鏡頭照片的所有方法：ContentCam 的前後鏡頭拍照模式可存成兩張獨立照片，Snapchat 的 Dual Camera 在 iPhone 上拍出一張合成照片，Dual Capture 和 Instagram 則要用錄影再截圖的替代做法。",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-10-16",
+        "dateModified": "2026-11-05",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "ContentCam 開發者", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/zh-hant/blog/take-photo-front-and-back-camera-same-time/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "首頁", "item": "https://contentcam.app/" },
+          { "@type": "ListItem", "position": 2, "name": "部落格", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "前後鏡頭同時拍照", "item": "https://contentcam.app/zh-hant/blog/take-photo-front-and-back-camera-same-time/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "自拍和後鏡頭照片可以存成兩個獨立檔案嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以。ContentCam 的拍照模式在 iPhone 和 Android 的前後鏡頭模式下就能做到：按一次快門，存下一張後鏡頭照片和一張前鏡頭照片。拍照模式是 Premium 功能。"}},
+          {"@type": "Question", "name": "iPhone 內建相機可以前後鏡頭同時拍照嗎？", "acceptedAnswer": {"@type": "Answer", "text": "沒辦法直接拍。Dual Capture 只能錄影，支援 iPhone 17、17 Pro、17 Pro Max、Air、18 Pro、18 Pro Max 和 Duo。可以先錄幾秒，再截下最好的畫面。"}},
+          {"@type": "Question", "name": "最簡單的免費方法是什麼？", "acceptedAnswer": {"@type": "Answer", "text": "在 iPhone 上用 Snapchat 的 Dual Camera：一張照片同時有兩顆鏡頭的畫面，版面固定。Snapchat 說明中心表示 Android 版「即將推出」。"}},
+          {"@type": "Question", "name": "為什麼我的手機不能前後鏡頭同時拍照？", "acceptedAnswer": {"@type": "Answer", "text": "硬體必須能同時運作兩顆鏡頭，並回報給 App（iPhone 是 isMultiCamSupported，Android 11 以上是 getConcurrentCameraIds()）。如果硬體不支援，任何 App 都無法透過官方途徑做到。"}},
+          {"@type": "Question", "name": "哪些手機可以在 ContentCam 裡前後鏡頭同時拍照？", "acceptedAnswer": {"@type": "Answer", "text": "iPhone 方面，所有能執行 iOS 18 或更新版本的機型，也就是 iPhone XS 和 XR 以後的機型，包括 iPhone 15 和 iPhone 16。Android 方面，只要硬體能同時運作前後鏡頭的手機都可以；ContentCam 會在你的手機上自動檢查。"}}
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/take-photo-front-and-back-camera-same-time/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/zh-hant/"><img src="/assets/logo-mark.png" alt="ContentCam 標誌" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="開啟選單">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">功能</a>
+        <a href="/pricing/">價格</a>
+        <a href="/blog/">部落格</a>
+        <a href="/support/">支援</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/zh-hant/">首頁</a> › <a href="/blog/">部落格</a> › 前後鏡頭同時拍照</div>
+    <article class="post">
+      <h1>前後鏡頭怎麼同時拍照？自拍和後鏡頭一次拍下</h1>
+      <p class="byline">作者：Jimmy，ContentCam 開發者 · 2026年10月16日 · 更新於 2026年11月5日</p>
+
+      <p>要按一次快門同時拍下自拍和後鏡頭照片，最有彈性的做法是 ContentCam 的前後鏡頭（Front/Back）拍照模式，iPhone 和 Android 都能用：按一次就把自拍和後鏡頭照片存成兩個獨立檔案，版面之後再決定。拍照模式是 Premium 功能。如果在 iPhone 上只想要一張合成照片，Snapchat 的 Dual Camera 是免費的。iPhone 的 Dual Capture 和 Instagram 的 Dual 都只能錄影。</p>
+      <p>聲明：ContentCam 是我開發的，也是下面介紹的 App 之一。關於其他 App 的說法都來自它們自己的說明文件或商店頁面，查證日期為 2026年11月5日，來源列在文末。影片的部分請看<a href="/zh-hant/blog/dual-camera-effect/">前後鏡頭完整教學</a>。</p>
+
+      <h2>怎麼把自拍和後鏡頭照片存成兩個獨立檔案？</h2>
+      <p>在 iPhone 或 Android 上，使用 ContentCam 前後鏡頭模式裡的拍照功能：</p>
+      <ol>
+        <li>打開 ContentCam，把錄影模式切換成<strong>前後鏡頭</strong>。</li>
+        <li>選擇後鏡頭要拍直式還是橫式。自拍鏡頭一律是直式。</li>
+        <li>對好後鏡頭的構圖，按下<strong>錄影鍵旁邊的快門鈕</strong>。</li>
+        <li>按一次就同時用兩顆鏡頭拍攝，存下兩張照片：一張來自後鏡頭，一張來自自拍鏡頭。</li>
+      </ol>
+      <p>因為照片是分開的，你可以把自拍放在任何一個角落、把兩張並排，或當成兩張輪播貼文發出去。後鏡頭照片也能單獨使用，不會被臉擋住，這是合成照片永遠做不到的。</p>
+
+      <figure>
+        <img src="/assets/blog/take-photo-front-and-back-camera-same-time/front-and-back-two-files.webp" alt="同一次前後鏡頭拍攝的兩個獨立畫面：後鏡頭拍的湖水綠湖泊，和前鏡頭拍的微笑自拍" width="1000" height="857" loading="lazy" decoding="async">
+        <figcaption>同一次前後鏡頭拍攝存成的兩個獨立檔案（這是錄影的 take；拍照模式會把同樣的兩個畫面存成照片）。</figcaption>
+      </figure>
+      <p>在 iPhone 和 Android 版 ContentCam 中，拍照模式都是 Premium 功能。App 可以免費下載，沒有廣告、沒有浮水印，也不用註冊帳號。你的手機也必須能同時運作兩顆鏡頭；ContentCam 會幫你檢查。</p>
+
+      <h2>iPhone 內建相機可以前後鏡頭同時拍照嗎？</h2>
+      <p>拍照不行。Apple 的《iPhone 使用手冊》把 Dual Capture 放在錄影模式裡，可以同時錄下「你自己」和「你眼前的畫面」，支援七款機型：iPhone 17、iPhone 17 Pro、iPhone 17 Pro Max、iPhone Air、iPhone 18 Pro、iPhone 18 Pro Max 和 iPhone Duo。iPhone 16 和更早的機型沒有這個功能。</p>
+      <p>在這些機型上，可以先錄幾秒，再截下最好的畫面。自拍小視窗已經畫進畫面裡，所以沒辦法移動或移除。詳情請看 <a href="/zh-hant/blog/iphone-17-dual-capture-limitations/">Dual Capture 的限制</a>。</p>
+
+      <h2>Snapchat 可以前後鏡頭同時拍照嗎？</h2>
+      <p>可以，在 iPhone 上會拍成一張合成照片。Snapchat 說明中心表示 Dual Camera「可以讓你同時使用前後鏡頭拍攝內容」。Snapchat 列出的支援機型是 iPhone XS、XS Max、XR 或更新機型，而說明中心目前仍表示 Android 版「即將推出」。</p>
+      <p>自拍小視窗是畫面像素的一部分，之後無法移動或移除。Snapchat 的 App Store 頁面也標示「含廣告」，而在最近 250 則美國 App Store 評論中（2026年10月31日至11月4日），有 26 則在抱怨廣告。2026年11月3日的一則一星評論是這樣總結的：「廣告比內容還多。」</p>
+
+      <h2>Instagram 可以前後鏡頭同時拍照嗎？</h2>
+      <p>不行，只能錄影。Meta 在 2022年7月21日推出 Instagram 的 Dual，可以「同時用手機的前後鏡頭錄影」。可以錄一段簡短的 Dual 影片，再截下最好的畫面。</p>
+
+      <h2>為什麼我的手機不能前後鏡頭同時拍照？</h2>
+      <p>硬體必須能同時運作兩顆鏡頭，並告訴 App 它做得到。在 iPhone 上，App 會檢查 <code>AVCaptureMultiCamSession</code> 的 <code>isMultiCamSupported</code>（iOS 13 以上）。在 Android 11（API 級別 30）以上，<code>getConcurrentCameraIds()</code> 會回傳手機可以同時運作的鏡頭。如果手機回報沒有可同時運作的前後鏡頭組合，任何 App 都無法透過官方途徑同時拍攝。</p>
+
+      <h2>該用哪一種方法？</h2>
+      <ul>
+        <li><strong>要做輪播貼文、縮圖、之後還要編輯，或是用 Android 手機：</strong>ContentCam 的前後鏡頭拍照模式，兩張獨立照片。</li>
+        <li><strong>在 iPhone 上快速拍一張免費的限動照片：</strong>Snapchat 的 Dual Camera，一張固定版面的照片。</li>
+        <li><strong>有 iPhone 17、iPhone Air、iPhone 18 Pro 或 iPhone Duo，又不想裝其他 App：</strong>錄一段簡短的 Dual Capture 影片再截圖。</li>
+      </ul>
+
+      <h2>前後鏡頭照片怎麼拍才好看？</h2>
+      <ul>
+        <li><strong>先把臉打亮。</strong>在昏暗的房間裡，自拍鏡頭比較快出現雜訊。面對窗戶或檯燈。</li>
+        <li><strong>停一下再按。</strong>手一晃，兩張照片會同時糊掉。</li>
+        <li><strong>注意曝光差異。</strong>有兩個獨立檔案，就能把陰影裡的自拍調亮，又不會影響明亮的天空。</li>
+      </ul>
+
+      <h2>常見問題</h2>
+      <h3>自拍和後鏡頭照片可以存成兩個獨立檔案嗎？</h3>
+      <p>可以。ContentCam 的拍照模式在 iPhone 和 Android 的前後鏡頭模式下就能做到：按一次快門，存下一張後鏡頭照片和一張前鏡頭照片。拍照模式是 Premium 功能。</p>
+      <h3>iPhone 內建相機可以前後鏡頭同時拍照嗎？</h3>
+      <p>沒辦法直接拍。Dual Capture 只能錄影，支援 iPhone 17、17 Pro、17 Pro Max、Air、18 Pro、18 Pro Max 和 Duo。可以先錄幾秒，再截下最好的畫面。</p>
+      <h3>最簡單的免費方法是什麼？</h3>
+      <p>在 iPhone 上用 Snapchat 的 Dual Camera：一張照片同時有兩顆鏡頭的畫面，版面固定。Snapchat 說明中心表示 Android 版「即將推出」。</p>
+      <h3>為什麼我的手機不能前後鏡頭同時拍照？</h3>
+      <p>硬體必須能同時運作兩顆鏡頭，並回報給 App（iPhone 是 <code>isMultiCamSupported</code>，Android 11 以上是 <code>getConcurrentCameraIds()</code>）。如果硬體不支援，任何 App 都無法透過官方途徑做到。</p>
+      <h3>哪些手機可以在 ContentCam 裡前後鏡頭同時拍照？</h3>
+      <p>iPhone 方面，所有能執行 iOS 18 或更新版本的機型，也就是 iPhone XS 和 XR 以後的機型，包括 iPhone 15 和 iPhone 16。Android 方面，只要硬體能同時運作前後鏡頭的手機都可以；ContentCam 會在你的手機上自動檢查。</p>
+
+      <div class="post-cta">
+        <p><strong>免費試用 ContentCam。</strong>按一次就把前後鏡頭存成獨立檔案，一次拍攝還能同時錄下直式和橫式影片。iPhone 和 Android 都能免費下載。</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=zh-hant-b-front-back-photo&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="在 App Store 下載" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dzh-hant-front-back-photo"><img class="badge-play" src="/assets/google-play-badge.webp" alt="立即在 Google Play 下載" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>相關文章：<a href="/zh-hant/blog/record-front-and-back-camera-same-time-iphone/">iPhone 前後鏡頭同時錄影</a> · <a href="/zh-hant/blog/record-front-and-back-camera-same-time-android/">Android 前後鏡頭同時錄影</a> · <a href="/zh-hant/blog/iphone-17-dual-capture-limitations/">哪些 iPhone 有 Dual Capture</a> · <a href="/blog/snapchat-front-and-back-camera/">Snapchat 怎麼用前後鏡頭拍 Snap</a> · <a href="/blog/bereal-style-photo-without-bereal/">不用 BeReal 也能拍 BeReal 風格照片</a></p>
+      <p class="byline">資料來源：Apple《iPhone 使用手冊》「使用 iPhone 相機錄影」和「支援 Dual Capture 影片的機型」（support.apple.com）；Apple Developer，AVCaptureMultiCamSession 和 isMultiCamSupported；Snapchat 支援中心「What is Dual Camera on Snapchat and how do I use it?」和「Who is Dual Camera available for on Snapchat?」（help.snapchat.com）；Snapchat 美國 App Store 頁面及最近 250 則美國評論；Meta「New Ways to Create Instagram Reels」（about.fb.com，2022年7月）；Android Developers，CameraManager.getConcurrentCameraIds()。全部查證於 2026年11月5日。</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam 標誌" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">功能</a>
+        <a href="/features/teleprompter/">提詞機</a>
+        <a href="/zh-hant/features/dual-camera/">雙鏡頭</a>
+        <a href="/features/manual-controls/">手動控制</a>
+        <a href="/zh-hant/android/">Android</a>
+        <a href="/pricing/">價格</a>
+        <a href="/blog/">部落格</a>
+        <a href="/support/">支援</a>
+        <a href="/press/">媒體</a>
+        <a href="/vs/">比較</a>
+        <a href="/changelog/">更新紀錄</a>
+        <a href="/privacy.html">隱私權</a>
+        <a href="/terms.html">條款</a>
+      </div>
+      <div class="fine">ContentCam 是一款由一位開發者在澳洲打造的獨立相機 App。© 2026 ContentCam。Apple、Apple 標誌、iPhone 和 App Store 是 Apple Inc. 的商標。Google Play 和 Google Play 標誌是 Google LLC 的商標。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/take-photo-front-and-back-camera-same-time/" hreflang="en" lang="en">English</a> · <a href="/de/blog/take-photo-front-and-back-camera-same-time/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/take-photo-front-and-back-camera-same-time/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/take-photo-front-and-back-camera-same-time/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/take-photo-front-and-back-camera-same-time/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/take-photo-front-and-back-camera-same-time/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/take-photo-front-and-back-camera-same-time/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/take-photo-front-and-back-camera-same-time/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/blog/take-photo-front-and-back-camera-same-time/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/blog/take-photo-front-and-back-camera-same-time/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/blog/take-photo-front-and-back-camera-same-time/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/blog/take-photo-front-and-back-camera-same-time/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/blog/take-photo-front-and-back-camera-same-time/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/blog/take-photo-front-and-back-camera-same-time/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <strong>繁體中文</strong> · <a href="/ru/blog/take-photo-front-and-back-camera-same-time/" hreflang="ru" lang="ru">Русский</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

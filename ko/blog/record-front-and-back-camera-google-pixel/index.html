@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>구글 픽셀 전후면 카메라 동시 촬영 될까? (2026)</title>
+  <meta name="description" content="픽셀 카메라에는 Fold를 포함해 어떤 Pixel에도 전면 후면 동시 녹화 모드가 없어요. 듀얼 스크린 미리보기와 Add Me가 실제로 하는 일, 앱으로 두 카메라를 함께 쓸 수 있는 Pixel, 내 폰 확인법까지 정리했어요.">
+  <link rel="canonical" href="https://contentcam.app/ko/blog/record-front-and-back-camera-google-pixel/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="구글 픽셀 전후면 카메라 동시 촬영 될까? (2026)">
+  <meta property="og:description" content="픽셀 카메라로는 어떤 Pixel에서도 두 카메라를 동시에 녹화할 수 없어요. 대신 듀얼 스크린 미리보기와 Add Me가 하는 일, 그리고 내 Pixel에서 앱으로 가능한지 확인하는 법을 알려 드려요.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/ko/blog/record-front-and-back-camera-google-pixel/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="구글 픽셀에서 전후면 카메라 동시 촬영 될까?">
+  <meta name="twitter:description" content="픽셀 카메라로는 어떤 Pixel에서도 두 카메라를 동시에 녹화할 수 없어요. 대신 듀얼 스크린 미리보기와 Add Me가 하는 일, 그리고 내 Pixel에서 앱으로 가능한지 확인하는 법을 알려 드려요.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://contentcam.app/ko/blog/record-front-and-back-camera-google-pixel/",
+      "headline": "구글 픽셀에서 전후면 카메라 동시 촬영이 될까?",
+      "description": "픽셀 카메라에는 Fold를 포함해 어떤 Pixel에도 전면 후면 동시 녹화 모드가 없어요. 듀얼 스크린 미리보기와 Add Me가 실제로 하는 일, 앱으로 두 카메라를 함께 쓸 수 있는 Pixel, 내 폰 확인법까지 정리했어요.",
+      "image": "https://contentcam.app/assets/og/og-blog.jpg",
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-11-05",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "ContentCam 개발자",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "mainEntityOfPage": "https://contentcam.app/ko/blog/record-front-and-back-camera-google-pixel/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://contentcam.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "블로그",
+          "item": "https://contentcam.app/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "구글 픽셀 전후면 동시 촬영",
+          "item": "https://contentcam.app/ko/blog/record-front-and-back-camera-google-pixel/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "픽셀 카메라에 듀얼 카메라나 전면 후면 동시 녹화 모드가 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "없어요. Google의 픽셀 카메라 고객센터에 나오는 동영상 모드 중 전면과 후면 카메라를 동시에 녹화하는 모드는 어떤 Pixel 모델에도 없어요(2026년 11월 5일 확인)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "서드파티 앱으로 전면 후면 동시 녹화가 되는 Pixel 폰은?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google은 목록을 공개하지 않아요. Pixel이 getConcurrentCameraIds()(Android 11 이상)나 android.hardware.camera.concurrent 기능으로 전면과 후면 카메라 조합을 알려 줘야 해요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "구글 픽셀에서 전면 후면 카메라를 동시에 녹화하는 앱은?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ContentCam의 전면·후면 모드는 이를 지원하는 Pixel에서 버튼 한 번으로 두 카메라를 HD 파일 두 개로 따로 녹화해요. 전면·후면 녹화는 처음 5번까지 무료예요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pixel에서 전면 후면 동시 녹화 화질은 어느 정도인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "일반 Pixel 동영상보다 낮아요. Android는 카메라당 최대 1440p의 동시 스트림을 보장하고, ContentCam은 최대 30fps의 HD로 녹화해요."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-front-and-back-camera-google-pixel/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ko/"><img src="/assets/logo-mark.png" alt="ContentCam 로고" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="메뉴 열기">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/ko/features/">기능</a>
+        <a href="/ko/pricing/">가격</a>
+        <a href="/blog/">블로그</a>
+        <a href="/ko/support/">지원</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/ko/">홈</a> › <a href="/blog/">블로그</a> › 구글 픽셀 전후면 동시 촬영</div>
+    <article class="post">
+      <h1>구글 픽셀에서 전후면 카메라 동시 촬영이 될까?</h1>
+      <p class="byline">글: Jimmy, ContentCam 개발자 · 2026년 10월 9일 · 2026년 11월 5일 업데이트</p>
+
+      <p>픽셀 카메라로는 안 돼요. Google의 기본 카메라 앱에는 Pixel Fold 모델을 포함해 어떤 Pixel에도 전면 후면 동시 녹화 모드가 없어요. 구글 픽셀에서 두 카메라를 동시에 녹화하려면 서드파티 앱을 써야 하고, 그것도 그 Pixel의 카메라 시스템이 전면과 후면 카메라를 함께 돌릴 수 있다고 알려 줄 때만 가능해요. ContentCam의 전면·후면 모드가 바로 이걸 해요. 먼저 내 Pixel을 확인한 다음, 버튼 한 번으로 셀카 카메라와 후면 카메라를 파일 두 개로 따로 녹화해요.</p>
+      <p>밝혀 두자면 저는 ContentCam을 만드는 사람이라 중립적이지 않아요. 아래 Pixel 관련 내용은 Google 고객센터 페이지와 Android 개발자 문서를 2026년 11월 5일에 확인한 거예요. 삼성 갤럭시와 다른 Android 브랜드는 <a href="/ko/blog/record-front-and-back-camera-same-time-android/">안드로이드 전면 후면 동시 녹화</a>를 보세요.</p>
+
+      <h2>픽셀 카메라에 전면 후면 동시 촬영 모드가 있을까?</h2>
+      <p>없어요. Google의 픽셀 카메라 고객센터 페이지 "Pixel 휴대전화로 동영상 녹화하기"에는 동영상 모드, 슬로우 모션, 타임랩스, 시네마틱 블러, 시네마틱 팬, 10비트 HDR, 최대 4K 60fps 동영상이 나와 있어요. 이 중 셀카 카메라와 후면 카메라를 함께 녹화하는 모드는 하나도 없고, PIP(화면 속 화면)나 분할 화면 옵션도 없어요. Pixel 11에 새로 들어간 Creator Suite와 Magic Capture도 이 기능을 추가하지 않아요.</p>
+
+      <h2>Pixel Fold의 듀얼 스크린 미리보기도 같은 기능일까?</h2>
+      <p>아니에요. 듀얼 스크린 미리보기는 카메라 두 개가 아니라 화면 두 개를 써요. Google은 이 기능이 Pixel Fold, Pixel 9 Pro Fold, Pixel 10 Pro Fold, Pixel 11 Pro Fold에서 "동영상을 녹화하는 동안 촬영 대상이 자신의 모습을 볼 수 있게 해 준다"고 설명해요. 영상은 여전히 카메라 하나로 찍혀요.</p>
+
+      <h2>Pixel 9, Pixel 10의 Add Me는 듀얼 카메라 기능일까?</h2>
+      <p>아니에요. Google 블로그는 Add Me를 "같은 세션, 같은 장면에서 찍은 사진 두 장을 합치는" 기능으로 설명해요. 사진을 찍어 준 사람도 단체 사진에 들어갈 수 있게요. Google 스토어에는 "모든 Pixel 9와 Pixel 10 휴대전화"에서 된다고 나와 있어요. Add Me는 사진에서만 작동하고, 전면과 후면 카메라를 함께 돌리는 일은 없어요.</p>
+
+      <h2>앱으로 전면 후면 동시 녹화가 되는 구글 픽셀 기종은?</h2>
+      <p>Google은 모델 목록을 공개하지 않고, 저도 추측으로 목록을 만들지는 않을게요. 지원 여부는 폰의 카메라 하드웨어에 달려 있고, Android는 두 가지 방법으로 앱에 이를 알려 줘요.</p>
+      <ul>
+        <li><strong>CameraManager.getConcurrentCameraIds()</strong>는 Android 11(API 레벨 30)에서 추가됐고, "카메라 기기 세션을 동시에 구성할 수 있는" 카메라 조합을 돌려줘요.</li>
+        <li><strong>기능 플래그 android.hardware.camera.concurrent</strong>(FEATURE_CAMERA_CONCURRENT)는 "기기의 메인 전면 카메라와 후면 카메라가 동시에 스트리밍할 수 있다"는 뜻이에요.</li>
+      </ul>
+      <p>Pixel이 둘 다 알려 주지 않으면, Android의 공식 카메라 방식을 쓰는 앱은 그 폰에서 두 카메라를 녹화할 수 없어요. Android 오픈소스 프로젝트가 그 이유를 설명해요. 폰의 이미지 신호 프로세서(ISP)가 자원을 두 카메라에 나눠 써야 하기 때문이에요.</p>
+
+      <h2>내 Pixel이 전면 후면 동시 녹화를 지원하는지 확인하는 법은?</h2>
+      <ol>
+        <li>가장 쉬운 방법: ContentCam을 설치하세요. 전면·후면이 보이면 내 Pixel이 지원하는 거예요.</li>
+        <li>컴퓨터가 있다면: USB 디버깅을 켜고 Pixel을 연결한 다음 <code>adb shell pm list features</code>를 실행하세요. 목록에 <code>android.hardware.camera.concurrent</code>가 있으면 메인 전면 카메라와 후면 카메라가 함께 스트리밍할 수 있어요.</li>
+      </ol>
+
+      <h2>Pixel에서 두 카메라를 동시에 녹화하면 화질은 어떨까?</h2>
+      <p>일반 픽셀 카메라 동영상보다 낮아요. Android는 카메라당 최대 1440p(1920 x 1440)의 동시 스트림을 보장하고, Google의 CameraX 1.3 발표에서는 상한을 "기기에 따라 720p 또는 1440p"로 밝히고 있어요. ContentCam의 전면·후면 모드는 Android에서 최대 30fps의 HD로 녹화해요.</p>
+
+      <table>
+        <thead><tr><th>Pixel의 방법</th><th>전면 후면 동시 녹화?</th><th>결과물</th><th>지원 Pixel</th></tr></thead>
+        <tbody>
+          <tr><td>픽셀 카메라 동영상 모드</td><td>아니요</td><td>카메라 하나, 지원 모델에서 최대 4K 60fps</td><td>전체</td></tr>
+          <tr><td>듀얼 스크린 미리보기</td><td>아니요</td><td>카메라 하나, 두 화면에 뷰파인더 표시</td><td>Pixel Fold, 9 Pro Fold, 10 Pro Fold, 11 Pro Fold</td></tr>
+          <tr><td>Add Me</td><td>아니요</td><td>두 번 찍어 만든 단체 사진 한 장</td><td>Pixel 9, Pixel 10 시리즈</td></tr>
+          <tr><td>ContentCam 전면·후면</td><td>예</td><td>HD 파일 두 개를 따로, 최대 30fps, 나중에 PIP(화면 속 화면)나 분할 화면으로 합치기</td><td>전면 후면 카메라 동시 사용을 알려 주는 Pixel</td></tr>
+        </tbody>
+      </table>
+      <p>한 가지 시점만 필요하다면 픽셀 카메라의 동영상 모드를 쓰세요. 지원 모델에서 최대 4K 60fps로 녹화해요. Android의 동시 카메라 방식으로 하는 전면 후면 녹화는 카메라당 1440p 정도가 상한이에요.</p>
+
+      <h2>ContentCam 전면·후면 모드는 Pixel에서 어떻게 작동할까?</h2>
+      <p>ContentCam의 전면·후면 모드는 버튼 한 번으로 셀카 카메라와 후면 카메라를 함께 녹화해서 파일 두 개로 따로 저장해요. 그래서 내 얼굴과 장면을 각각 편집할 수 있어요. 나중에 합치기(Combine) 편집기로 PIP(화면 속 화면)나 분할 화면 영상 하나로 만들 수 있고, 원본은 그대로 남아요. 전면·후면 사진도 마찬가지로, 한 번 누르면 셀카 사진과 후면 사진이 두 장으로 따로 저장돼요.</p>
+      <ul>
+        <li><strong>먼저 내 Pixel을 확인해요:</strong> ContentCam은 동시 카메라 정보를 읽어서, 지원하는 Pixel에서만 전면·후면을 보여 줘요.</li>
+        <li><strong>무료로 써 볼 수 있어요:</strong> 전면·후면 녹화 5번은 무료이고, 그다음 녹화 무제한, 전면·후면 사진, 합치기 영상 저장은 프리미엄이에요.</li>
+        <li><strong>광고도 워터마크도 없어요.</strong> 무료든 프리미엄이든 마찬가지이고, 계정도 필요 없고, 촬영한 영상은 내 폰에만 남아요.</li>
+      </ul>
+      <p>한 번 촬영으로 9:16과 16:9 파일을 녹화하는 건 무료예요. <a href="/ko/blog/record-portrait-and-landscape-video-same-time-android/">안드로이드 세로 가로 영상 동시 촬영</a>을 보세요.</p>
+
+      <h2>자주 묻는 질문</h2>
+      <h3>픽셀 카메라에 듀얼 카메라나 전면 후면 동시 녹화 모드가 있나요?</h3>
+      <p>없어요. Google의 픽셀 카메라 고객센터에 나오는 동영상 모드 중 전면과 후면 카메라를 동시에 녹화하는 모드는 어떤 Pixel 모델에도 없어요(2026년 11월 5일 확인).</p>
+      <h3>서드파티 앱으로 전면 후면 동시 녹화가 되는 Pixel 폰은?</h3>
+      <p>Google은 목록을 공개하지 않아요. Pixel이 getConcurrentCameraIds()(Android 11 이상)나 android.hardware.camera.concurrent 기능으로 전면과 후면 카메라 조합을 알려 줘야 해요.</p>
+      <h3>구글 픽셀에서 전면 후면 카메라를 동시에 녹화하는 앱은?</h3>
+      <p>ContentCam의 전면·후면 모드는 이를 지원하는 Pixel에서 버튼 한 번으로 두 카메라를 HD 파일 두 개로 따로 녹화해요. 전면·후면 녹화는 처음 5번까지 무료예요.</p>
+      <h3>Pixel에서 전면 후면 동시 녹화 화질은 어느 정도인가요?</h3>
+      <p>일반 Pixel 동영상보다 낮아요. Android는 카메라당 최대 1440p의 동시 스트림을 보장하고, ContentCam은 최대 30fps의 HD로 녹화해요.</p>
+
+      <div class="post-cta">
+        <p><strong>ContentCam을 무료로 써 보세요.</strong> 폰이 지원하면 한 번 찍을 때 전면과 후면이 파일 두 개로 따로, 한 번 촬영으로 세로와 가로까지. Android와 iPhone에서 무료로 다운로드할 수 있어요.</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ko-b-front-back-google-pixel&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="App Store에서 다운로드하기" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dko-record-front-and-back-camera-google-pixel"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Google Play에서 다운로드하기" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>관련 글: <a href="/ko/blog/record-front-and-back-camera-same-time-android/">모든 안드로이드 폰에서 전면 후면 동시 녹화</a> · <a href="/ko/blog/best-front-and-back-dual-camera-apps/">전면 후면 카메라 앱 추천</a> · <a href="/blog/android-camera-settings-for-video/">안드로이드 동영상 카메라 설정</a> · <a href="/ko/android/">Android용 ContentCam</a></p>
+      <p class="byline">출처: Google, 픽셀 카메라 고객센터, "Record a video on your Pixel phone"(support.google.com/pixelcamera); Google, 픽셀 카메라 고객센터, "Explore your Pixel Fold camera", "Use Pixel Camera Creator Suite", "Use Magic Capture on a Pixel phone"(support.google.com/pixelcamera); Google, "How we built Pixel's Add Me feature"(blog.google) 및 Google 스토어 Add Me 페이지(store.google.com); Android Developers, CameraManager.getConcurrentCameraIds() 및 PackageManager.FEATURE_CAMERA_CONCURRENT; Android 오픈소스 프로젝트, "Concurrent camera streaming"(source.android.com); Android Developers Blog, "CameraX 1.3 is now in beta"(2023년 6월). 2026년 11월 5일 확인.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam 로고" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/ko/features/">기능</a>
+        <a href="/features/teleprompter/">텔레프롬프터</a>
+        <a href="/ko/features/dual-camera/">듀얼 카메라</a>
+        <a href="/features/manual-controls/">수동 조작</a>
+        <a href="/ko/android/">Android</a>
+        <a href="/ko/pricing/">가격</a>
+        <a href="/blog/">블로그</a>
+        <a href="/ko/support/">지원</a>
+        <a href="/press/">보도 자료</a>
+        <a href="/ko/vs/">비교</a>
+        <a href="/ko/changelog/">업데이트 내역</a>
+        <a href="/privacy.html">개인정보 처리방침</a>
+        <a href="/terms.html">이용약관</a>
+      </div>
+      <div class="fine">ContentCam은 호주에서 1인 개발자가 만든 독립 카메라 앱입니다. © 2026 ContentCam. Apple, Apple 로고, iPhone, App Store는 Apple Inc.의 상표입니다. Google Play 및 Google Play 로고는 Google LLC의 상표입니다.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-front-and-back-camera-google-pixel/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-front-and-back-camera-google-pixel/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-front-and-back-camera-google-pixel/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-front-and-back-camera-google-pixel/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-front-and-back-camera-google-pixel/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-front-and-back-camera-google-pixel/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/record-front-and-back-camera-google-pixel/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-front-and-back-camera-google-pixel/" hreflang="id" lang="id">Bahasa Indonesia</a> · <strong>한국어</strong></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

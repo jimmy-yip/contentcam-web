@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Cách quay camera trước và sau cùng lúc trên Android (2026)</title>
+  <meta name="description" content="Quay camera trước và camera sau cùng lúc trên Android. Điện thoại Samsung Galaxy nào làm được bằng camera có sẵn, vì sao Pixel Camera không làm được, và cách lấy khuôn mặt bạn và khung cảnh thành hai file riêng biệt.">
+  <link rel="canonical" href="https://contentcam.app/vi/blog/record-front-and-back-camera-same-time-android/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="Cách quay camera trước và sau cùng lúc trên Android (2026)">
+  <meta property="og:description" content="Quay kép (Dual recording) của Samsung, điểm thiếu của Pixel, và cách lấy phần phản ứng của bạn và khung cảnh thành hai file riêng biệt chỉ từ một lần quay.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/vi/blog/record-front-and-back-camera-same-time-android/">
+  <meta property="og:locale" content="vi_VN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Quay camera trước và sau cùng lúc trên Android">
+  <meta name="twitter:description" content="Quay kép của Samsung, điểm thiếu của Pixel, và cách lấy cả hai camera thành hai file riêng biệt.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/vi/blog/record-front-and-back-camera-same-time-android/",
+        "headline": "Cách quay camera trước và sau cùng lúc trên Android",
+        "description": "Điện thoại Android nào quay được camera trước và sau cùng lúc bằng app camera có sẵn, vì sao Pixel Camera không làm được, và cách lấy cả hai camera thành hai file riêng biệt với chế độ Trước và sau (Front & Back) của ContentCam.",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-10-08",
+        "dateModified": "2026-11-05",
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "Nhà phát triển ContentCam",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
+        "mainEntityOfPage": "https://contentcam.app/vi/blog/record-front-and-back-camera-same-time-android/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Trang chủ",
+            "item": "https://contentcam.app/vi/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://contentcam.app/vi/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Camera trước và sau cùng lúc trên Android",
+            "item": "https://contentcam.app/vi/blog/record-front-and-back-camera-same-time-android/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Google Pixel có quay được camera trước và sau cùng lúc không?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pixel Camera thì không. Tính năng xem trước trên cả hai màn hình (Dual screen preview) của các dòng Pixel Fold hiển thị khung ngắm trên cả hai màn hình, nhưng chỉ một camera quay. Trên Pixel hỗ trợ chạy đồng thời nhiều camera, app có chế độ trước và sau như ContentCam sẽ quay được cả hai."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "App nào quay camera trước và sau cùng lúc tốt nhất trên Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ContentCam, nếu bạn muốn chỉnh sửa hai góc quay: chế độ Trước và sau lưu khuôn mặt bạn và khung cảnh thành hai file riêng biệt trên mọi điện thoại Android chạy được cả hai camera cùng lúc, không quảng cáo và không logo chìm. Trên Galaxy được hỗ trợ, Quay kép có sẵn là cách nhanh nhất để có một clip hoàn chỉnh."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quay kép (Dual recording) của Samsung có lưu thành hai file riêng không?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Thường là không. Nó quay một video theo bố cục bạn đã chọn, và không đổi được cài đặt khi đã bắt đầu quay. Samsung cho biết chỉ dòng Galaxy S22 và S23 lưu được file selfie và file camera sau riêng biệt, phải bật trước khi quay."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Chế độ Trước và sau của ContentCam có miễn phí trên Android không?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ContentCam tải về miễn phí và tính năng quay hai khổ cũng miễn phí. Trước và sau là chế độ Premium, có 5 lần quay miễn phí để bạn dùng thử."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Vì sao điện thoại Android của tôi không quay được hai camera cùng lúc?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tất cả phụ thuộc vào phần cứng. Android 11 bổ sung getConcurrentCameraIds(), cho app biết những camera nào chạy được cùng lúc. Nếu điện thoại không báo cặp camera trước và sau nào, các app dùng cách chính thức đó sẽ không quay được cả hai."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-front-and-back-camera-same-time-android/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/vi/"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Mở menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Tính năng</a>
+        <a href="/pricing/">Bảng giá</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Hỗ trợ</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/vi/">Trang chủ</a> › <a href="/blog/">Blog</a> › Camera trước và sau cùng lúc trên Android</div>
+    <article class="post">
+      <h1>Cách quay camera trước và sau cùng lúc trên Android</h1>
+      <p class="byline">Bởi Jimmy, nhà phát triển ContentCam · 8 tháng 10, 2026 · Cập nhật 5 tháng 11, 2026</p>
+
+      <p>Cách linh hoạt nhất để quay camera trước và camera sau cùng lúc trên Android là dùng một app camera lưu khuôn mặt bạn và khung cảnh thành hai file riêng biệt. Chế độ Trước và sau (Front &amp; Back) của ContentCam làm được điều đó trên mọi điện thoại Android có phần cứng chạy được cả hai camera cùng lúc, kể cả những chiếc Pixel có hỗ trợ, nơi Pixel Camera không có chế độ trước và sau. Một số điện thoại Samsung Galaxy cũng làm được bằng app Camera có sẵn, nhưng thường chỉ ra một video với bố cục đã cố định trước khi bạn bấm quay.</p>
+      <p>Với iPhone và tùy chọn có sẵn của Instagram, xem hướng dẫn chính về <a href="/vi/blog/dual-camera-effect/">cách dùng camera trước và sau cùng lúc</a>, hoặc <a href="/vi/blog/iphone-17-dual-capture-limitations/">Dual Capture trên iPhone</a> cho phiên bản có sẵn của Apple.</p>
+
+      <h2>Cách làm với ContentCam trên Android</h2>
+      <p>Chế độ Trước và sau quay camera selfie và camera sau cùng lúc chỉ với một lần chạm và cho bạn hai file, không phải một bố cục bị gắn cứng. Camera sau quay dọc hoặc ngang (bạn chọn); bản selfie luôn quay dọc. Bạn chọn bố cục sau khi quay: khung nhỏ chèn góc, chia đôi màn hình, chèn cảnh cắt, hoặc đăng thành hai bài. Muốn có một video hoàn chỉnh, trình chỉnh sửa Ghép (Combine) sẽ xuất cặp file thành video hình trong hình hoặc chia đôi màn hình và giữ nguyên bản gốc của bạn.</p>
+      <ol>
+        <li>Cài <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dvi-android-dual-format">ContentCam từ Google Play</a>.</li>
+        <li>Chuyển sang chế độ Trước và sau. App sẽ kiểm tra camera của điện thoại và chỉ hiện chế độ này ở máy dùng được.</li>
+        <li>Chọn quay dọc hoặc ngang cho camera sau.</li>
+        <li>Căn khung hình camera sau và quay một lần. Cả hai camera dùng chung một dòng thời gian, nên phần phản ứng và khung cảnh luôn khớp nhau.</li>
+        <li>Cắt và xuất hai clip, hoặc mở Ghép để có một video duy nhất.</li>
+      </ol>
+      <p>Trên Android, chế độ Trước và sau quay HD tối đa 30fps và thuộc Premium, có 5 lần quay miễn phí để dùng thử. Thử các bố cục Ghép thì miễn phí; lưu lại thì cần Premium. Chế độ này cũng chụp được cặp ảnh trước và sau (Premium). Không quảng cáo và không logo chìm, dù dùng bản miễn phí hay Premium. Bản miễn phí quay một file 9:16 và một file 16:9 từ một lần quay, xem thêm ở bài <a href="/blog/record-portrait-and-landscape-video-same-time-android/">quay video dọc và ngang cùng lúc trên Android</a>.</p>
+
+      <div class="shot-pair">
+        <img src="/assets/img/ui-record-handsup-640.webp" alt="Màn hình quay của ContentCam với nút chuyển chế độ" width="640" height="1387" loading="lazy" decoding="async">
+        <img src="/assets/img/ui-review-dark-640.webp" alt="Màn hình xem lại của ContentCam sau một lần quay" width="640" height="1387" loading="lazy" decoding="async">
+      </div>
+
+      <h2>Samsung Galaxy: Góc nhìn đạo diễn (Director's View) và Quay kép</h2>
+      <p>Trang hỗ trợ của Samsung mô tả Quay kép (Dual recording) là cách để "quay video bằng camera sau và camera selfie cùng lúc", trên một số thiết bị chạy One UI 3.1 trở lên. Bạn chọn hình trong hình (bạn ở một góc) hoặc chia đôi (camera sau ở trên, selfie ở dưới) trước khi quay.</p>
+      <p>Các giới hạn, theo chính các trang của Samsung: kết quả thường là <em>một</em> video với khung nhỏ đã gắn cứng, nên không thể di chuyển hay gỡ bỏ sau này, và bạn không đổi được cài đặt Quay kép khi video đã bắt đầu quay. Chỉ dòng Galaxy S22 và S23 lưu được file selfie và file camera sau riêng biệt, phải bật trước khi quay. Trên các đời Galaxy mới hơn, kể cả dòng S24 và S25, Director's View đã đổi tên thành Dual recording, và từ One UI 8.5 tính năng này nằm trong chế độ Video, mục Điều khiển nhanh. Các bước đầy đủ có trong bài <a href="/vi/blog/record-front-and-back-camera-samsung-galaxy/">cách quay camera trước và sau trên Samsung Galaxy</a>.</p>
+
+      <h2>Google Pixel có quay được camera trước và sau cùng lúc không?</h2>
+      <p>Pixel Camera không quay hai camera cùng lúc. Tính năng gần nhất của Google là xem trước trên cả hai màn hình (Dual screen preview) ở các dòng Pixel Fold, hiển thị khung ngắm trên màn hình trong và màn hình ngoài để người được quay thấy chính mình. Nhưng vẫn chỉ một camera quay. Trên Pixel, muốn quay trước và sau thì phải dùng app bên thứ ba như ContentCam.</p>
+
+      <h2>Các điện thoại Android khác: tùy vào phần cứng</h2>
+      <p>Android 11 (API level 30) bổ sung <code>getConcurrentCameraIds()</code>, cho app biết những camera nào chạy được cùng lúc. Nếu điện thoại báo có một cặp camera trước và sau, app có thể quay cả hai. Nếu không, không app nào dùng cách chính thức đó làm được. Đó là lý do máy này làm được còn máy kia thì không.</p>
+
+      <h2>Nên chọn cách nào?</h2>
+      <ul>
+        <li><strong>Bạn muốn hai góc quay thành hai file riêng,</strong> hoặc bạn dùng Pixel hay hãng khác: chế độ Trước và sau của ContentCam.</li>
+        <li><strong>Bạn có Galaxy được hỗ trợ và muốn nhanh chóng có một clip hoàn chỉnh:</strong> Quay kép trong app Camera có sẵn.</li>
+        <li><strong>Bạn chỉ cần mặt mình ở một góc cho một Story:</strong> Dual camera của Instagram, có trong <a href="/vi/blog/dual-camera-effect/">hướng dẫn chính về camera kép</a>.</li>
+      </ul>
+
+      <h2>Mẹo quay đẹp</h2>
+      <ul>
+        <li><strong>Chiếu sáng khuôn mặt.</strong> Camera selfie bị nhiễu đầu tiên khi phòng thiếu sáng. Hãy quay mặt về phía cửa sổ hoặc đèn.</li>
+        <li><strong>Giữ giọng nói ở gần.</strong> Lùi ra để khoe thứ gì đó thì giọng sẽ nhỏ đi, nên hãy lại gần khi nói những câu quan trọng.</li>
+        <li><strong>Khóa phơi sáng khi ánh sáng thay đổi.</strong> Bài <a href="/blog/android-camera-settings-for-video/">cài đặt camera Android để quay video</a> giải thích điện thoại cho phép bạn khóa những gì.</li>
+        <li><strong>Để ý nhiệt độ.</strong> Khi quay lâu, tránh nắng trực tiếp và tháo ốp lưng ra.</li>
+      </ul>
+
+      <h2>Câu hỏi thường gặp</h2>
+      <h3>Google Pixel có quay được camera trước và sau cùng lúc không?</h3>
+      <p>Pixel Camera thì không. Tính năng xem trước trên cả hai màn hình (Dual screen preview) của các dòng Pixel Fold hiển thị khung ngắm trên cả hai màn hình, nhưng chỉ một camera quay. Trên Pixel hỗ trợ chạy đồng thời nhiều camera, app có chế độ trước và sau như ContentCam sẽ quay được cả hai.</p>
+      <h3>App nào quay camera trước và sau cùng lúc tốt nhất trên Android?</h3>
+      <p>ContentCam, nếu bạn muốn chỉnh sửa hai góc quay: chế độ Trước và sau lưu khuôn mặt bạn và khung cảnh thành hai file riêng biệt trên mọi điện thoại Android chạy được cả hai camera cùng lúc, không quảng cáo và không logo chìm. Trên Galaxy được hỗ trợ, Quay kép có sẵn là cách nhanh nhất để có một clip hoàn chỉnh.</p>
+      <h3>Quay kép (Dual recording) của Samsung có lưu thành hai file riêng không?</h3>
+      <p>Thường là không. Nó quay một video theo bố cục bạn đã chọn, và không đổi được cài đặt khi đã bắt đầu quay. Samsung cho biết chỉ dòng Galaxy S22 và S23 lưu được file selfie và file camera sau riêng biệt, phải bật trước khi quay.</p>
+      <h3>Chế độ Trước và sau của ContentCam có miễn phí trên Android không?</h3>
+      <p>ContentCam tải về miễn phí và tính năng quay hai khổ cũng miễn phí. Trước và sau là chế độ Premium, có 5 lần quay miễn phí để bạn dùng thử.</p>
+      <h3>Vì sao điện thoại Android của tôi không quay được hai camera cùng lúc?</h3>
+      <p>Tất cả phụ thuộc vào phần cứng. Android 11 bổ sung getConcurrentCameraIds(), cho app biết những camera nào chạy được cùng lúc. Nếu điện thoại không báo cặp camera trước và sau nào, các app dùng cách chính thức đó sẽ không quay được cả hai.</p>
+
+      <div class="post-cta">
+        <p><strong>Dùng thử ContentCam miễn phí.</strong> Quay trước và sau trong một lần thành hai file riêng biệt, cùng bản dọc và bản ngang chỉ từ một lần quay. Không quảng cáo, không logo chìm. Tải miễn phí trên Android và iPhone.</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dvi-android-dual-format"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Tải trên Google Play" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=vi-b-front-back-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Tải về trên App Store" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>Bài liên quan: <a href="/vi/blog/dual-camera-effect/">hướng dẫn đầy đủ cách dùng camera trước và sau cùng lúc</a> · <a href="/blog/record-portrait-and-landscape-video-same-time-android/">quay video dọc và ngang cùng lúc trên Android</a> · <a href="/vi/blog/record-front-and-back-camera-same-time-iphone/">phiên bản iPhone của bài hướng dẫn này</a> · <a href="/vi/blog/take-photo-front-and-back-camera-same-time/">chụp ảnh camera trước và sau cùng lúc</a> · <a href="/vi/android/">ContentCam cho Android</a> · <a href="/vi/blog/record-front-and-back-camera-samsung-galaxy/">quay trước và sau trên Samsung Galaxy</a> · <a href="/blog/record-front-and-back-camera-google-pixel/">quay trước và sau trên Google Pixel</a>.</p>
+      <p class="byline">Nguồn: Samsung, "Use Director's View and Dual recording on your Galaxy phone" (samsung.com/us/support); Google, Pixel Camera Help, "Record a video" (support.google.com/pixelcamera); Samsung US, "Dual recording missing in the Camera app on Galaxy phones"; Samsung Gulf, "Director's View Missing in Camera?"; Android Developers, CameraManager.getConcurrentCameraIds(). Kiểm tra ngày 5 tháng 11, 2026.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Tính năng</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/vi/features/dual-camera/">Camera kép</a>
+        <a href="/features/manual-controls/">Điều khiển thủ công</a>
+        <a href="/vi/android/">Android</a>
+        <a href="/pricing/">Bảng giá</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Hỗ trợ</a>
+        <a href="/press/">Báo chí</a>
+        <a href="/vs/">So sánh</a>
+        <a href="/changelog/">Nhật ký cập nhật</a>
+        <a href="/privacy.html">Quyền riêng tư</a>
+        <a href="/terms.html">Điều khoản</a>
+      </div>
+      <div class="fine">ContentCam là ứng dụng camera độc lập do một nhà phát triển duy nhất làm ra tại Úc. © 2026 ContentCam. Apple, logo Apple, iPhone và App Store là nhãn hiệu của Apple Inc. Google Play và logo Google Play là nhãn hiệu của Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-front-and-back-camera-same-time-android/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-front-and-back-camera-same-time-android/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-front-and-back-camera-same-time-android/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-front-and-back-camera-same-time-android/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-front-and-back-camera-same-time-android/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-front-and-back-camera-same-time-android/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/record-front-and-back-camera-same-time-android/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-front-and-back-camera-same-time-android/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/blog/record-front-and-back-camera-same-time-android/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/blog/record-front-and-back-camera-same-time-android/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/blog/record-front-and-back-camera-same-time-android/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/blog/record-front-and-back-camera-same-time-android/" hreflang="tr" lang="tr">Türkçe</a> · <strong>Tiếng Việt</strong> · <a href="/zh-hans/blog/record-front-and-back-camera-same-time-android/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/blog/record-front-and-back-camera-same-time-android/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/blog/record-front-and-back-camera-same-time-android/" hreflang="ru" lang="ru">Русский</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>
