@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Google Pixelでインカメラと外カメラを同時に録画できる？（2026年）</title>
+  <meta name="description" content="Pixelカメラには、Foldを含むどのPixelにも前後カメラの同時録画モードはありません。デュアルスクリーン プレビュー（Dual screen preview）とAdd Meで実際にできること、アプリで両方のカメラを使えるPixel、そしてお使いの機種の確認方法を解説します。">
+  <link rel="canonical" href="https://contentcam.app/ja/blog/record-front-and-back-camera-google-pixel/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ja">
+  <meta property="og:title" content="Google Pixelでインカメラと外カメラを同時に録画できる？（2026年）">
+  <meta property="og:description" content="Pixelカメラは、どのPixelでも2つのカメラで同時に録画できません。Dual screen previewとAdd Meで代わりにできること、そしてお使いのPixelでアプリが同時録画できるかの確認方法。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/ja/blog/record-front-and-back-camera-google-pixel/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Google Pixelでインカメラと外カメラを同時に録画できる？">
+  <meta name="twitter:description" content="Pixelカメラは、どのPixelでも2つのカメラで同時に録画できません。Dual screen previewとAdd Meで代わりにできること、そしてお使いのPixelでアプリが同時録画できるかの確認方法。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://contentcam.app/ja/blog/record-front-and-back-camera-google-pixel/",
+      "headline": "Google Pixelでインカメラと外カメラを同時に録画できる？",
+      "description": "Pixelカメラには、Foldを含むどのPixelにも前後カメラの同時録画モードはありません。デュアルスクリーン プレビュー（Dual screen preview）とAdd Meで実際にできること、アプリで両方のカメラを使えるPixel、そしてお使いの機種の確認方法を解説します。",
+      "image": "https://contentcam.app/assets/og/og-blog.jpg",
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-11-05",
+      "inLanguage": "ja",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "ContentCam開発者",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "mainEntityOfPage": "https://contentcam.app/ja/blog/record-front-and-back-camera-google-pixel/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://contentcam.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ブログ",
+          "item": "https://contentcam.app/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Google Pixelで前後カメラを同時に録画する",
+          "item": "https://contentcam.app/ja/blog/record-front-and-back-camera-google-pixel/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pixelカメラにデュアルカメラや前後カメラの同時録画モードはありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。GoogleのPixelカメラ ヘルプに載っている動画モードのうち、インカメラと背面カメラを同時に録画できるものは、どのPixelにもありません（2026年11月5日に確認）。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "サードパーティ製アプリで前後カメラを同時に録画できるPixelはどれですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Googleは対応機種の一覧を公開していません。Pixelが、getConcurrentCameraIds()（Android 11以降）またはandroid.hardware.camera.concurrent機能を通じて、前後のカメラの組み合わせを報告している必要があります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Pixelでインカメラと外カメラを同時に録画できるアプリは？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ContentCamの前後カメラ（Front/Back）モードなら、対応するPixelで、1回のタップで両方のカメラを独立した2つのHDファイルとして録画できます。前後カメラ（Front/Back）の録画は最初の5回まで無料です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pixelで前後カメラを同時に録画したときの画質は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "通常のPixelの動画より低くなります。Androidが保証する同時ストリームは1台のカメラあたり最大1440pで、ContentCamは最大30fpsのHDで録画します。"
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-front-and-back-camera-google-pixel/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ja/"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="メニューを開く">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/ja/">ホーム</a> › <a href="/blog/">ブログ</a> › Google Pixelで前後カメラを同時に録画する</div>
+    <article class="post">
+      <h1>Google Pixelでインカメラと外カメラを同時に録画できる？</h1>
+      <p class="byline">文：Jimmy（ContentCam開発者）· 2026年10月9日 · 2026年11月5日更新</p>
+
+      <p>Pixelカメラではできません。Google純正のカメラアプリには、Pixel Foldシリーズを含め、どのPixelにも前後カメラで同時に録画するモードがありません。Google Pixelで両方のカメラを同時に録画できるのはサードパーティ製アプリだけで、しかもそのPixelのカメラシステムが「前後のカメラを同時に動かせる」と報告している場合に限られます。ContentCamの前後カメラ（Front/Back）モードはまさにこれを行います。最初にお使いのPixelを確認し、1回のタップでインカメラと背面カメラを独立した2つのファイルとして録画します。</p>
+      <p>お断り：私はContentCamの開発者なので、中立な立場ではありません。以下のPixelに関する情報は、Googleのヘルプページと、Androidの開発者向けドキュメントにもとづいており、2026年11月5日に確認したものです。Samsung Galaxyやほかのメーカーのスマホについては、<a href="/ja/blog/record-front-and-back-camera-same-time-android/">Androidで前後カメラを同時に録画する方法</a>をご覧ください。</p>
+
+      <h2>Pixelカメラに前後カメラの同時録画モードはある？</h2>
+      <p>ありません。GoogleのPixelカメラ ヘルプの「Record a video on your Pixel phone」では、動画モード、スローモーション、タイムラプス、シネマティック ぼかし（Cinematic Blur）、シネマティック パン（Cinematic Pan）、10ビットHDR、最大4K・60fpsの動画が紹介されています。どのモードもインカメラと背面カメラを同時には録画できず、ワイプ（ピクチャ・イン・ピクチャ）や画面分割のオプションもありません。Pixel 11の新しいCreator SuiteやMagic Captureでも、そうしたモードは追加されていません。</p>
+
+      <h2>Pixel FoldのDual screen previewは同じもの？</h2>
+      <p>違います。Dual screen previewは2つのカメラではなく、2つの画面を使う機能です。Googleによると、この機能は「動画の録画中に、撮られている人が自分の姿を確認できる」もので、Pixel Fold、Pixel 9 Pro Fold、Pixel 10 Pro Fold、Pixel 11 Pro Foldで使えます。動画はあくまで1つのカメラで撮影されます。</p>
+
+      <h2>Pixel 9とPixel 10のAdd Meはデュアルカメラ機能？</h2>
+      <p>違います。GoogleのブログはAdd Meを「同じセッション、同じシーンで撮った2枚の写真を合成する」機能として説明しており、撮影者も集合写真に入れるようにするものです。Google Storeでは「すべてのPixel 9とPixel 10」で使えると案内されています。Add Meは静止画の機能で、前後のカメラを同時に動かすことはありません。</p>
+
+      <h2>アプリで前後カメラを同時に録画できるGoogle Pixelはどれ？</h2>
+      <p>Googleは対応機種の一覧を公開しておらず、私も推測で挙げるつもりはありません。対応しているかどうかはスマホのカメラハードウェア次第で、Androidは次の2つの方法でアプリにそれを伝えます。</p>
+      <ul>
+        <li><strong>CameraManager.getConcurrentCameraIds()</strong>：Android 11（APIレベル30）で追加されたもので、「カメラデバイスのセッションを同時に構成できる」カメラの組み合わせを返します。</li>
+        <li><strong>機能フラグ android.hardware.camera.concurrent</strong>（FEATURE_CAMERA_CONCURRENT）：「デバイスのメインの前面カメラと背面カメラが同時にストリーミングできる」ことを意味します。</li>
+      </ul>
+      <p>どちらも報告されていないPixelでは、Androidの公式なカメラの仕組みを使うアプリは、両方のカメラで録画できません。その理由は、Android Open Source Projectが説明しているとおり、スマホの画像信号プロセッサ（ISP）がリソースを2つのカメラに分けなければならないからです。</p>
+
+      <h2>お使いのPixelが前後カメラの同時録画に対応しているか確認するには？</h2>
+      <ol>
+        <li>いちばん簡単な方法：ContentCamをインストールします。前後カメラ（Front/Back）が表示されれば、そのPixelは対応しています。</li>
+        <li>パソコンを使う方法：USBデバッグをオンにしてPixelを接続し、<code>adb shell pm list features</code>を実行します。一覧に<code>android.hardware.camera.concurrent</code>があれば、メインの前面カメラと背面カメラを同時にストリーミングできます。</li>
+      </ol>
+
+      <h2>Pixelで2つのカメラを同時に録画すると画質はどうなる？</h2>
+      <p>通常のPixelカメラの動画よりは下がります。Androidが保証する同時ストリームは1台のカメラあたり最大1440p（1920 x 1440）で、GoogleによるCameraX 1.3の発表では、上限は「デバイスに応じて720pまたは1440p」とされています。ContentCamの前後カメラ（Front/Back）モードは、Androidでは最大30fpsのHDで録画します。</p>
+
+      <table>
+        <thead><tr><th>Pixelでの方法</th><th>前後カメラを同時に録画できる？</th><th>得られるもの</th><th>対応するPixel</th></tr></thead>
+        <tbody>
+          <tr><td>Pixelカメラの動画モード</td><td>いいえ</td><td>1つのカメラ、対応機種では最大4K・60fps</td><td>すべて</td></tr>
+          <tr><td>Dual screen preview</td><td>いいえ</td><td>1つのカメラ、両方の画面にファインダーを表示</td><td>Pixel Fold、9 Pro Fold、10 Pro Fold、11 Pro Fold</td></tr>
+          <tr><td>Add Me</td><td>いいえ</td><td>2回の撮影から1枚の集合写真</td><td>Pixel 9とPixel 10シリーズ</td></tr>
+          <tr><td>ContentCamの前後カメラ（Front/Back）</td><td>はい</td><td>独立した2つのHDファイル、最大30fps。あとでワイプや画面分割に合成可能</td><td>前後カメラの同時使用を報告しているPixel</td></tr>
+        </tbody>
+      </table>
+      <p>1つのアングルだけでよければ、Pixelカメラの動画モードを使いましょう。対応機種では最大4K・60fpsで録画できます。Androidの同時カメラの仕組みを使った前後カメラの録画は、1台のカメラあたり1440p前後が上限です。</p>
+
+      <h2>ContentCamの前後カメラ（Front/Back）モードはPixelでどう動く？</h2>
+      <p>ContentCamの前後カメラ（Front/Back）モードは、1回のタップでインカメラと背面カメラを同時に録画し、独立した2つのファイルとして保存します。そのため、自分の顔と景色を別々に編集できます。合成エディタを使えば、あとからオリジナルを残したまま、ワイプ（ピクチャ・イン・ピクチャ）または画面分割の1本の動画に書き出せます。前後カメラ（Front/Back）の写真も同じ仕組みで、1回のタップでインカメラと背面カメラの写真が別々の2枚として保存されます。</p>
+      <ul>
+        <li><strong>最初にPixelを確認：</strong>ContentCamは同時カメラの報告を読み取り、対応するPixelにだけ前後カメラ（Front/Back）を表示します。</li>
+        <li><strong>無料で試せる：</strong>前後カメラ（Front/Back）の録画は5回まで無料。その後はPremiumで、録画が無制限になるほか、前後カメラ（Front/Back）の写真と、合成した動画の保存が使えるようになります。</li>
+        <li><strong>広告もウォーターマークもなし：</strong>無料版でもPremiumでも同じです。アカウントは不要で、撮影した映像はスマホの中に残ります。</li>
+      </ul>
+      <p>1回の撮影を9:16と16:9の2つのファイルで録画する機能は無料です。詳しくは<a href="/ja/blog/record-portrait-and-landscape-video-same-time-android/">Androidで縦と横を同時に録画する方法</a>をご覧ください。</p>
+
+      <h2>よくある質問</h2>
+      <h3>Pixelカメラにデュアルカメラや前後カメラの同時録画モードはありますか？</h3>
+      <p>いいえ。GoogleのPixelカメラ ヘルプに載っている動画モードのうち、インカメラと背面カメラを同時に録画できるものは、どのPixelにもありません（2026年11月5日に確認）。</p>
+      <h3>サードパーティ製アプリで前後カメラを同時に録画できるPixelはどれですか？</h3>
+      <p>Googleは対応機種の一覧を公開していません。Pixelが、getConcurrentCameraIds()（Android 11以降）またはandroid.hardware.camera.concurrent機能を通じて、前後のカメラの組み合わせを報告している必要があります。</p>
+      <h3>Google Pixelでインカメラと外カメラを同時に録画できるアプリは？</h3>
+      <p>ContentCamの前後カメラ（Front/Back）モードなら、対応するPixelで、1回のタップで両方のカメラを独立した2つのHDファイルとして録画できます。前後カメラ（Front/Back）の録画は最初の5回まで無料です。</p>
+      <h3>Pixelで前後カメラを同時に録画したときの画質は？</h3>
+      <p>通常のPixelの動画より低くなります。Androidが保証する同時ストリームは1台のカメラあたり最大1440pで、ContentCamは最大30fpsのHDで録画します。</p>
+
+      <div class="post-cta">
+        <p><strong>ContentCamを無料で試す</strong>。対応するスマホなら前後カメラを1回のテイクで別々の2つのファイルに、さらに1回の撮影で縦と横の両方も。AndroidとiPhoneで無料でダウンロードできます。</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ja-b-front-back-google-pixel&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="App Storeからダウンロード" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dja-record-front-and-back-camera-google-pixel"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Google Playで手に入れよう" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>関連記事：<a href="/ja/blog/record-front-and-back-camera-same-time-android/">どのAndroidスマホでも使える前後カメラの同時録画ガイド</a> · <a href="/ja/blog/best-front-and-back-dual-camera-apps/">前後カメラ同時撮影アプリのおすすめ</a> · <a href="/blog/android-camera-settings-for-video/">動画撮影のためのAndroidカメラ設定</a> · <a href="/ja/android/">Android版ContentCam</a></p>
+      <p class="byline">出典：Google Pixelカメラ ヘルプ「Record a video on your Pixel phone」（support.google.com/pixelcamera）、Google Pixelカメラ ヘルプ「Explore your Pixel Fold camera」「Use Pixel Camera Creator Suite」「Use Magic Capture on a Pixel phone」（support.google.com/pixelcamera）、Google「How we built Pixel's Add Me feature」（blog.google）およびGoogle StoreのAdd Meページ（store.google.com）、Android Developers「CameraManager.getConcurrentCameraIds()」「PackageManager.FEATURE_CAMERA_CONCURRENT」、Android Open Source Project「Concurrent camera streaming」（source.android.com）、Android Developers Blog「CameraX 1.3 is now in beta」（2023年6月）。2026年11月5日に確認。</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/features/teleprompter/">テレプロンプター</a>
+        <a href="/ja/features/dual-camera/">デュアルカメラ</a>
+        <a href="/ja/features/manual-controls/">手動コントロール</a>
+        <a href="/ja/android/">Android</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+        <a href="/press/">プレス</a>
+        <a href="/ja/vs/">比較</a>
+        <a href="/changelog/">更新履歴</a>
+        <a href="/privacy.html">プライバシー</a>
+        <a href="/terms.html">利用規約</a>
+      </div>
+      <div class="fine">ContentCamは、オーストラリアで1人の開発者がつくった独立系のカメラアプリです。© 2026 ContentCam. Apple、Appleロゴ、iPhone、App Storeは、Apple Inc.の商標です。Google PlayおよびGoogle Playロゴは、Google LLCの商標です。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-front-and-back-camera-google-pixel/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-front-and-back-camera-google-pixel/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-front-and-back-camera-google-pixel/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-front-and-back-camera-google-pixel/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-front-and-back-camera-google-pixel/" hreflang="it" lang="it">Italiano</a> · <strong>日本語</strong> · <a href="/pt-br/blog/record-front-and-back-camera-google-pixel/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-front-and-back-camera-google-pixel/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

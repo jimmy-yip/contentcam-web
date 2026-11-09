@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>iPhoneで録画中にカメラを切り替える方法（2026年）</title>
+  <meta name="description" content="iPhoneの標準カメラアプリでは、録画の途中でインカメラと外カメラを切り替えられません。回避策は3つ。止めて切り替える、iPhone 17のDual Captureを使う、または両方のカメラを2つのファイルで録画して編集で切り替える方法です。">
+  <link rel="canonical" href="https://contentcam.app/ja/blog/switch-camera-while-recording-iphone/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="iPhoneで録画中にカメラを切り替える方法（2026年）">
+  <meta property="og:description" content="iPhoneのカメラアプリが撮影の途中でカメラを切り替えられない理由と、インカメラと外カメラをひとつの動画に収める3つの方法。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/ja/blog/switch-camera-while-recording-iphone/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="iPhoneで録画中にカメラを切り替える方法（2026年）">
+  <meta name="twitter:description" content="iPhoneのカメラアプリでは録画中にカメラを切り替えられません。3つの回避策を紹介します。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/ja/blog/switch-camera-while-recording-iphone/",
+        "headline": "iPhoneで録画中にカメラを切り替える方法（2026年）",
+        "description": "AppleのiPhoneユーザガイドに基づき、iPhoneのカメラアプリが録画中にインカメラと外カメラを切り替えられない理由と、3つの回避策（止めて切り替える、iPhone 17以降のDual Capture、両方のカメラを別々のファイルで録画して編集アプリで切り替える）を解説します。",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-11-03",
+        "dateModified": "2026-11-05",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "ContentCamの開発者", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/ja/blog/switch-camera-while-recording-iphone/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://contentcam.app/" },
+          { "@type": "ListItem", "position": 2, "name": "ブログ", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "iPhoneで録画中にカメラを切り替える", "item": "https://contentcam.app/ja/blog/switch-camera-while-recording-iphone/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "iPhone 17で録画中に外カメラからインカメラに切り替えられますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "カメラアプリではできません。ひとつにまとまった動画ならDual Captureを使うか、ContentCamで両方のカメラを2つのファイルとして録画し、あとから編集で切り替えてください。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "録画を一時停止すればカメラを切り替えられますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Appleのガイドによると、できません。録画中の操作として一時停止は載っていますが、一時停止中にカメラを切り替える方法は書かれていません。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "iPhone 15やiPhone 16でインカメラと外カメラを同時に録画するには？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "どちらにもAppleのDual Captureはないので、サードパーティ製アプリを使います。ContentCamの前後カメラ（Front/Back）モードはiOS 18が動くすべてのiPhoneで使え、別々の2つのファイルとして保存します。iPhone 15・16でインカメラと外カメラを同時に使う方法で選択肢を比較しています。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Androidなら録画中にカメラを切り替えられますか？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "メーカーのカメラアプリ次第です。一部のSamsung Galaxyには、前後を同時に録画できるデュアル録画付きのディレクターズビューがあります。また、ContentCamの前後カメラ（Front/Back）モードは、2つのカメラを同時に使えるAndroidスマホで動作します。詳しくはAndroidでインカメラと外カメラを同時に録画する方法をご覧ください。"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/switch-camera-while-recording-iphone/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/switch-camera-while-recording-iphone/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/switch-camera-while-recording-iphone/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/switch-camera-while-recording-iphone/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/switch-camera-while-recording-iphone/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/switch-camera-while-recording-iphone/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/switch-camera-while-recording-iphone/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/switch-camera-while-recording-iphone/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/switch-camera-while-recording-iphone/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ja/"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="メニューを開く">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/ja/">ホーム</a> › <a href="/blog/">ブログ</a> › iPhoneで録画中にカメラを切り替える</div>
+    <article class="post">
+      <h1>iPhoneで録画中にカメラを切り替える方法（2026年）</h1>
+      <p class="byline">文：Jimmy（ContentCam開発者）· 2026年11月3日 · 2026年11月5日更新</p>
+
+      <p>iPhone標準のカメラアプリでは、録画の途中でインカメラと外カメラを切り替えることはできません。AppleのiPhoneユーザガイドには録画中にできる操作が載っていますが、カメラの切り替えは含まれていません。いちばんきれいな回避策は、両方のカメラを同時に別々の2つのファイルとして録画し、編集で切り替えることです。ContentCamの前後カメラ（Front/Back）モードがまさにこれを行います（ContentCamは私が開発しています）。iOS 18が動くすべてのiPhoneで使え、AppleのDual CaptureがないiPhone 15や16でも動き、広告もウォーターマークもありません。ほかの選択肢は、クリップの合間に止めてカメラを切り替えるか、iPhone 17以降のDual Captureを使う方法です。Dual Captureでは、インカメラが小窓に固定されたひとつの動画として保存されます。</p>
+
+      <h2>iPhoneで録画中にカメラを切り替えることはできる？</h2>
+      <p>Appleのカメラアプリではできません。Appleのページ「<a href="https://support.apple.com/guide/iphone/record-videos-iph61f49e4bb/ios">iPhoneのカメラでビデオを撮影する</a>」（iOS 27版、2026年11月5日確認）によると、録画中にできるのは、静止画の撮影、一時停止ボタンのタップ、ピンチでのズーム、.5x、1x、2xなどのズームボタンのタップです。これらのボタンは背面のレンズを切り替えるだけで、撮影中にインカメラへ切り替える操作はガイドに書かれていません。</p>
+      <p>これはiPhone 11からiPhone 18 Proまで全モデル共通です。ハードウェアではなく、カメラアプリの制限だからです。iPhoneが勝手に背面レンズを行き来している場合は別の問題です。<a href="/blog/iphone-camera-switching-lenses-while-recording/">録画中にiPhoneのカメラがレンズを切り替える理由</a>をご覧ください。</p>
+
+      <h2>iPhoneで録画中にカメラを切り替えられないのはなぜ？</h2>
+      <p>録画は、1つのカメラによる1本の連続したファイルだからです。切り替えるには、同じファイルの中で一方のセンサーを止めて、画角も色味も違う別のセンサーを動かす必要があります。Appleのカメラアプリはそれを行わず、撮影中に切り替えられるアプリでも一瞬映像が飛びます。</p>
+
+      <h2>iPhoneでインカメラと外カメラをひとつの動画に入れるには？</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>方法</th><th>得られるもの</th><th>対応機種</th><th>あとからアングルを切り替えられる？</th></tr></thead>
+          <tbody>
+            <tr><td>ContentCamの前後カメラ（Front/Back）モード</td><td>同じ瞬間の別々の2ファイルと、必要に応じて合成した動画</td><td>iOS 18が動くすべてのiPhone（XS、XR以降）と対応Androidスマホ</td><td>はい、自由に</td></tr>
+            <tr><td>カメラアプリのDual Capture</td><td>1ファイル。背面の映像の上にインカメラの小窓</td><td>iPhone 17、17 Pro、17 Pro Max、iPhone Air、18 Pro、18 Pro Max、iPhone Duo</td><td>いいえ。小窓が全フレームに焼き込まれます</td></tr>
+            <tr><td>SnapchatのDual Camera</td><td>両方のカメラを1つのレイアウトに収めたSnap</td><td>iPhone XS、XS Max、XR以降</td><td>いいえ</td></tr>
+            <tr><td>止めて、切り替えて、もう一度録画</td><td>それぞれ1つのカメラで撮った2本以上のクリップ</td><td>すべてのiPhone</td><td>はい。ただし同じ瞬間ではありません</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>代わりに編集でインカメラと外カメラを切り替えるには？</h2>
+      <p>両方のカメラを別々のファイルに録画し、テレビの2カメ撮影のように切り替えます。景色、ちょうど反応した瞬間のあなたの顔、そしてまた景色、という流れです。</p>
+      <ol>
+        <li><strong>インカメラと外カメラを同時に録画する。</strong>ContentCamの前後カメラ（Front/Back）モードなら、カメラごとに別のファイルとして保存されます。AppleはiOS 13から、サードパーティ製アプリが2つのカメラを同時に使うことを認めています。</li>
+        <li><strong>最初に一度手をたたく。</strong>音声波形のピークが同期ポイントになります。</li>
+        <li><strong>2つのクリップを重ねる。</strong>iMovieやCapCutで、外カメラをメインのトラックに、インカメラをその上に置き、手をたたいた位置で合わせます。</li>
+        <li><strong>上のレイヤーをカットする。</strong>顔を見せたいところで切ります。カットのひとつひとつが「カメラの切り替え」になり、あとから位置を動かすこともできます。</li>
+      </ol>
+      <p>前後カメラ（Front/Back）は5回まで無料で録画でき、その後はPremiumです。iPhoneでは、ContentCamの合成（Combine）エディタで、元の2つのファイルを残したまま、1回のテイクをワイプ（ピクチャ・イン・ピクチャ）や画面分割のひとつの動画にもできます。合成版を投稿しつつ、アングルの切り替えも続けられます。アカウントは不要で、映像はスマホの中に残ります。解像度はHDで、対応するiPhoneでは最大60fps（60fpsはPremium）です。Appleはマルチカメラ用のフォーマットに上限を設けていて、ContentCamを動かしたすべてのiPhone（Proモデルを含む）で上限は1920×1440でした。</p>
+
+      <h2>切り替えの代わりにDual Captureを使うとどうなる？</h2>
+      <p>Dual Captureは、Appleのカメラアプリでインカメラと外カメラを一緒に録画する機能です。同じAppleのガイドによると、カメラを開いてビデオを選び、カメラコントロールのボタンをタップしてから、Dual Captureをタップします。AppleのiPhone 17とiPhone Airの仕様ページでは、最大4K Dolby Vision、30fpsとされています。</p>
+      <p>問題はレイアウトです。Appleのガイドの図では、インカメラが背面の映像の左上の小窓に表示されていて、Appleが公開している情報はどれも、その小窓が描き込まれた1つのファイルであることを示しています。あとから外カメラだけのきれいなショットに切り替えることはできず、iPhone 16、16e、17eにはDual Capture自体がありません。詳しくは<a href="/ja/blog/iphone-17-dual-capture-limitations/">Dual Captureが使えるiPhoneと、その限界</a>をご覧ください。</p>
+
+      <h2>止めて撮り直す方法でカメラを切り替えるには？</h2>
+      <p>最初の部分を外カメラで録画して止め、切り替えボタン（右下の円形の矢印）をタップし、次の部分を録画したら、iMovieやCapCutでクリップを順番につなげます。どのiPhoneでも無料でできます。限界は、1本目と2本目のクリップが同じ瞬間ではないことです。リアクションや開封動画では、出来事のあとに撮った顔は演技っぽく見えてしまいます。</p>
+
+      <h2>録画中にカメラを切り替えられるアプリは？</h2>
+      <p>Instagram、Snapchat、TikTokには独自のカメラ切り替えボタンがありますが、撮影中の挙動はアプリのバージョンによって変わるので、頼る前に試してください。SnapchatのDual Cameraでは、Snapchatサポートによると、切り替えボタンでメイン画面に映すカメラが入れ替わります。いずれにしても、切り替えが焼き込まれた1つのファイルになります。</p>
+
+      <h2>よくある質問</h2>
+      <p><strong>iPhone 17で録画中に外カメラからインカメラに切り替えられますか？</strong> カメラアプリではできません。ひとつにまとまった動画ならDual Captureを使うか、ContentCamで両方のカメラを2つのファイルとして録画し、あとから編集で切り替えてください。</p>
+      <p><strong>録画を一時停止すればカメラを切り替えられますか？</strong> Appleのガイドによると、できません。録画中の操作として一時停止は載っていますが、一時停止中にカメラを切り替える方法は書かれていません。</p>
+      <p><strong>iPhone 15やiPhone 16でインカメラと外カメラを同時に録画するには？</strong> どちらにもAppleのDual Captureはないので、サードパーティ製アプリを使います。ContentCamの前後カメラ（Front/Back）モードはiOS 18が動くすべてのiPhoneで使え、別々の2つのファイルとして保存します。<a href="/ja/blog/record-front-and-back-camera-iphone-15-16/">iPhone 15・16でインカメラと外カメラを同時に使う方法</a>で選択肢を比較しています。</p>
+      <p><strong>Androidなら録画中にカメラを切り替えられますか？</strong> メーカーのカメラアプリ次第です。一部のSamsung Galaxyには、前後を同時に録画できるデュアル録画付きのディレクターズビューがあります。また、ContentCamの前後カメラ（Front/Back）モードは、2つのカメラを同時に使えるAndroidスマホで動作します。詳しくは<a href="/ja/blog/record-front-and-back-camera-same-time-android/">Androidでインカメラと外カメラを同時に録画する方法</a>をご覧ください。</p>
+
+      <div class="post-cta">
+        <p><strong>ContentCamを無料で試す</strong>。前後カメラ（Front/Back）モードなら、あなたの顔と景色を同時に、切り替え編集できる2つのファイルとして録画できます。iPhoneとAndroidに対応。</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ja-b-switch-camera-while-recording-iphon&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="App Storeからダウンロード" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dja-switch-camera-while-recording-iphone"><img class="badge-play" src="/assets/google-play-badge.png" alt="Google Playで手に入れよう" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>関連記事：<a href="/ja/blog/record-front-and-back-camera-same-time-iphone/">iPhoneでインカメラと外カメラを同時に録画する方法</a> · <a href="/ja/blog/iphone-17-dual-capture-limitations/">iPhone 17のDual Captureとその限界</a> · <a href="/ja/blog/film-reaction-video-phone/">スマホでリアクション動画を撮る方法</a> · <a href="/ja/blog/split-screen-video-iphone/">iPhoneで画面分割動画を作る方法</a></p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/features/teleprompter/">テレプロンプター</a>
+        <a href="/ja/features/dual-camera/">デュアルカメラ</a>
+        <a href="/ja/features/manual-controls/">手動コントロール</a>
+        <a href="/ja/android/">Android</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+        <a href="/press/">プレス</a>
+        <a href="/ja/vs/">比較</a>
+        <a href="/changelog/">更新履歴</a>
+        <a href="/privacy.html">プライバシー</a>
+        <a href="/terms.html">利用規約</a>
+      </div>
+      <div class="fine">ContentCamは、オーストラリアで1人の開発者がつくった独立系のカメラアプリです。© 2026 ContentCam. Apple、Appleロゴ、iPhone、App Storeは、Apple Inc.の商標です。Google PlayおよびGoogle Playロゴは、Google LLCの商標です。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/switch-camera-while-recording-iphone/" hreflang="en" lang="en">English</a> · <a href="/de/blog/switch-camera-while-recording-iphone/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/switch-camera-while-recording-iphone/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/switch-camera-while-recording-iphone/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/switch-camera-while-recording-iphone/" hreflang="it" lang="it">Italiano</a> · <strong>日本語</strong> · <a href="/pt-br/blog/switch-camera-while-recording-iphone/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/switch-camera-while-recording-iphone/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

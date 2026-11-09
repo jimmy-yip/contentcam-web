@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Apakah Google Pixel Bisa Merekam Kamera Depan dan Belakang Bersamaan? (2026)</title>
+  <meta name="description" content="Pixel Camera tidak punya mode video depan dan belakang di Pixel mana pun, termasuk Fold. Apa sebenarnya fungsi Dual screen preview dan Add Me, Pixel mana yang membolehkan aplikasi memakai kedua kamera, dan cara mengecek Pixel-mu.">
+  <link rel="canonical" href="https://contentcam.app/id/blog/record-front-and-back-camera-google-pixel/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="id">
+  <meta property="og:title" content="Apakah Google Pixel Bisa Merekam Kamera Depan dan Belakang Bersamaan? (2026)">
+  <meta property="og:description" content="Pixel Camera tidak bisa merekam dengan kedua kamera sekaligus di Pixel mana pun. Apa yang dilakukan Dual screen preview dan Add Me, dan cara mengecek apakah Pixel-mu membolehkan aplikasi melakukannya.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/id/blog/record-front-and-back-camera-google-pixel/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rekam Kamera Depan dan Belakang Sekaligus di Google Pixel?">
+  <meta name="twitter:description" content="Pixel Camera tidak bisa merekam dengan kedua kamera sekaligus di Pixel mana pun. Apa yang dilakukan Dual screen preview dan Add Me, dan cara mengecek apakah Pixel-mu membolehkan aplikasi melakukannya.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://contentcam.app/id/blog/record-front-and-back-camera-google-pixel/",
+      "headline": "Apakah Google Pixel Bisa Merekam Kamera Depan dan Belakang Bersamaan?",
+      "description": "Pixel Camera tidak punya mode video depan dan belakang di Pixel mana pun, termasuk Fold. Apa sebenarnya fungsi Dual screen preview dan Add Me, Pixel mana yang membolehkan aplikasi memakai kedua kamera, dan cara mengecek Pixel-mu.",
+      "image": "https://contentcam.app/assets/og/og-blog.jpg",
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-11-05",
+      "inLanguage": "id",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "Developer ContentCam",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "mainEntityOfPage": "https://contentcam.app/id/blog/record-front-and-back-camera-google-pixel/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Beranda",
+          "item": "https://contentcam.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://contentcam.app/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kamera depan dan belakang di Google Pixel",
+          "item": "https://contentcam.app/id/blog/record-front-and-back-camera-google-pixel/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Apakah Pixel Camera punya dual camera atau mode video depan dan belakang?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tidak. Tidak ada mode video di Pixel Camera Help dari Google yang merekam kamera depan dan belakang bersamaan, di model Pixel mana pun (dicek 5 November 2026)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "HP Pixel mana yang bisa merekam depan dan belakang di aplikasi pihak ketiga?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google tidak menerbitkan daftarnya. Pixel harus melaporkan pasangan kamera depan dan belakang lewat getConcurrentCameraIds() (Android 11 ke atas) atau fitur android.hardware.camera.concurrent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aplikasi apa yang bisa merekam kamera depan dan belakang bersamaan di Google Pixel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mode Depan dan Belakang (Front/Back) di ContentCam merekam kedua kamera dengan sekali tekan sebagai dua file HD terpisah, di Pixel yang mendukungnya. 5 rekaman Depan dan Belakang pertama gratis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Seperti apa kualitas rekaman depan dan belakang di Pixel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lebih rendah daripada video Pixel biasa. Android menjamin stream bersamaan hingga 1440p per kamera, dan ContentCam merekam HD hingga 30fps."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-front-and-back-camera-google-pixel/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/id/"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Buka menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/id/features/">Fitur</a>
+        <a href="/id/pricing/">Harga</a>
+        <a href="/blog/">Blog</a>
+        <a href="/id/support/">Bantuan</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/id/">Beranda</a> › <a href="/blog/">Blog</a> › Kamera depan dan belakang di Google Pixel</div>
+    <article class="post">
+      <h1>Apakah Google Pixel Bisa Merekam Kamera Depan dan Belakang Bersamaan?</h1>
+      <p class="byline">Oleh Jimmy, developer ContentCam · 9 Oktober 2026 · Diperbarui 5 November 2026</p>
+
+      <p>Tidak di Pixel Camera. Aplikasi kamera bawaan Google tidak punya mode video depan dan belakang di Pixel mana pun, termasuk model Pixel Fold. Google Pixel hanya bisa merekam dengan kedua kamera sekaligus lewat aplikasi pihak ketiga, dan itu pun hanya kalau sistem kamera Pixel tersebut melaporkan bahwa kamera depan dan belakangnya bisa berjalan bersamaan. Mode Depan dan Belakang (Front/Back) di ContentCam melakukan hal itu: aplikasinya mengecek Pixel-mu dulu, lalu merekam kamera selfie dan kamera belakang dengan sekali tekan sebagai dua file terpisah.</p>
+      <p>Catatan: saya yang membuat ContentCam, jadi saya tidak netral. Fakta tentang Pixel di bawah ini diambil dari halaman bantuan Google dan dokumentasi developer Android, dicek 5 November 2026. Untuk Samsung Galaxy dan merek Android lain, baca <a href="/id/blog/record-front-and-back-camera-same-time-android/">cara merekam depan dan belakang di Android</a>.</p>
+
+      <h2>Apakah Pixel Camera punya mode kamera depan dan belakang?</h2>
+      <p>Tidak. Halaman Pixel Camera Help dari Google, “Record a video on your Pixel phone”, membahas mode Video, Slow motion, Time Lapse, Cinematic Blur, Cinematic Pan, HDR 10-bit, dan video hingga 4K 60fps. Tidak satu pun dari mode itu merekam kamera selfie dan kamera belakang bersamaan, dan tidak ada opsi gambar dalam gambar atau layar terbagi. Creator Suite dan Magic Capture yang baru di Pixel 11 juga tidak menambahkannya.</p>
+
+      <h2>Apakah Dual screen preview di Pixel Fold sama saja?</h2>
+      <p>Tidak. Dual screen preview memakai dua layar, bukan dua kamera. Menurut Google, fitur ini “memungkinkan orang yang kamu rekam melihat dirinya sendiri saat kamu merekam video” di Pixel Fold, Pixel 9 Pro Fold, Pixel 10 Pro Fold, dan Pixel 11 Pro Fold. Videonya tetap berasal dari satu kamera.</p>
+
+      <h2>Apakah Add Me di Pixel 9 dan Pixel 10 termasuk fitur dual camera?</h2>
+      <p>Bukan. Blog Google menjelaskan Add Me sebagai cara untuk “menggabungkan dua foto yang diambil dalam sesi yang sama dan di adegan yang sama” supaya fotografernya ikut masuk ke foto grup. Google Store mencantumkannya di “semua HP Pixel 9 dan Pixel 10”. Add Me bekerja untuk foto dan tidak pernah menjalankan kamera depan dan belakang bersamaan.</p>
+
+      <h2>Google Pixel mana yang bisa merekam depan dan belakang di aplikasi?</h2>
+      <p>Google tidak menerbitkan daftar modelnya, dan saya tidak mau menebak-nebak. Dukungannya tergantung hardware kamera HP, dan Android memberi tahu aplikasi lewat dua cara:</p>
+      <ul>
+        <li><strong>CameraManager.getConcurrentCameraIds()</strong>, yang hadir sejak Android 11 (API level 30), mengembalikan kumpulan kamera yang “mendukung konfigurasi sesi perangkat kamera secara bersamaan”.</li>
+        <li><strong>Flag fitur android.hardware.camera.concurrent</strong> (FEATURE_CAMERA_CONCURRENT) berarti “kamera depan dan belakang utama perangkat bisa melakukan streaming secara bersamaan”.</li>
+      </ul>
+      <p>Kalau sebuah Pixel tidak melaporkan keduanya, tidak ada aplikasi yang memakai jalur kamera resmi Android yang bisa merekam dengan kedua kamera di HP itu. Android Open Source Project menjelaskan alasannya: image signal processor (ISP) di HP harus membagi sumber dayanya untuk dua kamera.</p>
+
+      <h2>Bagaimana cara mengecek apakah Pixel-mu mendukung rekam depan dan belakang?</h2>
+      <ol>
+        <li>Cara paling gampang: instal ContentCam. Kalau Depan dan Belakang muncul, Pixel-mu mendukungnya.</li>
+        <li>Pakai komputer: aktifkan USB debugging, sambungkan Pixel, lalu jalankan <code>adb shell pm list features</code>. Kalau daftarnya memuat <code>android.hardware.camera.concurrent</code>, kamera depan dan belakang utama bisa streaming bersamaan.</li>
+      </ol>
+
+      <h2>Seperti apa kualitasnya kalau merekam dengan dua kamera di Pixel?</h2>
+      <p>Lebih rendah daripada video Pixel Camera biasa. Android menjamin stream bersamaan hingga 1440p (1920 x 1440) per kamera, dan pengumuman CameraX 1.3 dari Google menyebut batasnya “720p atau 1440p, tergantung perangkat”. Mode Depan dan Belakang di ContentCam merekam HD hingga 30fps di Android.</p>
+
+      <table>
+        <thead><tr><th>Opsi di Pixel</th><th>Merekam depan dan belakang sekaligus?</th><th>Hasilnya</th><th>Pixel yang mana</th></tr></thead>
+        <tbody>
+          <tr><td>Mode Video Pixel Camera</td><td>Tidak</td><td>Satu kamera, hingga 4K 60fps di model yang didukung</td><td>Semua</td></tr>
+          <tr><td>Dual screen preview</td><td>Tidak</td><td>Satu kamera, jendela bidik di kedua layar</td><td>Pixel Fold, 9 Pro Fold, 10 Pro Fold, 11 Pro Fold</td></tr>
+          <tr><td>Add Me</td><td>Tidak</td><td>Satu foto grup dari dua jepretan</td><td>Seri Pixel 9 dan Pixel 10</td></tr>
+          <tr><td>Depan dan Belakang di ContentCam</td><td>Ya</td><td>Dua file HD terpisah, hingga 30fps, bisa digabung nanti jadi gambar dalam gambar atau layar terbagi</td><td>Pixel yang melaporkan kamera depan dan belakang bersamaan</td></tr>
+        </tbody>
+      </table>
+      <p>Kalau kamu cuma butuh satu sudut, pakai mode Video bawaan Pixel Camera, yang merekam hingga 4K 60fps di model yang didukung. Rekaman depan dan belakang lewat jalur kamera bersamaan Android dibatasi sekitar 1440p per kamera.</p>
+
+      <h2>Bagaimana mode Depan dan Belakang di ContentCam bekerja di Pixel?</h2>
+      <p>Mode Depan dan Belakang di ContentCam merekam kamera selfie dan kamera belakang bersamaan dengan sekali tekan dan menyimpan dua file terpisah, jadi kamu bisa mengedit wajahmu dan adegannya secara terpisah. Editor Gabungkan nanti bisa mengubahnya jadi satu video gambar dalam gambar atau layar terbagi, dengan file aslinya tetap disimpan. Foto Depan dan Belakang juga begitu: sekali tekan menyimpan foto selfie dan foto kamera belakang sebagai dua gambar terpisah.</p>
+      <ul>
+        <li><strong>Mengecek Pixel-mu dulu:</strong> ContentCam membaca laporan kamera bersamaan dan hanya menampilkan Depan dan Belakang di Pixel yang mendukungnya.</li>
+        <li><strong>Gratis dicoba:</strong> 5 rekaman Depan dan Belakang gratis, lalu Premium untuk rekaman tanpa batas, foto Depan dan Belakang, dan menyimpan video hasil Gabungkan.</li>
+        <li><strong>Tanpa iklan dan tanpa watermark</strong> di versi gratis maupun Premium, tanpa perlu akun, dan rekamanmu tetap di HP-mu.</li>
+      </ul>
+      <p>Merekam satu take sebagai file 9:16 dan 16:9 itu gratis: baca <a href="/id/blog/record-portrait-and-landscape-video-same-time-android/">cara merekam vertikal dan horizontal sekaligus di Android</a>.</p>
+
+      <h2>FAQ</h2>
+      <h3>Apakah Pixel Camera punya dual camera atau mode video depan dan belakang?</h3>
+      <p>Tidak. Tidak ada mode video di Pixel Camera Help dari Google yang merekam kamera depan dan belakang bersamaan, di model Pixel mana pun (dicek 5 November 2026).</p>
+      <h3>HP Pixel mana yang bisa merekam depan dan belakang di aplikasi pihak ketiga?</h3>
+      <p>Google tidak menerbitkan daftarnya. Pixel harus melaporkan pasangan kamera depan dan belakang lewat getConcurrentCameraIds() (Android 11 ke atas) atau fitur android.hardware.camera.concurrent.</p>
+      <h3>Aplikasi apa yang bisa merekam kamera depan dan belakang bersamaan di Google Pixel?</h3>
+      <p>Mode Depan dan Belakang (Front/Back) di ContentCam merekam kedua kamera dengan sekali tekan sebagai dua file HD terpisah, di Pixel yang mendukungnya. 5 rekaman Depan dan Belakang pertama gratis.</p>
+      <h3>Seperti apa kualitas rekaman depan dan belakang di Pixel?</h3>
+      <p>Lebih rendah daripada video Pixel biasa. Android menjamin stream bersamaan hingga 1440p per kamera, dan ContentCam merekam HD hingga 30fps.</p>
+
+      <div class="post-cta">
+        <p><strong>Coba ContentCam gratis.</strong> Depan dan belakang dalam satu take sebagai dua file terpisah kalau HP-mu mendukung, plus vertikal dan horizontal dari sekali syuting. Gratis diunduh di Android dan iPhone.</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=id-b-front-back-google-pixel&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download di App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Did-record-front-and-back-camera-google-pixel"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Temukan di Google Play" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>Baca juga: <a href="/id/blog/record-front-and-back-camera-same-time-android/">depan dan belakang di HP Android mana pun</a> · <a href="/id/blog/best-front-and-back-dual-camera-apps/">aplikasi kamera depan dan belakang terbaik</a> · <a href="/blog/android-camera-settings-for-video/">pengaturan kamera Android untuk video</a> · <a href="/id/android/">ContentCam untuk Android</a></p>
+      <p class="byline">Sumber: Google, Pixel Camera Help, “Record a video on your Pixel phone” (support.google.com/pixelcamera); Google, Pixel Camera Help, “Explore your Pixel Fold camera”, “Use Pixel Camera Creator Suite”, dan “Use Magic Capture on a Pixel phone” (support.google.com/pixelcamera); Google, “How we built Pixel's Add Me feature” (blog.google) dan halaman Add Me di Google Store (store.google.com); Android Developers, CameraManager.getConcurrentCameraIds() dan PackageManager.FEATURE_CAMERA_CONCURRENT; Android Open Source Project, “Concurrent camera streaming” (source.android.com); Android Developers Blog, “CameraX 1.3 is now in beta” (Juni 2023). Dicek 5 November 2026.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/id/features/">Fitur</a>
+        <a href="/id/features/teleprompter/">Teleprompter</a>
+        <a href="/id/features/dual-camera/">Kamera Ganda</a>
+        <a href="/id/features/manual-controls/">Kontrol Manual</a>
+        <a href="/id/android/">Android</a>
+        <a href="/id/pricing/">Harga</a>
+        <a href="/blog/">Blog</a>
+        <a href="/id/support/">Bantuan</a>
+        <a href="/press/">Pers</a>
+        <a href="/id/vs/">Perbandingan</a>
+        <a href="/changelog/">Catatan rilis</a>
+        <a href="/privacy.html">Privasi</a>
+        <a href="/terms.html">Ketentuan</a>
+      </div>
+      <div class="fine">ContentCam adalah aplikasi kamera independen yang dibuat di Australia oleh satu developer. © 2026 ContentCam. Apple, logo Apple, iPhone, dan App Store adalah merek dagang Apple Inc. Google Play dan logo Google Play adalah merek dagang Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-front-and-back-camera-google-pixel/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-front-and-back-camera-google-pixel/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-front-and-back-camera-google-pixel/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-front-and-back-camera-google-pixel/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-front-and-back-camera-google-pixel/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-front-and-back-camera-google-pixel/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/record-front-and-back-camera-google-pixel/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <strong>Bahasa Indonesia</strong></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

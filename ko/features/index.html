@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>ContentCam 기능: 가로 세로 동시 촬영, 텔레프롬프터 등</title>
+  <meta name="description" content="ContentCam의 모든 기능: 세로·가로 동시 녹화, 듀얼 렌즈 촬영, 합치기를 지원하는 전면·후면, 텔레프롬프터, 수동 조작, 타임랩스, 4K, 크리에이터를 위한 워크플로우.">
+  <link rel="canonical" href="https://contentcam.app/ko/features/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="ContentCam 기능">
+  <meta property="og:description" content="세로·가로 동시 녹화, 듀얼 렌즈 촬영, 전면·후면, 텔레프롬프터, 수동 조작, 타임랩스, 4K.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-features.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/ko/features/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ContentCam 기능">
+  <meta name="twitter:description" content="한 번 촬영으로 세로와 가로, 듀얼 렌즈, 전면·후면, 텔레프롬프터, 수동 조작, 4K, 60fps.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-features.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://contentcam.app/ko/features/",
+        "url": "https://contentcam.app/ko/features/",
+        "name": "ContentCam 기능",
+        "description": "iPhone과 Android에서 ContentCam이 하는 모든 것: 한 번 촬영으로 세로와 가로, 듀얼 렌즈, 합치기를 지원하는 전면·후면, 텔레프롬프터, 수동 조작, 4K, 60fps, 타임랩스, 프로젝트.",
+        "about": { "@id": "https://contentcam.app/ko/#app" },
+        "primaryImageOfPage": "https://contentcam.app/assets/img/ui-record-handsdown-640.webp"
+      },
+      {
+        "@type": "ItemList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "한 번 촬영으로 세로와 가로 영상", "url": "https://contentcam.app/ko/features/dual-camera/" },
+          { "@type": "ListItem", "position": 2, "name": "듀얼 렌즈와 전면·후면 촬영 모드", "url": "https://contentcam.app/ko/features/#modes" },
+          { "@type": "ListItem", "position": 3, "name": "카메라 수동 조작", "url": "https://contentcam.app/ko/features/manual-controls/" },
+          { "@type": "ListItem", "position": 4, "name": "텔레프롬프터 내장", "url": "https://contentcam.app/ko/features/teleprompter/" },
+          { "@type": "ListItem", "position": 5, "name": "프로젝트, 리뷰, 자르기", "url": "https://contentcam.app/ko/features/#organise" }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://contentcam.app/ko/" },
+          { "@type": "ListItem", "position": 2, "name": "기능", "item": "https://contentcam.app/ko/features/" }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    /* features page (redesigned 1 Nov, human pass). All classes prefixed fx- */
+    .fx-main > section { padding: 52px 0; }
+    .fx-main > section.fx-hero { border-top: none; padding: 28px 0 40px; }
+    .fx-main section .lead { max-width: 640px; }
+    .fx-hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 48px; align-items: center; }
+    .fx-hero-grid > * { min-width: 0; }
+    .fx-hero h1 { font-size: clamp(34px, 5.4vw, 54px); line-height: 1.04; letter-spacing: -0.03em; margin: 0 0 18px; }
+    .fx-hero h1 .accent { color: var(--cyan); }
+    .fx-hero .lead { font-size: 18px; margin-bottom: 24px; }
+    .fx-reassure { margin: 14px 0 0; font-size: 14px; color: var(--text-dim); }
+    a.cta.fx-go { box-shadow: none; color: #06222a; }
+    @media (max-width: 860px) { a.cta.fx-go { display: flex; justify-content: center; width: 100%; padding: 15px 20px; } .fx-dk { display: none; } }
+    @media (min-width: 861px) { a.cta.fx-go { display: none; } .fx-dk { margin-top: 4px; } }
+    a.cta.fx-go:hover { transform: none; }
+    .fx-jump { margin: 26px 0 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; letter-spacing: .04em; }
+    .fx-jump span { color: var(--text-dim); }
+    .fx-hero-media { justify-self: center; width: 100%; max-width: 300px; }
+    .fx-loop { margin: 0; position: relative; cursor: pointer; aspect-ratio: 9/16; overflow: hidden; border-radius: 18px; background: #0b1416; }
+    .fx-loop video { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .fx-loop.paused::after { content: ""; position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%;
+      background: rgba(9,16,18,.6) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z' fill='%23fff'/%3E%3C/svg%3E") center/26px no-repeat; }
+    .fx-cap { margin: 10px 0 0; text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); }
+
+    /* feature rows: text + media, alternating on desktop */
+    .fx-row { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; align-items: center; }
+    .fx-row > * { min-width: 0; }
+    .fx-row.flip .fx-media { order: -1; }
+    .fx-row h2 { margin-bottom: 12px; }
+    .fx-row .lead { margin-bottom: 20px; }
+    .fx-list { list-style: none; margin: 0; padding: 0; border-top: 3px solid var(--cyan); }
+    .fx-list li { padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 15.5px; line-height: 1.45; color: var(--text-soft); }
+    .fx-list li b { color: var(--ink); font-weight: 600; }
+    .fx-list code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; background: var(--surface-2); padding: 1px 5px; border-radius: 5px; color: var(--amber-ink); overflow-wrap: anywhere; }
+    .fx-tag { display: inline-block; margin-left: 4px; padding: 1px 7px; border-radius: 6px; border: 1px solid var(--line-strong); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--text-dim); vertical-align: 1px; white-space: nowrap; }
+    .fx-tag.p { border-color: rgba(37,208,229,.6); color: var(--cyan-ink); }
+    .fx-more { margin: 16px 0 0; font-size: 15px; display: flex; flex-wrap: wrap; gap: 6px 22px; }
+    .fx-note { margin: 14px 0 0; font-size: 14px; color: var(--text-dim); }
+
+    .fx-media { min-width: 0; }
+    .fx-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; max-width: 460px; margin: 0 auto; }
+    .fx-pair > * { min-width: 0; }
+    .fx-solo { max-width: 250px; margin: 0 auto; }
+    .fx-proof { margin: 0 0 18px; font-size: 14px; color: var(--text-dim); } .fx-proof .star { color: var(--amber); }
+    .fx-shot { margin: 0; }
+    .fx-photo img { border: 0 !important; }
+    .fx-shot img { display: block; width: 100%; height: auto; border-radius: 18px; border: 1.5px solid var(--cyan); }
+
+    .fx-ph { aspect-ratio: 640/1388; border: 1.5px dashed var(--line-strong); border-radius: 18px; background: var(--surface-2); display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; line-height: 1.5; color: var(--amber-ink); }
+    .fx-ph.wide { aspect-ratio: 4/3; max-width: 460px; margin: 0 auto; }
+    .fx-review { margin: 22px auto 0; max-width: 420px; }
+    .fx-review img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.10); border-radius: 4px; transform: rotate(-1.2deg); }
+
+    /* dual-format still pair */
+    .fx-formats { display: flex; align-items: flex-end; gap: 4%; }
+    .fx-formats > * { min-width: 0; }
+    .fx-formats .frame { box-shadow: none; }
+    .fx-formats .f9 { flex: 0 0 34%; aspect-ratio: 9/16; }
+    .fx-formats .f16 { flex: 0 0 62%; aspect-ratio: 16/9; }
+    .fx-formats .lbl { position: absolute; top: 8px; left: 8px; font-size: 12px; font-weight: 600; line-height: 1; color: #fff; background: rgba(9,16,18,.74); padding: 5px 8px; border-radius: 7px; white-space: nowrap; }
+
+    /* review collage */
+    .fx-collage { display: grid; grid-template-columns: repeat(3, 1fr); padding: 10px 40px 0; align-items: start; }
+    .fx-collage > * { min-width: 0; }
+    .fx-collage figure { margin: 0 -2px; position: relative; }
+    .fx-collage img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid rgba(24,20,12,.10); box-shadow: 0 6px 18px rgba(24,20,12,.10); border-radius: 4px; }
+    .fx-collage figure:nth-child(1) { transform: rotate(-1.4deg); z-index: 1; }
+    .fx-collage figure:nth-child(2) { transform: rotate(1.1deg); z-index: 2; margin-top: 26px; }
+    .fx-collage figure:nth-child(3) { transform: rotate(-.7deg); z-index: 3; margin-top: 8px; }
+    .fx-collage-cap { text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--text-dim); margin: 22px 0 0; }
+    .fx-center-cta { text-align: center; margin-top: 26px; }
+
+    /* iPhone vs Android */
+    .fx-plat { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; margin-top: 8px; }
+    .fx-plat h3 { font-size: 17px; margin: 0 0 6px; }
+    .fx-plat ul { list-style: none; margin: 0 0 18px; padding: 0; border-top: 3px solid var(--cyan); }
+    .fx-plat li { padding: 10px 0; border-bottom: 1px solid var(--border); color: var(--text-soft); font-size: 15px; }
+    .fx-plat li b { color: var(--ink); font-weight: 600; }
+
+    .fx-privbox { display: flex; gap: 18px; align-items: flex-start; }
+    .fx-privbox svg { flex: none; width: 40px; height: 46px; margin-top: 2px; }
+    .fx-privbox ul { list-style: none; margin: 0 0 12px; padding: 0; }
+    .fx-privbox li { position: relative; padding-left: 26px; margin-bottom: 6px; color: var(--text-soft); font-size: 15.5px; }
+    .fx-privbox li::before { content: "✓"; position: absolute; left: 0; color: var(--cyan-ink); font-weight: 700; }
+    @media (max-width: 860px) { .fx-privbox { padding: 20px 18px; gap: 14px; } .fx-privbox svg { width: 32px; height: 37px; } }
+    .fx-main > section.fx-final { text-align: center; padding: 60px 0 76px; }
+    .fx-final .lead { margin: 0 auto 24px; }
+
+    @media (max-width: 860px) {
+      .fx-main > section { padding: 38px 0; }
+      .fx-main > section.fx-hero { padding: 20px 0 32px; }
+      .fx-hero-grid { grid-template-columns: 1fr; gap: 28px; }
+      .fx-hero-media { max-width: 230px; }
+      .fx-row { grid-template-columns: 1fr; gap: 26px; }
+      .fx-row.flip .fx-media { order: 0; }
+      .fx-pair { gap: 12px; }
+      .fx-dk-media { display: none; }
+      .fx-ph { font-size: 11px; padding: 10px; }
+      .fx-collage { grid-template-columns: 1fr; padding: 0 4px; }
+      .fx-collage figure { margin: 0; width: 94%; }
+      .fx-collage figure:nth-child(2) { justify-self: end; margin-top: -6px; }
+      .fx-collage figure:nth-child(3) { margin-top: -6px; }
+      .fx-plat { grid-template-columns: 1fr; }
+      .fx-main > section.fx-final { padding: 44px 0 56px; }
+    }
+  </style>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/features/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/features/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/features/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/features/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/features/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/features/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/features/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/features/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/features/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/features/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ko/"><img src="/assets/logo-mark.png" alt="ContentCam 로고" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="메뉴 열기">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/ko/features/">기능</a>
+        <a href="/ko/pricing/">가격</a>
+        <a href="/blog/">블로그</a>
+        <a href="/ko/support/">지원</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap fx-main">
+    <div class="crumbs"><a href="/ko/">홈</a> › 기능</div>
+
+    <section class="fx-hero">
+      <div class="fx-hero-grid">
+        <div>
+          <p class="section-eyebrow">기능</p>
+          <h1>세로 영상과 가로 영상을 <span class="accent">동시에 촬영하세요.</span></h1>
+          <p class="lead">한 번 찍으면 틱톡, 릴스, 쇼츠용 세로 영상과 유튜브용 가로 영상이 함께 생겨요. 둘 다 크롭이 아닌 전체 화각이에요. 이 앱으로 할 수 있는 나머지 기능도 모두 소개할게요.</p>
+          <p class="fx-proof">크리에이터 1,000명 이상이 평가한 <span class="star">★</span> 4.8점 · 다운로드 50,000회 이상</p>
+          <nav class="fx-jump" aria-label="기능 그룹으로 이동"><span>바로 가기:</span><a href="#formats">두 비율 동시 촬영</a><a href="#modes">모드</a><a href="#controls">조작</a><a href="#teleprompter">텔레프롬프터</a><a href="#organise">프로젝트</a><a href="#privacy">개인정보</a></nav>
+        </div>
+        <div class="fx-hero-media">
+          <figure class="fx-loop"><video src="/assets/video/loop-demo-sunset.mp4" poster="/assets/video/loop-demo-sunset-poster.jpg" muted loop playsinline preload="metadata" aria-label="ContentCam으로 노을을 두 비율로 녹화하는 화면 녹화"></video></figure>
+          <p class="fx-cap">화면 녹화</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="formats">
+      <div class="fx-row">
+        <div>
+          <p class="section-eyebrow">한 번 촬영, 두 가지 비율</p>
+          <h2>찍을 때마다 세로 영상과 가로 영상이 동시에</h2>
+          <p class="lead">싱글 렌즈 모드는 카메라의 4:3 화면 전체를 녹화하고, 거기서 9:16과 16:9를 저장해요. 세로 영상은 세로 화각 전체를, 가로 영상은 가로 화각 전체를 살리고, 각각 별도 파일로 저장돼요.</p>
+          <ul class="fx-list">
+            <li>녹화 버튼을 누를 때마다 <b>틱톡, 릴스, 쇼츠용 세로 영상</b>과 <b>유튜브용 가로 영상</b></li>
+            <li>비율마다 따로 정하는 <b>HD 또는 4K</b></li>
+            <li>가로 영상이 필요 없을 땐 <b>세로만</b></li>
+          </ul>
+          <p class="fx-more"><a href="/ko/features/dual-camera/">가로 세로 동시 촬영은 어떻게 작동할까요? →</a></p>
+        </div>
+        <div class="fx-media fx-dk-media">
+          <div class="fx-formats">
+            <div class="frame f9"><img src="/assets/img/hero-portrait-400.webp" srcset="/assets/img/hero-portrait-400.webp 400w, /assets/img/hero-portrait-700.webp 700w" sizes="(max-width: 860px) 32vw, 170px" alt="시드니 노을을 ContentCam으로 녹화한 9:16 세로 영상의 한 장면" width="400" height="712" loading="lazy" decoding="async"><span class="lbl">9:16</span></div>
+            <div class="frame f16"><img src="/assets/img/hero-landscape-600.webp" srcset="/assets/img/hero-landscape-600.webp 600w, /assets/img/hero-landscape-900.webp 900w" sizes="(max-width: 860px) 58vw, 320px" alt="같은 ContentCam 녹화에서 나온 16:9 가로 영상의 한 장면" width="600" height="338" loading="lazy" decoding="async"><span class="lbl">16:9</span></div>
+          </div>
+          <p class="fx-cap">같은 테이크 · 파일 두 개</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="modes">
+      <div class="fx-row flip">
+        <div>
+          <p class="section-eyebrow">촬영 모드</p>
+          <h2>다양한 촬영 방식</h2>
+          <p class="lead">카메라 화면 아래쪽 바에서 모드를 바꿔요.</p>
+          <ul class="fx-list">
+            <li><b>싱글 렌즈:</b> 센서 전체로 세로와 가로를 담아요. 어느 쪽도 다른 쪽을 크롭한 게 아니에요</li>
+            <li><b>듀얼 렌즈:</b> 광각과 초광각을 동시에 녹화해서 두 가지 시점을 담아요. iPhone 11 이후 모델.</li>
+            <li><b>전면·후면:</b> 내 리액션과 눈앞의 장면을 한 번에. 파일 두 개로 저장하거나 PIP(화면 속 화면)나 분할 화면 영상 하나로 합쳐요</li>
+            <li>카메라를 보고 말하는 영상을 위한 두 비율 <b>전면 카메라</b></li>
+            <li><b>사진 모드:</b> 한 번 탭으로 9:16 사진과 16:9 사진을 함께</li>
+            <li><b>타임랩스</b>, 10배~900배속</li>
+          </ul>
+        </div>
+        <div class="fx-media">
+          <div class="fx-pair">
+            <figure class="fx-shot"><img src="/assets/img/ui-record-handsdown-640.webp" alt="아래쪽에 듀얼 렌즈와 싱글 렌즈 전환 버튼이 있는 ContentCam 카메라 화면" width="640" height="1388" loading="lazy" decoding="async"></figure>
+            <figure class="fx-shot"><img src="/assets/blog/dual-camera-effect/front-back-pip-recording.webp" alt="청록빛 호수 위로 셀카 카메라 화면이 겹쳐 보이는 ContentCam 전면·후면 모드 녹화" width="640" height="1391" loading="lazy" decoding="async"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="controls">
+      <div class="fx-row">
+        <div>
+          <p class="section-eyebrow">프로급 카메라 조작</p>
+          <h2>프로처럼 촬영하세요</h2>
+          <p class="lead">전부 자동으로 두거나, 직접 설정하고 고정해서 촬영 중에 화면이 바뀌지 않게 하세요.</p>
+          <ul class="fx-list">
+            <li>24·25·30·50·60fps의 <b>HD 또는 4K</b></li>
+            <li><b>노출, 화이트 밸런스, ISO, 셔터 수동 조작</b></li>
+            <li><b>탭하면 초점</b>, 길게 누르면 AE/AF 고정</li>
+            <li><b>손떨림 보정</b>, iPhone에서는 <b>HDR 영상</b>까지</li>
+            <li>Android의 <b>배경 흐림</b>(베타)</li>
+            <li><b>격자, 수평계, 오디오 미터</b></li>
+          </ul>
+          <p class="fx-note">Android에서는 4K, 60fps, ISO와 셔터 수동 조작이 폰 카메라가 지원하는지에 따라 달라요. 앱이 확인해서 녹화할 수 있는 것만 보여줘요.</p>
+          <p class="fx-more"><a href="/features/manual-controls/">수동 조작 자세히 보기 →</a></p>
+        </div>
+        <div class="fx-media">
+          <div class="fx-solo">
+            <figure class="fx-shot fx-photo"><img src="/assets/img/life-jimmy-2.webp" alt="화면 위쪽에 해상도와 프레임 레이트 설정이 보이는, ContentCam으로 물 위의 노을을 찍는 모습" width="720" height="1280" loading="lazy" decoding="async"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="teleprompter">
+      <div class="fx-row flip">
+        <div>
+          <p class="section-eyebrow">텔레프롬프터</p>
+          <h2>녹화하면서 대본을 읽으세요</h2>
+          <p class="lead">최대 15,000자까지 붙여 넣으면 정한 속도로 카메라 화면 위에서 흘러가서, 시선이 렌즈 가까이에 머물러요.</p>
+          <ul class="fx-list">
+            <li><b>속도, 글자 크기, 색상</b>, 읽는 줄의 위치까지 조절</li>
+            <li>프롬프터 장비용 <b>좌우 반전 모드</b></li>
+          </ul>
+          <p class="fx-more"><a href="/features/teleprompter/">텔레프롬프터 더 알아보기 →</a></p>
+        </div>
+        <div class="fx-media">
+          <figure class="fx-review"><img src="/assets/reviews/r-ios-maia-d.webp" alt="Maia D 001 님의 App Store 리뷰, 별 5개: ContentCam은 콘텐츠를 만들 때 정말 도움이 되는 앱이에요. 쓰기 쉽고 작업 흐름이 훨씬 매끄러워졌어요! 텔레프롬프터 기능 너무 좋아요." width="1017" height="674" loading="lazy" decoding="async"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="organise">
+      <div class="fx-row">
+        <div>
+          <p class="section-eyebrow">프로젝트와 테이크</p>
+          <h2>깔끔하게 정리돼요</h2>
+          <p class="lead">모든 테이크가 프로젝트와 씬별로 정리되고 이름도 알아서 붙어서, 사진 앱을 뒤지며 맞는 버전을 찾을 필요가 없어요.</p>
+          <ul class="fx-list">
+            <li><b>프로젝트, 씬, 테이크</b>로 정리되고, 파일 이름은 <code>my_project_scene_001_Portrait.mov</code> 같은 식으로 붙어요</li>
+            <li>테이크마다 <b>두 영상을 나란히 리뷰</b>하고, 저장하기 전에 자르기</li>
+            <li>같은 테이크 안에서 <b>일시정지 후 이어서 녹화</b></li>
+            <li>녹화 영상이 저장될 <b>폴더 선택</b></li>
+            <li>다음에 앱을 열면 <b>끊긴 테이크 복구</b></li>
+          </ul>
+        </div>
+        <div class="fx-media">
+          <div class="fx-pair">
+            <figure class="fx-shot"><img src="/assets/img/ui-review-sunset-640.webp" srcset="/assets/img/ui-review-sunset-480.webp 480w, /assets/img/ui-review-sunset-640.webp 640w" sizes="(max-width: 860px) 44vw, 230px" alt="세로 테이크와 가로 테이크를 나란히 보여주는 ContentCam 리뷰 화면과 자르기 바" width="640" height="1388" loading="lazy" decoding="async"></figure>
+            <figure class="fx-shot"><img src="/assets/img/ui-projects-640.webp" alt="해 질 녘 항구에서 손에 든 iPhone에 보이는 ContentCam 프로젝트 목록" width="640" height="1388" loading="lazy" decoding="async"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-eyebrow">리뷰</p>
+      <h2>크리에이터들의 후기</h2>
+      <!-- Real reviews, screenshots in assets/reviews (same source set as the homepage) -->
+      <div class="fx-collage" aria-label="App Store와 Google Play의 실제 리뷰">
+        <figure><img src="/assets/reviews/r-ios-cindy26.webp" alt="cindy_.26 님의 App Store 리뷰, 별 5개: 이 앱 덕분에 영상 찍는 방식이 완저어언히 바뀌었어요. 특히 콘텐츠 크리에이터나 일상을 기록하는 걸 좋아하는 사람이라면, 세로와 가로를 동시에 녹화하는 건 게임 체인저예요!! 쓰기도 엄청 쉽고 영상도 완벽하게 나와요 :)))" width="1027" height="945" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-ios-dhuddz.webp" alt="Dhuddz 님의 App Store 리뷰, 별 5개: 몇 달 동안 비슷한 기능의 다른 앱들을 테스트해 봤지만, SNS 콘텐츠 제작 작업에는 ContentCam이 최고의 선택이 됐어요. 조작은 간단하면서도 빠진 게 없고 인터페이스도 아주 직관적이에요." width="1020" height="940" loading="lazy" decoding="async"></figure>
+        <figure><img src="/assets/reviews/r-play-queen-werandra.webp" alt="Queen WerandRa 님의 Google Play 리뷰, 별 5개: 환상적이에요, 정말 좋은 앱! 프리미엄 꼭 살게요. 추가: Jimmy 최고!" width="1021" height="494" loading="lazy" decoding="async"></figure>
+      </div>
+      <p class="fx-collage-cap">App Store와 Google Play의 실제 리뷰 (영어 리뷰를 번역했어요)</p>
+      <div class="fx-center-cta"><a class="cta fx-go" href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ko-features-reviews&amp;mt=8" data-play="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dfeatures-reviews%26utm_campaign%3Dko-features-reviews">무료로 써 보기</a></div>
+    </section>
+
+    <section id="privacy">
+      <p class="section-eyebrow">처음부터 프라이버시 중심</p>
+      <h2>촬영한 영상은 내 폰에만 남아요</h2>
+      <div class="privacy-box fx-privbox">
+        <svg viewBox="0 0 46 52" aria-hidden="true"><path d="M23 2 4 9v14c0 12.5 8 22.7 19 27 11-4.3 19-14.5 19-27V9L23 2z" fill="#25d0e5"/><path d="m14 26 6.5 6.5L32.5 20" fill="none" stroke="#101a1c" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <ul>
+            <li>회원가입도 계정도 필요 없어요</li>
+            <li>영상을 업로드하거나 공유하거나 따로 보관하지 않아요</li>
+            <li>인터넷 연결 없이 오프라인으로 녹화해요</li>
+            <li>사진 보관함을 읽지 않고, 찍은 영상과 사진을 추가하기만 해요</li>
+          </ul>
+          <a href="/privacy.html">개인정보 처리방침 →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="fx-final">
+      <h2>같은 영상을 두 번 찍지 마세요.</h2>
+      <p class="lead">무료로 다운로드하고 한 번만 찍으세요. 바로 올릴 수 있는 두 가지 비율의 영상이 생겨요.</p>
+      <div class="badges center-x">
+        <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ko-features-final&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="App Store에서 다운로드" width="156" height="52"></a>
+        <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dfeatures-final%26utm_campaign%3Dko-features-final"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Google Play에서 다운로드" width="175" height="52"></a>
+      </div>
+      <p class="fx-reassure">무료 다운로드 · 광고 없음 · 워터마크 없음 · 계정 필요 없음</p>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      if (/android/i.test(navigator.userAgent || '')) document.querySelectorAll('.fx-go').forEach(function (a) { a.href = a.getAttribute('data-play').replace(/&amp;/g, '&'); });
+      var vids = document.querySelectorAll('.fx-loop video');
+      var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      vids.forEach(function (v) {
+        var fig = v.parentNode;
+        fig.classList.add('paused');
+        v.addEventListener('play', function () { fig.classList.remove('paused'); });
+        v.addEventListener('pause', function () { fig.classList.add('paused'); });
+        fig.addEventListener('click', function () { v.dataset.user = '1'; v.paused ? v.play() : v.pause(); });
+      });
+      if (still || !('IntersectionObserver' in window)) return;
+      var io = new IntersectionObserver(function (es) { es.forEach(function (e) {
+        var v = e.target; if (v.dataset.user) return;
+        if (e.isIntersecting) v.play().catch(function(){}); else v.pause();
+      }); }, { threshold: 0.4 });
+      vids.forEach(function (v) { io.observe(v); });
+    })();
+  </script>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam 로고" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/ko/features/">기능</a>
+        <a href="/features/teleprompter/">텔레프롬프터</a>
+        <a href="/ko/features/dual-camera/">듀얼 카메라</a>
+        <a href="/features/manual-controls/">수동 조작</a>
+        <a href="/ko/android/">Android</a>
+        <a href="/ko/pricing/">가격</a>
+        <a href="/blog/">블로그</a>
+        <a href="/ko/support/">지원</a>
+        <a href="/press/">보도 자료</a>
+        <a href="/vs/">비교</a>
+        <a href="/changelog/">업데이트 내역</a>
+        <a href="/privacy.html">개인정보 처리방침</a>
+        <a href="/terms.html">이용약관</a>
+      </div>
+      <div class="fine">ContentCam은 호주에서 1인 개발자가 만든 독립 카메라 앱입니다. © 2026 ContentCam. Apple, Apple 로고, iPhone, App Store는 Apple Inc.의 상표입니다. Google Play 및 Google Play 로고는 Google LLC의 상표입니다.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/features/" hreflang="en" lang="en">English</a> · <a href="/de/features/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/features/" hreflang="es" lang="es">Español</a> · <a href="/fr/features/" hreflang="fr" lang="fr">Français</a> · <a href="/it/features/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/features/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/features/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/features/" hreflang="id" lang="id">Bahasa Indonesia</a> · <strong>한국어</strong></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

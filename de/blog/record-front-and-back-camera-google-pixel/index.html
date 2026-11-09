@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Kann man beim Google Pixel mit Vorder- und Rückkamera gleichzeitig filmen? (2026)</title>
+  <meta name="description" content="Pixel Camera hat auf keinem Pixel einen Videomodus für Vorder- und Rückkamera, auch nicht auf dem Fold. Was Dual screen preview und Add Me wirklich tun, welche Pixel Apps beide Kameras nutzen lassen und wie du deins prüfst.">
+  <link rel="canonical" href="https://contentcam.app/de/blog/record-front-and-back-camera-google-pixel/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="de">
+  <meta property="og:title" content="Kann man beim Google Pixel mit Vorder- und Rückkamera gleichzeitig filmen? (2026)">
+  <meta property="og:description" content="Pixel Camera kann auf keinem Pixel beide Kameras gleichzeitig aufnehmen. Was Dual screen preview und Add Me stattdessen tun und wie du prüfst, ob eine App es auf deinem Pixel kann.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/de/blog/record-front-and-back-camera-google-pixel/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Google Pixel: Vorder- und Rückkamera gleichzeitig filmen?">
+  <meta name="twitter:description" content="Pixel Camera kann auf keinem Pixel beide Kameras gleichzeitig aufnehmen. Was Dual screen preview und Add Me stattdessen tun und wie du prüfst, ob eine App es auf deinem Pixel kann.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://contentcam.app/de/blog/record-front-and-back-camera-google-pixel/",
+      "headline": "Kann man beim Google Pixel mit Vorder- und Rückkamera gleichzeitig filmen?",
+      "description": "Pixel Camera hat auf keinem Pixel einen Videomodus für Vorder- und Rückkamera, auch nicht auf dem Fold. Was Dual screen preview und Add Me wirklich tun, welche Pixel Apps beide Kameras nutzen lassen und wie du deins prüfst.",
+      "image": "https://contentcam.app/assets/og/og-blog.jpg",
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-11-05",
+      "inLanguage": "de",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "Entwickler von ContentCam",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "mainEntityOfPage": "https://contentcam.app/de/blog/record-front-and-back-camera-google-pixel/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://contentcam.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://contentcam.app/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Vorder- und Rückkamera auf dem Google Pixel",
+          "item": "https://contentcam.app/de/blog/record-front-and-back-camera-google-pixel/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hat Pixel Camera eine Dual-Kamera oder einen Videomodus für Vorder- und Rückkamera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Kein Videomodus in Googles Hilfe zu Pixel Camera nimmt Front- und Rückkamera gleichzeitig auf, auf keinem Pixel-Modell (geprüft am 5. November 2026)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Pixel-Smartphones können in einer Drittanbieter-App mit Vorder- und Rückkamera filmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google veröffentlicht keine Liste. Ein Pixel muss ein Front-Rück-Paar über getConcurrentCameraIds() (ab Android 11) oder über das Feature android.hardware.camera.concurrent melden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche App filmt auf einem Google Pixel mit Vorder- und Rückkamera gleichzeitig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Modus Front und Rück von ContentCam nimmt beide Kameras mit einem Tippen als zwei getrennte HD-Dateien auf, auf Pixel-Modellen, die es unterstützen. Die ersten 5 Aufnahmen mit Front und Rück sind kostenlos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Qualität haben Aufnahmen mit Vorder- und Rückkamera auf einem Pixel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Niedriger als bei einem normalen Pixel-Video. Android garantiert gleichzeitige Streams bis 1440p pro Kamera, und ContentCam nimmt in HD mit bis zu 30 fps auf."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-front-and-back-camera-google-pixel/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-front-and-back-camera-google-pixel/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/de/"><img src="/assets/logo-mark.png" alt="ContentCam-Logo" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menü öffnen">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/de/features/">Funktionen</a>
+        <a href="/de/pricing/">Preise</a>
+        <a href="/blog/">Blog</a>
+        <a href="/de/support/">Support</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/de/">Startseite</a> › <a href="/blog/">Blog</a> › Vorder- und Rückkamera auf dem Google Pixel</div>
+    <article class="post">
+      <h1>Kann man beim Google Pixel mit Vorder- und Rückkamera gleichzeitig filmen?</h1>
+      <p class="byline">Von Jimmy, Entwickler von ContentCam · 9. Oktober 2026 · Aktualisiert am 5. November 2026</p>
+
+      <p>Nicht in Pixel Camera. Googles eigene Kamera-App hat auf keinem Pixel einen Videomodus für Vorder- und Rückkamera, auch nicht auf den Pixel-Fold-Modellen. Ein Google Pixel kann beide Kameras nur in einer Drittanbieter-App gleichzeitig aufnehmen, und nur dann, wenn das Kamerasystem dieses Pixels meldet, dass Front- und Rückkamera zusammen laufen können. Der Modus Front und Rück von ContentCam macht genau das: Er prüft zuerst dein Pixel und nimmt dann Selfie- und Rückkamera mit einem Tippen als zwei getrennte Dateien auf.</p>
+      <p>Offenlegung: Ich entwickle ContentCam, bin also nicht neutral. Die Pixel-Fakten unten stammen aus Googles Hilfeseiten und der Android-Entwicklerdokumentation, geprüft am 5. November 2026. Für Samsung Galaxy und andere Android-Marken lies den Ratgeber <a href="/de/blog/record-front-and-back-camera-same-time-android/">Vorder- und Rückkamera gleichzeitig auf Android</a>.</p>
+
+      <h2>Hat Pixel Camera einen Modus für Vorder- und Rückkamera?</h2>
+      <p>Nein. Googles Hilfeseite zu Pixel Camera „Record a video on your Pixel phone“ behandelt den Videomodus, Zeitlupe, Zeitraffer, Cinematic Blur, Cinematic Pan, 10-Bit-HDR und Videos bis 4K mit 60 fps. Keiner dieser Modi nimmt Selfie- und Rückkamera zusammen auf, und es gibt keine Option für Bild-in-Bild oder Splitscreen. Auch die neue Creator Suite und Magic Capture des Pixel 11 fügen keinen solchen Modus hinzu.</p>
+
+      <h2>Ist Dual screen preview auf dem Pixel Fold dasselbe?</h2>
+      <p>Nein. Dual screen preview nutzt zwei Bildschirme, nicht zwei Kameras. Laut Google können sich die gefilmten Personen damit „selbst sehen, während du das Video aufnimmst“, auf dem Pixel Fold, Pixel 9 Pro Fold, Pixel 10 Pro Fold und Pixel 11 Pro Fold. Das Video kommt trotzdem nur von einer Kamera.</p>
+
+      <h2>Ist Add Me auf dem Pixel 9 und Pixel 10 eine Dual-Kamera-Funktion?</h2>
+      <p>Nein. Googles Blog beschreibt Add Me als Möglichkeit, „zwei Fotos aus derselben Session und derselben Szene zu kombinieren“, damit auch die Person hinter der Kamera mit aufs Gruppenfoto kommt. Der Google Store nennt die Funktion für „alle Pixel 9 und Pixel 10“. Add Me arbeitet mit Fotos und lässt Front- und Rückkamera nie gleichzeitig laufen.</p>
+
+      <h2>Welche Google-Pixel-Modelle können in einer App mit Vorder- und Rückkamera filmen?</h2>
+      <p>Google veröffentlicht keine Modellliste, und ich rate auch keine. Die Unterstützung hängt von der Kamera-Hardware des Smartphones ab, und Android teilt sie Apps auf zwei Wegen mit:</p>
+      <ul>
+        <li><strong>CameraManager.getConcurrentCameraIds()</strong>, eingeführt mit Android 11 (API-Level 30), liefert die Kameragruppen, die „das gleichzeitige Konfigurieren von Kamerasitzungen unterstützen“.</li>
+        <li><strong>Das Feature-Flag android.hardware.camera.concurrent</strong> (FEATURE_CAMERA_CONCURRENT) bedeutet, dass „die Haupt-Front- und -Rückkamera des Geräts gleichzeitig streamen können“.</li>
+      </ul>
+      <p>Meldet ein Pixel keins von beidem, kann keine App, die Androids offiziellen Kameraweg nutzt, darauf mit beiden Kameras aufnehmen. Das Android Open Source Project erklärt, warum: Der Bildsignalprozessor (ISP) des Smartphones muss seine Ressourcen auf beide Kameras aufteilen.</p>
+
+      <h2>Wie prüfst du, ob dein Pixel Aufnahmen mit Vorder- und Rückkamera unterstützt?</h2>
+      <ol>
+        <li>Am einfachsten: Installiere ContentCam. Erscheint Front und Rück, unterstützt dein Pixel es.</li>
+        <li>Mit einem Computer: Aktiviere USB-Debugging, verbinde das Pixel und führe <code>adb shell pm list features</code> aus. Steht <code>android.hardware.camera.concurrent</code> in der Liste, können die Haupt-Front- und -Rückkamera gleichzeitig streamen.</li>
+      </ol>
+
+      <h2>Welche Qualität bekommst du, wenn ein Pixel mit beiden Kameras filmt?</h2>
+      <p>Weniger als bei einem normalen Video in Pixel Camera. Android garantiert gleichzeitige Streams bis 1440p (1920 x 1440) pro Kamera, und Googles Ankündigung zu CameraX 1.3 nennt als Grenze „720p oder 1440p, je nach Gerät“. Der Modus Front und Rück von ContentCam nimmt auf Android in HD mit bis zu 30 fps auf.</p>
+
+      <table>
+        <thead><tr><th>Option auf einem Pixel</th><th>Vorder- und Rückkamera gleichzeitig?</th><th>Was du bekommst</th><th>Welche Pixel</th></tr></thead>
+        <tbody>
+          <tr><td>Videomodus von Pixel Camera</td><td>Nein</td><td>Eine Kamera, bis 4K mit 60 fps auf unterstützten Modellen</td><td>Alle</td></tr>
+          <tr><td>Dual screen preview</td><td>Nein</td><td>Eine Kamera, Sucher auf beiden Bildschirmen</td><td>Pixel Fold, 9 Pro Fold, 10 Pro Fold, 11 Pro Fold</td></tr>
+          <tr><td>Add Me</td><td>Nein</td><td>Ein Gruppenfoto aus zwei Aufnahmen</td><td>Pixel 9 und Pixel 10</td></tr>
+          <tr><td>ContentCam Front und Rück</td><td>Ja</td><td>Zwei getrennte HD-Dateien, bis 30 fps, später kombinierbar zu Bild-in-Bild oder Splitscreen</td><td>Pixel, die gleichzeitige Front- und Rückkamera melden</td></tr>
+        </tbody>
+      </table>
+      <p>Brauchst du nur eine Perspektive, nimm den Videomodus von Pixel Camera, der auf unterstützten Modellen bis 4K mit 60 fps aufnimmt. Aufnahmen mit Vorder- und Rückkamera über Androids Weg für gleichzeitige Kameras liegen bei höchstens etwa 1440p pro Kamera.</p>
+
+      <h2>Wie funktioniert der Modus Front und Rück von ContentCam auf einem Pixel?</h2>
+      <p>Der Modus Front und Rück von ContentCam nimmt Selfie- und Rückkamera mit einem Tippen zusammen auf und speichert zwei getrennte Dateien, damit du dein Gesicht und die Szene unabhängig voneinander bearbeiten kannst. Der Kombinieren-Editor macht daraus später ein Video in Bild-in-Bild oder Splitscreen, die Originale bleiben erhalten. Fotos mit Front und Rück funktionieren genauso: Ein Tippen speichert Selfie und Rückkamera-Foto als zwei getrennte Bilder.</p>
+      <ul>
+        <li><strong>Prüft zuerst dein Pixel:</strong> ContentCam liest die Meldung zu gleichzeitigen Kameras aus und zeigt Front und Rück nur auf Pixel-Modellen, die es unterstützen.</li>
+        <li><strong>Kostenlos testen:</strong> 5 kostenlose Aufnahmen mit Front und Rück, danach Premium für unbegrenzte Aufnahmen, Fotos mit Front und Rück und das Speichern kombinierter Videos.</li>
+        <li><strong>Keine Werbung und kein Wasserzeichen</strong>, ob gratis oder mit Premium, kein Konto nötig, und deine Aufnahmen bleiben auf deinem Smartphone.</li>
+      </ul>
+      <p>Einen Take gleichzeitig als 9:16- und 16:9-Datei aufzunehmen ist kostenlos: siehe <a href="/de/blog/record-portrait-and-landscape-video-same-time-android/">Hoch- und Querformat gleichzeitig auf Android aufnehmen</a>.</p>
+
+      <h2>Häufige Fragen</h2>
+      <h3>Hat Pixel Camera eine Dual-Kamera oder einen Videomodus für Vorder- und Rückkamera?</h3>
+      <p>Nein. Kein Videomodus in Googles Hilfe zu Pixel Camera nimmt Front- und Rückkamera gleichzeitig auf, auf keinem Pixel-Modell (geprüft am 5. November 2026).</p>
+      <h3>Welche Pixel-Smartphones können in einer Drittanbieter-App mit Vorder- und Rückkamera filmen?</h3>
+      <p>Google veröffentlicht keine Liste. Ein Pixel muss ein Front-Rück-Paar über getConcurrentCameraIds() (ab Android 11) oder über das Feature android.hardware.camera.concurrent melden.</p>
+      <h3>Welche App filmt auf einem Google Pixel mit Vorder- und Rückkamera gleichzeitig?</h3>
+      <p>Der Modus Front und Rück von ContentCam nimmt beide Kameras mit einem Tippen als zwei getrennte HD-Dateien auf, auf Pixel-Modellen, die es unterstützen. Die ersten 5 Aufnahmen mit Front und Rück sind kostenlos.</p>
+      <h3>Welche Qualität haben Aufnahmen mit Vorder- und Rückkamera auf einem Pixel?</h3>
+      <p>Niedriger als bei einem normalen Pixel-Video. Android garantiert gleichzeitige Streams bis 1440p pro Kamera, und ContentCam nimmt in HD mit bis zu 30 fps auf.</p>
+
+      <div class="post-cta">
+        <p><strong>Teste ContentCam kostenlos.</strong> Front und Rück in einem Take als zwei getrennte Dateien, wo dein Smartphone es unterstützt, dazu Hoch- und Querformat aus einem einzigen Dreh. Kostenlos für Android und iPhone.</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=de-b-front-back-google-pixel&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Laden im App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dde-record-front-and-back-camera-google-pixel"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Jetzt bei Google Play" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>Weiterlesen: <a href="/de/blog/record-front-and-back-camera-same-time-android/">Vorder- und Rückkamera auf jedem Android-Smartphone</a> · <a href="/de/blog/best-front-and-back-dual-camera-apps/">die besten Apps für Vorder- und Rückkamera</a> · <a href="/blog/android-camera-settings-for-video/">Kameraeinstellungen für Videos auf Android</a> · <a href="/de/android/">ContentCam für Android</a></p>
+      <p class="byline">Quellen: Google, Pixel Camera Help, „Record a video on your Pixel phone“ (support.google.com/pixelcamera); Google, Pixel Camera Help, „Explore your Pixel Fold camera“, „Use Pixel Camera Creator Suite“ und „Use Magic Capture on a Pixel phone“ (support.google.com/pixelcamera); Google, „How we built Pixel's Add Me feature“ (blog.google) und die Add-Me-Seite im Google Store (store.google.com); Android Developers, CameraManager.getConcurrentCameraIds() und PackageManager.FEATURE_CAMERA_CONCURRENT; Android Open Source Project, „Concurrent camera streaming“ (source.android.com); Android Developers Blog, „CameraX 1.3 is now in beta“ (Juni 2023). Geprüft am 5. November 2026.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam-Logo" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/de/features/">Funktionen</a>
+        <a href="/de/features/teleprompter/">Teleprompter</a>
+        <a href="/de/features/dual-camera/">Dual-Kamera</a>
+        <a href="/de/features/manual-controls/">Manuelle Steuerung</a>
+        <a href="/de/android/">Android</a>
+        <a href="/de/pricing/">Preise</a>
+        <a href="/blog/">Blog</a>
+        <a href="/de/support/">Support</a>
+        <a href="/press/">Presse</a>
+        <a href="/de/vs/">Vergleiche</a>
+        <a href="/changelog/">Changelog</a>
+        <a href="/privacy.html">Datenschutz</a>
+        <a href="/terms.html">Nutzungsbedingungen</a>
+      </div>
+      <div class="fine">ContentCam ist eine unabhängige Kamera-App, entwickelt in Australien von einem einzigen Entwickler. © 2026 ContentCam. Apple, das Apple-Logo, iPhone und App Store sind Marken der Apple Inc. Google Play und das Google-Play-Logo sind Marken der Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-front-and-back-camera-google-pixel/" hreflang="en" lang="en">English</a> · <strong>Deutsch</strong> · <a href="/es/blog/record-front-and-back-camera-google-pixel/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-front-and-back-camera-google-pixel/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-front-and-back-camera-google-pixel/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-front-and-back-camera-google-pixel/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/record-front-and-back-camera-google-pixel/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-front-and-back-camera-google-pixel/" hreflang="id" lang="id">Bahasa Indonesia</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>
