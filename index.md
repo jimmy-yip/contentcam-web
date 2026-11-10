@@ -123,7 +123,9 @@ FAQ
 
 ## Frequently asked questions Isn't the landscape just a crop of the portrait?
 
-No. In Single Lens mode ContentCam records the sensor's full 4:3 frame and cuts each format from it, so the landscape keeps the full width and the portrait keeps the full height. Each file is encoded on its own in HEVC, at 1080×1920 and 1920×1080 or the 4K equivalents. Neither is an upscaled crop of the other. Is ContentCam free, or do I need a subscription?
+No. In Single Lens mode ContentCam records the sensor's full 4:3 frame and cuts each format from it, so the landscape keeps the full width and the portrait keeps the full height. Each file is encoded on its own in HEVC, at 1080×1920 and 1920×1080 or the 4K equivalents. Neither is an upscaled crop of the other. How do you frame the portrait and landscape shot at the same time?
+
+You see both while you film. The viewfinder shows one format and a picture-in-picture window shows the other one live, so you can check both framings before and during the take. Single Lens uses the full 4:3 sensor, so the portrait keeps the full height and the landscape keeps the full width. A subject near the centre of the frame sits well in both. Is ContentCam free, or do I need a subscription?
 
 It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark.
 
