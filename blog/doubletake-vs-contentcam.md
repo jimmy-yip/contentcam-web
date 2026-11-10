@@ -67,7 +67,7 @@ DoubleTake's listing covers iPad and older iPhones; ContentCam needs iOS 18 or l
 
 **Try ContentCam free.** Record one take, then look at both files side by side. On iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-doubletake-vs-contentcam&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddoubletake-vs-contentcam)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-doubletake-vs-contentcam&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddoubletake-vs-contentcam)
 
 DoubleTake details, including version, update date, device support, resolution, ratings and pricing, are from its App Store listing, checked 5 November 2026, with review counts and quotes from its US App Store reviews on the same date. Listings change; if you spot a difference, tell me. Related: [the full dual-format category compared](https://contentcam.app/blog/dual-format-recording-apps-compared/) · [recording front and back at the same time](https://contentcam.app/blog/record-front-and-back-camera-same-time-iphone/) · [Blackmagic Camera settings explained](https://contentcam.app/blog/blackmagic-camera-settings-explained/).
 

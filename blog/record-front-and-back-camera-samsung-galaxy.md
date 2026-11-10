@@ -84,7 +84,7 @@ The phone has to report Android's concurrent camera feature, android.hardware.ca
 
 **Try ContentCam free.** Front and back in one take as two separate files, plus vertical and wide from a single shoot. Free to download on Android and iPhone.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Drecord-front-and-back-camera-samsung-galaxy) [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-front-back-samsung-galaxy&mt=8)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Drecord-front-and-back-camera-samsung-galaxy) [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-front-back-samsung-galaxy&mt=8)
 
 Related: [front and back on any Android phone](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/) · [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/) · [the full dual camera guide](https://contentcam.app/blog/dual-camera-effect/) · [filming a reaction video on your phone](https://contentcam.app/blog/film-reaction-video-phone/)
 

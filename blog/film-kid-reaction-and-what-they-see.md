@@ -68,7 +68,7 @@ On an iPhone, yes, a little. ContentCam's Front & Back records both cameras at u
 
 **Try ContentCam free.** Front & Back records your child's face and what they're seeing as two separate files, on iPhone and Android. No ads, no watermark.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-film-kid-reaction-and-what-they-see&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfilm-kid-reaction-and-what-they-see)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-film-kid-reaction-and-what-they-see&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfilm-kid-reaction-and-what-they-see)
 
 Related: [how to film a reaction video on your phone](https://contentcam.app/blog/film-reaction-video-phone/) · [front and back camera on iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/) · [front and back camera at the same time on Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/) · [Snapchat's front and back camera](https://contentcam.app/blog/snapchat-front-and-back-camera/)
 

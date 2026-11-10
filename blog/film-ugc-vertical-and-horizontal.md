@@ -6,7 +6,7 @@ Record 9:16 and 16:9 at once, then cut 4:5 and 1:1 from the vertical. Cropping a
 
 By Jimmy, developer of ContentCam · 23 October 2026 · Updated 5 November 2026
 
-To film UGC in vertical and horizontal from one take, record 9:16 and 16:9 at the same time instead of cropping one from the other, and frame the product, your face and your hands in the middle of the shot. ContentCam, the camera app I build, saves both files from one press on iPhone and Android, free at 1080p. From the vertical file you can then cut 4:5 and 1:1 without losing anything important. Cropping a 1080×1920 vertical down to 16:9 leaves a 1080×608 strip, about 32% of the frame, which is why a horizontal cut from a vertical take always looks tight and soft. One take in ContentCam, two files: 9:16 and 16:9. [Try it free on iPhone](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-film-ugc-vertical-and-horizontal&mt=8).
+To film UGC in vertical and horizontal from one take, record 9:16 and 16:9 at the same time instead of cropping one from the other, and frame the product, your face and your hands in the middle of the shot. ContentCam, the camera app I build, saves both files from one press on iPhone and Android, free at 1080p. From the vertical file you can then cut 4:5 and 1:1 without losing anything important. Cropping a 1080×1920 vertical down to 16:9 leaves a 1080×608 strip, about 32% of the frame, which is why a horizontal cut from a vertical take always looks tight and soft. One take in ContentCam, two files: 9:16 and 16:9. [Try it free on iPhone](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-film-ugc-vertical-and-horizontal&mt=8).
 
 ## Which aspect ratios does UGC need?
 
@@ -77,7 +77,7 @@ ContentCam records a 9:16 file and a 16:9 file from one take on iPhone and Andro
 
 **Try ContentCam free.** Records 9:16 and 16:9 at the same time, with a built-in teleprompter. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-film-ugc-vertical-and-horizontal&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfilm-ugc-vertical-and-horizontal)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-film-ugc-vertical-and-horizontal&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfilm-ugc-vertical-and-horizontal)
 
 Related: [how to write a UGC script that doesn't sound scripted](https://contentcam.app/blog/write-a-ugc-script/) · [why cropping vertical to horizontal looks wrong](https://contentcam.app/blog/why-cropping-vertical-to-horizontal-looks-wrong/) · [how to record portrait and landscape at the same time on iPhone](https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-iphone/) · [filming a talking head at home](https://contentcam.app/blog/talking-head-video-at-home/). · [building a UGC portfolio with no clients](https://contentcam.app/blog/build-ugc-portfolio-no-clients/)
 

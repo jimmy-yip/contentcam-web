@@ -54,8 +54,8 @@ Yes, both files carry the same 48kHz AAC audio track.
 
 Running two cameras costs more power than one, yes. For long sessions, Single Lens is the more efficient choice.
 
-## Stop filming everything twice [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=feature-dual-camera&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dwebsite%26utm_campaign%3Dfeature-dual-camera)
+## Stop filming everything twice [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=feature-dual-camera&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dwebsite%26utm_campaign%3Dfeature-dual-camera)
 
 Read next: [How to record portrait and landscape at the same time](https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-iphone/)
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android).
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android).

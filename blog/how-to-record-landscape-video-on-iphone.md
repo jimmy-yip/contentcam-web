@@ -8,7 +8,7 @@ By Jimmy, developer of ContentCam · 1 October 2026
 
 Open the Camera app, swipe to Video, turn the iPhone sideways so the long edge runs left to right, then press record. That is the whole answer. The rest of this page covers the three things that go wrong: rotating too late, a clip that plays sideways, and needing a vertical version of the same shot afterwards.
 
-Every iPhone step below was checked against Apple's iPhone User Guide for iOS 27 on 4 October 2026. Where Apple's guide does not cover something, I say so instead of guessing. Need a vertical version of the same shot? ContentCam saves a 9:16 and a 16:9 file from one take. [Try it free on iPhone](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-landscape-video-iphone&mt=8).
+Every iPhone step below was checked against Apple's iPhone User Guide for iOS 27 on 4 October 2026. Where Apple's guide does not cover something, I say so instead of guessing. Need a vertical version of the same shot? ContentCam saves a 9:16 and a 16:9 file from one take. [Try it free on iPhone](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-landscape-video-iphone&mt=8).
 
 ## How do you record landscape video on an iPhone?
 
@@ -108,6 +108,6 @@ Apple's Camera guide lists no option for it. Apps like ContentCam record a 9:16 
 
 **Need the vertical cut too?** ContentCam records 9:16 and 16:9 in one take, free to try on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-landscape-video-iphone&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dhow-to-record-landscape-video-on-iphone)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-landscape-video-iphone&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dhow-to-record-landscape-video-on-iphone)
 
 Related: [How to record landscape video on Android](https://contentcam.app/blog/how-to-record-landscape-video-on-android/) · [Vertical vs horizontal video: which should you shoot?](https://contentcam.app/blog/why-cropping-vertical-to-horizontal-looks-wrong/) · [How to record portrait and landscape at the same time](https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-iphone/) · [How to film for TikTok and YouTube at the same time](https://contentcam.app/blog/film-for-tiktok-and-youtube-at-the-same-time/) · [How to hold your phone steady while filming](https://contentcam.app/blog/hold-phone-steady-while-filming/) · [Why cropping vertical to horizontal looks wrong](https://contentcam.app/blog/why-cropping-vertical-to-horizontal-looks-wrong/) · [Why iPhone video looks orange or washed out after editing](https://contentcam.app/blog/iphone-video-orange-washed-out-hdr/)

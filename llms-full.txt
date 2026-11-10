@@ -3,7 +3,7 @@
 ContentCam is a camera app for iPhone and Android that records 9:16 portrait and 16:9 landscape video simultaneously from a single take. One recording produces two independently encoded files: one for TikTok, Instagram Reels and YouTube Shorts, one for YouTube and other horizontal use. Built by Jimmy Yip, a solo independent developer in Sydney, Australia. Launched on the App Store in May 2026; Android followed on Google Play. Website: https://contentcam.app. Contact: contentcam.app@gmail.com.
 
 Store links:
-- App Store (iOS): https://apps.apple.com/app/id6765881795 (listing name "ContentCam: Dual Camera Video")
+- App Store (iOS): https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795 (listing name "ContentCam: Dual Camera Video")
 - Google Play (Android): https://play.google.com/store/apps/details?id=app.contentcam.android
 
 ## How dual-format recording works

@@ -19,7 +19,7 @@ Writing about ContentCam, making a video about it, or citing it somewhere? Every
 | **Traction** | 50,000+ downloads across the App Store and Google Play. Rated 4.8 by 580+ creators across the App Store and Google Play. As at November 2026. |
 | **Current version** | iOS 2.8.2, Android 2.7.0 |
 | **Privacy** | No account; videos never leave the phone; recording works offline. Android collects nothing. iPhone (from 2.8.1) measures ad installs and purchases via Apple AdServices and the Meta SDK. |
-| **Links** | [App Store](https://apps.apple.com/app/id6765881795) · [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dwebsite%26utm_campaign%3Dpress) · [Instagram](https://www.instagram.com/contentcam.app) · [TikTok](https://www.tiktok.com/@contentcam.app) · [YouTube](https://www.youtube.com/@ContentCam-app) · [Discord](https://discord.gg/YxUpbUgthH) |
+| **Links** | [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) · [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dwebsite%26utm_campaign%3Dpress) · [Instagram](https://www.instagram.com/contentcam.app) · [TikTok](https://www.tiktok.com/@contentcam.app) · [YouTube](https://www.youtube.com/@ContentCam-app) · [Discord](https://discord.gg/YxUpbUgthH) |
 
 ## Why it exists (the short version)
 
@@ -35,6 +35,6 @@ Right-click, save. Please don't stretch, recolour or add effects to the logo.
 
 ### Screenshots
 
-[Recording screen](https://contentcam.app/assets/press/ui-record-handsup-640.webp) · [Review screen](https://contentcam.app/assets/press/ui-review-sunset-640.webp). Need higher resolution or something specific? Email and I'll send originals. [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=press&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dwebsite%26utm_campaign%3Dpress)
+[Recording screen](https://contentcam.app/assets/press/ui-record-handsup-640.webp) · [Review screen](https://contentcam.app/assets/press/ui-review-sunset-640.webp). Need higher resolution or something specific? Email and I'll send originals. [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=press&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dwebsite%26utm_campaign%3Dpress)
 
 Last updated: 26 September 2026.

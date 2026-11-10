@@ -99,6 +99,6 @@ Private by design
 
 ## Stop filming the same video twice.
 
-Download it free, record one take, and get both formats ready to post. [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=features-final&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dfeatures-final%26utm_campaign%3Dfeatures-final)
+Download it free, record one take, and get both formats ready to post. [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=features-final&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dfeatures-final%26utm_campaign%3Dfeatures-final)
 
 Free to download · No ads · No watermark · No account needed

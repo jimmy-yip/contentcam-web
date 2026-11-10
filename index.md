@@ -11,7 +11,7 @@ everything twice.
 
 ContentCam records **portrait (9:16)** and **landscape (16:9)** at the same time. One take gives you a vertical video for TikTok, Reels and Shorts, and a horizontal video for YouTube. Full frame both ways, not a crop.
 
-Rated ★ 4.8 by 580+ creators · 50,000+ downloads [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=home2-hero&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dhome2-hero%26utm_campaign%3Dhome2-hero)
+Rated ★ 4.8 by 580+ creators · 50,000+ downloads [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=home2-hero&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dhome2-hero%26utm_campaign%3Dhome2-hero)
 
 Free to download · No ads · No watermark · No account needed TikTokReelsShorts YouTube
 
@@ -96,7 +96,7 @@ iPhone and Android
 
 ## The only dual-format app on both.
 
-ContentCam is built natively for iPhone and Android, so whichever phone is in your pocket, one take still gives you both formats. [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=home2-android&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dhome2-android%26utm_campaign%3Dhome2-android)
+ContentCam is built natively for iPhone and Android, so whichever phone is in your pocket, one take still gives you both formats. [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=home2-android&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dhome2-android%26utm_campaign%3Dhome2-android)
 
 [See what's on iPhone →](https://contentcam.app/features/)[See what's on Android →](https://contentcam.app/android/)
 
@@ -151,6 +151,6 @@ Both record portrait and landscape from one take. DualShot Recorder is iPhone-on
 
 ## Stop filming the same video twice.
 
-Download it free, record one take, and get both formats ready to post. [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=home2-final&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dhome2-final%26utm_campaign%3Dhome2-final)
+Download it free, record one take, and get both formats ready to post. [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=home2-final&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dhome2-final%26utm_campaign%3Dhome2-final)
 
 Questions? [contentcam.app@gmail.com](mailto:contentcam.app@gmail.com) · [Discord](https://discord.gg/YxUpbUgthH)

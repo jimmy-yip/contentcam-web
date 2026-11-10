@@ -68,6 +68,6 @@ Assume gym audio is unusable and plan a voiceover. A commercial gym gives you ce
 
 **Try ContentCam free.** Records vertical and horizontal at the same time, with manual exposure, white balance, ISO and shutter. On iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-film-workout-videos-phone&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfilm-workout-videos-phone)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-film-workout-videos-phone&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfilm-workout-videos-phone)
 
 Related: [24fps vs 30fps vs 60fps for social media](https://contentcam.app/blog/24fps-vs-30fps-vs-60fps-social-media/) · [how to hold your phone steady while filming](https://contentcam.app/blog/hold-phone-steady-while-filming/) · [filming for TikTok and YouTube at the same time](https://contentcam.app/blog/film-for-tiktok-and-youtube-at-the-same-time/)

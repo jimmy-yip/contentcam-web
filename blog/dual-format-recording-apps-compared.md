@@ -12,7 +12,7 @@ The best app to record vertical and horizontal video at the same time for most c
 
 ## How does ContentCam compare with DualShot Recorder?
 
-DualShot Recorder is the dual-format app most people have heard of, so it's the fairest benchmark for [ContentCam](https://apps.apple.com/app/id6765881795) (mine).
+DualShot Recorder is the dual-format app most people have heard of, so it's the fairest benchmark for [ContentCam](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) (mine).
 
 |  | ContentCam | DualShot Recorder |
 | --- | --- | --- |
@@ -70,6 +70,6 @@ If the app records a portrait stream and crops a 16:9 strip from it, the landsca
 
 **The cheapest way to decide:** ContentCam's free tier needs no account and adds no watermark. Record the same scene in it and in any app above, then compare the two landscape files.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-dual-format-recording-apps-compared&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddual-format-recording-apps-compared)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-dual-format-recording-apps-compared&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddual-format-recording-apps-compared)
 
 Competitor details checked 5 November 2026; features and prices drift. Related: [How dual-format recording actually works](https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-iphone/) · [DualShot Recorder vs ContentCam](https://contentcam.app/blog/dualshot-recorder-vs-contentcam/) · [ReFrame vs ContentCam](https://contentcam.app/blog/reframe-vs-contentcam/) · [DoubleTake vs ContentCam](https://contentcam.app/blog/doubletake-vs-contentcam/) · [Blackmagic Camera vs ContentCam](https://contentcam.app/blog/blackmagic-camera-vs-contentcam/)

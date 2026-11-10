@@ -6,7 +6,7 @@ Drop to 1080p at 30 fps, take the case off, stay out of direct sun and don't cha
 
 By Jimmy, developer of ContentCam · 25 October 2026
 
-To record a long video on iPhone without overheating, drop to 1080p at 30 fps, take the case off, keep the phone out of direct sun, don't charge it while you record, and turn on Airplane Mode if you don't need the network. Apple designs iPhone for use between 0 and 35°C (32 to 95°F). Above that, or after a long stretch of camera use, iOS starts slowing the phone down to protect it, and in the worst case the camera shuts off mid-take. ContentCam warns you when the iPhone is getting hot, and if it has to stop, it saves what you recorded. [Try it free on iPhone](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-iphone-overheating-recording&mt=8).
+To record a long video on iPhone without overheating, drop to 1080p at 30 fps, take the case off, keep the phone out of direct sun, don't charge it while you record, and turn on Airplane Mode if you don't need the network. Apple designs iPhone for use between 0 and 35°C (32 to 95°F). Above that, or after a long stretch of camera use, iOS starts slowing the phone down to protect it, and in the worst case the camera shuts off mid-take. ContentCam warns you when the iPhone is getting hot, and if it has to stop, it saves what you recorded. [Try it free on iPhone](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-overheating-recording&mt=8).
 
 ## Why does an iPhone overheat when recording video?
 
@@ -78,7 +78,7 @@ Follow Apple's steps: turn the iPhone off, move it somewhere cooler and out of d
 
 **Try ContentCam free.** It warns you when the iPhone is getting hot and saves the take if it has to stop. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-iphone-overheating-recording&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Drecord-long-video-iphone-without-overheating)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-overheating-recording&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Drecord-long-video-iphone-without-overheating)
 
 Related: [why an iPhone video stops recording by itself](https://contentcam.app/blog/iphone-video-stopped-recording-by-itself/) · [why iPhone video looks choppy in low light](https://contentcam.app/blog/iphone-video-choppy-low-light-auto-fps/) · [do you actually need to film in 4K?](https://contentcam.app/blog/do-you-need-to-film-in-4k/) · [High Efficiency vs Most Compatible](https://contentcam.app/blog/iphone-high-efficiency-vs-most-compatible/) · [filming outdoors in wind, backlight and bright sun](https://contentcam.app/blog/film-outdoors-wind-backlight-sun/).
 

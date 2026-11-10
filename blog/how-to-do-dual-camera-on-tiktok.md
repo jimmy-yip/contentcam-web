@@ -77,7 +77,7 @@ No. A Duet puts your video beside another creator's TikTok in a split screen. It
 
 **Try ContentCam free.** Front and back in one take as two separate files, combined into one picture-in-picture or split-screen video when you want it. No ads, no watermark, iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-dual-camera-on-tiktok&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dhow-to-do-dual-camera-on-tiktok)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-dual-camera-on-tiktok&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dhow-to-do-dual-camera-on-tiktok)
 
 Related: [the dual camera effect](https://contentcam.app/blog/dual-camera-effect/) · [which iPhones have Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) · [front and back on Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/) · [24 vs 30 vs 60fps](https://contentcam.app/blog/24fps-vs-30fps-vs-60fps-social-media/)
 

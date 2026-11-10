@@ -78,7 +78,7 @@ Use ContentCam's Front & Back mode on an Android phone that can run both cameras
 
 **Try ContentCam free.** Front and back from one press as separate files, plus vertical and wide video from a single shoot. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-bereal-style-photo-without-bereal&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dbereal-style-photo-without-bereal)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-bereal-style-photo-without-bereal&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dbereal-style-photo-without-bereal)
 
 Related: [taking a selfie and a back photo at once](https://contentcam.app/blog/take-photo-front-and-back-camera-same-time/) · [front and back camera on Snapchat](https://contentcam.app/blog/snapchat-front-and-back-camera/) · [which iPhones have Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) · [using the front and back camera at the same time](https://contentcam.app/blog/dual-camera-effect/)
 

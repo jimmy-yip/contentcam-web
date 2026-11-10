@@ -121,6 +121,6 @@ No. There are no ads and no watermark on any plan, free included, and no account
 
 ## Stop filming the same video twice.
 
-Download it free, record one take, and get both formats ready to post. [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=pricing-final&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dpricing-final%26utm_campaign%3Dpricing-final)
+Download it free, record one take, and get both formats ready to post. [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=pricing-final&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dpricing-final%26utm_campaign%3Dpricing-final)
 
 Last updated: 1 November 2026. The App Store and Google Play always show the current price for your country.

@@ -68,6 +68,6 @@ Keep one clip's audio and set the other clip's volume to zero in iMovie or CapCu
 
 **Try ContentCam free.** Front & Back mode records your face and the view at the same time, and Combine turns them into a split screen or picture-in-picture. On iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-split-screen-video-iphone&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dsplit-screen-video-iphone)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-split-screen-video-iphone&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dsplit-screen-video-iphone)
 
 Related: [how to switch camera while recording on iPhone](https://contentcam.app/blog/switch-camera-while-recording-iphone/) · [how to film a reaction video on your phone](https://contentcam.app/blog/film-reaction-video-phone/) · [front and back camera on Snapchat](https://contentcam.app/blog/snapchat-front-and-back-camera/) · [the dual camera effect](https://contentcam.app/blog/dual-camera-effect/)

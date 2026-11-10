@@ -143,4 +143,4 @@ If there is a row you would add to any of these, [email me](mailto:contentcam.ap
 - [How to hold your phone steady while filming](https://contentcam.app/blog/hold-phone-steady-while-filming/)
 - [Mobile videography tips](https://contentcam.app/blog/mobile-videography-tips/)
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android).
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android).

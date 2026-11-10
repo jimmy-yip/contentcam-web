@@ -73,7 +73,7 @@ The Dualgram listing offers "Landscape and portrait" but does not describe savin
 
 **Try ContentCam free.** Front and back as two separate files, vertical and wide from one take, no ads and no watermark. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=vs-dualgram&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dvs%26utm_campaign%3Dvs-dualgram)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=vs-dualgram&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dvs%26utm_campaign%3Dvs-dualgram)
 
 Related: [dual camera apps with a one-time purchase](https://contentcam.app/blog/dual-camera-app-one-time-purchase/) · [dual camera apps without ads](https://contentcam.app/blog/dual-camera-app-without-ads/) · [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/)
 

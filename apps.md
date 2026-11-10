@@ -8,7 +8,7 @@ Every app from the videos, plus what each one is actually good for. Tap **Get** 
 
 ### ContentCam
 
-Films portrait and landscape at the same time, so one take covers TikTok, Reels and YouTube. Front and back cameras together, plus a built-in teleprompter. [Get it on iPhone](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=apps&mt=8) [Android](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dapps)
+Films portrait and landscape at the same time, so one take covers TikTok, Reels and YouTube. Front and back cameras together, plus a built-in teleprompter. [Get it on iPhone](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=apps&mt=8) [Android](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dapps)
 
 ## Shoot
 

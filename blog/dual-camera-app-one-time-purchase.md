@@ -71,7 +71,7 @@ Only if you keep using the app. Dualgram's $29.99 one-time PRO purchase costs th
 
 **Try ContentCam free.** Front and back in one take as two separate files, plus vertical and wide from a single shoot. No ads, no watermark, and a one-time lifetime option. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-dual-camera-app-one-time-purchase&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddual-camera-app-one-time-purchase)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-dual-camera-app-one-time-purchase&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddual-camera-app-one-time-purchase)
 
 Related: [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/) · [DoubleTake vs ContentCam](https://contentcam.app/blog/doubletake-vs-contentcam/) · [DualShot Recorder vs ContentCam](https://contentcam.app/blog/dualshot-recorder-vs-contentcam/) · [front and back at once on Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/) · [ReFrame vs ContentCam](https://contentcam.app/blog/reframe-vs-contentcam/)
 

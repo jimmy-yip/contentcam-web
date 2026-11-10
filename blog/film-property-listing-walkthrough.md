@@ -96,6 +96,6 @@ Check storage before you leave the office. 4K at 30fps on a 50 Mbps setting writ
 
 **Try ContentCam free.** Records vertical and horizontal at the same time, on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-film-property-listing-walkthrough&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfilm-property-listing-walkthrough)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-film-property-listing-walkthrough&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfilm-property-listing-walkthrough)
 
 Related: [how to hold your phone steady while filming](https://contentcam.app/blog/hold-phone-steady-while-filming/) · [filming b-roll that works vertical and wide](https://contentcam.app/blog/film-b-roll-vertical-and-wide/) · [filming outdoors in wind, backlight and bright sun](https://contentcam.app/blog/film-outdoors-wind-backlight-sun/)

@@ -72,7 +72,7 @@ Yes. Save one picture-in-picture or split-screen video in the other app and uplo
 
 **Try ContentCam free.** Front and back in one take as two separate files, combined into one video when you want it. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-instagram-dual-camera-missing&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dinstagram-dual-camera-missing)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-instagram-dual-camera-missing&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dinstagram-dual-camera-missing)
 
 Related: [Snapchat's front and back camera](https://contentcam.app/blog/snapchat-front-and-back-camera/) · [which iPhones have Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) · [front and back at once on Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/) · [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/)
 

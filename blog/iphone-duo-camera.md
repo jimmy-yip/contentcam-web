@@ -55,7 +55,7 @@ Apple also added Duo FaceTime, which lets a second person join a call from the o
 
 Where you need the two cameras as two files. ContentCam runs on iPhone, and its Front & Back mode records the front and rear cameras at the same time as two separate full videos, one per camera, rather than one picture-in-picture file. You can cut between them, use either one alone, or place them side by side in your editor. Its main mode records a 9:16 and a 16:9 file from the same take.
 
-The trade is resolution. On iPhone, third-party apps can only run two cameras at once in the formats Apple marks as multi-cam supported, which top out at 1920 × 1440 on every iPhone ContentCam has run on, so Front & Back records in HD. I haven't tested ContentCam on an iPhone Duo, so I can't tell you whether that ceiling is different on it. If the clip you record is the clip you post, Dual Capture at 4K is the better tool and it is already on the phone. ContentCam's recording screen on iPhone. [Try it free](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-iphone-duo-camera&mt=8).
+The trade is resolution. On iPhone, third-party apps can only run two cameras at once in the formats Apple marks as multi-cam supported, which top out at 1920 × 1440 on every iPhone ContentCam has run on, so Front & Back records in HD. I haven't tested ContentCam on an iPhone Duo, so I can't tell you whether that ceiling is different on it. If the clip you record is the clip you post, Dual Capture at 4K is the better tool and it is already on the phone. ContentCam's recording screen on iPhone. [Try it free](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-duo-camera&mt=8).
 
 ## FAQ
 
@@ -81,7 +81,7 @@ Apple announced it on 9 September 2026 (10 September in Australia). Pre-orders o
 
 **Try ContentCam free.** Front and back as two separate videos, and vertical and horizontal from one take. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-iphone-duo-camera&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-duo-camera)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-duo-camera&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-duo-camera)
 
 Related: [which iPhones have Dual Capture, and its limits](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) · [how to record front and back camera at the same time on iPhone](https://contentcam.app/blog/record-front-and-back-camera-same-time-iphone/) · [the dual camera effect on any phone](https://contentcam.app/blog/dual-camera-effect/) · [how to film yourself](https://contentcam.app/blog/how-to-film-yourself/).
 

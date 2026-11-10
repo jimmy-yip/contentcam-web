@@ -78,7 +78,7 @@ Resolution and format. In my clips, 4K at 30 fps in HEVC took 169 to 275 MB a mi
 
 **Try ContentCam free.** Records vertical and horizontal at the same time, on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-high-efficiency-vs-most-compatible&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-high-efficiency-vs-most-compatible)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-high-efficiency-vs-most-compatible&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-high-efficiency-vs-most-compatible)
 
 Related: [do you actually need to film in 4K?](https://contentcam.app/blog/do-you-need-to-film-in-4k/) · [why iPhone video looks orange or washed out](https://contentcam.app/blog/iphone-video-orange-washed-out-hdr/) · [video terms explained](https://contentcam.app/blog/video-terms-explained/) · [recording long videos on iPhone without overheating](https://contentcam.app/blog/record-long-video-iphone-without-overheating/)
 

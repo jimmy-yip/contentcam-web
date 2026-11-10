@@ -78,7 +78,7 @@ The App Store listing doesn't say either way. ContentCam adds no watermark on an
 
 **Try ContentCam free.** Front and back in one take as two separate files, plus vertical and wide from a single shoot. No ads, no watermark. On iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=b-vs-dualcam&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dvs%26utm_campaign%3Dvs-dualcam)
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-vs-dualcam&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dvs%26utm_campaign%3Dvs-dualcam)
 
 Related: [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/) · [dual camera apps without ads](https://contentcam.app/blog/dual-camera-app-without-ads/) · [every portrait and landscape app compared](https://contentcam.app/blog/dual-format-recording-apps-compared/)
 

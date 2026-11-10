@@ -50,8 +50,8 @@ Yes. It's on both iPhone and Android. [Here's what else Android has.](https://co
 
 It's a premium feature. You can open it and set up your script for free; recording with it needs [Premium](https://contentcam.app/pricing/).
 
-## Nail your lines in one take [](https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&ct=feature-teleprompter&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dwebsite%26utm_campaign%3Dfeature-teleprompter)
+## Nail your lines in one take [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=feature-teleprompter&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dwebsite%26utm_campaign%3Dfeature-teleprompter)
 
 Read next: [How to use a teleprompter while recording video on iPhone](https://contentcam.app/blog/iphone-teleprompter-while-recording/)
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/app/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android).
+★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android).
