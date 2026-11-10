@@ -93,6 +93,7 @@ Every page below is also available as plain Markdown:
 - [ContentCam Blog: Filming Guides for Content Creators](https://contentcam.app/blog.md)
 - [Instagram Dual Camera Missing or Not Working? Fixes and Alternatives (2026)](https://contentcam.app/blog/instagram-dual-camera-missing.md)
 - [Which iPhones Have Dual Capture? Full List + 4 Limits (2026)](https://contentcam.app/blog/iphone-17-dual-capture-limitations.md)
+- [Can an iPhone Record 4K From the Front and Back Camera at the Same Time? (2026)](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time.md)
 - [Why Does My iPhone Switch Lenses While Recording? How to Stop It (2026)](https://contentcam.app/blog/iphone-camera-switching-lenses-while-recording.md)
 - [iPhone Duo Camera: What It Can and Can't Do for Creators (2026)](https://contentcam.app/blog/iphone-duo-camera.md)
 - [High Efficiency vs Most Compatible on iPhone: Which for Video? (2026)](https://contentcam.app/blog/iphone-high-efficiency-vs-most-compatible.md)

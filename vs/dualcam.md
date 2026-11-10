@@ -54,6 +54,10 @@ On price, the US App Store lists a Lifetime purchase at $24.99, next to Annual a
 
 Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/), [Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/).
 
+## Does DualCam record 4K with both cameras?
+
+DualCam's listing doesn't say whether 4K applies when both cameras record. It says "Up to 4K and up to 60 fps, depending on device and mode", and it also lists "Switch between dual-camera and single-camera shooting" (App Store listing, checked 11 November 2026). Apple only lets third-party apps record two cameras in formats it marks as multi-camera capable, and on every iPhone ContentCam has run on the largest of those is 1920 x 1440, well short of 3840 x 2160. ContentCam's Front & Back records HD, as two separate files. To see what any app really records, read the pixel size of a two-camera test file and its originals, then compare the detail: the steps are in [can an iPhone record 4K from the front and back camera at the same time](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/).
+
 ## FAQ
 
 ### Is DualCam free?

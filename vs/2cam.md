@@ -50,6 +50,10 @@ Every 2Cam claim below comes from 2Cam's App Store listing (version 1.5.2, relea
 
 Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/), [Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/).
 
+## Does 2Cam record 4K with both cameras?
+
+2Cam's listing doesn't say whether 4K applies when both cameras record. It says "Select 720p, 1080p, or 4K resolution" and "Some features and recording options may depend on your device capabilities" (App Store listing, checked 11 November 2026). Apple only lets third-party apps record two cameras in formats it marks as multi-camera capable, and on every iPhone ContentCam has run on the largest of those is 1920 x 1440, well short of 3840 x 2160. ContentCam's Front & Back records HD, as two separate files. To see what any app really records, read the pixel size of a two-camera test file and its originals, then compare the detail: the steps are in [can an iPhone record 4K from the front and back camera at the same time](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/).
+
 ## FAQ
 
 ### Is 2Cam free?

@@ -49,6 +49,10 @@ Lookout is built as a capture tool for the Apple ecosystem; KIDA Studios describ
 
 Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/), [Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/).
 
+## Does Lookout record 4K with both cameras?
+
+Lookout's listing says "Dual-Stream HD/UHD: Record both feeds in stunning clarity." It gives no pixel size and doesn't say which iPhones reach UHD with both feeds running (App Store listing, checked 11 November 2026). Apple only lets third-party apps record two cameras in formats it marks as multi-camera capable, and on every iPhone ContentCam has run on the largest of those is 1920 x 1440, well short of 3840 x 2160. ContentCam's Front & Back records HD, as two separate files. To see what any app really records, read the pixel size of a two-camera test file and its originals, then compare the detail: the steps are in [can an iPhone record 4K from the front and back camera at the same time](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/).
+
 ## FAQ
 
 ### Is Lookout Dual Camera Recorder free?

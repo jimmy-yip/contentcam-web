@@ -6,6 +6,9 @@ Practical guides on dual-format recording, teleprompters, manual camera controls
 
 Filming guides written by the person who builds ContentCam. Practical, specific, and honest about what phones can and can't do.
 
+- [Can an iPhone Record 4K From the Front and Back Camera at the Same Time? (2026)](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/) Jimmy · 11 November 2026
+
+Apple's Dual Capture does 4K 30 fps on newer iPhones. Third-party apps are held to Apple's multi-camera formats. What rival listings claim about 4K, and how to check a file yourself.
 - [Is ContentCam Worth It? What's Free and What Premium Adds (2026)](https://contentcam.app/blog/is-contentcam-worth-it/) Jimmy · 10 November 2026
 
 Unlimited 1080p portrait and landscape recording free, with no ads or watermark. What Premium adds, which plan is the better deal, and when it isn't worth paying for.

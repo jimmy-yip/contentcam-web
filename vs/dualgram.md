@@ -49,6 +49,10 @@ Dualgram, from Singapore studio Just2us, has recorded front and back on iPhone s
 
 Both apps record front and back on iPhone 15 and iPhone 16, which lack Apple's Dual Capture; see [front and back on iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/). More apps are compared in [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/).
 
+## Does Dualgram record 4K with both cameras?
+
+Dualgram doesn't say which iPhones reach 4K with both cameras running. Its App Store listing says "Support up to 4k, 60 fps", and its user guide says the front and back cameras can each be set "up to 4K resolution and 60 FPS", adding: "Depending on the iPhone model, certain configurations would not be supported, so you have to try out to know." (checked 11 November 2026). Apple only lets third-party apps record two cameras in formats it marks as multi-camera capable, and on every iPhone ContentCam has run on the largest of those is 1920 x 1440, well short of 3840 x 2160. ContentCam's Front & Back records HD, as two separate files. To see what any app really records, read the pixel size of a two-camera test file and its originals, then compare the detail: the steps are in [can an iPhone record 4K from the front and back camera at the same time](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/).
+
 ## FAQ
 
 ### Does Dualgram have ads or a watermark?
