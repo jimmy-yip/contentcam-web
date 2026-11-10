@@ -72,7 +72,7 @@ Not in the Camera app: Dual Capture is listed for iPhone 17, iPhone Air, iPhone 
 
 ### Does iPhone 17 Dual Capture save two separate 4K files?
 
-Apple's User Guide says Dual Capture records you and the action in front of you at the same time, and the specs pages list it at up to 4K Dolby Vision at 30 fps. Apple publishes no statement on separate files; record five seconds and count the items in Photos.
+Apple's User Guide says Dual Capture records you and the action in front of you at the same time, and the specs pages list it at up to 4K Dolby Vision at 30 fps. It saves one picture-in-picture video, and Apple publishes no statement about separate front and back files. Record five seconds and count the items in Photos to see what your model saves.
 
 ### Is a 4K front and back video better than an HD one?
 
