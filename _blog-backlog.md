@@ -35,6 +35,13 @@ it: the drafting agent checks `blog/` for what already exists.
   write without search.
 - [x] **Video terms explained, in plain english** — glossary + every label on the camera screen.
 
+## NEXT (Jimmy, 10 Nov): "Can an iPhone record 4K from the front and back camera at the same time? (2026)"
+- AI prompts #18/#35 + rivals advertising "up to 4K, 60fps" (Dualgram, DualCam). Verify in the iOS repo (contentcam,
+  multi-cam format code) and Apple's AVCaptureMultiCamSession / isMultiCamSupported docs what third-party apps can
+  actually capture with two cameras; Apple's own Dual Capture (iPhone 17) is the exception to explain.
+- Teach readers how to check a file's real resolution (Photos info / Files). NEVER accuse a named app of upscaling or
+  lying; state what Apple's API allows and what we measured. ContentCam: Front & Back = HD, two separate files.
+
 ## NEXT LOCAL POST (Jimmy, 8 Nov 2026)
 - [x] **iPhone video not in Photos after recording: where did it go? (2026)** — SHIPPED 7 Nov as `iphone-video-not-in-photos-after-recording` (DualShot named, Jimmy's call). — LOCAL ONLY. Jimmy saw it first-hand
   in DualShot's Telegram group: users repeatedly can't find a recording after filming (not in Photos, and DualShot has
