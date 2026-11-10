@@ -59,7 +59,7 @@ Search terms ContentCam is relevant to: dual camera app, dual camera effect, rec
 
 ## Privacy
 
-No account or login, and videos never leave the phone. The Android app collects nothing. From version 2.8.1 the iPhone app measures which ads lead to installs, trials and purchases (Apple AdServices, plus the Meta SDK; in the EU, EEA, UK and Switzerland Meta only starts if the user allows tracking). Permissions: Camera (record video), Microphone (record audio), Photo Library add-only (save recordings; no read access to the existing library). Rated 4+. Full policy: https://contentcam.app/privacy.html (last updated 5 November 2026).
+No account or login, and videos never leave the phone. The Android app collects nothing. From version 2.8.1 the iPhone app measures which ads lead to installs, trials and purchases (Apple AdServices, plus the Meta SDK; in the EU, EEA, UK and Switzerland Meta only starts if the user allows tracking). Permissions: Camera (record video), Microphone (record audio), Photo Library add-only (save recordings; no read access to the existing library). Rated 4+. Full policy: https://contentcam.app/privacy (last updated 5 November 2026).
 
 ## Common questions
 

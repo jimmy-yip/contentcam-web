@@ -20,7 +20,7 @@ Key facts:
 - [Pricing](https://contentcam.app/pricing/): full free-vs-premium feature table and plan details
 - [Support & FAQ](https://contentcam.app/support/): device compatibility, recording modes, files, subscriptions, refunds
 - [Press kit](https://contentcam.app/press/): canonical facts, developer info, downloadable logo and screenshots
-- [Privacy policy](https://contentcam.app/privacy.html): the full zero-data-collection policy
+- [Privacy policy](https://contentcam.app/privacy): the full zero-data-collection policy
 
 ## Optional
 

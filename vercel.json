@@ -21,6 +21,26 @@
       "source": "/blog/vertical-vs-horizontal-video/",
       "destination": "/blog/why-cropping-vertical-to-horizontal-looks-wrong/",
       "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/support/",
+      "permanent": true
+    },
+    {
+      "source": "/about/",
+      "destination": "/support/",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/support/",
+      "permanent": true
+    },
+    {
+      "source": "/contact/",
+      "destination": "/support/",
+      "permanent": true
     }
   ]
 }
