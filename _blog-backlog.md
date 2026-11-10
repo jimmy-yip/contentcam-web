@@ -41,6 +41,13 @@ it: the drafting agent checks `blog/` for what already exists.
   actually capture with two cameras; Apple's own Dual Capture (iPhone 17) is the exception to explain.
 - Teach readers how to check a file's real resolution (Photos info / Files). NEVER accuse a named app of upscaling or
   lying; state what Apple's API allows and what we measured. ContentCam: Front & Back = HD, two separate files.
+- Jimmy 10 Nov: DO tie in the rivals that advertise 4K (Dualgram "Support up to 4k, 60 fps", DualCam "Up to 4K and up to
+  60 fps, depending on device and mode", 2Cam/MixCam/Lookout 4K listings). Method: quote each listing verbatim + date,
+  point out it doesn't say whether 4K applies when BOTH cameras record, explain Apple's multi-cam limit (verified in
+  the iOS repo + Apple docs), list the possibilities (single-camera 4K mode, upscaled export, iPhone 17-only), and
+  give the reader the check. Sow doubt with facts; never say "fake" or "lying".
+- Then add a short "Does <rival> record 4K with both cameras?" section to vs/dualgram, vs/dualcam, vs/2cam, vs/mixcam,
+  vs/lookout linking to the post, and translate. Free date: 11 Nov.
 
 ## NEXT LOCAL POST (Jimmy, 8 Nov 2026)
 - [x] **iPhone video not in Photos after recording: where did it go? (2026)** — SHIPPED 7 Nov as `iphone-video-not-in-photos-after-recording` (DualShot named, Jimmy's call). — LOCAL ONLY. Jimmy saw it first-hand
