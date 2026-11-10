@@ -39,7 +39,7 @@
         "description": "Why a 9:16 to 16:9 crop keeps only 31.6% of the picture, why a centred crop misses the eyeline, what crop, pillarbox and recapture each cost, and how to frame one take so both shapes work.",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-10-14",
-        "dateModified": "2026-10-14",
+        "dateModified": "2026-11-10",
         "author": { "@type": "Person", "name": "Jimmy", "description": "Developer of ContentCam", "url": "https://contentcam.app/press/" },
         "publisher": { "@id": "https://contentcam.app/#org" },
         "mainEntityOfPage": "https://contentcam.app/blog/why-cropping-vertical-to-horizontal-looks-wrong/"
@@ -122,6 +122,36 @@
         <li><strong>Record both shapes from the full sensor frame.</strong> This is what I built <a href="/">ContentCam</a> to do: cut the 9:16 and the 16:9 from the same 4:3 readout, so the horizontal file keeps the full sensor width instead of inheriting the vertical file's 75%.</li>
       </ul>
 
+      <h2>Should you shoot vertical or horizontal for each platform?</h2>
+      <p>The rule underneath every row: a video looks best when its shape matches the screen it plays on. Where I could check the platform's own help page, the row says so; the rest describe how the app displays video, not an official spec.</p>
+      <table>
+        <thead><tr><th>Platform</th><th>Shoot</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>TikTok</td><td>Vertical 9:16</td><td>The feed is full screen on a phone held upright, so anything wider plays as a strip with empty space above and below.</td></tr>
+          <tr><td>Instagram Reels</td><td>Vertical 9:16</td><td>Same full-screen, upright feed as TikTok.</td></tr>
+          <tr><td>YouTube Shorts</td><td>Vertical 9:16</td><td>YouTube Help: a Short is "up to 3 minutes" with "a square or vertical aspect ratio". Vertical fills the screen; square does not.</td></tr>
+          <tr><td>YouTube main feed</td><td>Horizontal 16:9</td><td>YouTube Help: "The standard aspect ratio for YouTube on a computer is 16:9." Vertical videos on computer browsers may get extra padding at the sides.</td></tr>
+          <tr><td>LinkedIn</td><td>Either</td><td>LinkedIn Help lists an accepted aspect ratio range of 1:2.4 to 2.4:1, so both upload fine. In the phone feed, a taller video takes up more of the screen.</td></tr>
+          <tr><td>X</td><td>Either</td><td>The feed shows both shapes inline. Taller takes more of a phone screen; wide suits screen recordings and anything watched on a laptop.</td></tr>
+          <tr><td>Facebook feed</td><td>Either; vertical for Facebook Reels</td><td>The main feed shows both. Facebook Reels is a full-screen upright feed like Instagram's.</td></tr>
+          <tr><td>Website embeds</td><td>Horizontal 16:9</td><td>Most article layouts and embedded players are wide. A vertical video inside a wide player sits between empty side panels.</td></tr>
+        </tbody>
+      </table>
+      <p>YouTube and LinkedIn rows checked against <a href="https://support.google.com/youtube/answer/6375112">YouTube Help: Video resolution and aspect ratios</a>, <a href="https://support.google.com/youtube/answer/12779649">YouTube Help: Upload YouTube Shorts</a> and <a href="https://www.linkedin.com/help/linkedin/answer/a548372">LinkedIn Help: video specs</a>, 3 November 2026.</p>
+      <p>The split comes down to this: the fast feeds people swipe through on a phone are vertical, and the places people sit back and watch, or search and find a video months later, are horizontal.</p>
+
+      <h2>Vertical or horizontal: the decision in one table</h2>
+      <table>
+        <thead><tr><th>Your situation</th><th>Shoot</th></tr></thead>
+        <tbody>
+          <tr><td>Only TikTok, Reels or Shorts</td><td>Vertical 9:16</td></tr>
+          <tr><td>Only the main YouTube feed, a website or a TV</td><td>Horizontal 16:9</td></tr>
+          <tr><td>LinkedIn, X or the Facebook feed only</td><td>Either; vertical if your audience watches on phones</td></tr>
+          <tr><td>A vertical feed and a horizontal player</td><td>Both, from one take</td></tr>
+          <tr><td>Not sure yet</td><td>Both, so you never have to crop later</td></tr>
+        </tbody>
+      </table>
+
       <h2>Common questions</h2>
       <p><strong>Can you convert a vertical video to horizontal without losing quality?</strong> No. The conversion is a crop, and the crop keeps 31.6% of the picture. The only version that ends well is cropping a 4K vertical, where the surviving 2160&times;1215 is still larger than 1080p.</p>
       <p><strong>What resolution should you film at if you need both shapes?</strong> 4K. A 4K vertical take crops to a real 1080p horizontal file, while a 1080p vertical take crops to 1080&times;607, which is below 720p.</p>
@@ -136,7 +166,7 @@
         </div>
       </div>
 
-      <p>Related: <a href="/blog/film-b-roll-vertical-and-wide/">filming b-roll that works vertical and wide</a> · <a href="/blog/vertical-vs-horizontal-video/">vertical vs horizontal video, and which to shoot</a> · <a href="/blog/how-to-record-landscape-video-on-iphone/">how to record landscape video on iPhone</a> · <a href="/blog/film-ugc-vertical-and-horizontal/">filming UGC in vertical and horizontal from one take</a> · <a href="/blog/convert-vertical-video-to-horizontal/">how to convert vertical video to horizontal</a></p>
+      <p>Related: <a href="/blog/film-b-roll-vertical-and-wide/">filming b-roll that works vertical and wide</a> · <a href="/blog/why-cropping-vertical-to-horizontal-looks-wrong/">vertical vs horizontal video, and which to shoot</a> · <a href="/blog/how-to-record-landscape-video-on-iphone/">how to record landscape video on iPhone</a> · <a href="/blog/film-ugc-vertical-and-horizontal/">filming UGC in vertical and horizontal from one take</a> · <a href="/blog/convert-vertical-video-to-horizontal/">how to convert vertical video to horizontal</a></p>
     </article>
   </main>
 

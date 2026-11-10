@@ -11,6 +11,16 @@
       "source": "/ios",
       "destination": "/get?c=ios",
       "permanent": false
+    },
+    {
+      "source": "/blog/vertical-vs-horizontal-video",
+      "destination": "/blog/why-cropping-vertical-to-horizontal-looks-wrong/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vertical-vs-horizontal-video/",
+      "destination": "/blog/why-cropping-vertical-to-horizontal-looks-wrong/",
+      "permanent": true
     }
   ]
 }
