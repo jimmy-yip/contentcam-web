@@ -31,69 +31,136 @@
   <meta name="twitter:description" content="Один дубль дает сразу 9:16 и 16:9, со встроенным телесуфлером и ручными настройками. iPhone и Android.">
   <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://contentcam.app/#org",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "logo": "https://contentcam.app/assets/icon-512.png",
-        "email": "contentcam.app@gmail.com",
-        "sameAs": [
-          "https://www.instagram.com/contentcam.app",
-          "https://www.tiktok.com/@contentcam.app",
-          "https://www.youtube.com/@ContentCam-app",
-          "https://discord.gg/YxUpbUgthH",
-          "https://apps.apple.com/app/id6765881795",
-          "https://play.google.com/store/apps/details?id=app.contentcam.android"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://contentcam.app/#website",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "publisher": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "SoftwareApplication",
-        "@id": "https://contentcam.app/ru/#app",
-        "name": "ContentCam",
-        "alternateName": "ContentCam: Dual Camera Video",
-        "description": "Приложение-камера ContentCam для iPhone и Android записывает вертикальное видео 9:16 и горизонтальное 16:9 одновременно за один дубль. В нем есть встроенный телесуфлер, ручные настройки камеры (экспозиция, баланс белого, ISO, выдержка), таймлапс, 4K и работа с проектами, сценами и дублями для авторов контента.",
-        "operatingSystem": "iOS 18.0 или новее, Android 8.0 или новее",
-        "applicationCategory": "MultimediaApplication",
-        "url": "https://contentcam.app/ru/",
-        "downloadUrl": "https://apps.apple.com/app/id6765881795",
-        "installUrl": "https://apps.apple.com/app/id6765881795",
-        "screenshot": [
-          "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
-          "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
-          "https://contentcam.app/assets/img/ui-projects-640.webp"
-        ],
-        "offers": [
-          { "@type": "Offer", "name": "Бесплатная загрузка", "price": "0", "priceCurrency": "USD", "description": "Бесплатно скачать и пользоваться: запись в режиме «Один объектив», 1080p, 30 fps, фронтальная камера, 3 проекта, 5 бесплатных дублей в режиме «Два объектива», без водяного знака. Premium по желанию, как встроенная покупка; актуальные цены указаны в App Store и Google Play." }
-        ],
-        "author": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://contentcam.app/ru/#faq",
-        "url": "https://contentcam.app/ru/",
-        "mainEntity": [
-          { "@type": "Question", "name": "Горизонтальное видео просто вырезано из вертикального?", "acceptedAnswer": { "@type": "Answer", "text": "Нет. В режиме «Один объектив» ContentCam записывает полный кадр матрицы 4:3 и вырезает из него каждый формат, поэтому горизонтальное видео сохраняет всю ширину, а вертикальное всю высоту. Каждый файл кодируется отдельно в HEVC, в 1080×1920 и 1920×1080 или в соответствующем 4K. Ни один из них не является растянутой обрезкой другого." } },
-          { "@type": "Question", "name": "ContentCam бесплатный или нужна подписка?", "acceptedAnswer": { "@type": "Answer", "text": "Его можно бесплатно скачать и пользоваться: запись в режиме «Один объектив» в обоих форматах, 1080p, 30 fps, три проекта и никакого водяного знака. Premium по желанию, и способ оплаты выбираете вы: годовой план с бесплатным пробным периодом, месячный план или разовая покупка навсегда. Все варианты открывают одни и те же функции, а цены указаны в вашей местной валюте в App Store и Google Play." } },
-          { "@type": "Question", "name": "Можно ли попробовать функции Premium до оплаты?", "acceptedAnswer": { "@type": "Answer", "text": "Да. Каждую функцию Premium можно посмотреть вживую, включая ручные регуляторы. Экран оплаты появляется, только когда вы нажимаете запись с включенной функцией Premium. Кроме того, режимы «Два объектива» и «Передняя и задняя» дают по 5 бесплатных записей, а годовой план начинается с бесплатного пробного периода." } },
-          { "@type": "Question", "name": "Есть ли реклама или водяной знак?", "acceptedAnswer": { "@type": "Answer", "text": "Нет. Ни рекламы, ни водяного знака ни в одном тарифе, включая бесплатный." } },
-          { "@type": "Question", "name": "На каких телефонах работает приложение?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone XS и новее на iOS 18 или новее; для режима «Два объектива» нужен iPhone 11 или новее со сверхширокоугольной камерой (не iPhone SE и не iPhone 16e). Android 8.0 или новее; 4K, 60 fps и ручная экспозиция зависят от возможностей камеры вашего телефона. Режим «Два объектива» и HDR пока есть только на iPhone." } },
-          { "@type": "Question", "name": "Можно ли снимать на переднюю и заднюю камеру одновременно?", "acceptedAnswer": { "@type": "Answer", "text": "Да, на iPhone и Android, двумя отдельными файлами или одним объединенным видео. Режим «Передняя и задняя» работает на всех iPhone с iOS 18, включая iPhone 15 и 16. Это режим Premium, попробовать его можно на 5 бесплатных записях. На новых iPhone, например iPhone 17, есть еще и функция Apple Dual Capture, которая сохраняет обе камеры одним файлом «картинка в картинке»." } },
-          { "@type": "Question", "name": "Чем ContentCam отличается от DualShot Recorder?", "acceptedAnswer": { "@type": "Answer", "text": "Оба приложения снимают вертикальное и горизонтальное видео за один дубль. DualShot Recorder есть только на iPhone; ContentCam работает на iPhone и Android, добавляет режим «Два объектива» (широкоугольная и сверхширокоугольная камеры одновременно на iPhone 11 и новее) и работу с проектами, сценами и дублями с автоматическим именованием файлов, а помимо подписок по-прежнему предлагает разовую покупку навсегда. Полное сравнение: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/" } }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/app/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://contentcam.app/#website",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
       }
-    ]
-  }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://contentcam.app/ru/#app",
+      "name": "ContentCam",
+      "alternateName": "ContentCam: Dual Camera Video",
+      "description": "Приложение-камера ContentCam для iPhone и Android записывает вертикальное видео 9:16 и горизонтальное 16:9 одновременно за один дубль. В нем есть встроенный телесуфлер, ручные настройки камеры (экспозиция, баланс белого, ISO, выдержка), таймлапс, 4K и работа с проектами, сценами и дублями для авторов контента.",
+      "operatingSystem": "iOS 18.0 или новее, Android 8.0 или новее",
+      "applicationCategory": "MultimediaApplication",
+      "url": "https://contentcam.app/ru/",
+      "downloadUrl": "https://apps.apple.com/app/id6765881795",
+      "installUrl": "https://apps.apple.com/app/id6765881795",
+      "screenshot": [
+        "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
+        "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
+        "https://contentcam.app/assets/img/ui-projects-640.webp"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Бесплатная загрузка",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Бесплатно скачать и пользоваться: запись в режиме «Один объектив», 1080p, 30 fps, фронтальная камера, 3 проекта, 5 бесплатных дублей в режиме «Два объектива», без водяного знака. Premium по желанию, как встроенная покупка; актуальные цены указаны в App Store и Google Play."
+        }
+      ],
+      "author": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "354",
+        "bestRating": "5",
+        "worstRating": "1",
+        "description": "Google Play rating, November 2026"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://contentcam.app/ru/#faq",
+      "url": "https://contentcam.app/ru/",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Горизонтальное видео просто вырезано из вертикального?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Нет. В режиме «Один объектив» ContentCam записывает полный кадр матрицы 4:3 и вырезает из него каждый формат, поэтому горизонтальное видео сохраняет всю ширину, а вертикальное всю высоту. Каждый файл кодируется отдельно в HEVC, в 1080×1920 и 1920×1080 или в соответствующем 4K. Ни один из них не является растянутой обрезкой другого."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ContentCam бесплатный или нужна подписка?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Его можно бесплатно скачать и пользоваться: запись в режиме «Один объектив» в обоих форматах, 1080p, 30 fps, три проекта и никакого водяного знака. Premium по желанию, и способ оплаты выбираете вы: годовой план с бесплатным пробным периодом, месячный план или разовая покупка навсегда. Все варианты открывают одни и те же функции, а цены указаны в вашей местной валюте в App Store и Google Play."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Можно ли попробовать функции Premium до оплаты?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да. Каждую функцию Premium можно посмотреть вживую, включая ручные регуляторы. Экран оплаты появляется, только когда вы нажимаете запись с включенной функцией Premium. Кроме того, режимы «Два объектива» и «Передняя и задняя» дают по 5 бесплатных записей, а годовой план начинается с бесплатного пробного периода."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Есть ли реклама или водяной знак?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Нет. Ни рекламы, ни водяного знака ни в одном тарифе, включая бесплатный."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "На каких телефонах работает приложение?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iPhone XS и новее на iOS 18 или новее; для режима «Два объектива» нужен iPhone 11 или новее со сверхширокоугольной камерой (не iPhone SE и не iPhone 16e). Android 8.0 или новее; 4K, 60 fps и ручная экспозиция зависят от возможностей камеры вашего телефона. Режим «Два объектива» и HDR пока есть только на iPhone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Можно ли снимать на переднюю и заднюю камеру одновременно?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, на iPhone и Android, двумя отдельными файлами или одним объединенным видео. Режим «Передняя и задняя» работает на всех iPhone с iOS 18, включая iPhone 15 и 16. Это режим Premium, попробовать его можно на 5 бесплатных записях. На новых iPhone, например iPhone 17, есть еще и функция Apple Dual Capture, которая сохраняет обе камеры одним файлом «картинка в картинке»."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Чем ContentCam отличается от DualShot Recorder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Оба приложения снимают вертикальное и горизонтальное видео за один дубль. DualShot Recorder есть только на iPhone; ContentCam работает на iPhone и Android, добавляет режим «Два объектива» (широкоугольная и сверхширокоугольная камеры одновременно на iPhone 11 и новее) и работу с проектами, сценами и дублями с автоматическим именованием файлов, а помимо подписок по-прежнему предлагает разовую покупку навсегда. Полное сравнение: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/"
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
   <style>
     /* home page (revamped 2026-10-08). Names prefixed hx- / rv / ccbar to avoid the global .cta class in styles.css */
@@ -279,7 +346,7 @@
           <span class="eyebrow"><span class="rec-dot"></span>Один дубль · два формата</span>
           <h1>Хватит снимать<br>все <span class="accent">дважды.</span></h1>
           <p class="tagline">ContentCam записывает <strong>вертикальное (9:16)</strong> и <strong>горизонтальное (16:9)</strong> видео одновременно. Один дубль дает вертикальное видео для TikTok, Reels и Shorts и горизонтальное для YouTube. Полный кадр в обоих форматах, а не обрезка.</p>
-          <p class="subnote hx-proofline">Оценка <span class="star">★</span> 4.8 от 1000+ авторов · 50 000+ загрузок</p>
+          <p class="subnote hx-proofline">Оценка <span class="star">★</span> 4.8 от 580 авторов · 50 000+ загрузок</p>
           <div class="badges">
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ru-home2-hero&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Загрузите в App Store" width="156" height="52"></a>
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-hero%26utm_campaign%3Dru-home2-hero"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Доступно в Google Play" width="175" height="52"></a>

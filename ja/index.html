@@ -31,69 +31,136 @@
   <meta name="twitter:description" content="1回の撮影で9:16と16:9の両方を録画。テレプロンプターと手動コントロールも搭載。iPhoneとAndroidに対応しています。">
   <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://contentcam.app/#org",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "logo": "https://contentcam.app/assets/icon-512.png",
-        "email": "contentcam.app@gmail.com",
-        "sameAs": [
-          "https://www.instagram.com/contentcam.app",
-          "https://www.tiktok.com/@contentcam.app",
-          "https://www.youtube.com/@ContentCam-app",
-          "https://discord.gg/YxUpbUgthH",
-          "https://apps.apple.com/app/id6765881795",
-          "https://play.google.com/store/apps/details?id=app.contentcam.android"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://contentcam.app/#website",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "publisher": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "SoftwareApplication",
-        "@id": "https://contentcam.app/ja/#app",
-        "name": "ContentCam",
-        "alternateName": "ContentCam: Dual Camera Video",
-        "description": "ContentCamは、9:16の縦動画と16:9の横動画を1回の撮影で同時に録画できる、iPhoneとAndroid向けのカメラアプリです。テレプロンプター、手動のカメラコントロール（露出、ホワイトバランス、ISO、シャッタースピード）、タイムラプス、4K、そしてクリエイター向けのプロジェクト・シーン・テイク管理を備えています。",
-        "operatingSystem": "iOS 18.0以降、Android 8.0以降",
-        "applicationCategory": "MultimediaApplication",
-        "url": "https://contentcam.app/ja/",
-        "downloadUrl": "https://apps.apple.com/app/id6765881795",
-        "installUrl": "https://apps.apple.com/app/id6765881795",
-        "screenshot": [
-          "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
-          "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
-          "https://contentcam.app/assets/img/ui-projects-640.webp"
-        ],
-        "offers": [
-          { "@type": "Offer", "name": "無料ダウンロード", "price": "0", "priceCurrency": "USD", "description": "無料でダウンロードして使えます。シングルレンズ（Single Lens）録画、1080p、30fps、フロントカメラ、プロジェクト3つ、デュアルレンズ（Dual Lens）の無料テイク5回、ウォーターマークなし。Premiumはアプリ内課金によるオプションのアップグレードで、最新の価格はApp StoreとGoogle Playに表示されます。" }
-        ],
-        "author": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://contentcam.app/ja/#faq",
-        "url": "https://contentcam.app/ja/",
-        "mainEntity": [
-          { "@type": "Question", "name": "横動画は縦動画をクロップしただけではないのですか？", "acceptedAnswer": { "@type": "Answer", "text": "いいえ。シングルレンズ（Single Lens）モードでは、センサーの4:3の映像全体を記録し、そこから2つの比率をそれぞれ切り出します。そのため、横は横幅をまるごと、縦は高さをまるごと使えます。ファイルはそれぞれ個別にHEVCでエンコードされ、解像度は1080×1920と1920×1080、または4K相当です。どちらも、もう一方をクロップして引き伸ばしたものではありません。" } },
-          { "@type": "Question", "name": "ContentCamは無料ですか？サブスクは必要ですか？", "acceptedAnswer": { "@type": "Answer", "text": "無料でダウンロードして使えます。シングルレンズでの両方の比率の録画、1080p、30fps、プロジェクト3つまで、ウォーターマークなしです。Premiumは任意で、お支払い方法を選べます。無料体験付きの年額プラン、月額プラン、または1回限りの買い切りです。どれも解放される機能は同じで、価格はApp StoreとGoogle Playでお住まいの国の通貨で表示されます。" } },
-          { "@type": "Question", "name": "有料機能は購入前に試せますか？", "acceptedAnswer": { "@type": "Answer", "text": "はい。手動ダイヤルを含め、すべてのPremium機能をライブでプレビューできます。購入画面が表示されるのは、Premium機能をオンにした状態で録画ボタンを押したときだけです。デュアルレンズ（Dual Lens）と前後カメラ（Front/Back）は、それぞれ5回まで無料で録画できます。年額プランは無料体験から始まります。" } },
-          { "@type": "Question", "name": "広告やウォーターマークはありますか？", "acceptedAnswer": { "@type": "Answer", "text": "いいえ。無料版を含め、どのプランにも広告やウォーターマークはありません。" } },
-          { "@type": "Question", "name": "対応機種はどれですか？", "acceptedAnswer": { "@type": "Answer", "text": "iOS 18以降が動作するiPhone XS以降に対応しています。デュアルレンズ（Dual Lens）モードには、超広角カメラを搭載したiPhone 11以降が必要です（iPhone SE・iPhone 16eを除く）。AndroidはAndroid 8.0以降に対応しています。4K、60fps、手動露出が使えるかどうかは、お使いのスマホのカメラによって異なります。デュアルレンズとHDRは、現在iPhoneのみの機能です。" } },
-          { "@type": "Question", "name": "インカメラと背面カメラで同時に録画できますか？", "acceptedAnswer": { "@type": "Answer", "text": "はい。iPhoneでもAndroidでも、独立した2つのファイルとして、または1本に合成した動画として録画できます。前後カメラ（Front/Back）はiOS 18のすべてのiPhoneで使え、iPhone 15と16にも対応しています。Premiumモードですが、5回まで無料で試せます。iPhone 17など最近のiPhoneには、Apple純正のDual Captureもあり、両方のカメラをワイプ（ピクチャ・イン・ピクチャ）形式の1つのファイルとして保存します。" } },
-          { "@type": "Question", "name": "DualShot Recorderとの違いは何ですか？", "acceptedAnswer": { "@type": "Answer", "text": "どちらも1回の撮影で縦と横を録画できます。DualShot RecorderはiPhone専用ですが、ContentCamはiPhoneとAndroidの両方で使えます。さらに、デュアルレンズ（iPhone 11以降で広角と超広角を同時に録画）と、ファイル名を自動でつけるプロジェクト・シーン・テイクの管理機能を備え、サブスクリプションに加えて買い切りプランも引き続き用意しています。詳しい比較：https://contentcam.app/blog/dualshot-recorder-vs-contentcam/" } }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/app/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://contentcam.app/#website",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
       }
-    ]
-  }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://contentcam.app/ja/#app",
+      "name": "ContentCam",
+      "alternateName": "ContentCam: Dual Camera Video",
+      "description": "ContentCamは、9:16の縦動画と16:9の横動画を1回の撮影で同時に録画できる、iPhoneとAndroid向けのカメラアプリです。テレプロンプター、手動のカメラコントロール（露出、ホワイトバランス、ISO、シャッタースピード）、タイムラプス、4K、そしてクリエイター向けのプロジェクト・シーン・テイク管理を備えています。",
+      "operatingSystem": "iOS 18.0以降、Android 8.0以降",
+      "applicationCategory": "MultimediaApplication",
+      "url": "https://contentcam.app/ja/",
+      "downloadUrl": "https://apps.apple.com/app/id6765881795",
+      "installUrl": "https://apps.apple.com/app/id6765881795",
+      "screenshot": [
+        "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
+        "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
+        "https://contentcam.app/assets/img/ui-projects-640.webp"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "無料ダウンロード",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "無料でダウンロードして使えます。シングルレンズ（Single Lens）録画、1080p、30fps、フロントカメラ、プロジェクト3つ、デュアルレンズ（Dual Lens）の無料テイク5回、ウォーターマークなし。Premiumはアプリ内課金によるオプションのアップグレードで、最新の価格はApp StoreとGoogle Playに表示されます。"
+        }
+      ],
+      "author": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "354",
+        "bestRating": "5",
+        "worstRating": "1",
+        "description": "Google Play rating, November 2026"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://contentcam.app/ja/#faq",
+      "url": "https://contentcam.app/ja/",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "横動画は縦動画をクロップしただけではないのですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。シングルレンズ（Single Lens）モードでは、センサーの4:3の映像全体を記録し、そこから2つの比率をそれぞれ切り出します。そのため、横は横幅をまるごと、縦は高さをまるごと使えます。ファイルはそれぞれ個別にHEVCでエンコードされ、解像度は1080×1920と1920×1080、または4K相当です。どちらも、もう一方をクロップして引き伸ばしたものではありません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ContentCamは無料ですか？サブスクは必要ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "無料でダウンロードして使えます。シングルレンズでの両方の比率の録画、1080p、30fps、プロジェクト3つまで、ウォーターマークなしです。Premiumは任意で、お支払い方法を選べます。無料体験付きの年額プラン、月額プラン、または1回限りの買い切りです。どれも解放される機能は同じで、価格はApp StoreとGoogle Playでお住まいの国の通貨で表示されます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有料機能は購入前に試せますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。手動ダイヤルを含め、すべてのPremium機能をライブでプレビューできます。購入画面が表示されるのは、Premium機能をオンにした状態で録画ボタンを押したときだけです。デュアルレンズ（Dual Lens）と前後カメラ（Front/Back）は、それぞれ5回まで無料で録画できます。年額プランは無料体験から始まります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "広告やウォーターマークはありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。無料版を含め、どのプランにも広告やウォーターマークはありません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "対応機種はどれですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iOS 18以降が動作するiPhone XS以降に対応しています。デュアルレンズ（Dual Lens）モードには、超広角カメラを搭載したiPhone 11以降が必要です（iPhone SE・iPhone 16eを除く）。AndroidはAndroid 8.0以降に対応しています。4K、60fps、手動露出が使えるかどうかは、お使いのスマホのカメラによって異なります。デュアルレンズとHDRは、現在iPhoneのみの機能です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "インカメラと背面カメラで同時に録画できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。iPhoneでもAndroidでも、独立した2つのファイルとして、または1本に合成した動画として録画できます。前後カメラ（Front/Back）はiOS 18のすべてのiPhoneで使え、iPhone 15と16にも対応しています。Premiumモードですが、5回まで無料で試せます。iPhone 17など最近のiPhoneには、Apple純正のDual Captureもあり、両方のカメラをワイプ（ピクチャ・イン・ピクチャ）形式の1つのファイルとして保存します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualShot Recorderとの違いは何ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "どちらも1回の撮影で縦と横を録画できます。DualShot RecorderはiPhone専用ですが、ContentCamはiPhoneとAndroidの両方で使えます。さらに、デュアルレンズ（iPhone 11以降で広角と超広角を同時に録画）と、ファイル名を自動でつけるプロジェクト・シーン・テイクの管理機能を備え、サブスクリプションに加えて買い切りプランも引き続き用意しています。詳しい比較：https://contentcam.app/blog/dualshot-recorder-vs-contentcam/"
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
   <style>
     /* home page (revamped 2026-10-08). Names prefixed hx- / rv / ccbar to avoid the global .cta class in styles.css */

@@ -31,70 +31,137 @@
   <meta name="twitter:description" content="Un solo take registra sia il 9:16 sia il 16:9, con teleprompter integrato e controlli manuali. Per iPhone e Android.">
   <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://contentcam.app/#org",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "logo": "https://contentcam.app/assets/icon-512.png",
-        "email": "contentcam.app@gmail.com",
-        "sameAs": [
-          "https://www.instagram.com/contentcam.app",
-          "https://www.tiktok.com/@contentcam.app",
-          "https://www.youtube.com/@ContentCam-app",
-          "https://discord.gg/YxUpbUgthH",
-          "https://apps.apple.com/app/id6765881795",
-          "https://play.google.com/store/apps/details?id=app.contentcam.android"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://contentcam.app/#website",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "publisher": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "SoftwareApplication",
-        "@id": "https://contentcam.app/it/#app",
-        "name": "ContentCam",
-        "alternateName": "ContentCam: Dual Camera Video",
-        "description": "ContentCam è un'app fotocamera per iPhone e Android che registra contemporaneamente video verticali 9:16 e orizzontali 16:9 con un solo take. Include un teleprompter integrato, controlli manuali della fotocamera (esposizione, bilanciamento del bianco, ISO, tempo di otturazione), timelapse, 4K e un flusso di lavoro con progetti, scene e take pensato per i content creator.",
-        "operatingSystem": "iOS 18.0 o successivo, Android 8.0 o successivo",
-        "applicationCategory": "MultimediaApplication",
-        "url": "https://contentcam.app/it/",
-        "mainEntityOfPage": "https://contentcam.app/it/",
-        "downloadUrl": "https://apps.apple.com/app/id6765881795",
-        "installUrl": "https://apps.apple.com/app/id6765881795",
-        "screenshot": [
-          "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
-          "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
-          "https://contentcam.app/assets/img/ui-projects-640.webp"
-        ],
-        "offers": [
-          { "@type": "Offer", "name": "Download gratuito", "price": "0", "priceCurrency": "USD", "description": "Download e uso gratuiti: registrazione con Obiettivo singolo, 1080p, 30fps, fotocamera frontale, 3 progetti, 5 take gratuiti con Doppio obiettivo, nessuna filigrana. Upgrade Premium facoltativo come acquisto in-app; i prezzi aggiornati sono indicati nell'App Store e su Google Play." }
-        ],
-        "author": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://contentcam.app/it/#faq",
-        "url": "https://contentcam.app/it/",
-        "mainEntity": [
-          { "@type": "Question", "name": "Il video orizzontale non è solo un ritaglio di quello verticale?", "acceptedAnswer": { "@type": "Answer", "text": "No. In modalità Obiettivo singolo ContentCam registra l'intero fotogramma 4:3 del sensore e ricava da lì ciascun formato, così l'orizzontale mantiene tutta la larghezza e il verticale tutta l'altezza. Ogni file viene codificato separatamente in HEVC, a 1080×1920 e 1920×1080 o nei rispettivi equivalenti 4K. Nessuno dei due è un ritaglio ingrandito dell'altro." } },
-          { "@type": "Question", "name": "ContentCam è gratis o serve un abbonamento?", "acceptedAnswer": { "@type": "Answer", "text": "Puoi scaricarla e usarla gratis: registrazione con Obiettivo singolo in entrambi i formati, 1080p, 30fps, tre progetti e nessuna filigrana. Premium è facoltativo e scegli tu come pagare: un piano annuale con prova gratuita, un piano mensile o un acquisto unico a vita. Sbloccano tutti le stesse funzioni, con prezzi nella tua valuta locale nell'App Store e su Google Play." } },
-          { "@type": "Question", "name": "Posso provare le funzioni Premium prima di pagare?", "acceptedAnswer": { "@type": "Answer", "text": "Sì. Ogni funzione Premium si può provare in anteprima dal vivo, comprese le ghiere manuali. Il paywall compare solo quando premi Registra con una funzione Premium attiva. Doppio obiettivo e Frontale e posteriore ti danno anche 5 registrazioni gratuite ciascuna, e il piano annuale parte con una prova gratuita." } },
-          { "@type": "Question", "name": "Ci sono pubblicità o filigrane?", "acceptedAnswer": { "@type": "Answer", "text": "No. Niente pubblicità e niente filigrana, con qualsiasi piano, anche quello gratuito." } },
-          { "@type": "Question", "name": "Su quali telefoni funziona?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone XS e successivi con iOS 18 o versioni più recenti; la modalità Doppio obiettivo richiede iPhone 11 o successivo con fotocamera ultra-grandangolare (non iPhone SE né iPhone 16e). Android 8.0 o versioni più recenti; 4K, 60fps ed esposizione manuale dipendono da ciò che supporta la fotocamera del tuo telefono. Doppio obiettivo e HDR per ora sono disponibili solo su iPhone." } },
-          { "@type": "Question", "name": "Si possono usare la fotocamera frontale e quella posteriore contemporaneamente?", "acceptedAnswer": { "@type": "Answer", "text": "Sì, su iPhone e Android, in due file separati o in un unico video combinato. Frontale e posteriore funziona su ogni iPhone con iOS 18, compresi iPhone 15 e 16, ed è una modalità Premium con 5 registrazioni gratuite per provarla. Anche gli iPhone recenti come iPhone 17 hanno la funzione Dual Capture integrata di Apple, che salva entrambe le fotocamere in un unico file picture-in-picture." } },
-          { "@type": "Question", "name": "Che differenza c'è tra ContentCam e DualShot Recorder?", "acceptedAnswer": { "@type": "Answer", "text": "Entrambe registrano in verticale e in orizzontale con un solo take. DualShot Recorder è solo per iPhone; ContentCam funziona su iPhone e Android, aggiunge Doppio obiettivo (grandangolo e ultra-grandangolo insieme su iPhone 11 e successivi) e un flusso di lavoro con progetti, scene e take con nomi dei file automatici, e offre ancora un acquisto unico a vita oltre agli abbonamenti. Confronto completo: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/" } }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/app/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://contentcam.app/#website",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
       }
-    ]
-  }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://contentcam.app/it/#app",
+      "name": "ContentCam",
+      "alternateName": "ContentCam: Dual Camera Video",
+      "description": "ContentCam è un'app fotocamera per iPhone e Android che registra contemporaneamente video verticali 9:16 e orizzontali 16:9 con un solo take. Include un teleprompter integrato, controlli manuali della fotocamera (esposizione, bilanciamento del bianco, ISO, tempo di otturazione), timelapse, 4K e un flusso di lavoro con progetti, scene e take pensato per i content creator.",
+      "operatingSystem": "iOS 18.0 o successivo, Android 8.0 o successivo",
+      "applicationCategory": "MultimediaApplication",
+      "url": "https://contentcam.app/it/",
+      "mainEntityOfPage": "https://contentcam.app/it/",
+      "downloadUrl": "https://apps.apple.com/app/id6765881795",
+      "installUrl": "https://apps.apple.com/app/id6765881795",
+      "screenshot": [
+        "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
+        "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
+        "https://contentcam.app/assets/img/ui-projects-640.webp"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Download gratuito",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Download e uso gratuiti: registrazione con Obiettivo singolo, 1080p, 30fps, fotocamera frontale, 3 progetti, 5 take gratuiti con Doppio obiettivo, nessuna filigrana. Upgrade Premium facoltativo come acquisto in-app; i prezzi aggiornati sono indicati nell'App Store e su Google Play."
+        }
+      ],
+      "author": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "354",
+        "bestRating": "5",
+        "worstRating": "1",
+        "description": "Google Play rating, November 2026"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://contentcam.app/it/#faq",
+      "url": "https://contentcam.app/it/",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Il video orizzontale non è solo un ritaglio di quello verticale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. In modalità Obiettivo singolo ContentCam registra l'intero fotogramma 4:3 del sensore e ricava da lì ciascun formato, così l'orizzontale mantiene tutta la larghezza e il verticale tutta l'altezza. Ogni file viene codificato separatamente in HEVC, a 1080×1920 e 1920×1080 o nei rispettivi equivalenti 4K. Nessuno dei due è un ritaglio ingrandito dell'altro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ContentCam è gratis o serve un abbonamento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puoi scaricarla e usarla gratis: registrazione con Obiettivo singolo in entrambi i formati, 1080p, 30fps, tre progetti e nessuna filigrana. Premium è facoltativo e scegli tu come pagare: un piano annuale con prova gratuita, un piano mensile o un acquisto unico a vita. Sbloccano tutti le stesse funzioni, con prezzi nella tua valuta locale nell'App Store e su Google Play."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso provare le funzioni Premium prima di pagare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Ogni funzione Premium si può provare in anteprima dal vivo, comprese le ghiere manuali. Il paywall compare solo quando premi Registra con una funzione Premium attiva. Doppio obiettivo e Frontale e posteriore ti danno anche 5 registrazioni gratuite ciascuna, e il piano annuale parte con una prova gratuita."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ci sono pubblicità o filigrane?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Niente pubblicità e niente filigrana, con qualsiasi piano, anche quello gratuito."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Su quali telefoni funziona?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iPhone XS e successivi con iOS 18 o versioni più recenti; la modalità Doppio obiettivo richiede iPhone 11 o successivo con fotocamera ultra-grandangolare (non iPhone SE né iPhone 16e). Android 8.0 o versioni più recenti; 4K, 60fps ed esposizione manuale dipendono da ciò che supporta la fotocamera del tuo telefono. Doppio obiettivo e HDR per ora sono disponibili solo su iPhone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Si possono usare la fotocamera frontale e quella posteriore contemporaneamente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì, su iPhone e Android, in due file separati o in un unico video combinato. Frontale e posteriore funziona su ogni iPhone con iOS 18, compresi iPhone 15 e 16, ed è una modalità Premium con 5 registrazioni gratuite per provarla. Anche gli iPhone recenti come iPhone 17 hanno la funzione Dual Capture integrata di Apple, che salva entrambe le fotocamere in un unico file picture-in-picture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Che differenza c'è tra ContentCam e DualShot Recorder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entrambe registrano in verticale e in orizzontale con un solo take. DualShot Recorder è solo per iPhone; ContentCam funziona su iPhone e Android, aggiunge Doppio obiettivo (grandangolo e ultra-grandangolo insieme su iPhone 11 e successivi) e un flusso di lavoro con progetti, scene e take con nomi dei file automatici, e offre ancora un acquisto unico a vita oltre agli abbonamenti. Confronto completo: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/"
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
   <style>
     /* home page (revamped 2026-10-08). Names prefixed hx- / rv / ccbar to avoid the global .cta class in styles.css */

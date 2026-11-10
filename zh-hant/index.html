@@ -31,68 +31,135 @@
   <meta name="twitter:description" content="一次拍攝同時錄下 9:16 和 16:9，內建提詞機和手動控制。支援 iPhone 和 Android。">
   <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://contentcam.app/#org",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "logo": "https://contentcam.app/assets/icon-512.png",
-        "email": "contentcam.app@gmail.com",
-        "sameAs": [
-          "https://www.instagram.com/contentcam.app",
-          "https://www.tiktok.com/@contentcam.app",
-          "https://www.youtube.com/@ContentCam-app",
-          "https://discord.gg/YxUpbUgthH",
-          "https://apps.apple.com/app/id6765881795",
-          "https://play.google.com/store/apps/details?id=app.contentcam.android"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://contentcam.app/#website",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "publisher": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "SoftwareApplication",
-        "@id": "https://contentcam.app/zh-hant/#app",
-        "name": "ContentCam",
-        "alternateName": "ContentCam: Dual Camera Video",
-        "description": "ContentCam 是一款 iPhone 和 Android 相機 App，一次拍攝就能同時錄下 9:16 直式和 16:9 橫式影片。內建提詞機、手動相機控制（曝光、白平衡、ISO、快門速度）、縮時攝影、4K，以及為內容創作者設計的專案、場景和 take 工作流程。",
-        "operatingSystem": "iOS 18.0 或更新版本、Android 8.0 或更新版本",
-        "applicationCategory": "MultimediaApplication",
-        "url": "https://contentcam.app/zh-hant/",
-        "downloadUrl": "https://apps.apple.com/app/id6765881795",
-        "installUrl": "https://apps.apple.com/app/id6765881795",
-        "screenshot": [
-          "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
-          "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
-          "https://contentcam.app/assets/img/ui-projects-640.webp"
-        ],
-        "offers": [
-          { "@type": "Offer", "name": "免費下載", "price": "0", "priceCurrency": "USD", "description": "免費下載和使用：單鏡頭錄影、1080p、30fps、前鏡頭、3 個專案、5 次免費雙鏡頭 take，沒有浮水印。可透過 App 內購買選購 Premium 升級；目前價格以 App Store 和 Google Play 顯示為準。" }
-        ],
-        "author": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://contentcam.app/zh-hant/#faq",
-        "mainEntity": [
-          { "@type": "Question", "name": "橫式影片不就是從直式裁出來的嗎？", "acceptedAnswer": { "@type": "Answer", "text": "不是。在單鏡頭模式下，ContentCam 會錄下感光元件完整的 4:3 畫面，再分別裁出兩種格式，所以橫式保有完整寬度，直式保有完整高度。每個檔案都單獨以 HEVC 編碼，解析度為 1080×1920 和 1920×1080，或相對應的 4K。兩者都不是從對方裁切再放大的。" } },
-          { "@type": "Question", "name": "ContentCam 是免費的嗎？還是要訂閱？", "acceptedAnswer": { "@type": "Answer", "text": "免費下載、免費使用：單鏡頭同時錄兩種格式、1080p、30fps、三個專案，而且沒有浮水印。Premium 是選配，付費方式由你決定：附免費試用的年方案、月方案，或一次買斷終身使用。三種方案解鎖的功能完全相同，App Store 和 Google Play 會以你當地的貨幣標價。" } },
-          { "@type": "Question", "name": "付費前可以先試用 Premium 功能嗎？", "acceptedAnswer": { "@type": "Answer", "text": "可以。每一項 Premium 功能都能即時預覽，包括手動轉盤。只有在開啟 Premium 功能後按下錄影，才會出現付費畫面。雙鏡頭和前後鏡頭也各有 5 次免費錄影，年方案則從免費試用開始。" } },
-          { "@type": "Question", "name": "有廣告或浮水印嗎？", "acceptedAnswer": { "@type": "Answer", "text": "沒有。不論哪個方案，包括免費版，都沒有廣告也沒有浮水印。" } },
-          { "@type": "Question", "name": "支援哪些手機？", "acceptedAnswer": { "@type": "Answer", "text": "iOS 18 或更新版本的 iPhone XS 及更新機型；雙鏡頭模式需要配備超廣角鏡頭的 iPhone 11 或更新機型（不含 iPhone SE 和 iPhone 16e）。Android 8.0 或更新版本；4K、60fps 和手動曝光要看你的手機相機支援什麼。雙鏡頭和 HDR 目前只支援 iPhone。" } },
-          { "@type": "Question", "name": "可以前後鏡頭同時錄影嗎？", "acceptedAnswer": { "@type": "Answer", "text": "可以，iPhone 和 Android 都行，可以存成兩個獨立檔案，也可以合成一支影片。前後鏡頭模式支援所有 iOS 18 的 iPhone，包括 iPhone 15 和 16，屬於 Premium 模式，有 5 次免費錄影可以試用。iPhone 17 等較新的 iPhone 也有 Apple 的雙重拍攝（Dual Capture），會把兩顆鏡頭存成一個子母畫面檔案。" } },
-          { "@type": "Question", "name": "ContentCam 和 DualShot Recorder 有什麼不同？", "acceptedAnswer": { "@type": "Answer", "text": "兩者都能一次拍攝同時錄下直式和橫式。DualShot Recorder 只有 iPhone 版；ContentCam 支援 iPhone 和 Android，還多了雙鏡頭（在 iPhone 11 及更新機型上同時用廣角和超廣角錄影）以及自動命名檔案的專案、場景和 take 工作流程，而且除了訂閱之外，仍然提供一次買斷終身使用的方案。完整比較：https://contentcam.app/blog/dualshot-recorder-vs-contentcam/" } }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/app/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://contentcam.app/#website",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
       }
-    ]
-  }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://contentcam.app/zh-hant/#app",
+      "name": "ContentCam",
+      "alternateName": "ContentCam: Dual Camera Video",
+      "description": "ContentCam 是一款 iPhone 和 Android 相機 App，一次拍攝就能同時錄下 9:16 直式和 16:9 橫式影片。內建提詞機、手動相機控制（曝光、白平衡、ISO、快門速度）、縮時攝影、4K，以及為內容創作者設計的專案、場景和 take 工作流程。",
+      "operatingSystem": "iOS 18.0 或更新版本、Android 8.0 或更新版本",
+      "applicationCategory": "MultimediaApplication",
+      "url": "https://contentcam.app/zh-hant/",
+      "downloadUrl": "https://apps.apple.com/app/id6765881795",
+      "installUrl": "https://apps.apple.com/app/id6765881795",
+      "screenshot": [
+        "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
+        "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
+        "https://contentcam.app/assets/img/ui-projects-640.webp"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "免費下載",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "免費下載和使用：單鏡頭錄影、1080p、30fps、前鏡頭、3 個專案、5 次免費雙鏡頭 take，沒有浮水印。可透過 App 內購買選購 Premium 升級；目前價格以 App Store 和 Google Play 顯示為準。"
+        }
+      ],
+      "author": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "354",
+        "bestRating": "5",
+        "worstRating": "1",
+        "description": "Google Play rating, November 2026"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://contentcam.app/zh-hant/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "橫式影片不就是從直式裁出來的嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "不是。在單鏡頭模式下，ContentCam 會錄下感光元件完整的 4:3 畫面，再分別裁出兩種格式，所以橫式保有完整寬度，直式保有完整高度。每個檔案都單獨以 HEVC 編碼，解析度為 1080×1920 和 1920×1080，或相對應的 4K。兩者都不是從對方裁切再放大的。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ContentCam 是免費的嗎？還是要訂閱？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "免費下載、免費使用：單鏡頭同時錄兩種格式、1080p、30fps、三個專案，而且沒有浮水印。Premium 是選配，付費方式由你決定：附免費試用的年方案、月方案，或一次買斷終身使用。三種方案解鎖的功能完全相同，App Store 和 Google Play 會以你當地的貨幣標價。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "付費前可以先試用 Premium 功能嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。每一項 Premium 功能都能即時預覽，包括手動轉盤。只有在開啟 Premium 功能後按下錄影，才會出現付費畫面。雙鏡頭和前後鏡頭也各有 5 次免費錄影，年方案則從免費試用開始。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有廣告或浮水印嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "沒有。不論哪個方案，包括免費版，都沒有廣告也沒有浮水印。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "支援哪些手機？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iOS 18 或更新版本的 iPhone XS 及更新機型；雙鏡頭模式需要配備超廣角鏡頭的 iPhone 11 或更新機型（不含 iPhone SE 和 iPhone 16e）。Android 8.0 或更新版本；4K、60fps 和手動曝光要看你的手機相機支援什麼。雙鏡頭和 HDR 目前只支援 iPhone。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "可以前後鏡頭同時錄影嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以，iPhone 和 Android 都行，可以存成兩個獨立檔案，也可以合成一支影片。前後鏡頭模式支援所有 iOS 18 的 iPhone，包括 iPhone 15 和 16，屬於 Premium 模式，有 5 次免費錄影可以試用。iPhone 17 等較新的 iPhone 也有 Apple 的雙重拍攝（Dual Capture），會把兩顆鏡頭存成一個子母畫面檔案。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ContentCam 和 DualShot Recorder 有什麼不同？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "兩者都能一次拍攝同時錄下直式和橫式。DualShot Recorder 只有 iPhone 版；ContentCam 支援 iPhone 和 Android，還多了雙鏡頭（在 iPhone 11 及更新機型上同時用廣角和超廣角錄影）以及自動命名檔案的專案、場景和 take 工作流程，而且除了訂閱之外，仍然提供一次買斷終身使用的方案。完整比較：https://contentcam.app/blog/dualshot-recorder-vs-contentcam/"
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
   <style>
     /* home page (revamped 2026-10-08). Names prefixed hx- / rv / ccbar to avoid the global .cta class in styles.css */
@@ -278,7 +345,7 @@
           <span class="eyebrow"><span class="rec-dot"></span>一次拍攝 · 兩種格式</span>
           <h1>同一支影片<br>別再<span class="accent">拍兩次。</span></h1>
           <p class="tagline">ContentCam 同時錄下<strong>直式（9:16）</strong>和<strong>橫式（16:9）</strong>影片。拍一次，就有給 TikTok、Reels 和 Shorts 的直式影片，也有給 YouTube 的橫式影片。兩種都是完整畫面，不是裁切。</p>
-          <p class="subnote hx-proofline">1,000+ 位創作者評分 <span class="star">★</span> 4.8 · 下載次數 50,000+</p>
+          <p class="subnote hx-proofline">580 位創作者評分 <span class="star">★</span> 4.8 · 下載次數 50,000+</p>
           <div class="badges">
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=zh-hant-home2-hero&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="從 App Store 下載" width="156" height="52"></a>
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-hero%26utm_campaign%3Dzh-hant-home2-hero"><img class="badge-play" src="/assets/google-play-badge.webp" alt="立即在 Google Play 下載" width="175" height="52"></a>

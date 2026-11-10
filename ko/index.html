@@ -31,68 +31,135 @@
   <meta name="twitter:description" content="한 번 찍으면 9:16과 16:9가 함께 저장돼요. 텔레프롬프터와 수동 조작까지. iPhone과 Android 지원.">
   <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://contentcam.app/#org",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "logo": "https://contentcam.app/assets/icon-512.png",
-        "email": "contentcam.app@gmail.com",
-        "sameAs": [
-          "https://www.instagram.com/contentcam.app",
-          "https://www.tiktok.com/@contentcam.app",
-          "https://www.youtube.com/@ContentCam-app",
-          "https://discord.gg/YxUpbUgthH",
-          "https://apps.apple.com/app/id6765881795",
-          "https://play.google.com/store/apps/details?id=app.contentcam.android"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://contentcam.app/#website",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "publisher": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "SoftwareApplication",
-        "@id": "https://contentcam.app/ko/#app",
-        "name": "ContentCam",
-        "alternateName": "ContentCam: Dual Camera Video",
-        "description": "ContentCam은 한 번의 촬영으로 9:16 세로 영상과 16:9 가로 영상을 동시에 녹화하는 iPhone·Android용 카메라 앱이에요. 텔레프롬프터, 카메라 수동 조작(노출, 화이트 밸런스, ISO, 셔터 속도), 타임랩스, 4K, 크리에이터를 위한 프로젝트/씬/테이크 워크플로우가 들어 있어요.",
-        "operatingSystem": "iOS 18.0 이상, Android 8.0 이상",
-        "applicationCategory": "MultimediaApplication",
-        "url": "https://contentcam.app/ko/",
-        "downloadUrl": "https://apps.apple.com/app/id6765881795",
-        "installUrl": "https://apps.apple.com/app/id6765881795",
-        "screenshot": [
-          "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
-          "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
-          "https://contentcam.app/assets/img/ui-projects-640.webp"
-        ],
-        "offers": [
-          { "@type": "Offer", "name": "무료 다운로드", "price": "0", "priceCurrency": "USD", "description": "무료로 다운로드해서 사용: 싱글 렌즈 녹화, 1080p, 30fps, 전면 카메라, 프로젝트 3개, 듀얼 렌즈 무료 테이크 5개, 워터마크 없음. 프리미엄은 앱 내 구입으로 선택해서 업그레이드할 수 있고, 현재 가격은 App Store와 Google Play에 표시돼요." }
-        ],
-        "author": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://contentcam.app/ko/#faq",
-        "mainEntity": [
-          { "@type": "Question", "name": "가로 영상은 세로 영상을 크롭한 것 아닌가요?", "acceptedAnswer": { "@type": "Answer", "text": "아니에요. 싱글 렌즈 모드에서 ContentCam은 센서의 4:3 화면 전체를 녹화하고 거기서 각 비율을 잘라내요. 그래서 가로 영상은 가로 화각 전체를, 세로 영상은 세로 화각 전체를 그대로 살려요. 각 파일은 1080×1920과 1920×1080(또는 같은 비율의 4K)으로 HEVC로 따로 인코딩돼요. 어느 쪽도 다른 쪽을 크롭해서 확대한 게 아니에요." } },
-          { "@type": "Question", "name": "ContentCam은 무료인가요, 아니면 구독해야 하나요?", "acceptedAnswer": { "@type": "Answer", "text": "무료로 다운로드해서 쓸 수 있어요. 두 비율 싱글 렌즈 녹화, 1080p, 30fps, 프로젝트 3개가 무료이고 워터마크도 없어요. 프리미엄은 선택이고, 결제 방식도 골라요. 무료 체험이 있는 연간 구독, 월간 구독, 한 번 결제하는 평생 이용권 중에서요. 어떤 걸 골라도 열리는 기능은 똑같고, 가격은 App Store와 Google Play에 현지 통화로 표시돼요." } },
-          { "@type": "Question", "name": "결제하기 전에 프리미엄 기능을 써 볼 수 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "네. 수동 조작 다이얼을 포함해 모든 프리미엄 기능을 실시간 미리보기로 확인할 수 있어요. 결제 화면은 프리미엄 기능을 켠 상태로 녹화 버튼을 누를 때만 나타나요. 듀얼 렌즈와 전면·후면은 각각 5번까지 무료로 녹화할 수 있고, 연간 구독은 무료 체험으로 시작해요." } },
-          { "@type": "Question", "name": "광고나 워터마크가 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "없어요. 무료를 포함해 어떤 요금제에도 광고와 워터마크가 없어요." } },
-          { "@type": "Question", "name": "어떤 폰에서 쓸 수 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "iOS 18 이상이 설치된 iPhone XS 이후 모델에서 쓸 수 있어요. 듀얼 렌즈 모드는 초광각 카메라가 있는 iPhone 11 이후 모델이 필요해요(iPhone SE, iPhone 16e 제외). Android는 8.0 이상이면 되고, 4K, 60fps, 수동 노출은 폰 카메라가 지원하는지에 따라 달라요. 듀얼 렌즈와 HDR은 지금은 iPhone에서만 쓸 수 있어요." } },
-          { "@type": "Question", "name": "전면 카메라와 후면 카메라로 동시에 촬영할 수 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "네, iPhone과 Android 모두 돼요. 파일 두 개로 따로 저장하거나 영상 하나로 합칠 수 있어요. 전면·후면 모드는 iPhone 15와 16을 포함해 iOS 18이 설치된 모든 iPhone에서 쓸 수 있고, 5번까지 무료로 써 볼 수 있는 프리미엄 모드예요. iPhone 17 같은 최신 iPhone에는 Apple의 기본 듀얼 캡처 기능도 있는데, 두 카메라를 PIP(화면 속 화면) 파일 하나로 저장해요." } },
-          { "@type": "Question", "name": "DualShot Recorder와 뭐가 다른가요?", "acceptedAnswer": { "@type": "Answer", "text": "둘 다 한 번의 촬영으로 세로와 가로 영상을 녹화해요. DualShot Recorder는 iPhone 전용이고, ContentCam은 iPhone과 Android에서 모두 돌아가요. 여기에 듀얼 렌즈(iPhone 11 이후 모델에서 광각과 초광각 동시 녹화)와 파일 이름을 자동으로 붙여 주는 프로젝트, 씬, 테이크 워크플로우가 더해지고, 구독과 함께 한 번 결제하는 평생 이용권도 계속 제공해요. 자세한 비교: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/" } }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/app/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://contentcam.app/#website",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
       }
-    ]
-  }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://contentcam.app/ko/#app",
+      "name": "ContentCam",
+      "alternateName": "ContentCam: Dual Camera Video",
+      "description": "ContentCam은 한 번의 촬영으로 9:16 세로 영상과 16:9 가로 영상을 동시에 녹화하는 iPhone·Android용 카메라 앱이에요. 텔레프롬프터, 카메라 수동 조작(노출, 화이트 밸런스, ISO, 셔터 속도), 타임랩스, 4K, 크리에이터를 위한 프로젝트/씬/테이크 워크플로우가 들어 있어요.",
+      "operatingSystem": "iOS 18.0 이상, Android 8.0 이상",
+      "applicationCategory": "MultimediaApplication",
+      "url": "https://contentcam.app/ko/",
+      "downloadUrl": "https://apps.apple.com/app/id6765881795",
+      "installUrl": "https://apps.apple.com/app/id6765881795",
+      "screenshot": [
+        "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
+        "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
+        "https://contentcam.app/assets/img/ui-projects-640.webp"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "무료 다운로드",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "무료로 다운로드해서 사용: 싱글 렌즈 녹화, 1080p, 30fps, 전면 카메라, 프로젝트 3개, 듀얼 렌즈 무료 테이크 5개, 워터마크 없음. 프리미엄은 앱 내 구입으로 선택해서 업그레이드할 수 있고, 현재 가격은 App Store와 Google Play에 표시돼요."
+        }
+      ],
+      "author": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "354",
+        "bestRating": "5",
+        "worstRating": "1",
+        "description": "Google Play rating, November 2026"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://contentcam.app/ko/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "가로 영상은 세로 영상을 크롭한 것 아닌가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "아니에요. 싱글 렌즈 모드에서 ContentCam은 센서의 4:3 화면 전체를 녹화하고 거기서 각 비율을 잘라내요. 그래서 가로 영상은 가로 화각 전체를, 세로 영상은 세로 화각 전체를 그대로 살려요. 각 파일은 1080×1920과 1920×1080(또는 같은 비율의 4K)으로 HEVC로 따로 인코딩돼요. 어느 쪽도 다른 쪽을 크롭해서 확대한 게 아니에요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ContentCam은 무료인가요, 아니면 구독해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "무료로 다운로드해서 쓸 수 있어요. 두 비율 싱글 렌즈 녹화, 1080p, 30fps, 프로젝트 3개가 무료이고 워터마크도 없어요. 프리미엄은 선택이고, 결제 방식도 골라요. 무료 체험이 있는 연간 구독, 월간 구독, 한 번 결제하는 평생 이용권 중에서요. 어떤 걸 골라도 열리는 기능은 똑같고, 가격은 App Store와 Google Play에 현지 통화로 표시돼요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "결제하기 전에 프리미엄 기능을 써 볼 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네. 수동 조작 다이얼을 포함해 모든 프리미엄 기능을 실시간 미리보기로 확인할 수 있어요. 결제 화면은 프리미엄 기능을 켠 상태로 녹화 버튼을 누를 때만 나타나요. 듀얼 렌즈와 전면·후면은 각각 5번까지 무료로 녹화할 수 있고, 연간 구독은 무료 체험으로 시작해요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "광고나 워터마크가 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "없어요. 무료를 포함해 어떤 요금제에도 광고와 워터마크가 없어요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "어떤 폰에서 쓸 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iOS 18 이상이 설치된 iPhone XS 이후 모델에서 쓸 수 있어요. 듀얼 렌즈 모드는 초광각 카메라가 있는 iPhone 11 이후 모델이 필요해요(iPhone SE, iPhone 16e 제외). Android는 8.0 이상이면 되고, 4K, 60fps, 수동 노출은 폰 카메라가 지원하는지에 따라 달라요. 듀얼 렌즈와 HDR은 지금은 iPhone에서만 쓸 수 있어요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "전면 카메라와 후면 카메라로 동시에 촬영할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네, iPhone과 Android 모두 돼요. 파일 두 개로 따로 저장하거나 영상 하나로 합칠 수 있어요. 전면·후면 모드는 iPhone 15와 16을 포함해 iOS 18이 설치된 모든 iPhone에서 쓸 수 있고, 5번까지 무료로 써 볼 수 있는 프리미엄 모드예요. iPhone 17 같은 최신 iPhone에는 Apple의 기본 듀얼 캡처 기능도 있는데, 두 카메라를 PIP(화면 속 화면) 파일 하나로 저장해요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualShot Recorder와 뭐가 다른가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "둘 다 한 번의 촬영으로 세로와 가로 영상을 녹화해요. DualShot Recorder는 iPhone 전용이고, ContentCam은 iPhone과 Android에서 모두 돌아가요. 여기에 듀얼 렌즈(iPhone 11 이후 모델에서 광각과 초광각 동시 녹화)와 파일 이름을 자동으로 붙여 주는 프로젝트, 씬, 테이크 워크플로우가 더해지고, 구독과 함께 한 번 결제하는 평생 이용권도 계속 제공해요. 자세한 비교: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/"
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
   <style>
     /* home page (revamped 2026-10-08). Names prefixed hx- / rv / ccbar to avoid the global .cta class in styles.css */

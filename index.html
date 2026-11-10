@@ -30,68 +30,135 @@
   <meta name="twitter:description" content="One take captures both 9:16 and 16:9, with a built-in teleprompter and manual controls. iPhone and Android.">
   <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://contentcam.app/#org",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "logo": "https://contentcam.app/assets/icon-512.png",
-        "email": "contentcam.app@gmail.com",
-        "sameAs": [
-          "https://www.instagram.com/contentcam.app",
-          "https://www.tiktok.com/@contentcam.app",
-          "https://www.youtube.com/@ContentCam-app",
-          "https://discord.gg/YxUpbUgthH",
-          "https://apps.apple.com/app/id6765881795",
-          "https://play.google.com/store/apps/details?id=app.contentcam.android"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://contentcam.app/#website",
-        "name": "ContentCam",
-        "url": "https://contentcam.app/",
-        "publisher": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "SoftwareApplication",
-        "@id": "https://contentcam.app/#app",
-        "name": "ContentCam",
-        "alternateName": "ContentCam: Dual Camera Video",
-        "description": "ContentCam is a camera app for iPhone and Android that records 9:16 portrait and 16:9 landscape video simultaneously from a single take. It includes a built-in teleprompter, manual camera controls (exposure, white balance, ISO, shutter speed), timelapse, 4K, and a project/scene/take workflow for content creators.",
-        "operatingSystem": "iOS 18.0 or later, Android 8.0 or later",
-        "applicationCategory": "MultimediaApplication",
-        "url": "https://contentcam.app/",
-        "downloadUrl": "https://apps.apple.com/app/id6765881795",
-        "installUrl": "https://apps.apple.com/app/id6765881795",
-        "screenshot": [
-          "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
-          "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
-          "https://contentcam.app/assets/img/ui-projects-640.webp"
-        ],
-        "offers": [
-          { "@type": "Offer", "name": "Free download", "price": "0", "priceCurrency": "USD", "description": "Free to download and use: Single Lens recording, 1080p, 30fps, front camera, 3 projects, 5 free Dual Lens takes, no watermark. Optional premium upgrade as an in-app purchase; current prices shown in the App Store and Google Play." }
-        ],
-        "author": { "@id": "https://contentcam.app/#org" }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://contentcam.app/#faq",
-        "mainEntity": [
-          { "@type": "Question", "name": "Isn't the landscape just a crop of the portrait?", "acceptedAnswer": { "@type": "Answer", "text": "No. In Single Lens mode ContentCam records the sensor's full 4:3 frame and cuts each format from it, so the landscape keeps the full width and the portrait keeps the full height. Each file is encoded on its own in HEVC, at 1080×1920 and 1920×1080 or the 4K equivalents. Neither is an upscaled crop of the other." } },
-          { "@type": "Question", "name": "Is ContentCam free, or do I need a subscription?", "acceptedAnswer": { "@type": "Answer", "text": "It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark. Premium is optional, and you choose how to pay: an annual plan with a free trial, a monthly plan, or a one-time lifetime purchase. They all unlock the same features, priced in your local currency in the App Store and Google Play." } },
-          { "@type": "Question", "name": "Can I try the premium features before paying?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every premium feature can be previewed live, including the manual dials. The paywall only appears when you press record with a premium feature switched on. Dual Lens and Front & Back also give you 5 free recordings each, and the annual plan starts with a free trial." } },
-          { "@type": "Question", "name": "Are there ads or a watermark?", "acceptedAnswer": { "@type": "Answer", "text": "No. No ads and no watermark, on any tier, free included." } },
-          { "@type": "Question", "name": "Which phones does it work on?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone XS and later on iOS 18 or newer; Dual Lens mode needs iPhone 11 or later with an ultra-wide camera (not iPhone SE or iPhone 16e). Android 8.0 or newer; 4K, 60fps and manual exposure depend on what your phone's camera supports. Dual Lens and HDR are iPhone-only for now." } },
-          { "@type": "Question", "name": "Can it record the front and back cameras at the same time?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, on iPhone and Android, as two separate files or one combined video. Front & Back works on every iPhone on iOS 18, including iPhone 15 and 16, and is a premium mode with 5 free recordings to try. Recent iPhones such as iPhone 17 also have Apple's Dual Capture, which saves both cameras as one picture-in-picture file." } },
-          { "@type": "Question", "name": "How is it different from DualShot Recorder?", "acceptedAnswer": { "@type": "Answer", "text": "Both record portrait and landscape from one take. DualShot Recorder is iPhone-only; ContentCam runs on iPhone and Android, adds Dual Lens (wide and ultra-wide at once on iPhone 11 and later) and a projects, scenes and takes workflow with automatic file naming, and still offers a one-off lifetime purchase alongside its subscriptions. Full comparison: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/" } }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/app/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://contentcam.app/#website",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
       }
-    ]
-  }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://contentcam.app/#app",
+      "name": "ContentCam",
+      "alternateName": "ContentCam: Dual Camera Video",
+      "description": "ContentCam is a camera app for iPhone and Android that records 9:16 portrait and 16:9 landscape video simultaneously from a single take. It includes a built-in teleprompter, manual camera controls (exposure, white balance, ISO, shutter speed), timelapse, 4K, and a project/scene/take workflow for content creators.",
+      "operatingSystem": "iOS 18.0 or later, Android 8.0 or later",
+      "applicationCategory": "MultimediaApplication",
+      "url": "https://contentcam.app/",
+      "downloadUrl": "https://apps.apple.com/app/id6765881795",
+      "installUrl": "https://apps.apple.com/app/id6765881795",
+      "screenshot": [
+        "https://contentcam.app/assets/img/ui-record-handsup-640.webp",
+        "https://contentcam.app/assets/img/ui-review-sunset-640.webp",
+        "https://contentcam.app/assets/img/ui-projects-640.webp"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free download",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Free to download and use: Single Lens recording, 1080p, 30fps, front camera, 3 projects, 5 free Dual Lens takes, no watermark. Optional premium upgrade as an in-app purchase; current prices shown in the App Store and Google Play."
+        }
+      ],
+      "author": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "354",
+        "bestRating": "5",
+        "worstRating": "1",
+        "description": "Google Play rating, November 2026"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://contentcam.app/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Isn't the landscape just a crop of the portrait?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. In Single Lens mode ContentCam records the sensor's full 4:3 frame and cuts each format from it, so the landscape keeps the full width and the portrait keeps the full height. Each file is encoded on its own in HEVC, at 1080×1920 and 1920×1080 or the 4K equivalents. Neither is an upscaled crop of the other."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is ContentCam free, or do I need a subscription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's free to download and use: Single Lens recording in both formats, 1080p, 30fps, three projects and no watermark. Premium is optional, and you choose how to pay: an annual plan with a free trial, a monthly plan, or a one-time lifetime purchase. They all unlock the same features, priced in your local currency in the App Store and Google Play."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I try the premium features before paying?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every premium feature can be previewed live, including the manual dials. The paywall only appears when you press record with a premium feature switched on. Dual Lens and Front & Back also give you 5 free recordings each, and the annual plan starts with a free trial."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there ads or a watermark?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. No ads and no watermark, on any tier, free included."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which phones does it work on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "iPhone XS and later on iOS 18 or newer; Dual Lens mode needs iPhone 11 or later with an ultra-wide camera (not iPhone SE or iPhone 16e). Android 8.0 or newer; 4K, 60fps and manual exposure depend on what your phone's camera supports. Dual Lens and HDR are iPhone-only for now."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can it record the front and back cameras at the same time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, on iPhone and Android, as two separate files or one combined video. Front & Back works on every iPhone on iOS 18, including iPhone 15 and 16, and is a premium mode with 5 free recordings to try. Recent iPhones such as iPhone 17 also have Apple's Dual Capture, which saves both cameras as one picture-in-picture file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is it different from DualShot Recorder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both record portrait and landscape from one take. DualShot Recorder is iPhone-only; ContentCam runs on iPhone and Android, adds Dual Lens (wide and ultra-wide at once on iPhone 11 and later) and a projects, scenes and takes workflow with automatic file naming, and still offers a one-off lifetime purchase alongside its subscriptions. Full comparison: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/"
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
   <style>
     /* home page (revamped 2026-10-08). Names prefixed hx- / rv / ccbar to avoid the global .cta class in styles.css */
@@ -277,7 +344,7 @@
           <span class="eyebrow"><span class="rec-dot"></span>One take · two formats</span>
           <h1>Stop filming<br>everything <span class="accent">twice.</span></h1>
           <p class="tagline">ContentCam records <strong>portrait (9:16)</strong> and <strong>landscape (16:9)</strong> at the same time. One take gives you a vertical video for TikTok, Reels and Shorts, and a horizontal video for YouTube. Full frame both ways, not a crop.</p>
-          <p class="subnote hx-proofline">Rated <span class="star">★</span> 4.8 by 1,000+ creators · 50,000+ downloads</p>
+          <p class="subnote hx-proofline">Rated <span class="star">★</span> 4.8 from 580 ratings · 50,000+ downloads</p>
           <div class="badges">
           <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=home2-hero&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dhome2-hero%26utm_campaign%3Dhome2-hero"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Get it on Google Play" width="175" height="52"></a>
