@@ -110,3 +110,5 @@ def main(check=False):
 
 if __name__ == "__main__":
     main(check="--check" in sys.argv)
+    if "--check" not in sys.argv:  # plain Markdown copies of English pages for AI crawlers
+        import subprocess; subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "md_export.py")])
