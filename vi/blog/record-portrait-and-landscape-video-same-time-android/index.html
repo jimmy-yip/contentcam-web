@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Cách quay video dọc và ngang cùng lúc trên Android (2026)</title>
+  <meta name="description" content="Ba cách có được video 9:16 và 16:9 từ một take trên Android: cắt khi dựng, quay 4K rồi đổi khung, hoặc quay cả hai file cùng lúc. Mỗi cách tốn gì.">
+  <link rel="canonical" href="https://contentcam.app/vi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:title" content="Cách quay video dọc và ngang cùng lúc trên Android (2026)">
+  <meta property="og:description" content="Ba cách có 9:16 và 16:9 từ một take trên Android, và mỗi cách làm bạn mất gì về khung hình và chất lượng.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/vi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cách quay video dọc và ngang cùng lúc trên Android (2026)">
+  <meta name="twitter:description" content="Ba cách có 9:16 và 16:9 từ một take trên Android, và mỗi cách tốn gì.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/vi/blog/record-portrait-and-landscape-video-same-time-android/",
+        "headline": "Cách quay video dọc và ngang cùng lúc trên Android (2026)",
+        "description": "Ba cách có video 9:16 và 16:9 từ một take trên Android: cắt khi dựng, quay 4K rồi đổi khung, hoặc quay cả hai file cùng lúc.",
+        "image": "https://contentcam.app/assets/og/og-home.jpg",
+        "datePublished": "2026-09-30",
+        "dateModified": "2026-11-05",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "Nhà phát triển ContentCam", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/vi/blog/record-portrait-and-landscape-video-same-time-android/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://contentcam.app/vi/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Quay dọc và ngang cùng lúc trên Android", "item": "https://contentcam.app/vi/blog/record-portrait-and-landscape-video-same-time-android/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Điện thoại Android có quay được video dọc và ngang cùng lúc không?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Không, với các app camera mặc định thì không. Samsung Camera và Pixel Camera chỉ quay một hình dạng cho mỗi take. Một app của bên thứ ba quay từ toàn bộ khung cảm biến 4:3 có thể lưu một file dọc 9:16 và một file ngang 16:9 từ cùng một take." }
+          },
+          {
+            "@type": "Question",
+            "name": "Có app Android nào quay video ngang và dọc cùng lúc không?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Có. ContentCam cho Android quay một file dọc 9:16 và một file ngang 16:9 từ một take, trên cả camera sau và camera trước, ở 1080p ở bản miễn phí, không quảng cáo và không logo chìm." }
+          },
+          {
+            "@type": "Question",
+            "name": "Cắt video 16:9 thành 9:16 thì mất bao nhiêu hình?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Khoảng 68%. Một dải 9:16 cắt ở chiều cao đầy đủ của khung 1920x1080 rộng 607,5 điểm ảnh, tức 31,6% của chiều rộng 1920 điểm ảnh. 68,4% còn lại của cảnh bị bỏ đi." }
+          },
+          {
+            "@type": "Question",
+            "name": "Tôi có thể quay camera trước và sau cùng lúc trên Android để làm video reaction không?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Có. Chế độ Trước và sau (Front & Back) của ContentCam quay camera trước và camera sau trong một take trên các điện thoại Android có camera chạy cùng lúc được, lưu thành hai file HD riêng ở tối đa 30fps. Trình chỉnh sửa Combine sau đó có thể ghép chúng thành một video hình trong hình hoặc chia đôi màn hình. Đây là tính năng Premium, có 5 lần quay miễn phí để dùng thử." }
+          },
+          {
+            "@type": "Question",
+            "name": "Quay 4K trên Android có cho phép cắt video dọc từ video ngang không?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Có, nếu còn đủ độ phân giải. Một dải 9:16 cắt từ khung 3840x2160 là 1215x2160 điểm ảnh, nhiều hơn mức một video dọc 1080x1920 cần. Khung hình vẫn chỉ là một lát hẹp của cảnh quay ngang, nên chủ thể phải ở giữa khi quay." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-android/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/vi/"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Mở menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Tính năng</a>
+        <a href="/pricing/">Bảng giá</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Hỗ trợ</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/vi/">Trang chủ</a> › <a href="/blog/">Blog</a> › Quay dọc và ngang cùng lúc trên Android</div>
+    <article class="post">
+      <h1>Cách quay video dọc và ngang cùng lúc trên Android (2026)</h1>
+      <p class="byline">Jimmy, nhà phát triển ContentCam · 30 tháng 9, 2026 · Cập nhật 5 tháng 11, 2026</p>
+
+      <p><strong>Câu trả lời ngắn:</strong> dùng app quay cả hai file cùng lúc từ toàn bộ cảm biến. ContentCam làm được điều này trên Android và iPhone: một take lưu một file dọc 9:16 và một file ngang 16:9, miễn phí ở 1080p, không quảng cáo, không logo chìm và không cần tài khoản. App camera có sẵn trong điện thoại không làm được, vì Samsung Camera và Pixel Camera chỉ quay một hình dạng cho mỗi take. Hai cách miễn phí, cắt sau khi quay hoặc quay 4K rồi đổi khung, đều làm bạn mất phần lớn cảnh.</p>
+      <p>Mình làm ContentCam, nên hãy tự kiểm tra phép tính bên dưới. Phép toán giống nhau dù bạn chọn công cụ nào.</p>
+
+      <h2>Camera Android mặc định có quay dọc và ngang cùng lúc được không?</h2>
+      <p>Không. Các app camera Android mặc định chỉ quay một hình dạng cho mỗi take.</p>
+      <ul>
+        <li><strong>Samsung Camera</strong> có cài đặt tỉ lệ khung hình; trang hỗ trợ của Samsung liệt kê 1:1, 3:4, 9:16 và Full Screen, kèm ghi chú "available ratios may vary depending on your device's camera specifications." Bạn chọn một. Điện thoại quay một.</li>
+        <li><strong>Pixel Camera</strong>: trang trợ giúp Pixel Camera của Google chỉ nêu tỉ lệ khung hình cho ảnh (Wide crop 16:9, Full image 4:3), không có cho video. Video Pixel là ngang hoặc dọc tùy cách bạn cầm điện thoại.</li>
+        <li><strong>Google Photos</strong> có thể cắt một video đã quay xong sang tỉ lệ khác. Đó là Cách 1 bên dưới, với cùng cái giá phải trả.</li>
+      </ul>
+
+      <h2>Cách 1: Cắt video ngang thành dọc thì mất bao nhiêu?</h2>
+      <p>Bạn giữ 31,6% chiều rộng và bỏ đi 68,4% cảnh. Với video ngang 1080p:</p>
+      <ul>
+        <li>Khung ngang là 1920×1080.</li>
+        <li>Một dải 9:16 ở chiều cao đầy đủ là 1080 × 9 ÷ 16 = <strong>rộng 607,5 điểm ảnh</strong>.</li>
+        <li>607,5 ÷ 1920 = <strong>0,316</strong>, nên 31,6% chiều rộng còn lại.</li>
+      </ul>
+      <p>Dải 607×1080 đó sau đó bị phóng lên 1,78 lần thành 1080×1920 cho TikTok, Reels hoặc Shorts, và đó là lý do video dọc cắt ra trông bị mềm. Tránh cắt khi quay du lịch, thể thao, cảnh sản phẩm hoặc bất kỳ cảnh nào mà phông nền quan trọng.</p>
+
+      <h2>Cách 2: Có thể quay ngang 4K rồi đổi khung thành dọc không?</h2>
+      <p>Có, và đây là cách lách miễn phí tốt nhất. Một dải 9:16 cắt từ khung 3840×2160 là 2160 × 9 ÷ 16 = <strong>1215×2160 điểm ảnh</strong>, nhiều hơn 1080×1920 mà nền tảng dọc phát. Vấn đề độ phân giải của Cách 1 biến mất.</p>
+      <p>Vấn đề khung hình vẫn còn: bản dọc vẫn chỉ là 31,6% chiều rộng của bản ngang, nên chủ thể phải nằm chính giữa và mọi thứ được dựng cho cảnh rộng (đường chân trời thành phố, người thứ hai) đều nằm ngoài khung. Bạn còn phải dựng mỗi video hai lần, và file 4K có số điểm ảnh gấp bốn lần 1080p.</p>
+
+      <h2>Cách 3: Quay cả hai khổ cùng lúc trên Android thế nào?</h2>
+      <p>Quay toàn bộ khung 4:3 của cảm biến, rộng hơn 9:16 và cao hơn 16:9, và cắt cả hai hình dạng từ đó ngay lúc ghi hình. Với một cảm biến minh họa 4000×3000:</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Cách làm</th><th>Dải dọc của cảm biến 4000×3000</th><th>Tỉ lệ diện tích cảm biến</th></tr></thead>
+          <tbody>
+            <tr><td>Quay 16:9, sau đó cắt 9:16</td><td>khoảng 1266×2250</td><td>24%</td></tr>
+            <tr><td>Cắt 9:16 từ toàn bộ khung 4:3</td><td>khoảng 1688×3000</td><td>42%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Bản dọc từ khung đầy đủ thấy nhiều cảnh hơn 1,78 lần, và bản ngang 16:9 giữ trọn chiều rộng cảm biến (4000×2250). Không file nào là phần cắt ra từ file kia.</p>
+      <p>Đây là cách <a href="/vi/android/">ContentCam cho Android</a> hoạt động. Một take lưu một file 9:16 và một file 16:9, trên camera sau và camera trước. Trên các điện thoại có ống kính siêu rộng, tùy chọn 0,5× cho cả hai bản cắt một góc nhìn rộng hơn. Nếu bạn cầm điện thoại nằm ngang, cả hai file được gắn đúng hướng nên phát thẳng đứng trong CapCut hoặc Premiere. Bản miễn phí quay không giới hạn số take ở cả hai khổ ở 1080p và tối đa 30fps, không quảng cáo và không logo chìm; <a href="/pricing/">Premium</a> thêm 4K và 60fps ở những điện thoại có phần cứng hỗ trợ.</p>
+      <p>So với Cách 1 và 2, không có gì bị cắt sau khi quay, bạn lên khung mỗi take một lần và không phải dựng mỗi video hai lần.</p>
+      <p>Một giới hạn: chế độ Ống kính kép (Dual Lens), quay ống kính góc rộng và siêu rộng cùng một khoảnh khắc, hiện chỉ có trên iPhone.</p>
+
+      <h2>Bạn nên dùng cách nào trên Android?</h2>
+      <table>
+        <thead><tr><th>Tình huống của bạn</th><th>Cách tốt nhất</th></tr></thead>
+        <tbody>
+          <tr><td>Bạn thường đăng cả hai khổ và muốn mỗi khổ trông như được lên khung có chủ đích</td><td>Quay cả hai cùng lúc (Cách 3, nên dùng)</td></tr>
+          <tr><td>Du lịch, thể thao hoặc cảnh sản phẩm mà phông nền quan trọng</td><td>Quay cả hai cùng lúc (Cách 3)</td></tr>
+          <tr><td>Camera selfie</td><td>Quay cả hai cùng lúc, chạy được trên camera trước</td></tr>
+          <tr><td>Điện thoại quay được 4K, chủ thể luôn ở giữa, bạn không ngại dựng hai lần</td><td>Quay 4K rồi đổi khung (Cách 2)</td></tr>
+          <tr><td>Cảnh cận mặt đang nói, khuôn mặt chiếm đầy khung, bản ngang chỉ là phần thưởng thêm một lần</td><td>Cắt khi dựng (Cách 1)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Câu hỏi thường gặp</h2>
+      <p><strong>Điện thoại Android có quay được video dọc và ngang cùng lúc không?</strong> Không, với các app camera mặc định thì không. Samsung Camera và Pixel Camera chỉ quay một hình dạng cho mỗi take. Một app của bên thứ ba quay từ toàn bộ khung cảm biến 4:3 có thể lưu một file dọc 9:16 và một file ngang 16:9 từ cùng một take.</p>
+      <p><strong>Có app Android nào quay video ngang và dọc cùng lúc không?</strong> Có. ContentCam cho Android quay một file dọc 9:16 và một file ngang 16:9 từ một take, trên cả camera sau và camera trước, ở 1080p ở bản miễn phí, không quảng cáo và không logo chìm.</p>
+      <p><strong>Cắt video 16:9 thành 9:16 thì mất bao nhiêu hình?</strong> Khoảng 68%. Một dải 9:16 cắt ở chiều cao đầy đủ của khung 1920x1080 rộng 607,5 điểm ảnh, tức 31,6% của chiều rộng 1920 điểm ảnh. 68,4% còn lại của cảnh bị bỏ đi.</p>
+      <p><strong>Tôi có thể quay camera trước và sau cùng lúc trên Android để làm video reaction không?</strong> Có. Chế độ Trước và sau (Front &amp; Back) của ContentCam quay camera trước và camera sau trong một take trên các điện thoại Android có camera chạy cùng lúc được, lưu thành hai file HD riêng ở tối đa 30fps. Trình chỉnh sửa Combine sau đó có thể ghép chúng thành một video hình trong hình hoặc chia đôi màn hình. Đây là tính năng Premium, có 5 lần quay miễn phí để dùng thử.</p>
+      <p><strong>Quay 4K trên Android có cho phép cắt video dọc từ video ngang không?</strong> Có, nếu còn đủ độ phân giải. Một dải 9:16 cắt từ khung 3840x2160 là 1215x2160 điểm ảnh, nhiều hơn mức một video dọc 1080x1920 cần. Khung hình vẫn chỉ là một lát hẹp của cảnh quay ngang, nên chủ thể phải ở giữa khi quay.</p>
+
+      <div class="post-cta">
+        <p><strong>Đừng quay mọi thứ hai lần nữa.</strong> ContentCam miễn phí trên Google Play; quay thử một take và xem cả hai file trước khi quyết định.</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dvi-record-portrait-and-landscape-video-same-time-android"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Get it on Google Play" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=vi-b-portrait-landscape-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>Thông tin về camera mặc định được đọc từ <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">trang hỗ trợ của Samsung về tỉ lệ camera</a>, <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">Pixel Camera Help</a> và <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">Google Photos Help</a>, kiểm tra ngày 5 tháng 11, 2026. Xem thêm: <a href="/blog/how-to-record-landscape-video-on-android/">cách quay video ngang trên Android</a> · <a href="/vi/blog/record-portrait-and-landscape-video-same-time-iphone/">bản iPhone của hướng dẫn này</a> · <a href="/blog/android-camera-settings-for-video/">cài đặt camera Android tốt nhất để quay video</a> · <a href="/blog/why-cropping-vertical-to-horizontal-looks-wrong/">video dọc và ngang</a></p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Tính năng</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/vi/features/dual-camera/">Camera kép</a>
+        <a href="/features/manual-controls/">Điều khiển thủ công</a>
+        <a href="/vi/android/">Android</a>
+        <a href="/pricing/">Bảng giá</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Hỗ trợ</a>
+        <a href="/press/">Báo chí</a>
+        <a href="/vs/">So sánh</a>
+        <a href="/changelog/">Nhật ký cập nhật</a>
+        <a href="/privacy.html">Quyền riêng tư</a>
+        <a href="/terms.html">Điều khoản</a>
+      </div>
+      <div class="fine">ContentCam là ứng dụng camera độc lập do một nhà phát triển duy nhất làm ra tại Úc. © 2026 ContentCam. Apple, logo Apple, iPhone và App Store là nhãn hiệu của Apple Inc. Google Play và logo Google Play là nhãn hiệu của Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="tr" lang="tr">Türkçe</a> · <strong>Tiếng Việt</strong> · <a href="/zh-hans/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="sv" lang="sv">Svenska</a> · <a href="/hi/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ms" lang="ms">Bahasa Melayu</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

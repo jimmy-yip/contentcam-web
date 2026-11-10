@@ -102,6 +102,7 @@
   <url><loc>https://contentcam.app/vs/2cam/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://contentcam.app/vs/lookout/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://contentcam.app/vs/detail/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://contentcam.app/vs/dualcam/</loc><lastmod>2026-11-10</lastmod></url>
 
   <!-- @i18n -->
   <url><loc>https://contentcam.app/de/android/</loc><lastmod>2026-11-10</lastmod></url>
@@ -118,6 +119,10 @@
   <url><loc>https://contentcam.app/vi/android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hans/android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/bereal-style-photo-without-bereal/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/bereal-style-photo-without-bereal/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/bereal-style-photo-without-bereal/</loc><lastmod>2026-11-10</lastmod></url>
@@ -141,6 +146,10 @@
   <url><loc>https://contentcam.app/zh-hans/blog/best-front-and-back-dual-camera-apps/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/blog/best-front-and-back-dual-camera-apps/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/ru/blog/best-front-and-back-dual-camera-apps/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/best-front-and-back-dual-camera-apps/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/best-front-and-back-dual-camera-apps/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/best-front-and-back-dual-camera-apps/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/best-front-and-back-dual-camera-apps/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/doubletake-not-working-alternatives/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/doubletake-not-working-alternatives/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/doubletake-not-working-alternatives/</loc><lastmod>2026-11-10</lastmod></url>
@@ -178,6 +187,10 @@
   <url><loc>https://contentcam.app/zh-hans/blog/dual-camera-effect/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/blog/dual-camera-effect/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/ru/blog/dual-camera-effect/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/dual-camera-effect/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/dual-camera-effect/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/dual-camera-effect/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/dual-camera-effect/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
@@ -185,6 +198,18 @@
   <url><loc>https://contentcam.app/ja/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/pt-br/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/id/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ko/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/nl/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/pl/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/tr/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/vi/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/zh-hans/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/zh-hant/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ru/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/dual-format-recording-apps-compared/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
@@ -192,6 +217,18 @@
   <url><loc>https://contentcam.app/ja/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/pt-br/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/id/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ko/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/nl/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/pl/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/tr/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/vi/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/zh-hans/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/zh-hant/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ru/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/film-for-tiktok-and-youtube-at-the-same-time/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/film-kid-reaction-and-what-they-see/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/film-kid-reaction-and-what-they-see/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/film-kid-reaction-and-what-they-see/</loc><lastmod>2026-11-10</lastmod></url>
@@ -238,6 +275,10 @@
   <url><loc>https://contentcam.app/zh-hans/blog/iphone-17-dual-capture-limitations/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/blog/iphone-17-dual-capture-limitations/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/ru/blog/iphone-17-dual-capture-limitations/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/iphone-17-dual-capture-limitations/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/iphone-17-dual-capture-limitations/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/iphone-17-dual-capture-limitations/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/iphone-17-dual-capture-limitations/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/iphone-duo-camera/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/iphone-duo-camera/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/iphone-duo-camera/</loc><lastmod>2026-11-10</lastmod></url>
@@ -284,6 +325,10 @@
   <url><loc>https://contentcam.app/zh-hans/blog/record-front-and-back-camera-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/blog/record-front-and-back-camera-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/ru/blog/record-front-and-back-camera-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/record-front-and-back-camera-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/record-front-and-back-camera-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/record-front-and-back-camera-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/record-front-and-back-camera-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/record-front-and-back-camera-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/record-front-and-back-camera-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/record-front-and-back-camera-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
@@ -298,6 +343,10 @@
   <url><loc>https://contentcam.app/vi/blog/record-front-and-back-camera-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hans/blog/record-front-and-back-camera-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/blog/record-front-and-back-camera-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/record-front-and-back-camera-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/record-front-and-back-camera-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/record-front-and-back-camera-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/record-front-and-back-camera-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/record-front-and-back-camera-samsung-galaxy/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/record-front-and-back-camera-samsung-galaxy/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/record-front-and-back-camera-samsung-galaxy/</loc><lastmod>2026-11-10</lastmod></url>
@@ -313,6 +362,10 @@
   <url><loc>https://contentcam.app/zh-hans/blog/record-front-and-back-camera-samsung-galaxy/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/blog/record-front-and-back-camera-samsung-galaxy/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/ru/blog/record-front-and-back-camera-samsung-galaxy/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/record-front-and-back-camera-samsung-galaxy/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/record-front-and-back-camera-samsung-galaxy/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/record-front-and-back-camera-samsung-galaxy/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/record-front-and-back-camera-samsung-galaxy/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
@@ -321,6 +374,17 @@
   <url><loc>https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/id/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/ko/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/nl/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/pl/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/tr/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/vi/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/zh-hans/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/zh-hant/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/record-portrait-and-landscape-video-same-time-android/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/record-portrait-and-landscape-video-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/record-portrait-and-landscape-video-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/record-portrait-and-landscape-video-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
@@ -336,6 +400,10 @@
   <url><loc>https://contentcam.app/zh-hans/blog/record-portrait-and-landscape-video-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/blog/record-portrait-and-landscape-video-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/record-portrait-and-landscape-video-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/record-portrait-and-landscape-video-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/record-portrait-and-landscape-video-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/record-portrait-and-landscape-video-same-time-iphone/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/snapchat-front-and-back-camera/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/snapchat-front-and-back-camera/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/snapchat-front-and-back-camera/</loc><lastmod>2026-11-10</lastmod></url>
@@ -375,6 +443,10 @@
   <url><loc>https://contentcam.app/zh-hans/blog/take-photo-front-and-back-camera-same-time/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/blog/take-photo-front-and-back-camera-same-time/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/ru/blog/take-photo-front-and-back-camera-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/blog/take-photo-front-and-back-camera-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/blog/take-photo-front-and-back-camera-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/blog/take-photo-front-and-back-camera-same-time/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/blog/take-photo-front-and-back-camera-same-time/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/changelog/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/changelog/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/changelog/</loc><lastmod>2026-11-10</lastmod></url>
@@ -397,6 +469,10 @@
   <url><loc>https://contentcam.app/vi/features/dual-camera/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hans/features/dual-camera/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/features/dual-camera/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/features/dual-camera/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/features/dual-camera/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/features/dual-camera/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/features/dual-camera/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/features/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/features/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/features/</loc><lastmod>2026-11-10</lastmod></url>
@@ -434,6 +510,10 @@
   <url><loc>https://contentcam.app/zh-hans/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/zh-hant/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/ru/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/sv/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/hi/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/th/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://contentcam.app/ms/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/de/pricing/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/es/pricing/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://contentcam.app/fr/pricing/</loc><lastmod>2026-11-10</lastmod></url>

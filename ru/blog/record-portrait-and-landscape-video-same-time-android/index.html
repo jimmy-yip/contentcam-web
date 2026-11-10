@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Как снимать вертикальное и горизонтальное видео одновременно на Android (2026)</title>
+  <meta name="description" content="Три способа получить 9:16 и 16:9 за один дубль на Android: обрезать при монтаже, снять в 4K и перекадрировать или записать оба файла сразу. Чего стоит каждый.">
+  <link rel="canonical" href="https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-android/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Как снимать вертикальное и горизонтальное видео одновременно на Android (2026)">
+  <meta property="og:description" content="Три способа получить 9:16 и 16:9 за один дубль на Android и чем каждый из них жертвует в композиции и качестве.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-android/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Как снимать вертикальное и горизонтальное видео одновременно на Android (2026)">
+  <meta name="twitter:description" content="Три способа получить 9:16 и 16:9 за один дубль на Android и чего стоит каждый.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-android/",
+        "headline": "Как снимать вертикальное и горизонтальное видео одновременно на Android (2026)",
+        "description": "Три способа получить видео 9:16 и 16:9 за один дубль на Android: обрезать при монтаже, снять в 4K и перекадрировать или записать оба файла сразу.",
+        "image": "https://contentcam.app/assets/og/og-home.jpg",
+        "datePublished": "2026-09-30",
+        "dateModified": "2026-11-05",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "Разработчик ContentCam", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-android/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://contentcam.app/ru/" },
+          { "@type": "ListItem", "position": 2, "name": "Блог", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Вертикальное и горизонтальное видео одновременно на Android", "item": "https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-android/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Может ли Android-телефон снимать вертикальное и горизонтальное видео одновременно?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Не в стандартных приложениях камеры. Samsung Camera и Pixel Camera записывают за один дубль только один формат. Стороннее приложение, которое пишет с полного кадра матрицы 4:3, может сохранить вертикальный файл 9:16 и горизонтальный файл 16:9 из одного дубля." }
+          },
+          {
+            "@type": "Question",
+            "name": "Есть ли на Android приложение для одновременной записи горизонтального и вертикального видео?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Да. ContentCam для Android записывает вертикальный файл 9:16 и горизонтальный файл 16:9 за один дубль, на основную и фронтальную камеры, в 1080p в бесплатной версии, без рекламы и водяного знака." }
+          },
+          {
+            "@type": "Question",
+            "name": "Какую часть кадра теряешь, обрезая видео 16:9 до 9:16?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Около 68%. Кадрирование 9:16 на всю высоту кадра 1920x1080 дает ширину 607,5 пикселя, то есть 31,6% от ширины 1920 пикселей. Остальные 68,4% сцены отбрасываются." }
+          },
+          {
+            "@type": "Question",
+            "name": "Можно ли на Android записывать переднюю и заднюю камеры одновременно для видео-реакций?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Да. Режим «Передняя и задняя» (Front & Back) в ContentCam записывает фронтальную и основную камеры за один дубль на Android-телефонах, камеры которых могут работать вместе; результат сохраняется в двух отдельных HD-файлах до 30 кадров/с. Затем редактор Combine может собрать их в одно видео «картинка в картинке» или с разделенным экраном. Это функция Premium, и для пробы доступно 5 бесплатных записей." }
+          },
+          {
+            "@type": "Question",
+            "name": "Позволяет ли съемка в 4K на Android вырезать вертикальное видео из горизонтального?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Да, если остается достаточно разрешения. Кадрирование 9:16 из кадра 3840x2160 дает 1215x2160 пикселей, а это больше, чем нужно для вертикального видео 1080x1920. Композиция при этом остается узкой полосой горизонтального кадра, поэтому при съемке объект должен быть по центру." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-android/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ru/"><img src="/assets/logo-mark.png" alt="Логотип ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Открыть меню">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Функции</a>
+        <a href="/pricing/">Цены</a>
+        <a href="/blog/">Блог</a>
+        <a href="/support/">Поддержка</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/ru/">Главная</a> › <a href="/blog/">Блог</a> › Вертикальное и горизонтальное видео одновременно на Android</div>
+    <article class="post">
+      <h1>Как снимать вертикальное и горизонтальное видео одновременно на Android (2026)</h1>
+      <p class="byline">Автор: Jimmy, разработчик ContentCam · 30 сентября 2026 · Обновлено 5 ноября 2026</p>
+
+      <p><strong>Короткий ответ:</strong> используйте приложение, которое записывает оба файла сразу с полной матрицы. ContentCam делает это на Android и iPhone: один дубль сохраняет вертикальный файл 9:16 и горизонтальный файл 16:9, бесплатно в 1080p, без рекламы, водяного знака и аккаунта. Штатное приложение камеры на телефоне так не умеет, потому что Samsung Camera и Pixel Camera записывают за один дубль только один формат. Бесплатные обходные пути, обрезка потом или съемка в 4K с перекадрированием, оба теряют большую часть сцены.</p>
+      <p>Я делаю ContentCam, поэтому расчеты ниже проверьте сами. Арифметика одна и та же, какой бы инструмент вы ни выбрали.</p>
+
+      <h2>Умеет ли штатная камера Android снимать вертикальное и горизонтальное видео одновременно?</h2>
+      <p>Нет. Штатные приложения камеры на Android записывают за один дубль один формат.</p>
+      <ul>
+        <li><strong>Samsung Camera</strong> имеет настройку соотношения сторон; на странице поддержки Samsung перечислены 1:1, 3:4, 9:16 и «Во весь экран» с пометкой «доступные соотношения могут отличаться в зависимости от характеристик камеры вашего устройства» (available ratios may vary depending on your device's camera specifications). Вы выбираете одно. Телефон записывает одно.</li>
+        <li><strong>Pixel Camera</strong>: справка Google по Pixel Camera описывает соотношения сторон только для фото (широкое кадрирование 16:9, полный кадр 4:3), для видео их нет. Видео на Pixel получается горизонтальным или вертикальным в зависимости от того, как вы держите телефон.</li>
+        <li><strong>Google Фото</strong> может обрезать готовое видео до другого соотношения сторон уже потом. Это способ 1 ниже, и цена та же.</li>
+      </ul>
+
+      <h2>Способ 1: сколько теряется, если обрезать горизонтальное видео до вертикального?</h2>
+      <p>Остается 31,6% ширины, а 68,4% сцены выбрасывается. Для горизонтального видео в 1080p:</p>
+      <ul>
+        <li>Горизонтальный кадр: 1920×1080.</li>
+        <li>Кадрирование 9:16 на всю высоту дает 1080 × 9 ÷ 16 = <strong>607,5 пикселя в ширину</strong>.</li>
+        <li>607,5 ÷ 1920 = <strong>0,316</strong>, то есть остается 31,6% ширины.</li>
+      </ul>
+      <p>Затем полоса 607×1080 растягивается в 1,78 раза до 1080×1920 для TikTok, Reels или Shorts, поэтому обрезанные вертикальные видео выглядят мягкими. Не обрезайте для путешествий, спорта, съемки товаров и любых сцен, где важен фон.</p>
+
+      <h2>Способ 2: можно ли снять горизонтальное видео в 4K и перекадрировать его в вертикальное?</h2>
+      <p>Да, и это лучший бесплатный обходной путь. Кадрирование 9:16 из кадра 3840×2160 дает 2160 × 9 ÷ 16 = <strong>1215×2160 пикселей</strong>, а это больше, чем 1080×1920, которые воспроизводит вертикальная платформа. Проблема разрешения из способа 1 исчезает.</p>
+      <p>Проблема композиции остается: вертикальное видео все равно составляет 31,6% ширины горизонтального, поэтому объект должен стоять строго по центру, а все, что вы выстраивали для широкого кадра (линия горизонта, второй человек), оказывается за его пределами. К тому же каждое видео приходится монтировать дважды, а файлы 4K содержат вчетверо больше пикселей, чем 1080p.</p>
+
+      <h2>Способ 3: как записать оба формата сразу на Android?</h2>
+      <p>Записывайте полный кадр матрицы 4:3, который шире, чем 9:16, и выше, чем 16:9, и вырезайте оба формата из него прямо во время съемки. На условной матрице 4000×3000:</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Способ</th><th>Вертикальный фрагмент матрицы 4000×3000</th><th>Доля площади матрицы</th></tr></thead>
+          <tbody>
+            <tr><td>Снять 16:9, потом обрезать до 9:16</td><td>примерно 1266×2250</td><td>24%</td></tr>
+            <tr><td>Обрезать 9:16 из полного кадра 4:3</td><td>примерно 1688×3000</td><td>42%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Вертикальный кадр с полной матрицы видит в 1,78 раза больше сцены, а горизонтальный 16:9 сохраняет полную ширину матрицы (4000×2250). Ни один файл не вырезан из другого.</p>
+      <p>Так работает <a href="/android/">ContentCam для Android</a>. Один дубль сохраняет файл 9:16 и файл 16:9, на основную и фронтальную камеры. На телефонах со сверхширокоугольным объективом параметр 0,5× дает обоим кадрам более широкий обзор. Если вы держите телефон боком, оба файла получают правильную метку ориентации и воспроизводятся ровно в CapCut или Premiere. Бесплатная версия записывает неограниченное число дублей в обоих форматах в 1080p и до 30 кадров/с, без рекламы и водяного знака; <a href="/pricing/">Premium</a> добавляет 4K и 60 кадров/с там, где это позволяет железо телефона.</p>
+      <p>По сравнению со способами 1 и 2 ничего не обрезается задним числом, кадр выстраивается один раз на дубль, и не нужно монтировать каждое видео дважды.</p>
+      <p>Одно ограничение: режим Dual Lens, который одновременно записывает широкоугольный и сверхширокоугольный объективы, пока есть только на iPhone.</p>
+
+      <h2>Какой способ выбрать на Android?</h2>
+      <table>
+        <thead><tr><th>Ваша ситуация</th><th>Лучший способ</th></tr></thead>
+        <tbody>
+          <tr><td>Вы регулярно публикуете оба формата и хотите, чтобы каждый выглядел скомпонованным специально</td><td>Записывать оба сразу (способ 3, рекомендуем)</td></tr>
+          <tr><td>Путешествия, спорт или товары, где важен фон</td><td>Записывать оба сразу (способ 3)</td></tr>
+          <tr><td>Селфи-камера</td><td>Записывать оба сразу, это работает и на фронтальной камере</td></tr>
+          <tr><td>Телефон пишет в 4K, объект остается по центру, двойной монтаж вас не смущает</td><td>Снять в 4K и перекадрировать (способ 2)</td></tr>
+          <tr><td>Говорящая голова, лицо занимает весь кадр, а горизонтальная версия нужна разово</td><td>Обрезать при монтаже (способ 1)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Частые вопросы</h2>
+      <p><strong>Может ли Android-телефон снимать вертикальное и горизонтальное видео одновременно?</strong> Не в стандартных приложениях камеры. Samsung Camera и Pixel Camera записывают за один дубль только один формат. Стороннее приложение, которое пишет с полного кадра матрицы 4:3, может сохранить вертикальный файл 9:16 и горизонтальный файл 16:9 из одного дубля.</p>
+      <p><strong>Есть ли на Android приложение для одновременной записи горизонтального и вертикального видео?</strong> Да. ContentCam для Android записывает вертикальный файл 9:16 и горизонтальный файл 16:9 за один дубль, на основную и фронтальную камеры, в 1080p в бесплатной версии, без рекламы и водяного знака.</p>
+      <p><strong>Какую часть кадра теряешь, обрезая видео 16:9 до 9:16?</strong> Около 68%. Кадрирование 9:16 на всю высоту кадра 1920x1080 дает ширину 607,5 пикселя, то есть 31,6% от ширины 1920 пикселей. Остальные 68,4% сцены отбрасываются.</p>
+      <p><strong>Можно ли на Android записывать переднюю и заднюю камеры одновременно для видео-реакций?</strong> Да. Режим «Передняя и задняя» (Front &amp; Back) в ContentCam записывает фронтальную и основную камеры за один дубль на Android-телефонах, камеры которых могут работать вместе; результат сохраняется в двух отдельных HD-файлах до 30 кадров/с. Затем редактор Combine может собрать их в одно видео «картинка в картинке» или с разделенным экраном. Это функция Premium, и для пробы доступно 5 бесплатных записей.</p>
+      <p><strong>Позволяет ли съемка в 4K на Android вырезать вертикальное видео из горизонтального?</strong> Да, если остается достаточно разрешения. Кадрирование 9:16 из кадра 3840x2160 дает 1215x2160 пикселей, а это больше, чем нужно для вертикального видео 1080x1920. Композиция при этом остается узкой полосой горизонтального кадра, поэтому при съемке объект должен быть по центру.</p>
+
+      <div class="post-cta">
+        <p><strong>Хватит снимать все дважды.</strong> ContentCam бесплатен в Google Play; запишите дубль и посмотрите оба файла, прежде чем что-то решать.</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dru-record-portrait-and-landscape-video-same-time-android"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Доступно в Google Play" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=ru-b-portrait-landscape-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Загрузите в App Store" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>Сведения о штатных камерах взяты со <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">страницы поддержки Samsung о соотношении сторон камеры</a>, из <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">справки Pixel Camera</a> и <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">справки Google Фото</a>, проверено 5 ноября 2026. Связанные статьи: <a href="/blog/how-to-record-landscape-video-on-android/">как снимать горизонтальное видео на Android</a> · <a href="/ru/blog/record-portrait-and-landscape-video-same-time-iphone/">версия этого руководства для iPhone</a> · <a href="/blog/android-camera-settings-for-video/">лучшие настройки камеры Android для видео</a> · <a href="/blog/why-cropping-vertical-to-horizontal-looks-wrong/">вертикальное и горизонтальное видео</a></p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Логотип ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Функции</a>
+        <a href="/features/teleprompter/">Телесуфлер</a>
+        <a href="/features/dual-camera/">Две камеры</a>
+        <a href="/features/manual-controls/">Ручные настройки</a>
+        <a href="/android/">Android</a>
+        <a href="/pricing/">Цены</a>
+        <a href="/blog/">Блог</a>
+        <a href="/support/">Поддержка</a>
+        <a href="/press/">Для прессы</a>
+        <a href="/vs/">Сравнения</a>
+        <a href="/changelog/">История версий</a>
+        <a href="/privacy.html">Конфиденциальность</a>
+        <a href="/terms.html">Условия</a>
+      </div>
+      <div class="fine">ContentCam: независимое приложение-камера, которое в Австралии создает один разработчик. © 2026 ContentCam. Apple, логотип Apple, iPhone и App Store являются товарными знаками Apple Inc. Google Play и логотип Google Play являются товарными знаками Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <strong>Русский</strong> · <a href="/sv/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="sv" lang="sv">Svenska</a> · <a href="/hi/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ms" lang="ms">Bahasa Melayu</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>
