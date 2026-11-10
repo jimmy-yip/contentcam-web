@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Hogyan vegyél fel egyszerre függőleges és vízszintes videót Androidon: az app (2026)</title>
+  <meta name="description" content="Három módszer 9:16-os és 16:9-es videóra egy Android-felvételből: vágás utómunkában, 4K felvétel és újrakeretezés, vagy mindkét fájl egyszerre. Mibe kerül mindegyik.">
+  <link rel="canonical" href="https://contentcam.app/hu/blog/record-portrait-and-landscape-video-same-time-android/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="hu_HU">
+  <meta property="og:title" content="Hogyan vegyél fel egyszerre álló és fekvő videót Androidon? (2026)">
+  <meta property="og:description" content="Három módszer 9:16-ra és 16:9-re egy Android-felvételből, és mibe kerül mindegyik a képkivágásban és a minőségben.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/hu/blog/record-portrait-and-landscape-video-same-time-android/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hogyan vegyél fel egyszerre álló és fekvő videót Androidon? (2026)">
+  <meta name="twitter:description" content="Három módszer 9:16-ra és 16:9-re egy Android-felvételből, és mibe kerül mindegyik.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/hu/blog/record-portrait-and-landscape-video-same-time-android/",
+        "headline": "Hogyan vegyél fel egyszerre álló és fekvő videót Androidon (2026)",
+        "description": "Három módszer 9:16-os és 16:9-es videóra egy Android-felvételből: vágás utómunkában, 4K felvétel és újrakeretezés, vagy mindkét fájl egyszerre.",
+        "image": "https://contentcam.app/assets/og/og-home.jpg",
+        "datePublished": "2026-09-30",
+        "dateModified": "2026-11-05",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "a ContentCam fejlesztője", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/hu/blog/record-portrait-and-landscape-video-same-time-android/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Kezdőlap", "item": "https://contentcam.app/hu/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/hu/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Álló és fekvő videó egyszerre Androidon", "item": "https://contentcam.app/hu/blog/record-portrait-and-landscape-video-same-time-android/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Fel tud venni egy Android-telefon egyszerre álló és fekvő videót?",
+            "acceptedAnswer": { "@type": "Answer", "text": "A gyári kamera appokkal nem. A Samsung Camera és a Pixel Camera felvételenként egyetlen alakot rögzít. Egy harmadik féltől származó app, amely a teljes 4:3-as érzékelőképből rögzít, ugyanabból a felvételből el tud menteni egy 9:16-os álló és egy 16:9-es fekvő fájlt." }
+          },
+          {
+            "@type": "Question",
+            "name": "Van Android-app az egyidejű fekvő és álló videófelvételhez?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Igen. A ContentCam Androidra egyetlen felvételből rögzít egy 9:16-os álló és egy 16:9-es fekvő fájlt, a hátsó és az első kamerán is, az ingyenes csomagban 1080p-ben, hirdetések és vízjel nélkül." }
+          },
+          {
+            "@type": "Question",
+            "name": "Mennyit veszítesz a képből, ha a 16:9-es videót 9:16-ra vágod?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Körülbelül 68%-ot. Egy 1920x1080-as képkocka teljes magasságú 9:16-os kivágása 607,5 pixel széles, ami az 1920 pixeles szélesség 31,6%-a. A jelenet másik 68,4%-a elvész." }
+          },
+          {
+            "@type": "Question",
+            "name": "Felvehetek egyszerre első és hátsó kamerával Androidon reakcióvideókhoz?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Igen. A ContentCam Front & Back módja egy felvételben rögzíti az első és a hátsó kamerát olyan Android-telefonokon, amelyek kamerái egyszerre tudnak futni, két külön HD fájlként mentve, legfeljebb 30 fps-sel. A Combine szerkesztő ezután egyetlen kép a képben vagy osztott képernyős videót készíthet belőlük. Premium funkció, 5 ingyenes felvétellel a kipróbáláshoz." }
+          },
+          {
+            "@type": "Question",
+            "name": "Ha Androidon 4K-ban forgatok, ki tudok vágni egy függőleges videót a fekvőből?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Igen, ha marad elég felbontás. Egy 3840x2160-as képkocka 9:16-os kivágása 1215x2160 pixel, ami több, mint amennyi egy 1080x1920-as függőleges videóhoz kell. A képkeretezés viszont továbbra is a fekvő felvétel keskeny szelete, ezért a témának középen kell lennie, amikor felveszed." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="da" href="https://contentcam.app/da/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="no" href="https://contentcam.app/no/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="fi" href="https://contentcam.app/fi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pt-PT" href="https://contentcam.app/pt-pt/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="uk" href="https://contentcam.app/uk/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="fil" href="https://contentcam.app/fil/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="bn" href="https://contentcam.app/bn/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="cs" href="https://contentcam.app/cs/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ro" href="https://contentcam.app/ro/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="hu" href="https://contentcam.app/hu/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="el" href="https://contentcam.app/el/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-android/">
+  <!-- /@hreflang -->
+  </head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/hu/"><img src="/assets/logo-mark.png" alt="ContentCam logó" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menü megnyitása">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Funkciók</a> <a href="/pricing/">Árak</a> <a href="/blog/">Blog</a> <a href="/support/">Támogatás</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/hu/">Kezdőlap</a> › <a href="/blog/">Blog</a> › Álló és fekvő videó egyszerre Androidon</div>
+    <article class="post">
+      <h1>Hogyan vegyél fel egyszerre álló és fekvő videót Androidon (2026)</h1>
+      <p class="byline">Jimmy, a ContentCam fejlesztője · 2026. szeptember 30. · Frissítve: 2026. november 5.</p>
+
+      <p><strong>A rövid válasz:</strong> használj olyan Android-appot, amely mindkét fájlt egyszerre rögzíti a teljes érzékelőből. A ContentCam ezt teszi Androidon és iPhone-on: egy felvétel egy 9:16-os függőleges és egy 16:9-es vízszintes fájlt ment, ingyen 1080p-ben, hirdetések, vízjel és fiók nélkül. A telefonoddal jövő kamera app erre nem képes, mert a Samsung Camera és a Pixel Camera felvételenként egyetlen alakot rögzít. Az ingyenes kerülőutak, az utólagos vágás vagy a 4K felvétel újrakeretezése, mindkettő a jelenet nagy részét elveszíti.</p>
+      <p>Én fejlesztem a ContentCamet, ezért az alábbi számításokat ellenőrizd le magad. A számtan ugyanaz, bármelyik eszközt választod.</p>
+
+      <h2>Rögzíthet a gyári Android kamera egyszerre álló és fekvő videót?</h2>
+      <p>Nem. A gyári Android kamera appok felvételenként egyetlen alakot rögzítenek.</p>
+      <ul>
+        <li>A <strong>Samsung Camera</strong> rendelkezik képarány-beállítással; a Samsung támogatási oldala az 1:1, 3:4, 9:16 és Teljes képernyő arányokat sorolja fel, megjegyezve, hogy „available ratios may vary depending on your device's camera specifications.” Te választasz egyet. A telefon egyet rögzít.</li>
+        <li>A <strong>Pixel Camera</strong>: a Google Pixel Camera súgója csak fotókhoz dokumentál képarányokat (Wide crop 16:9, Full image 4:3), videóhoz egyet sem. A Pixel videó vízszintes vagy függőleges, attól függően, hogyan tartod a telefont.</li>
+        <li>A <strong>Google Fotók</strong> utólag egy kész videót más képarányra tud vágni. Ez az alábbi 1. lehetőség, ugyanazzal az árral.</li>
+      </ul>
+
+      <h2>1. lehetőség: mennyit veszítesz, ha a fekvő videót állóra vágod?</h2>
+      <p>A szélesség 31,6%-át tartod meg, és a jelenet 68,4%-át eldobod. Egy 1080p-s fekvő videónál:</p>
+      <ul>
+        <li>A fekvő képkocka 1920×1080.</li>
+        <li>Egy teljes magasságú 9:16-os kivágás 1080 × 9 ÷ 16 = <strong>607,5 pixel széles</strong>.</li>
+        <li>607,5 ÷ 1920 = <strong>0,316</strong>, vagyis a szélesség 31,6%-a marad meg.</li>
+      </ul>
+      <p>Ezt a 607×1080-as sávot aztán 1,78-szorosára nagyítják 1080×1920-ra a TikTokhoz, a Reelshez vagy a Shortshoz, ezért néznek ki puhán a vágott függőleges videók. Kerüld a vágást utazásnál, sportnál, termékképeknél vagy bármelyik jelenetnél, ahol a háttér számít.</p>
+
+      <h2>2. lehetőség: forgathatsz 4K fekvőben, és újrakeretezheted állóra?</h2>
+      <p>Igen, és ez a legjobb ingyenes kerülőút. Egy 3840×2160-as képkocka 9:16-os kivágása 2160 × 9 ÷ 16 = <strong>1215×2160 pixel</strong>, ami több, mint az 1080×1920, amit egy függőleges platform lejátszik. Az 1. lehetőség felbontási problémája megszűnik.</p>
+      <p>A keretezési probléma marad: a függőleges kép továbbra is a fekvő szélesség 31,6%-a, ezért a témának pontosan középen kell lennie, és minden, amit a széles képre komponáltál (városkép, második személy), kívül esik rajta. Emellett minden videót kétszer szerkesztesz, a 4K fájlok pedig négyszer annyi pixelből állnak, mint az 1080p-sek.</p>
+
+      <h2>3. lehetőség: hogyan rögzítsd egyszerre mindkét formátumot Androidon?</h2>
+      <p>Rögzítsd az érzékelő teljes 4:3-as képkockáját, amely szélesebb a 9:16-nál és magasabb a 16:9-nél, és ebből vágd ki mindkét alakot felvétel közben. Egy szemléltető 4000×3000-es érzékelőn:</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Módszer</th><th>Függőleges szelet egy 4000×3000-es érzékelőből</th><th>Az érzékelő területének aránya</th></tr></thead>
+          <tbody>
+            <tr><td>16:9 felvétel, a 9:16 vágása később</td><td>körülbelül 1266×2250</td><td>24%</td></tr>
+            <tr><td>9:16 kivágás a teljes 4:3-as képkockából</td><td>körülbelül 1688×3000</td><td>42%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>A teljes képkockás függőleges videó 1,78-szor többet lát a jelenetből, a 16:9-es fekvő pedig megtartja az érzékelő teljes szélességét (4000×2250). Egyik fájl sem a másik kivágása.</p>
+      <p>Így működik a <a href="/hu/android/">ContentCam Androidra</a>. Egy felvétel egy 9:16-os és egy 16:9-es fájlt ment, a hátsó és az első kamerán is. Azokon a telefonokon, amelyek elérhetővé teszik az ultraszéles objektívet, a 0,5×-es lehetőség mindkét kivágásnak szélesebb látómezőt ad. Ha oldalra fordítva tartod a telefont, mindkét fájl a megfelelő tájolás címkét kapja, így egyenesen játszódnak le a CapCutban vagy a Premiere-ben. Az ingyenes csomag korlátlan felvételt rögzít mindkét formátumban 1080p-ben és legfeljebb 30 fps-sel, hirdetések és vízjel nélkül; a <a href="/pricing/">Premium</a> 4K-t és 60 fps-t ad hozzá, ahol a telefon hardvere támogatja.</p>
+      <p>Az 1. és a 2. lehetőséghez képest utólag semmi nincs levágva, minden felvételt egyszer keretezel, és nem szerkeszted kétszer az összes videót.</p>
+      <p>Egy korlát: a Dual Lens mód, amely egyszerre rögzít a széles látószögű és az ultraszéles objektívvel, egyelőre csak iPhone-on érhető el.</p>
+
+      <h2>Melyik lehetőséget használd Androidon?</h2>
+      <table>
+        <thead><tr><th>A helyzeted</th><th>A legjobb lehetőség</th></tr></thead>
+        <tbody>
+          <tr><td>Rendszeresen posztolsz mindkét alakban, és azt szeretnéd, hogy mindegyik szándékosan keretezettnek tűnjön</td><td>Vedd fel mindkettőt egyszerre (3. lehetőség, ajánlott)</td></tr>
+          <tr><td>Utazás, sport vagy termékképek, ahol a háttér számít</td><td>Vedd fel mindkettőt egyszerre (3. lehetőség)</td></tr>
+          <tr><td>Szelfikamera</td><td>Vedd fel mindkettőt egyszerre, az első kamerán is működik</td></tr>
+          <tr><td>A telefon 4K-t rögzít, a téma középen marad, nem bánod a kétszeri szerkesztést</td><td>Forgass 4K-ban és keretezd újra (2. lehetőség)</td></tr>
+          <tr><td>Beszélőfej, az arc kitölti a képet, a fekvő egyszeri bónusz</td><td>Vágás utómunkában (1. lehetőség)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Gyakran ismételt kérdések</h2>
+      <p><strong>Fel tud venni egy Android-telefon egyszerre álló és fekvő videót?</strong> A gyári kamera appokkal nem. A Samsung Camera és a Pixel Camera felvételenként egyetlen alakot rögzít. Egy harmadik féltől származó app, amely a teljes 4:3-as érzékelőképből rögzít, ugyanabból a felvételből el tud menteni egy 9:16-os álló és egy 16:9-es fekvő fájlt.</p>
+      <p><strong>Van Android-app az egyidejű fekvő és álló videófelvételhez?</strong> Igen. A ContentCam Androidra egyetlen felvételből rögzít egy 9:16-os álló és egy 16:9-es fekvő fájlt, a hátsó és az első kamerán is, az ingyenes csomagban 1080p-ben, hirdetések és vízjel nélkül.</p>
+      <p><strong>Mennyit veszítesz a képből, ha a 16:9-es videót 9:16-ra vágod?</strong> Körülbelül 68%-ot. Egy 1920x1080-as képkocka teljes magasságú 9:16-os kivágása 607,5 pixel széles, ami az 1920 pixeles szélesség 31,6%-a. A jelenet másik 68,4%-a elvész.</p>
+      <p><strong>Felvehetek egyszerre első és hátsó kamerával Androidon reakcióvideókhoz?</strong> Igen. A ContentCam Front &amp; Back módja egy felvételben rögzíti az első és a hátsó kamerát olyan Android-telefonokon, amelyek kamerái egyszerre tudnak futni, két külön HD fájlként mentve, legfeljebb 30 fps-sel. A Combine szerkesztő ezután egyetlen kép a képben vagy osztott képernyős videót készíthet belőlük. Premium funkció, 5 ingyenes felvétellel a kipróbáláshoz.</p>
+      <p><strong>Ha Androidon 4K-ban forgatok, ki tudok vágni egy függőleges videót a fekvőből?</strong> Igen, ha marad elég felbontás. Egy 3840x2160-as képkocka 9:16-os kivágása 1215x2160 pixel, ami több, mint amennyi egy 1080x1920-as függőleges videóhoz kell. A képkeretezés viszont továbbra is a fekvő felvétel keskeny szelete, ezért a témának középen kell lennie, amikor felveszed.</p>
+
+      <div class="post-cta">
+        <p><strong>Ne forgass mindent kétszer.</strong> A ContentCam ingyenes a Google Playen; vegyél fel egy felvételt, és nézd meg mindkét fájlt, mielőtt bármit eldöntesz.</p>
+        <p class="cta-proof">★ Értékelés: 4,8, több mint 580 alkotótól az <a href="https://apps.apple.com/app/id6765881795">App Store</a>-on és a <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Playen</a>.</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dhu-record-portrait-and-landscape-video-same-time-android"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Letöltés a Google Playről" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=hu-b-portrait-landscape-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Letöltés az App Store-ból" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>Az alapértelmezett kamera adatait a <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">Samsung képarányról szóló támogatási oldaláról</a>, a <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">Pixel Camera súgóból</a> és a <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">Google Fotók súgóból</a> olvastam, 2026. november 5-én ellenőrizve. Kapcsolódó: <a href="/blog/how-to-record-landscape-video-on-android/">hogyan vegyél fel fekvő videót Androidon</a> · <a href="/hu/blog/record-portrait-and-landscape-video-same-time-iphone/">ennek az útmutatónak az iPhone-os változata</a> · <a href="/blog/android-camera-settings-for-video/">a legjobb Android kamerabeállítások videóhoz</a> · <a href="/blog/why-cropping-vertical-to-horizontal-looks-wrong/">függőleges vagy vízszintes videó</a></p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam logó" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Funkciók</a> <a href="/features/teleprompter/">Teleprompter</a> <a href="/hu/features/dual-camera/">Dupla kamera</a> <a href="/features/manual-controls/">Manuális vezérlők</a> <a href="/hu/android/">Android</a> <a href="/pricing/">Árak</a> <a href="/blog/">Blog</a> <a href="/support/">Támogatás</a> <a href="/press/">Sajtó</a> <a href="/vs/">Összehasonlítás</a> <a href="/changelog/">Változásnapló</a> <a href="/privacy.html">Adatvédelem</a> <a href="/terms.html">Feltételek</a>
+      </div>
+      <div class="fine">Értékelés: 4,8, több mint 580 alkotótól az <a href="https://apps.apple.com/app/id6765881795">App Store</a>-on és a <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Playen</a> (2026. november). A ContentCam független kameraalkalmazás, amelyet egyetlen fejlesztő készít Ausztráliában. © 2026 ContentCam. Az Apple, az Apple logó, az iPhone és az App Store az Apple Inc. védjegyei. A Google Play és a Google Play logó a Google LLC védjegyei.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="sv" lang="sv">Svenska</a> · <a href="/da/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="da" lang="da">Dansk</a> · <a href="/no/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="no" lang="no">Norsk</a> · <a href="/fi/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="fi" lang="fi">Suomi</a> · <a href="/pt-pt/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a> · <a href="/uk/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="uk" lang="uk">Українська</a> · <a href="/hi/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ms" lang="ms">Bahasa Melayu</a> · <a href="/fil/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="fil" lang="fil">Filipino</a> · <a href="/bn/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="bn" lang="bn">বাংলা</a> · <a href="/cs/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="cs" lang="cs">Čeština</a> · <a href="/ro/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ro" lang="ro">Română</a> · <strong>Magyar</strong> · <a href="/el/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="el" lang="el">Ελληνικά</a></div>
+      <!-- /@langs -->
+          </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

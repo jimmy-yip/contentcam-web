@@ -8,7 +8,8 @@ import json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CODES = {"de": "de", "es": "es", "fr": "fr", "it": "it", "ja": "ja", "pt-br": "pt-BR", "id": "id", "ko": "ko",
          "nl": "nl", "pl": "pl", "tr": "tr", "vi": "vi", "zh-hans": "zh-Hans", "zh-hant": "zh-Hant", "ru": "ru",
-         "hi": "hi", "sv": "sv", "th": "th", "ms": "ms", "da": "da", "no": "no", "fi": "fi", "pt-pt": "pt-PT", "uk": "uk"}
+         "hi": "hi", "sv": "sv", "th": "th", "ms": "ms", "da": "da", "no": "no", "fi": "fi", "pt-pt": "pt-PT", "uk": "uk",
+         "fil": "fil", "bn": "bn", "cs": "cs", "ro": "ro", "hu": "hu", "el": "el"}
 
 
 def count(tag, html):

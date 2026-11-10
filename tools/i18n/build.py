@@ -28,6 +28,7 @@ LANGS = [  # dir, hreflang, native name
     ("fi", "fi", "Suomi"), ("pt-pt", "pt-PT", "Português (Portugal)"), ("uk", "uk", "Українська"),
     ("ar", "ar", "العربية"), ("hi", "hi", "हिन्दी"), ("th", "th", "ไทย"), ("ms", "ms", "Bahasa Melayu"),
     ("fil", "fil", "Filipino"), ("bn", "bn", "বাংলা"),
+    ("cs", "cs", "Čeština"), ("ro", "ro", "Română"), ("hu", "hu", "Magyar"), ("el", "el", "Ελληνικά"),
 ]
 SITE = "https://contentcam.app"
 MANIFEST = os.path.join(ROOT, "tools/i18n/manifest.json")

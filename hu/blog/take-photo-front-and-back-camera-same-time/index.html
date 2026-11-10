@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Szelfi + hátsó fotó egyszerre, két külön fotóként (2026)</title>
+  <meta name="description" content="A ContentCam Front &amp; Back fotó módja iPhone-on és Androidon két külön fájlként menti a szelfit és a hátsó fotót. A Snapchat iPhone-on egy összefűzött képet ad. Az iPhone Dual Capture és az Instagram Dual csak videó.">
+  <link rel="canonical" href="https://contentcam.app/hu/blog/take-photo-front-and-back-camera-same-time/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="hu_HU">
+  <meta property="og:title" content="Szelfi + hátsó fotó egyszerre, két külön fotóként (2026)">
+  <meta property="og:description" content="Egy összefűzött kép vagy két külön fotó: minden mód a szelfi és a hátsó kamera egyetlen nyomásból való elkészítésére, iPhone-on és Androidon.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/hu/blog/take-photo-front-and-back-camera-same-time/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fotó készítése egyszerre az első és a hátsó kamerával">
+  <meta name="twitter:description" content="Egy összefűzött kép vagy két külön fotó, iPhone-on és Androidon.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/hu/blog/take-photo-front-and-back-camera-same-time/",
+        "headline": "Hogyan készíts szelfit és hátsó kamerás fotót egyszerre",
+        "description": "Minden mód a szelfi és a hátsó kamerás fotó egyetlen nyomásból való elkészítésére iPhone-on és Androidon: a ContentCam Front & Back fotó módja két külön fotóhoz, a Snapchat Dual Camera egy összefűzött képhez iPhone-on, és a videós kerülőút a Dual Capture-höz és az Instagramhoz.",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-10-16",
+        "dateModified": "2026-11-05",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "a ContentCam fejlesztője", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/hu/blog/take-photo-front-and-back-camera-same-time/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Kezdőlap", "item": "https://contentcam.app/hu/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/hu/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Első és hátsó kamerás fotó egyszerre", "item": "https://contentcam.app/hu/blog/take-photo-front-and-back-camera-same-time/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Megkaphatom a szelfit és a hátsó kamerás fotót két külön fájlként?", "acceptedAnswer": {"@type": "Answer", "text": "Igen. A ContentCam fotó módja ezt a Front & Back módban teszi iPhone-on és Androidon: egy nyomás elmenti a hátsó kamerás és az első kamerás fotót. A Fotó mód Premium."}},
+          {"@type": "Question", "name": "Tud az iPhone Kamera appja egyszerre első és hátsó kamerás fotót készíteni?", "acceptedAnswer": {"@type": "Answer", "text": "Közvetlenül nem. A Dual Capture csak videó, iPhone 17, 17 Pro, 17 Pro Max, Air, 18 Pro, 18 Pro Max és Duo esetén. Vegyél fel néhány másodpercet, és készíts képernyőképet a legjobb képkockáról."}},
+          {"@type": "Question", "name": "Mi a legegyszerűbb ingyenes módja a szelfi és a hátsó kamerás fotó egyidejű elkészítésének?", "acceptedAnswer": {"@type": "Answer", "text": "iPhone-on a Snapchat Dual Camera: egy kép mindkét kamerával, rögzített elrendezéssel. A Snapchat súgóközpontja szerint az Android „soon” érkezik."}},
+          {"@type": "Question", "name": "Miért nem tud a telefonom egyszerre első és hátsó kamerás fotót készíteni?", "acceptedAnswer": {"@type": "Answer", "text": "A hardvernek egyszerre kell futtatnia mindkét kamerát, és jeleznie kell ezt az appoknak (iPhone-on isMultiCamSupported, Android 11-en és újabbon getConcurrentCameraIds()). Ha nem jelzi, egyetlen app sem tudja megtenni a hivatalos úton."}},
+          {"@type": "Question", "name": "Mely telefonokkal készíthetsz első és hátsó kamerás fotót a ContentCamben?", "acceptedAnswer": {"@type": "Answer", "text": "iPhone-on minden iOS 18-at vagy újabbat futtató modellel, az iPhone XS-től és XR-től kezdve, az iPhone 15-öt és az iPhone 16-ot is beleértve. Androidon olyan telefonokkal, amelyek hardvere egyszerre tudja futtatni az első és a hátsó kamerát; a ContentCam ezt a te telefonodon ellenőrzi."}}
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="da" href="https://contentcam.app/da/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="no" href="https://contentcam.app/no/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="fi" href="https://contentcam.app/fi/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="pt-PT" href="https://contentcam.app/pt-pt/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="uk" href="https://contentcam.app/uk/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="fil" href="https://contentcam.app/fil/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="bn" href="https://contentcam.app/bn/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="cs" href="https://contentcam.app/cs/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ro" href="https://contentcam.app/ro/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="hu" href="https://contentcam.app/hu/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="el" href="https://contentcam.app/el/blog/take-photo-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/take-photo-front-and-back-camera-same-time/">
+  <!-- /@hreflang -->
+  </head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/hu/"><img src="/assets/logo-mark.png" alt="ContentCam logó" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menü megnyitása">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Funkciók</a> <a href="/pricing/">Árak</a> <a href="/blog/">Blog</a> <a href="/support/">Támogatás</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/hu/">Kezdőlap</a> › <a href="/blog/">Blog</a> › Első és hátsó kamerás fotó egyszerre</div>
+    <article class="post">
+      <h1>Hogyan készíts szelfit és hátsó kamerás fotót egyszerre</h1>
+      <p class="byline">Jimmy, a ContentCam fejlesztője · 2026. október 16. · Frissítve: 2026. november 5.</p>
+
+      <p>A szelfi és a hátsó kamerás fotó egyetlen nyomásból való elkészítésének legrugalmasabb módja a ContentCam Front &amp; Back fotó módja, iPhone-on és Androidon: egy nyomás két külön fájlként menti a szelfit és a hátsó fotót, így az elrendezést utólag választod. A Fotó mód Premium. Egy összefűzött képhez iPhone-on a Snapchat Dual Camera ingyenes. Az iPhone Dual Capture és az Instagram Dual csak videó.</p>
+      <p>Közzététel: Én fejlesztem a ContentCamet, amely az alábbi appok egyike. A más appokról szóló állítások a saját dokumentációjukból vagy listázásaikból származnak, 2026. november 5-én ellenőrizve, a végén felsorolva. Videóhoz lásd a <a href="/hu/blog/dual-camera-effect/">fő első és hátsó kamerás útmutatót</a>.</p>
+
+      <h2>Hogyan kapod meg a szelfit és a hátsó kamerás fotót két külön fájlként?</h2>
+      <p>Használd a ContentCam fotó módját a Front &amp; Back módon belül, iPhone-on vagy Androidon:</p>
+      <ol>
+        <li>Nyisd meg a ContentCamet, és állítsd a felvételi módot <strong>Front &amp; Back</strong>-re.</li>
+        <li>Válaszd ki, hogy a hátsó kamera álló vagy fekvő módban fényképezzen. A szelfikamera mindig álló.</li>
+        <li>Keretezd be a hátsó képet, és nyomd meg a <strong>felvétel gomb melletti exponáló gombot</strong>.</li>
+        <li>Egy nyomás mindkét kamerával együtt készít képet, és két fotót ment: egyet a hátsó kamerából, egyet a szelfikamerából.</li>
+      </ol>
+      <p>Mivel a fotók külön vannak, a szelfit bármelyik sarokba teheted, egymás mellé rakhatod a kettőt, vagy két körhinta-diaként posztolhatod őket. A hátsó fotó önmagában is megáll, arc nélkül, amit egy összefűzött kép sosem adhat.</p>
+
+      <figure>
+        <img src="/assets/blog/take-photo-front-and-back-camera-same-time/front-and-back-two-files.webp" alt="Két külön kép egyetlen Front &amp; Back felvételből: egy türkizkék tó a hátsó kamerából és egy mosolygó szelfi az első kamerából" width="1000" height="857" loading="lazy" decoding="async">
+        <figcaption>Két külön fájl egyetlen Front &amp; Back felvételből (videófelvétel; a fotó mód ugyanezt a párt fotóként menti).</figcaption>
+      </figure>
+      <p>A Fotó mód a ContentCamben Premium iPhone-on és Androidon is. Az app ingyenesen letölthető, hirdetés, vízjel és fiók nélkül. A telefonodnak egyszerre kell tudnia futtatni mindkét kamerát is; a ContentCam ezt ellenőrzi helyetted.</p>
+
+      <h2>Tud az iPhone Kamera appja egyszerre első és hátsó kamerás fotót készíteni?</h2>
+      <p>Fotóként nem. Az Apple iPhone felhasználói útmutatója a Dual Capture-t a Videó módba teszi, ahol egyszerre rögzíti „yourself” és „the action in front of you” hét modellen: iPhone 17, iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, iPhone 18 Pro, iPhone 18 Pro Max és iPhone Duo. Az iPhone 16 és a régebbiek nem rendelkeznek vele.</p>
+      <p>Ezeken a modelleken vegyél fel néhány másodpercet, és készíts képernyőképet a legjobb képkockáról. A szelfiablak bele van festve abba a képkockába, ezért nem mozgatható és nem távolítható el. Bővebben: <a href="/hu/blog/iphone-17-dual-capture-limitations/">a Dual Capture korlátai</a>.</p>
+
+      <h2>Készíthet a Snapchat egyszerre első és hátsó kamerás fotót?</h2>
+      <p>Igen, iPhone-on, egy összefűzött képként. A Snapchat súgóközpontja szerint a Dual Camera „allows you to capture content using the front and back cameras at the same time”. A Snapchat az iPhone XS-t, XS Max-et, XR-t vagy újabbat sorolja fel, a súgóközpontja pedig még mindig azt írja, hogy az Android-változat „soon” érkezik.</p>
+      <p>A szelfiablak a pixelek része, ezért később nem mozgathatod és nem távolíthatod el. A Snapchat App Store-listázása szerint „Contains Advertising”, és a 250 legfrissebb amerikai App Store-értékelésből 26 (2026. október 31. és november 4. között) hirdetésekre panaszkodik. Egy 1 csillagos értékelés 2026. november 3-án így foglalta össze: „More ads than content.”</p>
+
+      <h2>Készíthet az Instagram első és hátsó kamerás fotót?</h2>
+      <p>Nem, csak videót. A Meta 2022. július 21-én jelentette be az Instagram Dual funkcióját, hogy „record using your phone's front and back cameras simultaneously”. Vegyél fel egy rövid Dual klipet, és készíts képernyőképet a legjobb képkockáról.</p>
+
+      <h2>Miért nem tud a telefonom egyszerre első és hátsó kamerás fotót készíteni?</h2>
+      <p>A hardvernek együtt kell futtatnia a két kamerát, és ezt jeleznie kell az appoknak. iPhone-on az appok az <code>AVCaptureMultiCamSession</code> <code>isMultiCamSupported</code> értékét ellenőrzik (iOS 13 és újabb). Android 11-en (API 30-as szint) és újabbon a <code>getConcurrentCameraIds()</code> azokat a kamerákat adja vissza, amelyeket a telefon egyszerre tud futtatni. Ha a telefon nem jelent első és hátsó párt, egyetlen app sem tud mindkettőt rögzíteni a hivatalos úton.</p>
+
+      <h2>Melyik módszert használd?</h2>
+      <ul>
+        <li><strong>Körhinta, borítókép, bármi, amit szerkesztesz, vagy Android-telefon:</strong> a ContentCam Front &amp; Back fotó módja: két külön fotó.</li>
+        <li><strong>Gyors, ingyenes fotó egy Storyhoz iPhone-on:</strong> a Snapchat Dual Camera, egy rögzített kép.</li>
+        <li><strong>iPhone 17, iPhone Air, iPhone 18 Pro vagy iPhone Duo extra app nélkül:</strong> egy rövid Dual Capture videó és egy képernyőkép.</li>
+      </ul>
+
+      <h2>Hogyan nézzen ki jól az első és hátsó kamerás fotó?</h2>
+      <ul>
+        <li><strong>Először az arcodat világítsd meg.</strong> A szelfikamera félhomályos szobában hamarabb zajosodik. Fordulj ablak vagy lámpa felé.</li>
+        <li><strong>Maradj egy pillanatig mozdulatlan.</strong> A mozgó kéz egyszerre mindkét fotót elmosza.</li>
+        <li><strong>Figyelj az expozíciós különbségre.</strong> Két külön fájllal egy árnyékban lévő szelfit kivilágosíthatsz anélkül, hogy a fényes eget hozzáérnél.</li>
+      </ul>
+
+      <h2>GYIK</h2>
+      <h3>Megkaphatom a szelfit és a hátsó kamerás fotót két külön fájlként?</h3>
+      <p>Igen. A ContentCam fotó módja ezt a Front &amp; Back módban teszi iPhone-on és Androidon: egy nyomás elmenti a hátsó kamerás és az első kamerás fotót. A Fotó mód Premium.</p>
+      <h3>Tud az iPhone Kamera appja egyszerre első és hátsó kamerás fotót készíteni?</h3>
+      <p>Közvetlenül nem. A Dual Capture csak videó, iPhone 17, 17 Pro, 17 Pro Max, Air, 18 Pro, 18 Pro Max és Duo esetén. Vegyél fel néhány másodpercet, és készíts képernyőképet a legjobb képkockáról.</p>
+      <h3>Mi a legegyszerűbb ingyenes módja a szelfi és a hátsó kamerás fotó egyidejű elkészítésének?</h3>
+      <p>iPhone-on a Snapchat Dual Camera: egy kép mindkét kamerával, rögzített elrendezéssel. A Snapchat súgóközpontja szerint az Android „soon” érkezik.</p>
+      <h3>Miért nem tud a telefonom egyszerre első és hátsó kamerás fotót készíteni?</h3>
+      <p>A hardvernek egyszerre kell futtatnia mindkét kamerát, és jeleznie kell ezt az appoknak (iPhone-on <code>isMultiCamSupported</code>, Android 11-en és újabbon <code>getConcurrentCameraIds()</code>). Ha nem jelzi, egyetlen app sem tudja megtenni a hivatalos úton.</p>
+      <h3>Mely telefonokkal készíthetsz első és hátsó kamerás fotót a ContentCamben?</h3>
+      <p>iPhone-on minden iOS 18-at vagy újabbat futtató modellel, az iPhone XS-től és XR-től kezdve, az iPhone 15-öt és az iPhone 16-ot is beleértve. Androidon olyan telefonokkal, amelyek hardvere egyszerre tudja futtatni az első és a hátsó kamerát; a ContentCam ezt a te telefonodon ellenőrzi.</p>
+
+      <div class="post-cta">
+        <p><strong>Próbáld ki ingyen a ContentCamet.</strong> Első és hátsó kamera egyetlen nyomásból, külön fájlokként, plusz álló és széles videó egyetlen forgatásból. Ingyenesen letölthető iPhone-ra és Androidra.</p>
+        <p class="cta-proof">★ Értékelés: 4,8, több mint 580 alkotótól az <a href="https://apps.apple.com/app/id6765881795">App Store</a>-on és a <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Playen</a>.</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=hu-b-front-back-photo&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Letöltés az App Store-ból" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dhu-front-back-photo"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Letöltés a Google Playről" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>Kapcsolódó: <a href="/hu/blog/record-front-and-back-camera-same-time-iphone/">első és hátsó kamerás videó iPhone-on</a> · <a href="/hu/blog/record-front-and-back-camera-same-time-android/">első és hátsó kamerás videó Androidon</a> · <a href="/hu/blog/iphone-17-dual-capture-limitations/">mely iPhone-ok tudják a Dual Capture-t</a> · <a href="/blog/snapchat-front-and-back-camera/">hogyan készíts Snapet az első és a hátsó kamerával</a> · <a href="/blog/bereal-style-photo-without-bereal/">BeReal-stílusú fotó BeReal nélkül</a></p>
+      <p class="byline">Források: Apple, iPhone User Guide, „Record a video with your iPhone camera” és „Models that support Dual Capture video” (support.apple.com); Apple Developer, AVCaptureMultiCamSession és isMultiCamSupported; Snapchat Support, „What is Dual Camera on Snapchat and how do I use it?” és „Who is Dual Camera available for on Snapchat?” (help.snapchat.com); a Snapchat amerikai App Store-listázása és 250 legfrissebb amerikai értékelése; Meta, „New Ways to Create Instagram Reels” (about.fb.com, 2022. július); Android Developers, CameraManager.getConcurrentCameraIds(). Mindet 2026. november 5-én ellenőriztem.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam logó" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Funkciók</a> <a href="/features/teleprompter/">Teleprompter</a> <a href="/hu/features/dual-camera/">Dupla kamera</a> <a href="/features/manual-controls/">Manuális vezérlők</a> <a href="/hu/android/">Android</a> <a href="/pricing/">Árak</a> <a href="/blog/">Blog</a> <a href="/support/">Támogatás</a> <a href="/press/">Sajtó</a> <a href="/vs/">Összehasonlítás</a> <a href="/changelog/">Változásnapló</a> <a href="/privacy.html">Adatvédelem</a> <a href="/terms.html">Feltételek</a>
+      </div>
+      <div class="fine">Értékelés: 4,8, több mint 580 alkotótól az <a href="https://apps.apple.com/app/id6765881795">App Store</a>-on és a <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Playen</a> (2026. november). A ContentCam független kameraalkalmazás, amelyet egyetlen fejlesztő készít Ausztráliában. © 2026 ContentCam. Az Apple, az Apple logó, az iPhone és az App Store az Apple Inc. védjegyei. A Google Play és a Google Play logó a Google LLC védjegyei.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/take-photo-front-and-back-camera-same-time/" hreflang="en" lang="en">English</a> · <a href="/de/blog/take-photo-front-and-back-camera-same-time/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/take-photo-front-and-back-camera-same-time/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/take-photo-front-and-back-camera-same-time/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/take-photo-front-and-back-camera-same-time/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/take-photo-front-and-back-camera-same-time/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/take-photo-front-and-back-camera-same-time/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/take-photo-front-and-back-camera-same-time/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/blog/take-photo-front-and-back-camera-same-time/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/blog/take-photo-front-and-back-camera-same-time/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/blog/take-photo-front-and-back-camera-same-time/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/blog/take-photo-front-and-back-camera-same-time/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/blog/take-photo-front-and-back-camera-same-time/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/blog/take-photo-front-and-back-camera-same-time/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/blog/take-photo-front-and-back-camera-same-time/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/blog/take-photo-front-and-back-camera-same-time/" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/blog/take-photo-front-and-back-camera-same-time/" hreflang="sv" lang="sv">Svenska</a> · <a href="/da/blog/take-photo-front-and-back-camera-same-time/" hreflang="da" lang="da">Dansk</a> · <a href="/no/blog/take-photo-front-and-back-camera-same-time/" hreflang="no" lang="no">Norsk</a> · <a href="/fi/blog/take-photo-front-and-back-camera-same-time/" hreflang="fi" lang="fi">Suomi</a> · <a href="/pt-pt/blog/take-photo-front-and-back-camera-same-time/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a> · <a href="/uk/blog/take-photo-front-and-back-camera-same-time/" hreflang="uk" lang="uk">Українська</a> · <a href="/hi/blog/take-photo-front-and-back-camera-same-time/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/blog/take-photo-front-and-back-camera-same-time/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/blog/take-photo-front-and-back-camera-same-time/" hreflang="ms" lang="ms">Bahasa Melayu</a> · <a href="/fil/blog/take-photo-front-and-back-camera-same-time/" hreflang="fil" lang="fil">Filipino</a> · <a href="/bn/blog/take-photo-front-and-back-camera-same-time/" hreflang="bn" lang="bn">বাংলা</a> · <a href="/cs/blog/take-photo-front-and-back-camera-same-time/" hreflang="cs" lang="cs">Čeština</a> · <a href="/ro/blog/take-photo-front-and-back-camera-same-time/" hreflang="ro" lang="ro">Română</a> · <strong>Magyar</strong> · <a href="/el/blog/take-photo-front-and-back-camera-same-time/" hreflang="el" lang="el">Ελληνικά</a></div>
+      <!-- /@langs -->
+          </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

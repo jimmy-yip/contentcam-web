@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Como gravar com a câmara frontal e traseira ao mesmo tempo no Android (2026)</title>
+  <meta name="description" content="Grave com a câmara frontal e a traseira ao mesmo tempo no Android. Quais telemóveis Samsung Galaxy fazem isso no app Câmara nativo, por que a Pixel Camera não faz e como ter seu rosto e a cena em dois ficheiros separados.">
+  <link rel="canonical" href="https://contentcam.app/pt-pt/blog/record-front-and-back-camera-same-time-android/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="pt_PT">
+  <meta property="og:title" content="Como gravar com a câmara frontal e traseira ao mesmo tempo no Android (2026)">
+  <meta property="og:description" content="A Gravação dupla da Samsung, a lacuna dos Pixel e como ter sua reação e a cena em dois ficheiros separados, a partir de um único take.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/pt-pt/blog/record-front-and-back-camera-same-time-android/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gravar com a câmara frontal e traseira ao mesmo tempo no Android">
+  <meta name="twitter:description" content="A Gravação dupla da Samsung, a lacuna dos Pixel e como ter as duas câmaras em ficheiros separados.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/pt-pt/blog/record-front-and-back-camera-same-time-android/",
+        "headline": "Como gravar com a câmara frontal e traseira ao mesmo tempo no Android",
+        "description": "Quais telemóveis Android gravam com a câmara frontal e a traseira ao mesmo tempo no app Câmara nativo, por que a Pixel Camera não grava e como ter as duas câmaras em ficheiros separados com o modo Frontal e traseira do ContentCam.",
+        "image": "https://contentcam.app/assets/og/og-blog.jpg",
+        "datePublished": "2026-10-08",
+        "dateModified": "2026-11-05",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "Programador do ContentCam", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/pt-pt/blog/record-front-and-back-camera-same-time-android/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://contentcam.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Câmara frontal e traseira ao mesmo tempo no Android", "item": "https://contentcam.app/pt-pt/blog/record-front-and-back-camera-same-time-android/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Dá para gravar com a câmara frontal e a traseira ao mesmo tempo num Google Pixel?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Não na Pixel Camera. A pré-visualização em ecrã duplo nos modelos Pixel Fold mostra o visor nos dois ecrãs enquanto uma única câmara grava. Num Pixel que suporte câmaras simultâneas, um app com modo frontal e traseira, como o ContentCam, grava com as duas." }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual é o melhor app para gravar com a câmara frontal e a traseira ao mesmo tempo no Android?",
+            "acceptedAnswer": { "@type": "Answer", "text": "O ContentCam, se quer editar os dois ângulos: o modo Frontal e traseira guarda seu rosto e a cena em dois ficheiros separados em qualquer Android que consiga usar as duas câmaras juntas, sem anúncios e sem marca d'água. Num Galaxy compatível, a Gravação dupla nativa é a forma mais rápido de ter um clipe pronto." }
+          },
+          {
+            "@type": "Question",
+            "name": "A Gravação dupla da Samsung guarda dois ficheiros separados?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Normalmente não. Ela grava um único vídeo com o layout que escolheu, e a configuração não pode ser alterada depois que a gravação começa. A Samsung diz que só as linhas Galaxy S22 e S23 conseguem guardar os ficheiros da selfie e da traseira separados, com a opção ativada antes de gravar." }
+          },
+          {
+            "@type": "Question",
+            "name": "O modo Frontal e traseira do ContentCam é grátis no Android?",
+            "acceptedAnswer": { "@type": "Answer", "text": "O ContentCam é grátis para transferir, e a gravação em dois formatos é grátis. O modo Frontal e traseira é Premium, com 5 gravações grátis para experimentar." }
+          },
+          {
+            "@type": "Question",
+            "name": "Por que meu telemóvel Android não grava com as duas câmaras ao mesmo tempo?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Depende do hardware. O Android 11 trouxe o getConcurrentCameraIds(), que informa aos apps quais câmaras podem funcionar juntas. Se o telemóvel não informa um par frontal e traseira, os apps que usam esse caminho oficial não conseguem gravar com as duas." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="da" href="https://contentcam.app/da/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="no" href="https://contentcam.app/no/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="fi" href="https://contentcam.app/fi/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="pt-PT" href="https://contentcam.app/pt-pt/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="uk" href="https://contentcam.app/uk/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="fil" href="https://contentcam.app/fil/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="bn" href="https://contentcam.app/bn/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="cs" href="https://contentcam.app/cs/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="ro" href="https://contentcam.app/ro/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="hu" href="https://contentcam.app/hu/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="el" href="https://contentcam.app/el/blog/record-front-and-back-camera-same-time-android/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-front-and-back-camera-same-time-android/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/pt-pt/"><img src="/assets/logo-mark.png" alt="Logo do ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Funcionalidades</a>
+        <a href="/pricing/">Preços</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Suporte</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/pt-pt/">Início</a> › <a href="/blog/">Blog</a> › Câmara frontal e traseira ao mesmo tempo no Android</div>
+    <article class="post">
+      <h1>Como gravar com a câmara frontal e traseira ao mesmo tempo no Android</h1>
+      <p class="byline">Por Jimmy, programador do ContentCam · 8 de outubro de 2026 · Atualizado em 5 de novembro de 2026</p>
+
+      <p>A forma mais flexível de gravar com a câmara frontal e a traseira ao mesmo tempo no Android é um app de câmara que guarda seu rosto e a cena em dois ficheiros separados. O modo Frontal e traseira do ContentCam faz isso em qualquer Android cujo hardware consiga usar as duas câmaras juntas, inclusive nos Pixel compatíveis, onde a Pixel Camera não tem modo frontal e traseira. Alguns telemóveis Samsung Galaxy também fazem isso no app Câmara nativo, mas normalmente num único vídeo, com o layout definido antes de si apertar para gravar.</p>
+      <p>Para o iPhone e a opção nativa do Instagram, veja o guia principal sobre <a href="/pt-pt/blog/dual-camera-effect/">usar a câmara frontal e a traseira ao mesmo tempo</a>, ou a <a href="/pt-pt/blog/iphone-17-dual-capture-limitations/">Captura Dupla do iPhone</a>, a versão nativa da Apple.</p>
+
+      <h2>Como fazer isso no ContentCam para Android</h2>
+      <p>O modo Frontal e traseira grava a câmara de selfie e a traseira juntas, com um toque, e entrega dois ficheiros, não um layout fixo. A câmara traseira grava na vertical ou na horizontal (escolhe); a selfie é sempre vertical. Decide o layout depois: janelinha, ecrã dividido, cortes alternando entre elas ou dois posts. Para ter um vídeo pronto, o editor Combinar junta os dois em Picture in Picture ou ecrã dividido e mantém os ficheiros originais.</p>
+      <ol>
+        <li>Instale o <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dpt-pt-android-dual-format">ContentCam pelo Google Play</a>.</li>
+        <li>Mude o modo para Frontal e traseira. O app verifica as câmaras do seu telemóvel e só oferece o modo onde ele funciona.</li>
+        <li>Escolha vertical ou horizontal para a câmara traseira.</li>
+        <li>Enquadre a imagem da traseira e grave uma vez. As duas câmaras compartilham a mesma linha do tempo, então a reação e a cena ficam sincronizadas.</li>
+        <li>Corte e exporte os dois clipes, ou abra o Combinar para ter um único vídeo.</li>
+      </ol>
+      <p>No Android, o modo Frontal e traseira grava em HD a até 30fps e é Premium, com 5 gravações grátis para experimentar. Testar os layouts do Combinar é grátis; guardar um é Premium. O modo também tira pares de fotos com a frontal e a traseira (Premium). Sem anúncios e sem marca d'água, tanto na versão grátis quanto no Premium. A versão grátis grava um ficheiro 9:16 e um 16:9 a partir de um único take, assunto tratado em <a href="/pt-pt/blog/record-portrait-and-landscape-video-same-time-android/">como gravar na vertical e na horizontal ao mesmo tempo no Android</a>.</p>
+
+      <div class="shot-pair">
+        <img src="/assets/img/ui-record-handsup-640.webp" alt="Ecrã de gravação do ContentCam com o seletor de modo" width="640" height="1387" loading="lazy" decoding="async">
+        <img src="/assets/img/ui-review-dark-640.webp" alt="Ecrã de revisão do ContentCam depois de um take" width="640" height="1387" loading="lazy" decoding="async">
+      </div>
+
+      <h2>Como gravar com as duas câmaras no Samsung Galaxy? Visão do Diretor e Gravação dupla</h2>
+      <p>A página de suporte da Samsung descreve a Gravação dupla (Dual recording) como uma forma de "gravar um vídeo a usar a câmara traseira e a câmara de selfie ao mesmo tempo", em dispositivos selecionados com One UI 3.1 ou posterior. Escolhe picture-in-picture (num canto) ou ecrã dividido (traseira em cima, selfie embaixo) antes de gravar.</p>
+      <p>As limitações, segundo as próprias páginas da Samsung: o resultado normalmente é <em>um</em> vídeo com a janelinha já fixa, então ela não pode ser movida nem removida depois, e não dá para mudar a configuração da Gravação dupla depois que o vídeo começou. Só as linhas Galaxy S22 e S23 conseguem guardar os ficheiros da selfie e da traseira separados, com a opção ativada antes de gravar. Nos Galaxy mais novos, incluindo as linhas S24 e S25, a Visão do Diretor (Director's View) passou a se chamar Gravação dupla, e a partir da One UI 8.5 ela fica no modo Vídeo, em Controlos rápidos. O passo a passo completo está em <a href="/pt-pt/blog/record-front-and-back-camera-samsung-galaxy/">como gravar com a frontal e a traseira num Samsung Galaxy</a>.</p>
+
+      <h2>O Google Pixel grava com a câmara frontal e traseira ao mesmo tempo? Não</h2>
+      <p>A Pixel Camera não grava com duas câmaras ao mesmo tempo. A funcionalidade mais próximo do Google é a pré-visualização em ecrã duplo (Dual screen preview) nos modelos Pixel Fold, que mostra o visor no ecrã interno e na externa para que a pessoa filmada possa se ver. Continua a ser uma só câmara a gravar. Num Pixel, gravar com a frontal e a traseira significa usar um app de terceiros, como o ContentCam.</p>
+
+      <h2>E nos outros telemóveis Android? Depende do hardware</h2>
+      <p>O Android 11 (nível de API 30) trouxe o <code>getConcurrentCameraIds()</code>, que informa a um app quais câmaras podem funcionar ao mesmo tempo. Se o seu telemóvel informa um par frontal e traseira, um app consegue gravar com as duas. Se não informa, nenhum app que use esse caminho oficial consegue. É por isso que funciona num telemóvel e não em outro.</p>
+
+      <h2>Qual é o melhor forma de gravar com as duas câmaras no Android?</h2>
+      <ul>
+        <li><strong>Quer os dois ângulos em ficheiros separados,</strong> ou usa um Pixel ou outra marca: o modo Frontal e traseira do ContentCam.</li>
+        <li><strong>Tem um Galaxy compatível e quer um clipe pronto rápido:</strong> a Gravação dupla no app Câmara nativo.</li>
+        <li><strong>Só quer seu rosto no canto para um Story:</strong> a Câmara dupla do Instagram, explicada no <a href="/pt-pt/blog/dual-camera-effect/">guia principal de câmara dupla</a>.</li>
+      </ul>
+
+      <h2>Como gravar bem com a câmara frontal e a traseira</h2>
+      <ul>
+        <li><strong>Ilumine seu rosto.</strong> A câmara de selfie é a primeira a ficar granulada num ambiente escuro. Fique de frente para uma janela ou uma luminária.</li>
+        <li><strong>Fique perto do telemóvel.</strong> Se se afastar para mostrar algo, sua voz cai, então chegue mais perto nas falas que importam.</li>
+        <li><strong>Trave a exposição quando a luz mudar.</strong> O <a href="/blog/android-camera-settings-for-video/">guia de definições de câmara do Android</a> mostra o que o seu telemóvel deixa bloquear.</li>
+        <li><strong>Fique de olho no calor.</strong> Em takes longos, fique longe do sol direto e tire a capinha.</li>
+      </ul>
+
+      <h2>Perguntas frequentes</h2>
+      <h3>Dá para gravar com a câmara frontal e a traseira ao mesmo tempo num Google Pixel?</h3>
+      <p>Não na Pixel Camera. A pré-visualização em ecrã duplo nos modelos Pixel Fold mostra o visor nos dois ecrãs enquanto uma única câmara grava. Num Pixel que suporte câmaras simultâneas, um app com modo frontal e traseira, como o ContentCam, grava com as duas.</p>
+      <h3>Qual é o melhor app para gravar com a câmara frontal e a traseira ao mesmo tempo no Android?</h3>
+      <p>O ContentCam, se quer editar os dois ângulos: o modo Frontal e traseira guarda seu rosto e a cena em dois ficheiros separados em qualquer Android que consiga usar as duas câmaras juntas, sem anúncios e sem marca d'água. Num Galaxy compatível, a Gravação dupla nativa é a forma mais rápido de ter um clipe pronto.</p>
+      <h3>A Gravação dupla da Samsung guarda dois ficheiros separados?</h3>
+      <p>Normalmente não. Ela grava um único vídeo com o layout que escolheu, e a configuração não pode ser alterada depois que a gravação começa. A Samsung diz que só as linhas Galaxy S22 e S23 conseguem guardar os ficheiros da selfie e da traseira separados, com a opção ativada antes de gravar.</p>
+      <h3>O modo Frontal e traseira do ContentCam é grátis no Android?</h3>
+      <p>O ContentCam é grátis para transferir, e a gravação em dois formatos é grátis. O modo Frontal e traseira é Premium, com 5 gravações grátis para experimentar.</p>
+      <h3>Por que meu telemóvel Android não grava com as duas câmaras ao mesmo tempo?</h3>
+      <p>Depende do hardware. O Android 11 trouxe o getConcurrentCameraIds(), que informa aos apps quais câmaras podem funcionar juntas. Se o telemóvel não informa um par frontal e traseira, os apps que usam esse caminho oficial não conseguem gravar com as duas.</p>
+
+      <div class="post-cta">
+        <p><strong>Experimente o ContentCam de graça.</strong> Frontal e traseira num único take, em dois ficheiros separados, além de vertical e horizontal a partir de uma única gravação. Sem anúncios, sem marca d'água. Transfira grátis no Android e no iPhone.</p>
+        <p class="cta-proof">★ Nota 4,8 atribuída por 580+ criadores na <a href="https://apps.apple.com/app/id6765881795">App Store</a> e no <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>.</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dpt-pt-android-dual-format"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Disponível no Google Play" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=pt-pt-b-front-back-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Transferir na App Store" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>Veja também: <a href="/pt-pt/blog/dual-camera-effect/">o guia completo para usar a câmara frontal e a traseira ao mesmo tempo</a> · <a href="/pt-pt/blog/record-portrait-and-landscape-video-same-time-android/">como gravar na vertical e na horizontal ao mesmo tempo no Android</a> · <a href="/pt-pt/blog/record-front-and-back-camera-same-time-iphone/">a versão deste guia para iPhone</a> · <a href="/pt-pt/blog/take-photo-front-and-back-camera-same-time/">como tirar uma foto com a frontal e a traseira ao mesmo tempo</a> · <a href="/pt-pt/android/">ContentCam para Android</a> · <a href="/pt-pt/blog/record-front-and-back-camera-samsung-galaxy/">frontal e traseira no Samsung Galaxy</a> · <a href="/blog/record-front-and-back-camera-google-pixel/">frontal e traseira no Google Pixel</a>.</p>
+      <p class="byline">Fontes: Samsung, "Use Director's View and Dual recording on your Galaxy phone" (samsung.com/us/support); Google, Ajuda da Pixel Camera, "Record a video" (support.google.com/pixelcamera); Samsung US, "Dual recording missing in the Camera app on Galaxy phones"; Samsung Gulf, "Director's View Missing in Camera?"; Android Developers, CameraManager.getConcurrentCameraIds(). Verificado em 5 de novembro de 2026.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo do ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Funcionalidades</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/pt-pt/features/dual-camera/">Câmara dupla</a>
+        <a href="/features/manual-controls/">Controlos manuais</a>
+        <a href="/pt-pt/android/">Android</a>
+        <a href="/pricing/">Preços</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Suporte</a>
+        <a href="/press/">Imprensa</a>
+        <a href="/vs/">Comparações</a>
+        <a href="/changelog/">Novidades</a>
+        <a href="/privacy.html">Privacidade</a>
+        <a href="/terms.html">Termos</a>
+      </div>
+      <div class="fine">Nota 4,8 atribuída por 580+ criadores na <a href="https://apps.apple.com/app/id6765881795">App Store</a> e no <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a> (novembro de 2026). O ContentCam é um app de câmara independente criado na Austrália por um único programador. © 2026 ContentCam. Apple, o logotipo da Apple, iPhone e App Store são marcas registadas da Apple Inc. Google Play e o logotipo do Google Play são marcas registadas da Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-front-and-back-camera-same-time-android/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-front-and-back-camera-same-time-android/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-front-and-back-camera-same-time-android/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-front-and-back-camera-same-time-android/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-front-and-back-camera-same-time-android/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-front-and-back-camera-same-time-android/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/record-front-and-back-camera-same-time-android/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-front-and-back-camera-same-time-android/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/blog/record-front-and-back-camera-same-time-android/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/blog/record-front-and-back-camera-same-time-android/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/blog/record-front-and-back-camera-same-time-android/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/blog/record-front-and-back-camera-same-time-android/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/blog/record-front-and-back-camera-same-time-android/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/blog/record-front-and-back-camera-same-time-android/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/blog/record-front-and-back-camera-same-time-android/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/blog/record-front-and-back-camera-same-time-android/" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/blog/record-front-and-back-camera-same-time-android/" hreflang="sv" lang="sv">Svenska</a> · <a href="/da/blog/record-front-and-back-camera-same-time-android/" hreflang="da" lang="da">Dansk</a> · <a href="/no/blog/record-front-and-back-camera-same-time-android/" hreflang="no" lang="no">Norsk</a> · <a href="/fi/blog/record-front-and-back-camera-same-time-android/" hreflang="fi" lang="fi">Suomi</a> · <strong>Português (Portugal)</strong> · <a href="/uk/blog/record-front-and-back-camera-same-time-android/" hreflang="uk" lang="uk">Українська</a> · <a href="/hi/blog/record-front-and-back-camera-same-time-android/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/blog/record-front-and-back-camera-same-time-android/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/blog/record-front-and-back-camera-same-time-android/" hreflang="ms" lang="ms">Bahasa Melayu</a> · <a href="/fil/blog/record-front-and-back-camera-same-time-android/" hreflang="fil" lang="fil">Filipino</a> · <a href="/bn/blog/record-front-and-back-camera-same-time-android/" hreflang="bn" lang="bn">বাংলা</a> · <a href="/cs/blog/record-front-and-back-camera-same-time-android/" hreflang="cs" lang="cs">Čeština</a> · <a href="/ro/blog/record-front-and-back-camera-same-time-android/" hreflang="ro" lang="ro">Română</a> · <a href="/hu/blog/record-front-and-back-camera-same-time-android/" hreflang="hu" lang="hu">Magyar</a> · <a href="/el/blog/record-front-and-back-camera-same-time-android/" hreflang="el" lang="el">Ελληνικά</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

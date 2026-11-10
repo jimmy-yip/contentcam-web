@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>Jak nahrávat video na výšku i na šířku najednou na Androidu: aplikace (2026)</title>
+  <meta name="description" content="Tři způsoby, jak získat video 9:16 i 16:9 z jednoho záběru na Androidu: ořez v postprodukci, natáčení ve 4K a přeformátování, nebo nahrání obou souborů najednou. Co každý stojí.">
+  <link rel="canonical" href="https://contentcam.app/cs/blog/record-portrait-and-landscape-video-same-time-android/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="Jak nahrávat video na výšku i na šířku najednou na Androidu? (2026)">
+  <meta property="og:description" content="Tři způsoby, jak získat 9:16 i 16:9 z jednoho záběru na Androidu, a co každý stojí na kompozici a kvalitě.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/cs/blog/record-portrait-and-landscape-video-same-time-android/">
+  <meta property="og:locale" content="cs_CZ">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jak nahrávat video na výšku i na šířku najednou na Androidu? (2026)">
+  <meta name="twitter:description" content="Tři způsoby, jak získat 9:16 i 16:9 z jednoho záběru na Androidu, a co každý stojí.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-home.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://contentcam.app/cs/blog/record-portrait-and-landscape-video-same-time-android/",
+        "headline": "Jak nahrávat video na výšku i na šířku najednou na Androidu? (2026)",
+        "description": "Tři způsoby, jak získat video 9:16 i 16:9 z jednoho záběru na Androidu: ořez v postprodukci, natáčení ve 4K a přeformátování, nebo nahrání obou souborů najednou.",
+        "image": "https://contentcam.app/assets/og/og-home.jpg",
+        "datePublished": "2026-09-30",
+        "dateModified": "2026-11-05",
+        "author": { "@type": "Person", "name": "Jimmy", "description": "Tvůrce ContentCam", "url": "https://contentcam.app/press/" },
+        "publisher": { "@id": "https://contentcam.app/#org" },
+        "mainEntityOfPage": "https://contentcam.app/cs/blog/record-portrait-and-landscape-video-same-time-android/"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://contentcam.app/cs/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/cs/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Nahrávání na výšku i na šířku najednou na Androidu", "item": "https://contentcam.app/cs/blog/record-portrait-and-landscape-video-same-time-android/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Umí telefon s Androidem nahrávat video na výšku i na šířku najednou?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ne ve standardních aplikacích fotoaparátu. Samsung Camera i Pixel Camera nahrávají jeden tvar na záběr. Aplikace třetí strany, která nahrává z celého snímku senzoru 4:3, umí z jednoho záběru uložit soubor 9:16 na výšku i soubor 16:9 na šířku." }
+          },
+          {
+            "@type": "Question",
+            "name": "Existuje aplikace pro Android pro současné nahrávání videa na šířku i na výšku?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ano. ContentCam pro Android nahrává soubor 9:16 na výšku i soubor 16:9 na šířku z jednoho záběru, na zadní i přední kameře, v 1080p v bezplatné verzi, bez reklam a bez vodoznaku." }
+          },
+          {
+            "@type": "Question",
+            "name": "Kolik obrazu ztratíš ořezem videa 16:9 na 9:16?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Asi 68 %. Ořez 9:16 v plné výšce snímku 1920x1080 je široký 607,5 pixelu, což je 31,6 % šířky 1920 pixelů. Zbylých 68,4 % scény se zahodí." }
+          },
+          {
+            "@type": "Question",
+            "name": "Můžu na Androidu nahrávat přední a zadní kamerou najednou pro reakční videa?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ano. Režim Přední a zadní v ContentCam nahrává přední i zadní kameru v jednom záběru na telefonech s Androidem, jejichž kamery umí běžet společně, uložené jako dva samostatné soubory v HD až při 30 sn./s. Editor Combine je pak umí změnit na jedno video s obrazem v obraze nebo rozdělenou obrazovkou. Je to funkce Premium s 5 nahrávkami zdarma na vyzkoušení." }
+          },
+          {
+            "@type": "Question",
+            "name": "Dá se při natáčení ve 4K na Androidu vyříznout video na výšku z videa na šířku?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ano, pokud zbude dost rozlišení. Ořez 9:16 ze snímku 3840x2160 má 1215x2160 pixelů, což je víc, než potřebuje video na výšku 1080x1920. Kompozice je ale pořád úzký výřez záběru na šířku, takže objekt musí být při natáčení ve středu." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="da" href="https://contentcam.app/da/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="no" href="https://contentcam.app/no/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="fi" href="https://contentcam.app/fi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="pt-PT" href="https://contentcam.app/pt-pt/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="uk" href="https://contentcam.app/uk/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="fil" href="https://contentcam.app/fil/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="bn" href="https://contentcam.app/bn/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="cs" href="https://contentcam.app/cs/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="ro" href="https://contentcam.app/ro/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="hu" href="https://contentcam.app/hu/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="el" href="https://contentcam.app/el/blog/record-portrait-and-landscape-video-same-time-android/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-android/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/cs/"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Otevřít menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Funkce</a>
+        <a href="/pricing/">Ceník</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Podpora</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/cs/">Domů</a> › <a href="/blog/">Blog</a> › Nahrávání na výšku i na šířku najednou na Androidu</div>
+    <article class="post">
+      <h1>Jak nahrávat video na výšku i na šířku najednou na Androidu? (2026)</h1>
+      <p class="byline">Jimmy, tvůrce ContentCam · 30. září 2026 · Aktualizováno 5. listopadu 2026</p>
+
+      <p><strong>Stručná odpověď:</strong> použij aplikaci pro Android, která nahrává oba soubory najednou z celého senzoru. ContentCam to dělá na Androidu i iPhonu: jeden záběr uloží svislý soubor 9:16 i vodorovný soubor 16:9, zdarma v 1080p, bez reklam, bez vodoznaku a bez účtu. Aplikace fotoaparátu, která přišla s telefonem, to neumí, protože Samsung Camera a Pixel Camera nahrávají jeden tvar na záběr. Bezplatná řešení, ořez potom nebo natáčení ve 4K a přeformátování, obě ztratí většinu scény.</p>
+      <p>ContentCam vytvářím já, takže si matematiku níže ověř sám. Aritmetika je stejná, ať vybereš jakýkoli nástroj.</p>
+
+      <h2>Umí standardní fotoaparát Androidu nahrávat video na výšku i na šířku najednou?</h2>
+      <p>Ne. Standardní aplikace fotoaparátu na Androidu nahrávají jeden tvar na záběr.</p>
+      <ul>
+        <li><strong>Samsung Camera</strong> má nastavení poměru stran; stránka podpory Samsungu uvádí 1:1, 3:4, 9:16 a Full Screen s poznámkou, že „available ratios may vary depending on your device's camera specifications.“ Vybereš jeden. Telefon nahrává jeden.</li>
+        <li><strong>Pixel Camera</strong>: nápověda Pixel Camera od Googlu dokumentuje poměry stran jen pro fotky (Wide crop 16:9, Full image 4:3), u videa žádné. Video z Pixelu je na šířku nebo na výšku podle toho, jak telefon držíš.</li>
+        <li><strong>Google Photos</strong> umí hotové video dodatečně oříznout na jiný poměr stran. To je možnost 1 níže, se stejnou cenou.</li>
+      </ul>
+
+      <h2>Možnost 1: Kolik ztratíš ořezem videa na šířku na výšku?</h2>
+      <p>Zachováš 31,6 % šířky a zahodíš 68,4 % scény. U videa na šířku v 1080p:</p>
+      <ul>
+        <li>Snímek na šířku je 1920×1080.</li>
+        <li>Ořez 9:16 v plné výšce je 1080 × 9 ÷ 16 = <strong>607,5 pixelu široký</strong>.</li>
+        <li>607,5 ÷ 1920 = <strong>0,316</strong>, takže přežije 31,6 % šířky.</li>
+      </ul>
+      <p>Tento pruh 607×1080 se pak pro TikTok, Reels nebo Shorts zvětší 1,78krát na 1080×1920, a proto oříznutá videa na výšku vypadají měkce. Ořezu se vyhni u cestování, sportu, záběrů produktů nebo jakékoli scény, kde záleží na pozadí.</p>
+
+      <h2>Možnost 2: Dá se natočit 4K na šířku a přeformátovat na výšku?</h2>
+      <p>Ano, a je to nejlepší bezplatné řešení. Ořez 9:16 ze snímku 3840×2160 je 2160 × 9 ÷ 16 = <strong>1215×2160 pixelů</strong>, což je víc než 1080×1920, které platforma na výšku přehrává. Problém s rozlišením z možnosti 1 zmizí.</p>
+      <p>Problém s kompozicí zůstává: video na výšku je pořád 31,6 % šířky videa na šířku, takže objekt musí sedět přesně uprostřed a cokoli komponovaného pro široký záběr (panorama města, druhý člověk) je mimo. Také každé video střihneš dvakrát a soubory 4K mají čtyřikrát tolik pixelů než 1080p.</p>
+
+      <h2>Možnost 3: Jak nahrávat oba formáty najednou na Androidu?</h2>
+      <p>Nahrávej celý snímek senzoru 4:3, který je širší než 9:16 a vyšší než 16:9, a oba tvary z něj vyřízni už při záznamu. Na ilustračním senzoru 4000×3000:</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Metoda</th><th>Výřez na výšku ze senzoru 4000×3000</th><th>Podíl plochy senzoru</th></tr></thead>
+          <tbody>
+            <tr><td>Nahrát 16:9, 9:16 oříznout potom</td><td>asi 1266×2250</td><td>24 %</td></tr>
+            <tr><td>Ořez 9:16 z celého snímku 4:3</td><td>asi 1688×3000</td><td>42 %</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Snímek na výšku z celého záběru vidí 1,78krát víc scény a soubor 16:9 na šířku zachová plnou šířku senzoru (4000×2250). Ani jeden soubor není ořezem druhého.</p>
+      <p>Takto funguje <a href="/cs/android/">ContentCam pro Android</a>. Jeden záběr uloží soubor 9:16 i soubor 16:9, na zadní i přední kameře. Na telefonech, které zpřístupňují ultraširokoúhlý objektiv, dává možnost 0,5× oběma ořezům širší pohled. Pokud držíš telefon na bok, oba soubory dostanou správnou orientaci, takže se v CapCutu nebo Premiere přehrají správně otočené. Bezplatná verze nahrává neomezené záběry v obou formátech v 1080p a až při 30 sn./s, bez reklam a bez vodoznaku; <a href="/pricing/">Premium</a> přidává 4K a 60 sn./s tam, kde to hardware telefonu podporuje.</p>
+      <p>Oproti možnostem 1 a 2 se nic neořezává dodatečně, každý záběr zarámuješ jednou a nestřihneš každé video dvakrát.</p>
+      <p>Jedno omezení: režim „Dva objektivy“, který nahrává širokoúhlý a ultraširokoúhlý objektiv ve stejném okamžiku, je zatím jen pro iPhone.</p>
+
+      <h2>Kterou možnost zvolit na Androidu?</h2>
+      <table>
+        <thead><tr><th>Tvoje situace</th><th>Nejlepší možnost</th></tr></thead>
+        <tbody>
+          <tr><td>Pravidelně zveřejňuješ oba tvary a chceš, aby každý vypadal záměrně zarámovaný</td><td>Nahrávat oba najednou (možnost 3, doporučeno)</td></tr>
+          <tr><td>Cestování, sport nebo záběry produktů, kde záleží na pozadí</td><td>Nahrávat oba najednou (možnost 3)</td></tr>
+          <tr><td>Selfie kamera</td><td>Nahrávat oba najednou, funguje i na přední kameře</td></tr>
+          <tr><td>Telefon nahrává 4K, objekt zůstává uprostřed, nevadí ti střihat dvakrát</td><td>Natáčet ve 4K a přeformátovat (možnost 2)</td></tr>
+          <tr><td>Mluvící hlava, obličej vyplňuje snímek, záběr na šířku je jednorázový bonus</td><td>Ořez v postprodukci (možnost 1)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Často kladené otázky</h2>
+      <p><strong>Umí telefon s Androidem nahrávat video na výšku i na šířku najednou?</strong> Ne ve standardních aplikacích fotoaparátu. Samsung Camera i Pixel Camera nahrávají jeden tvar na záběr. Aplikace třetí strany, která nahrává z celého snímku senzoru 4:3, umí z jednoho záběru uložit soubor 9:16 na výšku i soubor 16:9 na šířku.</p>
+      <p><strong>Existuje aplikace pro Android pro současné nahrávání videa na šířku i na výšku?</strong> Ano. ContentCam pro Android nahrává soubor 9:16 na výšku i soubor 16:9 na šířku z jednoho záběru, na zadní i přední kameře, v 1080p v bezplatné verzi, bez reklam a bez vodoznaku.</p>
+      <p><strong>Kolik obrazu ztratíš ořezem videa 16:9 na 9:16?</strong> Asi 68 %. Ořez 9:16 v plné výšce snímku 1920x1080 je široký 607,5 pixelu, což je 31,6 % šířky 1920 pixelů. Zbylých 68,4 % scény se zahodí.</p>
+      <p><strong>Můžu na Androidu nahrávat přední a zadní kamerou najednou pro reakční videa?</strong> Ano. Režim Přední a zadní v ContentCam nahrává přední i zadní kameru v jednom záběru na telefonech s Androidem, jejichž kamery umí běžet společně, uložené jako dva samostatné soubory v HD až při 30 sn./s. Editor Combine je pak umí změnit na jedno video s obrazem v obraze nebo rozdělenou obrazovkou. Je to funkce Premium s 5 nahrávkami zdarma na vyzkoušení.</p>
+      <p><strong>Dá se při natáčení ve 4K na Androidu vyříznout video na výšku z videa na šířku?</strong> Ano, pokud zbude dost rozlišení. Ořez 9:16 ze snímku 3840x2160 má 1215x2160 pixelů, což je víc, než potřebuje video na výšku 1080x1920. Kompozice je ale pořád úzký výřez záběru na šířku, takže objekt musí být při natáčení ve středu.</p>
+
+      <div class="post-cta">
+        <p><strong>Přestaň natáčet všechno dvakrát.</strong> ContentCam je zdarma na Google Play; nahraj záběr a prohlédni si oba soubory, než se o čemkoli rozhodneš.</p>
+        <p class="cta-proof">★ Hodnocení 4,8 od 580+ tvůrců v <a href="https://apps.apple.com/app/id6765881795">App Store</a> a <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>.</p>
+        <div class="badges badges-left">
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dcs-record-portrait-and-landscape-video-same-time-android"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Stáhnout z Google Play" width="175" height="52"></a>
+          <a href="https://apps.apple.com/app/apple-store/id6765881795?pt=128838819&amp;ct=cs-b-portrait-landscape-android&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Stáhnout z App Store" width="156" height="52"></a>
+        </div>
+      </div>
+
+      <p>Údaje o standardních fotoaparátech byly přečteny ze <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">stránky podpory Samsungu o poměru stran fotoaparátu</a>, <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">nápovědy Pixel Camera</a> a <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">nápovědy Google Photos</a>, ověřeno 5. listopadu 2026. Související: <a href="/blog/how-to-record-landscape-video-on-android/">jak nahrávat video na šířku na Androidu</a> · <a href="/cs/blog/record-portrait-and-landscape-video-same-time-iphone/">verze tohoto průvodce pro iPhone</a> · <a href="/blog/android-camera-settings-for-video/">nejlepší nastavení kamery Androidu pro video</a> · <a href="/blog/why-cropping-vertical-to-horizontal-looks-wrong/">video na výšku vs na šířku</a></p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Funkce</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/cs/features/dual-camera/">Dvě kamery</a>
+        <a href="/features/manual-controls/">Ruční ovládání</a>
+        <a href="/cs/android/">Android</a>
+        <a href="/pricing/">Ceník</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Podpora</a>
+        <a href="/press/">Pro média</a>
+        <a href="/vs/">Srovnání</a>
+        <a href="/changelog/">Seznam změn</a>
+        <a href="/privacy.html">Soukromí</a>
+        <a href="/terms.html">Podmínky</a>
+      </div>
+      <div class="fine">Hodnocení 4,8 od 580+ tvůrců v <a href="https://apps.apple.com/app/id6765881795">App Store</a> a <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a> (listopad 2026). ContentCam je nezávislá aplikace fotoaparátu, kterou v Austrálii vytváří jeden vývojář. © 2026 ContentCam. Apple, logo Apple, iPhone a App Store jsou ochranné známky společnosti Apple Inc. Google Play a logo Google Play jsou ochranné známky společnosti Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="en" lang="en">English</a> · <a href="/de/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="sv" lang="sv">Svenska</a> · <a href="/da/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="da" lang="da">Dansk</a> · <a href="/no/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="no" lang="no">Norsk</a> · <a href="/fi/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="fi" lang="fi">Suomi</a> · <a href="/pt-pt/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a> · <a href="/uk/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="uk" lang="uk">Українська</a> · <a href="/hi/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ms" lang="ms">Bahasa Melayu</a> · <a href="/fil/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="fil" lang="fil">Filipino</a> · <a href="/bn/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="bn" lang="bn">বাংলা</a> · <strong>Čeština</strong> · <a href="/ro/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="ro" lang="ro">Română</a> · <a href="/hu/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="hu" lang="hu">Magyar</a> · <a href="/el/blog/record-portrait-and-landscape-video-same-time-android/" hreflang="el" lang="el">Ελληνικά</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>
