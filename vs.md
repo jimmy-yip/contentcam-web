@@ -32,6 +32,8 @@ Front and back recorder from KIDA Studios. ContentCam saves two separate files a
 Multi-camera recorder with an AI editor, iPhone and Mac. ContentCam runs on iPhone and Android, with no watermark and a lifetime option.
 - [**ContentCam vs DualCam**](https://contentcam.app/vs/dualcam/)
 iPhone only, 9:16 and 16:9 in one take. ContentCam adds Android and saves front and back as two separate files.
+- [**ContentCam vs DualTake**](https://contentcam.app/vs/dualtake/)
+iPhone only, one camera at a time, watermark on free exports. ContentCam records front and back at once as two separate files, on iPhone and Android.
 - [**ContentCam vs Blackmagic Camera**](https://contentcam.app/blog/blackmagic-camera-vs-contentcam/)
 A pro manual camera, one orientation at a time. ContentCam records vertical and horizontal from one take, and front and back together.
 
