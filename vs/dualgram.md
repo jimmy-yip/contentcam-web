@@ -45,7 +45,7 @@ Dualgram, from Singapore studio Just2us, has recorded front and back on iPhone s
 | Portrait and landscape from one take | Yes, 9:16 and 16:9 as two files | Either orientation ("Landscape and portrait") |
 | Separate front and back files | Yes, two files; Combine makes the layout afterwards | Yes, front, back and combined ("Save all 3 files") |
 | Manual controls | Exposure, white balance, ISO, shutter | Zoom, flash, stabilisation listed |
-| Last update | iOS 2.8.2 (November 2026); Android 28 October 2026 | 2.4, 3 November 2026 |
+| Last update | iOS 2.8.3 (November 2026); Android 28 October 2026 | 2.4, 3 November 2026 |
 
 Both apps record front and back on iPhone 15 and iPhone 16, which lack Apple's Dual Capture; see [front and back on iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/). More apps are compared in [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/).
 

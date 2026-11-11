@@ -46,7 +46,7 @@ Every 2Cam claim below comes from 2Cam's App Store listing (version 1.5.2, relea
 | Manual controls | Exposure, white balance, ISO, shutter | Not described (lists stabilisation, grid, mirror, audio quality) |
 | Teleprompter | Yes | Yes |
 | Lifetime option | Yes, one-time purchase | None among its US in-app purchases |
-| Last update | iOS 2.8.2 (November 2026), Android 2.7.0 | iOS 1.5.2 (4 November 2026); Android 28 October 2026 |
+| Last update | iOS 2.8.3 (November 2026), Android 2.7.0 | iOS 1.5.2 (4 November 2026); Android 28 October 2026 |
 
 Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/), [Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/).
 

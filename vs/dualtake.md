@@ -62,7 +62,7 @@ On price, the US App Store lists Premium Weekly at $0.99, Monthly at $2.99, Year
 | Two framings at once | Yes, Dual Lens: wide and ultra-wide together (iPhone 11 or later) | Not described |
 | Manual controls | Exposure, white balance, ISO, shutter | Exposure control and zoom; no manual ISO, shutter or white balance mentioned |
 | Teleprompter | Yes, on iPhone and Android; not in the recorded files | Yes; not in the video |
-| Last update | iOS 2.8.2 (November 2026), Android 2.7.0 | iOS 3.9 (26 October 2026) |
+| Last update | iOS 2.8.3 (November 2026), Android 2.7.0 | iOS 3.9 (26 October 2026) |
 
 Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/), [Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/).
 

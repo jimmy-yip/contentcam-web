@@ -50,7 +50,7 @@ On price, the US App Store lists a Lifetime purchase at $24.99, next to Annual a
 | Resize the picture-in-picture | Yes: resize it by dragging, pinching or tapping; drag it anywhere, double-tap to recentre | Not mentioned (dualcam.app says drag anywhere) |
 | Manual controls | Exposure, white balance, ISO, shutter | Flash control and a crop guide overlay; no manual ISO, shutter or white balance mentioned |
 | Teleprompter | Yes | Not mentioned |
-| Last update | iOS 2.8.2 (November 2026), Android 2.7.0 | iOS 1.0.5 (9 November 2026) |
+| Last update | iOS 2.8.3 (November 2026), Android 2.7.0 | iOS 1.0.5 (9 November 2026) |
 
 Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/), [Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/).
 

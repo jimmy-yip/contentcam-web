@@ -24,7 +24,7 @@ For most people ContentCam is the better pick: it records 9:16 and 16:9 from one
 | **Teleprompter · timelapse · 4K · 60fps** | ✓ | ✓ (4K and 60fps need Advanced) |
 | **Project / scene / take workflow** | ✓ with automatic file naming | Not listed |
 | **One-time lifetime purchase** | ✓ Alongside yearly and monthly | No: monthly or yearly subscription only |
-| **Last App Store update** | Actively updated (iOS 2.8.2, Android 2.7.0) | 3.1.2, 5 June 2026 ("Bug fixes and performance improvements") |
+| **Last App Store update** | Actively updated (iOS 2.8.3, Android 2.7.0) | 3.1.2, 5 June 2026 ("Bug fixes and performance improvements") |
 
 ## Does DualShot Recorder put a watermark on free videos?
 

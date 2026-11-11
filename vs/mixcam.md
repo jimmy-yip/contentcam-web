@@ -45,7 +45,7 @@ MixCam is built for a quick finished dual-camera clip. MixCam has been on the Ap
 | Separate front and back files | Yes; Combine renders a layout afterwards, originals kept | Not described; Google Play listing describes split-screen and picture-in-picture layouts |
 | Manual controls | Exposure, white balance, ISO, shutter | Not described (lists Action Mode, Center Stage, motion blur) |
 | Lifetime option | Yes, one-time purchase | Not stated; the $49.99 Pro Camera listing does not say if it renews |
-| Last update | iOS 2.8.2 (November 2026), Android 2.7.0 | iOS 1.48 (19 June 2026); Android 30 September 2026 |
+| Last update | iOS 2.8.3 (November 2026), Android 2.7.0 | iOS 1.48 (19 June 2026); Android 30 September 2026 |
 
 Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/), [Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/).
 

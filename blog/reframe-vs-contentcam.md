@@ -23,7 +23,7 @@ Disclosure: I build ContentCam, so I'm not neutral. Every ReFrame claim below co
 | Free tier | Both formats in HD, unlimited takes, no watermark, no account | 1080p at 30fps; Pro needed for unlimited exports |
 | Teleprompter | Yes | Yes |
 | Weekly plan | No; monthly, yearly (7-day free trial on iOS) or lifetime | Yes, Pro Weekly (alongside Pro Monthly, Pro Yearly and Pro Lifetime) |
-| Latest version | iOS 2.8.2, Android 2.7.0 | 1.0.13, released 18 September 2026 |
+| Latest version | iOS 2.8.3, Android 2.7.0 | 1.0.13, released 18 September 2026 |
 
 For the wider field, see [every dual-format recording app compared](https://contentcam.app/blog/dual-format-recording-apps-compared/).
 

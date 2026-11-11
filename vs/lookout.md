@@ -45,7 +45,7 @@ Lookout is built as a capture tool for the Apple ecosystem; KIDA Studios describ
 | Separate front and back files | Yes; Combine renders a layout afterwards, originals kept | Not described; kidastudios.com: "question and answer in one file" |
 | Manual controls | Exposure, white balance, ISO, shutter | Not described (lists voice-controlled recording, zoom and snapshots) |
 | Lifetime option | Yes, one-time purchase | Not stated; the listing does not say whether Lookout Pro renews |
-| Last update | iOS 2.8.2 (November 2026), Android 2.7.0 | iOS 5.9 (16 May 2026) |
+| Last update | iOS 2.8.3 (November 2026), Android 2.7.0 | iOS 5.9 (16 May 2026) |
 
 Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/), [Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/).
 
