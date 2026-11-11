@@ -41,17 +41,77 @@
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
         "dateModified": "2026-11-05",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "ContentCam 开发者", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "ContentCam 开发者",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/zh-hans/blog/iphone-17-dual-capture-limitations/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://contentcam.app/zh-hans/" },
-          { "@type": "ListItem", "position": 2, "name": "博客", "item": "https://contentcam.app/zh-hans/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "iPhone 17 双重拍摄的限制", "item": "https://contentcam.app/zh-hans/blog/iphone-17-dual-capture-limitations/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://contentcam.app/zh-hans/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "博客",
+            "item": "https://contentcam.app/zh-hans/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "iPhone 17 双重拍摄的限制",
+            "item": "https://contentcam.app/zh-hans/blog/iphone-17-dual-capture-limitations/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "iPhone 17 的双重拍摄是多少帧率？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "苹果的技术规格页面写的是“Dual Capture up to 4K Dolby Vision at 30 fps”（双重拍摄最高 4K 杜比视界 30 fps）。同一颗后置摄像头录普通视频最高可达 4K 杜比视界 60 fps，所以双重拍摄的帧率减半了。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "iPhone 16 能用双重拍摄吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不能。iPhone 16、iPhone 16e 和 iPhone 17e 的技术规格页面都没有提到双重拍摄，苹果的支持机型名单也是从 iPhone 17 开始。ContentCam 的前后摄像头（Front/Back）模式在 iPhone 16 上可以用。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "双重拍摄的画中画小窗能移动吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "苹果公布的操作步骤没有提到可以移动或缩放小窗。停止录制时小窗在哪里，文件里它就固定在哪里。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "第三方 iPhone App 能用两颗摄像头同时录 4K 吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "60 fps 不行，大多数 iPhone 也不行。在 ContentCam 运行过的每一台 iPhone 上，多摄像头格式的上限都是 1920×1440，只有 iPhone 18 Pro 例外，它标出了 4K 30 fps。两路 4K 画面能否同时放进手机的硬件预算还没有测试过，所以双重拍摄是 iOS 上唯一确认能用两颗摄像头录 4K 的方式。"
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/zh-hans/blog/iphone-17-dual-capture-limitations/#faq"
       }
     ]
   }

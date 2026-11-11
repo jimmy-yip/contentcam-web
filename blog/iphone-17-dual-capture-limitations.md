@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/iphone-17-dual-capture-limitations/
 
 Seven iPhones have Dual Capture. iPhone 16 and 17e do not. It records front and back at up to 4K 30 fps into one picture-in-picture file. The limits, and what to use instead.
 
-By Jimmy, developer of ContentCam · 28 September 2026 · Updated 9 November 2026
+By Jimmy, developer of ContentCam · 28 September 2026 · Updated 12 November 2026
 
 **Short answer:** Apple lists seven iPhones with Dual Capture: iPhone 17, iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, iPhone 18 Pro, iPhone 18 Pro Max and iPhone Duo. iPhone 16, iPhone 16e and iPhone 17e do not have it. Dual Capture is a video mode in the Camera app, capped at 4K Dolby Vision at 30 fps, and it saves one file with your face inset in the corner. If your iPhone is not on that list, or you want the two cameras as two separate files, ContentCam's Front & Back mode records both cameras at once on any iPhone running iOS 18 (iPhone XS and later, including iPhone 15 and iPhone 16) and on Android phones whose cameras support it.
 
@@ -75,6 +75,10 @@ Two files means you can cut to either angle or grade each one separately. Conten
 Who Dual Capture suits: anyone on a supported iPhone who wants 4K from both cameras and will post the clip exactly as recorded. One Front & Back take in ContentCam: the rear camera and the selfie camera as two separate files, not one picture-in-picture frame.
 
 ## Frequently asked questions
+
+**Does iPhone 17 have Dual Capture?** Yes. Dual Capture is on the iPhone 17, iPhone 17 Pro and iPhone 17 Pro Max, recording front and back at up to 4K Dolby Vision at 30 fps into one picture-in-picture file. The iPhone 17e does not have it.
+
+**Does iPhone Air have Dual Capture?** Yes. The iPhone Air is on Apple's list of models that support Dual Capture video, with the same 4K Dolby Vision at 30 fps ceiling.
 
 **What frame rate does iPhone 17 Dual Capture record at?** Apple's specs pages list "Dual Capture up to 4K Dolby Vision at 30 fps". The same rear camera records normal video at up to 4K Dolby Vision at 60 fps, so Dual Capture halves the frame rate.
 

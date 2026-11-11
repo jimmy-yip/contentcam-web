@@ -42,17 +42,77 @@
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
         "dateModified": "2026-11-05",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "ContentCamin kehittäjä", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "ContentCamin kehittäjä",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/fi/blog/iphone-17-dual-capture-limitations/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Etusivu", "item": "https://contentcam.app/fi/" },
-          { "@type": "ListItem", "position": 2, "name": "Blogi", "item": "https://contentcam.app/fi/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "iPhone 17:n Dual Capturen rajoitukset", "item": "https://contentcam.app/fi/blog/iphone-17-dual-capture-limitations/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Etusivu",
+            "item": "https://contentcam.app/fi/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blogi",
+            "item": "https://contentcam.app/fi/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "iPhone 17:n Dual Capturen rajoitukset",
+            "item": "https://contentcam.app/fi/blog/iphone-17-dual-capture-limitations/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Millä kuvataajuudella iPhone 17:n Dual Capture tallentaa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Applen tekniset tiedot listaavat \"Dual Capture up to 4K Dolby Vision at 30 fps\". Sama takakamera tallentaa tavallista videota enintään 4K Dolby Vision 60 fps:llä, joten Dual Capture puolittaa kuvataajuuden."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Toimiiko Dual Capture iPhone 16:lla?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ei. iPhone 16:n, iPhone 16e:n ja iPhone 17e:n tekniset tiedot eivät mainitse Dual Capturea, ja Applen tuettujen mallien lista alkaa iPhone 17:stä. ContentCamin Etu- ja takakamera toimii iPhone 16:lla."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Voiko Dual Capturen kuva kuvassa -ikkunaa siirtää?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Applen julkaisemat ohjeet tilalle eivät mainitse sen siirtämistä tai koon muuttamista. Missä ikkuna on, kun lopetat kuvaamisen, siinä se pysyy tiedostossa."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Voivatko kolmannen osapuolen iPhone-sovellukset tallentaa 4K:ta kahdella kameralla yhtä aikaa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Eivät 60 fps:llä, eivätkä useimmilla iPhoneilla. Monikameraformaattien katto on 1920×1440 jokaisella iPhonella, jolla ContentCamia on ajettu, paitsi iPhone 18 Prolla, joka ilmoittaa tueksi 4K:n 30 fps:llä. Sitä, mahtuuko kaksi 4K-virtaa yhtä aikaa puhelimen laitteistobudjettiin, ei ole testattu, joten Dual Capture on ainoa varmistettu 4K:n kahden kameran vaihtoehto iOS:llä."
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/fi/blog/iphone-17-dual-capture-limitations/#faq"
       }
     ]
   }

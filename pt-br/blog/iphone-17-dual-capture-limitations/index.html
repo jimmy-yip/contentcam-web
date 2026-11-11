@@ -42,17 +42,77 @@
         "datePublished": "2026-09-28",
         "dateModified": "2026-11-05",
         "inLanguage": "pt-BR",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "Desenvolvedor do ContentCam", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "Desenvolvedor do ContentCam",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/pt-br/blog/iphone-17-dual-capture-limitations/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://contentcam.app/pt-br/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "Limites da Captura Dupla do iPhone 17", "item": "https://contentcam.app/pt-br/blog/iphone-17-dual-capture-limitations/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Início",
+            "item": "https://contentcam.app/pt-br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://contentcam.app/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Limites da Captura Dupla do iPhone 17",
+            "item": "https://contentcam.app/pt-br/blog/iphone-17-dual-capture-limitations/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Qual é o frame rate da Captura Dupla do iPhone 17?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "As páginas de especificações da Apple informam \"Dual Capture up to 4K Dolby Vision at 30 fps\" (Captura Dupla em até 4K Dolby Vision a 30 fps). A mesma câmera traseira grava vídeo normal em até 4K Dolby Vision a 60 fps, então a Captura Dupla corta o frame rate pela metade."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "A Captura Dupla funciona no iPhone 16?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. As páginas de especificações do iPhone 16, do iPhone 16e e do iPhone 17e não mencionam a Captura Dupla, e a lista da Apple de modelos compatíveis começa no iPhone 17. O modo Frontal e traseira do ContentCam funciona no iPhone 16."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dá para mover a janela do Picture in Picture na Captura Dupla?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Os passos que a Apple publica para o modo não falam em reposicionar nem redimensionar a janela. Onde ela estiver quando você parar de gravar é onde ela fica no arquivo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apps de terceiros no iPhone conseguem gravar em 4K com duas câmeras ao mesmo tempo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não a 60 fps, e não na maioria dos iPhones. Os formatos com várias câmeras param em 1920×1440 em todo iPhone em que o ContentCam já rodou, exceto o iPhone 18 Pro, que marca 4K a 30 fps. Ainda não foi testado se dois fluxos em 4K cabem ao mesmo tempo no limite de hardware do aparelho, então a Captura Dupla é a única opção confirmada em 4K com duas câmeras no iOS."
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/pt-br/blog/iphone-17-dual-capture-limitations/#faq"
       }
     ]
   }

@@ -40,17 +40,93 @@
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-21",
         "dateModified": "2026-09-21",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "Developer of ContentCam", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "Developer of ContentCam",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/blog/android-camera-settings-for-video/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://contentcam.app/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "Android camera settings for video", "item": "https://contentcam.app/blog/android-camera-settings-for-video/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://contentcam.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://contentcam.app/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Android camera settings for video",
+            "item": "https://contentcam.app/blog/android-camera-settings-for-video/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Open Camera free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. It is released under GPL v3 and its developer, Mark Harman, states there are no third-party ads in the app."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Blackmagic Camera work on Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, and it was updated on 3 September 2026. It is restricted to specific Samsung Galaxy and Google Pixel models, so check it installs on your phone before planning around it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why can't I change ISO or shutter speed in my camera app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because your phone reports a low Camera2 hardware support level. The manufacturer decides that, not the app, and no app can work around it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What frame rate should I record at on Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "30fps for almost everything. 24fps for a filmic cadence, 60fps only when you intend to slow the footage down in an edit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I record in 4K on Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, if you have the storage. The benefit is crop and stabilisation room rather than delivered sharpness, since most platforms re-encode what you upload anyway."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Filmic Pro still good on Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Its Android build was last updated 5 November 2025, while Blackmagic Camera updated 3 September 2026. The free option is better maintained."
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/blog/android-camera-settings-for-video/#faq"
       }
     ]
   }

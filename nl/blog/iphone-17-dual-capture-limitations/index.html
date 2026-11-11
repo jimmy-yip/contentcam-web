@@ -41,17 +41,77 @@
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
         "dateModified": "2026-11-05",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "Ontwikkelaar van ContentCam", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "Ontwikkelaar van ContentCam",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/nl/blog/iphone-17-dual-capture-limitations/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://contentcam.app/nl/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/nl/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "Beperkingen van Dual Capture op iPhone 17", "item": "https://contentcam.app/nl/blog/iphone-17-dual-capture-limitations/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://contentcam.app/nl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://contentcam.app/nl/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Beperkingen van Dual Capture op iPhone 17",
+            "item": "https://contentcam.app/nl/blog/iphone-17-dual-capture-limitations/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Met welke beeldsnelheid neemt Dual Capture op de iPhone 17 op?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "De specificatiepagina's van Apple vermelden \"Dual Capture tot 4K Dolby Vision bij 30 fps\". Dezelfde achtercamera neemt normale video op tot 4K Dolby Vision bij 60 fps, dus Dual Capture halveert de beeldsnelheid."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Werkt Dual Capture op de iPhone 16?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nee. De specificatiepagina's van iPhone 16, iPhone 16e en iPhone 17e noemen Dual Capture niet, en de lijst van ondersteunde modellen van Apple begint bij iPhone 17. Front & Back van ContentCam werkt wel op iPhone 16."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kun je het beeld-in-beeldvenster in Dual Capture verplaatsen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "De stappen die Apple voor de modus publiceert, noemen verplaatsen of van formaat veranderen niet. Waar het venster staat als je stopt met opnemen, daar blijft het in het bestand."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kunnen iPhone-apps van derden in 4K met twee camera's tegelijk opnemen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Niet met 60 fps, en op de meeste iPhones helemaal niet. Formaten voor meerdere camera's gaan op elke iPhone waarop ContentCam heeft gedraaid niet hoger dan 1920×1440, behalve op de iPhone 18 Pro, die ook 4K met 30 fps aangeeft. Of twee 4K-streams tegelijk binnen het hardwarebudget van de telefoon passen, is nog niet getest, dus Dual Capture is de enige bevestigde 4K-optie met twee camera's op iOS."
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/nl/blog/iphone-17-dual-capture-limitations/#faq"
       }
     ]
   }

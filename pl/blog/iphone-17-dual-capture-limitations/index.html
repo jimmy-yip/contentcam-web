@@ -42,17 +42,77 @@
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
         "dateModified": "2026-11-05",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "Twórca ContentCam", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "Twórca ContentCam",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/pl/blog/iphone-17-dual-capture-limitations/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://contentcam.app/pl/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/pl/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "Ograniczenia Dual Capture w iPhonie 17", "item": "https://contentcam.app/pl/blog/iphone-17-dual-capture-limitations/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Strona główna",
+            "item": "https://contentcam.app/pl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://contentcam.app/pl/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ograniczenia Dual Capture w iPhonie 17",
+            "item": "https://contentcam.app/pl/blog/iphone-17-dual-capture-limitations/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Z jaką liczbą klatek nagrywa Dual Capture w iPhonie 17?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Strony specyfikacji Apple podają „Dual Capture do 4K Dolby Vision przy 30 kl./s”. Ta sama tylna kamera nagrywa zwykłe wideo do 4K Dolby Vision przy 60 kl./s, więc Dual Capture obcina liczbę klatek o połowę."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Czy Dual Capture działa na iPhonie 16?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nie. Strony specyfikacji iPhone'a 16, iPhone'a 16e i iPhone'a 17e nie wspominają o Dual Capture, a lista obsługiwanych modeli Apple zaczyna się od iPhone'a 17. Tryb „Przód i tył” w ContentCam działa na iPhonie 16."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Czy można przesunąć okienko obrazu w obrazie w Dual Capture?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Opublikowane przez Apple instrukcje dla tego trybu nie wspominają o przesuwaniu ani zmianie rozmiaru. Tam, gdzie okienko jest w chwili zatrzymania nagrywania, tam zostaje w pliku."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Czy aplikacje zewnętrzne na iPhone'a nagrywają 4K dwiema kamerami naraz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nie przy 60 kl./s i nie na większości iPhone'ów. Formaty wielokamerowe na każdym iPhonie, na którym działał ContentCam, kończą się na 1920×1440, z wyjątkiem iPhone'a 18 Pro, który zgłasza 4K przy 30 kl./s. Nie sprawdzono, czy dwa strumienie 4K naraz mieszczą się w budżecie sprzętowym telefonu, więc Dual Capture to jedyna potwierdzona opcja 4K z dwiema kamerami w iOS."
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/pl/blog/iphone-17-dual-capture-limitations/#faq"
       }
     ]
   }

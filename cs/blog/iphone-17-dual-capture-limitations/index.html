@@ -41,17 +41,77 @@
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
         "dateModified": "2026-11-05",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "Tvůrce ContentCam", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "Tvůrce ContentCam",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/cs/blog/iphone-17-dual-capture-limitations/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://contentcam.app/cs/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/cs/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "Omezení Dual Capture na iPhonu 17", "item": "https://contentcam.app/cs/blog/iphone-17-dual-capture-limitations/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Domů",
+            "item": "https://contentcam.app/cs/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://contentcam.app/cs/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Omezení Dual Capture na iPhonu 17",
+            "item": "https://contentcam.app/cs/blog/iphone-17-dual-capture-limitations/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "V jaké snímkové frekvenci nahrává Dual Capture na iPhonu 17?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Stránky se specifikacemi Applu uvádějí „Dual Capture up to 4K Dolby Vision at 30 fps“. Stejná zadní kamera nahrává běžné video až ve 4K Dolby Vision při 60 sn./s, takže Dual Capture snímkovou frekvenci snižuje na polovinu."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Funguje Dual Capture na iPhonu 16?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ne. Stránky se specifikacemi iPhonu 16, iPhonu 16e a iPhonu 17e Dual Capture nezmiňují a seznam podporovaných modelů Applu začíná iPhonem 17. Přední a zadní v ContentCam na iPhonu 16 funguje."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dá se okénko s obrazem v obraze v Dual Capture přesunout?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Zveřejněné kroky Applu pro tento režim přemístění ani změnu velikosti nezmiňují. Kde okénko je, když zastavíš nahrávání, tam v souboru zůstane."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Umí aplikace třetích stran na iPhonu nahrávat 4K se dvěma kamerami najednou?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ne při 60 sn./s a na většině iPhonů vůbec. Multikamerové formáty na každém iPhonu, na kterém ContentCam běžel, končí na 1920×1440, s výjimkou iPhonu 18 Pro, který nabízí 4K při 30 sn./s. Zda se dva 4K streamy vejdou najednou do hardwarových možností telefonu, zatím není otestováno, takže Dual Capture je jediná potvrzená dvoukamerová možnost ve 4K na iOS."
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/cs/blog/iphone-17-dual-capture-limitations/#faq"
       }
     ]
   }

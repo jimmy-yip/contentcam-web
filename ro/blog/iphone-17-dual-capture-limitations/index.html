@@ -41,17 +41,77 @@
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
         "dateModified": "2026-11-05",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "Dezvoltatorul ContentCam", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "Dezvoltatorul ContentCam",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/ro/blog/iphone-17-dual-capture-limitations/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Acasă", "item": "https://contentcam.app/ro/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/ro/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "Limitele Dual Capture pe iPhone 17", "item": "https://contentcam.app/ro/blog/iphone-17-dual-capture-limitations/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Acasă",
+            "item": "https://contentcam.app/ro/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://contentcam.app/ro/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Limitele Dual Capture pe iPhone 17",
+            "item": "https://contentcam.app/ro/blog/iphone-17-dual-capture-limitations/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "La ce rată de cadre înregistrează Dual Capture pe iPhone 17?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Paginile de specificații Apple listează „Dual Capture up to 4K Dolby Vision at 30 fps”. Aceeași cameră din spate înregistrează video normal la până la 4K Dolby Vision la 60 fps, deci Dual Capture înjumătățește rata de cadre."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Funcționează Dual Capture pe iPhone 16?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nu. Paginile de specificații pentru iPhone 16, iPhone 16e și iPhone 17e nu pomenesc Dual Capture, iar lista Apple a modelelor compatibile începe la iPhone 17. Front & Back din ContentCam funcționează pe iPhone 16."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Poți muta fereastra imagine în imagine din Dual Capture?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pașii publicați de Apple pentru acest mod nu pomenesc repoziționarea sau redimensionarea. Unde se află fereastra când oprești înregistrarea, acolo rămâne în fișier."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Pot aplicațiile terțe de pe iPhone să înregistreze 4K cu două camere simultan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nu la 60 fps și nu pe majoritatea iPhone-urilor. Formatele multi-cameră de pe fiecare iPhone pe care a rulat ContentCam ajung la maximum 1920×1440, cu excepția iPhone 18 Pro, care semnalează 4K la 30 fps. Nu am testat încă dacă două fluxuri 4K încap simultan în bugetul hardware al telefonului, deci Dual Capture este singura opțiune 4K confirmată cu două camere pe iOS."
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/ro/blog/iphone-17-dual-capture-limitations/#faq"
       }
     ]
   }

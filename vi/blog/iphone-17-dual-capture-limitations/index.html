@@ -41,17 +41,77 @@
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
         "dateModified": "2026-11-05",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "Nhà phát triển ContentCam", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "Nhà phát triển ContentCam",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/vi/blog/iphone-17-dual-capture-limitations/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://contentcam.app/vi/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://contentcam.app/vi/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "Giới hạn của Dual Capture trên iPhone 17", "item": "https://contentcam.app/vi/blog/iphone-17-dual-capture-limitations/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Trang chủ",
+            "item": "https://contentcam.app/vi/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://contentcam.app/vi/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Giới hạn của Dual Capture trên iPhone 17",
+            "item": "https://contentcam.app/vi/blog/iphone-17-dual-capture-limitations/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Dual Capture trên iPhone 17 quay ở tốc độ khung hình bao nhiêu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Trang thông số của Apple ghi \"Dual Capture up to 4K Dolby Vision at 30 fps\". Cùng camera sau đó quay video thường ở tối đa 4K Dolby Vision 60 fps, nên Dual Capture giảm một nửa tốc độ khung hình."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "iPhone 16 có dùng được Dual Capture không?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Không. Trang thông số của iPhone 16, iPhone 16e và iPhone 17e không nhắc đến Dual Capture, và danh sách mẫu được hỗ trợ của Apple bắt đầu từ iPhone 17. Chế độ Trước và sau của ContentCam chạy được trên iPhone 16."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Có di chuyển được cửa sổ hình trong hình trong Dual Capture không?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Các bước Apple công bố cho chế độ này không nhắc đến việc đổi vị trí hay đổi kích thước. Cửa sổ nằm ở đâu khi bạn dừng quay thì sẽ nằm yên ở đó trong file."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "App bên thứ ba trên iPhone có quay 4K bằng hai camera cùng lúc được không?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Không ở 60 fps, và không trên hầu hết iPhone. Trên mọi iPhone ContentCam từng chạy, các định dạng nhiều camera tối đa ở 1920×1440, trừ iPhone 18 Pro, máy này báo hỗ trợ 4K ở 30 fps. Việc hai luồng 4K cùng lúc có vừa với giới hạn phần cứng của máy hay không thì chưa được thử, nên Dual Capture là lựa chọn 4K hai camera duy nhất đã được xác nhận trên iOS."
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/vi/blog/iphone-17-dual-capture-limitations/#faq"
       }
     ]
   }

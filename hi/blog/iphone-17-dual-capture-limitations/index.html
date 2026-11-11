@@ -41,17 +41,77 @@
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
         "dateModified": "2026-11-05",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "ContentCam के डेवलपर", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "ContentCam के डेवलपर",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/hi/blog/iphone-17-dual-capture-limitations/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://contentcam.app/hi/" },
-          { "@type": "ListItem", "position": 2, "name": "ब्लॉग", "item": "https://contentcam.app/hi/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "iPhone 17 Dual Capture की सीमाएँ", "item": "https://contentcam.app/hi/blog/iphone-17-dual-capture-limitations/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://contentcam.app/hi/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ब्लॉग",
+            "item": "https://contentcam.app/hi/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "iPhone 17 Dual Capture की सीमाएँ",
+            "item": "https://contentcam.app/hi/blog/iphone-17-dual-capture-limitations/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "iPhone 17 का Dual Capture किस फ़्रेम रेट पर रिकॉर्ड करता है?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Apple के स्पेक्स पेज \"Dual Capture up to 4K Dolby Vision at 30 fps\" बताते हैं। वही रियर कैमरा सामान्य वीडियो 60 fps पर 4K Dolby Vision तक रिकॉर्ड करता है, यानी Dual Capture में फ़्रेम रेट आधा हो जाता है।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "क्या iPhone 16 पर Dual Capture चलता है?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "नहीं। iPhone 16, iPhone 16e और iPhone 17e के स्पेक्स पेज Dual Capture का ज़िक्र नहीं करते, और Apple की समर्थित मॉडलों की सूची iPhone 17 से शुरू होती है। ContentCam का फ्रंट/बैक iPhone 16 पर चलता है।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "क्या Dual Capture में पिक्चर-इन-पिक्चर विंडो को हिला सकते हैं?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "इस मोड के लिए Apple के बताए कदम उसे दोबारा रखने या उसका साइज़ बदलने का ज़िक्र नहीं करते। रिकॉर्डिंग रोकते समय विंडो जहाँ होती है, फ़ाइल में वहीं रहती है।"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "क्या तीसरे पक्ष के iPhone ऐप एक साथ दो कैमरों से 4K रिकॉर्ड कर सकते हैं?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "60 fps पर नहीं, और ज़्यादातर iPhone पर नहीं। जिस भी iPhone पर ContentCam चला है, वहाँ मल्टी-कैमरा फ़ॉर्मेट 1920×1440 पर रुक जाते हैं, सिवाय iPhone 18 Pro के, जो 30 fps पर 4K दिखाता है। फ़ोन का हार्डवेयर एक साथ दो 4K स्ट्रीम संभाल पाता है या नहीं, यह अभी टेस्ट नहीं हुआ है, इसलिए iOS पर पक्का 4K दो-कैमरा विकल्प सिर्फ़ Dual Capture है।"
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/hi/blog/iphone-17-dual-capture-limitations/#faq"
       }
     ]
   }

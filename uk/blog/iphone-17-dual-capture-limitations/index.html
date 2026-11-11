@@ -41,17 +41,77 @@
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
         "dateModified": "2026-11-05",
-        "author": { "@type": "Person", "name": "Jimmy", "description": "Розробник ContentCam", "url": "https://contentcam.app/press/" },
-        "publisher": { "@id": "https://contentcam.app/#org" },
+        "author": {
+          "@type": "Person",
+          "name": "Jimmy",
+          "description": "Розробник ContentCam",
+          "url": "https://contentcam.app/press/"
+        },
+        "publisher": {
+          "@id": "https://contentcam.app/#org"
+        },
         "mainEntityOfPage": "https://contentcam.app/uk/blog/iphone-17-dual-capture-limitations/"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Головна", "item": "https://contentcam.app/uk/" },
-          { "@type": "ListItem", "position": 2, "name": "Блог", "item": "https://contentcam.app/blog/" },
-          { "@type": "ListItem", "position": 3, "name": "Обмеження Dual Capture на iPhone 17", "item": "https://contentcam.app/uk/blog/iphone-17-dual-capture-limitations/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Головна",
+            "item": "https://contentcam.app/uk/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Блог",
+            "item": "https://contentcam.app/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Обмеження Dual Capture на iPhone 17",
+            "item": "https://contentcam.app/uk/blog/iphone-17-dual-capture-limitations/"
+          }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "З якою частотою кадрів записує Dual Capture на iPhone 17?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "На сторінках характеристик Apple вказано «Dual Capture до 4K Dolby Vision при 30 fps». Та сама задня камера записує звичайне відео до 4K Dolby Vision при 60 fps, тож Dual Capture вдвічі знижує частоту кадрів."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи працює Dual Capture на iPhone 16?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ні. На сторінках характеристик iPhone 16, iPhone 16e та iPhone 17e Dual Capture не згадано, а список підтримуваних моделей Apple починається з iPhone 17. «Передня й задня» в ContentCam працює на iPhone 16."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи можна пересунути вікно «картинка в картинці» в Dual Capture?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "В опублікованих Apple кроках для цього режиму не згадано про зміну положення чи розміру. Де вікно стоїть, коли ви зупиняєте запис, там воно й лишається у файлі."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чи можуть сторонні застосунки на iPhone записувати 4K з двох камер одночасно?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Не при 60 fps і не на більшості iPhone. Багатокамерні формати на кожному iPhone, на якому працював ContentCam, обмежені 1920×1440, крім iPhone 18 Pro, який позначає 4K при 30 fps. Чи вміщаються два потоки 4K одночасно в апаратний бюджет телефона, не перевірено, тож Dual Capture це єдиний підтверджений варіант 4K з двома камерами на iOS."
+            }
+          }
+        ],
+        "@id": "https://contentcam.app/uk/blog/iphone-17-dual-capture-limitations/#faq"
       }
     ]
   }
