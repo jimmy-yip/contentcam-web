@@ -45,13 +45,13 @@ The page is right that ContentCam's teleprompter and Combine are Premium. You ca
 
 DualTake is an iPhone app for talking-to-camera clips in two formats. Its listing says it records with one camera and cuts the horizontal file from the same frame as the vertical one, following your face, with a teleprompter that scrolls next to the lens. It lists up to 4K at 24, 30 or 60 fps, HDR, MOV or MP4, exposure control, zoom, a countdown timer, pause and resume, and photo mode, and says it has no account and no ads.
 
-On price, the US App Store lists Premium Weekly at $0.99, Monthly at $2.99, Yearly at $19.99 and Lifetime Premium at $39.99. Its listing says free takes are up to 1 minute at 1080p, and that Premium removes the time limit and the watermark and adds 4K, pro codecs, HDR, full zoom and exposure controls. DualTake has 4.4 stars from 18 US ratings. It was released on 10 April 2026 and version 3.9 was updated on 26 October 2026. The listing requires iOS 18.0 or later.
+On price, the US App Store sells DualTake Premium as a weekly, monthly or yearly subscription, or as a lifetime purchase. Its listing says free takes are up to 1 minute at 1080p, and that Premium removes the time limit and the watermark and adds 4K, pro codecs, HDR, full zoom and exposure controls. DualTake has 4.4 stars from 18 US ratings. It was released on 10 April 2026 and version 3.9 was updated on 26 October 2026. The listing requires iOS 18.0 or later.
 
 ## How do they compare spec by spec?
 
 |  | ContentCam | DualTake |
 | --- | --- | --- |
-| Weekly plan | None; yearly, monthly or lifetime | Yes, Premium Weekly $0.99 (US App Store) |
+| Weekly plan | None; yearly, monthly or lifetime | Yes, Premium Weekly (US App Store) |
 | Ads | None, free or Premium | None, per its listing |
 | Watermark | None, free or Premium | On free exports; Premium removes it |
 | Free tier | Unlimited Single Lens recordings in both formats at 1080p, plus 5 Dual Lens and 5 Front & Back recordings | Takes up to 1 minute at 1080p, watermarked |
@@ -78,11 +78,15 @@ No. DualTake's App Store listing says "DualTake records with one camera" and tha
 
 ### Is DualTake free?
 
-DualTake is free to download with in-app purchases. Its listing says free takes are up to 1 minute at 1080p, and Premium removes the time limit and the watermark. The US App Store lists Premium Weekly at $0.99, Monthly at $2.99, Yearly at $19.99 and Lifetime Premium at $39.99 (checked 11 November 2026). ContentCam is free to download, has no ads and no watermark on any plan, and gives 5 free Front & Back recordings before Premium.
+DualTake is free to download with in-app purchases. Its listing says free takes are up to 1 minute at 1080p, and Premium removes the time limit and the watermark. Premium is sold as a weekly, monthly or yearly subscription, or as a lifetime purchase (US App Store, checked 11 November 2026). ContentCam is free to download, has no ads and no watermark on any plan, and gives 5 free Front & Back recordings before Premium.
 
 ### Does DualTake add a watermark?
 
 Yes, on free exports. Its App Store listing says Premium "removes the time limit and the watermark". ContentCam adds no watermark on any plan, free or Premium.
+
+### DualTake vs ContentCam: which one records the front and back camera at the same time?
+
+ContentCam. Its Front & Back mode records the selfie and rear cameras at the same time as two separate files, on iPhone and Android. DualTake's App Store listing says "DualTake records with one camera", so it films the front or the back, not both at once.
 
 ### Is DualTake on Android?
 
