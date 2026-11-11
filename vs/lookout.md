@@ -32,7 +32,7 @@ Every Lookout claim below comes from Lookout's US App Store listing (version 5.9
 
 Lookout is built as a capture tool for the Apple ecosystem; KIDA Studios describes it as "Records, does not edit." Lookout runs on iOS 17 or later, has a Mac version (macOS 15.6 or later) that records the Mac webcam and an iPhone via Continuity Camera at the same time from the menu bar, and an Apple Watch companion (watchOS 11.5 or later) with a live preview of both feeds and remote start. Lookout also offers "Hey Lookout" voice commands, a Focus mode that keeps recording with the screen dark, and a route map video (added in version 5.0.1). Its App Store privacy label reads "Data Not Collected".
 
-**What else Lookout lists.** Lookout can also record on a Mac (webcam and iPhone together) and start a take from an Apple Watch; ContentCam runs on iPhone and Android phones. Lookout's only listed in-app purchase, Lookout Pro, is US$2.99, and its "Hey Lookout" voice commands let you start recording without touching the phone.
+**What else Lookout lists.** Lookout can also record on a Mac (webcam and iPhone together) and start a take from an Apple Watch; ContentCam runs on iPhone and Android phones. Lookout's only listed in-app purchase is Lookout Pro, and its "Hey Lookout" voice commands let you start recording without touching the phone.
 
 ## How do they compare spec by spec?
 
@@ -57,7 +57,7 @@ Lookout's listing says "Dual-Stream HD/UHD: Record both feeds in stunning clarit
 
 ### Is Lookout Dual Camera Recorder free?
 
-Lookout is free to download. The US App Store lists one in-app purchase, Lookout Pro, at $2.99 (checked 6 November 2026). ContentCam is free to download, has no ads and no watermark on any plan, and gives 5 free Front & Back recordings before Premium.
+Lookout is free to download. The US App Store lists one in-app purchase, Lookout Pro (checked 6 November 2026). ContentCam is free to download, has no ads and no watermark on any plan, and gives 5 free Front & Back recordings before Premium.
 
 ### Is Lookout by KIDA Studios on Android?
 

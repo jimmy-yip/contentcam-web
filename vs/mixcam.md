@@ -6,14 +6,14 @@ ContentCam saves the front and back camera as two separate files, records vertic
 
 Checked 6 November 2026 · Disclosure: I'm Jimmy and I build ContentCam
 
-Pick ContentCam over MixCam if you want the front and back camera as two separate files you can edit, a vertical and a horizontal video from the same take, and no watermark on any plan. MixCam's listings describe split-screen and picture-in-picture recording, and its free videos carry a watermark that a $2.99 purchase or a Pro plan removes.
+Pick ContentCam over MixCam if you want the front and back camera as two separate files you can edit, a vertical and a horizontal video from the same take, and no watermark on any plan. MixCam's listings describe split-screen and picture-in-picture recording, and its free videos carry a watermark that a paid add-on or a Pro plan removes.
 
 Every MixCam claim below comes from MixCam's App Store and Google Play listings and the developer's replies to reviews.
 
 ## What are the main differences?
 
 - **Separate files.** ContentCam's Front & Back mode saves the selfie and the scene as two separate files. MixCam's Google Play listing describes split-screen and picture-in-picture layouts, and neither MixCam listing mentions separate files.
-- **Watermark.** ContentCam has none, free or Premium. MixCam sells "Remove Watermark" for $2.99 on the App Store, and on Google Play the developer told a reviewer (9 May 2026) to "upgrade to the PRO version for no watermark".
+- **Watermark.** ContentCam has none, free or Premium. MixCam sells "Remove Watermark" as a separate purchase on the App Store, and on Google Play the developer told a reviewer (9 May 2026) to "upgrade to the PRO version for no watermark".
 - **Recording length.** On Android, MixCam's developer wrote (14 December 2025): "Record 1 minute (free), or up to 3 minutes (PRO)" with dual cameras.
 - **Vertical and horizontal at once.** ContentCam saves a 9:16 file and a 16:9 file from one take. Neither MixCam listing describes that.
 - **Frame rate and manual controls.** ContentCam's Front & Back records up to 60fps in HD on supported iPhones (Premium), with manual ISO, shutter, white balance and exposure in the app. MixCam's listings state no front and back frame rate and no manual ISO or shutter.
@@ -24,7 +24,7 @@ Every MixCam claim below comes from MixCam's App Store and Google Play listings 
 
 **One take for every platform.** ContentCam's main mode records a 9:16 file for TikTok, Reels and Shorts and a 16:9 file for YouTube at the same time, in HD or 4K, at 24, 25, 30, 50 or 60fps.
 
-**How you pay.** MixCam's US App Store purchases are Weekly $1.99, Business Monthly $9.99, Pro Camera $49.99 and Remove Watermark $2.99. ContentCam Premium is yearly (7-day free trial on iPhone), monthly, or a one-time lifetime purchase, and all three include the same features. More apps sold once are in [dual camera apps with a one-time purchase](https://contentcam.app/blog/dual-camera-app-one-time-purchase/).
+**How you pay.** MixCam's US App Store purchases are a weekly plan, a Business monthly plan, Pro Camera and a Remove Watermark add-on. ContentCam Premium is yearly (7-day free trial on iPhone), monthly, or a one-time lifetime purchase, and all three include the same features. More apps sold once are in [dual camera apps with a one-time purchase](https://contentcam.app/blog/dual-camera-app-one-time-purchase/).
 
 **What MixCam reviewers report.** Apple's public US review feed holds 139 MixCam reviews (September 2019 to October 2026). Of those, 9 rated 3 stars or lower report missing, faint or "under water" audio, the latest on version 1.38: "picked up no audio" (1 star, 23 November 2024). Another 1-star review objects to paying "weekly just to record a video that is longer than 3 minutes" (22 June 2023).
 
@@ -36,15 +36,15 @@ MixCam is built for a quick finished dual-camera clip. MixCam has been on the Ap
 
 |  | ContentCam | MixCam |
 | --- | --- | --- |
-| Price model | Free download; Premium yearly, monthly or lifetime | Free download; Weekly $1.99, Business Monthly $9.99, Pro Camera $49.99, Remove Watermark $2.99 (US App Store) |
+| Price model | Free download; Premium yearly, monthly or lifetime | Free download; weekly, Business monthly, Pro Camera, Remove Watermark add-on (US App Store) |
 | Ads | None | No "Contains ads" label on Google Play |
-| Watermark | None, free or Premium | On free videos; removed by a $2.99 purchase or Pro |
+| Watermark | None, free or Premium | On free videos; removed by a paid add-on or Pro |
 | Platforms | iPhone (iOS 18 or later) and Android | iPhone (iOS 15 or later, A12 chip) and Android 5.0 or later |
 | Front and back at the same time | Every iPhone on iOS 18, including iPhone 15 and 16; Android phones that can run both cameras | iPhone XS, XR and later; Android where the manufacturer supports dual camera |
 | Portrait and landscape from one take | Yes, 9:16 and 16:9 files at once | Not described |
 | Separate front and back files | Yes; Combine renders a layout afterwards, originals kept | Not described; Google Play listing describes split-screen and picture-in-picture layouts |
 | Manual controls | Exposure, white balance, ISO, shutter | Not described (lists Action Mode, Center Stage, motion blur) |
-| Lifetime option | Yes, one-time purchase | Not stated; the $49.99 Pro Camera listing does not say if it renews |
+| Lifetime option | Yes, one-time purchase | Not stated; the Pro Camera listing does not say if it renews |
 | Last update | iOS 2.8.3 (November 2026), Android 2.7.0 | iOS 1.48 (19 June 2026); Android 30 September 2026 |
 
 Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/), [Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/).
@@ -57,7 +57,7 @@ MixCam's iPhone listing names no resolution. Its Google Play listing says "Save 
 
 ### Is MixCam free?
 
-MixCam is free to download with in-app purchases. The US App Store lists Weekly at $1.99, Business Monthly at $9.99, Pro Camera at $49.99 and Remove Watermark at $2.99 (checked 6 November 2026). ContentCam is free to download, has no ads and no watermark on any plan, and gives 5 free Front & Back recordings before Premium.
+MixCam is free to download with in-app purchases. The US App Store lists a weekly plan, a Business monthly plan, Pro Camera and a Remove Watermark add-on (checked 6 November 2026). ContentCam is free to download, has no ads and no watermark on any plan, and gives 5 free Front & Back recordings before Premium.
 
 ### Does MixCam have a recording time limit?
 

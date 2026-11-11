@@ -2,7 +2,7 @@
 
 Source: https://contentcam.app/vs/dualcam/
 
-ContentCam runs on iPhone and Android and saves front and back as two separate files with no watermark on any plan. DualCam is iPhone only with a $24.99 lifetime option. A checked comparison.
+ContentCam runs on iPhone and Android and saves front and back as two separate files with no watermark on any plan. DualCam is iPhone only and sells a weekly plan. A checked comparison.
 
 Checked 10 November 2026 · Disclosure: I'm Jimmy and I build ContentCam
 
@@ -34,13 +34,13 @@ Every DualCam claim below comes from DualCam's App Store listing and its website
 
 DualCam is an iPhone app for dual-format and dual-camera clips. Its listing says it records up to 4K and up to 60fps depending on device and mode, in HEVC, as MOV or MP4, with flash control, a crop guide overlay and an estimated file size per minute, and you can switch between dual-camera and single-camera shooting. Its website says you can drag the picture-in-picture window anywhere, swap cameras mid-recording, trim and share in the app, and use it in 30 languages.
 
-On price, the US App Store lists a Lifetime purchase at $24.99, next to Annual at $14.99 and Weekly at $1.99. DualCam has 3.0 stars from 2 US ratings, which is too few to say much either way. It was released on 7 April 2026 and version 1.0.5 was updated on 9 November 2026. The listing says it requires an iPhone XS or later, and that dual-camera recording requires a supported device.
+On price, the US App Store sells DualCam as a weekly or annual subscription, or as a lifetime purchase. DualCam has 3.0 stars from 2 US ratings, which is too few to say much either way. It was released on 7 April 2026 and version 1.0.5 was updated on 9 November 2026. The listing says it requires an iPhone XS or later, and that dual-camera recording requires a supported device.
 
 ## How do they compare spec by spec?
 
 |  | ContentCam | DualCam |
 | --- | --- | --- |
-| Weekly plan | None; yearly, monthly or lifetime | Yes, Weekly $1.99 (US App Store) |
+| Weekly plan | None; yearly, monthly or lifetime | Yes, Weekly (US App Store) |
 | Ads | None, free or Premium | Not described |
 | Watermark | None, free or Premium | The listing doesn't say |
 | Platforms | iPhone (iOS 18 or later) and Android | iPhone (iOS 18 or later, iPhone XS or later); no Android version found |
@@ -62,7 +62,7 @@ DualCam's listing doesn't say whether 4K applies when both cameras record. It sa
 
 ### Is DualCam free?
 
-DualCam is free to download with in-app purchases. The US App Store lists Weekly at $1.99, Annual at $14.99 and Lifetime at $24.99 (checked 10 November 2026). ContentCam is free to download, has no ads and no watermark on any plan, and gives 5 free Front & Back recordings before Premium.
+DualCam is free to download with in-app purchases. Premium is sold weekly, annually or as a lifetime purchase (US App Store, checked 10 November 2026). ContentCam is free to download, has no ads and no watermark on any plan, and gives 5 free Front & Back recordings before Premium.
 
 ### Is DualCam on Android?
 

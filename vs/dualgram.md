@@ -65,7 +65,7 @@ No. Dualgram is on the App Store for iPhone and iPad, and the Just2us developer 
 
 ### How much is Dualgram PRO?
 
-On the US App Store, Dualgram lists PRO (1 year) at US$8.99 and Unlock PRO at US$29.99 as in-app purchases, and sells a separate Dualgram Pro app for US$29.99 with PRO included (checked 6 November 2026). ContentCam Premium comes as yearly, monthly or a one-time lifetime purchase, priced in your store.
+On the US App Store, Dualgram sells PRO as a one-year purchase or a one-time unlock, and sells a separate paid Dualgram Pro app with PRO included (checked 6 November 2026). ContentCam Premium comes as yearly, monthly or a one-time lifetime purchase, priced in your store.
 
 ### Does Dualgram save the front and back camera as separate files?
 
