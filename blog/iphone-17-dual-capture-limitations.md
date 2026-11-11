@@ -44,7 +44,7 @@ Apple gives no reason. The iPhone 17 specs page shows the drop:
 | Slo-mo | 1080p at 120 fps or 240 fps |
 | **Dual Capture** | up to 4K Dolby Vision at **30 fps** |
 
-[30 fps is fine for talking heads](https://contentcam.app/blog/24fps-vs-30fps-vs-60fps-social-media/), but leaves nothing to slow down. Two cameras at once are rationed by the operating system: Apple's documentation for [isMultiCamSupported](https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported) says "Only this limited subset of capture formats can run sustainably in a multi-camera capture scenario", and every iPhone ContentCam has run on tops out at **1920×1440** for those formats. Inside that HD ceiling, ContentCam's Front & Back records at **up to 60 fps** on iPhones that support it (60 fps is Premium, and some older iPhones cap at 30 fps).
+[30 fps is fine for talking heads](https://contentcam.app/blog/24fps-vs-30fps-vs-60fps-social-media/), but leaves nothing to slow down. Two cameras at once are rationed by the operating system: Apple's documentation for [isMultiCamSupported](https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported) says "Only this limited subset of capture formats can run sustainably in a multi-camera capture scenario", and every iPhone ContentCam has run on tops out at **1920×1440** for those formats, except the iPhone 18 Pro, which also flags 4K at 30 fps (but no 4K at 60 fps). Inside that HD ceiling, ContentCam's Front & Back records at **up to 60 fps** on iPhones that support it (60 fps is Premium, and some older iPhones cap at 30 fps).
 
 ## Does Dual Capture give you two separate video files?
 
@@ -82,7 +82,7 @@ Who Dual Capture suits: anyone on a supported iPhone who wants 4K from both came
 
 **Can you move the picture-in-picture window in Dual Capture?** Apple's published steps for the mode do not mention repositioning or resizing it. Wherever the window sits when you stop recording is where it stays in the file.
 
-**Can third-party iPhone apps record 4K with two cameras at once?** No. Multi-camera formats on every iPhone ContentCam has run on top out at 1920×1440, so Dual Capture is the only 4K two-camera option on iOS.
+**Can third-party iPhone apps record 4K with two cameras at once?** Not at 60 fps, and not on most iPhones. Multi-camera formats on every iPhone ContentCam has run on top out at 1920×1440, except the iPhone 18 Pro, which flags 4K at 30 fps. Whether two 4K streams fit the phone's hardware budget at once is untested, so Dual Capture is the only confirmed 4K two-camera option on iOS.
 
 **Try ContentCam free.** Front & Back records both cameras as two separate files on any iPhone running iOS 18 and on supported Android phones.
 

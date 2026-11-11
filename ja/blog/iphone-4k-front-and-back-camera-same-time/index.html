@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>iPhoneでインカメラと背面カメラを同時に4K録画できる？（2026年）</title>
+  <meta name="description" content="AppleのDual Captureは、iPhone 17、Air、18 Pro、Duoで前後のカメラを最大4K・30fpsで録画します。サードパーティのアプリは、Appleのマルチカメラ用フォーマットの範囲に限られます。他社アプリが4Kについて何と書いているか、Appleが何を許しているか、ファイルの確かめ方をまとめました。">
+  <link rel="canonical" href="https://contentcam.app/ja/blog/iphone-4k-front-and-back-camera-same-time/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="iPhoneでインカメラと背面カメラを同時に4K録画できる？（2026年）">
+  <meta property="og:description" content="デュアルカメラアプリが4Kについて何と書いているか、AppleのマルチカメラAPIがサードパーティのアプリに何を許しているか、そして前後カメラの動画を自分で確かめる1分のテストを紹介します。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://contentcam.app/ja/blog/iphone-4k-front-and-back-camera-same-time/">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="iPhoneでインカメラと背面カメラを同時に4K録画できる？（2026年）">
+  <meta name="twitter:description" content="デュアルカメラアプリが4Kについて何と書いているか、AppleのマルチカメラAPIがサードパーティのアプリに何を許しているか、そして前後カメラの動画を自分で確かめる1分のテストを紹介します。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://contentcam.app/ja/blog/iphone-4k-front-and-back-camera-same-time/",
+      "headline": "iPhoneでインカメラと背面カメラを同時に4K録画できる？（2026年）",
+      "description": "AppleのDual Captureは、iPhone 17、Air、18 Pro、Duoで前後のカメラを最大4K・30fpsで録画します。サードパーティのアプリは、Appleのマルチカメラ用フォーマットの範囲に限られます。他社アプリが4Kについて何と書いているか、Appleが何を許しているか、ファイルの確かめ方をまとめました。",
+      "image": "https://contentcam.app/assets/og/og-blog.jpg",
+      "datePublished": "2026-11-11",
+      "dateModified": "2026-11-11",
+      "inLanguage": "ja",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "ContentCamの開発者",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      },
+      "mainEntityOfPage": "https://contentcam.app/ja/blog/iphone-4k-front-and-back-camera-same-time/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://contentcam.app/ja/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ブログ",
+          "item": "https://contentcam.app/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "iPhoneの前後カメラで4K録画",
+          "item": "https://contentcam.app/ja/blog/iphone-4k-front-and-back-camera-same-time/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "iPhone 15やiPhone 16で、両方のカメラを同時に4K録画できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "標準のカメラアプリではできません。Dual Captureの対象として記載されているのはiPhone 17、iPhone Air、iPhone 18 Pro、iPhone Duoで、iPhone 16と16eにはありません。サードパーティのアプリなら、これらのiPhoneでもAppleのマルチカメラ用フォーマットの範囲で両方のカメラを録画できます。あるアプリがお使いのiPhoneで実際にどこまで録画できるかは、上の3つのチェックで確かめてください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "iPhone 17のDual Captureは、2つの別々の4Kファイルを保存しますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AppleのiPhoneユーザガイドには、Dual Captureは自分と目の前の光景を同時に録画すると書かれていて、仕様ページでは最大4K Dolby Vision・30fpsとされています。保存されるのはワイプ入りの1本の動画で、前後カメラの別々のファイルについてAppleは何も公表していません。お使いの機種で何が保存されるかは、5秒だけ録画して「写真」アプリの項目数を数えれば確かめられます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "前後カメラの動画は、4KのほうがHDよりきれいですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "その4Kがカメラから来ている場合に限ります。HDの映像から作った3840 x 2160のファイルは、細かさはHDのファイルと同じで、サイズだけが4倍になります。元のファイルのピクセルサイズを確認し、上の細部テストをしてください。"
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/blog/iphone-4k-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/blog/iphone-4k-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/blog/iphone-4k-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/blog/iphone-4k-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/blog/iphone-4k-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/blog/iphone-4k-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/blog/iphone-4k-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/blog/iphone-4k-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/blog/iphone-4k-front-and-back-camera-same-time/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/ja/"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="メニューを開く">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/ja/">ホーム</a> › <a href="/blog/">ブログ</a> › iPhoneの前後カメラで4K録画</div>
+    <article class="post">
+      <h1>iPhoneでインカメラと背面カメラを同時に4K録画できる？（2026年）</h1>
+      <p class="byline">文：Jimmy（ContentCam開発者）· 2026年11月11日 · 2026年11月11日更新</p>
+
+      <p><strong>結論から言うと：</strong>新しい機種なら、Apple純正のカメラアプリでできます。Appleは、iPhone 17、iPhone Air、iPhone 18 Pro、iPhone Duoについて「最大4K Dolby Vision、30fpsのデュアルキャプチャ」と記載していて、合成された1本の動画として保存されます。サードパーティのアプリは事情が違います。2台のカメラを録画するにはAppleの<code>AVCaptureMultiCamSession</code>を使いますが、これはAppleがマルチカメラ対応と指定したカメラのフォーマットしか受け付けません。iOS 27.0.1のiPhone 18 Proでその一覧を読んだところ、3840 x 2160の30fpsにはそのフラグが付いていましたが、60fpsの4Kフォーマットにはひとつも付いていませんでした。つまりこのiPhoneでは、2台のカメラで同時に4K 60fpsを録画することはどのサードパーティのアプリにもできず、4K 30fpsも、iPhoneが2本の4Kストリームを同時に処理できる場合にしか成り立ちません。</p>
+      <p>開示：私はContentCamを開発しています。前後カメラ（Front/Back）モードを備えたiPhoneとAndroid向けのカメラアプリです。ContentCamの前後カメラ（Front/Back）が4KではなくHDで録画するのは、まさにこの理由からです。以下の他社アプリの引用は、2026年11月11日に各アプリの公開中のストアページからそのまま写したもので、Appleに関する内容は同じ日にAppleの開発者向けドキュメントと仕様ページで確認しました。</p>
+
+      <h2>4K録画をうたっているデュアルカメラアプリはどれ？</h2>
+      <p>前後カメラアプリのうち5つが、ストアの説明やガイドで4KやUHDに触れています。UHDを両方の映像に結びつけているのはLookoutの説明だけで、両方のカメラを動かしたときの録画のピクセルサイズを書いているアプリはひとつもありません。</p>
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th>アプリ</th><th>原文の表記</th><th>掲載場所</th></tr></thead>
+        <tbody>
+          <tr><td>Dualgram（Just2us）</td><td>「Support up to 4k, 60 fps」（最大4K、60fpsに対応）</td><td>App Storeの説明、バージョン2.5</td></tr>
+          <tr><td>Dualgram（Just2us）</td><td>「up to 4K resolution and 60 FPS. Depending on the iPhone model, certain configurations would not be supported, so you have to try out to know.」（最大4K解像度と60fps。iPhoneの機種によっては対応していない設定もあるので、試してみないとわかりません。）</td><td>dualgram.comのユーザーガイド</td></tr>
+          <tr><td>DualCam（Mobixoft）</td><td>「Up to 4K and up to 60 fps, depending on device and mode」（機種とモードに応じて最大4K、最大60fps）</td><td>App Storeの説明、バージョン1.0.5</td></tr>
+          <tr><td>2Cam（VISION FZ）</td><td>「Select 720p, 1080p, or 4K resolution」（720p、1080p、4Kの解像度を選択）</td><td>App Storeの説明、バージョン1.5.2</td></tr>
+          <tr><td>Lookout（KIDA Studios）</td><td>「Dual-Stream HD/UHD: Record both feeds in stunning clarity.」（デュアルストリームHD/UHD：両方の映像を驚くほど鮮明に録画。）</td><td>App Storeの説明、バージョン5.9</td></tr>
+          <tr><td>MixCam（Mixcord）</td><td>「Save to your device in 4K, 1080p, or 720p」（4K、1080p、720pで端末に保存）</td><td>Google Playの説明。iPhone版の説明には解像度の記載なし</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>但し書きに注目してください。DualCamの説明には「depending on device and mode」（機種とモードに応じて）とあり、「Switch between dual-camera and single-camera shooting」（デュアルカメラ撮影とシングルカメラ撮影を切り替え）も挙げられています。2Camの説明には「Some features and recording options may depend on your device capabilities.」（一部の機能と録画オプションは端末の性能によります。）と添えられています。Dualgramのガイドには「have to try out to know」（試してみないとわからない）とあります。MixCamのAndroid版の表記は保存する形式についてで、カメラが何を撮っているかではありません。UHDを両方の映像に結びつけているのはLookoutの一文だけで、それもピクセル数は示していません。</p>
+      <p>DualgramとDualCamは、どちらも4Kと60fpsを並べて書いています。iPhone 18 Proでは、Appleがマルチカメラ用として指定している60fpsの4Kフォーマットはひとつもないので、このiPhoneで2台のカメラを録画している間は、4Kと60fpsが同時に成り立つことはありません。</p>
+
+      <h2>Appleはサードパーティのアプリに、2台のカメラで何を録画させている？</h2>
+      <p>2台のカメラを同時に動かすとき、Appleはサードパーティのアプリが使えるカメラのフォーマットを、より狭い範囲に限っています。<code>AVCaptureDevice.Format.isMultiCamSupported</code>に関するAppleのドキュメントには、マルチカメラのセッションでは「you may only set the device's format to one in which isMultiCamSupported is true. Only this limited subset of capture formats can run sustainably in a multi-camera capture scenario.」（デバイスのフォーマットには、isMultiCamSupportedがtrueのものしか設定できません。マルチカメラでの撮影で安定して動作できるのは、この限られた一部のキャプチャフォーマットだけです。）と書かれています。</p>
+      <p>Appleのマルチカメラのセッションには、常に計算されている予算もあります。<code>hardwareCost</code>プロパティは「normalized to a range of 0.0 to 1.0」（0.0から1.0の範囲に正規化）されていて、「When the value is greater than 1.0, the capture session cannot run your configuration due to hardware constraints.」（値が1.0を超えると、ハードウェアの制約により、キャプチャセッションはその構成を実行できません。）とされています。もうひとつのプロパティ<code>systemPressureCost</code>は発熱と電力に関するもので、1.0を超えるとセッションは「cannot run sustainably, but it may be able to run briefly before stopping.」（安定しては動作できませんが、停止するまで短時間なら動作できる場合があります。）とされています。</p>
+      <p>実際のiPhoneではどうなるのか。ContentCamには、カメラのフォーマットをすべて書き出し、Appleがそれぞれをマルチカメラ対応と指定しているかを表示するテストビルドがあります。iOS 27.0.1のiPhone 18 Proで、2026年11月10日に確認した結果です：</p>
+      <ul>
+        <li><strong>4K 30fps：</strong>3840 x 2160（16:9）は、インカメラ、背面の広角、背面の超広角のすべてでフラグが付いています。</li>
+        <li><strong>4K 60fps：</strong>60fpsや120fpsの3840 x 2160フォーマットには、どのカメラでもフラグが付いていません。このiPhoneでは、2台のカメラで4K 60fpsは不可能です。</li>
+        <li><strong>4:3：</strong>フラグの付いた4:3フォーマットで最大のものは1920 x 1440で、どのカメラでも30fpsと60fpsです。4:3のセンサーの形で録画して、そこから複数のフレームを切り出すアプリは、このサイズに制限されます。</li>
+      </ul>
+      <p>一覧に載っていることと、実際に動くことは別です。4KストリームはそれぞれhardwareCostの予算を消費し、合計が1.0を超える構成はセッションに拒否されます。2本の4Kストリームが収まるかどうかを見るための、2台のカメラでの4K 30fpsの録画は、iPhone 18 Proではまだ試していません。Apple自身のDual Captureが60fpsではなく4K 30fpsで止まっていることも、同じ上限と一致しています。</p>
+      <p>例外はAppleのDual Captureです。iPhone 17、iPhone 17 Pro、iPhone Air、iPhone 18 Pro、iPhone Duo（iPhone 17eは除く）のApple純正カメラアプリに入っているモードで、Appleは最大4K・30fps、ワイプ入りの1本の動画として公表しています。その制限は<a href="/ja/blog/iphone-17-dual-capture-limitations/">iPhone 17のDual Captureの制限</a>にまとめています。</p>
+
+      <h2>デュアルカメラアプリが「最大4K」と書けるのはなぜ？</h2>
+      <p>App Storeの説明には、次のどれに当てはまるのかが書かれていません。ですから、どれも結論ではなく、確かめるべき可能性として見てください：</p>
+      <ul>
+        <li><strong>シングルカメラモードでの4K。</strong>これらのアプリの中には、1台ずつ録画するモードを持つものがいくつかあり、そこならサードパーティのアプリでも4Kのフォーマットをすべて使えます。</li>
+        <li><strong>4Kのキャンバス。</strong>ワイプや画面分割の動画は3840 x 2160で保存できますが、その中の各カメラの映像は小さく撮られて拡大されている場合があります。ファイルは4Kと表示されても、細かさはカメラが撮ったぶんだけです。</li>
+        <li><strong>機種によって違う。</strong>「depending on device and mode」（機種とモードに応じて）や「you have to try out to know」（試してみないとわからない）という書き方なら、ある機種では4K、別の機種ではHDということもありえます。</li>
+        <li><strong>私が見ていない方法。</strong>私が試していない機種で、2台のカメラでの4Kを実現したアプリがあるなら、そのアプリのファイルを見ればわかります。下のチェックは1分で終わります。</li>
+      </ul>
+
+      <h2>前後カメラの動画が本当に4Kか確かめる方法は？</h2>
+      <p>両方のカメラを動かした状態で、アプリの最高設定で10秒のテストを録画し、ファイルと細部を確認します。</p>
+      <ol>
+        <li><strong>ピクセルサイズを確認する。</strong>「写真」アプリで動画を開き、上にスワイプするか情報ボタンをタップします。4Kのファイルなら3840 x 2160（縦なら2160 x 3840）と表示されます。Macでは、QuickTime Playerのムービーインスペクタ（「ウインドウ」&gt;「ムービーインスペクタを表示」）でも同じ情報が見られます。</li>
+        <li><strong>合成されたファイルだけでなく、元のファイルも確認する。</strong>アプリが前後カメラを別々のファイルとしても保存するなら、そのピクセルサイズも確認します。元のファイルが1920 x 1080で、合成されたファイルが3840 x 2160なら、合成されたファイルは拡大されたものです。</li>
+        <li><strong>細部を比べる。</strong>2メートル離れたところから細かい文字やレンガの壁を、アプリの2台のカメラのモードで撮り、次にiPhoneのカメラアプリの通常のビデオモード、4Kで撮ります。両方を同じフレームで一時停止して拡大してください。本物の4Kなら文字の輪郭がくっきり残り、拡大されたHDは同じ倍率でぼやけます。</li>
+      </ol>
+      <p>3840 x 2160と表示されていても、細かさはHDということがあります。どちらなのかを教えてくれるのは、手順3だけです。</p>
+
+      <h2>前後カメラの動画に4Kは必要？</h2>
+      <p>ストアの説明が思わせるほどではありません。前後カメラの動画の多くは、TikTok、Instagramのリール、YouTubeショートの9:16の投稿になり、インカメラの映像は小さなワイプの中に収まります。ワイプは画面のごく一部なので、インカメラの解像度はほとんど目に見えません。解像度が効いてくるのは背面カメラの映像で、それも編集でクロップやズームをするつもりの場合だけです。より広い視点での比較は<a href="/blog/do-you-need-to-film-in-4k/">4Kで撮影する必要はある？</a>にまとめています。</p>
+      <p>人が気づくのはフレームレートのほうです。AppleのDual Captureの上限は30fpsですが、同じiPhoneでも通常のビデオなら4K 60fpsで撮れます。あとでスローにするつもりなら、ピクセル数を増やすより60fpsのほうが大切です。</p>
+
+      <h2>ContentCamは前後カメラをどの解像度で録画する？</h2>
+      <p>HDです。ContentCamの前後カメラ（Front/Back）モードは、インカメラと背面カメラを2つの別々のHDファイルとして録画します。対応するiPhoneでは最大60fps（60fpsはPremium、一部の古いiPhoneは30fpsまで）、両方のカメラを動かせるAndroidでは最大30fpsです。前後カメラ（Front/Back）は、iOS 18が動作するiPhone XS・XR以降のすべてのiPhoneで使えます。レイアウトは撮影後に決めます。合成（Combine）エディタで2つのファイルをワイプまたは画面分割にまとめ、元のファイルはそのまま残ります。ContentCamの4Kはシングルレンズモードにあり、1回の撮影から縦9:16と横16:9の動画を録画します。</p>
+
+      <h2>よくある質問</h2>
+      <h3>iPhone 15やiPhone 16で、両方のカメラを同時に4K録画できますか？</h3>
+      <p>標準のカメラアプリではできません。Dual Captureの対象として記載されているのはiPhone 17、iPhone Air、iPhone 18 Pro、iPhone Duoで、iPhone 16と16eにはありません。サードパーティのアプリなら、これらのiPhoneでもAppleのマルチカメラ用フォーマットの範囲で両方のカメラを録画できます。あるアプリがお使いのiPhoneで実際にどこまで録画できるかは、上の3つのチェックで確かめてください。</p>
+      <h3>iPhone 17のDual Captureは、2つの別々の4Kファイルを保存しますか？</h3>
+      <p>AppleのiPhoneユーザガイドには、Dual Captureは自分と目の前の光景を同時に録画すると書かれていて、仕様ページでは最大4K Dolby Vision・30fpsとされています。保存されるのはワイプ入りの1本の動画で、前後カメラの別々のファイルについてAppleは何も公表していません。お使いの機種で何が保存されるかは、5秒だけ録画して「写真」アプリの項目数を数えれば確かめられます。</p>
+      <h3>前後カメラの動画は、4KのほうがHDよりきれいですか？</h3>
+      <p>その4Kがカメラから来ている場合に限ります。HDの映像から作った3840 x 2160のファイルは、細かさはHDのファイルと同じで、サイズだけが4倍になります。元のファイルのピクセルサイズを確認し、上の細部テストをしてください。</p>
+
+      <div class="post-cta">
+        <p><strong>ContentCamを無料で試す</strong>。前後カメラ（Front/Back）は、iOS 18のすべてのiPhoneと対応するAndroidで、インカメラと背面カメラを2つの別々のHDファイルとして録画します。レイアウトは撮影後に自由に選べます。広告なし、ウォーターマークなし。</p>
+        <p class="cta-proof">★ <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a>と<a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>で580人以上のクリエイターが評価、平均4.8。</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&amp;ct=ja-b-iphone-4k-front-and-back-camera&amp;mt=8"><img class="badge-appstore" src="/assets/badges/app-store-ja.svg" alt="App Storeからダウンロード" width="142" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Dja-iphone-4k-front-and-back-camera-same-time"><img class="badge-play" src="/assets/badges/google-play-ja.webp" alt="Google Playで手に入れよう" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>関連記事：<a href="/ja/blog/iphone-17-dual-capture-limitations/">iPhone 17のDual Captureの制限</a> · <a href="/ja/blog/record-front-and-back-camera-same-time-iphone/">iPhoneで前後カメラを同時に録画する方法</a> · <a href="/ja/blog/record-front-and-back-camera-iphone-15-16/">iPhone 15と16で前後カメラを使う方法</a> · <a href="/blog/do-you-need-to-film-in-4k/">4Kで撮影する必要はある？</a></p>
+      <p class="byline">出典（2026年11月11日に確認）：米国App Storeの各ページ、Dualgram（id1474345188、バージョン2.5）、DualCam: Dual Camera Recorder（id6761523366、バージョン1.0.5）、2Cam Dual Shot Camera Recorder（id6444588083、バージョン1.5.2）、Lookout Dual Camera Recorder（id6744577632、バージョン5.9）、MixCam（id1477390597、バージョン1.48）。MixCamのGoogle Playページ（co.mixcord.mixcam）。<a href="https://dualgram.com/guide">Dualgramのユーザーガイド</a>。Apple Developerのドキュメント、<a href="https://developer.apple.com/documentation/avfoundation/avcapturemulticamsession">AVCaptureMultiCamSession</a>、<a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported">isMultiCamSupported</a>、<a href="https://developer.apple.com/documentation/avfoundation/avcapturemulticamsession/hardwarecost">hardwareCost</a>、<a href="https://developer.apple.com/documentation/avfoundation/avcapturemulticamsession/systempressurecost">systemPressureCost</a>。Appleの仕様ページ、<a href="https://www.apple.com/iphone-17/specs/">iPhone 17</a>、<a href="https://www.apple.com/iphone-air/specs/">iPhone Air</a>、<a href="https://www.apple.com/iphone-18-pro/specs/">iPhone 18 Pro</a>、<a href="https://www.apple.com/iphone-duo/specs/">iPhone Duo</a>。AppleのiPhoneユーザガイド、<a href="https://support.apple.com/guide/iphone/record-a-video-iph61f49e4bb/ios">ビデオを撮影する</a>と<a href="https://support.apple.com/guide/iphone/see-photo-and-video-information-iph0edb9c18f/ios">写真やビデオの情報を表示する</a>。ContentCamの動作はiOSアプリのソースコードで確認。カメラのフォーマット一覧は、iOS 27.0.1のiPhone 18 ProでのContentCamのテストビルドによるもの（2026年11月10日）。</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCamのロゴ" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/ja/features/">機能</a>
+        <a href="/ja/features/teleprompter/">テレプロンプター</a>
+        <a href="/ja/features/dual-camera/">デュアルカメラ</a>
+        <a href="/ja/features/manual-controls/">手動コントロール</a>
+        <a href="/ja/android/">Android</a>
+        <a href="/ja/pricing/">料金</a>
+        <a href="/blog/">ブログ</a>
+        <a href="/ja/support/">サポート</a>
+        <a href="/press/">プレス</a>
+        <a href="/ja/vs/">比較</a>
+        <a href="/ja/changelog/">更新履歴</a>
+        <a href="/privacy">プライバシー</a>
+        <a href="/terms">利用規約</a>
+      </div>
+      <div class="fine">ContentCamは、オーストラリアで1人の開発者がつくった独立系のカメラアプリです。© 2026 ContentCam. Apple、Appleロゴ、iPhone、App Storeは、Apple Inc.の商標です。Google PlayおよびGoogle Playロゴは、Google LLCの商標です。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/blog/iphone-4k-front-and-back-camera-same-time/" hreflang="en" lang="en">English</a> · <a href="/de/blog/iphone-4k-front-and-back-camera-same-time/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/blog/iphone-4k-front-and-back-camera-same-time/" hreflang="es" lang="es">Español</a> · <a href="/fr/blog/iphone-4k-front-and-back-camera-same-time/" hreflang="fr" lang="fr">Français</a> · <a href="/it/blog/iphone-4k-front-and-back-camera-same-time/" hreflang="it" lang="it">Italiano</a> · <strong>日本語</strong> · <a href="/pt-br/blog/iphone-4k-front-and-back-camera-same-time/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/blog/iphone-4k-front-and-back-camera-same-time/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/blog/iphone-4k-front-and-back-camera-same-time/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/blog/iphone-4k-front-and-back-camera-same-time/" hreflang="nl" lang="nl">Nederlands</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

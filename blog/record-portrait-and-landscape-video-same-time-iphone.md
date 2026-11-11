@@ -37,7 +37,7 @@ An iPhone 11 or later with an ultra-wide camera (so not iPhone SE or iPhone 16e)
 
 The difference from option 2 is framing. With two lenses, your portrait can be a tight shot while your landscape is a genuinely wide establishing shot: two different shots from one take. Dual Lens mode: the live view while recording (left), then the review screen (right). The portrait stays tight on the walk while the landscape takes in the whole tunnel.
 
-The limits: it runs at 1080p (Apple caps simultaneous two-camera capture by third-party apps at 1920×1440 on every current iPhone), and running two cameras uses more battery. Apple's own Camera app has [iPhone Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) at up to 4K30, but it pairs the front and rear cameras, not two rear framings, and saves one picture-in-picture video. It gives you no 9:16 and 16:9 pair at all.
+The limits: it runs at 1080p (third-party apps can only run two cameras at once in Apple's multi-camera formats, which top out at 1920×1440 on every iPhone ContentCam has run on except the iPhone 18 Pro), and running two cameras uses more battery. Apple's own Camera app has [iPhone Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) at up to 4K30, but it pairs the front and rear cameras, not two rear framings, and saves one picture-in-picture video. It gives you no 9:16 and 16:9 pair at all.
 
 ## How do you record landscape video on an iPhone?
 

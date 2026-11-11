@@ -348,6 +348,15 @@
   <url><loc>https://contentcam.app/ro/blog/iphone-17-dual-capture-limitations/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/hu/blog/iphone-17-dual-capture-limitations/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/el/blog/iphone-17-dual-capture-limitations/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/de/blog/iphone-4k-front-and-back-camera-same-time/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/es/blog/iphone-4k-front-and-back-camera-same-time/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/fr/blog/iphone-4k-front-and-back-camera-same-time/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/it/blog/iphone-4k-front-and-back-camera-same-time/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/ja/blog/iphone-4k-front-and-back-camera-same-time/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/pt-br/blog/iphone-4k-front-and-back-camera-same-time/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/id/blog/iphone-4k-front-and-back-camera-same-time/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/ko/blog/iphone-4k-front-and-back-camera-same-time/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/nl/blog/iphone-4k-front-and-back-camera-same-time/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/de/blog/iphone-duo-camera/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/es/blog/iphone-duo-camera/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/fr/blog/iphone-duo-camera/</loc><lastmod>2026-11-11</lastmod></url>
@@ -711,6 +720,15 @@
   <url><loc>https://contentcam.app/pt-br/vs/detail/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/id/vs/detail/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/ko/vs/detail/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/de/vs/dualcam/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/es/vs/dualcam/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/fr/vs/dualcam/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/it/vs/dualcam/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/ja/vs/dualcam/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/pt-br/vs/dualcam/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/id/vs/dualcam/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/ko/vs/dualcam/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/nl/vs/dualcam/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/de/vs/dualgram/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/es/vs/dualgram/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/fr/vs/dualgram/</loc><lastmod>2026-11-11</lastmod></url>
@@ -719,6 +737,36 @@
   <url><loc>https://contentcam.app/pt-br/vs/dualgram/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/id/vs/dualgram/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/ko/vs/dualgram/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/de/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/es/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/fr/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/it/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/ja/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/pt-br/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/id/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/ko/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/nl/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/pl/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/tr/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/vi/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/zh-hans/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/zh-hant/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/ru/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/sv/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/da/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/no/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/fi/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/pt-pt/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/uk/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/hi/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/th/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/ms/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/fil/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/bn/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/cs/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/ro/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/hu/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://contentcam.app/el/vs/dualtake/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/de/vs/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/es/vs/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://contentcam.app/fr/vs/</loc><lastmod>2026-11-11</lastmod></url>
