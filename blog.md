@@ -6,6 +6,9 @@ Practical guides on dual-format recording, teleprompters, manual camera controls
 
 Filming guides written by the person who builds ContentCam. Practical, specific, and honest about what phones can and can't do.
 
+- [Best iPhone 17 Pro Video Settings (2026)](https://contentcam.app/blog/best-iphone-17-pro-video-settings/) Jimmy · 13 November 2026
+
+The iPhone 17 Pro and Pro Max settings for 4K video, when ProRes and Apple Log 2 are worth it (and their storage limits), 4K 120, which lens to film with, the front camera, Dual Capture, and what changes on iPhone 18 Pro.
 - [Can an iPhone Record 4K From the Front and Back Camera at the Same Time? (2026)](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/) Jimmy · 11 November 2026
 
 Apple's Dual Capture does 4K 30 fps on newer iPhones. Third-party apps are held to Apple's multi-camera formats. What rival listings claim about 4K, and how to check a file yourself.
