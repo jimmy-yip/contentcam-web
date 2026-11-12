@@ -68,16 +68,16 @@
     .press-pull { margin: 0 0 16px; padding: 18px 20px; background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--cyan); border-radius: 12px; color: var(--ink); font-size: 16px; line-height: 1.5; }
     .press-pull cite { display: block; margin-top: 10px; font-style: normal; font-size: 14px; color: var(--text-dim); }
     .press-note, .press-wide-text { color: var(--text-soft); max-width: none; margin-bottom: 18px; }
-    .press-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-bottom: 18px; }
-    .press-shot { display: flex; flex-direction: column; gap: 8px; color: var(--text-dim); font-size: 14px; }
+    .press-gallery { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; margin-bottom: 18px; }
+    .press-shot { display: flex; flex-direction: column; gap: 8px; color: var(--text-dim); font-size: 13px; line-height: 1.35; }
     .press-shot:hover { text-decoration: none; }
     .press-shot img { width: 100%; height: auto; border: 1px solid var(--border); border-radius: 12px; background: #fff; }
     .press-shot:hover img { border-color: var(--cyan); }
-    .press-logo img { max-width: 220px; aspect-ratio: 1; object-fit: contain; padding: 24px; }
+    .press-logo img { aspect-ratio: 1; object-fit: contain; padding: 18px; }
     .press-links { margin-top: 16px; color: var(--text-dim); }
-    @media (max-width: 860px) { .press-cols { grid-template-columns: 1fr; } }
+    @media (max-width: 860px) { .press-cols { grid-template-columns: 1fr; } .press-gallery { grid-template-columns: repeat(3, 1fr); } }
     @media (max-width: 640px) {
-      .press-gallery { grid-template-columns: 1fr; }
+      .press-gallery { grid-template-columns: repeat(2, 1fr); }
       .press-btn { width: 100%; justify-content: center; }
       .press-table td:first-child { white-space: normal; width: 34%; }
     }
@@ -122,12 +122,12 @@
       <div class="table-scroll">
         <table class="press-table">
           <tbody>
-            <tr><td>What it is</td><td>A camera app for iPhone and Android that records 9:16 and 16:9 video in one take, as two separate files. Neither file is a crop of the other: both use the camera's full frame.</td></tr>
+            <tr><td>What it is</td><td>A camera app for iPhone and Android that records 9:16 and 16:9 video in one take, as two separate files. Both use the camera's full frame.</td></tr>
             <tr><td>Who makes it</td><td>Jimmy Yip, a solo independent developer in Sydney, Australia.</td></tr>
             <tr><td>Platforms</td><td>iPhone (iPhone XS and later, iOS 18+), listed on the App Store as "ContentCam: Dual Camera Video". Android 8.0 and later on Google Play.</td></tr>
-            <tr><td>Launched</td><td>App Store, May 2026. Android followed on Google Play in mid-2026.</td></tr>
-            <tr><td>Recording modes</td><td>Single Lens (full sensor, both formats), Dual Lens (two rear cameras at once on iPhone), Front &amp; Back (your reaction and the scene at once, as two files).</td></tr>
-            <tr><td>Other features</td><td>Built-in teleprompter, manual controls (ISO, shutter, white balance 2500–8000K, exposure), AE/AF lock, photo mode (a 9:16 and a 16:9 still from one tap), timelapse, up to 4K and 60 fps, 10-bit HDR on iPhone.</td></tr>
+            <tr><td>Launched</td><td>App Store, May 2026. Google Play, 8 June 2026.</td></tr>
+            <tr><td>Recording modes</td><td>Single Lens (full sensor, both formats), Dual Lens (two rear cameras at once on iPhone), Front &amp; Back (your reaction and the scene at once, as two files). From iOS 2.9, Dual Lens and Front &amp; Back record in 4K on supported iPhones.</td></tr>
+            <tr><td>Other features</td><td>Built-in teleprompter, manual controls (ISO, shutter, white balance 2500–8000K, exposure), AE/AF lock, photo mode (a 9:16 and a 16:9 still from one tap), timelapse, up to 4K and 60 fps, 10-bit HDR and Apple Log (iPhone 15 Pro and newer Pro models).</td></tr>
             <tr><td>Price</td><td>Free to download, with unlimited Single Lens recording, no ads, no watermark and no account. Premium on the US App Store: US$4.99 a month, US$19.99 a year (7-day free trial) or US$59.99 once for lifetime. Google Play lifetime: US$44.99. Prices are localised in other regions.</td></tr>
             <tr><td>Traction</td><td>50,000+ downloads across the App Store and Google Play. Rated 4.8 by 580+ creators. As of November 2026.</td></tr>
             <tr><td>Updates</td><td>A new version every 1 to 2 weeks on each platform. iOS 2.9 is rolling out now (November 2026). Full history in the <a href="/changelog/">changelog</a>.</td></tr>
@@ -153,8 +153,9 @@
 
     <section>
       <h2>What sets it apart</h2>
-      <div class="grid grid-3 press-grid">
-        <div class="card"><h3><span class="dot"></span>Two files, not a crop</h3><p>Most apps record vertical and cut a horizontal strip out of the middle. ContentCam gives each format its own full-frame framing.</p></div>
+      <div class="grid press-grid">
+        <div class="card"><h3><span class="dot"></span>Full frame in both formats</h3><p>Most apps record vertical and cut a horizontal strip out of the middle for YouTube. ContentCam frames each format from the camera's full sensor.</p></div>
+        <div class="card"><h3><span class="dot"></span>4K with two cameras</h3><p>Since iOS 2.9, Dual Lens and Front &amp; Back record in 4K on supported iPhones. Very few camera apps do 4K with two cameras running at once.</p></div>
         <div class="card"><h3><span class="dot"></span>Front &amp; Back on more phones</h3><p>Apple's Dual Capture is limited to recent iPhones and saves one picture-in-picture file. ContentCam's Front &amp; Back works on any iPhone running iOS 18 and on supported Android phones, as two separate files.</p></div>
         <div class="card"><h3><span class="dot"></span>Built by one person</h3><p>A solo developer who reads every review and feature request, and ships an update every week or two.</p></div>
       </div>
@@ -162,14 +163,16 @@
 
     <section>
       <h2>Images</h2>
-      <p class="press-note">Free to use in coverage. Click to download. Please don't stretch, recolour or add effects to the logo.</p>
+      <p class="press-note">App Store screenshots and the app icon, free to use in coverage. Click one to download it. Please don't stretch, recolour or add effects to the logo.</p>
       <div class="press-gallery">
-        <a class="press-shot press-wide" href="/assets/press/contentcam-one-take-two-formats.png" download><img src="/assets/press/contentcam-one-take-two-formats.png" alt="One take gives a 9:16 vertical and a 16:9 horizontal video of the same sunset scene" width="1270" height="760"><span>One take, two formats · PNG 1270×760</span></a>
-        <a class="press-shot press-wide" href="/assets/press/contentcam-app-screens.png" download><img src="/assets/press/contentcam-app-screens.png" alt="ContentCam recording screen, review screen and project library on iPhone" width="1270" height="760" loading="lazy"><span>App screens · PNG 1270×760</span></a>
-        <a class="press-shot press-wide" href="/assets/press/contentcam-features.png" download><img src="/assets/press/contentcam-features.png" alt="ContentCam features: Single Lens, Dual Lens, Front / Back, teleprompter, manual controls, 4K 60fps HDR" width="1270" height="760" loading="lazy"><span>Features · PNG 1270×760</span></a>
+        <a class="press-shot" href="/assets/press/contentcam-two-formats-one-take.jpg" download><img src="/assets/press/contentcam-two-formats-one-take.jpg" alt="Portrait and landscape from one take" width="1284" height="2778"><span>Portrait and landscape from one take · JPG 1284×2778</span></a>
+        <a class="press-shot" href="/assets/press/contentcam-front-and-back.jpg" download><img src="/assets/press/contentcam-front-and-back.jpg" alt="Front &amp; Back: reaction and scene together" width="1284" height="2778"><span>Front &amp; Back · JPG 1284×2778</span></a>
+        <a class="press-shot" href="/assets/press/contentcam-ready-to-post.jpg" download><img src="/assets/press/contentcam-ready-to-post.jpg" alt="Both clips ready for TikTok, Instagram and YouTube" width="1284" height="2778" loading="lazy"><span>Both clips ready for TikTok, Instagram and YouTube · JPG 1284×2778</span></a>
+        <a class="press-shot" href="/assets/press/contentcam-pro-tools.jpg" download><img src="/assets/press/contentcam-pro-tools.jpg" alt="Manual controls, teleprompter and 4K 60fps" width="1284" height="2778" loading="lazy"><span>Manual controls, teleprompter and 4K 60fps · JPG 1284×2778</span></a>
+        <a class="press-shot" href="/assets/press/contentcam-two-phone-rig.jpg" download><img src="/assets/press/contentcam-two-phone-rig.jpg" alt="One phone in place of a two-phone rig" width="1284" height="2778" loading="lazy"><span>One phone in place of a two-phone rig · JPG 1284×2778</span></a>
         <a class="press-shot press-logo" href="/assets/press/contentcam-logo-1024.png" download><img src="/assets/press/contentcam-logo-1024.png" alt="ContentCam app icon" width="1024" height="1024" loading="lazy"><span>App icon · PNG 1024×1024</span></a>
       </div>
-      <p class="press-note">Need a higher resolution, a different screen, a photo of Jimmy or a demo video? Email and I'll send it the same day.</p>
+      <p class="press-note">Need a different screen, a photo of Jimmy or a demo video? Email me and I'll send it.</p>
     </section>
 
     <section>

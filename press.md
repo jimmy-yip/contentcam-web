@@ -12,12 +12,12 @@ ContentCam records portrait (9:16) and landscape (16:9) video at the same time, 
 
 | Fact | Detail |
 | --- | --- |
-| What it is | A camera app for iPhone and Android that records 9:16 and 16:9 video in one take, as two separate files. Neither file is a crop of the other: both use the camera's full frame. |
+| What it is | A camera app for iPhone and Android that records 9:16 and 16:9 video in one take, as two separate files. Both use the camera's full frame. |
 | Who makes it | Jimmy Yip, a solo independent developer in Sydney, Australia. |
 | Platforms | iPhone (iPhone XS and later, iOS 18+), listed on the App Store as "ContentCam: Dual Camera Video". Android 8.0 and later on Google Play. |
-| Launched | App Store, May 2026. Android followed on Google Play in mid-2026. |
-| Recording modes | Single Lens (full sensor, both formats), Dual Lens (two rear cameras at once on iPhone), Front & Back (your reaction and the scene at once, as two files). |
-| Other features | Built-in teleprompter, manual controls (ISO, shutter, white balance 2500–8000K, exposure), AE/AF lock, photo mode (a 9:16 and a 16:9 still from one tap), timelapse, up to 4K and 60 fps, 10-bit HDR on iPhone. |
+| Launched | App Store, May 2026. Google Play, 8 June 2026. |
+| Recording modes | Single Lens (full sensor, both formats), Dual Lens (two rear cameras at once on iPhone), Front & Back (your reaction and the scene at once, as two files). From iOS 2.9, Dual Lens and Front & Back record in 4K on supported iPhones. |
+| Other features | Built-in teleprompter, manual controls (ISO, shutter, white balance 2500–8000K, exposure), AE/AF lock, photo mode (a 9:16 and a 16:9 still from one tap), timelapse, up to 4K and 60 fps, 10-bit HDR and Apple Log (iPhone 15 Pro and newer Pro models). |
 | Price | Free to download, with unlimited Single Lens recording, no ads, no watermark and no account. Premium on the US App Store: US$4.99 a month, US$19.99 a year (7-day free trial) or US$59.99 once for lifetime. Google Play lifetime: US$44.99. Prices are localised in other regions. |
 | Traction | 50,000+ downloads across the App Store and Google Play. Rated 4.8 by 580+ creators. As of November 2026. |
 | Updates | A new version every 1 to 2 weeks on each platform. iOS 2.9 is rolling out now (November 2026). Full history: https://contentcam.app/changelog/ |
@@ -35,20 +35,23 @@ So ContentCam reads the camera's full 4:3 frame and cuts both videos from it. Th
 
 ## What sets it apart
 
-- **Two files, not a crop.** Most apps record vertical and cut a horizontal strip out of the middle. ContentCam gives each format its own full-frame framing.
+- **Full frame in both formats.** Most apps record vertical and cut a horizontal strip out of the middle for YouTube. ContentCam frames each format from the camera's full sensor.
+- **4K with two cameras.** Since iOS 2.9, Dual Lens and Front & Back record in 4K on supported iPhones. Very few camera apps do 4K with two cameras running at once.
 - **Front & Back on more phones.** Apple's Dual Capture is limited to recent iPhones and saves one picture-in-picture file. ContentCam's Front & Back works on any iPhone running iOS 18 and on supported Android phones, as two separate files.
 - **Built by one person.** A solo developer who reads every review and feature request, and ships an update every week or two.
 
 ## Images
 
-Free to use in coverage. Please don't stretch, recolour or add effects to the logo.
+App Store screenshots and the app icon, free to use in coverage. Please don't stretch, recolour or add effects to the logo.
 
-- One take, two formats (PNG 1270×760): https://contentcam.app/assets/press/contentcam-one-take-two-formats.png
-- App screens (PNG 1270×760): https://contentcam.app/assets/press/contentcam-app-screens.png
-- Features (PNG 1270×760): https://contentcam.app/assets/press/contentcam-features.png
+- Portrait and landscape from one take: https://contentcam.app/assets/press/contentcam-two-formats-one-take.jpg
+- Front & Back: https://contentcam.app/assets/press/contentcam-front-and-back.jpg
+- Both clips ready for TikTok, Instagram and YouTube: https://contentcam.app/assets/press/contentcam-ready-to-post.jpg
+- Manual controls, teleprompter and 4K 60fps: https://contentcam.app/assets/press/contentcam-pro-tools.jpg
+- One phone in place of a two-phone rig: https://contentcam.app/assets/press/contentcam-two-phone-rig.jpg
 - App icon (PNG 1024×1024): https://contentcam.app/assets/press/contentcam-logo-1024.png
 
-Need a higher resolution, a different screen, a photo of Jimmy or a demo video? Email and I'll send it the same day.
+Need a different screen, a photo of Jimmy or a demo video? Email me and I'll send it.
 
 ## Reviewing it?
 

@@ -13,8 +13,8 @@ Is ContentCam still being updated? Yes: **a new update every 1 to 2 weeks on eac
 ### iOS 2.9 · 12 November 2026
 
 - Apple Log: record flatter footage with more detail for colour grading, on iPhone 15 Pro and newer Pro models.
-- Dual Lens 4K: the vertical video can now record in 4K on supported iPhones.
-- Front & Back 4K: the back camera can record in 4K, vertical, on supported iPhones.
+- Dual Lens 4K: Dual Lens can now record in 4K on supported iPhones.
+- Front & Back 4K: Front & Back can now record in 4K on supported iPhones.
 - The telephoto lens is out of beta.
 - Rolling out gradually over 7 days from 12 November.
 
