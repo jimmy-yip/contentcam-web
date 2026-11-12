@@ -54,7 +54,39 @@
       "url": "https://contentcam.app/vs/dualcam/",
       "name": "ContentCam vs DualCam (2026): Tested, 4K, 60fps and Free Limits",
       "description": "Tested by hand: DualCam 1.0.5 has no 4K with both cameras, saved 30 fps with 60 selected, and stops free recording at 60 seconds. ContentCam records both cameras in 4K, up to 60 fps.",
-      "image": "https://contentcam.app/assets/og/og-blog.jpg",
+      "image": [
+        "https://contentcam.app/assets/og/og-blog.jpg",
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-first-60-seconds-free.webp",
+          "description": "DualCam paywall headline reading Unlimited dual-camera recording, First 60 seconds free",
+          "caption": "DualCam's paywall: the free version stops at 60 seconds."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp",
+          "description": "DualCam settings with Quality 4K and Frame Rate 60 fps, noting 4K is available in single-camera mode only, above the Photos info for the saved file showing 1080p, 1920 x 1080, 29.99 FPS",
+          "caption": "4K and 60 fps selected; the saved file was 1080p at 29.99 fps."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-60fps-unavailable.webp",
+          "description": "DualCam banner reading 60 fps unavailable, current format doesn't support this rate",
+          "caption": "Dual-format mode: “60 fps unavailable”."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp",
+          "description": "DualCam dual-format preview with a dashed 16:9 box drawn inside the vertical camera picture",
+          "caption": "The 16:9 file is the dashed box cut from inside the vertical frame."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-full-photo-library-access.webp",
+          "description": "iPhone prompt reading DualCam Record would like full access to your Photo Library, to save your recordings and show your recent videos",
+          "caption": "DualCam asks for full access to your photo library."
+        }
+      ],
       "dateModified": "2026-11-12",
       "publisher": {
         "@id": "https://contentcam.app/#org"
@@ -123,7 +155,7 @@
           "name": "Can DualCam record vertical and horizontal video at the same time?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, but in my test the 16:9 file was cut from the middle of the vertical frame, so the horizontal video was no wider than the vertical one, and it recorded at 30 fps. ContentCam's Single Lens records the camera's full 4:3 frame and cuts both from it, so the horizontal keeps the full width and the vertical keeps the full height, in HD or 4K."
+            "text": "Yes, but in my test the 16:9 file was cut from the middle of the vertical frame and enlarged, so the horizontal video was no wider than the vertical one, and it recorded at 30 fps. ContentCam's Single Lens records the camera's full 4:3 frame and cuts both from it, so the horizontal keeps the full width and the vertical keeps the full height, in HD or 4K at up to 60 fps. Its Dual Lens mode films the vertical and the horizontal through two different lenses."
           }
         },
         {
@@ -131,7 +163,7 @@
           "name": "Does DualCam record 60 fps?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not in my test. You can select 60 fps, but the saved file was 29.99 fps, and dual-format mode shows \"60 fps unavailable\". ContentCam records up to 60 fps, including with both cameras on supported iPhones."
+            "text": "Not in my test. You can select 60 fps, but the saved file was 29.99 fps, and dual-format mode shows \"60 fps unavailable\". ContentCam records up to 60 fps, including 4K at 60 fps in Single Lens and both cameras at 60 fps in HD, on supported iPhones."
           }
         }
       ]
@@ -179,15 +211,16 @@
       <h1>ContentCam vs DualCam (2026)</h1>
       <p class="byline">Tested 12 November 2026 · Listing checked 12 November 2026 · Disclosure: I'm Jimmy and I build ContentCam</p>
 
-      <p><strong>Tested:</strong> DualCam 1.0.5 doesn't record 4K with both cameras (its own settings say 4K is single-camera only), didn't record 60 fps in any mode I tried, and stops recording after 60 seconds until you pay. Its 16:9 file is cut from the middle of the vertical frame, so it's no wider than the vertical video. ContentCam records both cameras in 4K on supported iPhones, at up to 60 fps, as two separate files, and its free version has no time limit, no ads and no watermark. Full results and screenshots are below.</p>
+      <p><strong>Tested:</strong> the biggest difference is how each app makes the horizontal video. DualCam's 16:9 file is a slice cut from the middle of the vertical picture and enlarged to 1920 x 1080, so it's no wider than the vertical video and has less real detail. ContentCam's Single Lens records the camera's full 4:3 frame and cuts each format from it, so the horizontal keeps the full width, the vertical keeps the full height, both keep their resolution, and it works in 4K at up to 60 fps. ContentCam also records 4K in Dual Lens (two rear lenses at once, each with its own framing) and with both cameras in Front &amp; Back. DualCam has no Dual Lens mode, no 4K with both cameras (its own settings say 4K is single-camera only), no 60 fps in any mode I tried, and stops recording after 60 seconds until you pay. Full results and screenshots are below.</p>
       <p>I'm Jimmy, I build ContentCam, and I tested DualCam myself on 12 November 2026. Everything marked as tested comes from that session; the rest comes from DualCam's App Store listing, its website and its privacy policy.</p>
 
       <h2>What are the main differences?</h2>
       <ul>
-        <li><strong>Free version.</strong> DualCam gives you the first 60 seconds of recording free, then the video stops and the paywall opens. ContentCam's free version records unlimited Single Lens videos in portrait and landscape at once, in 1080p, plus 5 Dual Lens and 5 Front &amp; Back recordings.</li>
-        <li><strong>4K and 60 fps.</strong> DualCam's settings say "4K is available in single-camera mode only", and 60 fps didn't work in any mode: with 4K and 60 fps selected, the file it saved was 1920 x 1080 at 29.99 fps. ContentCam records 4K with both cameras on supported iPhones, and up to 60 fps.</li>
-        <li><strong>Vertical and horizontal at once.</strong> Both save a 9:16 and a 16:9 file. DualCam cuts the 16:9 file out of the vertical picture, so the horizontal video has the same width as the vertical one. ContentCam's Single Lens records the camera's full 4:3 frame, so the horizontal keeps the full width and the vertical keeps the full height.</li>
-        <li><strong>Camera controls.</strong> DualCam's only manual control is an exposure slider with no reset. Tap to focus shows a yellow square but didn't focus, and there's no AE/AF lock. ContentCam has manual exposure, white balance, ISO and shutter, tap to focus, AE/AF lock, a zoom dial and a teleprompter.</li>
+        <li><strong>How the horizontal video is made.</strong> DualCam cuts the 16:9 file out of the vertical picture and enlarges it, so the horizontal video has the same width as the vertical one. ContentCam's Single Lens records the full 4:3 frame, so each format gets its full width or height at full resolution, in up to 4K at 60 fps. ContentCam's Dual Lens goes further: one rear lens films the vertical, another films the horizontal, each framed on its own.</li>
+        <li><strong>4K and 60 fps.</strong> ContentCam records 4K in all three modes: Single Lens at up to 60 fps, Dual Lens in vertical 4K, and Front &amp; Back with both cameras, on supported iPhones. DualCam's settings say "4K is available in single-camera mode only", and 60 fps didn't work in any mode: with 4K and 60 fps selected, the file it saved was 1920 x 1080 at 29.99 fps.</li>
+        <li><strong>Free version.</strong> DualCam gives you the first 60 seconds of recording free, then the video stops and the paywall opens. ContentCam's free version records unlimited Single Lens videos in portrait and landscape at once, in 1080p, plus 5 Dual Lens and 5 Front &amp; Back recordings. Neither app has ads or a watermark.</li>
+        <li><strong>Camera controls.</strong> DualCam's only manual control is an exposure slider with no reset. Tap to focus shows a yellow square but didn't focus, and AE/AF lock sits in a menu two taps away instead of on tap and hold. ContentCam has manual exposure, white balance, ISO and shutter, tap to focus, AE/AF lock on tap and hold, a zoom dial and a teleprompter.</li>
+        <li><strong>Your photo library.</strong> DualCam asks for full access to your photos, although its privacy policy says it doesn't access or read your existing library. ContentCam only asks to add videos, so it can't see your library.</li>
         <li><strong>Platforms.</strong> ContentCam is on iPhone and Android. DualCam is iPhone only.</li>
       </ul>
 
@@ -197,13 +230,13 @@
         <li><strong>60 seconds free, then pay.</strong> The paywall says "First 60 seconds free". When a take reaches one minute, recording stops and the app asks you to subscribe. Plans are weekly, yearly (US$22.99 a year with a 3-day trial, more than ContentCam's yearly plan, which has a 7-day trial) or lifetime.</li>
         <li><strong>No 4K with both cameras.</strong> The settings screen says "4K is available in single-camera mode only". Front &amp; back recording is HD.</li>
         <li><strong>No 60 fps.</strong> You can select 4K and 60 fps, but the file I saved was 1080p at 29.99 fps. In dual-format mode the app shows "60 fps unavailable". I didn't get 60 fps in single-camera, dual-format or front &amp; back mode.</li>
-        <li><strong>The 16:9 file is a crop of the vertical one.</strong> In dual-format mode the preview draws a dashed 16:9 box inside the vertical picture, and that box is what the horizontal file gets. The horizontal video shows no more width than the vertical video, and in my test the preview's box didn't line up exactly with what was recorded.</li>
+        <li><strong>The 16:9 file is a crop of the vertical one.</strong> In dual-format mode the preview draws a dashed 16:9 box inside the vertical picture, and that box is enlarged to make the 1920 x 1080 horizontal file. The horizontal video shows no more width than the vertical video, and in my test the preview's box didn't line up exactly with what was recorded.</li>
         <li><strong>Picture-in-picture can't be resized.</strong> Pinching does nothing and there's no size button.</li>
-        <li><strong>Few camera controls.</strong> Exposure is the only manual control, and there's no reset button, so you drag it back to 0 by hand. Tap to focus shows a yellow square but didn't change focus, holding doesn't lock AE/AF, and there are no zoom buttons or zoom dial on the preview.</li>
+        <li><strong>Few camera controls.</strong> Exposure is the only manual control, and there's no reset button, so you drag it back to 0 by hand. Tap to focus shows a yellow square but didn't change focus, AE/AF lock isn't on tap and hold but in a menu two taps away, where it's easy to switch off by accident, and there are no zoom buttons or zoom dial on the preview.</li>
         <li><strong>Stabilisation didn't seem to work.</strong> With Video Stabilization on, my handheld clips still looked unstabilised. A 1-star US review from 8 August says "there's no stabilization".</li>
         <li><strong>Recordings lost.</strong> When I force-closed the app, went to the home screen or locked the phone mid-take, the recording was lost. ContentCam keeps recording through auto-lock and restores a take after a force-close the next time you open it.</li>
         <li><strong>File names that don't match.</strong> The vertical and horizontal files from the same take get different random names, and the only clue is "_portrait" or "_landscape" at the end. ContentCam saves into projects, scenes and takes with matching file names.</li>
-        <li><strong>Full photo library access.</strong> DualCam asks for full access to your Photo Library "to save your recordings and show your recent videos", and adds its own DualCam album to Photos. Its privacy policy says it doesn't access or read the existing content in your library. ContentCam only asks to add videos to Photos, so it can't see your library.</li>
+        <li><strong>Full photo library access.</strong> DualCam asks for full access to your Photo Library "to save your recordings and show your recent videos", and adds its own DualCam album to Photos. Full access lets an app see every photo and video you have, yet its privacy policy says "We do not access, read, or transmit any existing content in your photo library." Saving a video doesn't need full access. ContentCam only asks to add videos to Photos, so it can't see your library.</li>
         <li><strong>An account you didn't make.</strong> Settings has "Delete account and all data", but the app never asked me to sign up or mentioned an account. Its privacy policy explains that it creates an anonymous account for each install, and sends crash reports to Sentry, including your IP address and a short log of recent in-app actions. ContentCam has no account.</li>
         <li><strong>Missing features.</strong> No teleprompter, no Dual Lens mode (two rear lenses at once), no 25 or 50 fps, no timelapse, no Apple Log, no audio level meter, and no projects or take management. ContentCam has all of these.</li>
       </ul>
@@ -212,7 +245,7 @@
         <figcaption>DualCam's paywall: the free version stops at 60 seconds.</figcaption>
       </figure>
       <figure>
-        <img src="/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp" alt="DualCam settings with Quality 4K and Frame Rate 60 fps, noting 4K is available in single-camera mode only, above the Photos info for the saved file showing 1080p, 1920 x 1080, 29.99 FPS" width="900" height="1114" loading="lazy" decoding="async">
+        <img src="/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp" alt="DualCam settings with Quality 4K and Frame Rate 60 fps, noting 4K is available in single-camera mode only, above the Photos info for the saved file showing 1080p, 1920 x 1080, 29.99 FPS" width="900" height="1243" loading="lazy" decoding="async">
         <figcaption>4K and 60 fps selected; the saved file was 1080p at 29.99 fps.</figcaption>
       </figure>
       <figure>
@@ -228,7 +261,19 @@
         <figcaption>DualCam asks for full access to your photo library.</figcaption>
       </figure>
 
-      <p><strong>Worth knowing about the developer.</strong> Mobixoft released seven apps on the App Store in 2026, DualCam among them, alongside an AI stool scanner, a watch appraiser, a rock identifier, a bug bite identifier, a silence remover and a travel planner (a VPN came out in 2024). Across all eight there are 20 US ratings. DualCam has had five versions since its release in April. That doesn't prove anything about DualCam, but one team's attention is spread across a lot of apps. ContentCam is where all of mine goes: it has had 32 iOS and Android updates (see the <a href="/changelog/">changelog</a>) and is rated 4.8 by 580+ creators.</p>
+      <h2>How does ContentCam do on the same checks?</h2>
+      <ul>
+        <li><strong>4K in every mode:</strong> Single Lens at up to 60 fps, Dual Lens in vertical 4K, and Front &amp; Back with both cameras in 4K, on supported iPhones (iOS 2.9).</li>
+        <li><strong>Full-width horizontal:</strong> Single Lens cuts both formats from the full 4:3 frame at full resolution, and Dual Lens films each format through its own lens.</li>
+        <li><strong>60 fps:</strong> up to 60 fps, including with both cameras in HD.</li>
+        <li><strong>Free version:</strong> no time limit, no ads, no watermark.</li>
+        <li><strong>Picture-in-picture:</strong> drag, pinch or tap to resize; double-tap to recentre.</li>
+        <li><strong>Controls:</strong> exposure, white balance, ISO, shutter, tap to focus, AE/AF lock on tap and hold, zoom dial, auto-scrolling teleprompter, 25 and 50 fps, timelapse, Apple Log and an audio level meter.</li>
+        <li><strong>Safe takes:</strong> keeps recording through auto-lock and restores a force-closed take.</li>
+        <li><strong>Privacy:</strong> add-only photo access and no account.</li>
+      </ul>
+
+      <p><strong>Worth knowing about the developer.</strong> Mobixoft released seven apps on the App Store in 2026, DualCam among them, alongside an AI stool scanner, a watch appraiser, a rock identifier, a bug bite identifier, a silence remover and a travel planner Across all its apps there are 20 US ratings. DualCam has had five versions since its release in April. That doesn't prove anything about DualCam, but one team's attention is spread across a lot of apps. ContentCam is where all of mine goes: it has had 32 iOS and Android updates (see the <a href="/changelog/">changelog</a>) and is rated 4.8 by 580+ creators.</p>
       <p><strong>Who DualCam suits:</strong> someone who wants to try a basic picture-in-picture or 9:16 + 16:9 clip of under a minute. If you need 4K with both cameras, 60 fps, a full-width horizontal video, takes longer than a minute or real camera controls, it falls short.</p>
 
       <h2>How do they compare spec by spec?</h2>
@@ -238,15 +283,15 @@
         <tbody>
           <tr><td>Free version</td><td>Unlimited Single Lens recording (1080p), plus 5 Dual Lens and 5 Front &amp; Back takes</td><td>First 60 seconds of recording, then the paywall (tested)</td></tr>
           <tr><td>Plans</td><td>Yearly with a 7-day trial, monthly or lifetime; no weekly plan</td><td>Weekly, yearly (US$22.99, 3-day trial) or lifetime</td></tr>
-          <tr><td>Ads</td><td>None, free or Premium</td><td>Not described</td></tr>
-          <tr><td>Watermark</td><td>None, free or Premium</td><td>The listing doesn't say</td></tr>
+          <tr><td>Ads</td><td>None, free or Premium</td><td>None (tested)</td></tr>
+          <tr><td>Watermark</td><td>None, free or Premium</td><td>None (tested)</td></tr>
           <tr><td>Platforms</td><td>iPhone (iOS 18 or later) and Android</td><td>iPhone only (iOS 18 or later)</td></tr>
-          <tr><td>4K with both cameras</td><td>Yes, on supported iPhones (from iOS 2.9)</td><td>No; "4K is available in single-camera mode only" (tested)</td></tr>
-          <tr><td>60 fps</td><td>Up to 60 fps, including both cameras on supported iPhones (Premium)</td><td>No; 60 fps selected saved a 29.99 fps file (tested)</td></tr>
-          <tr><td>Portrait and landscape from one take</td><td>Yes; Single Lens cuts both from the full 4:3 frame, so the horizontal keeps the full width</td><td>Yes, but the 16:9 file is cropped from the vertical frame (tested)</td></tr>
+          <tr><td>4K</td><td>All three modes on supported iPhones: Single Lens up to 60 fps, Dual Lens vertical, Front &amp; Back with both cameras</td><td>Single-camera mode only, no 4K with both cameras (tested)</td></tr>
+          <tr><td>60 fps</td><td>Up to 60 fps: 4K 60 in Single Lens, HD 60 with both cameras (Premium)</td><td>No; 60 fps selected saved a 29.99 fps file (tested)</td></tr>
+          <tr><td>Portrait and landscape from one take</td><td>Yes; Single Lens cuts both from the full 4:3 frame at full resolution, or Dual Lens films each through its own lens</td><td>Yes, but the 16:9 file is cropped from the vertical frame and enlarged (tested)</td></tr>
           <tr><td>Dual Lens (two rear lenses at once)</td><td>Yes</td><td>No (tested)</td></tr>
           <tr><td>Resize the picture-in-picture</td><td>Yes: drag, pinch or tap; double-tap to recentre</td><td>No (tested)</td></tr>
-          <tr><td>Manual controls</td><td>Exposure, white balance, ISO, shutter; tap to focus, AE/AF lock, zoom dial</td><td>Exposure slider only, no reset; tap to focus didn't focus; no AE/AF lock (tested)</td></tr>
+          <tr><td>Manual controls</td><td>Exposure, white balance, ISO, shutter; tap to focus, AE/AF lock on tap and hold, zoom dial</td><td>Exposure slider only, no reset; tap to focus didn't focus; AE/AF lock only in a menu, two taps away (tested)</td></tr>
           <tr><td>Teleprompter</td><td>Yes, auto-scrolling</td><td>No (tested)</td></tr>
           <tr><td>Frame rates</td><td>24, 25, 30, 50 or 60 fps</td><td>No 25 or 50 fps (tested)</td></tr>
           <tr><td>Timelapse, Apple Log, audio meter</td><td>Yes</td><td>No (tested)</td></tr>
@@ -271,9 +316,9 @@
       <h3>Does DualCam save the front and back camera as separate files?</h3>
       <p>DualCam's listing describes showing yourself and the scene in one video with picture-in-picture or split screen, and does not mention separate front and back files. ContentCam's Front &amp; Back mode saves the selfie camera and the rear camera as two separate files, and its Combine editor can render a picture-in-picture or split-screen video afterwards, keeping the originals.</p>
       <h3>Can DualCam record vertical and horizontal video at the same time?</h3>
-      <p>Yes, but in my test the 16:9 file was cut from the middle of the vertical frame, so the horizontal video was no wider than the vertical one, and it recorded at 30 fps. ContentCam's Single Lens records the camera's full 4:3 frame and cuts both from it, so the horizontal keeps the full width and the vertical keeps the full height, in HD or 4K.</p>
+      <p>Yes, but in my test the 16:9 file was cut from the middle of the vertical frame and enlarged, so the horizontal video was no wider than the vertical one, and it recorded at 30 fps. ContentCam's Single Lens records the camera's full 4:3 frame and cuts both from it, so the horizontal keeps the full width and the vertical keeps the full height, in HD or 4K at up to 60 fps. Its Dual Lens mode films the vertical and the horizontal through two different lenses.</p>
       <h3>Does DualCam record 60 fps?</h3>
-      <p>Not in my test. You can select 60 fps, but the saved file was 29.99 fps, and dual-format mode shows "60 fps unavailable". ContentCam records up to 60 fps, including with both cameras on supported iPhones.</p>
+      <p>Not in my test. You can select 60 fps, but the saved file was 29.99 fps, and dual-format mode shows "60 fps unavailable". ContentCam records up to 60 fps, including 4K at 60 fps in Single Lens and both cameras at 60 fps in HD, on supported iPhones.</p>
 
       <div class="post-cta">
         <p><strong>Try ContentCam free.</strong> Front and back in one take as two separate files, plus vertical and wide from a single shoot. No ads, no watermark. On iPhone and Android.</p>
