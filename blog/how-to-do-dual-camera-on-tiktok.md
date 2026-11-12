@@ -47,7 +47,7 @@ The real difference is one baked-in video or two files. Dual Capture, Snapchat a
 
 - **Shape: 9:16 vertical.** TikTok's own video ad specs list vertical 9:16 as the recommended format, at 540×960 or more.
 - **Frame rate: 30fps** for talking and reactions, **60fps** only if you'll slow the clip down. Reasons in [24 vs 30 vs 60fps for social media](https://contentcam.app/blog/24fps-vs-30fps-vs-60fps-social-media/).
-- **Know the caps.** Apple's Dual Capture tops out at 30fps. ContentCam's Front & Back records in HD at up to 60fps on iPhones that support it (60fps is Premium), in 4K on supported iPhones from iOS 2.9, and up to 30fps on Android.
+- **Know the caps.** Apple's Dual Capture tops out at 30fps. ContentCam's Front & Back records at up to 60fps on iPhones that support it (60fps is Premium), in 4K on supported iPhones from iOS 2.9, and up to 30fps on Android.
 
 ## When is another option better than ContentCam for TikTok?
 

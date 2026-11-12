@@ -22,7 +22,7 @@ Yes. The iPhone 15 and iPhone 16 support Apple's multi-camera capture for apps, 
 
 | App | Price | Needs | What it saves | Frame rate, both cameras |
 | --- | --- | --- | --- | --- |
-| ContentCam (Front & Back mode) | Free; 5 free Front & Back recordings, then Premium. No ads or watermark. | iOS 18 or later | Two separate files, plus an optional combined picture-in-picture or split-screen video | 4K on supported iPhones (from iOS 2.9), or HD at up to 60fps on iPhones that support it |
+| ContentCam (Front & Back mode) | Free; 5 free Front & Back recordings, then Premium. No ads or watermark. | iOS 18 or later | Two separate files, plus an optional combined picture-in-picture or split-screen video | 4K on supported iPhones (from iOS 2.9), or up to 60fps on iPhones that support it |
 | SplitRig | Free, no in-app purchases or ads (per listing) | iOS 26 or later | One combined video, picture-in-picture or split screen. The listing doesn't mention separate files. | 24 or 30fps (per SplitRig's FAQ) |
 | Dualgram | Free with ads and a watermark; Pro (US$8.99 a year or US$29.99 once) removes them | iOS 17 or later | The combined video and both original files (per listing) | Up to 4K 60fps listed; dual mode not stated |
 
@@ -63,7 +63,7 @@ Yes. ContentCam's Front & Back mode saves the front camera and the back camera a
 
 ### What resolution do front and back apps record on iPhone 15 and 16?
 
-ContentCam's Front & Back mode records both cameras as two separate files, in 4K on supported iPhones from iOS 2.9, or in HD at up to 60fps on iPhones that support it. SplitRig's combined video records at 24 or 30fps.
+ContentCam's Front & Back mode records both cameras as two separate files, in 4K on supported iPhones from iOS 2.9, or at up to 60fps on iPhones that support it. SplitRig's combined video records at 24 or 30fps.
 
 ### Does ContentCam have ads or a weekly subscription?
 

@@ -40,7 +40,7 @@ Every built-in option bakes the layout into one file at capture. Separate files 
 2. Record once. The rear camera and the selfie camera come out of the same take as two files.
 3. To post one video, open the Combine editor and pick picture-in-picture or split screen. Trying layouts is free; saving a combined video is Premium. The original files are kept.
 
-No ads and no watermark, free or Premium. Front & Back records in 4K on supported iPhones (from iOS 2.9), in HD at up to 60 fps on supported iPhones (60 fps is Premium), and up to 30 fps on Android. The live preview while recording (left), then the rear and selfie files side by side (right).
+No ads and no watermark, free or Premium. Front & Back records in 4K on supported iPhones (from iOS 2.9), at up to 60 fps on supported iPhones (60 fps is Premium), and up to 30 fps on Android. The live preview while recording (left), then the rear and selfie files side by side (right).
 
 ## How do you use Dual Capture on iPhone?
 

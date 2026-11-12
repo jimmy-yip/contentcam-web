@@ -16,7 +16,7 @@ Every MixCam claim below comes from MixCam's App Store and Google Play listings 
 - **Watermark.** ContentCam has none, free or Premium. MixCam sells "Remove Watermark" as a separate purchase on the App Store, and on Google Play the developer told a reviewer (9 May 2026) to "upgrade to the PRO version for no watermark".
 - **Recording length.** On Android, MixCam's developer wrote (14 December 2025): "Record 1 minute (free), or up to 3 minutes (PRO)" with dual cameras.
 - **Vertical and horizontal at once.** ContentCam saves a 9:16 file and a 16:9 file from one take. Neither MixCam listing describes that.
-- **Frame rate and manual controls.** ContentCam's Front & Back records in 4K on supported iPhones (from iOS 2.9) and up to 60fps in HD (Premium), with manual ISO, shutter, white balance and exposure in the app. MixCam's listings state no front and back frame rate and no manual ISO or shutter.
+- **Frame rate and manual controls.** ContentCam's Front & Back records in 4K on supported iPhones (from iOS 2.9) and up to 60fps (Premium), with manual ISO, shutter, white balance and exposure in the app. MixCam's listings state no front and back frame rate and no manual ISO or shutter.
 
 ## Where does ContentCam pull ahead?
 

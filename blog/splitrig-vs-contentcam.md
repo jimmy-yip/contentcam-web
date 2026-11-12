@@ -79,7 +79,7 @@ SplitRig asks for it: version 1.1.11 shows the iOS prompt "SplitRig would like f
 
 ### Can SplitRig record front and back at 60fps?
 
-No. SplitRig's features page lists "24 or 30 fps" for its dual-camera recording, with 60fps only in Action Cam, a rear-camera mode (checked 5 November 2026). ContentCam's Front & Back records both cameras at up to 60fps in HD on iPhones that support it, as a Premium option, and in 4K on supported iPhones from iOS 2.9.
+No. SplitRig's features page lists "24 or 30 fps" for its dual-camera recording, with 60fps only in Action Cam, a rear-camera mode (checked 5 November 2026). ContentCam's Front & Back records both cameras at up to 60fps on iPhones that support it, as a Premium option, and in 4K on supported iPhones from iOS 2.9.
 
 ### Which iPhones does SplitRig work on?
 

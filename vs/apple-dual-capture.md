@@ -2,7 +2,7 @@
 
 Source: https://contentcam.app/vs/apple-dual-capture/
 
-ContentCam vs Apple Dual Capture: ContentCam records front and back on every iPhone running iOS 18, including iPhone 15 and 16, saves two separate files, records up to 60fps in HD on supported iPhones and runs on Android. Dual Capture is free on seven iPhone models. Checked 6 November 2026.
+ContentCam vs Apple Dual Capture: ContentCam records front and back on every iPhone running iOS 18, including iPhone 15 and 16, saves two separate files, records up to 60fps on supported iPhones and runs on Android. Dual Capture is free on seven iPhone models. Checked 6 November 2026.
 
 Checked 6 November 2026
 
@@ -14,7 +14,7 @@ Disclosure: I'm Jimmy and I build ContentCam. Every Apple claim below comes from
 
 - **Which iPhones:** ContentCam's Front & Back runs on every iPhone with iOS 18, including iPhone 15 and iPhone 16. Apple lists Dual Capture on iPhone 17, 17 Pro, 17 Pro Max, Air, 18 Pro, 18 Pro Max and iPhone Duo only.
 - **Separate files:** ContentCam saves the selfie and the scene as two files. Apple's guide shows one frame with the front camera as a window inside it.
-- **Frame rate:** ContentCam's Front & Back records in HD at up to 60fps on supported iPhones, and in 4K on supported iPhones from iOS 2.9. Apple lists Dual Capture at "up to 4K Dolby Vision at 30 fps".
+- **Frame rate:** ContentCam's Front & Back records at up to 60fps on supported iPhones, and in 4K on supported iPhones from iOS 2.9. Apple lists Dual Capture at "up to 4K Dolby Vision at 30 fps".
 - **Vertical and horizontal from one take:** ContentCam's main mode saves a 9:16 and a 16:9 file from one recording. Apple's Dual Capture steps describe no such option.
 - **Android:** ContentCam is on Android too. Dual Capture is iPhone only.
 
@@ -24,7 +24,7 @@ Disclosure: I'm Jimmy and I build ContentCam. Every Apple claim below comes from
 
 **Two files, layout decided later.** With the selfie file and the scene file apart, you can cut between full-screen face and full-screen scene in CapCut or DaVinci Resolve, colour-grade each one separately, or drop one entirely. ContentCam's Combine editor turns the pair into a picture-in-picture or split-screen video after the shoot (trying layouts is free; saving a Combine video is Premium), and the originals stay. Apple's guide shows the Dual Capture window inside the frame itself; what that rules out is in [the Dual Capture limits post](https://contentcam.app/blog/iphone-17-dual-capture-limitations/).
 
-**60fps with both cameras.** On iPhones that support it, ContentCam's Front & Back records both cameras in HD at up to 60fps (Premium; some older iPhones cap at 30fps), or in 4K. Apple's ceiling for Dual Capture is 30fps, on a phone that shoots 4K at 60fps with one camera.
+**60fps with both cameras.** On iPhones that support it, ContentCam's Front & Back records both cameras at up to 60fps (Premium; some older iPhones cap at 30fps), or in 4K. Apple's ceiling for Dual Capture is 30fps, on a phone that shoots 4K at 60fps with one camera.
 
 **Android.** ContentCam's Front & Back works on Android phones whose camera system can run front and rear cameras at once, in HD at up to 30fps; the app only offers the mode where it works. See [front and back at the same time on Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/).
 
@@ -64,7 +64,7 @@ Apple's guide shows one frame, with "a window in the top-left of the frame" for 
 
 ### What frame rate does Apple Dual Capture record at?
 
-Apple's specs pages list "Dual Capture up to 4K Dolby Vision at 30 fps" for iPhone 17, iPhone Air, iPhone 18 Pro and iPhone Duo. ContentCam's Front & Back records in 4K on supported iPhones (from iOS 2.9), and in HD at up to 60fps on iPhones that support it (60fps is a Premium option; some older iPhones cap at 30fps).
+Apple's specs pages list "Dual Capture up to 4K Dolby Vision at 30 fps" for iPhone 17, iPhone Air, iPhone 18 Pro and iPhone Duo. ContentCam's Front & Back records in 4K on supported iPhones (from iOS 2.9), and at up to 60fps on iPhones that support it (60fps is a Premium option; some older iPhones cap at 30fps).
 
 ### Is Apple Dual Capture on Android?
 

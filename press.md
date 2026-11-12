@@ -36,7 +36,7 @@ So ContentCam reads the camera's full 4:3 frame and cuts both videos from it. Th
 ## What sets it apart
 
 - **Full frame in both formats.** Most apps record vertical and cut a horizontal strip out of the middle for YouTube. ContentCam frames each format from the camera's full sensor.
-- **4K with two cameras.** Since iOS 2.9, Dual Lens and Front & Back record in 4K on supported iPhones. Very few camera apps do 4K with two cameras running at once.
+- **4K with two cameras.** Since iOS 2.9, Dual Lens and Front & Back record in 4K on supported iPhones. Apart from Apple's own Camera app, we don't know of another app that records 4K with two cameras running at once.
 - **Front & Back on more phones.** Apple's Dual Capture is limited to recent iPhones and saves one picture-in-picture file. ContentCam's Front & Back works on any iPhone running iOS 18 and on supported Android phones, as two separate files.
 - **Built by one person.** A solo developer who reads every review and feature request, and ships an update every week or two.
 

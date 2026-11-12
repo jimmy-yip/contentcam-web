@@ -36,7 +36,7 @@ Record both cameras into separate files, then cut between them like a two-camera
 3. **Stack the two clips** in iMovie or CapCut, rear camera on the main track, front camera above it, lined up on the clap.
 4. **Cut the top layer** wherever you want your face to show. Every cut is a "camera switch", and you can move the cuts later.
 
-Front & Back comes with 5 free recordings, then Premium. On iPhone, ContentCam's Combine editor can also turn a take into one picture-in-picture or split-screen video with the two original files kept, so you can post the combined version and still cut between angles. No account, and the footage stays on your phone. From iOS 2.9 it records in 4K on supported iPhones, and in HD at up to 60 fps on iPhones that support it (60 fps is Premium).
+Front & Back comes with 5 free recordings, then Premium. On iPhone, ContentCam's Combine editor can also turn a take into one picture-in-picture or split-screen video with the two original files kept, so you can post the combined version and still cut between angles. No account, and the footage stays on your phone. From iOS 2.9 it records in 4K on supported iPhones, and at up to 60 fps on iPhones that support it (60 fps is Premium).
 
 ## How does Dual Capture work instead of switching?
 

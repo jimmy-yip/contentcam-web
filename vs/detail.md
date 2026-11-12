@@ -16,7 +16,7 @@ Every Detail claim below comes from Detail's App Store listing (version 6.0.6, r
 - **Watermark.** ContentCam has none, free or Premium. detail.co lists the free Basic plan with "Unlimited watermark video exports"; "Watermark-free exports" are a Detail Pro feature.
 - **Paying once.** ContentCam Premium is yearly, monthly or a one-time lifetime purchase. The in-app purchases on Detail's US App Store page are all subscriptions: Detail Pro Weekly $4.99, Monthly $11.99, Yearly $49.99 or $69.99.
 - **Vertical and horizontal at once.** ContentCam records a 9:16 file and a 16:9 file at the same time from one take. Detail records one video and, per its changelog, lets you switch it between vertical, horizontal or square after recording.
-- **Camera controls.** ContentCam has manual ISO, shutter, white balance and exposure, and Front & Back in 4K on supported iPhones (from iOS 2.9) or up to 60fps in HD (Premium). Detail's listing and site do not describe manual ISO or shutter controls, or a front and back frame rate.
+- **Camera controls.** ContentCam has manual ISO, shutter, white balance and exposure, and Front & Back in 4K on supported iPhones (from iOS 2.9) or up to 60fps (Premium). Detail's listing and site do not describe manual ISO or shutter controls, or a front and back frame rate.
 
 ## Where does ContentCam pull ahead?
 
@@ -55,7 +55,7 @@ No. detail.co offers Detail for iOS and Detail Studio for Mac only, and a Google
 
 ### Can Detail record the front and back camera at the same time?
 
-Yes. Detail's own guide records both cameras into a picture-in-picture or grid layout that can be changed after recording, and detail.co recommends iPhone 11 or later for dual camera. ContentCam's Front & Back mode saves the selfie and the rear camera as two separate files, in 4K on supported iPhones (from iOS 2.9) or at up to 60fps in HD (Premium). ContentCam's Combine editor also lets you pick picture-in-picture or split screen after recording, and keeps the originals.
+Yes. Detail's own guide records both cameras into a picture-in-picture or grid layout that can be changed after recording, and detail.co recommends iPhone 11 or later for dual camera. ContentCam's Front & Back mode saves the selfie and the rear camera as two separate files, in 4K on supported iPhones (from iOS 2.9) or at up to 60fps (Premium). ContentCam's Combine editor also lets you pick picture-in-picture or split screen after recording, and keeps the originals.
 
 ### Does Detail have a lifetime purchase?
 
