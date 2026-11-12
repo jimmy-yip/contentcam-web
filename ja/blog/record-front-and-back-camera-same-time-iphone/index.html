@@ -41,7 +41,7 @@
         "description": "前後カメラの同時録画が向いている使い方、その仕組み、上手な撮り方を、ContentCamの前後カメラ（Front/Back）モードとあわせて解説します。",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-08-03",
-        "dateModified": "2026-11-05",
+        "dateModified": "2026-11-12",
         "author": { "@type": "Person", "name": "Jimmy", "description": "ContentCamの開発者", "url": "https://contentcam.app/press/" },
         "publisher": { "@id": "https://contentcam.app/#org" },
         "mainEntityOfPage": "https://contentcam.app/ja/blog/record-front-and-back-camera-same-time-iphone/"
@@ -127,7 +127,7 @@
         <li><strong>サードパーティ製カメラアプリ：</strong>Appleは、アプリが複数のカメラを同時に動かせるようにするシステム機能AVCaptureMultiCamSessionを、iOS 13で追加しました。ContentCamの前後カメラ（Front/Back）モードはiOS 18が必要なので、iPhone XS、XRとそれ以降のすべての機種で動作します。SplitRigはApp StoreのページでiOS 26以降が必要とされています。</li>
         <li><strong>SnapchatのDual Camera：</strong>SnapchatのヘルプセンターではiPhone XS、XS Max、XR以降が対象とされています。</li>
       </ul>
-      <p>つまずきやすい限界が2つあります。Dual Captureは顔が映像に焼き込まれた1つのファイルとして録画するので、撮影後にレイアウトを変えられません。ContentCamは2つのカメラを4KではなくHDで録画しますが、2つのファイルとして残るので、レイアウトはあとから決められます。どちらも<a href="/ja/blog/iphone-17-dual-capture-limitations/">iPhone 17のDual Captureとその限界</a>で詳しく説明しています。</p>
+      <p>つまずきやすい限界が2つあります。Dual Captureは顔が映像に焼き込まれた1つのファイルとして録画するので、撮影後にレイアウトを変えられません。ContentCamは2つのカメラを2つのファイルとして録画するので、レイアウトはあとから決められます。iOS 2.9からは対応iPhoneで4K録画です。どちらも<a href="/ja/blog/iphone-17-dual-capture-limitations/">iPhone 17のDual Captureとその限界</a>で詳しく説明しています。</p>
 
       <h2>前後カメラの同時録画は何に使える？</h2>
       <p>両方のカメラが同時に回っていることが決め手になる動画のジャンルがあります。</p>
@@ -144,7 +144,7 @@
       <p>同じ光景を2つの構図で撮るために<em>背面</em>のカメラを2つ使って録画するのはデュアルレンズで、<a href="/ja/features/dual-camera/">別の機能</a>です。</p>
 
       <h2>ContentCamで前後カメラを同時に録画するには？</h2>
-      <p>ContentCamには、縦と横を同時に撮る録画とあわせて、前後カメラ（Front/Back）モードがあります。アプリを開いて前後カメラ（Front/Back）に切り替え、録画するだけです。1回のテイクから、背面カメラとインカメラの映像が別々の2つのファイルとして保存されます。そのあと合成（Combine）エディタで、元のファイルを残したまま、ワイプ（ピクチャ・イン・ピクチャ）または画面分割のひとつの動画にまとめられます。ContentCamは2つのカメラをHDで録画します。私がテストしたiPhoneでは、iPhone 18 Proを除いて、Appleのマルチカメラ用フォーマットの上限が1920×1440だったからです（iPhone 18 Proは4K 30fpsにも対応フラグが立っていますが、2つのカメラでの4K録画はまだ試していません）。フレームレートは、対応するiPhoneなら最大60fps（60fpsはPremium）で、Dual Captureの30fpsを上回ります。前後カメラ（Front/Back）の録画は最初の5回まで無料で、その後はPremiumです。無料版でもPremiumでも、広告は表示されず、ウォーターマークも入りません。ContentCamは9:16と16:9を同時に録画することもでき、<a href="/ja/features/teleprompter/">テレプロンプター</a>も内蔵しています。<a href="/ja/features/">機能の一覧はこちらです。</a></p>
+      <p>ContentCamには、縦と横を同時に撮る録画とあわせて、前後カメラ（Front/Back）モードがあります。アプリを開いて前後カメラ（Front/Back）に切り替え、録画するだけです。1回のテイクから、背面カメラとインカメラの映像が別々の2つのファイルとして保存されます。そのあと合成（Combine）エディタで、元のファイルを残したまま、ワイプ（ピクチャ・イン・ピクチャ）または画面分割のひとつの動画にまとめられます。iOS 2.9から、ContentCamは2つのカメラを対応iPhoneでは4K、それ以外ではHDで録画します。フレームレートは、対応するiPhoneなら最大60fps（60fpsはPremium）で、Dual Captureの30fpsを上回ります。前後カメラ（Front/Back）の録画は最初の5回まで無料で、その後はPremiumです。無料版でもPremiumでも、広告は表示されず、ウォーターマークも入りません。ContentCamは9:16と16:9を同時に録画することもでき、<a href="/ja/features/teleprompter/">テレプロンプター</a>も内蔵しています。<a href="/ja/features/">機能の一覧はこちらです。</a></p>
 
       <div class="shot-pair">
         <img src="/assets/img/ui-record-handsup-640.webp" alt="モード切り替えが表示されたContentCamの録画画面" width="640" height="1387" loading="lazy" decoding="async">

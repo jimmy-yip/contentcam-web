@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/dual-camera-effect/
 
 Free ways to film front and back at once with iPhone 17 Dual Capture, Snapchat and Instagram, what works on Android, and when a paid app is worth it.
 
-By Jimmy, developer of ContentCam · 15 August 2026 · Updated 5 November 2026
+By Jimmy, developer of ContentCam · 15 August 2026 · Updated 12 November 2026
 
 To use the front and back camera at the same time, switch on a dual camera mode before you record. On iPhone 17, iPhone Air, iPhone 18 Pro and iPhone Duo that is Dual Capture in the Camera app. On any other iPhone running iOS 18 or later, and on Android phones that can run both cameras, ContentCam's Front & Back mode records your face and the scene as two separate files. Snapchat and Instagram work for a quick in-app clip.
 
@@ -40,7 +40,7 @@ Every built-in option bakes the layout into one file at capture. Separate files 
 2. Record once. The rear camera and the selfie camera come out of the same take as two files.
 3. To post one video, open the Combine editor and pick picture-in-picture or split screen. Trying layouts is free; saving a combined video is Premium. The original files are kept.
 
-No ads and no watermark, free or Premium. Front & Back records HD: up to 60 fps on supported iPhones (60 fps is Premium), up to 30 fps on Android. The live preview while recording (left), then the rear and selfie files side by side (right).
+No ads and no watermark, free or Premium. Front & Back records in 4K on supported iPhones (from iOS 2.9), in HD at up to 60 fps on supported iPhones (60 fps is Premium), and up to 30 fps on Android. The live preview while recording (left), then the rear and selfie files side by side (right).
 
 ## How do you use Dual Capture on iPhone?
 

@@ -11,18 +11,20 @@ Store links:
 Most apps that offer "both formats" record a portrait video and crop a 16:9 strip out of it, which upscales a 1080×607 slice to 1920×1080 and discards everything left and right of the phone-shaped frame. ContentCam avoids this two ways:
 
 1. **Single Lens mode**: records the camera sensor's native 4:3 frame (wider than portrait, taller than landscape) and crops both deliverables from it at capture time. The 9:16 file keeps the sensor's full vertical field of view; the 16:9 file keeps the full horizontal field of view. Neither file is a crop of the other; no upscaling occurs. Works on all supported phones including the front camera, and is the mode that supports 4K.
-2. **Dual Lens mode** (iPhone 11 and later, rear cameras only): records the wide and ultra-wide cameras simultaneously via Apple's multi-camera capture. Portrait comes from one lens, landscape from the other, giving two genuinely different framings of the same moment. Runs at 1080p (no phone hardware sustains 4K on two simultaneous cameras). iOS only.
+2. **Dual Lens mode** (iPhone 11 and later, rear cameras only): records the wide and ultra-wide cameras simultaneously via Apple's multi-camera capture. Portrait comes from one lens, landscape from the other, giving two genuinely different framings of the same moment. Records in 4K on supported iPhones from iOS 2.9, otherwise HD. iOS only.
 
 Both output files are HEVC: 1080×1920 and 1920×1080 by default, 4K equivalents with Premium, at 24/30/60 fps depending on hardware. Both carry the same 48kHz AAC audio. No watermarks on any tier.
 
 ## Features
 
-- **Front / Back mode** (iOS and Android; premium, with 5 free recordings to try): records the front and rear cameras at the same time, capturing your reaction and your POV (or subject) in a single take: reaction-style content without a second phone. Distinct from Dual Lens (two rear cameras for two framings of the same scene).
+- **Front / Back mode** (iOS and Android; premium, with 5 free recordings to try): records the front and rear cameras at the same time, capturing your reaction and your POV (or subject) in a single take, in 4K on supported iPhones from iOS 2.9 (HD on Android): reaction-style content without a second phone. Distinct from Dual Lens (two rear cameras for two framings of the same scene).
 - **Built-in Teleprompter** (iPhone and Android, added in version 2.0, premium): write or paste a script and it scrolls hands-free over the camera view while recording. Adjustable scroll speed, text size, 8 text colours, reading-line position (1/2/3 from top), and mirror mode for teleprompter reflector rigs. The script is a screen overlay only and never appears in the recorded files.
 - **Manual camera controls** (premium to record with; free to preview live): exposure bias (EV), white balance colour temperature dial from 2500K to 8000K, manual ISO, manual shutter speed. Settings apply to the capture, so both output files match exactly. Optional persistence across lens switches and sessions. Android additionally has a white balance tint dial.
 - **Standard controls** (free): tap to focus, drag to expose, pinch to zoom, 0.5×/1×/2× lens switching, torch, and grid, crosshair and level overlays.
 - **Timelapse** (premium): dual-format timelapse producing a portrait and a landscape version from one session. Single-lens, 30fps output, audio skipped, 4K on supported iPhones.
 - **HDR video** (free, iPhone only): single toggle.
+- **Apple Log** (premium, from iOS 2.9, iPhone 15 Pro and newer Pro models): flat log footage for colour grading.
+- **Telephoto lens** (iPhone): the telephoto lens option, out of beta since iOS 2.9.
 - **Stabilisation** (free): on by default.
 - **Reliability**: recordings continue through notifications, alarms, Siri and screen auto-lock, and keep rolling during phone calls. Interrupted recordings are recovered on next launch.
 - **Creator workflow** (free): Project / Scene / Take organisation, automatic file naming (e.g. my_project_scene_001_Portrait.mov and _Landscape.mov), side-by-side review after every take with save/share/delete, trim-on-save (premium to apply), iOS Files app access, optional Save to Photos.

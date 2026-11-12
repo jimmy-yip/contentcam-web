@@ -42,7 +42,7 @@
         "inLanguage": "es",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
-        "dateModified": "2026-11-05",
+        "dateModified": "2026-11-12",
         "author": {
           "@type": "Person",
           "name": "Jimmy",
@@ -109,7 +109,7 @@
             "name": "¿Las apps de terceros para iPhone pueden grabar en 4K con dos cámaras a la vez?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No a 60 fps, y no en la mayoría de los iPhone. Los formatos con varias cámaras llegan como máximo a 1920×1440 en todos los iPhone en los que ha funcionado ContentCam, salvo el iPhone 18 Pro, que indica 4K a 30 fps. Aún no está probado si dos flujos 4K caben a la vez en el presupuesto de hardware del teléfono, así que la Captura Dual es la única opción confirmada en 4K con dos cámaras en iOS."
+              "text": "No a 60 fps, y no en la mayoría de los iPhone. Sí, en los iPhone compatibles, hasta 30 fps. Desde iOS 2.9, Frontal y trasera y Doble lente de ContentCam graban en 4K en los iPhone compatibles, lo que la convierte en una de las muy pocas apps que lo hacen. El 4K con dos cámaras se queda en 30 fps: en los iPhone que hemos revisado, Apple no marca ningún formato 4K a 60 fps para uso con varias cámaras."
             }
           }
         ],
@@ -214,7 +214,7 @@
           </tbody>
         </table>
       </div>
-      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">30 fps está bien para videos hablando a cámara</a>, pero no deja nada para ralentizar. El sistema operativo limita el uso de dos cámaras a la vez: la documentación de Apple sobre <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> dice "Solo este subconjunto limitado de formatos de captura puede funcionar de forma sostenida en un escenario de captura con varias cámaras", y todos los iPhone en los que ha funcionado ContentCam llegan como máximo a <strong>1920×1440</strong> en esos formatos, salvo el iPhone 18 Pro, que también indica 4K a 30 fps (pero no 4K a 60 fps). Dentro de ese tope HD, Frontal y trasera de ContentCam graba a <strong>hasta 60 fps</strong> en los iPhone compatibles (los 60 fps son Premium, y algunos iPhone más antiguos se quedan en 30 fps).</p>
+      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">30 fps está bien para videos hablando a cámara</a>, pero no deja nada para ralentizar. El sistema operativo limita el uso de dos cámaras a la vez: la documentación de Apple sobre <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> dice "Solo este subconjunto limitado de formatos de captura puede funcionar de forma sostenida en un escenario de captura con varias cámaras", y en los iPhone que hemos revisado ninguno de esos formatos es 4K a 60 fps. Desde iOS 2.9, Frontal y trasera de ContentCam graba en <strong>4K</strong> en los iPhone compatibles, y en HD a <strong>hasta 60 fps</strong> en los iPhone compatibles (los 60 fps son Premium, y algunos iPhone más antiguos se quedan en 30 fps).</p>
 
       <h2>¿La Captura Dual guarda dos archivos de video separados?</h2>
       <p>No. Todo lo que Apple documenta apunta a una sola grabación combinada: una línea de especificación, un cuadro en la ilustración y la cámara frontal descrita como una ventana dentro de él. Apple no publica nada sobre el número de archivos; graba cinco segundos y cuenta los elementos en Fotos.</p>
@@ -238,12 +238,12 @@
             <tr><td>Resultado</td><td>Un solo archivo combinado</td><td>Dos archivos separados</td></tr>
             <tr><td>Composición</td><td>Fija al grabar</td><td>Se elige después (imagen en imagen o pantalla dividida)</td></tr>
             <tr><td>Cuadros por segundo</td><td>30 fps</td><td>Hasta 60 fps en los iPhone compatibles (Premium); 30 fps en Android</td></tr>
-            <tr><td>Resolución</td><td>Hasta 4K</td><td>HD</td></tr>
+            <tr><td>Resolución</td><td>Hasta 4K</td><td>Hasta 4K en los iPhone compatibles (desde iOS 2.9); HD en Android</td></tr>
           </tbody>
         </table>
       </div>
       <p>Con dos archivos puedes cortar a cualquiera de los dos ángulos o corregir el color de cada uno por separado. ContentCam no tiene anuncios ni marca de agua; las primeras 5 grabaciones de Frontal y trasera son gratis y luego Premium las hace ilimitadas. Guardar un video de Combinar también es Premium.</p>
-      <p>A quién le conviene la Captura Dual: a cualquiera con un iPhone compatible que quiera 4K de las dos cámaras y vaya a publicar el clip tal como lo grabó.</p>
+      <p>A quién le conviene la Captura Dual: a cualquiera con un iPhone compatible que quiera un clip de imagen en imagen ya listo y lo vaya a publicar tal como lo grabó.</p>
 
       <figure>
         <img src="/assets/blog/iphone-17-dual-capture-limitations/front-and-back-two-files.webp" alt="Un lago turquesa grabado con la cámara trasera y una selfie con la cámara frontal, como dos grabaciones separadas una al lado de la otra" width="1000" height="857" loading="lazy" decoding="async">
@@ -254,7 +254,7 @@
       <p><strong>¿A cuántos fps graba la Captura Dual del iPhone 17?</strong> Las páginas de especificaciones de Apple indican "Captura Dual hasta 4K Dolby Vision a 30 fps". La misma cámara trasera graba video normal a hasta 4K Dolby Vision a 60 fps, así que la Captura Dual reduce los cuadros por segundo a la mitad.</p>
       <p><strong>¿La Captura Dual funciona en el iPhone 16?</strong> No. Las páginas de especificaciones del iPhone 16, el iPhone 16e y el iPhone 17e no mencionan la Captura Dual, y la lista de Apple de modelos compatibles empieza en el iPhone 17. Frontal y trasera de ContentCam sí funciona en el iPhone 16.</p>
       <p><strong>¿Se puede mover la ventana de imagen en imagen en la Captura Dual?</strong> Los pasos que Apple publica para este modo no mencionan cómo moverla ni cambiar su tamaño. Donde quede la ventana cuando detienes la grabación es donde se queda en el archivo.</p>
-      <p><strong>¿Las apps de terceros para iPhone pueden grabar en 4K con dos cámaras a la vez?</strong> No a 60 fps, y no en la mayoría de los iPhone. Los formatos con varias cámaras llegan como máximo a 1920×1440 en todos los iPhone en los que ha funcionado ContentCam, salvo el iPhone 18 Pro, que indica 4K a 30 fps. Aún no está probado si dos flujos 4K caben a la vez en el presupuesto de hardware del teléfono, así que la Captura Dual es la única opción confirmada en 4K con dos cámaras en iOS.</p>
+      <p><strong>¿Las apps de terceros para iPhone pueden grabar en 4K con dos cámaras a la vez?</strong> No a 60 fps, y no en la mayoría de los iPhone. Sí, en los iPhone compatibles, hasta 30 fps. Desde iOS 2.9, Frontal y trasera y Doble lente de ContentCam graban en 4K en los iPhone compatibles, lo que la convierte en una de las muy pocas apps que lo hacen. El 4K con dos cámaras se queda en 30 fps: en los iPhone que hemos revisado, Apple no marca ningún formato 4K a 60 fps para uso con varias cámaras.</p>
       <div class="post-cta">
         <p><strong>Prueba ContentCam gratis.</strong> Frontal y trasera graba con las dos cámaras en dos archivos separados en cualquier iPhone con iOS 18 y en los teléfonos Android compatibles.</p>
         <p class="cta-proof">★ Valorada con 4,8 por 580+ creadores en <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> y <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>.</p>

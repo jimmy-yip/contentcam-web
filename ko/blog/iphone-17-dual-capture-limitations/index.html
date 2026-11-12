@@ -41,7 +41,7 @@
         "description": "Apple은 듀얼 캡처를 7개 iPhone 모델에서 최대 4K Dolby Vision 30fps로 안내해요. 프레임 레이트 상한, 합성된 화면, 그리고 녹화 후 결과물로 할 수 없는 것들.",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
-        "dateModified": "2026-11-05",
+        "dateModified": "2026-11-12",
         "inLanguage": "ko",
         "author": {
           "@type": "Person",
@@ -109,7 +109,7 @@
             "name": "서드파티 iPhone 앱으로 두 카메라를 동시에 4K로 녹화할 수 있나요?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "60fps로는 안 되고, 대부분의 iPhone에서도 안 돼요. ContentCam이 돌아간 모든 iPhone에서 멀티 카메라 포맷은 최대 1920×1440이었고, iPhone 18 Pro만 4K 30fps를 지원한다고 표시해요. 4K 스트림 두 개가 동시에 폰의 하드웨어 한도 안에 들어가는지는 아직 테스트되지 않았으니, iOS에서 확인된 4K 두 카메라 촬영 방법은 듀얼 캡처뿐이에요."
+              "text": "돼요. 지원되는 iPhone에서 최대 30fps로요. iOS 2.9부터 ContentCam의 전면·후면과 듀얼 렌즈는 지원되는 iPhone에서 4K로 녹화하고, 이걸 하는 앱은 아주 드물어요. 두 카메라 4K는 30fps가 한계예요. 저희가 확인한 iPhone에서는 Apple이 멀티 카메라용 4K 60fps 포맷을 하나도 표시하지 않아요."
             }
           }
         ],
@@ -214,7 +214,7 @@
           </tbody>
         </table>
       </div>
-      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">말하는 영상이라면 30fps로 충분하지만</a>, 슬로 모션으로 늘릴 여유는 없어요. 두 카메라 동시 사용은 운영체제가 제한해요. Apple의 <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> 문서는 "이 제한된 일부 캡처 포맷만 멀티 카메라 캡처 상황에서 지속적으로 실행될 수 있다"고 설명하고, ContentCam이 돌아간 모든 iPhone에서 이 포맷들의 최대치는 <strong>1920×1440</strong>이었어요. 단, iPhone 18 Pro는 4K 30fps도 지원한다고 표시해요(4K 60fps는 없어요). 이 HD 상한 안에서 ContentCam의 전면·후면 모드는 지원하는 iPhone에서 <strong>최대 60fps</strong>로 녹화해요(60fps는 프리미엄이고, 일부 구형 iPhone은 30fps까지예요).</p>
+      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">말하는 영상이라면 30fps로 충분하지만</a>, 슬로 모션으로 늘릴 여유는 없어요. 두 카메라 동시 사용은 운영체제가 제한해요. Apple의 <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> 문서는 "이 제한된 일부 캡처 포맷만 멀티 카메라 캡처 상황에서 지속적으로 실행될 수 있다"고 설명하고, 저희가 확인한 iPhone에서는 이 포맷 가운데 4K 60fps는 하나도 없었어요. iOS 2.9부터 ContentCam의 전면·후면 모드는 지원되는 iPhone에서 <strong>4K</strong>로, HD로는 지원하는 iPhone에서 <strong>최대 60fps</strong>로 녹화해요(60fps는 프리미엄이고, 일부 구형 iPhone은 30fps까지예요).</p>
 
       <h2>듀얼 캡처, 영상 파일이 두 개로 따로 저장되나요?</h2>
       <p>아니요. Apple 문서는 모두 합성된 녹화본 하나를 가리켜요. 사양 한 줄, 그림 속 화면 하나, 그 안의 윈도우로 설명되는 전면 카메라. Apple은 파일 개수를 따로 밝히지 않으니, 5초만 찍어 보고 사진 앱에서 항목 수를 세어 보세요.</p>
@@ -238,12 +238,12 @@
             <tr><td>결과물</td><td>합성된 파일 하나</td><td>따로 된 파일 두 개</td></tr>
             <tr><td>레이아웃</td><td>촬영할 때 고정</td><td>나중에 선택(PIP 또는 분할 화면)</td></tr>
             <tr><td>프레임 레이트</td><td>30fps</td><td>지원하는 iPhone에서 최대 60fps(프리미엄), 안드로이드는 30fps</td></tr>
-            <tr><td>해상도</td><td>최대 4K</td><td>HD</td></tr>
+            <tr><td>해상도</td><td>최대 4K</td><td>지원되는 iPhone에서 최대 4K(iOS 2.9부터), Android는 HD</td></tr>
           </tbody>
         </table>
       </div>
       <p>파일이 두 개라서 어느 앵글로든 자를 수 있고 각각 따로 색 보정할 수 있어요. ContentCam은 광고도 워터마크도 없고, 전면·후면 녹화는 처음 5회가 무료이며 프리미엄에서는 무제한이에요. 합치기 영상 저장도 프리미엄이에요.</p>
-      <p>듀얼 캡처가 맞는 사람: 지원 iPhone을 쓰면서 두 카메라 모두 4K로 찍고, 녹화한 그대로 올릴 사람.</p>
+      <p>듀얼 캡처가 맞는 사람: 지원 iPhone을 쓰면서 완성된 PIP 영상 하나를 찍어, 녹화한 그대로 올릴 사람.</p>
 
       <figure>
         <img src="/assets/blog/iphone-17-dual-capture-limitations/front-and-back-two-files.webp" alt="후면 카메라로 찍은 청록색 호수와 전면 카메라로 찍은 셀카가 따로 된 녹화본 두 개로 나란히 보이는 화면" width="1000" height="857" loading="lazy" decoding="async">
@@ -254,7 +254,7 @@
       <p><strong>아이폰 17 듀얼 캡처는 몇 fps로 녹화되나요?</strong> Apple 사양 페이지에는 "최대 4K Dolby Vision 30fps 듀얼 캡처"로 나와 있어요. 같은 후면 카메라가 일반 비디오는 최대 4K Dolby Vision 60fps로 녹화하니, 듀얼 캡처는 프레임 레이트가 절반이에요.</p>
       <p><strong>iPhone 16에서도 듀얼 캡처가 되나요?</strong> 아니요. iPhone 16, iPhone 16e, iPhone 17e 사양 페이지에는 듀얼 캡처가 없고, Apple의 지원 모델 목록은 iPhone 17부터 시작해요. ContentCam의 전면·후면 모드는 iPhone 16에서 돼요.</p>
       <p><strong>듀얼 캡처에서 PIP 창을 옮길 수 있나요?</strong> Apple이 공개한 이 모드의 사용 단계에는 창의 위치나 크기를 바꾸는 방법이 없어요. 녹화를 멈출 때 창이 있던 자리가 파일에도 그대로 남아요.</p>
-      <p><strong>서드파티 iPhone 앱으로 두 카메라를 동시에 4K로 녹화할 수 있나요?</strong> 60fps로는 안 되고, 대부분의 iPhone에서도 안 돼요. ContentCam이 돌아간 모든 iPhone에서 멀티 카메라 포맷은 최대 1920×1440이었고, iPhone 18 Pro만 4K 30fps를 지원한다고 표시해요. 4K 스트림 두 개가 동시에 폰의 하드웨어 한도 안에 들어가는지는 아직 테스트되지 않았으니, iOS에서 확인된 4K 두 카메라 촬영 방법은 듀얼 캡처뿐이에요.</p>
+      <p><strong>서드파티 iPhone 앱으로 두 카메라를 동시에 4K로 녹화할 수 있나요?</strong> 돼요. 지원되는 iPhone에서 최대 30fps로요. iOS 2.9부터 ContentCam의 전면·후면과 듀얼 렌즈는 지원되는 iPhone에서 4K로 녹화하고, 이걸 하는 앱은 아주 드물어요. 두 카메라 4K는 30fps가 한계예요. 저희가 확인한 iPhone에서는 Apple이 멀티 카메라용 4K 60fps 포맷을 하나도 표시하지 않아요.</p>
 
       <div class="post-cta">
         <p><strong>ContentCam을 무료로 써 보세요.</strong> 전면·후면 모드는 iOS 18이 설치된 모든 iPhone과 지원하는 안드로이드 폰에서 두 카메라를 파일 두 개로 따로 녹화해요.</p>

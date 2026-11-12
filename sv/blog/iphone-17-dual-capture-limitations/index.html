@@ -41,7 +41,7 @@
         "description": "Apple anger Dual Capture som upp till 4K Dolby Vision i 30 fps på sju iPhone-modeller. Taket för bildfrekvensen, den sammansatta bilden och vad du inte kan göra med resultatet efteråt.",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
-        "dateModified": "2026-11-05",
+        "dateModified": "2026-11-12",
         "author": {
           "@type": "Person",
           "name": "Jimmy",
@@ -108,7 +108,7 @@
             "name": "Kan appar från tredje part på iPhone spela in 4K med två kameror samtidigt?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Inte i 60 fps, och inte på de flesta iPhone-modeller. Multikameraformaten på varje iPhone som ContentCam har körts på toppar på 1920×1440, utom iPhone 18 Pro, som anger 4K i 30 fps. Om två 4K-strömmar ryms i telefonens hårdvarubudget samtidigt är inte testat, så Dual Capture är det enda bekräftade alternativet med 4K och två kameror på iOS."
+              "text": "Ja, på iPhone-modeller som stöds, i upp till 30 fps. Från iOS 2.9 spelar ContentCams Fram och bak och Två objektiv in i 4K på iPhone-modeller som stöds, och det gör ContentCam till en av mycket få appar som klarar det. 4K med två kameror stannar vid 30 fps: på de iPhone-modeller vi har kontrollerat markerar Apple inget 4K-format i 60 fps för inspelning med flera kameror."
             }
           }
         ],
@@ -214,7 +214,7 @@
           </tbody>
         </table>
       </div>
-      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">30 fps duger för pratande huvuden</a>, men det finns inget att sakta ner. Två kameror samtidigt ransoneras av operativsystemet: Apples dokumentation för <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> säger "Only this limited subset of capture formats can run sustainably in a multi-camera capture scenario", och varje iPhone som ContentCam har körts på toppar på <strong>1920×1440</strong> för de formaten, utom iPhone 18 Pro, som även anger 4K i 30 fps (men inte 4K i 60 fps). Inom det HD-taket spelar Fram och bak i ContentCam in i <strong>upp till 60 fps</strong> på iPhone-modeller som stöder det (60 fps är Premium, och vissa äldre iPhone-modeller har tak på 30 fps).</p>
+      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">30 fps duger för pratande huvuden</a>, men det finns inget att sakta ner. Två kameror samtidigt ransoneras av operativsystemet: Apples dokumentation för <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> säger "Only this limited subset of capture formats can run sustainably in a multi-camera capture scenario", och på de iPhone-modeller vi har kontrollerat är inget av de formaten 4K i 60 fps. Från iOS 2.9 spelar Fram och bak i ContentCam in i <strong>4K</strong> på iPhone-modeller som stöds, och i HD i <strong>upp till 60 fps</strong> på iPhone-modeller som stöder det (60 fps är Premium, och vissa äldre iPhone-modeller har tak på 30 fps).</p>
 
       <h2>Ger Dual Capture dig två separata videofiler?</h2>
       <p>Nej. Allt som Apple dokumenterar pekar på en sammansatt inspelning: en rad i specifikationerna, en bildruta i illustrationen, framkameran beskriven som ett fönster i den. Apple publicerar ingen uppgift om antalet filer; spela in fem sekunder och räkna objekten i Bilder.</p>
@@ -238,12 +238,12 @@
             <tr><td>Resultat</td><td>En sammansatt fil</td><td>Två separata filer</td></tr>
             <tr><td>Layout</td><td>Låst vid inspelningen</td><td>Väljs efteråt (bild-i-bild eller delad skärm)</td></tr>
             <tr><td>Bildfrekvens</td><td>30 fps</td><td>Upp till 60 fps på iPhone-modeller som stöder det (Premium); 30 fps på Android</td></tr>
-            <tr><td>Upplösning</td><td>Upp till 4K</td><td>HD</td></tr>
+            <tr><td>Upplösning</td><td>Upp till 4K</td><td>Upp till 4K på iPhone-modeller som stöds (från iOS 2.9); HD på Android</td></tr>
           </tbody>
         </table>
       </div>
       <p>Två filer betyder att du kan klippa till någon av vinklarna eller färgkorrigera var och en för sig. ContentCam har ingen reklam och ingen vattenstämpel, de första 5 inspelningarna med Fram och bak är gratis, sedan gör Premium dem obegränsade; att spara en video med Slå ihop är också Premium.</p>
-      <p>Vem Dual Capture passar: alla med en iPhone som stöder det som vill ha 4K från båda kamerorna och publicerar klippet precis som det spelades in.</p>
+      <p>Vem Dual Capture passar: alla med en iPhone som stöder det som vill ha ett färdigt bild-i-bild-klipp och publicerar det precis som det spelades in.</p>
 
       <figure>
         <img src="/assets/blog/iphone-17-dual-capture-limitations/front-and-back-two-files.webp" alt="En turkos sjö från bakkameran och en selfie från framkameran, visade som två separata inspelningar sida vid sida" width="1000" height="857" loading="lazy" decoding="async">
@@ -254,7 +254,7 @@
       <p><strong>Vilken bildfrekvens spelar iPhone 17 Dual Capture in i?</strong> Apples specifikationssidor anger "Dual Capture up to 4K Dolby Vision at 30 fps". Samma bakkamera spelar in vanlig video i upp till 4K Dolby Vision i 60 fps, så Dual Capture halverar bildfrekvensen.</p>
       <p><strong>Fungerar Dual Capture på iPhone 16?</strong> Nej. Specifikationssidorna för iPhone 16, iPhone 16e och iPhone 17e nämner inte Dual Capture, och Apples lista över modeller som stöds börjar vid iPhone 17. Fram och bak i ContentCam fungerar på iPhone 16.</p>
       <p><strong>Kan du flytta bild-i-bild-fönstret i Dual Capture?</strong> Apples publicerade steg för läget nämner inte att flytta eller ändra storlek på det. Där fönstret sitter när du slutar spela in är där det blir kvar i filen.</p>
-      <p><strong>Kan appar från tredje part på iPhone spela in 4K med två kameror samtidigt?</strong> Inte i 60 fps, och inte på de flesta iPhone-modeller. Multikameraformaten på varje iPhone som ContentCam har körts på toppar på 1920×1440, utom iPhone 18 Pro, som anger 4K i 30 fps. Om två 4K-strömmar ryms i telefonens hårdvarubudget samtidigt är inte testat, så Dual Capture är det enda bekräftade alternativet med 4K och två kameror på iOS.</p>
+      <p><strong>Kan appar från tredje part på iPhone spela in 4K med två kameror samtidigt?</strong> Ja, på iPhone-modeller som stöds, i upp till 30 fps. Från iOS 2.9 spelar ContentCams Fram och bak och Två objektiv in i 4K på iPhone-modeller som stöds, och det gör ContentCam till en av mycket få appar som klarar det. 4K med två kameror stannar vid 30 fps: på de iPhone-modeller vi har kontrollerat markerar Apple inget 4K-format i 60 fps för inspelning med flera kameror.</p>
 
       <div class="post-cta">
         <p><strong>Prova ContentCam gratis.</strong> Fram och bak spelar in båda kamerorna som två separata filer på alla iPhone-modeller med iOS 18 och på Android-telefoner som stöds.</p>

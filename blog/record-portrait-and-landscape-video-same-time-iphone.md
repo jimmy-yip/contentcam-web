@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/record-portrait-and-landscape-video-same-tim
 
 One take, two files: a 9:16 vertical and a 16:9 landscape of the same moment. Three ways to do it on iPhone, what cropping in post costs you, and a real example.
 
-By Jimmy, developer of ContentCam · 25 July 2026 · Updated 5 November 2026
+By Jimmy, developer of ContentCam · 25 July 2026 · Updated 12 November 2026
 
 To record portrait and landscape video at the same time on iPhone, use a camera app that saves a 9:16 vertical file and a 16:9 horizontal file from the same take, because the iPhone Camera app records one shape per take. ContentCam, which I build, does this free at 1080p and up to 30fps on iPhone and Android, taking both files from the full 4:3 sensor so neither is a crop of the other; Premium adds 4K and 60fps. Without an app like that, you either film the piece twice or shoot horizontal in 4K and crop the vertical out afterwards, which keeps about 32% of the frame.
 
@@ -37,7 +37,7 @@ An iPhone 11 or later with an ultra-wide camera (so not iPhone SE or iPhone 16e)
 
 The difference from option 2 is framing. With two lenses, your portrait can be a tight shot while your landscape is a genuinely wide establishing shot: two different shots from one take. Dual Lens mode: the live view while recording (left), then the review screen (right). The portrait stays tight on the walk while the landscape takes in the whole tunnel.
 
-The limits: it runs at 1080p (third-party apps can only run two cameras at once in Apple's multi-camera formats, which top out at 1920×1440 on every iPhone ContentCam has run on except the iPhone 18 Pro), and running two cameras uses more battery. Apple's own Camera app has [iPhone Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) at up to 4K30, but it pairs the front and rear cameras, not two rear framings, and saves one picture-in-picture video. It gives you no 9:16 and 16:9 pair at all.
+The limits: it records in HD, or in 4K on supported iPhones from iOS 2.9, and running two cameras uses more battery. Apple's own Camera app has [iPhone Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) at up to 4K30, but it pairs the front and rear cameras, not two rear framings, and saves one picture-in-picture video. It gives you no 9:16 and 16:9 pair at all.
 
 ## How do you record landscape video on an iPhone?
 

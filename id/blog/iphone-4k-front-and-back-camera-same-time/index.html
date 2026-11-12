@@ -42,7 +42,7 @@
       "inLanguage": "id",
       "image": "https://contentcam.app/assets/og/og-blog.jpg",
       "datePublished": "2026-11-11",
-      "dateModified": "2026-11-11",
+      "dateModified": "2026-11-12",
       "author": {
         "@type": "Person",
         "name": "Jimmy",
@@ -148,8 +148,8 @@
       <h1>Apakah iPhone Bisa Merekam 4K dari Kamera Depan dan Belakang Sekaligus? (2026)</h1>
       <p class="byline">Oleh Jimmy, developer ContentCam · 11 November 2026 · Diperbarui 11 November 2026</p>
 
-      <p><strong>Jawaban singkat:</strong> aplikasi Kamera bawaan Apple bisa, di model yang lebih baru. Apple mencantumkan "Dual Capture hingga 4K Dolby Vision di 30 fps" untuk iPhone 17, iPhone Air, iPhone 18 Pro, dan iPhone Duo, yang disimpan sebagai satu video gabungan. Aplikasi pihak ketiga lain ceritanya. Mereka merekam dua kamera lewat <code>AVCaptureMultiCamSession</code> dari Apple, yang hanya menerima format kamera yang ditandai Apple mendukung multi-kamera. Kami membaca daftar itu di iPhone 18 Pro dengan iOS 27.0.1: 3840 x 2160 di 30 fps punya tanda tersebut, tapi tidak ada format 4K yang punya tanda itu di 60 fps. Jadi 4K di 60 fps dari dua kamera sekaligus tidak tersedia untuk aplikasi pihak ketiga mana pun di HP itu, dan 4K di 30 fps hanya bisa jalan kalau HP-nya sanggup menjalankan dua stream 4K bersamaan.</p>
-      <p>Pengungkapan: saya membuat ContentCam, aplikasi kamera iPhone dan Android dengan mode Depan dan Belakang (Front &amp; Back). Mode Depan dan Belakang di ContentCam merekam HD, bukan 4K, persis karena alasan ini. Kutipan dari aplikasi lain di bawah ini disalin dari halaman store masing-masing aplikasi yang aktif pada 11 November 2026, dan detail Apple berasal dari dokumentasi developer dan halaman spesifikasi Apple, dicek di hari yang sama.</p>
+      <p><strong>Jawaban singkat:</strong> aplikasi Kamera bawaan Apple bisa, di model yang lebih baru. Apple mencantumkan "Dual Capture hingga 4K Dolby Vision di 30 fps" untuk iPhone 17, iPhone Air, iPhone 18 Pro, dan iPhone Duo, yang disimpan sebagai satu video gabungan. Aplikasi pihak ketiga lain ceritanya. Mereka merekam dua kamera lewat <code>AVCaptureMultiCamSession</code> dari Apple, yang hanya menerima format kamera yang ditandai Apple mendukung multi-kamera. Kami membaca daftar itu di iPhone 18 Pro dengan iOS 27.0.1: 3840 x 2160 di 30 fps punya tanda tersebut, tapi tidak ada format 4K yang punya tanda itu di 60 fps. Jadi 4K di 60 fps dari dua kamera sekaligus tidak tersedia untuk aplikasi pihak ketiga mana pun di HP itu, dan 4K di 30 fps hanya bisa jalan kalau HP-nya sanggup menjalankan dua stream 4K bersamaan. Sejak iOS 2.9, Depan dan Belakang di ContentCam bisa melakukannya di iPhone yang didukung, sebagai dua file terpisah.</p>
+      <p>Pengungkapan: saya membuat ContentCam, aplikasi kamera iPhone dan Android dengan mode Depan dan Belakang (Front &amp; Back). Sejak iOS 2.9, mode Depan dan Belakang dan Lensa Ganda di ContentCam merekam 4K di iPhone yang didukung, jadi ContentCam termasuk sedikit sekali aplikasi yang bisa 4K saat dua kamera berjalan bersamaan. Kutipan dari aplikasi lain di bawah ini disalin dari halaman store masing-masing aplikasi yang aktif pada 11 November 2026, dan detail Apple berasal dari dokumentasi developer dan halaman spesifikasi Apple, dicek di hari yang sama.</p>
 
       <h2>Aplikasi kamera ganda mana yang mengaku merekam 4K?</h2>
       <p>Lima aplikasi kamera depan dan belakang menyebut 4K atau UHD di halaman store atau panduannya. Hanya halaman Lookout yang mengaitkan UHD dengan kedua feed, dan tidak satu pun yang memberi ukuran piksel untuk rekaman dengan kedua kamera aktif.</p>
@@ -178,7 +178,7 @@
         <li><strong>4K di 60 fps:</strong> tidak ada format 3840 x 2160 di 60 atau 120 fps yang punya tanda tersebut, di kamera mana pun. Dua kamera di 4K 60 tidak mungkin di HP ini.</li>
         <li><strong>4:3:</strong> format 4:3 terbesar yang ditandai adalah 1920 x 1440, di 30 dan 60 fps, di setiap kamera. Aplikasi yang merekam dari bentuk sensor 4:3 supaya bisa memotong lebih dari satu frame darinya dibatasi di ukuran itu.</li>
       </ul>
-      <p>Masuk daftar tidak sama dengan bisa jalan. Setiap stream 4K tetap dihitung dalam anggaran hardwareCost, dan sesi akan menolak kombinasi yang melewati 1.0. Kami belum merekam take dua kamera 4K 30 di 18 Pro untuk melihat apakah dua stream 4K muat. Dual Capture milik Apple sendiri yang berhenti di 4K 30 fps, bukan 60, cocok dengan batas yang sama.</p>
+      <p>Masuk daftar tidak sama dengan bisa jalan. Setiap stream 4K tetap dihitung dalam anggaran hardwareCost, dan sesi akan menolak kombinasi yang melewati 1.0. Sejak itu kami sudah merekam take dua kamera 4K 30, dan hasilnya masuk ke ContentCam 2.9. Kalau dua stream 4K tidak muat, aplikasinya merekam kamera belakang dalam 4K dan kamera depan dalam HD, dan merekam HD di HP yang tidak sanggup keduanya. Dual Capture milik Apple sendiri yang berhenti di 4K 30 fps, bukan 60, cocok dengan batas yang sama.</p>
       <p>Dual Capture dari Apple adalah pengecualian. Ini adalah mode di aplikasi Kamera bawaan Apple di iPhone 17, iPhone 17 Pro, iPhone Air, iPhone 18 Pro, dan iPhone Duo (bukan iPhone 17e), dan Apple mencantumkannya hingga 4K di 30 fps, sebagai satu video gambar dalam gambar. Batasannya ada di <a href="/id/blog/iphone-17-dual-capture-limitations/">batasan Dual Capture iPhone 17</a>.</p>
 
       <h2>Bagaimana aplikasi kamera ganda bisa mencantumkan "hingga 4K"?</h2>
@@ -204,7 +204,7 @@
       <p>Frame rate justru yang terasa bedanya. Dual Capture dari Apple maksimal 30 fps, sementara iPhone yang sama merekam video biasa di 4K 60 fps. Kalau kamu berencana memperlambat footage, 60 fps lebih penting daripada piksel tambahan.</p>
 
       <h2>Di resolusi berapa ContentCam merekam depan dan belakang?</h2>
-      <p>HD. Mode Depan dan Belakang (Front &amp; Back) di ContentCam merekam kamera depan dan belakang sebagai dua file HD terpisah, hingga 60 fps di iPhone yang mendukungnya (60 fps adalah fitur Premium; beberapa iPhone lama maksimal 30) dan hingga 30 fps di HP Android yang bisa menjalankan kedua kamera. Depan dan Belakang bisa dipakai di semua iPhone dengan iOS 18, mulai dari iPhone XS dan XR. Layout-nya diatur belakangan: editor Gabungkan (Combine) mengubah dua file itu jadi gambar dalam gambar atau layar terbagi tanpa menghapus file aslinya. 4K di ContentCam ada di mode Lensa Tunggal (Single Lens), yang merekam video vertikal 9:16 dan video horizontal 16:9 dari satu take.</p>
+      <p>4K di iPhone yang didukung, sejak iOS 2.9. Mode Depan dan Belakang (Front &amp; Back) di ContentCam merekam kamera depan dan belakang sebagai dua file terpisah. Kalau HP-nya tidak sanggup menjalankan kedua kamera dalam 4K, kamera belakang direkam dalam 4K dan kamera depan dalam HD, dan HP yang tidak sanggup keduanya merekam HD. 4K dua kamera berjalan hingga 30 fps. Dalam HD, Depan dan Belakang merekam hingga 60 fps di iPhone yang mendukungnya (60 fps adalah fitur Premium; beberapa iPhone lama maksimal 30) dan hingga 30 fps di HP Android yang bisa menjalankan kedua kamera. Depan dan Belakang jalan di semua iPhone dengan iOS 18, mulai iPhone XS dan XR. Layout-nya diatur belakangan: editor Gabungkan mengubah dua file itu jadi gambar dalam gambar atau layar terbagi, menyimpan dalam 4K kalau file belakangnya 4K, dan tetap menyimpan file aslinya. Lensa Ganda, yang merekam dua kamera belakang sekaligus, juga merekam 4K di iPhone yang didukung sejak 2.9.</p>
 
       <h2>FAQ</h2>
       <h3>Apakah iPhone 15 atau iPhone 16 bisa merekam 4K dengan kedua kamera sekaligus?</h3>
@@ -215,7 +215,7 @@
       <p>Hanya kalau 4K-nya memang berasal dari kamera. File 3840 x 2160 yang dibuat dari feed HD punya detail yang sama dengan file HD, tapi ukurannya empat kali lipat. Cek ukuran piksel file aslinya dan lakukan tes detail di atas.</p>
 
       <div class="post-cta">
-        <p><strong>Coba ContentCam gratis.</strong> Depan dan Belakang (Front &amp; Back) merekam kamera selfie dan kamera belakang sebagai dua file HD terpisah di semua iPhone dengan iOS 18 dan di HP Android yang mampu, dan layout-nya bebas kamu pilih belakangan. Tanpa iklan, tanpa watermark.</p>
+        <p><strong>Coba ContentCam gratis.</strong> Depan dan Belakang (Front &amp; Back) merekam kamera selfie dan kamera belakang sebagai dua file terpisah, dalam 4K di iPhone yang didukung, di semua iPhone dengan iOS 18 dan di HP Android yang mampu, dan layout-nya bebas kamu pilih belakangan. Tanpa iklan, tanpa watermark.</p>
         <p class="cta-proof">★ Dinilai 4,8 oleh 580+ kreator di <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> dan <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>.</p>
         <div class="badges badges-left">
           <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&amp;ct=id-b-iphone-4k-front-and-back-camera&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download di App Store" width="156" height="52"></a>

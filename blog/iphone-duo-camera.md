@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/iphone-duo-camera/
 
 48MP Main and 48MP Ultra Wide on the back, a 12MP Center Stage camera on the outer screen, rear-camera selfies previewed on the outer display, and Dual Capture as one picture-in-picture file. What that means for filming content.
 
-By Jimmy, developer of ContentCam · 18 October 2026 · Updated 9 November 2026
+By Jimmy, developer of ContentCam · 18 October 2026 · Updated 12 November 2026
 
 The iPhone Duo is Apple's first foldable iPhone, on sale from 23 October 2026 at $1,999 in the US (A$3,499 in Australia). For video, the cameras that matter are a 48MP Fusion Main and a 48MP Fusion Ultra Wide on the back and a 12MP Center Stage camera on the outer screen. The useful part for creators is that you can shoot selfies with the rear cameras and check the framing on the outer screen. The limit is the same as on every other iPhone: Dual Capture saves front and rear as one picture-in-picture file, and the inset cannot be moved after recording. To get the front and rear cameras as two separate files, use a third-party app: ContentCam's Front & Back mode saves them as two files on iPhones that can run both cameras at once.
 
@@ -55,7 +55,7 @@ Apple also added Duo FaceTime, which lets a second person join a call from the o
 
 Where you need the two cameras as two files. ContentCam runs on iPhone, and its Front & Back mode records the front and rear cameras at the same time as two separate full videos, one per camera, rather than one picture-in-picture file. You can cut between them, use either one alone, or place them side by side in your editor. Its main mode records a 9:16 and a 16:9 file from the same take.
 
-The trade is resolution. On iPhone, third-party apps can only run two cameras at once in the formats Apple marks as multi-cam supported, which top out at 1920 × 1440 on every iPhone ContentCam has run on except the iPhone 18 Pro (it also flags 4K at 30 fps), so Front & Back records in HD. I haven't tested ContentCam on an iPhone Duo, so I can't tell you whether that ceiling is different on it. If the clip you record is the clip you post, Dual Capture at 4K is the better tool and it is already on the phone. ContentCam's recording screen on iPhone. [Try it free](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-duo-camera&mt=8).
+The trade used to be resolution. From iOS 2.9, ContentCam's Front & Back records in 4K on supported iPhones, and in HD on the rest. I haven't tested ContentCam on an iPhone Duo, so I can't tell you which of the two it gets. If the clip you record is the clip you post, Dual Capture at 4K is the better tool and it is already on the phone. ContentCam's recording screen on iPhone. [Try it free](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-duo-camera&mt=8).
 
 ## FAQ
 

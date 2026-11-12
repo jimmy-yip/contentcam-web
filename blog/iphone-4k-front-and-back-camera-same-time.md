@@ -4,11 +4,11 @@ Source: https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/
 
 Apple's Dual Capture records front and back at up to 4K 30 fps on iPhone 17, Air, 18 Pro and Duo. Third-party apps are held to Apple's multi-camera formats. What rival listings claim about 4K, what Apple allows, and how to check a file.
 
-By Jimmy, developer of ContentCam · 11 November 2026 · Updated 11 November 2026
+By Jimmy, developer of ContentCam · 11 November 2026 · Updated 12 November 2026
 
-**Short answer:** Apple's own Camera app can, on newer models. Apple lists "Dual Capture up to 4K Dolby Vision at 30 fps" for iPhone 17, iPhone Air, iPhone 18 Pro and iPhone Duo, saved as one combined video. Third-party apps are a different case. They record two cameras through Apple's AVCaptureMultiCamSession, which only accepts camera formats Apple marks as multi-camera capable. We read that list on an iPhone 18 Pro running iOS 27.0.1: 3840 x 2160 at 30 fps carries the flag, but no 4K format does at 60 fps. So 4K at 60 fps from two cameras at once isn't open to any third-party app on that phone, and 4K at 30 fps only works if the phone can run both 4K streams together.
+**Short answer:** Apple's own Camera app can, on newer models. Apple lists "Dual Capture up to 4K Dolby Vision at 30 fps" for iPhone 17, iPhone Air, iPhone 18 Pro and iPhone Duo, saved as one combined video. Third-party apps are a different case. They record two cameras through Apple's AVCaptureMultiCamSession, which only accepts camera formats Apple marks as multi-camera capable. We read that list on an iPhone 18 Pro running iOS 27.0.1: 3840 x 2160 at 30 fps carries the flag, but no 4K format does at 60 fps. So 4K at 60 fps from two cameras at once isn't open to any third-party app on that phone, and 4K at 30 fps only works if the phone can run both 4K streams together. From iOS 2.9, ContentCam's Front & Back does that on supported iPhones, as two separate files.
 
-Disclosure: I build ContentCam, an iPhone and Android camera app with a Front & Back mode. ContentCam's Front & Back records HD, not 4K, for exactly this reason. The rival quotes below are copied from each app's live store listing on 11 November 2026, and the Apple details come from Apple's developer documentation and specs pages, checked the same day.
+Disclosure: I build ContentCam, an iPhone and Android camera app with a Front & Back mode. From iOS 2.9, ContentCam's Front & Back and Dual Lens record in 4K on supported iPhones, which makes it one of very few apps with 4K while two cameras run at once. The rival quotes below are copied from each app's live store listing on 11 November 2026, and the Apple details come from Apple's developer documentation and specs pages, checked the same day.
 
 ## Which dual camera apps say they record 4K?
 
@@ -39,7 +39,7 @@ What that looks like on a real phone: ContentCam has a test build that prints ev
 - **4K at 60 fps:** no 3840 x 2160 format at 60 or 120 fps carries the flag, on any camera. Two cameras at 4K 60 is off the table on this phone.
 - **4:3:** the largest flagged 4:3 format is 1920 x 1440, at 30 and 60 fps, on every camera. Apps that record from the 4:3 sensor shape so they can cut more than one frame from it are held to that size.
 
-Being on the list isn't the same as running. Each 4K stream still counts against the hardwareCost budget, and the session refuses a set that goes over 1.0. We haven't yet recorded a two-camera 4K 30 take on the 18 Pro to see whether two 4K streams fit. Apple's own Dual Capture stopping at 4K 30 fps, not 60, matches the same ceiling.
+Being on the list isn't the same as running. Each 4K stream still counts against the hardwareCost budget, and the session refuses a set that goes over 1.0. We have since recorded two-camera 4K 30 takes, and that work shipped in ContentCam 2.9. Where both 4K streams don't fit, the app records the rear camera in 4K and the front in HD, and it drops to HD on phones that can't run either. Apple's own Dual Capture stopping at 4K 30 fps, not 60, matches the same ceiling.
 
 Apple's Dual Capture is the exception. It is a mode in Apple's own Camera app on iPhone 17, iPhone 17 Pro, iPhone Air, iPhone 18 Pro and iPhone Duo (not iPhone 17e), and Apple publishes it at up to 4K at 30 fps, as one picture-in-picture video. Its limits are in [iPhone 17 Dual Capture limitations](https://contentcam.app/blog/iphone-17-dual-capture-limitations/).
 
@@ -70,7 +70,7 @@ Frame rate is the trade people notice. Apple's Dual Capture tops out at 30 fps, 
 
 ## What resolution does ContentCam record front and back in?
 
-HD. ContentCam's Front & Back mode records the front and rear cameras as two separate HD files, at up to 60 fps on iPhones that support it (60 fps is Premium; some older iPhones cap at 30) and up to 30 fps on Android phones that can run both cameras. Front & Back works on every iPhone running iOS 18, from iPhone XS and XR on. The layout comes afterwards: the Combine editor turns the two files into picture-in-picture or split screen and keeps the originals. ContentCam's 4K is in its single-lens mode, which records a 9:16 vertical and a 16:9 horizontal video from one take.
+4K on supported iPhones, from iOS 2.9. ContentCam's Front & Back mode records the front and rear cameras as two separate files. If the phone can't run both cameras in 4K, it records the rear camera in 4K and the front in HD, and phones that can't do either record HD. Two-camera 4K runs at up to 30 fps. In HD, Front & Back records at up to 60 fps on iPhones that support it (60 fps is Premium; some older iPhones cap at 30) and up to 30 fps on Android phones that can run both cameras. Front & Back works on every iPhone running iOS 18, from iPhone XS and XR on. The layout comes afterwards: the Combine editor turns the two files into picture-in-picture or split screen, saves in 4K when the rear file is 4K, and keeps the originals. Dual Lens, which records two rear cameras at once, also records in 4K on supported iPhones from 2.9.
 
 ## FAQ
 
@@ -86,7 +86,7 @@ Apple's User Guide says Dual Capture records you and the action in front of you 
 
 Only if the 4K came from the cameras. A 3840 x 2160 file built from HD feeds has the same detail as the HD file at four times the size. Check the originals' pixel size and do the detail test above.
 
-**Try ContentCam free.** Front & Back records the selfie and rear cameras as two separate HD files on every iPhone with iOS 18 and on capable Android phones, and the layout is your choice afterwards. No ads, no watermark.
+**Try ContentCam free.** Front & Back records the selfie and rear cameras as two separate files, in 4K on supported iPhones, on every iPhone with iOS 18 and on capable Android phones, and the layout is your choice afterwards. No ads, no watermark.
 
 ★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-4k-front-and-back-camera&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-4k-front-and-back-camera-same-time)
 

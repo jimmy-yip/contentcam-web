@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/doubletake-vs-contentcam/
 
 DoubleTake (Filmic) vs ContentCam in 2026: iOS 26 problems in DoubleTake reviews, the 1080p cap, no update since March 2025, subscriptions only, and what ContentCam records instead.
 
-By Jimmy, developer of ContentCam · 7 September 2026 · Updated 5 November 2026
+By Jimmy, developer of ContentCam · 7 September 2026 · Updated 12 November 2026
 
 If DoubleTake has stopped opening or saving its two files on iOS 26, the closest replacement is ContentCam: its Front & Back mode records your reaction and the scene at the same time as two separate files, which the Combine editor can turn into one picture-in-picture or split-screen video afterwards, on iPhone and Android. ContentCam also records a 9:16 vertical and a 16:9 horizontal file from one take, which DoubleTake can't do. DoubleTake's last update, version 3.1.2, shipped on 10 March 2025.
 
@@ -37,7 +37,7 @@ On top of that, ContentCam has a teleprompter, manual white balance (2500 to 800
 | **Platforms** | iPhone + Android | iPhone, iPad |
 | **Records 9:16 + 16:9 in one take** | ✓ | No |
 | **Two cameras at once** | ✓ Front & Back (two files, combine afterwards); Dual Lens on iPhone | ✓ Separate files or a composite |
-| **Maximum resolution** | 4K with one camera; HD with two cameras running | 1080p (listing) |
+| **Maximum resolution** | 4K, including with two cameras running on supported iPhones (from iOS 2.9) | 1080p (listing) |
 | **Manual controls** | Exposure, white balance (2500–8000K), ISO, shutter | Focus and exposure lock |
 | **Teleprompter** | ✓ | No |
 | **Last updated** | 4 November 2026 (v2.8.1) | 10 March 2025 (v3.1.2) |

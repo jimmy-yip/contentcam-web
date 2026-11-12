@@ -43,7 +43,7 @@
         "description": "Apple, Dual Capture'ı yedi iPhone modelinde 30 fps'de 4K Dolby Vision'a kadar olarak listeliyor. Kare hızı sınırı, birleştirilmiş kare ve çıktıyla sonradan yapamadıklarınız.",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
-        "dateModified": "2026-11-05",
+        "dateModified": "2026-11-12",
         "author": {
           "@type": "Person",
           "name": "Jimmy",
@@ -110,7 +110,7 @@
             "name": "Üçüncü taraf iPhone uygulamaları iki kamerayla aynı anda 4K kaydedebilir mi?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "60 fps'de hayır, çoğu iPhone'da da hayır. ContentCam'in çalıştığı her iPhone'da çoklu kamera formatları en fazla 1920×1440'a çıkıyor; tek istisna, 30 fps'de 4K'yı işaretleyen iPhone 18 Pro. İki 4K akışın aynı anda telefonun donanım bütçesine sığıp sığmadığı test edilmedi; yani iOS'ta doğrulanmış tek 4K iki kameralı seçenek Dual Capture."
+              "text": "Evet, desteklenen iPhone'larda, 30 fps'ye kadar. iOS 2.9'dan itibaren ContentCam'in Ön ve arka ve Çift objektif modları desteklenen iPhone'larda 4K kaydeder; bunu yapabilen çok az uygulamadan biridir. İki kameralı 4K 30 fps'de durur: kontrol ettiğimiz iPhone'larda Apple, çoklu kamera kullanımı için 60 fps'de hiçbir 4K formatı işaretlemiyor."
             }
           }
         ],
@@ -216,7 +216,7 @@
           </tbody>
         </table>
       </div>
-      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">Konuşan kafa videoları için 30 fps yeterli</a>, ama yavaşlatacak pay bırakmıyor. Aynı anda iki kamerayı işletim sistemi kısıtlıyor: Apple'ın <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> belgesi "Çoklu kamera çekiminde yalnızca bu sınırlı çekim formatı alt kümesi sürdürülebilir şekilde çalışabilir" diyor ve ContentCam'in çalıştığı her iPhone'da bu formatlar en fazla <strong>1920×1440</strong>'a çıkıyor; tek istisna, 30 fps'de 4K'yı da işaretleyen (ama 60 fps'de 4K'yı işaretlemeyen) iPhone 18 Pro. Bu HD sınırı içinde ContentCam'in Ön ve arka (Front/Back) modu, destekleyen iPhone'larda <strong>60 fps'ye kadar</strong> kaydeder (60 fps Premium'dur ve bazı eski iPhone'lar 30 fps ile sınırlıdır).</p>
+      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">Konuşan kafa videoları için 30 fps yeterli</a>, ama yavaşlatacak pay bırakmıyor. Aynı anda iki kamerayı işletim sistemi kısıtlıyor: Apple'ın <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> belgesi "Çoklu kamera çekiminde yalnızca bu sınırlı çekim formatı alt kümesi sürdürülebilir şekilde çalışabilir" diyor ve kontrol ettiğimiz iPhone'larda bu formatların hiçbiri 60 fps'de 4K değil. iOS 2.9'dan itibaren ContentCam'in Ön ve arka (Front/Back) modu desteklenen iPhone'larda <strong>4K</strong>, HD'de ise destekleyen iPhone'larda <strong>60 fps'ye kadar</strong> kaydeder (60 fps Premium'dur ve bazı eski iPhone'lar 30 fps ile sınırlıdır).</p>
 
       <h2>Dual Capture iki ayrı video dosyası veriyor mu?</h2>
       <p>Hayır. Apple'ın belgelediği her şey tek bir birleştirilmiş kayda işaret ediyor: tek bir teknik özellik satırı, görselde tek bir kare ve onun içinde pencere olarak tarif edilen ön kamera. Apple dosya sayısı hakkında bir açıklama yayımlamıyor; beş saniye kaydedip Fotoğraflar'daki öğeleri sayabilirsiniz.</p>
@@ -240,12 +240,12 @@
             <tr><td>Çıktı</td><td>Tek birleştirilmiş dosya</td><td>İki ayrı dosya</td></tr>
             <tr><td>Düzen</td><td>Çekim anında sabit</td><td>Sonradan seçilir (resim içinde resim veya bölünmüş ekran)</td></tr>
             <tr><td>Kare hızı</td><td>30 fps</td><td>Desteklenen iPhone'larda 60 fps'ye kadar (Premium); Android'de 30 fps</td></tr>
-            <tr><td>Çözünürlük</td><td>4K'ya kadar</td><td>HD</td></tr>
+            <tr><td>Çözünürlük</td><td>4K'ya kadar</td><td>Desteklenen iPhone'larda 4K'ya kadar (iOS 2.9'dan itibaren); Android'de HD</td></tr>
           </tbody>
         </table>
       </div>
       <p>İki dosya, iki açıdan birine geçebilmeniz ya da her birini ayrı renklendirebilmeniz demektir. ContentCam'de reklam ve filigran yok; ilk 5 Ön ve arka kaydı ücretsizdir, sonra Premium bunları sınırsız yapar. Birleştir videosunu kaydetmek de Premium'dur.</p>
-      <p>Dual Capture kime uygun: desteklenen bir iPhone'u olan, iki kameradan 4K isteyen ve klibi tam kaydedildiği gibi paylaşacak herkese.</p>
+      <p>Dual Capture kime uygun: desteklenen bir iPhone'u olan, hazır bir resim içinde resim klibi isteyen ve onu tam kaydedildiği gibi paylaşacak herkese.</p>
 
       <figure>
         <img src="/assets/blog/iphone-17-dual-capture-limitations/front-and-back-two-files.webp" alt="Arka kameradan turkuaz bir göl ve ön kameradan bir selfie, yan yana iki ayrı kayıt olarak gösteriliyor" width="1000" height="857" loading="lazy" decoding="async">
@@ -256,7 +256,7 @@
       <p><strong>iPhone 17 Dual Capture hangi kare hızında kaydediyor?</strong> Apple'ın teknik özellik sayfalarında "30 fps'de 4K Dolby Vision'a kadar Dual Capture" yazıyor. Aynı arka kamera normal videoyu 60 fps'de 4K Dolby Vision'a kadar kaydediyor; yani Dual Capture kare hızını yarıya indiriyor.</p>
       <p><strong>Dual Capture iPhone 16'da çalışıyor mu?</strong> Hayır. iPhone 16, iPhone 16e ve iPhone 17e teknik özellik sayfalarında Dual Capture geçmiyor ve Apple'ın desteklenen modeller listesi iPhone 17 ile başlıyor. ContentCam'in Ön ve arka (Front/Back) modu iPhone 16'da çalışır.</p>
       <p><strong>Dual Capture'da resim içinde resim penceresi taşınabilir mi?</strong> Apple'ın bu mod için yayımladığı adımlarda pencereyi taşımaktan veya boyutlandırmaktan söz edilmiyor. Kaydı durdurduğunuzda pencere neredeyse dosyada da orada kalır.</p>
-      <p><strong>Üçüncü taraf iPhone uygulamaları iki kamerayla aynı anda 4K kaydedebilir mi?</strong> 60 fps'de hayır, çoğu iPhone'da da hayır. ContentCam'in çalıştığı her iPhone'da çoklu kamera formatları en fazla 1920×1440'a çıkıyor; tek istisna, 30 fps'de 4K'yı işaretleyen iPhone 18 Pro. İki 4K akışın aynı anda telefonun donanım bütçesine sığıp sığmadığı test edilmedi; yani iOS'ta doğrulanmış tek 4K iki kameralı seçenek Dual Capture.</p>
+      <p><strong>Üçüncü taraf iPhone uygulamaları iki kamerayla aynı anda 4K kaydedebilir mi?</strong> Evet, desteklenen iPhone'larda, 30 fps'ye kadar. iOS 2.9'dan itibaren ContentCam'in Ön ve arka ve Çift objektif modları desteklenen iPhone'larda 4K kaydeder; bunu yapabilen çok az uygulamadan biridir. İki kameralı 4K 30 fps'de durur: kontrol ettiğimiz iPhone'larda Apple, çoklu kamera kullanımı için 60 fps'de hiçbir 4K formatı işaretlemiyor.</p>
 
       <div class="post-cta">
         <p><strong>ContentCam'i ücretsiz deneyin.</strong> Ön ve arka (Front/Back), iOS 18 yüklü her iPhone'da ve desteklenen Android telefonlarda iki kamerayı iki ayrı dosya olarak kaydeder.</p>

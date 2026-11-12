@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/switch-camera-while-recording-iphone/
 
 The iPhone Camera app can't flip between the front and back camera mid-recording. Three ways around it: stop and flip, Dual Capture on iPhone 17, or record both cameras as two files and cut between them.
 
-By Jimmy, developer of ContentCam · 3 November 2026 · Updated 5 November 2026
+By Jimmy, developer of ContentCam · 3 November 2026 · Updated 12 November 2026
 
 You can't switch between the front and back camera mid-recording in the iPhone's own Camera app; Apple's iPhone User Guide lists what you can do while recording, and flipping the camera isn't on it. The cleanest way around it is to record both cameras at once as two separate files and cut between them in the edit, which is what ContentCam's Front & Back mode does (I build ContentCam). It works on every iPhone that runs iOS 18, including iPhone 15 and 16, which don't have Apple's Dual Capture, with no ads and no watermark. The other options: stop and flip between clips, or use Dual Capture on iPhone 17 or later, which saves one video with the front camera fixed in a window.
 
@@ -36,7 +36,7 @@ Record both cameras into separate files, then cut between them like a two-camera
 3. **Stack the two clips** in iMovie or CapCut, rear camera on the main track, front camera above it, lined up on the clap.
 4. **Cut the top layer** wherever you want your face to show. Every cut is a "camera switch", and you can move the cuts later.
 
-Front & Back comes with 5 free recordings, then Premium. On iPhone, ContentCam's Combine editor can also turn a take into one picture-in-picture or split-screen video with the two original files kept, so you can post the combined version and still cut between angles. No account, and the footage stays on your phone. Resolution is HD, at up to 60 fps on iPhones that support it (60 fps is Premium): Apple caps multi-camera formats, and on every iPhone ContentCam has run on, Pro models included, they top out at 1920×1440, except the iPhone 18 Pro, which also flags 4K at 30 fps.
+Front & Back comes with 5 free recordings, then Premium. On iPhone, ContentCam's Combine editor can also turn a take into one picture-in-picture or split-screen video with the two original files kept, so you can post the combined version and still cut between angles. No account, and the footage stays on your phone. From iOS 2.9 it records in 4K on supported iPhones, and in HD at up to 60 fps on iPhones that support it (60 fps is Premium).
 
 ## How does Dual Capture work instead of switching?
 

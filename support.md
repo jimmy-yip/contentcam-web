@@ -38,9 +38,9 @@ No. Both files are encoded independently in HEVC: portrait at 1080×1920, landsc
 
 Single Lens records one camera at its native 4:3 sensor shape, then crops a 9:16 and a 16:9 out of that frame. You keep the full horizontal view in landscape and the full vertical in portrait. Dual Lens (iPhone 11+) records the wide and ultra-wide cameras at the same time, so the two files have genuinely different framing. [Full explanation here](https://contentcam.app/features/dual-camera/).
 
-### Why is 4K only available in Single Lens mode?
+### Can Dual Lens and Front & Back record in 4K?
 
-iPhone hardware can't sustain 4K from two cameras at once. Single Lens records 4K; Dual Lens runs at 1080p.
+Yes, from iOS 2.9, on supported iPhones. Turn 4K on in the resolution chip while you are in the mode. If your iPhone can't run two cameras in 4K, the option stays off and the mode records in HD. On Android, Front & Back records in HD.
 
 ### Is there a watermark?
 

@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/splitrig-vs-contentcam/
 
 SplitRig saves one combined front and back video on iPhone with iOS 26. ContentCam saves the front and back camera as two separate files, records vertical and horizontal from one take, and runs on iOS 18 and Android. A checked comparison.
 
-By Jimmy, developer of ContentCam · 5 October 2026 · Updated 5 November 2026
+By Jimmy, developer of ContentCam · 5 October 2026 · Updated 12 November 2026
 
 Use ContentCam instead of SplitRig if you want the front and back camera as two separate files you can edit, a vertical and a horizontal video from the same take, Android, manual ISO, shutter and white balance, or an iPhone that isn't on iOS 26. SplitRig saves one finished picture-in-picture or split-screen video, runs only on iPhone, and needs iOS 26 or later.
 
@@ -79,7 +79,7 @@ SplitRig asks for it: version 1.1.11 shows the iOS prompt "SplitRig would like f
 
 ### Can SplitRig record front and back at 60fps?
 
-No. SplitRig's features page lists "24 or 30 fps" for its dual-camera recording, with 60fps only in Action Cam, a rear-camera mode (checked 5 November 2026). ContentCam's Front & Back records both cameras at up to 60fps in HD on iPhones that support it, as a Premium option.
+No. SplitRig's features page lists "24 or 30 fps" for its dual-camera recording, with 60fps only in Action Cam, a rear-camera mode (checked 5 November 2026). ContentCam's Front & Back records both cameras at up to 60fps in HD on iPhones that support it, as a Premium option, and in 4K on supported iPhones from iOS 2.9.
 
 ### Which iPhones does SplitRig work on?
 

@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/doubletake-not-working-alternatives/
 
 DoubleTake by Filmic hasn't been updated since March 2025, and App Store reviews report it not opening or not saving separate files on iOS 26. Common causes, and what still records two cameras at once.
 
-By Jimmy, developer of ContentCam · 12 October 2026 · Updated 5 November 2026
+By Jimmy, developer of ContentCam · 12 October 2026 · Updated 12 November 2026
 
 If DoubleTake won't open or won't save its two files, the replacement I recommend is ContentCam: its Front & Back mode records the selfie and rear cameras at once as two separate files, on any iPhone running iOS 18 (iPhone XS, XR and newer) and on Android. On an iPhone 17 or newer, Apple's Dual Capture is a free fallback if one combined video is enough. DoubleTake's current version, 3.1.2, shipped on 10 March 2025, six months before iOS 26, and hasn't been updated since.
 
@@ -29,7 +29,7 @@ DoubleTake's own US App Store reviews point one way. Of the 23 reviews posted si
 | App | Price (US) | Needs | Last update | What it saves |
 | --- | --- | --- | --- | --- |
 | DoubleTake | Free download; weekly subscriptions $0.99 to $9.99, yearly $19.99 to $99.99 | iOS 14.1 | 10 Mar 2025 | Separate files or a composite (per listing); 1080p |
-| ContentCam (Front & Back) | Free app, no ads, no watermark; 5 free Front & Back recordings, then Premium | iOS 18 (iPhone XS, XR and newer) or Android | Current: iOS 2.8.3, Android 2.7.0 | Two separate files in HD; Premium Combine makes a picture-in-picture or split-screen video |
+| ContentCam (Front & Back) | Free app, no ads, no watermark; 5 free Front & Back recordings, then Premium | iOS 18 (iPhone XS, XR and newer) or Android | Current: iOS 2.9, Android 2.7.1 | Two separate files, in 4K on supported iPhones (from iOS 2.9), otherwise HD; Premium Combine makes a picture-in-picture or split-screen video |
 | Apple Dual Capture | Free, built in | iPhone 17, 17 Pro, 17 Pro Max, Air, 18 Pro, 18 Pro Max, iPhone Duo | Part of iOS | One video with the front camera inset; layout fixed at capture |
 
 Apple's Dual Capture model list and limits are in [which iPhones have Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/). If you're on an iPhone 15 or 16, which don't have Dual Capture, see [front and back on iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/).

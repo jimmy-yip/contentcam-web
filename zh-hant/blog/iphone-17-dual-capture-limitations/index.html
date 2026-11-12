@@ -41,7 +41,7 @@
         "description": "Apple 列出 7 款 iPhone 支援雙重拍攝，最高 4K 杜比視界 30 fps。影格率上限、合成在一起的畫面，以及拍完之後無法對影片做的事。",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
-        "dateModified": "2026-11-05",
+        "dateModified": "2026-11-12",
         "author": {
           "@type": "Person",
           "name": "Jimmy",
@@ -108,7 +108,7 @@
             "name": "第三方 iPhone App 能用兩顆鏡頭同時錄 4K 嗎？",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "60 fps 不行，大多數 iPhone 也不行。在 ContentCam 跑過的每一支 iPhone 上，多鏡頭格式的上限都是 1920×1440，只有 iPhone 18 Pro 例外，它標示了 4K 30 fps。兩路 4K 串流能否同時塞進手機的硬體預算還沒測試過，所以雙重拍攝是 iOS 上唯一確定能用兩顆鏡頭錄 4K 的選擇。"
+              "text": "可以，在支援的 iPhone 上，最高 30 fps。從 iOS 2.9 起，ContentCam 的前後鏡頭模式和雙鏡頭模式在支援的 iPhone 上以 4K 錄影，做得到這件事的 App 非常少。兩顆鏡頭同時錄 4K 最高 30 fps：在我們檢查過的 iPhone 上，Apple 沒有為多鏡頭拍攝標示任何 60 fps 的 4K 格式。"
             }
           }
         ],
@@ -214,7 +214,7 @@
           </tbody>
         </table>
       </div>
-      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">30 fps 拍對著鏡頭講話的影片沒問題</a>，但就沒有餘裕做慢動作。兩顆鏡頭同時運作時，作業系統會限制資源：Apple 在 <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> 的文件中寫道「只有這一小部分拍攝格式能在多鏡頭拍攝情境下持續運作」，而在 ContentCam 跑過的每一支 iPhone 上，這些格式的上限都是 <strong>1920×1440</strong>，只有 iPhone 18 Pro 例外，它還標示了 4K 30 fps（但沒有 4K 60 fps）。在這個 HD 上限內，ContentCam 的前後鏡頭模式在支援的 iPhone 上<strong>最高可錄 60 fps</strong>（60 fps 需要 Premium，部分舊款 iPhone 上限是 30 fps）。</p>
+      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">30 fps 拍對著鏡頭講話的影片沒問題</a>，但就沒有餘裕做慢動作。兩顆鏡頭同時運作時，作業系統會限制資源：Apple 在 <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> 的文件中寫道「只有這一小部分拍攝格式能在多鏡頭拍攝情境下持續運作」，而在我們檢查過的 iPhone 上，這些格式沒有一個是 4K 60 fps。從 iOS 2.9 起，ContentCam 的前後鏡頭模式在支援的 iPhone 上以 <strong>4K</strong> 錄影，錄 HD 時在支援的 iPhone 上<strong>最高可錄 60 fps</strong>（60 fps 需要 Premium，部分舊款 iPhone 上限是 30 fps）。</p>
 
       <h2>雙重拍攝會存成兩個獨立的影片檔嗎？</h2>
       <p>不會。Apple 的所有文件都指向一段合成好的錄影：一行規格、插圖裡一個畫面、前鏡頭被描述為畫面裡的一個視窗。Apple 沒有公開說明檔案數量；錄個五秒，再到「照片」裡數一數就知道。</p>
@@ -238,12 +238,12 @@
             <tr><td>輸出</td><td>一個合成檔案</td><td>兩個獨立檔案</td></tr>
             <tr><td>版面</td><td>拍攝時就固定</td><td>之後再選（子母畫面或分割畫面）</td></tr>
             <tr><td>影格率</td><td>30 fps</td><td>支援的 iPhone 最高 60 fps（Premium）；Android 為 30 fps</td></tr>
-            <tr><td>解析度</td><td>最高 4K</td><td>HD</td></tr>
+            <tr><td>解析度</td><td>最高 4K</td><td>在支援的 iPhone 上最高 4K（iOS 2.9 起）；Android 為 HD</td></tr>
           </tbody>
         </table>
       </div>
       <p>有兩個檔案，你就能剪到任一個角度，或分別調色。ContentCam 沒有廣告也沒有浮水印，前 5 次前後鏡頭錄影免費，升級 Premium 後不限次數；儲存合成影片也需要 Premium。</p>
-      <p>適合雙重拍攝的人：用支援的 iPhone、想要兩顆鏡頭都是 4K，而且會照原樣直接發布影片的人。</p>
+      <p>適合雙重拍攝的人：用支援的 iPhone、想要一段現成的子母畫面影片，而且會照原樣直接發布影片的人。</p>
 
       <figure>
         <img src="/assets/blog/iphone-17-dual-capture-limitations/front-and-back-two-files.webp" alt="後鏡頭拍的湖水綠湖泊和前鏡頭拍的自拍，以兩段獨立錄影並排顯示" width="1000" height="857" loading="lazy" decoding="async">
@@ -254,7 +254,7 @@
       <p><strong>iPhone 17 的雙重拍攝是以什麼影格率錄影？</strong>Apple 的規格頁面寫著「雙重拍攝最高 4K 杜比視界 30 fps」。同一顆後鏡頭一般錄影最高可達 4K 杜比視界 60 fps，所以雙重拍攝的影格率只有一半。</p>
       <p><strong>iPhone 16 可以用雙重拍攝嗎？</strong>不行。iPhone 16、iPhone 16e 和 iPhone 17e 的規格頁面都沒有提到雙重拍攝，Apple 的支援機型清單從 iPhone 17 開始。ContentCam 的前後鏡頭模式在 iPhone 16 上可以用。</p>
       <p><strong>雙重拍攝的子母畫面小視窗可以移動嗎？</strong>Apple 公布的操作步驟沒有提到可以移動或調整大小。你停止錄影時小視窗在哪裡，檔案裡就固定在哪裡。</p>
-      <p><strong>第三方 iPhone App 能用兩顆鏡頭同時錄 4K 嗎？</strong>60 fps 不行，大多數 iPhone 也不行。在 ContentCam 跑過的每一支 iPhone 上，多鏡頭格式的上限都是 1920×1440，只有 iPhone 18 Pro 例外，它標示了 4K 30 fps。兩路 4K 串流能否同時塞進手機的硬體預算還沒測試過，所以雙重拍攝是 iOS 上唯一確定能用兩顆鏡頭錄 4K 的選擇。</p>
+      <p><strong>第三方 iPhone App 能用兩顆鏡頭同時錄 4K 嗎？</strong>可以，在支援的 iPhone 上，最高 30 fps。從 iOS 2.9 起，ContentCam 的前後鏡頭模式和雙鏡頭模式在支援的 iPhone 上以 4K 錄影，做得到這件事的 App 非常少。兩顆鏡頭同時錄 4K 最高 30 fps：在我們檢查過的 iPhone 上，Apple 沒有為多鏡頭拍攝標示任何 60 fps 的 4K 格式。</p>
 
       <div class="post-cta">
         <p><strong>免費試用 ContentCam。</strong>前後鏡頭模式在任何搭載 iOS 18 的 iPhone 和支援的 Android 手機上，都能把兩顆鏡頭存成兩個獨立檔案。</p>

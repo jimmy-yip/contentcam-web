@@ -14,6 +14,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://contentcam.app"
 LANG_DIRS = {"de", "es", "fr", "it", "ja", "pt-br", "id", "ko", "nl", "pl", "tr", "vi", "zh-hans", "zh-hant", "ru", "hi",
              "sv", "th", "ms", "da", "no", "fi", "pt-pt", "uk", "fil", "bn", "cs", "ro", "hu", "el"}
+HAND_WRITTEN = {"press.md"}  # maintained by hand (fact sheet); never overwrite
 SKIP_TAGS = {"script", "style", "nav", "footer", "svg", "noscript", "form", "button", "video", "picture", "source"}
 SKIP_CLASSES = ("crumbs", "cta", "related", "lang-switch", "store-badges", "share")
 
@@ -148,7 +149,7 @@ def main():
         if body.startswith("# "):
             body = body.split("\n", 1)[1].strip() if "\n" in body else ""
         out = "\n".join(head) + "\n\n" + body + "\n"
-        if not os.path.exists(md_path) or open(md_path, encoding="utf-8").read() != out:
+        if md_path not in HAND_WRITTEN and (not os.path.exists(md_path) or open(md_path, encoding="utf-8").read() != out):
             open(md_path, "w", encoding="utf-8").write(out)
         link = f'<link rel="alternate" type="text/markdown" href="{SITE}/{md_path}">'
         if 'type="text/markdown"' not in s:

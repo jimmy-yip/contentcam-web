@@ -42,7 +42,7 @@
       "description": "Apples Dual Capture filmt voor en achter tot 4K 30 fps op iPhone 17, Air, 18 Pro en Duo. Apps van derden zitten vast aan Apples formaten voor meerdere camera's. Wat concurrerende vermeldingen over 4K beweren, wat Apple toestaat en hoe je een bestand controleert.",
       "image": "https://contentcam.app/assets/og/og-blog.jpg",
       "datePublished": "2026-11-11",
-      "dateModified": "2026-11-11",
+      "dateModified": "2026-11-12",
       "author": {
         "@type": "Person",
         "name": "Jimmy",
@@ -148,8 +148,8 @@
       <h1>Kan een iPhone tegelijk in 4K filmen met de voor- en achtercamera? (2026)</h1>
       <p class="byline">Door Jimmy, ontwikkelaar van ContentCam · 11 november 2026 · Bijgewerkt op 11 november 2026</p>
 
-      <p><strong>Kort antwoord:</strong> Apples eigen Camera-app kan het, op nieuwere modellen. Apple vermeldt "Dual Capture tot 4K Dolby Vision bij 30 fps" voor iPhone 17, iPhone Air, iPhone 18 Pro en iPhone Duo, opgeslagen als één gecombineerde video. Apps van derden zijn een ander verhaal. Die nemen twee camera's op via Apples <code>AVCaptureMultiCamSession</code>, die alleen cameraformaten accepteert die Apple als geschikt voor meerdere camera's markeert. We hebben die lijst uitgelezen op een iPhone 18 Pro met iOS 27.0.1: 3840 x 2160 bij 30 fps heeft die markering, maar bij 60 fps heeft geen enkel 4K-formaat die. 4K bij 60 fps met twee camera's tegelijk staat op die telefoon dus voor geen enkele app van derden open, en 4K bij 30 fps werkt alleen als de telefoon beide 4K-streams tegelijk aankan.</p>
-      <p>Openheid: ik bouw ContentCam, een camera-app voor iPhone en Android met de modus Voor en achter (Front/Back). Voor en achter in ContentCam neemt op in HD, niet in 4K, precies om deze reden. De citaten van concurrenten hieronder komen uit de live storevermelding van elke app op 11 november 2026, en de details over Apple komen uit Apples ontwikkelaarsdocumentatie en specificatiepagina's, op dezelfde dag gecontroleerd.</p>
+      <p><strong>Kort antwoord:</strong> Apples eigen Camera-app kan het, op nieuwere modellen. Apple vermeldt "Dual Capture tot 4K Dolby Vision bij 30 fps" voor iPhone 17, iPhone Air, iPhone 18 Pro en iPhone Duo, opgeslagen als één gecombineerde video. Apps van derden zijn een ander verhaal. Die nemen twee camera's op via Apples <code>AVCaptureMultiCamSession</code>, die alleen cameraformaten accepteert die Apple als geschikt voor meerdere camera's markeert. We hebben die lijst uitgelezen op een iPhone 18 Pro met iOS 27.0.1: 3840 x 2160 bij 30 fps heeft die markering, maar bij 60 fps heeft geen enkel 4K-formaat die. 4K bij 60 fps met twee camera's tegelijk staat op die telefoon dus voor geen enkele app van derden open, en 4K bij 30 fps werkt alleen als de telefoon beide 4K-streams tegelijk aankan. Vanaf iOS 2.9 doet Voor en achter in ContentCam dat op ondersteunde iPhones, als twee losse bestanden.</p>
+      <p>Openheid: ik bouw ContentCam, een camera-app voor iPhone en Android met de modus Voor en achter (Front/Back). Vanaf iOS 2.9 nemen Voor en achter en Twee lenzen in ContentCam op in 4K op ondersteunde iPhones. Daarmee is ContentCam een van de heel weinige apps met 4K terwijl twee camera's tegelijk draaien. De citaten van concurrenten hieronder komen uit de live storevermelding van elke app op 11 november 2026, en de details over Apple komen uit Apples ontwikkelaarsdocumentatie en specificatiepagina's, op dezelfde dag gecontroleerd.</p>
 
       <h2>Welke dual-camera-apps zeggen dat ze in 4K opnemen?</h2>
       <p>Vijf apps voor voor- en achtercamera noemen 4K of UHD in hun storevermelding of handleiding. Alleen de vermelding van Lookout koppelt UHD aan beide feeds, en geen van de apps noemt een pixelafmeting voor een opname waarbij beide camera's draaien.</p>
@@ -178,7 +178,7 @@
         <li><strong>4K bij 60 fps:</strong> geen enkel 3840 x 2160-formaat bij 60 of 120 fps heeft de markering, op geen enkele camera. Twee camera's in 4K 60 zit er op deze telefoon niet in.</li>
         <li><strong>4:3:</strong> het grootste gemarkeerde 4:3-formaat is 1920 x 1440, bij 30 en 60 fps, op elke camera. Apps die opnemen vanuit de 4:3-vorm van de sensor, zodat ze er meer dan één kader uit kunnen snijden, zitten aan die grootte vast.</li>
       </ul>
-      <p>Op de lijst staan is niet hetzelfde als draaien. Elke 4K-stream telt nog steeds mee voor het hardwareCost-budget, en de sessie weigert een combinatie die boven 1.0 uitkomt. We hebben op de 18 Pro nog geen opname met twee camera's in 4K 30 gemaakt om te zien of twee 4K-streams passen. Dat Apples eigen Dual Capture stopt bij 4K 30 fps, en niet bij 60, past bij hetzelfde plafond.</p>
+      <p>Op de lijst staan is niet hetzelfde als draaien. Elke 4K-stream telt nog steeds mee voor het hardwareCost-budget, en de sessie weigert een combinatie die boven 1.0 uitkomt. Inmiddels hebben we opnames met twee camera's in 4K 30 gemaakt, en dat werk zit in ContentCam 2.9. Passen twee 4K-streams niet, dan neemt de app de achtercamera op in 4K en de voorcamera in HD, en op telefoons die geen van beide aankunnen in HD. Dat Apples eigen Dual Capture stopt bij 4K 30 fps, en niet bij 60, past bij hetzelfde plafond.</p>
       <p>Apples Dual Capture is de uitzondering. Het is een modus in Apples eigen Camera-app op iPhone 17, iPhone 17 Pro, iPhone Air, iPhone 18 Pro en iPhone Duo (niet op iPhone 17e), en Apple vermeldt het tot 4K bij 30 fps, als één beeld-in-beeldvideo. De beperkingen staan in <a href="/nl/blog/iphone-17-dual-capture-limitations/">de beperkingen van Dual Capture op de iPhone 17</a>.</p>
 
       <h2>Hoe kan een dual-camera-app "tot 4K" vermelden?</h2>
@@ -204,7 +204,7 @@
       <p>De beeldsnelheid is de afweging die mensen wel merken. Apples Dual Capture gaat tot 30 fps, terwijl dezelfde iPhones gewone video in 4K 60 fps filmen. Wil je beelden vertragen, dan is 60 fps belangrijker dan de extra pixels.</p>
 
       <h2>In welke resolutie neemt ContentCam voor en achter op?</h2>
-      <p>HD. De modus Voor en achter van ContentCam neemt de voor- en achtercamera op als twee losse HD-bestanden, tot 60 fps op iPhones die dat ondersteunen (60 fps is Premium; sommige oudere iPhones gaan tot 30) en tot 30 fps op Android-telefoons die beide camera's tegelijk aankunnen. Voor en achter werkt op elke iPhone met iOS 18, vanaf iPhone XS en XR. De layout komt achteraf: de Combine-editor maakt van de twee bestanden beeld-in-beeld of gesplitst scherm en bewaart de originelen. De 4K van ContentCam zit in de modus Eén lens (Single Lens), die uit één opname een verticale 9:16- en een horizontale 16:9-video opneemt.</p>
+      <p>4K op ondersteunde iPhones, vanaf iOS 2.9. De modus Voor en achter van ContentCam neemt de voor- en achtercamera op als twee losse bestanden. Kan de telefoon niet beide camera's in 4K draaien, dan neemt hij de achtercamera op in 4K en de voorcamera in HD, en telefoons die geen van beide aankunnen nemen op in HD. 4K met twee camera's gaat tot 30 fps. In HD neemt Voor en achter op tot 60 fps op iPhones die dat ondersteunen (60 fps is Premium; sommige oudere iPhones gaan tot 30) en tot 30 fps op Android-telefoons die beide camera's tegelijk aankunnen. Voor en achter werkt op elke iPhone met iOS 18, vanaf iPhone XS en XR. De layout komt daarna: de Combineren-editor maakt van de twee bestanden beeld-in-beeld of een gesplitst scherm, bewaart in 4K als het achterbestand 4K is, en houdt de originelen. Ook Twee lenzen, dat twee achtercamera's tegelijk opneemt, neemt vanaf 2.9 op in 4K op ondersteunde iPhones.</p>
 
       <h2>Veelgestelde vragen</h2>
       <h3>Kan de iPhone 15 of iPhone 16 in 4K filmen met beide camera's tegelijk?</h3>
@@ -215,7 +215,7 @@
       <p>Alleen als de 4K van de camera's kwam. Een bestand van 3840 x 2160 dat uit HD-feeds is opgebouwd, heeft hetzelfde detail als het HD-bestand, op vier keer de grootte. Controleer de pixelafmetingen van de originelen en doe de detailtest hierboven.</p>
 
       <div class="post-cta">
-        <p><strong>Probeer ContentCam gratis.</strong> Voor en achter neemt de selfie- en achtercamera op als twee losse HD-bestanden op elke iPhone met iOS 18 en op geschikte Android-telefoons, en de layout kies je achteraf zelf. Geen advertenties, geen watermerk.</p>
+        <p><strong>Probeer ContentCam gratis.</strong> Voor en achter neemt de selfie- en achtercamera op als twee losse bestanden, in 4K op ondersteunde iPhones, op elke iPhone met iOS 18 en op geschikte Android-telefoons, en de layout kies je achteraf zelf. Geen advertenties, geen watermerk.</p>
         <p class="cta-proof">★ Beoordeeld met een 4,8 door 580+ makers in de <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> en <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>.</p>
         <div class="badges badges-left">
           <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&amp;ct=nl-b-iphone-4k-front-and-back-camera&amp;mt=8"><img class="badge-appstore" src="/assets/badges/app-store-nl.svg" alt="Download in de App Store" width="156" height="52"></a>

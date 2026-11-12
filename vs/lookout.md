@@ -15,7 +15,7 @@ Every Lookout claim below comes from Lookout's US App Store listing (version 5.9
 - **Separate files.** ContentCam's Front & Back mode saves the selfie and the scene as two separate files. Lookout's listing describes "a single, perfectly synced take", the Lookout page on kidastudios.com says an interview gives you "question and answer in one file", and neither mentions separate front and back files.
 - **Vertical and horizontal at once.** ContentCam saves a 9:16 file and a 16:9 file from one take. Neither Lookout's listing nor kidastudios.com describes that.
 - **Android.** ContentCam is on iPhone and Android. Lookout is on iPhone, Mac and Apple Watch, and a Google Play search on 6 November 2026 found no Lookout from KIDA Studios.
-- **Published frame rate.** ContentCam's Front & Back records HD at up to 60fps on iPhones that support it (Premium). Lookout's listing says "Dual-Stream HD/UHD" with no frame rate, and KIDA Studios' own comparison table lists Lookout's multicam resolution as "Not published".
+- **Published frame rate.** ContentCam's Front & Back records in 4K on supported iPhones (from iOS 2.9), and in HD at up to 60fps on iPhones that support it (Premium). Lookout's listing says "Dual-Stream HD/UHD" with no frame rate, and KIDA Studios' own comparison table lists Lookout's multicam resolution as "Not published".
 - **Manual controls.** ContentCam has manual exposure, white balance, ISO and shutter. Lookout's listing describes voice commands for recording, zoom and snapshots, and does not mention manual ISO or shutter.
 
 ## Where does ContentCam pull ahead?
@@ -51,7 +51,7 @@ Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-
 
 ## Does Lookout record 4K with both cameras?
 
-Lookout's listing says "Dual-Stream HD/UHD: Record both feeds in stunning clarity." It gives no pixel size and doesn't say which iPhones reach UHD with both feeds running (App Store listing, checked 11 November 2026). Apple only lets third-party apps record two cameras in formats it marks as multi-camera capable. On an iPhone 18 Pro that list includes 3840 x 2160 at 30 fps but no 4K format at 60 fps, so 4K at 60 fps can't come from two cameras recording at once. ContentCam's Front & Back records HD, as two separate files. To see what any app really records, read the pixel size of a two-camera test file and its originals, then compare the detail: the steps are in [can an iPhone record 4K from the front and back camera at the same time](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/).
+Lookout's listing says "Dual-Stream HD/UHD: Record both feeds in stunning clarity." It gives no pixel size and doesn't say which iPhones reach UHD with both feeds running (App Store listing, checked 11 November 2026). Apple only lets third-party apps record two cameras in formats it marks as multi-camera capable. On an iPhone 18 Pro that list includes 3840 x 2160 at 30 fps but no 4K format at 60 fps, so 4K at 60 fps can't come from two cameras recording at once. ContentCam's Front & Back records in 4K on supported iPhones (from iOS 2.9), as two separate files. To see what any app really records, read the pixel size of a two-camera test file and its originals, then compare the detail: the steps are in [can an iPhone record 4K from the front and back camera at the same time](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/).
 
 ## FAQ
 
@@ -69,7 +69,7 @@ Lookout's App Store listing and kidastudios.com do not describe separate front a
 
 ### What frame rate does Lookout record front and back at?
 
-Lookout's listing says "Dual-Stream HD/UHD" but states no frame rate, and KIDA Studios' own Lookout vs DoubleTake guide lists Lookout's multicam resolution as "Not published". ContentCam's Front & Back records HD at up to 60fps on iPhones that support it (Premium) and up to 30fps on Android.
+Lookout's listing says "Dual-Stream HD/UHD" but states no frame rate, and KIDA Studios' own Lookout vs DoubleTake guide lists Lookout's multicam resolution as "Not published". ContentCam's Front & Back records in 4K on supported iPhones (from iOS 2.9), in HD at up to 60fps on iPhones that support it (Premium), and up to 30fps on Android.
 
 ### Can Lookout record vertical and horizontal video at the same time?
 

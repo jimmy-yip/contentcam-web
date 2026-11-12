@@ -41,7 +41,7 @@
         "description": "Apple uvádí Dual Capture jako až 4K Dolby Vision při 30 sn./s na sedmi modelech iPhonu. Strop snímkové frekvence, složený snímek a co se s výstupem potom nedá dělat.",
         "image": "https://contentcam.app/assets/og/og-blog.jpg",
         "datePublished": "2026-09-28",
-        "dateModified": "2026-11-05",
+        "dateModified": "2026-11-12",
         "author": {
           "@type": "Person",
           "name": "Jimmy",
@@ -108,7 +108,7 @@
             "name": "Umí aplikace třetích stran na iPhonu nahrávat 4K se dvěma kamerami najednou?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Ne při 60 sn./s a na většině iPhonů vůbec. Multikamerové formáty na každém iPhonu, na kterém ContentCam běžel, končí na 1920×1440, s výjimkou iPhonu 18 Pro, který nabízí 4K při 30 sn./s. Zda se dva 4K streamy vejdou najednou do hardwarových možností telefonu, zatím není otestováno, takže Dual Capture je jediná potvrzená dvoukamerová možnost ve 4K na iOS."
+              "text": "Ano, na podporovaných iPhonech, až v 30 fps. Od iOS 2.9 nahrávají režimy Přední a zadní a Dva objektivy v ContentCamu na podporovaných iPhonech ve 4K, takže ContentCam je jednou z mála aplikací, které to umí. 4K ze dvou kamer končí na 30 fps: na iPhonech, které jsme ověřili, Apple pro nahrávání více kamerami neoznačuje žádný formát 4K v 60 fps."
             }
           }
         ],
@@ -214,7 +214,7 @@
           </tbody>
         </table>
       </div>
-      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">30 sn./s stačí na mluvící hlavy</a>, ale nezbývá nic ke zpomalení. Dvě kamery najednou operační systém přiděluje po dávkách: dokumentace Applu k <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> říká „Only this limited subset of capture formats can run sustainably in a multi-camera capture scenario“ a každý iPhone, na kterém ContentCam běžel, tu dosahuje nanejvýš <strong>1920×1440</strong>, s výjimkou iPhonu 18 Pro, který nabízí i 4K při 30 sn./s (ale ne 4K při 60 sn./s). V rámci tohoto stropu HD nahrává Přední a zadní v ContentCam <strong>až 60 sn./s</strong> na iPhonech, které to podporují (60 sn./s je v Premium a některé starší iPhony jsou omezené na 30 sn./s).</p>
+      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">30 sn./s stačí na mluvící hlavy</a>, ale nezbývá nic ke zpomalení. Dvě kamery najednou operační systém přiděluje po dávkách: dokumentace Applu k <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> říká „Only this limited subset of capture formats can run sustainably in a multi-camera capture scenario“ a na iPhonech, které jsme ověřili, není žádný z těchto formátů 4K v 60 sn./s. Od iOS 2.9 nahrává Přední a zadní v ContentCamu na podporovaných iPhonech ve <strong>4K</strong> a v HD <strong>až v 60 sn./s</strong> na iPhonech, které to podporují (60 sn./s je v Premium a některé starší iPhony jsou omezené na 30 sn./s).</p>
 
       <h2>Dává Dual Capture dva samostatné videosoubory?</h2>
       <p>Ne. Vše, co Apple dokumentuje, ukazuje na jedno složené nahrávání: jeden řádek specifikace, jeden snímek na ilustraci, přední kamera popsaná jako okénko uvnitř něj. Apple k počtu souborů nic nezveřejňuje; nahraj pět sekund a spočítej položky ve Fotkách.</p>
@@ -238,12 +238,12 @@
             <tr><td>Výstup</td><td>Jeden složený soubor</td><td>Dva samostatné soubory</td></tr>
             <tr><td>Rozložení</td><td>Pevné při nahrávání</td><td>Vybrané potom (obraz v obraze nebo rozdělená obrazovka)</td></tr>
             <tr><td>Snímková frekvence</td><td>30 sn./s</td><td>Až 60 sn./s na podporovaných iPhonech (Premium); 30 sn./s na Androidu</td></tr>
-            <tr><td>Rozlišení</td><td>Až 4K</td><td>HD</td></tr>
+            <tr><td>Rozlišení</td><td>Až 4K</td><td>Až 4K na podporovaných iPhonech (od iOS 2.9); HD na Androidu</td></tr>
           </tbody>
         </table>
       </div>
       <p>Dva soubory znamenají, že můžeš přestřihnout na kterýkoli záběr nebo upravit barvy každého zvlášť. ContentCam nemá reklamy ani vodoznak, prvních 5 nahrávek Přední a zadní je zdarma, pak je Premium dělá neomezenými; uložení videa z Combine je také Premium.</p>
-      <p>Komu Dual Capture sedí: každému s podporovaným iPhonem, kdo chce 4K z obou kamer a klip zveřejní přesně tak, jak byl nahrán.</p>
+      <p>Komu Dual Capture sedí: každému s podporovaným iPhonem, kdo chce hotový klip obraz v obraze a zveřejní ho přesně tak, jak byl nahrán.</p>
 
       <figure>
         <img src="/assets/blog/iphone-17-dual-capture-limitations/front-and-back-two-files.webp" alt="Tyrkysové jezero ze zadní kamery a selfie z přední kamery, zobrazené jako dvě samostatné nahrávky vedle sebe" width="1000" height="857" loading="lazy" decoding="async">
@@ -254,7 +254,7 @@
       <p><strong>V jaké snímkové frekvenci nahrává Dual Capture na iPhonu 17?</strong> Stránky se specifikacemi Applu uvádějí „Dual Capture up to 4K Dolby Vision at 30 fps“. Stejná zadní kamera nahrává běžné video až ve 4K Dolby Vision při 60 sn./s, takže Dual Capture snímkovou frekvenci snižuje na polovinu.</p>
       <p><strong>Funguje Dual Capture na iPhonu 16?</strong> Ne. Stránky se specifikacemi iPhonu 16, iPhonu 16e a iPhonu 17e Dual Capture nezmiňují a seznam podporovaných modelů Applu začíná iPhonem 17. Přední a zadní v ContentCam na iPhonu 16 funguje.</p>
       <p><strong>Dá se okénko s obrazem v obraze v Dual Capture přesunout?</strong> Zveřejněné kroky Applu pro tento režim přemístění ani změnu velikosti nezmiňují. Kde okénko je, když zastavíš nahrávání, tam v souboru zůstane.</p>
-      <p><strong>Umí aplikace třetích stran na iPhonu nahrávat 4K se dvěma kamerami najednou?</strong> Ne při 60 sn./s a na většině iPhonů vůbec. Multikamerové formáty na každém iPhonu, na kterém ContentCam běžel, končí na 1920×1440, s výjimkou iPhonu 18 Pro, který nabízí 4K při 30 sn./s. Zda se dva 4K streamy vejdou najednou do hardwarových možností telefonu, zatím není otestováno, takže Dual Capture je jediná potvrzená dvoukamerová možnost ve 4K na iOS.</p>
+      <p><strong>Umí aplikace třetích stran na iPhonu nahrávat 4K se dvěma kamerami najednou?</strong> Ano, na podporovaných iPhonech, až v 30 fps. Od iOS 2.9 nahrávají režimy Přední a zadní a Dva objektivy v ContentCamu na podporovaných iPhonech ve 4K, takže ContentCam je jednou z mála aplikací, které to umí. 4K ze dvou kamer končí na 30 fps: na iPhonech, které jsme ověřili, Apple pro nahrávání více kamerami neoznačuje žádný formát 4K v 60 fps.</p>
 
       <div class="post-cta">
         <p><strong>Vyzkoušej ContentCam zdarma.</strong> Přední a zadní nahrává obě kamery jako dva samostatné soubory na každém iPhonu s iOS 18 a na podporovaných telefonech s Androidem.</p>

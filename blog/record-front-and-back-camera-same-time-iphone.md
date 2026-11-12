@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/record-front-and-back-camera-same-time-iphon
 
 On iPhone 17, iPhone Air, iPhone 18 Pro and iPhone Duo, use Dual Capture in Camera's Video mode. On older iPhones, use a multi-camera app. Which models work, one file vs two, and how to shoot it.
 
-By Jimmy, developer of ContentCam · 3 August 2026 · Updated 5 November 2026
+By Jimmy, developer of ContentCam · 3 August 2026 · Updated 12 November 2026
 
 To record the front and back camera at the same time on iPhone, use Dual Capture if you have an iPhone 17, iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, iPhone 18 Pro, iPhone 18 Pro Max or iPhone Duo: open Camera, choose Video, tap the camera-controls button, then tap Dual Capture. On any other iPhone that runs iOS 18 (iPhone XS, XR and newer, including iPhone 15 and iPhone 16), use ContentCam's Front & Back mode. Dual Capture saves one video with your face baked into the frame at up to 30fps. ContentCam saves the front and back cameras as two separate files at up to 60fps on supported iPhones, so you pick picture-in-picture or split-screen afterwards in its Combine editor.
 
@@ -18,7 +18,7 @@ It depends on which app does the recording. Checked 5 November 2026:
 - **Third-party camera apps:** Apple added AVCaptureMultiCamSession, the system feature that lets an app run more than one camera at once, in iOS 13. ContentCam's Front & Back mode needs iOS 18, so it runs on iPhone XS, XR and every later model. SplitRig's App Store listing requires iOS 26 or later.
 - **Snapchat's Dual Camera:** Snapchat's help centre lists iPhone XS, XS Max, XR or later.
 
-Two limits catch people out. Dual Capture records one file with your face baked into the frame, so the layout can't change after the take. ContentCam records both cameras at HD rather than 4K, as two files you can lay out later. Both are covered in detail in [iPhone 17 Dual Capture and where it stops](https://contentcam.app/blog/iphone-17-dual-capture-limitations/).
+Two limits catch people out. Dual Capture records one file with your face baked into the frame, so the layout can't change after the take. ContentCam records both cameras as two files you can lay out later, in 4K on supported iPhones from iOS 2.9. Both are covered in detail in [iPhone 17 Dual Capture and where it stops](https://contentcam.app/blog/iphone-17-dual-capture-limitations/).
 
 ## What is recording front and back at the same time good for?
 
@@ -39,7 +39,7 @@ Recording two *rear* cameras for two framings of one scene is dual-lens, a [diff
 
 ## How do you record front and back in ContentCam?
 
-ContentCam has a Front & Back mode alongside its dual-format recording. You open the app, switch to Front & Back, and record: your rear camera and selfie camera come out of one take as two separate files. Afterwards the Combine editor turns them into one picture-in-picture or split-screen video, and the originals stay untouched. ContentCam records the two cameras at HD, because on every iPhone I've tested except the iPhone 18 Pro, Apple's multi-camera formats top out at 1920×1440 (the 18 Pro also flags 4K at 30 fps, which I haven't tested with two cameras yet). Frame rate goes up to 60fps on iPhones that support it (60fps is Premium), against 30fps for Dual Capture. The first 5 Front & Back recordings are free, then it's Premium, with no ads and no watermark on either plan. ContentCam also records 9:16 and 16:9 at once and has a [built-in teleprompter](https://contentcam.app/features/teleprompter/). [The full feature list is here.](https://contentcam.app/features/)
+ContentCam has a Front & Back mode alongside its dual-format recording. You open the app, switch to Front & Back, and record: your rear camera and selfie camera come out of one take as two separate files. Afterwards the Combine editor turns them into one picture-in-picture or split-screen video, and the originals stay untouched. From iOS 2.9, ContentCam records the two cameras in 4K on supported iPhones, and in HD on the rest. In HD, frame rate goes up to 60fps on iPhones that support it (60fps is Premium), against 30fps for Dual Capture. The first 5 Front & Back recordings are free, then it's Premium, with no ads and no watermark on either plan. ContentCam also records 9:16 and 16:9 at once and has a [built-in teleprompter](https://contentcam.app/features/teleprompter/). [The full feature list is here.](https://contentcam.app/features/)
 
 ## How do you shoot front and back video well?
 

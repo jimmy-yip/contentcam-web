@@ -37,7 +37,7 @@ The point is genuinely different framing. Your portrait can be a tight shot for 
 | **How it works** | One camera at native 4:3, both formats cropped from the full frame | Wide + ultra-wide cameras recording simultaneously |
 | **Framing** | Same scene, full FOV in each direction | Two genuinely different framings |
 | **Devices** | iPhone XS+, Android, front camera | iPhone 11+ (rear only) |
-| **Max resolution** | 4K (premium) | 1080p (hardware limit: no phone sustains 4K on two cameras) |
+| **Max resolution** | 4K (premium) | 4K on supported iPhones (from iOS 2.9), otherwise HD |
 | **Tier** | Free | 5 free takes, then premium |
 
 ## Common questions

@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/how-to-do-dual-camera-on-tiktok/
 
 TikTok's camera records one camera at a time. To post a front and back video on TikTok, record both cameras in another app and upload the clip. Which options work, on which phones, and the settings to use.
 
-By Jimmy, developer of ContentCam · 6 November 2026 · Updated 6 November 2026
+By Jimmy, developer of ContentCam · 6 November 2026 · Updated 12 November 2026
 
 To do dual camera on TikTok, record the front and back camera together in another app and upload that clip to TikTok, because TikTok's own camera records one camera at a time. ContentCam's Front & Back mode, which I build, is my pick for most phones: it works on any iPhone running iOS 18 and on Android phones that can run two cameras at once, saves your face and the scene as two separate files, and its Combine editor turns them into one picture-in-picture or split-screen video for TikTok.
 
@@ -47,11 +47,11 @@ The real difference is one baked-in video or two files. Dual Capture, Snapchat a
 
 - **Shape: 9:16 vertical.** TikTok's own video ad specs list vertical 9:16 as the recommended format, at 540×960 or more.
 - **Frame rate: 30fps** for talking and reactions, **60fps** only if you'll slow the clip down. Reasons in [24 vs 30 vs 60fps for social media](https://contentcam.app/blog/24fps-vs-30fps-vs-60fps-social-media/).
-- **Know the caps.** Apple's Dual Capture tops out at 30fps. ContentCam's Front & Back records HD at up to 60fps on iPhones that support it (60fps is Premium) and up to 30fps on Android.
+- **Know the caps.** Apple's Dual Capture tops out at 30fps. ContentCam's Front & Back records in HD at up to 60fps on iPhones that support it (60fps is Premium), in 4K on supported iPhones from iOS 2.9, and up to 30fps on Android.
 
 ## When is another option better than ContentCam for TikTok?
 
-- **You own an iPhone 17, Air, 18 Pro or Duo and post the clip as shot:** Dual Capture is free, already in the Camera app, and records up to 4K. ContentCam's Front & Back records HD. Dual Capture's limits are in [which iPhones have Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/).
+- **You own an iPhone 17, Air, 18 Pro or Duo and post the clip as shot:** Dual Capture is free, already in the Camera app, and records up to 4K into one fixed picture-in-picture file. Dual Capture's limits are in [which iPhones have Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/).
 - **You want a quick clip at no cost on an older iPhone:** Snapchat's Dual Camera is free from iPhone XS and XR.
 - **You only react to other TikToks:** Duet and Green Screen need nothing else installed.
 

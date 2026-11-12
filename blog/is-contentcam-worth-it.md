@@ -4,7 +4,7 @@ Source: https://contentcam.app/blog/is-contentcam-worth-it/
 
 ContentCam is free to use with no ads, no watermark and unlimited 1080p portrait and landscape recording. What Premium adds, which plan is the better deal, what users say, and when it isn't worth paying for.
 
-By Jimmy, developer of ContentCam · 10 November 2026 · Updated 10 November 2026
+By Jimmy, developer of ContentCam · 10 November 2026 · Updated 12 November 2026
 
 ContentCam is worth it if you post the same video both vertically and horizontally, or film your reaction and the scene in front of you at the same time. You can find out for free: the free version records 9:16 and 16:9 at once in 1080p, with no limit on recordings, no ads, no watermark and no account. Premium is worth paying for when you need 4K, 60fps, unlimited Front & Back and Dual Lens, manual exposure controls, the teleprompter, photo mode or timelapse. If you only ever post vertical video and your phone's own camera does the job, you don't need it.
 
@@ -51,7 +51,7 @@ Beyond the two formats, it's a full creator camera:
 
 ## Does ContentCam keep getting better?
 
-Yes, and that's part of the value. ContentCam ships an update every one to two weeks on each platform: 27 iPhone releases since the first one on 14 May 2026, and 16 Android releases since the Google Play launch on 8 June 2026. Recent ones added Combine for Front & Back, 25 and 50fps, pause and resume, a telephoto lens option (beta) and photo mode. Every new feature is included in Premium, and the lifetime purchase includes all of them too. The full history is on the [changelog](https://contentcam.app/changelog/).
+Yes, and that's part of the value. ContentCam ships an update every one to two weeks on each platform: 27 iPhone releases since the first one on 14 May 2026, and 16 Android releases since the Google Play launch on 8 June 2026. Recent ones added 4K in Dual Lens and Front & Back, Apple Log, Combine for Front & Back, 25 and 50fps, pause and resume, a telephoto lens option and photo mode. Every new feature is included in Premium, and the lifetime purchase includes all of them too. The full history is on the [changelog](https://contentcam.app/changelog/).
 
 ## Which ContentCam plan is the better deal?
 
@@ -78,7 +78,6 @@ ContentCam averages 4.8 stars from 580+ ratings across the App Store and Google 
 ## When is ContentCam not worth paying for?
 
 - **You only post vertical video.** The point of ContentCam is getting both formats from one take. If you never need a horizontal version, the free tier may be all you want, or your phone's camera may be enough.
-- **You need 4K from two cameras at once.** Front & Back records both cameras in HD, because phone multi-camera formats top out there. 4K is available in the single-camera modes.
 - **You're on an older iPhone.** ContentCam needs iOS 18, which means iPhone XS, XR or newer.
 - **You want 60fps Front & Back on Android.** On Android, Front & Back records HD at up to 30fps, on phones that can run both cameras together.
 

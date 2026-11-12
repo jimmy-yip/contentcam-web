@@ -16,7 +16,7 @@ Every MixCam claim below comes from MixCam's App Store and Google Play listings 
 - **Watermark.** ContentCam has none, free or Premium. MixCam sells "Remove Watermark" as a separate purchase on the App Store, and on Google Play the developer told a reviewer (9 May 2026) to "upgrade to the PRO version for no watermark".
 - **Recording length.** On Android, MixCam's developer wrote (14 December 2025): "Record 1 minute (free), or up to 3 minutes (PRO)" with dual cameras.
 - **Vertical and horizontal at once.** ContentCam saves a 9:16 file and a 16:9 file from one take. Neither MixCam listing describes that.
-- **Frame rate and manual controls.** ContentCam's Front & Back records up to 60fps in HD on supported iPhones (Premium), with manual ISO, shutter, white balance and exposure in the app. MixCam's listings state no front and back frame rate and no manual ISO or shutter.
+- **Frame rate and manual controls.** ContentCam's Front & Back records in 4K on supported iPhones (from iOS 2.9) and up to 60fps in HD (Premium), with manual ISO, shutter, white balance and exposure in the app. MixCam's listings state no front and back frame rate and no manual ISO or shutter.
 
 ## Where does ContentCam pull ahead?
 
@@ -51,7 +51,7 @@ Steps by phone: [iPhone 15 and 16](https://contentcam.app/blog/record-front-and-
 
 ## Does MixCam record 4K with both cameras?
 
-MixCam's iPhone listing names no resolution. Its Google Play listing says "Save to your device in 4K, 1080p, or 720p", which describes the saved file rather than what each camera captures (both listings checked 11 November 2026). Apple only lets third-party apps record two cameras in formats it marks as multi-camera capable. On an iPhone 18 Pro that list includes 3840 x 2160 at 30 fps but no 4K format at 60 fps, so 4K at 60 fps can't come from two cameras recording at once. ContentCam's Front & Back records HD, as two separate files. To see what any app really records, read the pixel size of a two-camera test file and its originals, then compare the detail: the steps are in [can an iPhone record 4K from the front and back camera at the same time](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/).
+MixCam's iPhone listing names no resolution. Its Google Play listing says "Save to your device in 4K, 1080p, or 720p", which describes the saved file rather than what each camera captures (both listings checked 11 November 2026). Apple only lets third-party apps record two cameras in formats it marks as multi-camera capable. On an iPhone 18 Pro that list includes 3840 x 2160 at 30 fps but no 4K format at 60 fps, so 4K at 60 fps can't come from two cameras recording at once. ContentCam's Front & Back records in 4K on supported iPhones (from iOS 2.9), as two separate files. To see what any app really records, read the pixel size of a two-camera test file and its originals, then compare the detail: the steps are in [can an iPhone record 4K from the front and back camera at the same time](https://contentcam.app/blog/iphone-4k-front-and-back-camera-same-time/).
 
 ## FAQ
 
