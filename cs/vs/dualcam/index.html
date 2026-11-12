@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>ContentCam vs DualCam (2026): test, 4K, 60 snímků/s a bezplatný limit</title>
+  <meta name="description" content="Otestováno ručně: DualCam 1.0.5 neumí 4K oběma kamerami, se zvolenými 60 snímky/s uložil 30 a bezplatné nahrávání zastaví po 60 sekundách. ContentCam natáčí oběma kamerami ve 4K, až při 60 snímcích/s.">
+  <link rel="canonical" href="https://contentcam.app/cs/vs/dualcam/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="ContentCam vs DualCam (2026): test, 4K, 60 snímků/s a bezplatný limit">
+  <meta property="og:description" content="Otestováno ručně: DualCam 1.0.5 neumí 4K oběma kamerami, se zvolenými 60 snímky/s uložil 30 a bezplatné nahrávání zastaví po 60 sekundách. ContentCam natáčí oběma kamerami ve 4K, až při 60 snímcích/s.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/cs/vs/dualcam/">
+  <meta property="og:locale" content="cs_CZ">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ContentCam vs DualCam (2026): test, 4K, 60 snímků/s a bezplatný limit">
+  <meta name="twitter:description" content="Otestováno ručně: DualCam 1.0.5 neumí 4K oběma kamerami, se zvolenými 60 snímky/s uložil 30 a bezplatné nahrávání zastaví po 60 sekundách. ContentCam natáčí oběma kamerami ve 4K, až při 60 snímcích/s.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://contentcam.app/cs/vs/dualcam/",
+      "url": "https://contentcam.app/cs/vs/dualcam/",
+      "name": "ContentCam vs DualCam (2026): test, 4K, 60 snímků/s a bezplatný limit",
+      "description": "Otestováno ručně: DualCam 1.0.5 neumí 4K oběma kamerami, se zvolenými 60 snímky/s uložil 30 a bezplatné nahrávání zastaví po 60 sekundách. ContentCam natáčí oběma kamerami ve 4K, až při 60 snímcích/s.",
+      "image": [
+        "https://contentcam.app/assets/og/og-blog.jpg",
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-first-60-seconds-free.webp",
+          "description": "Platební obrazovka DualCam s nadpisem Unlimited dual-camera recording, First 60 seconds free",
+          "caption": "Platební obrazovka DualCam: bezplatná verze se zastaví po 60 sekundách."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-60fps-unavailable.webp",
+          "description": "Banner DualCam s textem 60 fps unavailable, current format doesn't support this rate",
+          "caption": "Režim dvou formátů: „60 fps unavailable“."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp",
+          "description": "Náhled DualCam v režimu dvou formátů s přerušovaným rámečkem 16:9 uvnitř svislého obrazu kamery",
+          "caption": "Soubor 16:9 je přerušovaný rámeček vyříznutý zevnitř svislého snímku."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp",
+          "description": "Nastavení DualCam s Quality 4K a Frame Rate 60 fps a poznámkou, že 4K je jen s jednou kamerou, nad údaji ve Fotkách o uloženém souboru: 1080p, 1920 x 1080, 29,99 FPS",
+          "caption": "Zvoleno 4K a 60 snímků/s; uložený soubor měl 1080p a 29,99 snímku/s."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-full-photo-library-access.webp",
+          "description": "Dotaz iPhonu: DualCam Record chce plný přístup ke knihovně fotek, aby ukládal nahrávky a zobrazoval nedávná videa",
+          "caption": "DualCam žádá o plný přístup k vaší knihovně fotek."
+        }
+      ],
+      "inLanguage": "cs",
+      "dateModified": "2026-11-12",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "Vývojář ContentCamu",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Domů",
+          "item": "https://contentcam.app/cs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Srovnání",
+          "item": "https://contentcam.app/cs/vs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "DualCam",
+          "item": "https://contentcam.app/cs/vs/dualcam/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Natáčí DualCam ve 4K oběma kamerami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ne. Vlastní nastavení DualCam říká „4K is available in single-camera mode only“ a v mém testu 12. listopadu 2026 bylo nahrávání přední i zadní kamerou v HD při 30 snímcích/s. Stránka v obchodě uvádí „Up to 4K and up to 60 fps, depending on device and mode“, ale se zvoleným 4K a 60 snímky/s měl uložený soubor 1920 x 1080 a 29,99 snímku/s. Režim Přední i zadní v ContentCam natáčí oběma kamerami ve 4K na podporovaných iPhonech (od iOS 2.9) jako dva samostatné soubory. Chcete-li jakoukoli aplikaci ověřit sami, podívejte se ve Fotkách na rozměry v pixelech a snímkovou frekvenci testovacího souboru: postup je v článku umí iPhone natáčet ve 4K přední i zadní kamerou zároveň?."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je DualCam zdarma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jen prvních 60 sekund nahrávání. V mém testu se nahrávání po minutě zastavilo a aplikace mě vyzvala k předplatnému (týdennímu, ročnímu nebo doživotnímu). Bezplatná verze ContentCam nemá časový limit: Jeden objektiv bez omezení v 1080p, 5 záběrů Dva objektivy a 5 Přední i zadní, bez reklam a bez vodoznaku."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je DualCam pro Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ne. Nenašel jsem verzi pro Android od Mobixoft, vývojáře DualCam. Stránka v App Store je pro iPhone a vyžaduje iOS 18. ContentCam je pro iPhone i Android."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ukládá DualCam přední a zadní kameru jako samostatné soubory?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stránka DualCam popisuje, jak ukázat sebe a scénu v jednom videu s obrazem v obraze nebo rozdělenou obrazovkou, a o samostatných souborech z přední a zadní kamery nemluví. Režim Přední i zadní v ContentCam ukládá selfie kameru a zadní kameru jako dva samostatné soubory a editor Combine z nich pak může vytvořit video s obrazem v obraze nebo rozdělenou obrazovkou a originály zachová."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Umí DualCam natáčet svislé a vodorovné video zároveň?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ano, ale v mém testu byl soubor 16:9 vyříznutý ze středu svislého snímku a zvětšený, takže vodorovné video nebylo širší než svislé, a nahrávalo se při 30 snímcích/s. Jeden objektiv v ContentCam nahrává celý snímek kamery 4:3 a oba formáty z něj vyřízne, takže vodorovné video si zachová celou šířku a svislé celou výšku, v HD nebo 4K až při 60 snímcích/s. Jeho režim Dva objektivy natáčí svislé a vodorovné video dvěma různými objektivy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Natáčí DualCam při 60 snímcích/s?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "V mém testu ne. 60 snímků/s zvolit můžete, ale uložený soubor měl 29,99 snímku/s a režim dvou formátů ukazuje „60 fps unavailable“. ContentCam natáčí až při 60 snímcích/s, včetně 4K při 60 snímcích/s v režimu Jeden objektiv a obou kamer při 60 snímcích/s v HD, na podporovaných iPhonech."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/vs/dualcam/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/vs/dualcam/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/vs/dualcam/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/vs/dualcam/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/vs/dualcam/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/vs/dualcam/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/vs/dualcam/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/vs/dualcam/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/vs/dualcam/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/vs/dualcam/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/vs/dualcam/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/vs/dualcam/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/vs/dualcam/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/vs/dualcam/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/vs/dualcam/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/vs/dualcam/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/vs/dualcam/">
+  <link rel="alternate" hreflang="da" href="https://contentcam.app/da/vs/dualcam/">
+  <link rel="alternate" hreflang="no" href="https://contentcam.app/no/vs/dualcam/">
+  <link rel="alternate" hreflang="fi" href="https://contentcam.app/fi/vs/dualcam/">
+  <link rel="alternate" hreflang="pt-PT" href="https://contentcam.app/pt-pt/vs/dualcam/">
+  <link rel="alternate" hreflang="uk" href="https://contentcam.app/uk/vs/dualcam/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/vs/dualcam/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/vs/dualcam/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/vs/dualcam/">
+  <link rel="alternate" hreflang="fil" href="https://contentcam.app/fil/vs/dualcam/">
+  <link rel="alternate" hreflang="bn" href="https://contentcam.app/bn/vs/dualcam/">
+  <link rel="alternate" hreflang="cs" href="https://contentcam.app/cs/vs/dualcam/">
+  <link rel="alternate" hreflang="ro" href="https://contentcam.app/ro/vs/dualcam/">
+  <link rel="alternate" hreflang="hu" href="https://contentcam.app/hu/vs/dualcam/">
+  <link rel="alternate" hreflang="el" href="https://contentcam.app/el/vs/dualcam/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/vs/dualcam/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/cs/"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Otevřít menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Funkce</a>
+        <a href="/pricing/">Ceník</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Podpora</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+  <main class="wrap">
+    <div class="crumbs"><a href="/cs/">Domů</a> › <a href="/cs/vs/">Srovnání</a> › DualCam</div>
+    <article class="post">
+      <h1>ContentCam vs DualCam (2026)</h1>
+      <p class="byline">Otestováno 12. listopadu 2026 · Stránka v App Store ověřena 12. listopadu 2026 · Na rovinu: jsem Jimmy a vyvíjím ContentCam</p>
+
+      <p><strong>Test:</strong> největší rozdíl je v tom, jak každá aplikace vytváří vodorovné video. Soubor 16:9 z DualCam je pruh vyříznutý ze středu svislého obrazu a zvětšený na 1920 x 1080, takže není širší než svislé video a má méně skutečných detailů. Režim Jeden objektiv v ContentCam nahrává celý snímek kamery 4:3 a každý formát z něj vyřízne, takže vodorovné video si zachová celou šířku, svislé celou výšku, obě si zachovají rozlišení a funguje to ve 4K až při 60 snímcích/s. ContentCam natáčí ve 4K také v režimu Dva objektivy (dva zadní objektivy najednou, každý s vlastním záběrem) a oběma kamerami v režimu Přední i zadní. DualCam nemá režim dvou objektivů, neumí 4K oběma kamerami (jeho vlastní nastavení říká, že 4K je jen s jednou kamerou), v žádném vyzkoušeném režimu neměl 60 snímků/s a po 60 sekundách nahrávání zastaví, dokud nezaplatíte. Všechny výsledky a snímky obrazovky jsou níže.</p>
+      <p>Jsem Jimmy, vyvíjím ContentCam a DualCam jsem sám otestoval 12. listopadu 2026. Vše označené jako otestované pochází z tohoto testu, zbytek ze stránky DualCam v App Store, jeho webu a zásad ochrany soukromí.</p>
+
+      <h2>Jaké jsou hlavní rozdíly?</h2>
+      <ul>
+        <li><strong>Jak vzniká vodorovné video.</strong> DualCam vyřízne soubor 16:9 ze svislého obrazu a zvětší ho, takže vodorovné video je stejně široké jako svislé. Jeden objektiv v ContentCam nahrává celý snímek 4:3, takže každý formát dostane celou šířku nebo výšku v plném rozlišení, až 4K při 60 snímcích/s. Dva objektivy jdou dál: jeden zadní objektiv natáčí svislé video, druhý vodorovné, každý s vlastním záběrem.</li>
+        <li><strong>4K a 60 snímků/s.</strong> ContentCam natáčí ve 4K ve všech třech režimech: Jeden objektiv až při 60 snímcích/s, Dva objektivy ve svislém 4K a Přední i zadní oběma kamerami, na podporovaných iPhonech. Nastavení DualCam říká „4K is available in single-camera mode only“ a 60 snímků/s nefungovalo v žádném režimu: se zvoleným 4K a 60 snímky/s měl uložený soubor 1920 x 1080 a 29,99 snímku/s.</li>
+        <li><strong>Bezplatná verze.</strong> DualCam dává zdarma prvních 60 sekund nahrávání, pak se video zastaví a otevře se platební obrazovka. Bezplatná verze ContentCam nahrává bez omezení v režimu Jeden objektiv svisle i vodorovně najednou v 1080p, k tomu 5 nahrávek v režimu Dva objektivy a 5 v režimu Přední i zadní. Žádná z aplikací nemá reklamy ani vodoznak.</li>
+        <li><strong>Ovládání kamery.</strong> Jediné ruční ovládání v DualCam je posuvník expozice bez resetu. Ťuknutí pro zaostření ukáže žlutý čtverec, ale nezaostřilo, a zámek AE/AF je v nabídce dvě ťuknutí daleko místo podržení. ContentCam má ruční expozici, vyvážení bílé, ISO a čas závěrky, zaostření ťuknutím, zámek AE/AF podržením, kolečko zoomu a teleprompter.</li>
+        <li><strong>Vaše knihovna fotek.</strong> DualCam žádá o plný přístup k fotkám, přestože jeho zásady ochrany soukromí tvrdí, že k vaší stávající knihovně nepřistupuje a nečte ji. ContentCam žádá jen o přidávání videí, takže vaši knihovnu nevidí.</li>
+        <li><strong>Platformy.</strong> ContentCam je pro iPhone i Android. DualCam je jen pro iPhone.</li>
+      </ul>
+
+      <h2>Co ukázal můj test DualCam 1.0.5?</h2>
+      <p>12. listopadu 2026 jsem nainstaloval DualCam 1.0.5 z App Store a vyzkoušel každý režim a každé nastavení bezplatné verze, dokud mě nezastavila platební obrazovka. Tady jsou výsledky.</p>
+      <ul>
+        <li><strong>60 sekund zdarma, pak platíte.</strong> Platební obrazovka říká „First 60 seconds free“. Když záběr dosáhne minuty, nahrávání se zastaví a aplikace vás vyzve k předplatnému. Plány jsou týdenní, roční (22,99 USD ročně s 3denní zkušební dobou, dráž než roční plán ContentCam, který má 7denní zkušební dobu) nebo doživotní.</li>
+        <li><strong>Žádné 4K oběma kamerami.</strong> Obrazovka nastavení říká „4K is available in single-camera mode only“. Nahrávání přední i zadní kamerou je v HD.</li>
+        <li><strong>Žádných 60 snímků/s.</strong> Můžete zvolit 4K a 60 snímků/s, ale soubor, který jsem uložil, měl 1080p a 29,99 snímku/s. V režimu dvou formátů aplikace ukazuje „60 fps unavailable“. 60 snímků/s jsem nezískal v režimu jedné kamery, dvou formátů ani přední i zadní.</li>
+        <li><strong>Soubor 16:9 je výřez svislého.</strong> V režimu dvou formátů náhled kreslí do svislého obrazu přerušovaný rámeček 16:9 a právě ten rámeček se zvětší na vodorovný soubor 1920 x 1080. Vodorovné video neukazuje větší šířku než svislé a v mém testu rámeček v náhledu přesně neodpovídal tomu, co se nahrálo.</li>
+        <li><strong>Obraz v obraze nejde zvětšit ani zmenšit.</strong> Roztažení prsty nic nedělá a tlačítko velikosti chybí.</li>
+        <li><strong>Málo ovládání kamery.</strong> Expozice je jediné ruční ovládání a chybí tlačítko resetu, takže ji na 0 vracíte rukou. Ťuknutí pro zaostření ukáže žlutý čtverec, ale ostrost se nezměnila, zámek AE/AF není na podržení, ale v nabídce dvě ťuknutí daleko, kde se snadno nechtěně vypne, a v náhledu nejsou tlačítka ani kolečko zoomu.</li>
+        <li><strong>Stabilizace podle všeho nefungovala.</strong> Se zapnutou Video Stabilization vypadaly moje klipy z ruky pořád nestabilizovaně. Americká recenze s 1 hvězdičkou z 8. srpna říká „there's no stabilization“.</li>
+        <li><strong>Ztracené nahrávky.</strong> Když jsem aplikaci vynuceně zavřel, přešel na plochu nebo zamkl telefon uprostřed záběru, nahrávka se ztratila. ContentCam při automatickém zamknutí nahrává dál a po vynuceném zavření záběr obnoví při dalším otevření.</li>
+        <li><strong>Názvy souborů, které k sobě nesedí.</strong> Svislý a vodorovný soubor ze stejného záběru dostanou různé náhodné názvy a jedinou nápovědou je „_portrait“ nebo „_landscape“ na konci. ContentCam ukládá do projektů, scén a záběrů s odpovídajícími názvy souborů.</li>
+        <li><strong>Plný přístup ke knihovně fotek.</strong> DualCam žádá o plný přístup ke knihovně fotek „to save your recordings and show your recent videos“ a vytvoří ve Fotkách vlastní album DualCam. Plný přístup umožní aplikaci vidět každou vaši fotku a každé video, a přesto jeho zásady ochrany soukromí říkají „We do not access, read, or transmit any existing content in your photo library.“ K uložení videa plný přístup potřeba není. ContentCam žádá jen o přidávání videí do Fotek, takže vaši knihovnu nevidí.</li>
+        <li><strong>Účet, který jste nezaložili.</strong> V nastavení je „Delete account and all data“, ale aplikace mě nikdy nežádala o registraci ani se o účtu nezmínila. Zásady ochrany soukromí vysvětlují, že pro každou instalaci vytvoří anonymní účet a posílá hlášení o pádech do Sentry, včetně vaší IP adresy a krátkého záznamu posledních akcí v aplikaci. ContentCam žádný účet nemá.</li>
+        <li><strong>Chybějící funkce.</strong> Chybí teleprompter, režim dvou objektivů (dva zadní objektivy najednou), 25 a 50 snímků/s, časosběr, Apple Log, měřič hlasitosti a správa projektů či záběrů. ContentCam má všechno.</li>
+      </ul>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-first-60-seconds-free.webp" alt="Platební obrazovka DualCam s nadpisem Unlimited dual-camera recording, First 60 seconds free" width="900" height="409" loading="lazy" decoding="async">
+        <figcaption>Platební obrazovka DualCam: bezplatná verze se zastaví po 60 sekundách.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-60fps-unavailable.webp" alt="Banner DualCam s textem 60 fps unavailable, current format doesn't support this rate" width="900" height="322" loading="lazy" decoding="async">
+        <figcaption>Režim dvou formátů: „60 fps unavailable“.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp" alt="Náhled DualCam v režimu dvou formátů s přerušovaným rámečkem 16:9 uvnitř svislého obrazu kamery" width="900" height="1365" loading="lazy" decoding="async">
+        <figcaption>Soubor 16:9 je přerušovaný rámeček vyříznutý zevnitř svislého snímku.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp" alt="Nastavení DualCam s Quality 4K a Frame Rate 60 fps a poznámkou, že 4K je jen s jednou kamerou, nad údaji ve Fotkách o uloženém souboru: 1080p, 1920 x 1080, 29,99 FPS" width="900" height="1243" loading="lazy" decoding="async">
+        <figcaption>Zvoleno 4K a 60 snímků/s; uložený soubor měl 1080p a 29,99 snímku/s.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-full-photo-library-access.webp" alt="Dotaz iPhonu: DualCam Record chce plný přístup ke knihovně fotek, aby ukládal nahrávky a zobrazoval nedávná videa" width="900" height="356" loading="lazy" decoding="async">
+        <figcaption>DualCam žádá o plný přístup k vaší knihovně fotek.</figcaption>
+      </figure>
+
+      <h2>Jak si ContentCam vede ve stejných testech?</h2>
+      <ul>
+        <li><strong>4K v každém režimu:</strong> Jeden objektiv až při 60 snímcích/s, Dva objektivy ve svislém 4K a Přední i zadní oběma kamerami ve 4K, na podporovaných iPhonech (iOS 2.9).</li>
+        <li><strong>Vodorovné video v plné šířce:</strong> Jeden objektiv vyřízne oba formáty z celého snímku 4:3 v plném rozlišení a Dva objektivy natáčí každý formát vlastním objektivem.</li>
+        <li><strong>60 snímků/s:</strong> až 60 snímků/s, i oběma kamerami v HD.</li>
+        <li><strong>Bezplatná verze:</strong> bez časového limitu, bez reklam, bez vodoznaku.</li>
+        <li><strong>Obraz v obraze:</strong> přetáhněte, roztáhněte prsty nebo ťukněte pro změnu velikosti; dvojitým ťuknutím ho vycentrujete.</li>
+        <li><strong>Ovládání:</strong> expozice, vyvážení bílé, ISO, čas závěrky, zaostření ťuknutím, zámek AE/AF podržením, kolečko zoomu, automaticky posouvaný teleprompter, 25 a 50 snímků/s, časosběr, Apple Log a měřič hlasitosti.</li>
+        <li><strong>Bezpečné záběry:</strong> při automatickém zamknutí nahrává dál a obnoví vynuceně zavřený záběr.</li>
+        <li><strong>Soukromí:</strong> přístup k Fotkám jen pro přidávání a žádný účet.</li>
+      </ul>
+
+      <p><strong>Co stojí za to vědět o vývojáři.</strong> Mobixoft vydal v roce 2026 v App Store sedm aplikací, mezi nimi DualCam, a vedle ní AI skener stolice, odhadce hodinek, určovač kamenů, určovač bodnutí hmyzem, odstraňovač ticha a plánovač cest. Všechny jeho aplikace mají dohromady 20 amerických hodnocení. DualCam má od vydání v dubnu pět verzí. O DualCam to nic nedokazuje, ale pozornost jednoho týmu se dělí mezi mnoho aplikací. Moje jde celá do ContentCam: 32 aktualizací pro iOS a Android (viz <a href="/changelog/">historie změn</a>) a hodnocení 4,8 od více než 580 tvůrců.</p>
+      <p><strong>Pro koho je DualCam:</strong> pro někoho, kdo si chce vyzkoušet jednoduchý klip obraz v obraze nebo 9:16 + 16:9 kratší než minuta. Pokud potřebujete 4K oběma kamerami, 60 snímků/s, vodorovné video v plné šířce, záběry delší než minuta nebo skutečné ovládání kamery, nestačí.</p>
+
+      <h2>Jak si stojí parametr po parametru?</h2>
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th></th><th>ContentCam</th><th>DualCam</th></tr></thead>
+        <tbody>
+          <tr><td>Bezplatná verze</td><td>Jeden objektiv bez omezení (1080p), k tomu 5 záběrů Dva objektivy a 5 Přední i zadní</td><td>Prvních 60 sekund nahrávání, pak platební obrazovka (test)</td></tr>
+          <tr><td>Plány</td><td>Roční se 7denní zkušební dobou, měsíční nebo doživotní; bez týdenního</td><td>Týdenní, roční (22,99 USD, 3denní zkušební doba) nebo doživotní</td></tr>
+          <tr><td>Reklamy</td><td>Žádné, zdarma i v Premium</td><td>Žádné (test)</td></tr>
+          <tr><td>Vodoznak</td><td>Žádný, zdarma i v Premium</td><td>Žádný (test)</td></tr>
+          <tr><td>Platformy</td><td>iPhone (iOS 18 nebo novější) a Android</td><td>Jen iPhone (iOS 18 nebo novější)</td></tr>
+          <tr><td>4K</td><td>Všechny tři režimy na podporovaných iPhonech: Jeden objektiv až 60 snímků/s, Dva objektivy svisle, Přední i zadní oběma kamerami</td><td>Jen s jednou kamerou, bez 4K oběma kamerami (test)</td></tr>
+          <tr><td>60 snímků/s</td><td>Až 60 snímků/s: 4K 60 v režimu Jeden objektiv, HD 60 oběma kamerami (Premium)</td><td>Ne; se zvolenými 60 snímky/s uložil soubor s 29,99 snímku/s (test)</td></tr>
+          <tr><td>Svisle i vodorovně z jednoho záběru</td><td>Ano; Jeden objektiv vyřízne oba z celého snímku 4:3 v plném rozlišení, nebo Dva objektivy natočí každý vlastním objektivem</td><td>Ano, ale soubor 16:9 je vyříznutý ze svislého snímku a zvětšený (test)</td></tr>
+          <tr><td>Dva objektivy (dva zadní objektivy najednou)</td><td>Ano</td><td>Ne (test)</td></tr>
+          <tr><td>Změna velikosti obrazu v obraze</td><td>Ano: přetažení, roztažení prsty nebo ťuknutí; dvojité ťuknutí vycentruje</td><td>Ne (test)</td></tr>
+          <tr><td>Ruční ovládání</td><td>Expozice, vyvážení bílé, ISO, čas závěrky; zaostření ťuknutím, zámek AE/AF podržením, kolečko zoomu</td><td>Jen posuvník expozice bez resetu; zaostření ťuknutím nefungovalo; zámek AE/AF jen v nabídce, dvě ťuknutí daleko (test)</td></tr>
+          <tr><td>Teleprompter</td><td>Ano, posouvá se automaticky</td><td>Ne (test)</td></tr>
+          <tr><td>Snímková frekvence</td><td>24, 25, 30, 50 nebo 60 snímků/s</td><td>Bez 25 a 50 snímků/s (test)</td></tr>
+          <tr><td>Časosběr, Apple Log, měřič hlasitosti</td><td>Ano</td><td>Ne (test)</td></tr>
+          <tr><td>Ztráta záběru při vynuceném zavření nebo zamknutí</td><td>Ne; nahrává dál při automatickém zamknutí, obnoví vynuceně zavřené záběry</td><td>Ano, ztracen (test)</td></tr>
+          <tr><td>Projekty a záběry</td><td>Projekty, scény a záběry, odpovídající názvy souborů</td><td>Žádné; náhodné, nesouhlasící názvy souborů (test)</td></tr>
+          <tr><td>Přístup ke knihovně fotek</td><td>Jen přidávání; vaši knihovnu nevidí</td><td>Plný přístup (test)</td></tr>
+          <tr><td>Účet</td><td>Žádný</td><td>Anonymní účet pro každou instalaci (zásady ochrany soukromí)</td></tr>
+          <tr><td>Poslední aktualizace</td><td>iOS 2.9 (12. listopadu 2026), Android 2.7.1</td><td>iOS 1.0.5 (9. listopadu 2026)</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Postup podle telefonu: <a href="/blog/record-front-and-back-camera-iphone-15-16/">iPhone 15 a 16</a>, <a href="/cs/blog/record-front-and-back-camera-same-time-android/">Android</a>.</p>
+
+      <h2>Natáčí DualCam ve 4K oběma kamerami?</h2>
+      <p>Ne. Vlastní nastavení DualCam říká „4K is available in single-camera mode only“ a v mém testu 12. listopadu 2026 bylo nahrávání přední i zadní kamerou v HD při 30 snímcích/s. Stránka v obchodě uvádí „Up to 4K and up to 60 fps, depending on device and mode“, ale se zvoleným 4K a 60 snímky/s měl uložený soubor 1920 x 1080 a 29,99 snímku/s. Režim Přední i zadní v ContentCam natáčí oběma kamerami ve 4K na podporovaných iPhonech (od iOS 2.9) jako dva samostatné soubory. Chcete-li jakoukoli aplikaci ověřit sami, podívejte se ve Fotkách na rozměry v pixelech a snímkovou frekvenci testovacího souboru: postup je v článku <a href="/blog/iphone-4k-front-and-back-camera-same-time/">umí iPhone natáčet ve 4K přední i zadní kamerou zároveň?</a>.</p>
+
+      <h2>Časté otázky</h2>
+      <h3>Je DualCam zdarma?</h3>
+      <p>Jen prvních 60 sekund nahrávání. V mém testu se nahrávání po minutě zastavilo a aplikace mě vyzvala k předplatnému (týdennímu, ročnímu nebo doživotnímu). Bezplatná verze ContentCam nemá časový limit: Jeden objektiv bez omezení v 1080p, 5 záběrů Dva objektivy a 5 Přední i zadní, bez reklam a bez vodoznaku.</p>
+      <h3>Je DualCam pro Android?</h3>
+      <p>Ne. Nenašel jsem verzi pro Android od Mobixoft, vývojáře DualCam. Stránka v App Store je pro iPhone a vyžaduje iOS 18. ContentCam je pro iPhone i Android.</p>
+      <h3>Ukládá DualCam přední a zadní kameru jako samostatné soubory?</h3>
+      <p>Stránka DualCam popisuje, jak ukázat sebe a scénu v jednom videu s obrazem v obraze nebo rozdělenou obrazovkou, a o samostatných souborech z přední a zadní kamery nemluví. Režim Přední i zadní v ContentCam ukládá selfie kameru a zadní kameru jako dva samostatné soubory a editor Combine z nich pak může vytvořit video s obrazem v obraze nebo rozdělenou obrazovkou a originály zachová.</p>
+      <h3>Umí DualCam natáčet svislé a vodorovné video zároveň?</h3>
+      <p>Ano, ale v mém testu byl soubor 16:9 vyříznutý ze středu svislého snímku a zvětšený, takže vodorovné video nebylo širší než svislé, a nahrávalo se při 30 snímcích/s. Jeden objektiv v ContentCam nahrává celý snímek kamery 4:3 a oba formáty z něj vyřízne, takže vodorovné video si zachová celou šířku a svislé celou výšku, v HD nebo 4K až při 60 snímcích/s. Jeho režim Dva objektivy natáčí svislé a vodorovné video dvěma různými objektivy.</p>
+      <h3>Natáčí DualCam při 60 snímcích/s?</h3>
+      <p>V mém testu ne. 60 snímků/s zvolit můžete, ale uložený soubor měl 29,99 snímku/s a režim dvou formátů ukazuje „60 fps unavailable“. ContentCam natáčí až při 60 snímcích/s, včetně 4K při 60 snímcích/s v režimu Jeden objektiv a obou kamer při 60 snímcích/s v HD, na podporovaných iPhonech.</p>
+
+      <div class="post-cta">
+        <p><strong>Vyzkoušej ContentCam zdarma.</strong> Přední a zadní kamera jako dva samostatné soubory, video na výšku i na šířku z jednoho záběru, bez reklam a bez vodoznaku. Ke stažení zdarma na iPhonu i Androidu.</p>
+        <p class="cta-proof"><span class="star" aria-hidden="true">★</span> Hodnocení 4,8 od 580+ tvůrců v <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> a <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>.</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&amp;ct=cs-vs-dualcam&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Stáhnout v App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dvs%26utm_campaign%3Dcs-vs-dualcam"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Nyní na Google Play" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>Související: <a href="/cs/blog/best-front-and-back-dual-camera-apps/">nejlepší aplikace pro přední i zadní kameru</a> · <a href="/blog/dual-camera-app-without-ads/">aplikace se dvěma kamerami bez reklam</a> · <a href="/cs/blog/dual-format-recording-apps-compared/">všechny aplikace pro svislé a vodorovné video v porovnání</a></p>
+      <p class="byline">Zdroje: vlastní test DualCam 1.0.5, 12. listopadu 2026; zásady ochrany soukromí DualCam (dualcam.app/privacy-policy, aktualizováno 6. listopadu 2026); stránka vývojáře Mobixoft LLC; stránka DualCam v App Store (id6761523366, „DualCam: Dual Camera Recorder“, Mobixoft LLC, popis, nákupy v aplikaci, hodnocení, kompatibilita, historie verzí); dualcam.app; stránky ceníku, podpory a historie změn contentcam.app. Ověřeno 12. listopadu 2026.</p>
+    </article>
+  </main>
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Funkce</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/cs/features/dual-camera/">Dvě kamery</a>
+        <a href="/features/manual-controls/">Ruční ovládání</a>
+        <a href="/cs/android/">Android</a>
+        <a href="/pricing/">Ceník</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Podpora</a>
+        <a href="/press/">Pro média</a>
+        <a href="/cs/vs/">Srovnání</a>
+        <a href="/changelog/">Seznam změn</a>
+        <a href="/privacy">Soukromí</a>
+        <a href="/terms">Podmínky</a>
+      </div>
+      <div class="fine">Hodnocení 4,8 od 580+ tvůrců v <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> a <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a> (listopad 2026). ContentCam je nezávislá aplikace fotoaparátu, kterou v Austrálii vytváří jeden vývojář. © 2026 ContentCam. Apple, logo Apple, iPhone a App Store jsou ochranné známky společnosti Apple Inc. Google Play a logo Google Play jsou ochranné známky společnosti Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/vs/dualcam/" hreflang="en" lang="en">English</a> · <a href="/de/vs/dualcam/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/vs/dualcam/" hreflang="es" lang="es">Español</a> · <a href="/fr/vs/dualcam/" hreflang="fr" lang="fr">Français</a> · <a href="/it/vs/dualcam/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/vs/dualcam/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/vs/dualcam/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/vs/dualcam/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/vs/dualcam/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/vs/dualcam/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/vs/dualcam/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/vs/dualcam/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/vs/dualcam/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/vs/dualcam/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/vs/dualcam/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/vs/dualcam/" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/vs/dualcam/" hreflang="sv" lang="sv">Svenska</a> · <a href="/da/vs/dualcam/" hreflang="da" lang="da">Dansk</a> · <a href="/no/vs/dualcam/" hreflang="no" lang="no">Norsk</a> · <a href="/fi/vs/dualcam/" hreflang="fi" lang="fi">Suomi</a> · <a href="/pt-pt/vs/dualcam/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a> · <a href="/uk/vs/dualcam/" hreflang="uk" lang="uk">Українська</a> · <a href="/hi/vs/dualcam/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/vs/dualcam/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/vs/dualcam/" hreflang="ms" lang="ms">Bahasa Melayu</a> · <a href="/fil/vs/dualcam/" hreflang="fil" lang="fil">Filipino</a> · <a href="/bn/vs/dualcam/" hreflang="bn" lang="bn">বাংলা</a> · <strong>Čeština</strong> · <a href="/ro/vs/dualcam/" hreflang="ro" lang="ro">Română</a> · <a href="/hu/vs/dualcam/" hreflang="hu" lang="hu">Magyar</a> · <a href="/el/vs/dualcam/" hreflang="el" lang="el">Ελληνικά</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>ContentCam vs DualCam (2026): test, 4K, 60 kl./s i darmowy limit</title>
+  <meta name="description" content="Przetestowane ręcznie: DualCam 1.0.5 nie nagrywa 4K obiema kamerami, przy wybranych 60 kl./s zapisał 30 kl./s i przerywa darmowe nagrywanie po 60 sekundach. ContentCam nagrywa obiema kamerami w 4K, do 60 kl./s.">
+  <link rel="canonical" href="https://contentcam.app/pl/vs/dualcam/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="ContentCam vs DualCam (2026): test, 4K, 60 kl./s i darmowy limit">
+  <meta property="og:description" content="Przetestowane ręcznie: DualCam 1.0.5 nie nagrywa 4K obiema kamerami, przy wybranych 60 kl./s zapisał 30 kl./s i przerywa darmowe nagrywanie po 60 sekundach. ContentCam nagrywa obiema kamerami w 4K, do 60 kl./s.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/pl/vs/dualcam/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ContentCam vs DualCam (2026): test, 4K, 60 kl./s i darmowy limit">
+  <meta name="twitter:description" content="Przetestowane ręcznie: DualCam 1.0.5 nie nagrywa 4K obiema kamerami, przy wybranych 60 kl./s zapisał 30 kl./s i przerywa darmowe nagrywanie po 60 sekundach. ContentCam nagrywa obiema kamerami w 4K, do 60 kl./s.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://contentcam.app/pl/vs/dualcam/",
+      "url": "https://contentcam.app/pl/vs/dualcam/",
+      "name": "ContentCam vs DualCam (2026): test, 4K, 60 kl./s i darmowy limit",
+      "description": "Przetestowane ręcznie: DualCam 1.0.5 nie nagrywa 4K obiema kamerami, przy wybranych 60 kl./s zapisał 30 kl./s i przerywa darmowe nagrywanie po 60 sekundach. ContentCam nagrywa obiema kamerami w 4K, do 60 kl./s.",
+      "image": [
+        "https://contentcam.app/assets/og/og-blog.jpg",
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-first-60-seconds-free.webp",
+          "description": "Ekran płatności DualCam z nagłówkiem Unlimited dual-camera recording, First 60 seconds free",
+          "caption": "Ekran płatności DualCam: darmowa wersja zatrzymuje się po 60 sekundach."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-60fps-unavailable.webp",
+          "description": "Baner DualCam z napisem 60 fps unavailable, current format doesn't support this rate",
+          "caption": "Tryb podwójnego formatu: „60 fps unavailable”."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp",
+          "description": "Podgląd podwójnego formatu w DualCam z przerywaną ramką 16:9 wewnątrz pionowego obrazu z kamery",
+          "caption": "Plik 16:9 to przerywana ramka wycięta ze środka pionowej klatki."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp",
+          "description": "Ustawienia DualCam z Quality 4K i Frame Rate 60 fps oraz uwagą, że 4K jest dostępne tylko z jedną kamerą, nad informacjami ze Zdjęć o zapisanym pliku: 1080p, 1920 x 1080, 29,99 FPS",
+          "caption": "Wybrane 4K i 60 kl./s; zapisany plik miał 1080p i 29,99 kl./s."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-full-photo-library-access.webp",
+          "description": "Monit iPhone'a: DualCam Record chce pełnego dostępu do biblioteki zdjęć, by zapisywać nagrania i pokazywać ostatnie filmy",
+          "caption": "DualCam prosi o pełny dostęp do twojej biblioteki zdjęć."
+        }
+      ],
+      "dateModified": "2026-11-12",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "Deweloper aplikacji ContentCam",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Strona główna",
+          "item": "https://contentcam.app/pl/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Porównania",
+          "item": "https://contentcam.app/pl/vs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "DualCam",
+          "item": "https://contentcam.app/pl/vs/dualcam/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Czy DualCam nagrywa w 4K obiema kamerami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nie. Własne ustawienia DualCam mówią „4K is available in single-camera mode only”, a w moim teście 12 listopada 2026 nagrywanie przodem i tyłem było w HD przy 30 kl./s. Strona w sklepie mówi „Up to 4K and up to 60 fps, depending on device and mode”, ale przy wybranym 4K i 60 kl./s zapisany plik miał 1920 x 1080 i 29,99 kl./s. Tryb „Przód i tył” w ContentCam nagrywa obiema kamerami w 4K na obsługiwanych iPhone'ach (od iOS 2.9), jako dwa osobne pliki. Żeby samemu sprawdzić dowolną aplikację, odczytaj rozmiar w pikselach i liczbę klatek pliku testowego w Zdjęciach: kroki są w artykule czy iPhone nagra 4K przednią i tylną kamerą jednocześnie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy DualCam jest darmowy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tylko przez pierwsze 60 sekund nagrania. W moim teście nagrywanie zatrzymało się po minucie, a aplikacja poprosiła o subskrypcję (tygodniową, roczną albo dożywotnią). Darmowa wersja ContentCam nie ma limitu czasu: „Jeden obiektyw” bez limitu w 1080p, 5 ujęć „Dwa obiektywy” i 5 „Przód i tył”, bez reklam i bez znaku wodnego."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy DualCam jest na Androida?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nie. Nie znalazłem wersji na Androida od Mobixoft, twórcy DualCam. Strona w App Store dotyczy iPhone'a i wymaga iOS 18. ContentCam działa na iPhonie i Androidzie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy DualCam zapisuje przednią i tylną kamerę jako osobne pliki?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Strona DualCam opisuje pokazywanie siebie i sceny w jednym filmie z obrazem w obrazie lub podzielonym ekranem i nie wspomina o osobnych plikach z przedniej i tylnej kamery. Tryb „Przód i tył” w ContentCam zapisuje kamerę do selfie i tylną jako dwa osobne pliki, a edytor Combine może potem zrobić film z obrazem w obrazie lub podzielonym ekranem, zachowując oryginały."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy DualCam nagrywa pion i poziom jednocześnie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak, ale w moim teście plik 16:9 był wycięty ze środka pionowej klatki i powiększony, więc poziomy film nie był szerszy niż pionowy, i nagrywał w 30 kl./s. „Jeden obiektyw” w ContentCam nagrywa pełną klatkę 4:3 aparatu i wycina z niej oba formaty, więc poziomy zachowuje pełną szerokość, a pionowy pełną wysokość, w HD lub 4K do 60 kl./s. Jego tryb „Dwa obiektywy” nagrywa pion i poziom dwoma różnymi obiektywami."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy DualCam nagrywa w 60 kl./s?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "W moim teście nie. Możesz wybrać 60 kl./s, ale zapisany plik miał 29,99 kl./s, a tryb podwójnego formatu pokazuje „60 fps unavailable”. ContentCam nagrywa do 60 kl./s, także 4K przy 60 kl./s w trybie „Jeden obiektyw” i obiema kamerami w HD przy 60 kl./s, na obsługiwanych iPhone'ach."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <link rel="alternate" type="text/markdown" href="https://contentcam.app/vs/dualcam.md">
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/vs/dualcam/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/vs/dualcam/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/vs/dualcam/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/vs/dualcam/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/vs/dualcam/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/vs/dualcam/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/vs/dualcam/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/vs/dualcam/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/vs/dualcam/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/vs/dualcam/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/vs/dualcam/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/vs/dualcam/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/vs/dualcam/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/vs/dualcam/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/vs/dualcam/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/vs/dualcam/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/vs/dualcam/">
+  <link rel="alternate" hreflang="da" href="https://contentcam.app/da/vs/dualcam/">
+  <link rel="alternate" hreflang="no" href="https://contentcam.app/no/vs/dualcam/">
+  <link rel="alternate" hreflang="fi" href="https://contentcam.app/fi/vs/dualcam/">
+  <link rel="alternate" hreflang="pt-PT" href="https://contentcam.app/pt-pt/vs/dualcam/">
+  <link rel="alternate" hreflang="uk" href="https://contentcam.app/uk/vs/dualcam/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/vs/dualcam/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/vs/dualcam/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/vs/dualcam/">
+  <link rel="alternate" hreflang="fil" href="https://contentcam.app/fil/vs/dualcam/">
+  <link rel="alternate" hreflang="bn" href="https://contentcam.app/bn/vs/dualcam/">
+  <link rel="alternate" hreflang="cs" href="https://contentcam.app/cs/vs/dualcam/">
+  <link rel="alternate" hreflang="ro" href="https://contentcam.app/ro/vs/dualcam/">
+  <link rel="alternate" hreflang="hu" href="https://contentcam.app/hu/vs/dualcam/">
+  <link rel="alternate" hreflang="el" href="https://contentcam.app/el/vs/dualcam/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/vs/dualcam/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/pl/"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Otwórz menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Funkcje</a>
+        <a href="/pricing/">Cennik</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Pomoc</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/pl/">Strona główna</a> › <a href="/pl/vs/">Porównania</a> › DualCam</div>
+    <article class="post">
+      <h1>ContentCam vs DualCam (2026)</h1>
+      <p class="byline">Przetestowane 12 listopada 2026 · Strona w App Store sprawdzona 12 listopada 2026 · Uczciwie: jestem Jimmy i tworzę ContentCam</p>
+
+      <p><strong>Test:</strong> największa różnica to sposób, w jaki każda aplikacja tworzy poziomy film. Plik 16:9 z DualCam to pasek wycięty ze środka pionowego obrazu i powiększony do 1920 x 1080, więc nie jest szerszy niż pionowy film i ma mniej prawdziwych szczegółów. Tryb „Jeden obiektyw” w ContentCam nagrywa pełną klatkę 4:3 aparatu i wycina z niej każdy format, więc poziomy zachowuje pełną szerokość, pionowy pełną wysokość, oba zachowują rozdzielczość, a działa to w 4K do 60 kl./s. ContentCam nagrywa też w 4K w trybie „Dwa obiektywy” (dwa tylne obiektywy naraz, każdy z własnym kadrem) i obiema kamerami w trybie „Przód i tył”. DualCam nie ma trybu dwóch obiektywów, nie nagrywa 4K obiema kamerami (jego własne ustawienia mówią, że 4K jest tylko z jedną kamerą), w żadnym sprawdzonym trybie nie dał 60 kl./s i przerywa nagrywanie po 60 sekundach, dopóki nie zapłacisz. Wszystkie wyniki i zrzuty ekranu są poniżej.</p>
+      <p>Jestem Jimmy, tworzę ContentCam i sam przetestowałem DualCam 12 listopada 2026. Wszystko oznaczone jako przetestowane pochodzi z tego testu, a reszta ze strony DualCam w App Store, jego witryny i polityki prywatności.</p>
+
+      <h2>Jakie są najważniejsze różnice?</h2>
+      <ul>
+        <li><strong>Jak powstaje poziomy film.</strong> DualCam wycina plik 16:9 z pionowego obrazu i go powiększa, więc poziomy film jest tak samo szeroki jak pionowy. „Jeden obiektyw” w ContentCam nagrywa pełną klatkę 4:3, więc każdy format dostaje pełną szerokość lub wysokość w pełnej rozdzielczości, do 4K przy 60 kl./s. „Dwa obiektywy” idzie dalej: jeden tylny obiektyw nagrywa pion, drugi poziom, każdy z własnym kadrem.</li>
+        <li><strong>4K i 60 kl./s.</strong> ContentCam nagrywa w 4K we wszystkich trzech trybach: „Jeden obiektyw” do 60 kl./s, „Dwa obiektywy” w pionowym 4K i „Przód i tył” obiema kamerami, na obsługiwanych iPhone'ach. Ustawienia DualCam mówią „4K is available in single-camera mode only”, a 60 kl./s nie zadziałało w żadnym trybie: przy wybranym 4K i 60 kl./s zapisany plik miał 1920 x 1080 i 29,99 kl./s.</li>
+        <li><strong>Wersja darmowa.</strong> DualCam daje za darmo pierwsze 60 sekund nagrania, potem film się zatrzymuje i otwiera się ekran płatności. Darmowa wersja ContentCam nagrywa bez limitu w trybie „Jeden obiektyw” w pionie i poziomie naraz, w 1080p, plus 5 nagrań w trybie „Dwa obiektywy” i 5 w trybie „Przód i tył”. Żadna z aplikacji nie ma reklam ani znaku wodnego.</li>
+        <li><strong>Sterowanie aparatem.</strong> Jedyne ręczne ustawienie w DualCam to suwak ekspozycji bez resetu. Dotknięcie, by ustawić ostrość, pokazuje żółty kwadrat, ale ostrość się nie ustawiła, a blokada AE/AF jest w menu dwa dotknięcia dalej zamiast pod przytrzymaniem. ContentCam ma ręczną ekspozycję, balans bieli, ISO i czas naświetlania, ostrość dotknięciem, blokadę AE/AF przytrzymaniem, pokrętło zoomu i teleprompter.</li>
+        <li><strong>Twoja biblioteka zdjęć.</strong> DualCam prosi o pełny dostęp do zdjęć, choć jego polityka prywatności mówi, że nie korzysta z istniejącej biblioteki ani jej nie odczytuje. ContentCam prosi tylko o dodawanie filmów, więc nie widzi twojej biblioteki.</li>
+        <li><strong>Platformy.</strong> ContentCam działa na iPhonie i Androidzie. DualCam jest tylko na iPhone'a.</li>
+      </ul>
+
+      <h2>Co wykazał mój test DualCam 1.0.5?</h2>
+      <p>12 listopada 2026 zainstalowałem DualCam 1.0.5 z App Store i sprawdziłem każdy tryb i ustawienie w darmowej wersji, aż zatrzymał mnie ekran płatności. Oto wyniki.</p>
+      <ul>
+        <li><strong>60 sekund za darmo, potem płacisz.</strong> Ekran płatności mówi „First 60 seconds free”. Gdy ujęcie dojdzie do minuty, nagrywanie się zatrzymuje, a aplikacja prosi o subskrypcję. Plany to tygodniowy, roczny (22,99 USD rocznie z 3-dniowym okresem próbnym, drożej niż roczny plan ContentCam, który ma 7 dni próbnych) albo dożywotni.</li>
+        <li><strong>Brak 4K obiema kamerami.</strong> Ekran ustawień mówi „4K is available in single-camera mode only”. Nagrywanie przodem i tyłem jest w HD.</li>
+        <li><strong>Brak 60 kl./s.</strong> Możesz wybrać 4K i 60 kl./s, ale zapisany plik miał 1080p i 29,99 kl./s. W trybie podwójnego formatu aplikacja pokazuje „60 fps unavailable”. Nie dostałem 60 kl./s ani w trybie jednej kamery, ani podwójnego formatu, ani przód i tył.</li>
+        <li><strong>Plik 16:9 to wycinek pionowego.</strong> W trybie podwójnego formatu podgląd rysuje przerywaną ramkę 16:9 wewnątrz pionowego obrazu, a ta ramka jest powiększana do poziomego pliku 1920 x 1080. Poziomy film nie pokazuje więcej szerokości niż pionowy, a w moim teście ramka w podglądzie nie pokrywała się dokładnie z tym, co zostało nagrane.</li>
+        <li><strong>Okna obrazu w obrazie nie da się powiększyć.</strong> Szczypanie nic nie robi i nie ma przycisku rozmiaru.</li>
+        <li><strong>Mało ustawień aparatu.</strong> Ekspozycja to jedyne ręczne ustawienie i nie ma przycisku resetu, więc trzeba ją ręcznie przeciągnąć z powrotem na 0. Dotknięcie, by ustawić ostrość, pokazuje żółty kwadrat, ale ostrość się nie zmieniła, blokada AE/AF nie jest pod przytrzymaniem, tylko w menu dwa dotknięcia dalej, gdzie łatwo ją przypadkiem wyłączyć, a w podglądzie nie ma przycisków ani pokrętła zoomu.</li>
+        <li><strong>Stabilizacja chyba nie działała.</strong> Przy włączonym Video Stabilization moje klipy nagrane z ręki nadal wyglądały na niestabilizowane. Recenzja z USA z 1 gwiazdką z 8 sierpnia mówi „there's no stabilization”.</li>
+        <li><strong>Utracone nagrania.</strong> Gdy wymusiłem zamknięcie aplikacji, przeszedłem na ekran główny albo zablokowałem telefon w trakcie ujęcia, nagranie przepadło. ContentCam nagrywa dalej przy automatycznej blokadzie i odtwarza ujęcie po wymuszonym zamknięciu przy następnym otwarciu.</li>
+        <li><strong>Niepasujące nazwy plików.</strong> Pionowy i poziomy plik z tego samego ujęcia dostają różne losowe nazwy, a jedyną wskazówką jest „_portrait” albo „_landscape” na końcu. ContentCam zapisuje w projektach, scenach i ujęciach z pasującymi nazwami plików.</li>
+        <li><strong>Pełny dostęp do biblioteki zdjęć.</strong> DualCam prosi o pełny dostęp do biblioteki zdjęć „to save your recordings and show your recent videos” i tworzy w Zdjęciach własny album DualCam. Pełny dostęp pozwala aplikacji zobaczyć każde twoje zdjęcie i film, a jednak jej polityka prywatności mówi „We do not access, read, or transmit any existing content in your photo library.” Do zapisania filmu pełny dostęp nie jest potrzebny. ContentCam prosi tylko o dodawanie filmów do Zdjęć, więc nie widzi twojej biblioteki.</li>
+        <li><strong>Konto, którego nie zakładałeś.</strong> W ustawieniach jest „Delete account and all data”, ale aplikacja nigdy nie prosiła mnie o rejestrację ani nie wspominała o koncie. Polityka prywatności wyjaśnia, że dla każdej instalacji tworzy anonimowe konto i wysyła raporty o awariach do Sentry, łącznie z twoim adresem IP i krótkim zapisem ostatnich działań w aplikacji. ContentCam nie ma kont.</li>
+        <li><strong>Brakujące funkcje.</strong> Brak telepromptera, trybu dwóch obiektywów (dwa tylne obiektywy naraz), 25 i 50 kl./s, timelapse, Apple Log, miernika poziomu dźwięku i zarządzania projektami czy ujęciami. ContentCam ma to wszystko.</li>
+      </ul>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-first-60-seconds-free.webp" alt="Ekran płatności DualCam z nagłówkiem Unlimited dual-camera recording, First 60 seconds free" width="900" height="409" loading="lazy" decoding="async">
+        <figcaption>Ekran płatności DualCam: darmowa wersja zatrzymuje się po 60 sekundach.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-60fps-unavailable.webp" alt="Baner DualCam z napisem 60 fps unavailable, current format doesn't support this rate" width="900" height="322" loading="lazy" decoding="async">
+        <figcaption>Tryb podwójnego formatu: „60 fps unavailable”.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp" alt="Podgląd podwójnego formatu w DualCam z przerywaną ramką 16:9 wewnątrz pionowego obrazu z kamery" width="900" height="1365" loading="lazy" decoding="async">
+        <figcaption>Plik 16:9 to przerywana ramka wycięta ze środka pionowej klatki.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp" alt="Ustawienia DualCam z Quality 4K i Frame Rate 60 fps oraz uwagą, że 4K jest dostępne tylko z jedną kamerą, nad informacjami ze Zdjęć o zapisanym pliku: 1080p, 1920 x 1080, 29,99 FPS" width="900" height="1243" loading="lazy" decoding="async">
+        <figcaption>Wybrane 4K i 60 kl./s; zapisany plik miał 1080p i 29,99 kl./s.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-full-photo-library-access.webp" alt="Monit iPhone'a: DualCam Record chce pełnego dostępu do biblioteki zdjęć, by zapisywać nagrania i pokazywać ostatnie filmy" width="900" height="356" loading="lazy" decoding="async">
+        <figcaption>DualCam prosi o pełny dostęp do twojej biblioteki zdjęć.</figcaption>
+      </figure>
+
+      <h2>Jak ContentCam wypada w tych samych testach?</h2>
+      <ul>
+        <li><strong>4K w każdym trybie:</strong> „Jeden obiektyw” do 60 kl./s, „Dwa obiektywy” w pionowym 4K i „Przód i tył” obiema kamerami w 4K, na obsługiwanych iPhone'ach (iOS 2.9).</li>
+        <li><strong>Poziom w pełnej szerokości:</strong> „Jeden obiektyw” wycina oba formaty z pełnej klatki 4:3 w pełnej rozdzielczości, a „Dwa obiektywy” nagrywa każdy format własnym obiektywem.</li>
+        <li><strong>60 kl./s:</strong> do 60 kl./s, także obiema kamerami w HD.</li>
+        <li><strong>Wersja darmowa:</strong> bez limitu czasu, bez reklam, bez znaku wodnego.</li>
+        <li><strong>Obraz w obrazie:</strong> przeciągnij, uszczypnij albo dotknij, by zmienić rozmiar; dotknij dwa razy, by wyśrodkować.</li>
+        <li><strong>Ustawienia:</strong> ekspozycja, balans bieli, ISO, czas naświetlania, ostrość dotknięciem, blokada AE/AF przytrzymaniem, pokrętło zoomu, automatycznie przewijany teleprompter, 25 i 50 kl./s, timelapse, Apple Log i miernik poziomu dźwięku.</li>
+        <li><strong>Bezpieczne ujęcia:</strong> nagrywa dalej przy automatycznej blokadzie i odtwarza ujęcie po wymuszonym zamknięciu.</li>
+        <li><strong>Prywatność:</strong> dostęp do Zdjęć tylko do dodawania i brak konta.</li>
+      </ul>
+
+      <p><strong>Warto wiedzieć o twórcy.</strong> Mobixoft wydał w 2026 roku siedem aplikacji w App Store, w tym DualCam, a obok niej skaner stolca z AI, wyceniacz zegarków, rozpoznawanie skał, rozpoznawanie ukąszeń owadów, usuwacz ciszy i planer podróży. Wszystkie jego aplikacje mają razem 20 ocen w USA. DualCam miał pięć wersji od premiery w kwietniu. To niczego nie dowodzi w sprawie DualCam, ale uwaga jednego zespołu rozkłada się na wiele aplikacji. Moja w całości idzie w ContentCam: 32 aktualizacje na iOS i Androida (zobacz <a href="/changelog/">historię zmian</a>) i ocena 4,8 od ponad 580 twórców.</p>
+      <p><strong>Dla kogo jest DualCam:</strong> dla kogoś, kto chce wypróbować prosty klip obraz w obrazie albo 9:16 + 16:9 krótszy niż minuta. Jeśli potrzebujesz 4K obiema kamerami, 60 kl./s, poziomego filmu w pełnej szerokości, ujęć dłuższych niż minuta albo prawdziwego sterowania aparatem, nie wystarczy.</p>
+
+      <h2>Jak wypadają w porównaniu parametr po parametrze?</h2>
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th></th><th>ContentCam</th><th>DualCam</th></tr></thead>
+        <tbody>
+          <tr><td>Wersja darmowa</td><td>Bez limitu w trybie „Jeden obiektyw” (1080p), plus 5 ujęć „Dwa obiektywy” i 5 „Przód i tył”</td><td>Pierwsze 60 sekund nagrania, potem ekran płatności (test)</td></tr>
+          <tr><td>Plany</td><td>Roczny z 7 dniami próbnymi, miesięczny lub dożywotni; bez planu tygodniowego</td><td>Tygodniowy, roczny (22,99 USD, 3 dni próbne) lub dożywotni</td></tr>
+          <tr><td>Reklamy</td><td>Brak, za darmo i w Premium</td><td>Brak (test)</td></tr>
+          <tr><td>Znak wodny</td><td>Brak, za darmo i w Premium</td><td>Brak (test)</td></tr>
+          <tr><td>Platformy</td><td>iPhone (iOS 18 lub nowszy) i Android</td><td>Tylko iPhone (iOS 18 lub nowszy)</td></tr>
+          <tr><td>4K</td><td>Wszystkie trzy tryby na obsługiwanych iPhone'ach: „Jeden obiektyw” do 60 kl./s, „Dwa obiektywy” w pionie, „Przód i tył” obiema kamerami</td><td>Tylko z jedną kamerą, bez 4K obiema kamerami (test)</td></tr>
+          <tr><td>60 kl./s</td><td>Do 60 kl./s: 4K 60 w trybie „Jeden obiektyw”, HD 60 obiema kamerami (Premium)</td><td>Nie; przy wybranych 60 kl./s zapisał plik z 29,99 kl./s (test)</td></tr>
+          <tr><td>Pion i poziom z jednego ujęcia</td><td>Tak; „Jeden obiektyw” wycina oba z pełnej klatki 4:3 w pełnej rozdzielczości albo „Dwa obiektywy” nagrywa każdy własnym obiektywem</td><td>Tak, ale plik 16:9 jest wycięty z pionowej klatki i powiększony (test)</td></tr>
+          <tr><td>Dwa obiektywy (dwa tylne obiektywy naraz)</td><td>Tak</td><td>Nie (test)</td></tr>
+          <tr><td>Zmiana rozmiaru obrazu w obrazie</td><td>Tak: przeciągnięcie, szczypnięcie lub dotknięcie; dwa dotknięcia, by wyśrodkować</td><td>Nie (test)</td></tr>
+          <tr><td>Ręczne sterowanie</td><td>Ekspozycja, balans bieli, ISO, czas naświetlania; ostrość dotknięciem, blokada AE/AF przytrzymaniem, pokrętło zoomu</td><td>Tylko suwak ekspozycji bez resetu; ostrość dotknięciem nie zadziałała; blokada AE/AF tylko w menu, dwa dotknięcia dalej (test)</td></tr>
+          <tr><td>Teleprompter</td><td>Tak, przewija się automatycznie</td><td>Nie (test)</td></tr>
+          <tr><td>Liczba klatek</td><td>24, 25, 30, 50 lub 60 kl./s</td><td>Brak 25 i 50 kl./s (test)</td></tr>
+          <tr><td>Timelapse, Apple Log, miernik dźwięku</td><td>Tak</td><td>Nie (test)</td></tr>
+          <tr><td>Ujęcie utracone przy wymuszonym zamknięciu lub blokadzie</td><td>Nie; nagrywa dalej przy automatycznej blokadzie, odtwarza ujęcia po wymuszonym zamknięciu</td><td>Tak, utracone (test)</td></tr>
+          <tr><td>Projekty i ujęcia</td><td>Projekty, sceny i ujęcia, pasujące nazwy plików</td><td>Brak; losowe, niepasujące nazwy plików (test)</td></tr>
+          <tr><td>Dostęp do biblioteki zdjęć</td><td>Tylko dodawanie; nie widzi twojej biblioteki</td><td>Pełny dostęp (test)</td></tr>
+          <tr><td>Konto</td><td>Brak</td><td>Anonimowe konto tworzone przy każdej instalacji (polityka prywatności)</td></tr>
+          <tr><td>Ostatnia aktualizacja</td><td>iOS 2.9 (12 listopada 2026), Android 2.7.1</td><td>iOS 1.0.5 (9 listopada 2026)</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Instrukcje według telefonu: <a href="/blog/record-front-and-back-camera-iphone-15-16/">iPhone 15 i 16</a>, <a href="/pl/blog/record-front-and-back-camera-same-time-android/">Android</a>.</p>
+
+      <h2>Czy DualCam nagrywa w 4K obiema kamerami?</h2>
+      <p>Nie. Własne ustawienia DualCam mówią „4K is available in single-camera mode only”, a w moim teście 12 listopada 2026 nagrywanie przodem i tyłem było w HD przy 30 kl./s. Strona w sklepie mówi „Up to 4K and up to 60 fps, depending on device and mode”, ale przy wybranym 4K i 60 kl./s zapisany plik miał 1920 x 1080 i 29,99 kl./s. Tryb „Przód i tył” w ContentCam nagrywa obiema kamerami w 4K na obsługiwanych iPhone'ach (od iOS 2.9), jako dwa osobne pliki. Żeby samemu sprawdzić dowolną aplikację, odczytaj rozmiar w pikselach i liczbę klatek pliku testowego w Zdjęciach: kroki są w artykule <a href="/blog/iphone-4k-front-and-back-camera-same-time/">czy iPhone nagra 4K przednią i tylną kamerą jednocześnie</a>.</p>
+
+      <h2>Najczęstsze pytania</h2>
+      <h3>Czy DualCam jest darmowy?</h3>
+      <p>Tylko przez pierwsze 60 sekund nagrania. W moim teście nagrywanie zatrzymało się po minucie, a aplikacja poprosiła o subskrypcję (tygodniową, roczną albo dożywotnią). Darmowa wersja ContentCam nie ma limitu czasu: „Jeden obiektyw” bez limitu w 1080p, 5 ujęć „Dwa obiektywy” i 5 „Przód i tył”, bez reklam i bez znaku wodnego.</p>
+      <h3>Czy DualCam jest na Androida?</h3>
+      <p>Nie. Nie znalazłem wersji na Androida od Mobixoft, twórcy DualCam. Strona w App Store dotyczy iPhone'a i wymaga iOS 18. ContentCam działa na iPhonie i Androidzie.</p>
+      <h3>Czy DualCam zapisuje przednią i tylną kamerę jako osobne pliki?</h3>
+      <p>Strona DualCam opisuje pokazywanie siebie i sceny w jednym filmie z obrazem w obrazie lub podzielonym ekranem i nie wspomina o osobnych plikach z przedniej i tylnej kamery. Tryb „Przód i tył” w ContentCam zapisuje kamerę do selfie i tylną jako dwa osobne pliki, a edytor Combine może potem zrobić film z obrazem w obrazie lub podzielonym ekranem, zachowując oryginały.</p>
+      <h3>Czy DualCam nagrywa pion i poziom jednocześnie?</h3>
+      <p>Tak, ale w moim teście plik 16:9 był wycięty ze środka pionowej klatki i powiększony, więc poziomy film nie był szerszy niż pionowy, i nagrywał w 30 kl./s. „Jeden obiektyw” w ContentCam nagrywa pełną klatkę 4:3 aparatu i wycina z niej oba formaty, więc poziomy zachowuje pełną szerokość, a pionowy pełną wysokość, w HD lub 4K do 60 kl./s. Jego tryb „Dwa obiektywy” nagrywa pion i poziom dwoma różnymi obiektywami.</p>
+      <h3>Czy DualCam nagrywa w 60 kl./s?</h3>
+      <p>W moim teście nie. Możesz wybrać 60 kl./s, ale zapisany plik miał 29,99 kl./s, a tryb podwójnego formatu pokazuje „60 fps unavailable”. ContentCam nagrywa do 60 kl./s, także 4K przy 60 kl./s w trybie „Jeden obiektyw” i obiema kamerami w HD przy 60 kl./s, na obsługiwanych iPhone'ach.</p>
+
+      <div class="post-cta">
+        <p><strong>Wypróbuj ContentCam za darmo.</strong> Przód i tył jako dwa osobne pliki, pion i poziom z jednego ujęcia, bez reklam i bez znaku wodnego. Do pobrania za darmo na iPhone'a i Androida.</p>
+        <p class="cta-proof"><span class="star" aria-hidden="true">★</span> Ocena 4,8 od ponad 580 twórców w <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> i <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>.</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&amp;ct=pl-vs-dualcam&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Pobierz z App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dvs%26utm_campaign%3Dpl-vs-dualcam"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Pobierz z Google Play" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>Zobacz też: <a href="/pl/blog/best-front-and-back-dual-camera-apps/">najlepsze aplikacje do nagrywania przednią i tylną kamerą</a> · <a href="/blog/dual-camera-app-without-ads/">aplikacje z dwiema kamerami bez reklam</a> · <a href="/pl/blog/dual-format-recording-apps-compared/">wszystkie aplikacje do pionu i poziomu w porównaniu</a></p>
+      <p class="byline">Źródła: własny test DualCam 1.0.5, 12 listopada 2026; polityka prywatności DualCam (dualcam.app/privacy-policy, aktualizacja 6 listopada 2026); strona twórcy Mobixoft LLC; strona DualCam w App Store (id6761523366, „DualCam: Dual Camera Recorder”, Mobixoft LLC, opis, zakupy w aplikacji, oceny, zgodność, historia wersji); dualcam.app; strony cennika, pomocy i historii zmian contentcam.app. Sprawdzone 12 listopada 2026.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Funkcje</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/pl/features/dual-camera/">Dwie kamery</a>
+        <a href="/features/manual-controls/">Ustawienia ręczne</a>
+        <a href="/pl/android/">Android</a>
+        <a href="/pricing/">Cennik</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Pomoc</a>
+        <a href="/press/">Dla prasy</a>
+        <a href="/pl/vs/">Porównania</a>
+        <a href="/changelog/">Lista zmian</a>
+        <a href="/privacy">Prywatność</a>
+        <a href="/terms">Regulamin</a>
+      </div>
+      <div class="fine">Ocena 4,8 od ponad 580 twórców w <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> i <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a> (listopad 2026). ContentCam to niezależna aplikacja aparatu, tworzona w Australii przez jednego dewelopera. © 2026 ContentCam. Apple, logo Apple, iPhone i App Store są znakami towarowymi Apple Inc. Google Play i logo Google Play są znakami towarowymi Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/vs/dualcam/" hreflang="en" lang="en">English</a> · <a href="/de/vs/dualcam/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/vs/dualcam/" hreflang="es" lang="es">Español</a> · <a href="/fr/vs/dualcam/" hreflang="fr" lang="fr">Français</a> · <a href="/it/vs/dualcam/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/vs/dualcam/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/vs/dualcam/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/vs/dualcam/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/vs/dualcam/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/vs/dualcam/" hreflang="nl" lang="nl">Nederlands</a> · <strong>Polski</strong> · <a href="/tr/vs/dualcam/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/vs/dualcam/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/vs/dualcam/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/vs/dualcam/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/vs/dualcam/" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/vs/dualcam/" hreflang="sv" lang="sv">Svenska</a> · <a href="/da/vs/dualcam/" hreflang="da" lang="da">Dansk</a> · <a href="/no/vs/dualcam/" hreflang="no" lang="no">Norsk</a> · <a href="/fi/vs/dualcam/" hreflang="fi" lang="fi">Suomi</a> · <a href="/pt-pt/vs/dualcam/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a> · <a href="/uk/vs/dualcam/" hreflang="uk" lang="uk">Українська</a> · <a href="/hi/vs/dualcam/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/vs/dualcam/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/vs/dualcam/" hreflang="ms" lang="ms">Bahasa Melayu</a> · <a href="/fil/vs/dualcam/" hreflang="fil" lang="fil">Filipino</a> · <a href="/bn/vs/dualcam/" hreflang="bn" lang="bn">বাংলা</a> · <a href="/cs/vs/dualcam/" hreflang="cs" lang="cs">Čeština</a> · <a href="/ro/vs/dualcam/" hreflang="ro" lang="ro">Română</a> · <a href="/hu/vs/dualcam/" hreflang="hu" lang="hu">Magyar</a> · <a href="/el/vs/dualcam/" hreflang="el" lang="el">Ελληνικά</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>ContentCam và DualCam (2026): thử thực tế 4K, 60 fps và giới hạn miễn phí</title>
+  <meta name="description" content="Thử tận tay: DualCam 1.0.5 không quay 4K bằng hai camera, chọn 60 fps nhưng lưu 30 fps, và dừng quay miễn phí ở 60 giây. ContentCam quay cả hai camera ở 4K, tới 60 fps.">
+  <link rel="canonical" href="https://contentcam.app/vi/vs/dualcam/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:title" content="ContentCam và DualCam (2026): thử thực tế 4K, 60 fps và giới hạn miễn phí">
+  <meta property="og:description" content="Thử tận tay: DualCam 1.0.5 không quay 4K bằng hai camera, chọn 60 fps nhưng lưu 30 fps, và dừng quay miễn phí ở 60 giây. ContentCam quay cả hai camera ở 4K, tới 60 fps.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/vi/vs/dualcam/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ContentCam và DualCam (2026): thử thực tế 4K, 60 fps và giới hạn miễn phí">
+  <meta name="twitter:description" content="Thử tận tay: DualCam 1.0.5 không quay 4K bằng hai camera, chọn 60 fps nhưng lưu 30 fps, và dừng quay miễn phí ở 60 giây. ContentCam quay cả hai camera ở 4K, tới 60 fps.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://contentcam.app/vi/vs/dualcam/",
+      "url": "https://contentcam.app/vi/vs/dualcam/",
+      "name": "ContentCam và DualCam (2026): thử thực tế 4K, 60 fps và giới hạn miễn phí",
+      "description": "Thử tận tay: DualCam 1.0.5 không quay 4K bằng hai camera, chọn 60 fps nhưng lưu 30 fps, và dừng quay miễn phí ở 60 giây. ContentCam quay cả hai camera ở 4K, tới 60 fps.",
+      "inLanguage": "vi",
+      "image": [
+        "https://contentcam.app/assets/og/og-blog.jpg",
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-first-60-seconds-free.webp",
+          "description": "Màn hình trả tiền của DualCam với tiêu đề Unlimited dual-camera recording, First 60 seconds free",
+          "caption": "Màn hình trả tiền của DualCam: bản miễn phí dừng ở 60 giây."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-60fps-unavailable.webp",
+          "description": "Thông báo của DualCam ghi 60 fps unavailable, current format doesn't support this rate",
+          "caption": "Chế độ hai khổ: \"60 fps unavailable\"."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp",
+          "description": "Bản xem trước hai khổ của DualCam với khung 16:9 nét đứt bên trong hình camera dọc",
+          "caption": "File 16:9 là khung nét đứt được cắt từ bên trong khung hình dọc."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp",
+          "description": "Cài đặt DualCam với Quality 4K và Frame Rate 60 fps, ghi chú 4K chỉ có ở chế độ một camera, phía trên thông tin trong Ảnh của file đã lưu: 1080p, 1920 x 1080, 29,99 FPS",
+          "caption": "Đã chọn 4K và 60 fps; file lưu ra là 1080p ở 29,99 fps."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-full-photo-library-access.webp",
+          "description": "Hộp thoại iPhone: DualCam Record muốn truy cập toàn bộ thư viện ảnh để lưu video và hiện các video gần đây",
+          "caption": "DualCam xin quyền truy cập toàn bộ thư viện ảnh của bạn."
+        }
+      ],
+      "dateModified": "2026-11-12",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "Nhà phát triển ContentCam",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://contentcam.app/vi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "So sánh",
+          "item": "https://contentcam.app/vi/vs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "DualCam",
+          "item": "https://contentcam.app/vi/vs/dualcam/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "DualCam có quay 4K bằng hai camera không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Chính cài đặt của DualCam ghi \"4K is available in single-camera mode only\", và khi mình thử ngày 12 tháng 11 năm 2026, quay trước và sau là HD ở 30 fps. Trang cửa hàng ghi \"Up to 4K and up to 60 fps, depending on device and mode\", nhưng chọn 4K và 60 fps thì file mình lưu ra là 1920 x 1080 ở 29,99 fps. Chế độ Trước và sau của ContentCam quay cả hai camera ở 4K trên iPhone được hỗ trợ (từ iOS 2.9), thành hai file riêng. Muốn tự kiểm tra app nào, hãy xem kích thước điểm ảnh và tốc độ khung hình của file thử trong Ảnh: các bước có trong iPhone có quay 4K bằng camera trước và sau cùng lúc được không?."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualCam có miễn phí không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chỉ 60 giây quay đầu tiên. Khi mình thử, video dừng ở phút đầu tiên và app yêu cầu mình đăng ký (theo tuần, theo năm hoặc trọn đời). Bản miễn phí của ContentCam không giới hạn thời gian: Ống kính đơn không giới hạn ở 1080p, 5 lần Ống kính kép và 5 lần Trước và sau, không quảng cáo và không hình mờ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualCam có trên Android không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Không. Mình không tìm thấy bản Android nào từ Mobixoft, nhà phát triển DualCam. Trang App Store dành cho iPhone và cần iOS 18. ContentCam có trên iPhone và Android."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualCam có lưu camera trước và sau thành file riêng không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trang của DualCam mô tả việc đưa bạn và cảnh vật vào một video bằng hình trong hình hoặc chia đôi màn hình, và không nhắc đến file riêng cho camera trước và sau. Chế độ Trước và sau của ContentCam lưu camera selfie và camera sau thành hai file riêng, và trình chỉnh sửa Combine có thể tạo video hình trong hình hoặc chia đôi màn hình sau đó, vẫn giữ bản gốc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualCam có quay video dọc và ngang cùng lúc được không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Được, nhưng khi mình thử, file 16:9 được cắt từ giữa khung dọc rồi phóng to, nên video ngang không rộng hơn video dọc, và chỉ quay ở 30 fps. Ống kính đơn của ContentCam ghi trọn khung 4:3 của camera rồi cắt cả hai khổ từ đó, nên video ngang giữ trọn chiều rộng và video dọc giữ trọn chiều cao, ở HD hoặc 4K tới 60 fps. Chế độ Ống kính kép quay bản dọc và bản ngang bằng hai ống kính khác nhau."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualCam có quay 60 fps không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Khi mình thử thì không. Bạn chọn được 60 fps, nhưng file lưu ra là 29,99 fps, và chế độ hai khổ hiện \"60 fps unavailable\". ContentCam quay tới 60 fps trên iPhone được hỗ trợ, kể cả 4K 60 fps ở Ống kính đơn và hai camera 60 fps ở HD."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/vs/dualcam/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/vs/dualcam/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/vs/dualcam/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/vs/dualcam/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/vs/dualcam/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/vs/dualcam/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/vs/dualcam/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/vs/dualcam/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/vs/dualcam/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/vs/dualcam/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/vs/dualcam/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/vs/dualcam/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/vs/dualcam/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/vs/dualcam/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/vs/dualcam/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/vs/dualcam/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/vs/dualcam/">
+  <link rel="alternate" hreflang="da" href="https://contentcam.app/da/vs/dualcam/">
+  <link rel="alternate" hreflang="no" href="https://contentcam.app/no/vs/dualcam/">
+  <link rel="alternate" hreflang="fi" href="https://contentcam.app/fi/vs/dualcam/">
+  <link rel="alternate" hreflang="pt-PT" href="https://contentcam.app/pt-pt/vs/dualcam/">
+  <link rel="alternate" hreflang="uk" href="https://contentcam.app/uk/vs/dualcam/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/vs/dualcam/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/vs/dualcam/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/vs/dualcam/">
+  <link rel="alternate" hreflang="fil" href="https://contentcam.app/fil/vs/dualcam/">
+  <link rel="alternate" hreflang="bn" href="https://contentcam.app/bn/vs/dualcam/">
+  <link rel="alternate" hreflang="cs" href="https://contentcam.app/cs/vs/dualcam/">
+  <link rel="alternate" hreflang="ro" href="https://contentcam.app/ro/vs/dualcam/">
+  <link rel="alternate" hreflang="hu" href="https://contentcam.app/hu/vs/dualcam/">
+  <link rel="alternate" hreflang="el" href="https://contentcam.app/el/vs/dualcam/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/vs/dualcam/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/vi/"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Mở menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Tính năng</a>
+        <a href="/pricing/">Bảng giá</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Hỗ trợ</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+  <main class="wrap">
+    <div class="crumbs"><a href="/vi/">Trang chủ</a> › <a href="/vi/vs/">So sánh</a> › DualCam</div>
+    <article class="post">
+      <h1>ContentCam và DualCam (2026)</h1>
+      <p class="byline">Thử nghiệm ngày 12 tháng 11 năm 2026 · Trang App Store kiểm tra ngày 12 tháng 11 năm 2026 · Công khai: mình là Jimmy, người làm ContentCam</p>
+
+      <p><strong>Kết quả thử:</strong> khác biệt lớn nhất là cách mỗi app tạo video ngang. File 16:9 của DualCam là một dải cắt từ giữa khung hình dọc rồi phóng to lên 1920 x 1080, nên không rộng hơn video dọc và có ít chi tiết thật hơn. Chế độ Ống kính đơn của ContentCam ghi trọn khung hình 4:3 của camera rồi cắt từng khổ từ đó, nên video ngang giữ trọn chiều rộng, video dọc giữ trọn chiều cao, cả hai giữ nguyên độ phân giải, và dùng được ở 4K tới 60 fps. ContentCam cũng quay 4K bằng Ống kính kép (hai ống kính sau cùng lúc, mỗi ống kính một khung riêng) và bằng cả hai camera ở chế độ Trước và sau. DualCam không có chế độ ống kính kép, không quay 4K bằng hai camera (chính phần cài đặt của nó ghi 4K chỉ dùng được với một camera), không đạt 60 fps ở bất kỳ chế độ nào mình thử, và dừng quay sau 60 giây cho tới khi bạn trả tiền. Toàn bộ kết quả và ảnh chụp màn hình ở bên dưới.</p>
+      <p>Mình là Jimmy, người làm ContentCam, và mình tự thử DualCam ngày 12 tháng 11 năm 2026. Mọi thứ ghi là đã thử đều từ lần thử đó; phần còn lại lấy từ trang App Store của DualCam, trang web và chính sách quyền riêng tư của nó.</p>
+
+      <h2>Khác biệt chính là gì?</h2>
+      <ul>
+        <li><strong>Cách tạo video ngang.</strong> DualCam cắt file 16:9 từ khung hình dọc rồi phóng to, nên video ngang rộng bằng video dọc. Ống kính đơn của ContentCam ghi trọn khung 4:3, nên mỗi khổ có trọn chiều rộng hoặc chiều cao ở độ phân giải đầy đủ, tới 4K 60 fps. Ống kính kép còn hơn thế: một ống kính sau quay bản dọc, ống kính khác quay bản ngang, mỗi bản một khung riêng.</li>
+        <li><strong>4K và 60 fps.</strong> ContentCam quay 4K ở cả ba chế độ: Ống kính đơn tới 60 fps, Ống kính kép ở 4K dọc và Trước và sau với cả hai camera, trên các iPhone được hỗ trợ. Cài đặt của DualCam ghi "4K is available in single-camera mode only", và 60 fps không chạy ở chế độ nào: chọn 4K và 60 fps thì file lưu ra là 1920 x 1080 ở 29,99 fps.</li>
+        <li><strong>Bản miễn phí.</strong> DualCam cho quay miễn phí 60 giây đầu, sau đó video dừng và màn hình trả tiền hiện ra. Bản miễn phí của ContentCam quay Ống kính đơn không giới hạn, dọc và ngang cùng lúc, ở 1080p, thêm 5 lần quay Ống kính kép và 5 lần quay Trước và sau. Cả hai app đều không có quảng cáo hay hình mờ.</li>
+        <li><strong>Điều khiển camera.</strong> Điều khiển thủ công duy nhất của DualCam là thanh trượt phơi sáng không có nút đặt lại. Chạm để lấy nét hiện ô vuông vàng nhưng không lấy nét, và khóa AE/AF nằm trong menu cách hai lần chạm thay vì chạm giữ. ContentCam có phơi sáng, cân bằng trắng, ISO và tốc độ màn trập thủ công, chạm để lấy nét, khóa AE/AF bằng chạm giữ, vòng zoom và máy nhắc chữ.</li>
+        <li><strong>Thư viện ảnh của bạn.</strong> DualCam xin quyền truy cập toàn bộ ảnh của bạn, dù chính sách quyền riêng tư của nó nói không truy cập hay đọc thư viện có sẵn. ContentCam chỉ xin quyền thêm video, nên không thể xem thư viện của bạn.</li>
+        <li><strong>Nền tảng.</strong> ContentCam có trên iPhone và Android. DualCam chỉ có trên iPhone.</li>
+      </ul>
+
+      <h2>Mình thấy gì khi thử DualCam 1.0.5?</h2>
+      <p>Ngày 12 tháng 11 năm 2026, mình cài DualCam 1.0.5 từ App Store và thử mọi chế độ, mọi cài đặt trong bản miễn phí cho tới khi màn hình trả tiền chặn lại. Đây là những gì mình thấy.</p>
+      <ul>
+        <li><strong>Miễn phí 60 giây, sau đó trả tiền.</strong> Màn hình trả tiền ghi "First 60 seconds free". Khi một lần quay chạm một phút, video dừng và app yêu cầu bạn đăng ký. Các gói là theo tuần, theo năm (22,99 USD mỗi năm, dùng thử 3 ngày, đắt hơn gói năm của ContentCam vốn có 7 ngày dùng thử) hoặc trọn đời.</li>
+        <li><strong>Không có 4K bằng hai camera.</strong> Màn hình cài đặt ghi "4K is available in single-camera mode only". Quay trước và sau chỉ là HD.</li>
+        <li><strong>Không có 60 fps.</strong> Bạn chọn được 4K và 60 fps, nhưng file mình lưu là 1080p ở 29,99 fps. Ở chế độ hai khổ, app hiện "60 fps unavailable". Mình không đạt 60 fps ở chế độ một camera, hai khổ hay trước và sau.</li>
+        <li><strong>File 16:9 là phần cắt từ bản dọc.</strong> Ở chế độ hai khổ, bản xem trước vẽ một khung 16:9 nét đứt bên trong hình dọc, và khung đó được phóng to thành file ngang 1920 x 1080. Video ngang không cho thấy rộng hơn video dọc, và khi mình thử, khung trong bản xem trước không khớp hoàn toàn với phần được quay.</li>
+        <li><strong>Khung hình trong hình không đổi được kích thước.</strong> Chụm hai ngón không có tác dụng và không có nút kích thước.</li>
+        <li><strong>Ít điều khiển camera.</strong> Phơi sáng là điều khiển thủ công duy nhất và không có nút đặt lại, nên bạn phải tự kéo về 0. Chạm để lấy nét hiện ô vuông vàng nhưng nét không đổi, khóa AE/AF không nằm ở chạm giữ mà trong menu cách hai lần chạm, rất dễ lỡ tắt, và bản xem trước không có nút zoom hay vòng zoom.</li>
+        <li><strong>Chống rung có vẻ không hoạt động.</strong> Bật Video Stabilization rồi mà các clip mình cầm tay quay vẫn trông như chưa chống rung. Một đánh giá 1 sao ở Mỹ ngày 8 tháng 8 cũng ghi "there's no stabilization".</li>
+        <li><strong>Mất video.</strong> Khi mình buộc đóng app, về màn hình chính hay khóa máy giữa lúc quay, video bị mất. ContentCam vẫn quay khi máy tự khóa và khôi phục lần quay bị buộc đóng vào lần mở app tiếp theo.</li>
+        <li><strong>Tên file không khớp nhau.</strong> File dọc và ngang của cùng một lần quay có tên ngẫu nhiên khác nhau, và manh mối duy nhất là "_portrait" hoặc "_landscape" ở cuối. ContentCam lưu theo dự án, cảnh và lần quay với tên file khớp nhau.</li>
+        <li><strong>Truy cập toàn bộ thư viện ảnh.</strong> DualCam xin quyền truy cập toàn bộ thư viện ảnh "to save your recordings and show your recent videos" và tạo album DualCam riêng trong Ảnh. Có quyền truy cập toàn bộ thì app xem được mọi ảnh và video của bạn, vậy mà chính sách quyền riêng tư lại ghi "We do not access, read, or transmit any existing content in your photo library." Lưu video thì không cần truy cập toàn bộ. ContentCam chỉ xin quyền thêm video vào Ảnh, nên không thể xem thư viện của bạn.</li>
+        <li><strong>Một tài khoản bạn không tạo.</strong> Phần cài đặt có "Delete account and all data", nhưng app chưa từng yêu cầu mình đăng ký hay nhắc đến tài khoản. Chính sách quyền riêng tư giải thích rằng app tạo một tài khoản ẩn danh cho mỗi lần cài và gửi báo cáo lỗi tới Sentry, kèm địa chỉ IP của bạn và một nhật ký ngắn về các thao tác gần đây trong app. ContentCam không có tài khoản.</li>
+        <li><strong>Tính năng còn thiếu.</strong> Không có máy nhắc chữ, không có chế độ ống kính kép (hai ống kính sau cùng lúc), không có 25 hay 50 fps, không có quay tua nhanh, không có Apple Log, không có đồng hồ mức âm thanh và không có quản lý dự án hay lần quay. ContentCam có tất cả.</li>
+      </ul>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-first-60-seconds-free.webp" alt="Màn hình trả tiền của DualCam với tiêu đề Unlimited dual-camera recording, First 60 seconds free" width="900" height="409" loading="lazy" decoding="async">
+        <figcaption>Màn hình trả tiền của DualCam: bản miễn phí dừng ở 60 giây.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-60fps-unavailable.webp" alt="Thông báo của DualCam ghi 60 fps unavailable, current format doesn't support this rate" width="900" height="322" loading="lazy" decoding="async">
+        <figcaption>Chế độ hai khổ: "60 fps unavailable".</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp" alt="Bản xem trước hai khổ của DualCam với khung 16:9 nét đứt bên trong hình camera dọc" width="900" height="1365" loading="lazy" decoding="async">
+        <figcaption>File 16:9 là khung nét đứt được cắt từ bên trong khung hình dọc.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp" alt="Cài đặt DualCam với Quality 4K và Frame Rate 60 fps, ghi chú 4K chỉ có ở chế độ một camera, phía trên thông tin trong Ảnh của file đã lưu: 1080p, 1920 x 1080, 29,99 FPS" width="900" height="1243" loading="lazy" decoding="async">
+        <figcaption>Đã chọn 4K và 60 fps; file lưu ra là 1080p ở 29,99 fps.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-full-photo-library-access.webp" alt="Hộp thoại iPhone: DualCam Record muốn truy cập toàn bộ thư viện ảnh để lưu video và hiện các video gần đây" width="900" height="356" loading="lazy" decoding="async">
+        <figcaption>DualCam xin quyền truy cập toàn bộ thư viện ảnh của bạn.</figcaption>
+      </figure>
+
+      <h2>ContentCam làm được gì ở cùng các bài thử?</h2>
+      <ul>
+        <li><strong>4K ở mọi chế độ:</strong> Ống kính đơn tới 60 fps, Ống kính kép ở 4K dọc và Trước và sau với cả hai camera ở 4K, trên các iPhone được hỗ trợ (iOS 2.9).</li>
+        <li><strong>Video ngang trọn chiều rộng:</strong> Ống kính đơn cắt cả hai khổ từ trọn khung 4:3 ở độ phân giải đầy đủ, còn Ống kính kép quay mỗi khổ bằng ống kính riêng.</li>
+        <li><strong>60 fps:</strong> tới 60 fps, kể cả với hai camera ở HD.</li>
+        <li><strong>Bản miễn phí:</strong> không giới hạn thời gian, không quảng cáo, không hình mờ.</li>
+        <li><strong>Hình trong hình:</strong> kéo, chụm hoặc chạm để đổi kích thước; chạm hai lần để căn giữa.</li>
+        <li><strong>Điều khiển:</strong> phơi sáng, cân bằng trắng, ISO, tốc độ màn trập, chạm để lấy nét, khóa AE/AF bằng chạm giữ, vòng zoom, máy nhắc chữ tự cuộn, 25 và 50 fps, quay tua nhanh, Apple Log và đồng hồ mức âm thanh.</li>
+        <li><strong>Video an toàn:</strong> vẫn quay khi máy tự khóa và khôi phục lần quay bị buộc đóng.</li>
+        <li><strong>Quyền riêng tư:</strong> quyền vào Ảnh chỉ để thêm và không có tài khoản.</li>
+      </ul>
+
+      <p><strong>Điều đáng biết về nhà phát triển.</strong> Mobixoft phát hành bảy app trên App Store trong năm 2026, trong đó có DualCam, cùng với một app quét phân bằng AI, một app định giá đồng hồ, một app nhận diện đá, một app nhận diện vết côn trùng cắn, một app xóa khoảng lặng và một app lên kế hoạch du lịch. Tất cả app của họ cộng lại có 20 lượt đánh giá ở Mỹ. DualCam có năm phiên bản kể từ khi ra mắt vào tháng 4. Điều đó không chứng minh gì về DualCam, nhưng sự quan tâm của một nhóm bị chia ra cho nhiều app. Còn mình dồn hết vào ContentCam: 32 bản cập nhật cho iOS và Android (xem <a href="/changelog/">nhật ký thay đổi</a>) và được hơn 580 nhà sáng tạo chấm 4,8.</p>
+      <p><strong>DualCam hợp với ai:</strong> người muốn thử một clip hình trong hình đơn giản hoặc 9:16 + 16:9 dưới một phút. Nếu bạn cần 4K bằng hai camera, 60 fps, video ngang trọn chiều rộng, lần quay dài hơn một phút hoặc điều khiển camera thực thụ, nó không đủ.</p>
+
+      <h2>So sánh từng thông số thế nào?</h2>
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th></th><th>ContentCam</th><th>DualCam</th></tr></thead>
+        <tbody>
+          <tr><td>Bản miễn phí</td><td>Ống kính đơn không giới hạn (1080p), thêm 5 lần Ống kính kép và 5 lần Trước và sau</td><td>60 giây quay đầu tiên, sau đó màn hình trả tiền (đã thử)</td></tr>
+          <tr><td>Gói</td><td>Theo năm có 7 ngày dùng thử, theo tháng hoặc trọn đời; không có gói tuần</td><td>Theo tuần, theo năm (22,99 USD, dùng thử 3 ngày) hoặc trọn đời</td></tr>
+          <tr><td>Quảng cáo</td><td>Không có, miễn phí hay Premium</td><td>Không có (đã thử)</td></tr>
+          <tr><td>Hình mờ</td><td>Không có, miễn phí hay Premium</td><td>Không có (đã thử)</td></tr>
+          <tr><td>Nền tảng</td><td>iPhone (iOS 18 trở lên) và Android</td><td>Chỉ iPhone (iOS 18 trở lên)</td></tr>
+          <tr><td>4K</td><td>Cả ba chế độ trên iPhone được hỗ trợ: Ống kính đơn tới 60 fps, Ống kính kép dọc, Trước và sau với cả hai camera</td><td>Chỉ một camera, không có 4K bằng hai camera (đã thử)</td></tr>
+          <tr><td>60 fps</td><td>Tới 60 fps: 4K 60 ở Ống kính đơn, HD 60 với hai camera (Premium)</td><td>Không; chọn 60 fps nhưng lưu ra file 29,99 fps (đã thử)</td></tr>
+          <tr><td>Dọc và ngang từ một lần quay</td><td>Có; Ống kính đơn cắt cả hai từ trọn khung 4:3 ở độ phân giải đầy đủ, hoặc Ống kính kép quay mỗi bản bằng ống kính riêng</td><td>Có, nhưng file 16:9 được cắt từ khung dọc rồi phóng to (đã thử)</td></tr>
+          <tr><td>Ống kính kép (hai ống kính sau cùng lúc)</td><td>Có</td><td>Không (đã thử)</td></tr>
+          <tr><td>Đổi kích thước hình trong hình</td><td>Có: kéo, chụm hoặc chạm; chạm hai lần để căn giữa</td><td>Không (đã thử)</td></tr>
+          <tr><td>Điều khiển thủ công</td><td>Phơi sáng, cân bằng trắng, ISO, màn trập; chạm để lấy nét, khóa AE/AF bằng chạm giữ, vòng zoom</td><td>Chỉ thanh trượt phơi sáng, không đặt lại; chạm để lấy nét không hoạt động; khóa AE/AF chỉ trong menu, cách hai lần chạm (đã thử)</td></tr>
+          <tr><td>Máy nhắc chữ</td><td>Có, tự cuộn</td><td>Không (đã thử)</td></tr>
+          <tr><td>Tốc độ khung hình</td><td>24, 25, 30, 50 hoặc 60 fps</td><td>Không có 25 hay 50 fps (đã thử)</td></tr>
+          <tr><td>Tua nhanh, Apple Log, đồng hồ âm thanh</td><td>Có</td><td>Không (đã thử)</td></tr>
+          <tr><td>Mất video khi buộc đóng hoặc khóa máy</td><td>Không; vẫn quay khi tự khóa, khôi phục lần quay bị buộc đóng</td><td>Có, bị mất (đã thử)</td></tr>
+          <tr><td>Dự án và lần quay</td><td>Dự án, cảnh và lần quay, tên file khớp nhau</td><td>Không có; tên file ngẫu nhiên không khớp (đã thử)</td></tr>
+          <tr><td>Quyền vào thư viện ảnh</td><td>Chỉ thêm; không xem được thư viện</td><td>Truy cập toàn bộ (đã thử)</td></tr>
+          <tr><td>Tài khoản</td><td>Không có</td><td>Tạo tài khoản ẩn danh mỗi lần cài (chính sách quyền riêng tư)</td></tr>
+          <tr><td>Cập nhật gần nhất</td><td>iOS 2.9 (12 tháng 11 năm 2026), Android 2.7.1</td><td>iOS 1.0.5 (9 tháng 11 năm 2026)</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Các bước theo điện thoại: <a href="/blog/record-front-and-back-camera-iphone-15-16/">iPhone 15 và 16</a>, <a href="/vi/blog/record-front-and-back-camera-same-time-android/">Android</a>.</p>
+
+      <h2>DualCam có quay 4K bằng hai camera không?</h2>
+      <p>Không. Chính cài đặt của DualCam ghi "4K is available in single-camera mode only", và khi mình thử ngày 12 tháng 11 năm 2026, quay trước và sau là HD ở 30 fps. Trang cửa hàng ghi "Up to 4K and up to 60 fps, depending on device and mode", nhưng chọn 4K và 60 fps thì file mình lưu ra là 1920 x 1080 ở 29,99 fps. Chế độ Trước và sau của ContentCam quay cả hai camera ở 4K trên iPhone được hỗ trợ (từ iOS 2.9), thành hai file riêng. Muốn tự kiểm tra app nào, hãy xem kích thước điểm ảnh và tốc độ khung hình của file thử trong Ảnh: các bước có trong <a href="/blog/iphone-4k-front-and-back-camera-same-time/">iPhone có quay 4K bằng camera trước và sau cùng lúc được không?</a>.</p>
+
+      <h2>Câu hỏi thường gặp</h2>
+      <h3>DualCam có miễn phí không?</h3>
+      <p>Chỉ 60 giây quay đầu tiên. Khi mình thử, video dừng ở phút đầu tiên và app yêu cầu mình đăng ký (theo tuần, theo năm hoặc trọn đời). Bản miễn phí của ContentCam không giới hạn thời gian: Ống kính đơn không giới hạn ở 1080p, 5 lần Ống kính kép và 5 lần Trước và sau, không quảng cáo và không hình mờ.</p>
+      <h3>DualCam có trên Android không?</h3>
+      <p>Không. Mình không tìm thấy bản Android nào từ Mobixoft, nhà phát triển DualCam. Trang App Store dành cho iPhone và cần iOS 18. ContentCam có trên iPhone và Android.</p>
+      <h3>DualCam có lưu camera trước và sau thành file riêng không?</h3>
+      <p>Trang của DualCam mô tả việc đưa bạn và cảnh vật vào một video bằng hình trong hình hoặc chia đôi màn hình, và không nhắc đến file riêng cho camera trước và sau. Chế độ Trước và sau của ContentCam lưu camera selfie và camera sau thành hai file riêng, và trình chỉnh sửa Combine có thể tạo video hình trong hình hoặc chia đôi màn hình sau đó, vẫn giữ bản gốc.</p>
+      <h3>DualCam có quay video dọc và ngang cùng lúc được không?</h3>
+      <p>Được, nhưng khi mình thử, file 16:9 được cắt từ giữa khung dọc rồi phóng to, nên video ngang không rộng hơn video dọc, và chỉ quay ở 30 fps. Ống kính đơn của ContentCam ghi trọn khung 4:3 của camera rồi cắt cả hai khổ từ đó, nên video ngang giữ trọn chiều rộng và video dọc giữ trọn chiều cao, ở HD hoặc 4K tới 60 fps. Chế độ Ống kính kép quay bản dọc và bản ngang bằng hai ống kính khác nhau.</p>
+      <h3>DualCam có quay 60 fps không?</h3>
+      <p>Khi mình thử thì không. Bạn chọn được 60 fps, nhưng file lưu ra là 29,99 fps, và chế độ hai khổ hiện "60 fps unavailable". ContentCam quay tới 60 fps trên iPhone được hỗ trợ, kể cả 4K 60 fps ở Ống kính đơn và hai camera 60 fps ở HD.</p>
+
+      <div class="post-cta">
+        <p><strong>Dùng thử ContentCam miễn phí.</strong> Trước và sau thành hai file riêng biệt, bản dọc và bản ngang từ một lần quay, không quảng cáo và không logo chìm. Tải miễn phí trên iPhone và Android.</p>
+        <p class="cta-proof"><span class="star" aria-hidden="true">★</span> Được hơn 580 nhà sáng tạo đánh giá 4.8 sao trên <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> và <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>.</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&amp;ct=vi-vs-dualcam&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Tải về trên App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dvs%26utm_campaign%3Dvi-vs-dualcam"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Tải về trên Google Play" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>Liên quan: <a href="/vi/blog/best-front-and-back-dual-camera-apps/">các app quay camera trước và sau tốt nhất</a> · <a href="/blog/dual-camera-app-without-ads/">app camera kép không quảng cáo</a> · <a href="/vi/blog/dual-format-recording-apps-compared/">so sánh mọi app quay dọc và ngang</a></p>
+      <p class="byline">Nguồn: tự thử DualCam 1.0.5, ngày 12 tháng 11 năm 2026; chính sách quyền riêng tư của DualCam (dualcam.app/privacy-policy, cập nhật ngày 6 tháng 11 năm 2026); trang nhà phát triển Mobixoft LLC; trang App Store của DualCam (id6761523366, "DualCam: Dual Camera Recorder", Mobixoft LLC, mô tả, mua trong app, đánh giá, khả năng tương thích, lịch sử phiên bản); dualcam.app; các trang giá, hỗ trợ và nhật ký thay đổi của contentcam.app. Kiểm tra ngày 12 tháng 11 năm 2026.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="Logo ContentCam" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Tính năng</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/vi/features/dual-camera/">Camera kép</a>
+        <a href="/features/manual-controls/">Điều khiển thủ công</a>
+        <a href="/vi/android/">Android</a>
+        <a href="/pricing/">Bảng giá</a>
+        <a href="/blog/">Blog</a>
+        <a href="/support/">Hỗ trợ</a>
+        <a href="/press/">Báo chí</a>
+        <a href="/vi/vs/">So sánh</a>
+        <a href="/changelog/">Nhật ký cập nhật</a>
+        <a href="/privacy">Quyền riêng tư</a>
+        <a href="/terms">Điều khoản</a>
+      </div>
+      <div class="fine">Được hơn 580 nhà sáng tạo đánh giá 4.8 sao trên <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> và <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a> (tháng 11 năm 2026). ContentCam là ứng dụng camera độc lập do một nhà phát triển duy nhất làm ra tại Úc. © 2026 ContentCam. Apple, logo Apple, iPhone và App Store là nhãn hiệu của Apple Inc. Google Play và logo Google Play là nhãn hiệu của Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/vs/dualcam/" hreflang="en" lang="en">English</a> · <a href="/de/vs/dualcam/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/vs/dualcam/" hreflang="es" lang="es">Español</a> · <a href="/fr/vs/dualcam/" hreflang="fr" lang="fr">Français</a> · <a href="/it/vs/dualcam/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/vs/dualcam/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/vs/dualcam/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/vs/dualcam/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/vs/dualcam/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/vs/dualcam/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/vs/dualcam/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/vs/dualcam/" hreflang="tr" lang="tr">Türkçe</a> · <strong>Tiếng Việt</strong> · <a href="/zh-hans/vs/dualcam/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/vs/dualcam/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/vs/dualcam/" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/vs/dualcam/" hreflang="sv" lang="sv">Svenska</a> · <a href="/da/vs/dualcam/" hreflang="da" lang="da">Dansk</a> · <a href="/no/vs/dualcam/" hreflang="no" lang="no">Norsk</a> · <a href="/fi/vs/dualcam/" hreflang="fi" lang="fi">Suomi</a> · <a href="/pt-pt/vs/dualcam/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a> · <a href="/uk/vs/dualcam/" hreflang="uk" lang="uk">Українська</a> · <a href="/hi/vs/dualcam/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/vs/dualcam/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/vs/dualcam/" hreflang="ms" lang="ms">Bahasa Melayu</a> · <a href="/fil/vs/dualcam/" hreflang="fil" lang="fil">Filipino</a> · <a href="/bn/vs/dualcam/" hreflang="bn" lang="bn">বাংলা</a> · <a href="/cs/vs/dualcam/" hreflang="cs" lang="cs">Čeština</a> · <a href="/ro/vs/dualcam/" hreflang="ro" lang="ro">Română</a> · <a href="/hu/vs/dualcam/" hreflang="hu" lang="hu">Magyar</a> · <a href="/el/vs/dualcam/" hreflang="el" lang="el">Ελληνικά</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

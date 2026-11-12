@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>ContentCam vs DualCam (2026): testad, 4K, 60 fps och gratisgräns</title>
+  <meta name="description" content="Testat för hand: DualCam 1.0.5 har ingen 4K med båda kamerorna, sparade 30 fps med 60 valt och stoppar gratisinspelningen efter 60 sekunder. ContentCam spelar in båda kamerorna i 4K, upp till 60 fps.">
+  <link rel="canonical" href="https://contentcam.app/sv/vs/dualcam/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:title" content="ContentCam vs DualCam (2026): testad, 4K, 60 fps och gratisgräns">
+  <meta property="og:description" content="Testat för hand: DualCam 1.0.5 har ingen 4K med båda kamerorna, sparade 30 fps med 60 valt och stoppar gratisinspelningen efter 60 sekunder. ContentCam spelar in båda kamerorna i 4K, upp till 60 fps.">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/sv/vs/dualcam/">
+  <meta property="og:locale" content="sv_SE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ContentCam vs DualCam (2026): testad, 4K, 60 fps och gratisgräns">
+  <meta name="twitter:description" content="Testat för hand: DualCam 1.0.5 har ingen 4K med båda kamerorna, sparade 30 fps med 60 valt och stoppar gratisinspelningen efter 60 sekunder. ContentCam spelar in båda kamerorna i 4K, upp till 60 fps.">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://contentcam.app/sv/vs/dualcam/",
+      "url": "https://contentcam.app/sv/vs/dualcam/",
+      "name": "ContentCam vs DualCam (2026): testad, 4K, 60 fps och gratisgräns",
+      "description": "Testat för hand: DualCam 1.0.5 har ingen 4K med båda kamerorna, sparade 30 fps med 60 valt och stoppar gratisinspelningen efter 60 sekunder. ContentCam spelar in båda kamerorna i 4K, upp till 60 fps.",
+      "inLanguage": "sv",
+      "image": [
+        "https://contentcam.app/assets/og/og-blog.jpg",
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-first-60-seconds-free.webp",
+          "description": "DualCams betalvägg med rubriken Unlimited dual-camera recording, First 60 seconds free",
+          "caption": "DualCams betalvägg: gratisversionen stannar efter 60 sekunder."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-60fps-unavailable.webp",
+          "description": "DualCam-banner med texten 60 fps unavailable, current format doesn't support this rate",
+          "caption": "Dubbelformatsläge: \"60 fps unavailable\"."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp",
+          "description": "DualCams förhandsvisning i dubbelformat med en streckad 16:9-ruta inne i den stående kamerabilden",
+          "caption": "16:9-filen är den streckade rutan, utskuren inifrån den stående bilden."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp",
+          "description": "DualCams inställningar med Quality 4K och Frame Rate 60 fps och noteringen att 4K bara finns med en kamera, ovanför Bilder-informationen för den sparade filen: 1080p, 1920 x 1080, 29,99 FPS",
+          "caption": "4K och 60 fps valt; den sparade filen var 1080p i 29,99 fps."
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-full-photo-library-access.webp",
+          "description": "iPhone-fråga: DualCam Record vill ha full åtkomst till ditt bildbibliotek för att spara dina inspelningar och visa dina senaste videor",
+          "caption": "DualCam ber om full åtkomst till ditt bildbibliotek."
+        }
+      ],
+      "dateModified": "2026-11-12",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "Utvecklare av ContentCam",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://contentcam.app/sv/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Jämför",
+          "item": "https://contentcam.app/sv/vs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "DualCam",
+          "item": "https://contentcam.app/sv/vs/dualcam/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kan DualCam spela in 4K med båda kamerorna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej. DualCams egna inställningar säger \"4K is available in single-camera mode only\", och i mitt test den 12 november 2026 var inspelning med fram- och bakkamera HD i 30 fps. App Store-sidan säger \"Up to 4K and up to 60 fps, depending on device and mode\", men med 4K och 60 fps valt blev filen jag sparade 1920 x 1080 i 29,99 fps. ContentCams Fram och bak spelar in båda kamerorna i 4K på iPhones som stöds (från iOS 2.9), som två separata filer. För att kontrollera en app själv, läs av pixelstorlek och bildfrekvens för en testfil i Bilder: stegen finns i kan en iPhone spela in 4K med fram- och bakkameran samtidigt?."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är DualCam gratis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bara för de första 60 sekunderna inspelning. I mitt test stoppades inspelningen efter en minut och appen bad mig prenumerera (vecka, år eller livstid). ContentCams gratisversion har ingen tidsgräns: obegränsat med Ett objektiv i 1080p, 5 tagningar med Två objektiv och 5 med Fram och bak, utan reklam och utan vattenstämpel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Finns DualCam för Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej. Jag hittade ingen Android-version från DualCams utvecklare Mobixoft. App Store-sidan gäller iPhone och kräver iOS 18. ContentCam finns för iPhone och Android."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sparar DualCam fram- och bakkameran som separata filer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DualCams App Store-sida beskriver hur du visar dig själv och scenen i en video med bild-i-bild eller delad skärm, och nämner inga separata filer för fram- och bakkameran. ContentCams läge Fram och bak sparar selfiekameran och bakkameran som två separata filer, och redigeraren Combine kan sedan göra en bild-i-bild- eller delad skärm-video och behålla originalen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan DualCam spela in stående och liggande video samtidigt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, men i mitt test var 16:9-filen utskuren ur mitten av den stående bilden och förstorad, så den liggande videon var inte bredare än den stående, och den spelades in i 30 fps. ContentCams Ett objektiv spelar in kamerans hela 4:3-bild och skär ut båda formaten ur den, så den liggande behåller hela bredden och den stående hela höjden, i HD eller 4K med upp till 60 fps. Läget Två objektiv filmar den stående och den liggande genom två olika objektiv."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Spelar DualCam in i 60 fps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inte i mitt test. Du kan välja 60 fps, men den sparade filen var 29,99 fps, och dubbelformatsläget visar \"60 fps unavailable\". ContentCam spelar in i upp till 60 fps, även 4K i 60 fps med Ett objektiv och båda kamerorna i 60 fps i HD, på iPhones som stöds."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/vs/dualcam/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/vs/dualcam/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/vs/dualcam/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/vs/dualcam/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/vs/dualcam/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/vs/dualcam/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/vs/dualcam/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/vs/dualcam/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/vs/dualcam/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/vs/dualcam/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/vs/dualcam/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/vs/dualcam/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/vs/dualcam/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/vs/dualcam/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/vs/dualcam/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/vs/dualcam/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/vs/dualcam/">
+  <link rel="alternate" hreflang="da" href="https://contentcam.app/da/vs/dualcam/">
+  <link rel="alternate" hreflang="no" href="https://contentcam.app/no/vs/dualcam/">
+  <link rel="alternate" hreflang="fi" href="https://contentcam.app/fi/vs/dualcam/">
+  <link rel="alternate" hreflang="pt-PT" href="https://contentcam.app/pt-pt/vs/dualcam/">
+  <link rel="alternate" hreflang="uk" href="https://contentcam.app/uk/vs/dualcam/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/vs/dualcam/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/vs/dualcam/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/vs/dualcam/">
+  <link rel="alternate" hreflang="fil" href="https://contentcam.app/fil/vs/dualcam/">
+  <link rel="alternate" hreflang="bn" href="https://contentcam.app/bn/vs/dualcam/">
+  <link rel="alternate" hreflang="cs" href="https://contentcam.app/cs/vs/dualcam/">
+  <link rel="alternate" hreflang="ro" href="https://contentcam.app/ro/vs/dualcam/">
+  <link rel="alternate" hreflang="hu" href="https://contentcam.app/hu/vs/dualcam/">
+  <link rel="alternate" hreflang="el" href="https://contentcam.app/el/vs/dualcam/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/vs/dualcam/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/sv/"><img src="/assets/logo-mark.png" alt="ContentCam-logotyp" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Öppna menyn">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">Funktioner</a>
+        <a href="/pricing/">Priser</a>
+        <a href="/blog/">Blogg</a>
+        <a href="/support/">Hjälp</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/sv/">Hem</a> › <a href="/sv/vs/">Jämför</a> › DualCam</div>
+    <article class="post">
+      <h1>ContentCam vs DualCam (2026)</h1>
+      <p class="byline">Testad 12 november 2026 · App Store-sidan kontrollerad 12 november 2026 · Öppet: jag heter Jimmy och utvecklar ContentCam</p>
+
+      <p><strong>Testat:</strong> den största skillnaden är hur apparna skapar den liggande videon. DualCams 16:9-fil är en remsa som skärs ut ur mitten av den stående bilden och förstoras till 1920 x 1080, så den är inte bredare än den stående videon och har mindre verklig detalj. ContentCams Ett objektiv spelar in kamerans hela 4:3-bild och beskär varje format ur den, så den liggande behåller hela bredden, den stående hela höjden, båda behåller sin upplösning, och det fungerar i 4K med upp till 60 fps. ContentCam spelar också in 4K med Två objektiv (två bakre objektiv samtidigt, vart och ett med sin egen bildutsnitt) och med båda kamerorna i Fram och bak. DualCam har inget läge med två objektiv, ingen 4K med båda kamerorna (dess egna inställningar säger att 4K bara gäller med en kamera), inga 60 fps i något läge jag testade, och stoppar inspelningen efter 60 sekunder tills du betalar. Alla resultat och skärmbilder finns nedan.</p>
+      <p>Jag heter Jimmy, jag utvecklar ContentCam, och jag testade DualCam själv den 12 november 2026. Allt som är märkt som testat kommer från det testet; resten kommer från DualCams App Store-sida, dess webbplats och dess integritetspolicy.</p>
+
+      <h2>Vilka är de största skillnaderna?</h2>
+      <ul>
+        <li><strong>Hur den liggande videon skapas.</strong> DualCam skär ut 16:9-filen ur den stående bilden och förstorar den, så den liggande videon är lika bred som den stående. ContentCams Ett objektiv spelar in hela 4:3-bilden, så varje format får hela sin bredd eller höjd i full upplösning, upp till 4K i 60 fps. Två objektiv går längre: ett bakre objektiv filmar den stående, ett annat den liggande, var för sig med eget utsnitt.</li>
+        <li><strong>4K och 60 fps.</strong> ContentCam spelar in 4K i alla tre lägen: Ett objektiv med upp till 60 fps, Två objektiv i stående 4K och Fram och bak med båda kamerorna, på iPhones som stöds. DualCams inställningar säger "4K is available in single-camera mode only", och 60 fps fungerade inte i något läge: med 4K och 60 fps valt blev den sparade filen 1920 x 1080 i 29,99 fps.</li>
+        <li><strong>Gratisversionen.</strong> DualCam ger dig de första 60 sekunderna inspelning gratis, sedan stannar videon och betalväggen öppnas. ContentCams gratisversion spelar in obegränsat med Ett objektiv i stående och liggande samtidigt, i 1080p, plus 5 inspelningar med Två objektiv och 5 med Fram och bak. Ingen av apparna har reklam eller vattenstämpel.</li>
+        <li><strong>Kamerareglage.</strong> DualCams enda manuella reglage är ett exponeringsreglage utan återställning. Tryck för att fokusera visar en gul ruta men fokuserade inte, och AE/AF-låset ligger i en meny två tryck bort i stället för på tryck och håll. ContentCam har manuell exponering, vitbalans, ISO och slutartid, tryck för att fokusera, AE/AF-lås med tryck och håll, ett zoomhjul och en teleprompter.</li>
+        <li><strong>Ditt bildbibliotek.</strong> DualCam ber om full åtkomst till dina bilder, trots att integritetspolicyn säger att appen inte öppnar eller läser ditt befintliga bibliotek. ContentCam ber bara om att få lägga till videor, så den kan inte se ditt bibliotek.</li>
+        <li><strong>Plattformar.</strong> ContentCam finns för iPhone och Android. DualCam finns bara för iPhone.</li>
+      </ul>
+
+      <h2>Vad hittade jag när jag testade DualCam 1.0.5?</h2>
+      <p>Den 12 november 2026 installerade jag DualCam 1.0.5 från App Store och provade alla lägen och inställningar i gratisversionen tills betalväggen stoppade mig. Det här hittade jag.</p>
+      <ul>
+        <li><strong>60 sekunder gratis, sedan betala.</strong> Betalväggen säger "First 60 seconds free". När en tagning når en minut stoppas inspelningen och appen ber dig prenumerera. Planerna är vecka, år (22,99 US$ per år med 3 dagars provperiod, mer än ContentCams årsplan, som har 7 dagars provperiod) eller livstid.</li>
+        <li><strong>Ingen 4K med båda kamerorna.</strong> Inställningarna säger "4K is available in single-camera mode only". Inspelning med fram- och bakkamera är HD.</li>
+        <li><strong>Inga 60 fps.</strong> Du kan välja 4K och 60 fps, men filen jag sparade var 1080p i 29,99 fps. I dubbelformatsläget visar appen "60 fps unavailable". Jag fick inte 60 fps i vare sig enkamera-, dubbelformats- eller fram och bak-läget.</li>
+        <li><strong>16:9-filen är ett utsnitt av den stående.</strong> I dubbelformatsläget ritar förhandsvisningen en streckad 16:9-ruta inne i den stående bilden, och den rutan förstoras till den liggande filen i 1920 x 1080. Den liggande videon visar inte mer bredd än den stående, och i mitt test stämde rutan i förhandsvisningen inte exakt med det som spelades in.</li>
+        <li><strong>Bild-i-bild går inte att ändra storlek på.</strong> Att nypa gör ingenting och det finns ingen storleksknapp.</li>
+        <li><strong>Få kamerareglage.</strong> Exponering är det enda manuella reglaget, och det finns ingen återställningsknapp, så du drar tillbaka den till 0 för hand. Tryck för att fokusera visar en gul ruta men ändrade inte fokus, AE/AF-låset ligger inte på tryck och håll utan i en meny två tryck bort, där det är lätt att stänga av det av misstag, och det finns inga zoomknappar eller zoomhjul i förhandsvisningen.</li>
+        <li><strong>Stabiliseringen verkade inte fungera.</strong> Med Video Stabilization påslaget såg mina klipp filmade på fri hand ändå ostabiliserade ut. Ett amerikanskt betyg med 1 stjärna från 8 augusti säger "there's no stabilization".</li>
+        <li><strong>Inspelningar försvann.</strong> När jag tvångsstängde appen, gick till hemskärmen eller låste telefonen mitt i en tagning försvann inspelningen. ContentCam fortsätter spela in vid automatisk låsning och återställer en tagning efter en tvångsstängning nästa gång du öppnar appen.</li>
+        <li><strong>Filnamn som inte matchar.</strong> Den stående och den liggande filen från samma tagning får olika slumpmässiga namn, och den enda ledtråden är "_portrait" eller "_landscape" i slutet. ContentCam sparar i projekt, scener och tagningar med matchande filnamn.</li>
+        <li><strong>Full åtkomst till bildbiblioteket.</strong> DualCam ber om full åtkomst till ditt bildbibliotek "to save your recordings and show your recent videos" och lägger till ett eget DualCam-album i Bilder. Full åtkomst låter en app se varje bild och video du har, men integritetspolicyn säger "We do not access, read, or transmit any existing content in your photo library." Att spara en video kräver inte full åtkomst. ContentCam ber bara om att få lägga till videor i Bilder, så den kan inte se ditt bibliotek.</li>
+        <li><strong>Ett konto du inte skapat.</strong> Inställningarna har "Delete account and all data", men appen bad mig aldrig registrera mig och nämnde aldrig något konto. Integritetspolicyn förklarar att den skapar ett anonymt konto för varje installation och skickar kraschrapporter till Sentry, inklusive din IP-adress och en kort logg över dina senaste åtgärder i appen. ContentCam har inget konto.</li>
+        <li><strong>Funktioner som saknas.</strong> Ingen teleprompter, inget läge med två objektiv (två bakre objektiv samtidigt), inga 25 eller 50 fps, ingen timelapse, ingen Apple Log, ingen ljudnivåmätare och ingen hantering av projekt eller tagningar. ContentCam har allt detta.</li>
+      </ul>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-first-60-seconds-free.webp" alt="DualCams betalvägg med rubriken Unlimited dual-camera recording, First 60 seconds free" width="900" height="409" loading="lazy" decoding="async">
+        <figcaption>DualCams betalvägg: gratisversionen stannar efter 60 sekunder.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-60fps-unavailable.webp" alt="DualCam-banner med texten 60 fps unavailable, current format doesn't support this rate" width="900" height="322" loading="lazy" decoding="async">
+        <figcaption>Dubbelformatsläge: "60 fps unavailable".</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp" alt="DualCams förhandsvisning i dubbelformat med en streckad 16:9-ruta inne i den stående kamerabilden" width="900" height="1365" loading="lazy" decoding="async">
+        <figcaption>16:9-filen är den streckade rutan, utskuren inifrån den stående bilden.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp" alt="DualCams inställningar med Quality 4K och Frame Rate 60 fps och noteringen att 4K bara finns med en kamera, ovanför Bilder-informationen för den sparade filen: 1080p, 1920 x 1080, 29,99 FPS" width="900" height="1243" loading="lazy" decoding="async">
+        <figcaption>4K och 60 fps valt; den sparade filen var 1080p i 29,99 fps.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-full-photo-library-access.webp" alt="iPhone-fråga: DualCam Record vill ha full åtkomst till ditt bildbibliotek för att spara dina inspelningar och visa dina senaste videor" width="900" height="356" loading="lazy" decoding="async">
+        <figcaption>DualCam ber om full åtkomst till ditt bildbibliotek.</figcaption>
+      </figure>
+
+      <h2>Hur klarar sig ContentCam i samma tester?</h2>
+      <ul>
+        <li><strong>4K i alla lägen:</strong> Ett objektiv med upp till 60 fps, Två objektiv i stående 4K och Fram och bak med båda kamerorna i 4K, på iPhones som stöds (iOS 2.9).</li>
+        <li><strong>Liggande i full bredd:</strong> Ett objektiv skär ut båda formaten ur hela 4:3-bilden i full upplösning, och Två objektiv filmar varje format genom sitt eget objektiv.</li>
+        <li><strong>60 fps:</strong> upp till 60 fps, även med båda kamerorna i HD.</li>
+        <li><strong>Gratisversionen:</strong> ingen tidsgräns, ingen reklam, ingen vattenstämpel.</li>
+        <li><strong>Bild-i-bild:</strong> dra, nyp eller tryck för att ändra storlek; dubbeltryck för att centrera.</li>
+        <li><strong>Reglage:</strong> exponering, vitbalans, ISO, slutartid, tryck för att fokusera, AE/AF-lås med tryck och håll, zoomhjul, automatiskt rullande teleprompter, 25 och 50 fps, timelapse, Apple Log och en ljudnivåmätare.</li>
+        <li><strong>Säkra tagningar:</strong> fortsätter spela in vid automatisk låsning och återställer en tvångsstängd tagning.</li>
+        <li><strong>Integritet:</strong> åtkomst till Bilder bara för att lägga till och inget konto.</li>
+      </ul>
+
+      <p><strong>Värt att veta om utvecklaren.</strong> Mobixoft släppte sju appar i App Store under 2026, DualCam bland dem, tillsammans med en AI-avföringsskanner, en klockvärderare, en stenidentifierare, en identifierare för insektsbett, en tystnadsborttagare och en reseplanerare. Alla dess appar har tillsammans 20 amerikanska betyg. DualCam har haft fem versioner sedan lanseringen i april. Det bevisar ingenting om DualCam, men ett teams uppmärksamhet sprids över många appar. All min går till ContentCam: den har fått 32 uppdateringar för iOS och Android (se <a href="/changelog/">ändringsloggen</a>) och har betyget 4,8 från 580+ kreatörer.</p>
+      <p><strong>Vem DualCam passar:</strong> den som vill prova ett enkelt bild-i-bild-klipp eller 9:16 + 16:9 på under en minut. Om du behöver 4K med båda kamerorna, 60 fps, en liggande video i full bredd, tagningar längre än en minut eller riktiga kamerareglage räcker den inte.</p>
+
+      <h2>Hur står de sig punkt för punkt?</h2>
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th></th><th>ContentCam</th><th>DualCam</th></tr></thead>
+        <tbody>
+          <tr><td>Gratisversion</td><td>Obegränsat med Ett objektiv (1080p), plus 5 tagningar med Två objektiv och 5 med Fram och bak</td><td>De första 60 sekunderna inspelning, sedan betalväggen (testat)</td></tr>
+          <tr><td>Planer</td><td>Årsplan med 7 dagars provperiod, månad eller livstid; ingen veckoplan</td><td>Vecka, år (22,99 US$, 3 dagars provperiod) eller livstid</td></tr>
+          <tr><td>Reklam</td><td>Ingen, gratis eller Premium</td><td>Ingen (testat)</td></tr>
+          <tr><td>Vattenstämpel</td><td>Ingen, gratis eller Premium</td><td>Ingen (testat)</td></tr>
+          <tr><td>Plattformar</td><td>iPhone (iOS 18 eller senare) och Android</td><td>Bara iPhone (iOS 18 eller senare)</td></tr>
+          <tr><td>4K</td><td>Alla tre lägen på iPhones som stöds: Ett objektiv upp till 60 fps, Två objektiv stående, Fram och bak med båda kamerorna</td><td>Bara enkameraläge, ingen 4K med båda kamerorna (testat)</td></tr>
+          <tr><td>60 fps</td><td>Upp till 60 fps: 4K 60 med Ett objektiv, HD 60 med båda kamerorna (Premium)</td><td>Nej; 60 fps valt sparade en fil i 29,99 fps (testat)</td></tr>
+          <tr><td>Stående och liggande från en tagning</td><td>Ja; Ett objektiv skär ut båda ur hela 4:3-bilden i full upplösning, eller Två objektiv filmar var och en genom sitt eget objektiv</td><td>Ja, men 16:9-filen skärs ut ur den stående bilden och förstoras (testat)</td></tr>
+          <tr><td>Två objektiv (två bakre objektiv samtidigt)</td><td>Ja</td><td>Nej (testat)</td></tr>
+          <tr><td>Ändra storlek på bild-i-bild</td><td>Ja: dra, nyp eller tryck; dubbeltryck för att centrera</td><td>Nej (testat)</td></tr>
+          <tr><td>Manuella reglage</td><td>Exponering, vitbalans, ISO, slutartid; tryck för att fokusera, AE/AF-lås med tryck och håll, zoomhjul</td><td>Bara exponeringsreglage utan återställning; tryck för att fokusera fokuserade inte; AE/AF-lås bara i en meny, två tryck bort (testat)</td></tr>
+          <tr><td>Teleprompter</td><td>Ja, rullar automatiskt</td><td>Nej (testat)</td></tr>
+          <tr><td>Bildfrekvenser</td><td>24, 25, 30, 50 eller 60 fps</td><td>Inga 25 eller 50 fps (testat)</td></tr>
+          <tr><td>Timelapse, Apple Log, ljudnivåmätare</td><td>Ja</td><td>Nej (testat)</td></tr>
+          <tr><td>Tagning förlorad vid tvångsstängning eller låsning</td><td>Nej; fortsätter vid automatisk låsning, återställer tvångsstängda tagningar</td><td>Ja, förlorad (testat)</td></tr>
+          <tr><td>Projekt och tagningar</td><td>Projekt, scener och tagningar, matchande filnamn</td><td>Inga; slumpmässiga filnamn som inte matchar (testat)</td></tr>
+          <tr><td>Åtkomst till bildbiblioteket</td><td>Bara lägga till; ser inte ditt bibliotek</td><td>Full åtkomst (testat)</td></tr>
+          <tr><td>Konto</td><td>Inget</td><td>Anonymt konto skapas per installation (integritetspolicy)</td></tr>
+          <tr><td>Senaste uppdatering</td><td>iOS 2.9 (12 november 2026), Android 2.7.1</td><td>iOS 1.0.5 (9 november 2026)</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Steg för steg per telefon: <a href="/blog/record-front-and-back-camera-iphone-15-16/">iPhone 15 och 16</a>, <a href="/sv/blog/record-front-and-back-camera-same-time-android/">Android</a>.</p>
+
+      <h2>Kan DualCam spela in 4K med båda kamerorna?</h2>
+      <p>Nej. DualCams egna inställningar säger "4K is available in single-camera mode only", och i mitt test den 12 november 2026 var inspelning med fram- och bakkamera HD i 30 fps. App Store-sidan säger "Up to 4K and up to 60 fps, depending on device and mode", men med 4K och 60 fps valt blev filen jag sparade 1920 x 1080 i 29,99 fps. ContentCams Fram och bak spelar in båda kamerorna i 4K på iPhones som stöds (från iOS 2.9), som två separata filer. För att kontrollera en app själv, läs av pixelstorlek och bildfrekvens för en testfil i Bilder: stegen finns i <a href="/blog/iphone-4k-front-and-back-camera-same-time/">kan en iPhone spela in 4K med fram- och bakkameran samtidigt?</a>.</p>
+
+      <h2>Vanliga frågor</h2>
+      <h3>Är DualCam gratis?</h3>
+      <p>Bara för de första 60 sekunderna inspelning. I mitt test stoppades inspelningen efter en minut och appen bad mig prenumerera (vecka, år eller livstid). ContentCams gratisversion har ingen tidsgräns: obegränsat med Ett objektiv i 1080p, 5 tagningar med Två objektiv och 5 med Fram och bak, utan reklam och utan vattenstämpel.</p>
+      <h3>Finns DualCam för Android?</h3>
+      <p>Nej. Jag hittade ingen Android-version från DualCams utvecklare Mobixoft. App Store-sidan gäller iPhone och kräver iOS 18. ContentCam finns för iPhone och Android.</p>
+      <h3>Sparar DualCam fram- och bakkameran som separata filer?</h3>
+      <p>DualCams App Store-sida beskriver hur du visar dig själv och scenen i en video med bild-i-bild eller delad skärm, och nämner inga separata filer för fram- och bakkameran. ContentCams läge Fram och bak sparar selfiekameran och bakkameran som två separata filer, och redigeraren Combine kan sedan göra en bild-i-bild- eller delad skärm-video och behålla originalen.</p>
+      <h3>Kan DualCam spela in stående och liggande video samtidigt?</h3>
+      <p>Ja, men i mitt test var 16:9-filen utskuren ur mitten av den stående bilden och förstorad, så den liggande videon var inte bredare än den stående, och den spelades in i 30 fps. ContentCams Ett objektiv spelar in kamerans hela 4:3-bild och skär ut båda formaten ur den, så den liggande behåller hela bredden och den stående hela höjden, i HD eller 4K med upp till 60 fps. Läget Två objektiv filmar den stående och den liggande genom två olika objektiv.</p>
+      <h3>Spelar DualCam in i 60 fps?</h3>
+      <p>Inte i mitt test. Du kan välja 60 fps, men den sparade filen var 29,99 fps, och dubbelformatsläget visar "60 fps unavailable". ContentCam spelar in i upp till 60 fps, även 4K i 60 fps med Ett objektiv och båda kamerorna i 60 fps i HD, på iPhones som stöds.</p>
+
+      <div class="post-cta">
+        <p><strong>Testa ContentCam gratis.</strong> Fram och bak som två separata filer, stående och liggande från en tagning, ingen reklam och ingen vattenstämpel. Gratis att ladda ner för iPhone och Android.</p>
+        <p class="cta-proof"><span class="star" aria-hidden="true">★</span> Betyget 4,8 från över 580 kreatörer i <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> och <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>.</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&amp;ct=sv-vs-dualcam&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Hämta i App Store" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dvs%26utm_campaign%3Dsv-vs-dualcam"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Ladda ned på Google Play" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>Relaterat: <a href="/sv/blog/best-front-and-back-dual-camera-apps/">de bästa apparna för fram- och bakkamera</a> · <a href="/blog/dual-camera-app-without-ads/">dubbelkameraappar utan reklam</a> · <a href="/sv/blog/dual-format-recording-apps-compared/">alla appar för stående och liggande jämförda</a></p>
+      <p class="byline">Källor: eget test av DualCam 1.0.5, 12 november 2026; DualCams integritetspolicy (dualcam.app/privacy-policy, uppdaterad 6 november 2026); utvecklarsidan för Mobixoft LLC; DualCams App Store-sida (id6761523366, "DualCam: Dual Camera Recorder", Mobixoft LLC, beskrivning, köp i appen, betyg, kompatibilitet, versionshistorik); dualcam.app; sidorna för priser, support och ändringslogg på contentcam.app. Kontrollerat 12 november 2026.</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam-logotyp" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">Funktioner</a>
+        <a href="/features/teleprompter/">Teleprompter</a>
+        <a href="/sv/features/dual-camera/">Dubbelkamera</a>
+        <a href="/features/manual-controls/">Manuella reglage</a>
+        <a href="/sv/android/">Android</a>
+        <a href="/pricing/">Priser</a>
+        <a href="/blog/">Blogg</a>
+        <a href="/support/">Hjälp</a>
+        <a href="/press/">Press</a>
+        <a href="/sv/vs/">Jämför</a>
+        <a href="/changelog/">Nyheter</a>
+        <a href="/privacy">Integritet</a>
+        <a href="/terms">Villkor</a>
+      </div>
+      <div class="fine">Betyget 4,8 från över 580 kreatörer i <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> och <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a> (november 2026). ContentCam är en oberoende kameraapp, gjord i Australien av en enda utvecklare. © 2026 ContentCam. Apple, Apple-logotypen, iPhone och App Store är varumärken som tillhör Apple Inc. Google Play och Google Play-logotypen är varumärken som tillhör Google LLC.</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/vs/dualcam/" hreflang="en" lang="en">English</a> · <a href="/de/vs/dualcam/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/vs/dualcam/" hreflang="es" lang="es">Español</a> · <a href="/fr/vs/dualcam/" hreflang="fr" lang="fr">Français</a> · <a href="/it/vs/dualcam/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/vs/dualcam/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/vs/dualcam/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/vs/dualcam/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/vs/dualcam/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/vs/dualcam/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/vs/dualcam/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/vs/dualcam/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/vs/dualcam/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/vs/dualcam/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="/zh-hant/vs/dualcam/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="/ru/vs/dualcam/" hreflang="ru" lang="ru">Русский</a> · <strong>Svenska</strong> · <a href="/da/vs/dualcam/" hreflang="da" lang="da">Dansk</a> · <a href="/no/vs/dualcam/" hreflang="no" lang="no">Norsk</a> · <a href="/fi/vs/dualcam/" hreflang="fi" lang="fi">Suomi</a> · <a href="/pt-pt/vs/dualcam/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a> · <a href="/uk/vs/dualcam/" hreflang="uk" lang="uk">Українська</a> · <a href="/hi/vs/dualcam/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/vs/dualcam/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/vs/dualcam/" hreflang="ms" lang="ms">Bahasa Melayu</a> · <a href="/fil/vs/dualcam/" hreflang="fil" lang="fil">Filipino</a> · <a href="/bn/vs/dualcam/" hreflang="bn" lang="bn">বাংলা</a> · <a href="/cs/vs/dualcam/" hreflang="cs" lang="cs">Čeština</a> · <a href="/ro/vs/dualcam/" hreflang="ro" lang="ro">Română</a> · <a href="/hu/vs/dualcam/" hreflang="hu" lang="hu">Magyar</a> · <a href="/el/vs/dualcam/" hreflang="el" lang="el">Ελληνικά</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>

@@ -48,7 +48,7 @@ DualCam's paywall: the free version stops at 60 seconds. Dual-format mode: “60
 - **Safe takes:** keeps recording through auto-lock and restores a force-closed take.
 - **Privacy:** add-only photo access and no account.
 
-**Worth knowing about the developer.** Mobixoft released seven apps on the App Store in 2026, DualCam among them, alongside an AI stool scanner, a watch appraiser, a rock identifier, a bug bite identifier, a silence remover and a travel planner Across all its apps there are 20 US ratings. DualCam has had five versions since its release in April. That doesn't prove anything about DualCam, but one team's attention is spread across a lot of apps. ContentCam is where all of mine goes: it has had 32 iOS and Android updates (see the [changelog](https://contentcam.app/changelog/)) and is rated 4.8 by 580+ creators.
+**Worth knowing about the developer.** Mobixoft released seven apps on the App Store in 2026, DualCam among them, alongside an AI stool scanner, a watch appraiser, a rock identifier, a bug bite identifier, a silence remover and a travel planner. Across all its apps there are 20 US ratings. DualCam has had five versions since its release in April. That doesn't prove anything about DualCam, but one team's attention is spread across a lot of apps. ContentCam is where all of mine goes: it has had 32 iOS and Android updates (see the [changelog](https://contentcam.app/changelog/)) and is rated 4.8 by 580+ creators.
 
 **Who DualCam suits:** someone who wants to try a basic picture-in-picture or 9:16 + 16:9 clip of under a minute. If you need 4K with both cameras, 60 fps, a full-width horizontal video, takes longer than a minute or real camera controls, it falls short.
 

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<!-- @head-common -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <meta name="apple-itunes-app" content="app-id=6765881795">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+<!-- /@head-common -->
+  <title>ContentCam vs DualCam（2026）：實測 4K、60 fps 和免費限制</title>
+  <meta name="description" content="親手實測：DualCam 1.0.5 兩顆鏡頭不能錄 4K，選 60 fps 卻存成 30 fps，免費錄影到 60 秒就停。ContentCam 兩顆鏡頭都能錄 4K，最高 60 fps。">
+  <link rel="canonical" href="https://contentcam.app/zh-hant/vs/dualcam/">
+  <meta property="og:site_name" content="ContentCam">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:title" content="ContentCam vs DualCam（2026）：實測 4K、60 fps 和免費限制">
+  <meta property="og:description" content="親手實測：DualCam 1.0.5 兩顆鏡頭不能錄 4K，選 60 fps 卻存成 30 fps，免費錄影到 60 秒就停。ContentCam 兩顆鏡頭都能錄 4K，最高 60 fps。">
+  <meta property="og:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentcam.app/zh-hant/vs/dualcam/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ContentCam vs DualCam（2026）：實測 4K、60 fps 和免費限制">
+  <meta name="twitter:description" content="親手實測：DualCam 1.0.5 兩顆鏡頭不能錄 4K，選 60 fps 卻存成 30 fps，免費錄影到 60 秒就停。ContentCam 兩顆鏡頭都能錄 4K，最高 60 fps。">
+  <meta name="twitter:image" content="https://contentcam.app/assets/og/og-blog.jpg">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://contentcam.app/zh-hant/vs/dualcam/",
+      "url": "https://contentcam.app/zh-hant/vs/dualcam/",
+      "name": "ContentCam vs DualCam（2026）：實測 4K、60 fps 和免費限制",
+      "description": "親手實測：DualCam 1.0.5 兩顆鏡頭不能錄 4K，選 60 fps 卻存成 30 fps，免費錄影到 60 秒就停。ContentCam 兩顆鏡頭都能錄 4K，最高 60 fps。",
+      "inLanguage": "zh-Hant",
+      "image": [
+        "https://contentcam.app/assets/og/og-blog.jpg",
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-first-60-seconds-free.webp",
+          "description": "DualCam 付費頁面，標題為 Unlimited dual-camera recording，First 60 seconds free",
+          "caption": "DualCam 的付費頁面：免費版錄到 60 秒就停。"
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-60fps-unavailable.webp",
+          "description": "DualCam 橫幅提示 60 fps unavailable, current format doesn't support this rate",
+          "caption": "雙格式模式：「60 fps unavailable」。"
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp",
+          "description": "DualCam 雙格式預覽，直式鏡頭畫面裡畫著一個 16:9 虛線框",
+          "caption": "16:9 檔案就是從直式畫面裡裁出的虛線框。"
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp",
+          "description": "DualCam 設定為 Quality 4K、Frame Rate 60 fps，並註明 4K 只限單鏡頭，下方是存下檔案在照片裡的資訊：1080p、1920 x 1080、29.99 FPS",
+          "caption": "選了 4K 和 60 fps，存下來的檔案是 1080p、29.99 fps。"
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "https://contentcam.app/assets/vs/dualcam/dualcam-full-photo-library-access.webp",
+          "description": "iPhone 跳出視窗：DualCam Record 要求完整取用你的照片圖庫，用來儲存錄影和顯示最近的影片",
+          "caption": "DualCam 要求完整取用你的照片圖庫。"
+        }
+      ],
+      "dateModified": "2026-11-12",
+      "author": {
+        "@type": "Person",
+        "name": "Jimmy",
+        "description": "ContentCam 開發者",
+        "url": "https://contentcam.app/press/"
+      },
+      "publisher": {
+        "@id": "https://contentcam.app/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首頁",
+          "item": "https://contentcam.app/zh-hant/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "比較",
+          "item": "https://contentcam.app/zh-hant/vs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "DualCam",
+          "item": "https://contentcam.app/zh-hant/vs/dualcam/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "DualCam 能用兩顆鏡頭錄 4K 嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "不能。DualCam 自己的設定寫著「4K is available in single-camera mode only」，2026 年 11 月 12 日我測試時，前後鏡頭錄影是 HD、30 fps。它的商店頁面寫著「Up to 4K and up to 60 fps, depending on device and mode」，但選了 4K 和 60 fps 後我存下的檔案是 1920 x 1080、29.99 fps。ContentCam 的前後鏡頭模式在支援的 iPhone 上（iOS 2.9 起）兩顆鏡頭都能錄 4K，存成兩個獨立檔案。想自己檢查任何 App，就在照片裡查看測試檔案的像素尺寸和影格率：步驟在iPhone 能同時用前後鏡頭錄 4K 嗎？。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualCam 是免費的嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "只有前 60 秒錄影免費。我測試時錄到一分鐘就停了，App 要我訂閱（週付、年付或終身買斷）。ContentCam 免費版沒有時間限制：單鏡頭 1080p 無限次，5 次雙鏡頭和 5 次前後鏡頭，沒有廣告也沒有浮水印。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualCam 有 Android 版嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "沒有。我沒找到 DualCam 開發者 Mobixoft 的 Android 版。App Store 頁面只有 iPhone 版，需要 iOS 18。ContentCam 支援 iPhone 和 Android。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualCam 會把前後鏡頭存成獨立檔案嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DualCam 的商店頁面只描述了用子母畫面或分割畫面把你和場景放進同一支影片，並沒有提到前後鏡頭分開存檔。ContentCam 的前後鏡頭模式把自拍鏡頭和後鏡頭存成兩個獨立檔案，之後可以在合成（Combine）編輯器裡做成子母畫面或分割畫面影片，原始檔都保留。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualCam 能同時錄直式和橫式影片嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以，但我測試時 16:9 檔案是從直式畫面中間裁出再放大的，所以橫式影片不比直式寬，而且只有 30 fps。ContentCam 的單鏡頭會錄下鏡頭完整的 4:3 畫面，再從中裁出兩種格式，橫式保有完整寬度，直式保有完整高度，支援 HD 或最高 60 fps 的 4K。它的雙鏡頭模式用兩顆不同的鏡頭分別拍直式和橫式。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DualCam 能錄 60 fps 嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "我測試時不能。可以選 60 fps，但存下來的檔案是 29.99 fps，雙格式模式還會顯示「60 fps unavailable」。ContentCam 在支援的 iPhone 上最高可錄 60 fps，包括單鏡頭 4K 60 fps 和兩顆鏡頭 HD 60 fps。"
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+  <!-- @hreflang -->
+  <link rel="alternate" hreflang="en" href="https://contentcam.app/vs/dualcam/">
+  <link rel="alternate" hreflang="de" href="https://contentcam.app/de/vs/dualcam/">
+  <link rel="alternate" hreflang="es" href="https://contentcam.app/es/vs/dualcam/">
+  <link rel="alternate" hreflang="fr" href="https://contentcam.app/fr/vs/dualcam/">
+  <link rel="alternate" hreflang="it" href="https://contentcam.app/it/vs/dualcam/">
+  <link rel="alternate" hreflang="ja" href="https://contentcam.app/ja/vs/dualcam/">
+  <link rel="alternate" hreflang="pt-BR" href="https://contentcam.app/pt-br/vs/dualcam/">
+  <link rel="alternate" hreflang="id" href="https://contentcam.app/id/vs/dualcam/">
+  <link rel="alternate" hreflang="ko" href="https://contentcam.app/ko/vs/dualcam/">
+  <link rel="alternate" hreflang="nl" href="https://contentcam.app/nl/vs/dualcam/">
+  <link rel="alternate" hreflang="pl" href="https://contentcam.app/pl/vs/dualcam/">
+  <link rel="alternate" hreflang="tr" href="https://contentcam.app/tr/vs/dualcam/">
+  <link rel="alternate" hreflang="vi" href="https://contentcam.app/vi/vs/dualcam/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://contentcam.app/zh-hans/vs/dualcam/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://contentcam.app/zh-hant/vs/dualcam/">
+  <link rel="alternate" hreflang="ru" href="https://contentcam.app/ru/vs/dualcam/">
+  <link rel="alternate" hreflang="sv" href="https://contentcam.app/sv/vs/dualcam/">
+  <link rel="alternate" hreflang="da" href="https://contentcam.app/da/vs/dualcam/">
+  <link rel="alternate" hreflang="no" href="https://contentcam.app/no/vs/dualcam/">
+  <link rel="alternate" hreflang="fi" href="https://contentcam.app/fi/vs/dualcam/">
+  <link rel="alternate" hreflang="pt-PT" href="https://contentcam.app/pt-pt/vs/dualcam/">
+  <link rel="alternate" hreflang="uk" href="https://contentcam.app/uk/vs/dualcam/">
+  <link rel="alternate" hreflang="hi" href="https://contentcam.app/hi/vs/dualcam/">
+  <link rel="alternate" hreflang="th" href="https://contentcam.app/th/vs/dualcam/">
+  <link rel="alternate" hreflang="ms" href="https://contentcam.app/ms/vs/dualcam/">
+  <link rel="alternate" hreflang="fil" href="https://contentcam.app/fil/vs/dualcam/">
+  <link rel="alternate" hreflang="bn" href="https://contentcam.app/bn/vs/dualcam/">
+  <link rel="alternate" hreflang="cs" href="https://contentcam.app/cs/vs/dualcam/">
+  <link rel="alternate" hreflang="ro" href="https://contentcam.app/ro/vs/dualcam/">
+  <link rel="alternate" hreflang="hu" href="https://contentcam.app/hu/vs/dualcam/">
+  <link rel="alternate" hreflang="el" href="https://contentcam.app/el/vs/dualcam/">
+  <link rel="alternate" hreflang="x-default" href="https://contentcam.app/vs/dualcam/">
+  <!-- /@hreflang -->
+</head>
+<body>
+<!-- @nav -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="/zh-hant/"><img src="/assets/logo-mark.png" alt="ContentCam 標誌" width="30" height="30">ContentCam</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="開啟選單">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="/features/">功能</a>
+        <a href="/pricing/">價格</a>
+        <a href="/blog/">部落格</a>
+        <a href="/support/">支援</a>
+      </div>
+    </nav>
+  </header>
+<!-- /@nav -->
+
+  <main class="wrap">
+    <div class="crumbs"><a href="/zh-hant/">首頁</a> › <a href="/zh-hant/vs/">比較</a> › DualCam</div>
+    <article class="post">
+      <h1>ContentCam vs DualCam（2026）</h1>
+      <p class="byline">2026 年 11 月 12 日實測 · 商店頁面於 2026 年 11 月 12 日核對 · 說明：我是 Jimmy，ContentCam 的開發者</p>
+
+      <p><strong>實測：</strong>最大的差別在於兩個 App 怎麼做出橫式影片。DualCam 的 16:9 檔案是從直式畫面中間切出一條，再放大到 1920 x 1080，所以不會比直式影片更寬，真實細節也比較少。ContentCam 的單鏡頭（Single Lens）模式會錄下鏡頭完整的 4:3 畫面，再從中裁出每種格式，所以橫式保有完整寬度，直式保有完整高度，兩者都維持原本解析度，而且最高可用 60 fps 的 4K。ContentCam 也能用雙鏡頭（Dual Lens，兩顆後鏡頭同時拍，各自構圖），以及前後鏡頭（Front/Back）模式的兩顆鏡頭錄 4K。DualCam 沒有雙鏡頭模式，兩顆鏡頭不能錄 4K（它自己的設定寫著 4K 只限單鏡頭），我試過的所有模式都沒有 60 fps，而且錄滿 60 秒就會停止，要付費才能繼續。完整結果和截圖在下面。</p>
+      <p>我是 Jimmy，ContentCam 的開發者，2026 年 11 月 12 日我親自測試了 DualCam。標示為實測的內容都來自那次測試，其餘來自 DualCam 的 App Store 頁面、官網和隱私權政策。</p>
+
+      <h2>主要差別是什麼？</h2>
+      <ul>
+        <li><strong>橫式影片是怎麼來的。</strong>DualCam 從直式畫面切出 16:9 檔案再放大，所以橫式影片和直式影片一樣寬。ContentCam 的單鏡頭會錄下完整的 4:3 畫面，每種格式都能用原始解析度拿到完整寬度或高度，最高 4K 60 fps。雙鏡頭更進一步：一顆後鏡頭拍直式，另一顆拍橫式，各自構圖。</li>
+        <li><strong>4K 和 60 fps。</strong>在支援的 iPhone 上，ContentCam 三種模式都能錄 4K：單鏡頭最高 60 fps，雙鏡頭錄直式 4K，前後鏡頭兩顆都是 4K。DualCam 的設定寫著「4K is available in single-camera mode only」，60 fps 在任何模式下都沒有用：選了 4K 和 60 fps，存下來的檔案是 1920 x 1080、29.99 fps。</li>
+        <li><strong>免費版。</strong>DualCam 免費給你前 60 秒錄影，之後影片停止，跳出付費頁面。ContentCam 免費版可以用單鏡頭無限次同時錄直式和橫式，畫質 1080p，另外還有 5 次雙鏡頭和 5 次前後鏡頭錄影。兩個 App 都沒有廣告和浮水印。</li>
+        <li><strong>相機控制。</strong>DualCam 唯一的手動控制是一個沒有重設按鈕的曝光滑桿。點一下對焦會出現黃色方框，但其實沒有對焦，AE/AF 鎖定也不是長按，而是藏在要點兩下才打得開的選單裡。ContentCam 有手動曝光、白平衡、ISO 和快門，點一下對焦，長按鎖定 AE/AF，變焦轉盤和提詞機。</li>
+        <li><strong>你的照片圖庫。</strong>DualCam 要求完整取用你的照片，但它的隱私權政策說不會存取或讀取你現有的圖庫。ContentCam 只要求加入影片的權限，所以看不到你的圖庫。</li>
+        <li><strong>平台。</strong>ContentCam 支援 iPhone 和 Android。DualCam 只有 iPhone 版。</li>
+      </ul>
+
+      <h2>我實測 DualCam 1.0.5 發現了什麼？</h2>
+      <p>2026 年 11 月 12 日，我從 App Store 安裝了 DualCam 1.0.5，把免費版的每個模式和設定都試了一遍，直到被付費頁面擋下來。結果如下。</p>
+      <ul>
+        <li><strong>免費 60 秒，之後要付費。</strong>付費頁面寫著「First 60 seconds free」。一段錄影滿一分鐘就會停止，App 要你訂閱。方案有週付、年付（每年 22.99 美元，3 天試用，比 ContentCam 的年付方案貴，後者有 7 天試用）和終身買斷。</li>
+        <li><strong>兩顆鏡頭不能錄 4K。</strong>設定頁面寫著「4K is available in single-camera mode only」。前後鏡頭同時錄影只有 HD。</li>
+        <li><strong>沒有 60 fps。</strong>可以選 4K 和 60 fps，但我存下來的檔案是 1080p、29.99 fps。在雙格式模式下，App 會顯示「60 fps unavailable」。單鏡頭、雙格式、前後鏡頭三種模式我都沒拿到 60 fps。</li>
+        <li><strong>16:9 檔案是從直式裁出來的。</strong>雙格式模式下，預覽會在直式畫面裡畫一個 16:9 虛線框，這個框放大後就是 1920 x 1080 的橫式檔案。橫式影片拍到的寬度不比直式多，而且我測試時預覽裡的框和實際錄到的畫面沒有完全對齊。</li>
+        <li><strong>子母畫面視窗不能調整大小。</strong>雙指縮放沒反應，也沒有大小按鈕。</li>
+        <li><strong>相機控制很少。</strong>曝光是唯一的手動控制，也沒有重設按鈕，只能自己拖回 0。點一下對焦會出現黃色方框，但焦點沒變。AE/AF 鎖定不在長按裡，而在要點兩下才打得開的選單中，很容易不小心關掉，預覽上也沒有變焦按鈕或變焦轉盤。</li>
+        <li><strong>防手震好像沒有作用。</strong>打開 Video Stabilization 後，我手持拍的片段看起來還是沒有防手震。8 月 8 日一則美國一星評論也寫著「there's no stabilization」。</li>
+        <li><strong>錄影不見了。</strong>錄影中我強制關閉 App、回到主畫面或鎖定手機時，這段錄影都不見了。ContentCam 自動鎖定時也會繼續錄，強制結束的錄影下次開啟時會復原。</li>
+        <li><strong>檔名對不起來。</strong>同一次拍攝的直式和橫式檔案會拿到兩個不同的隨機檔名，唯一的線索是結尾的「_portrait」或「_landscape」。ContentCam 依專案、場景和鏡次儲存，檔名互相對應。</li>
+        <li><strong>完整取用照片圖庫。</strong>DualCam 以「to save your recordings and show your recent videos」為理由，要求完整取用你的照片圖庫，還會在照片裡建立自己的 DualCam 相簿。有了完整取用權限，App 可以看到你所有的照片和影片，但它的隱私權政策寫著「We do not access, read, or transmit any existing content in your photo library.」。儲存影片並不需要完整取用。ContentCam 只要求把影片加入照片的權限，所以看不到你的圖庫。</li>
+        <li><strong>你沒註冊過的帳號。</strong>設定裡有「Delete account and all data」，但 App 從來沒要我註冊，也沒提過帳號。它的隱私權政策說明，每次安裝都會建立一個匿名帳號，並把當機報告傳給 Sentry，內容包括你的 IP 位址和一段最近的 App 內操作紀錄。ContentCam 沒有帳號。</li>
+        <li><strong>缺少的功能。</strong>沒有提詞機，沒有雙鏡頭模式（兩顆後鏡頭同時拍），沒有 25 或 50 fps，沒有縮時攝影，沒有 Apple Log，沒有音量電平表，也沒有專案或鏡次管理。這些 ContentCam 都有。</li>
+      </ul>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-first-60-seconds-free.webp" alt="DualCam 付費頁面，標題為 Unlimited dual-camera recording，First 60 seconds free" width="900" height="409" loading="lazy" decoding="async">
+        <figcaption>DualCam 的付費頁面：免費版錄到 60 秒就停。</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-60fps-unavailable.webp" alt="DualCam 橫幅提示 60 fps unavailable, current format doesn't support this rate" width="900" height="322" loading="lazy" decoding="async">
+        <figcaption>雙格式模式：「60 fps unavailable」。</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-16-9-cropped-from-vertical-frame.webp" alt="DualCam 雙格式預覽，直式鏡頭畫面裡畫著一個 16:9 虛線框" width="900" height="1365" loading="lazy" decoding="async">
+        <figcaption>16:9 檔案就是從直式畫面裡裁出的虛線框。</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-4k-60fps-setting-saves-1080p-30fps.webp" alt="DualCam 設定為 Quality 4K、Frame Rate 60 fps，並註明 4K 只限單鏡頭，下方是存下檔案在照片裡的資訊：1080p、1920 x 1080、29.99 FPS" width="900" height="1243" loading="lazy" decoding="async">
+        <figcaption>選了 4K 和 60 fps，存下來的檔案是 1080p、29.99 fps。</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualcam/dualcam-full-photo-library-access.webp" alt="iPhone 跳出視窗：DualCam Record 要求完整取用你的照片圖庫，用來儲存錄影和顯示最近的影片" width="900" height="356" loading="lazy" decoding="async">
+        <figcaption>DualCam 要求完整取用你的照片圖庫。</figcaption>
+      </figure>
+
+      <h2>同樣的測試項目，ContentCam 表現如何？</h2>
+      <ul>
+        <li><strong>每種模式都有 4K：</strong>在支援的 iPhone（iOS 2.9）上，單鏡頭最高 60 fps，雙鏡頭錄直式 4K，前後鏡頭兩顆都是 4K。</li>
+        <li><strong>完整寬度的橫式：</strong>單鏡頭用原始解析度從完整的 4:3 畫面裁出兩種格式，雙鏡頭用各自的鏡頭拍每種格式。</li>
+        <li><strong>60 fps：</strong>最高 60 fps，兩顆鏡頭 HD 時也是 60 fps。</li>
+        <li><strong>免費版：</strong>沒有時間限制，沒有廣告，沒有浮水印。</li>
+        <li><strong>子母畫面：</strong>拖曳、雙指縮放或點一下就能調整大小，點兩下回到中間。</li>
+        <li><strong>控制：</strong>曝光、白平衡、ISO、快門，點一下對焦，長按鎖定 AE/AF，變焦轉盤，自動捲動的提詞機，25 和 50 fps，縮時攝影，Apple Log 和音量電平表。</li>
+        <li><strong>錄影有保障：</strong>自動鎖定時也會繼續錄，強制結束的錄影也能復原。</li>
+        <li><strong>隱私：</strong>照片權限只用來加入影片，也沒有帳號。</li>
+      </ul>
+
+      <p><strong>開發者方面值得知道的事。</strong>Mobixoft 在 2026 年於 App Store 上架了七個 App，DualCam 是其中之一，其他是 AI 糞便掃描、手錶估價、岩石辨識、蟲咬辨識、靜音片段刪除和旅行規劃。它所有 App 加起來在美國只有 20 則評分。DualCam 從 4 月上架到現在出了五個版本。這不能證明 DualCam 怎麼樣，但一個團隊的心力分散在很多 App 上。我的心力全都放在 ContentCam：iOS 和 Android 一共更新了 32 次（見<a href="/changelog/">更新紀錄</a>），580 多位創作者給了 4.8 分。</p>
+      <p><strong>DualCam 適合誰：</strong>想試試一分鐘以內的簡單子母畫面影片或 9:16 + 16:9 片段的人。如果你需要兩顆鏡頭錄 4K、60 fps、完整寬度的橫式影片、超過一分鐘的錄影，或真正的相機控制，它就不夠用了。</p>
+
+      <h2>逐項比較規格如何？</h2>
+      <div class="table-scroll">
+      <table>
+        <thead><tr><th></th><th>ContentCam</th><th>DualCam</th></tr></thead>
+        <tbody>
+          <tr><td>免費版</td><td>單鏡頭無限次（1080p），另有 5 次雙鏡頭和 5 次前後鏡頭</td><td>只能錄前 60 秒，之後進入付費頁面（已實測）</td></tr>
+          <tr><td>方案</td><td>年付（7 天試用）、月付或終身買斷；沒有週付方案</td><td>週付、年付（22.99 美元，3 天試用）或終身買斷</td></tr>
+          <tr><td>廣告</td><td>沒有，免費版和 Premium 都沒有</td><td>沒有（已實測）</td></tr>
+          <tr><td>浮水印</td><td>沒有，免費版和 Premium 都沒有</td><td>沒有（已實測）</td></tr>
+          <tr><td>平台</td><td>iPhone（iOS 18 以上）和 Android</td><td>只有 iPhone（iOS 18 以上）</td></tr>
+          <tr><td>4K</td><td>在支援的 iPhone 上三種模式都可以：單鏡頭最高 60 fps，雙鏡頭直式，前後鏡頭兩顆都是 4K</td><td>只限單鏡頭，兩顆鏡頭不能錄 4K（已實測）</td></tr>
+          <tr><td>60 fps</td><td>最高 60 fps：單鏡頭 4K 60，兩顆鏡頭 HD 60（Premium）</td><td>不行：選 60 fps 存下的是 29.99 fps 檔案（已實測）</td></tr>
+          <tr><td>一次拍攝同時得到直式和橫式</td><td>可以；單鏡頭用原始解析度從完整 4:3 畫面裁出兩種格式，或雙鏡頭用各自的鏡頭拍</td><td>可以，但 16:9 檔案是從直式畫面裁出再放大的（已實測）</td></tr>
+          <tr><td>雙鏡頭（兩顆後鏡頭同時拍）</td><td>有</td><td>沒有（已實測）</td></tr>
+          <tr><td>子母畫面調整大小</td><td>可以：拖曳、雙指縮放或點一下；點兩下回到中間</td><td>不行（已實測）</td></tr>
+          <tr><td>手動控制</td><td>曝光、白平衡、ISO、快門；點一下對焦，長按鎖定 AE/AF，變焦轉盤</td><td>只有沒有重設的曝光滑桿；點一下對焦無效；AE/AF 鎖定只在要點兩下的選單裡（已實測）</td></tr>
+          <tr><td>提詞機</td><td>有，自動捲動</td><td>沒有（已實測）</td></tr>
+          <tr><td>影格率</td><td>24、25、30、50 或 60 fps</td><td>沒有 25 或 50 fps（已實測）</td></tr>
+          <tr><td>縮時攝影、Apple Log、音量電平表</td><td>有</td><td>沒有（已實測）</td></tr>
+          <tr><td>強制結束或鎖定時錄影遺失</td><td>不會；自動鎖定時繼續錄，強制結束的錄影可復原</td><td>會不見（已實測）</td></tr>
+          <tr><td>專案和鏡次</td><td>專案、場景、鏡次，檔名互相對應</td><td>沒有；隨機檔名互相對不起來（已實測）</td></tr>
+          <tr><td>照片圖庫權限</td><td>只能加入；看不到你的圖庫</td><td>完整取用（已實測）</td></tr>
+          <tr><td>帳號</td><td>沒有</td><td>每次安裝建立匿名帳號（隱私權政策）</td></tr>
+          <tr><td>最近更新</td><td>iOS 2.9（2026 年 11 月 12 日）；Android 2.7.1</td><td>iOS 1.0.5（2026 年 11 月 9 日）</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>依手機查看步驟：<a href="/blog/record-front-and-back-camera-iphone-15-16/">iPhone 15 和 16</a>，<a href="/zh-hant/blog/record-front-and-back-camera-same-time-android/">Android</a>。</p>
+
+      <h2>DualCam 能用兩顆鏡頭錄 4K 嗎？</h2>
+      <p>不能。DualCam 自己的設定寫著「4K is available in single-camera mode only」，2026 年 11 月 12 日我測試時，前後鏡頭錄影是 HD、30 fps。它的商店頁面寫著「Up to 4K and up to 60 fps, depending on device and mode」，但選了 4K 和 60 fps 後我存下的檔案是 1920 x 1080、29.99 fps。ContentCam 的前後鏡頭模式在支援的 iPhone 上（iOS 2.9 起）兩顆鏡頭都能錄 4K，存成兩個獨立檔案。想自己檢查任何 App，就在照片裡查看測試檔案的像素尺寸和影格率：步驟在<a href="/blog/iphone-4k-front-and-back-camera-same-time/">iPhone 能同時用前後鏡頭錄 4K 嗎？</a>。</p>
+
+      <h2>常見問題</h2>
+      <h3>DualCam 是免費的嗎？</h3>
+      <p>只有前 60 秒錄影免費。我測試時錄到一分鐘就停了，App 要我訂閱（週付、年付或終身買斷）。ContentCam 免費版沒有時間限制：單鏡頭 1080p 無限次，5 次雙鏡頭和 5 次前後鏡頭，沒有廣告也沒有浮水印。</p>
+      <h3>DualCam 有 Android 版嗎？</h3>
+      <p>沒有。我沒找到 DualCam 開發者 Mobixoft 的 Android 版。App Store 頁面只有 iPhone 版，需要 iOS 18。ContentCam 支援 iPhone 和 Android。</p>
+      <h3>DualCam 會把前後鏡頭存成獨立檔案嗎？</h3>
+      <p>DualCam 的商店頁面只描述了用子母畫面或分割畫面把你和場景放進同一支影片，並沒有提到前後鏡頭分開存檔。ContentCam 的前後鏡頭模式把自拍鏡頭和後鏡頭存成兩個獨立檔案，之後可以在合成（Combine）編輯器裡做成子母畫面或分割畫面影片，原始檔都保留。</p>
+      <h3>DualCam 能同時錄直式和橫式影片嗎？</h3>
+      <p>可以，但我測試時 16:9 檔案是從直式畫面中間裁出再放大的，所以橫式影片不比直式寬，而且只有 30 fps。ContentCam 的單鏡頭會錄下鏡頭完整的 4:3 畫面，再從中裁出兩種格式，橫式保有完整寬度，直式保有完整高度，支援 HD 或最高 60 fps 的 4K。它的雙鏡頭模式用兩顆不同的鏡頭分別拍直式和橫式。</p>
+      <h3>DualCam 能錄 60 fps 嗎？</h3>
+      <p>我測試時不能。可以選 60 fps，但存下來的檔案是 29.99 fps，雙格式模式還會顯示「60 fps unavailable」。ContentCam 在支援的 iPhone 上最高可錄 60 fps，包括單鏡頭 4K 60 fps 和兩顆鏡頭 HD 60 fps。</p>
+
+      <div class="post-cta">
+        <p><strong>免費試用 ContentCam。</strong>前後鏡頭存成兩個獨立檔案，一次拍攝同時拿到直式和橫式，沒有廣告，也沒有浮水印。iPhone 和 Android 都能免費下載。</p>
+        <p class="cta-proof"><span class="star" aria-hidden="true">★</span> 在 <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> 和 <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a> 獲得 580+ 位創作者評為 4.8 分。</p>
+        <div class="badges badges-left">
+          <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&amp;ct=zh-hant-vs-dualcam&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="在 App Store 下載" width="156" height="52"></a>
+          <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dvs%26utm_campaign%3Dzh-hant-vs-dualcam"><img class="badge-play" src="/assets/google-play-badge.webp" alt="在 Google Play 取得" width="175" height="52"></a>
+        </div>
+      </div>
+
+      <p>相關文章：<a href="/zh-hant/blog/best-front-and-back-dual-camera-apps/">好用的前後鏡頭同時錄影 App</a> · <a href="/blog/dual-camera-app-without-ads/">沒有廣告的雙鏡頭 App</a> · <a href="/zh-hant/blog/dual-format-recording-apps-compared/">所有直式橫式同時錄 App 比較</a></p>
+      <p class="byline">來源：2026 年 11 月 12 日 DualCam 1.0.5 實測；DualCam 隱私權政策（dualcam.app/privacy-policy，2026 年 11 月 6 日更新）；Mobixoft LLC 開發者頁面；DualCam App Store 頁面（id6761523366，「DualCam: Dual Camera Recorder」，Mobixoft LLC，描述、App 內購買、評分、相容性、版本紀錄）；dualcam.app；contentcam.app 的價格、支援和更新紀錄頁面。2026 年 11 月 12 日核對。</p>
+    </article>
+  </main>
+
+<!-- @footer -->
+  <footer>
+    <div class="wrap">
+      <div class="brand-row"><img src="/assets/logo-mark.png" alt="ContentCam 標誌" width="26" height="26"><span>ContentCam</span></div>
+      <div class="foot-links">
+        <a href="/features/">功能</a>
+        <a href="/features/teleprompter/">提詞機</a>
+        <a href="/zh-hant/features/dual-camera/">雙鏡頭</a>
+        <a href="/features/manual-controls/">手動控制</a>
+        <a href="/zh-hant/android/">Android</a>
+        <a href="/pricing/">價格</a>
+        <a href="/blog/">部落格</a>
+        <a href="/support/">支援</a>
+        <a href="/press/">媒體</a>
+        <a href="/zh-hant/vs/">比較</a>
+        <a href="/changelog/">更新紀錄</a>
+        <a href="/privacy">隱私權</a>
+        <a href="/terms">條款</a>
+      </div>
+      <div class="fine">在 <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> 和 <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a> 獲得 580+ 位創作者評為 4.8 分（2026年11月）。ContentCam 是一款由一位開發者在澳洲打造的獨立相機 App。© 2026 ContentCam。Apple、Apple 標誌、iPhone 和 App Store 是 Apple Inc. 的商標。Google Play 和 Google Play 標誌是 Google LLC 的商標。</div>
+      <!-- @langs -->
+      <div class="langs" style="margin-top:12px;font-size:14px"><a href="/vs/dualcam/" hreflang="en" lang="en">English</a> · <a href="/de/vs/dualcam/" hreflang="de" lang="de">Deutsch</a> · <a href="/es/vs/dualcam/" hreflang="es" lang="es">Español</a> · <a href="/fr/vs/dualcam/" hreflang="fr" lang="fr">Français</a> · <a href="/it/vs/dualcam/" hreflang="it" lang="it">Italiano</a> · <a href="/ja/vs/dualcam/" hreflang="ja" lang="ja">日本語</a> · <a href="/pt-br/vs/dualcam/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="/id/vs/dualcam/" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="/ko/vs/dualcam/" hreflang="ko" lang="ko">한국어</a> · <a href="/nl/vs/dualcam/" hreflang="nl" lang="nl">Nederlands</a> · <a href="/pl/vs/dualcam/" hreflang="pl" lang="pl">Polski</a> · <a href="/tr/vs/dualcam/" hreflang="tr" lang="tr">Türkçe</a> · <a href="/vi/vs/dualcam/" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="/zh-hans/vs/dualcam/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <strong>繁體中文</strong> · <a href="/ru/vs/dualcam/" hreflang="ru" lang="ru">Русский</a> · <a href="/sv/vs/dualcam/" hreflang="sv" lang="sv">Svenska</a> · <a href="/da/vs/dualcam/" hreflang="da" lang="da">Dansk</a> · <a href="/no/vs/dualcam/" hreflang="no" lang="no">Norsk</a> · <a href="/fi/vs/dualcam/" hreflang="fi" lang="fi">Suomi</a> · <a href="/pt-pt/vs/dualcam/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a> · <a href="/uk/vs/dualcam/" hreflang="uk" lang="uk">Українська</a> · <a href="/hi/vs/dualcam/" hreflang="hi" lang="hi">हिन्दी</a> · <a href="/th/vs/dualcam/" hreflang="th" lang="th">ไทย</a> · <a href="/ms/vs/dualcam/" hreflang="ms" lang="ms">Bahasa Melayu</a> · <a href="/fil/vs/dualcam/" hreflang="fil" lang="fil">Filipino</a> · <a href="/bn/vs/dualcam/" hreflang="bn" lang="bn">বাংলা</a> · <a href="/cs/vs/dualcam/" hreflang="cs" lang="cs">Čeština</a> · <a href="/ro/vs/dualcam/" hreflang="ro" lang="ro">Română</a> · <a href="/hu/vs/dualcam/" hreflang="hu" lang="hu">Magyar</a> · <a href="/el/vs/dualcam/" hreflang="el" lang="el">Ελληνικά</a></div>
+      <!-- /@langs -->
+    </div>
+  </footer>
+<!-- /@footer -->
+</body>
+</html>
