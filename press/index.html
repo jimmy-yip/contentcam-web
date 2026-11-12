@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="/styles.css">
 <!-- /@head-common -->
   <title>ContentCam Press Kit: Facts, Logo &amp; Screenshots</title>
-  <meta name="description" content="Canonical facts about ContentCam for press and creators: what it is, who makes it, pricing, platforms, plus downloadable logo and screenshots.">
+  <meta name="description" content="ContentCam press kit: verified facts, the story behind the app, prices, and a one-click download of the logo and screenshots. Review codes on request.">
   <link rel="canonical" href="https://contentcam.app/press/">
   <meta property="og:site_name" content="ContentCam">
   <meta property="og:title" content="ContentCam Press Kit">
@@ -53,6 +53,35 @@
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
 <script defer src="/_vercel/insights/script.js"></script>
   <link rel="alternate" type="text/markdown" href="https://contentcam.app/press.md">
+  <style>
+    .press .press-lead { font-size: 18px; color: var(--text-soft); max-width: none; margin-bottom: 22px; }
+    .press-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .press-btn { display: inline-flex; align-items: center; padding: 11px 18px; border: 1px solid var(--line-strong); border-radius: 12px; background: var(--surface); color: var(--ink); font-weight: 600; font-size: 15px; }
+    .press-btn:hover { text-decoration: none; border-color: var(--cyan); }
+    .press-btn-main { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .press-btn-main:hover { border-color: var(--ink); filter: brightness(1.15); }
+    .press section.press-first { border-top: none; padding-top: 28px; }
+    .press-quote { font-size: clamp(19px, 2.4vw, 24px); line-height: 1.45; color: var(--ink); font-weight: 600; max-width: none; }
+    .press-table td:first-child { font-weight: 700; white-space: nowrap; width: 1%; padding-right: 22px; vertical-align: top; }
+    .press-cols { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: start; }
+    .press-cols p { color: var(--text-soft); margin-bottom: 14px; }
+    .press-pull { margin: 0 0 16px; padding: 18px 20px; background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--cyan); border-radius: 12px; color: var(--ink); font-size: 16px; line-height: 1.5; }
+    .press-pull cite { display: block; margin-top: 10px; font-style: normal; font-size: 14px; color: var(--text-dim); }
+    .press-note, .press-wide-text { color: var(--text-soft); max-width: none; margin-bottom: 18px; }
+    .press-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-bottom: 18px; }
+    .press-shot { display: flex; flex-direction: column; gap: 8px; color: var(--text-dim); font-size: 14px; }
+    .press-shot:hover { text-decoration: none; }
+    .press-shot img { width: 100%; height: auto; border: 1px solid var(--border); border-radius: 12px; background: #fff; }
+    .press-shot:hover img { border-color: var(--cyan); }
+    .press-logo img { max-width: 220px; aspect-ratio: 1; object-fit: contain; padding: 24px; }
+    .press-links { margin-top: 16px; color: var(--text-dim); }
+    @media (max-width: 860px) { .press-cols { grid-template-columns: 1fr; } }
+    @media (max-width: 640px) {
+      .press-gallery { grid-template-columns: 1fr; }
+      .press-btn { width: 100%; justify-content: center; }
+      .press-table td:first-child { white-space: normal; width: 34%; }
+    }
+  </style>
 </head>
 <body>
 <!-- @nav -->
@@ -71,60 +100,90 @@
   </header>
 <!-- /@nav -->
 
-  <main class="wrap">
+  <main class="wrap press">
     <div class="crumbs"><a href="/">Home</a> › Press</div>
     <div class="page-hero">
       <h1>Press kit</h1>
-      <p class="lead">Writing about ContentCam, making a video about it, or citing it somewhere? Everything below is accurate and quotable. If you need something that isn't here, email <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a>.</p>
+      <p class="press-lead">Writing about ContentCam, filming a video about it or citing it? Everything here is accurate and free to quote. Logo, screenshots and facts are below, and I answer every press email myself.</p>
+      <div class="press-actions">
+        <a class="press-btn press-btn-main" href="/assets/press/contentcam-press-kit.zip" download>Download all assets (.zip, 1 MB)</a>
+        <a class="press-btn" href="mailto:jimmy@contentcam.app?subject=Press%3A%20ContentCam">Email Jimmy</a>
+        <a class="press-btn" href="/press.md">Fact sheet as text</a>
+      </div>
     </div>
 
-    <section style="border-top:none; padding-top:24px">
+    <section class="press-first">
+      <h2>In one line</h2>
+      <p class="press-quote">ContentCam records portrait (9:16) and landscape (16:9) video at the same time, so one take gives creators a vertical video for TikTok, Reels and Shorts and a horizontal one for YouTube.</p>
+    </section>
+
+    <section>
       <h2>The facts</h2>
       <div class="table-scroll">
-        <table>
+        <table class="press-table">
           <tbody>
-            <tr><td><strong>What it is</strong></td><td>A camera app that records 9:16 portrait and 16:9 landscape video simultaneously from a single take.</td></tr>
-            <tr><td><strong>One-line description</strong></td><td>ContentCam records portrait and landscape video at the same time, so creators publish to TikTok and YouTube from one take.</td></tr>
-            <tr><td><strong>Platforms</strong></td><td>iOS (iPhone XS and later, iOS 18+) and Android 8.0 and later. App Store name: "ContentCam: Dual Camera Video".</td></tr>
-            <tr><td><strong>Launched</strong></td><td>May 2026 on the App Store; Android followed on Google Play from 4 July 2026.</td></tr>
-            <tr><td><strong>Developer</strong></td><td>Jimmy Yip, solo independent developer, Sydney, Australia.</td></tr>
-            <tr><td><strong>Headline features</strong></td><td>Simultaneous dual-format capture (Single Lens full-FOV, Dual Lens two-camera on iPhone, or Front &amp; Back), photo mode (one tap saves a 9:16 and a 16:9 still), built-in teleprompter, manual controls (EV, white balance 2500–8000K, ISO, shutter), AE/AF lock, timelapse, 4K, 10-bit HDR (iPhone).</td></tr>
-            <tr><td><strong>Business model</strong></td><td>Free with an optional premium upgrade, sold as an annual plan (with free trial), a monthly plan, or a one-off lifetime purchase. Prices vary by region; see the store listings. No ads.</td></tr>
-            <tr><td><strong>Traction</strong></td><td>50,000+ downloads across the App Store and Google Play. Rated 4.8 by 580+ creators across the App Store and Google Play. As at November 2026.</td></tr>
-            <tr><td><strong>Current version</strong></td><td>iOS 2.8.2, Android 2.7.0</td></tr>
-            <tr><td><strong>Privacy</strong></td><td>No account; videos never leave the phone; recording works offline. Android collects nothing. iPhone (from 2.8.1) measures ad installs and purchases via Apple AdServices and the Meta SDK.</td></tr>
-            <tr><td><strong>Links</strong></td><td><a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> · <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dwebsite%26utm_campaign%3Dpress">Google Play</a> · <a href="https://www.instagram.com/contentcam.app">Instagram</a> · <a href="https://www.tiktok.com/@contentcam.app">TikTok</a> · <a href="https://www.youtube.com/@ContentCam-app">YouTube</a> · <a href="https://discord.gg/YxUpbUgthH">Discord</a></td></tr>
+            <tr><td>What it is</td><td>A camera app for iPhone and Android that records 9:16 and 16:9 video in one take, as two separate files. Neither file is a crop of the other: both use the camera's full frame.</td></tr>
+            <tr><td>Who makes it</td><td>Jimmy Yip, a solo independent developer in Sydney, Australia.</td></tr>
+            <tr><td>Platforms</td><td>iPhone (iPhone XS and later, iOS 18+), listed on the App Store as "ContentCam: Dual Camera Video". Android 8.0 and later on Google Play.</td></tr>
+            <tr><td>Launched</td><td>App Store, May 2026. Android followed on Google Play in mid-2026.</td></tr>
+            <tr><td>Recording modes</td><td>Single Lens (full sensor, both formats), Dual Lens (two rear cameras at once on iPhone), Front &amp; Back (your reaction and the scene at once, as two files).</td></tr>
+            <tr><td>Other features</td><td>Built-in teleprompter, manual controls (ISO, shutter, white balance 2500–8000K, exposure), AE/AF lock, photo mode (a 9:16 and a 16:9 still from one tap), timelapse, up to 4K and 60 fps, 10-bit HDR on iPhone.</td></tr>
+            <tr><td>Price</td><td>Free to download, with unlimited Single Lens recording, no ads, no watermark and no account. Premium on the US App Store: US$4.99 a month, US$19.99 a year (7-day free trial) or US$59.99 once for lifetime. Google Play lifetime: US$44.99. Prices are localised in other regions.</td></tr>
+            <tr><td>Traction</td><td>50,000+ downloads across the App Store and Google Play. Rated 4.8 by 580+ creators. As of November 2026.</td></tr>
+            <tr><td>Updates</td><td>A new version every 1 to 2 weeks on each platform. iOS 2.9 is rolling out now (November 2026). Full history in the <a href="/changelog/">changelog</a>.</td></tr>
+            <tr><td>Privacy</td><td>No account. Videos never leave the phone and recording works offline. The Android app collects no data. The iPhone app measures ad installs and purchases through Apple AdServices and the Meta SDK.</td></tr>
           </tbody>
         </table>
       </div>
     </section>
 
     <section>
-      <h2>Why it exists (the short version)</h2>
-      <p style="max-width:680px; color:var(--text-dim)">Creators who publish to both vertical platforms (TikTok, Reels, Shorts) and YouTube either film everything twice or crop one format out of the other and lose framing. ContentCam records the sensor's full 4:3 frame and cuts both deliverables from it, so the landscape file keeps its full width and the portrait keeps its full height. On iPhone 11+ it can also record two rear cameras simultaneously for genuinely different framings.</p>
+      <h2>The story</h2>
+      <div class="press-cols">
+        <div>
+          <p>Jimmy built ContentCam for his girlfriend, who is a creator. He kept watching her film every scene twice: once vertical for Reels and TikTok, once horizontal for YouTube. Cropping one out of the other doesn't fix it, because a horizontal strip cut from a vertical video loses the sides of the scene and most of the resolution.</p>
+          <p>So ContentCam reads the camera's full 4:3 frame and cuts both videos from it. The landscape file keeps the full width of the scene and the portrait keeps its full height, from a single tap.</p>
+        </div>
+        <div>
+          <blockquote class="press-pull">"I kept watching her film every scene twice, and figured one take should give you both."<cite>Jimmy Yip, developer</cite></blockquote>
+          <blockquote class="press-pull">"Tried three other apps before this, none worked as good as this one. Most just crop the same view, but this app you can actually choose between single or dual lens, which gives different outputs."<cite>aimeèy, App Store review (Australia), May 2026</cite></blockquote>
+        </div>
+      </div>
     </section>
 
     <section>
-      <h2>Assets</h2>
-      <p class="lead">Right-click, save. Please don't stretch, recolour or add effects to the logo.</p>
-      <div class="grid">
-        <div class="card">
-          <h3><span class="dot"></span>App icon / logo</h3>
-          <p><a href="/assets/press/contentcam-logo-1024.png" download>ContentCam logo, 1024×1024 PNG</a></p>
-        </div>
-        <div class="card">
-          <h3><span class="dot"></span>Screenshots</h3>
-          <p><a href="/assets/press/ui-record-handsup-640.webp" download>Recording screen</a> · <a href="/assets/press/ui-review-sunset-640.webp" download>Review screen</a>. Need higher resolution or something specific? Email and I'll send originals.</p>
-        </div>
+      <h2>What sets it apart</h2>
+      <div class="grid grid-3 press-grid">
+        <div class="card"><h3><span class="dot"></span>Two files, not a crop</h3><p>Most apps record vertical and cut a horizontal strip out of the middle. ContentCam gives each format its own full-frame framing.</p></div>
+        <div class="card"><h3><span class="dot"></span>Front &amp; Back on more phones</h3><p>Apple's Dual Capture is limited to recent iPhones and saves one picture-in-picture file. ContentCam's Front &amp; Back works on any iPhone running iOS 18 and on supported Android phones, as two separate files.</p></div>
+        <div class="card"><h3><span class="dot"></span>Built by one person</h3><p>A solo developer who reads every review and feature request, and ships an update every week or two.</p></div>
       </div>
     </section>
 
+    <section>
+      <h2>Images</h2>
+      <p class="press-note">Free to use in coverage. Click to download. Please don't stretch, recolour or add effects to the logo.</p>
+      <div class="press-gallery">
+        <a class="press-shot press-wide" href="/assets/press/contentcam-one-take-two-formats.png" download><img src="/assets/press/contentcam-one-take-two-formats.png" alt="One take gives a 9:16 vertical and a 16:9 horizontal video of the same sunset scene" width="1270" height="760"><span>One take, two formats · PNG 1270×760</span></a>
+        <a class="press-shot press-wide" href="/assets/press/contentcam-app-screens.png" download><img src="/assets/press/contentcam-app-screens.png" alt="ContentCam recording screen, review screen and project library on iPhone" width="1270" height="760" loading="lazy"><span>App screens · PNG 1270×760</span></a>
+        <a class="press-shot press-wide" href="/assets/press/contentcam-features.png" download><img src="/assets/press/contentcam-features.png" alt="ContentCam features: Single Lens, Dual Lens, Front / Back, teleprompter, manual controls, 4K 60fps HDR" width="1270" height="760" loading="lazy"><span>Features · PNG 1270×760</span></a>
+        <a class="press-shot press-logo" href="/assets/press/contentcam-logo-1024.png" download><img src="/assets/press/contentcam-logo-1024.png" alt="ContentCam app icon" width="1024" height="1024" loading="lazy"><span>App icon · PNG 1024×1024</span></a>
+      </div>
+      <p class="press-note">Need a higher resolution, a different screen, a photo of Jimmy or a demo video? Email and I'll send it the same day.</p>
+    </section>
+
+    <section>
+      <h2>Reviewing it?</h2>
+      <p class="press-wide-text">Email <a href="mailto:jimmy@contentcam.app?subject=Review%20code%3A%20ContentCam">jimmy@contentcam.app</a> and I'll send a Premium code so you can test every mode. Happy to jump on a call or answer questions in writing, including the technical side of recording two formats at once.</p>
+    </section>
+
     <section class="center" style="padding-bottom:72px">
-      <div class="badges">
+      <div class="badges center-x">
         <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&amp;ct=press&amp;mt=8"><img class="badge-appstore" src="/assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a>
         <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dwebsite%26utm_campaign%3Dpress"><img class="badge-play" src="/assets/google-play-badge.webp" alt="Get it on Google Play" width="175" height="52"></a>
       </div>
-      <p class="updated-note">Last updated: 26 September 2026.</p>
+      <p class="press-links"><a href="https://www.instagram.com/contentcam.app">Instagram</a> · <a href="https://www.tiktok.com/@contentcam.app">TikTok</a> · <a href="https://www.youtube.com/@ContentCam-app">YouTube</a> · <a href="https://discord.gg/YxUpbUgthH">Discord</a></p>
+      <p class="updated-note">Last updated: 12 November 2026.</p>
     </section>
   </main>
 
