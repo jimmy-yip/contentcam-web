@@ -1,14 +1,21 @@
-# Best Front-and-Back & Dual-Camera Apps (2026): An Honest Guide
+# Best Dual Camera Apps (2026): Front and Back Camera Apps, Tested
 
 Source: https://contentcam.app/blog/best-front-and-back-dual-camera-apps/
 
-ContentCam, MixCam, Dualgram, DoubleTake, SplitRig, RØDE Capture, DualCapture, DualShot Recorder and Android options compared: separate files, ads, watermarks, platforms and updates, checked against each listing on 5 November 2026.
+The best dual camera apps for recording front and back at once, compared and tested by hand. ContentCam records both cameras in 4K as two files; Dualgram 2.5 could not record 4K with both. MixCam, DoubleTake, SplitRig, RØDE Capture, DualCapture and DualShot Recorder checked too.
 
-By Jimmy, developer of ContentCam · 21 August 2026 · Updated 5 November 2026
+By Jimmy, developer of ContentCam · 21 August 2026 · Updated 12 November 2026
 
-The best front and back camera app for most people is ContentCam: its Front & Back mode records your reaction and the scene in one take on iPhone and Android, saved as two separate files you can later combine into picture-in-picture or split screen. The same app also records one scene as separate 9:16 and 16:9 files.
+The best front and back camera app for most people is ContentCam: its Front & Back mode records your reaction and the scene in one take on iPhone and Android, saved as two separate files, in 4K on supported iPhones, that you can later combine into picture-in-picture or split screen. The same app also records one scene as separate 9:16 and 16:9 files.
 
-**Disclosure:** I build ContentCam, one of the apps below, so I'm not neutral. Claims about other apps come from their own store listings and App Store reviews, checked 5 November 2026. If something's out of date, [email me](mailto:contentcam.app@gmail.com) and I'll fix it.
+**Disclosure:** I build ContentCam, one of the apps below, so I'm not neutral. Claims about other apps come from their own store listings and App Store reviews, checked 5 November 2026, and from my own hands-on tests where marked. If something's out of date, [email me](mailto:contentcam.app@gmail.com) and I'll fix it.
+
+## Which dual camera apps did I test by hand?
+
+Listings say a lot about 4K and 60 fps, so I install the apps and try the settings myself. Tested so far:
+
+- **Dualgram 2.5** (12 November 2026): no 4K with both cameras (4K 60 fps "not supported" on either camera, 4K 30 fps on both gets a warning), the front camera drops to 720p when both run at 60 fps, saving the front and back files separately is PRO, the free version adds a large "Shot with Dualgram" watermark, and the teleprompter doesn't scroll by itself. Screenshots are in [ContentCam vs Dualgram](https://contentcam.app/vs/dualgram/).
+- **ContentCam** (iOS 2.9): records both cameras in 4K on supported iPhones as two separate files, up to 60 fps, with cinematic stabilisation and a live preview on both views, no ads and no watermark.
 
 ## How do front and back camera apps compare?
 
@@ -16,7 +23,7 @@ The best front and back camera app for most people is ContentCam: its Front & Ba
 | --- | --- | --- | --- |
 | **ContentCam** (recommended) | iPhone (iOS 18+, iPhone XS and later) + Android | Yes, every take; combine into picture-in-picture or split screen later | No ads, no watermark, no account. 5 free Front & Back recordings, then Premium (yearly, monthly or lifetime) |
 | **MixCam** (Mixcord) | iPhone, iOS 15+ | Listing doesn't mention separate files | In-app purchases include a weekly subscription and a separate "Remove Watermark" purchase |
-| **Dualgram** (Just2us) | iPhone / iPad, iOS 17+ | Yes, plus the combined file | App Store age rating says "Contains Advertising". Pro is yearly or a one-off purchase |
+| **Dualgram** (Just2us) | iPhone / iPad, iOS 17+ | PRO only; the free version saves the combined video (tested) | Ads and a "Shot with Dualgram" watermark on the free version (tested). Pro is yearly or a one-off purchase |
 | **DoubleTake** (Bending Spoons) | iPhone / iPad | Listing says yes | Last updated 10 March 2025 (v3.1.2). Weekly and yearly subscriptions. 3.4 stars from 505 ratings |
 | **SplitRig** | iPhone, iOS 26+ only | Listing describes one synced video | Free, no in-app purchases, no ads |
 | **RØDE Capture** (RØDE) | iPhone, iOS 16+ | Yes, or one combined file | Free. Last updated 8 March 2026. 2.8 stars from 73 ratings |
@@ -66,6 +73,8 @@ Reliability comes up again and again in this category's App Store reviews. Doubl
 | Separate vertical + wide files to cross-post | ContentCam |
 
 ## Common questions
+
+**Which dual camera apps record 4K with both cameras?** Apple's own Camera app does with Dual Capture, as one combined video at 30 fps. From iOS 2.9, ContentCam records both cameras in 4K on supported iPhones as two separate files; apart from Apple's Camera app, it's the only app we know of that does. Dualgram 2.5 showed "not supported" for 4K 60 fps on both cameras in my test, and other listings that say "up to 4K" don't say it applies with both cameras running.
 
 **Is there a free way to record front and back at the same time?** Yes. Snapchat's Dual Camera (iPhone only for now) and Apple's Dual Capture on iPhone 17 and newer models (not iPhone 17e) are built in, but each saves one combined video with the layout fixed when you record. ContentCam gives you 5 free Front & Back recordings, then Premium.
 
