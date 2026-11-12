@@ -20,7 +20,7 @@ It's a video where the front and back cameras record at once: the main shot fill
 | --- | --- | --- | --- | --- |
 | ContentCam Front & Back | Two separate files, selfie and rear, from one take; optional picture-in-picture or split-screen video afterwards | Any iPhone on iOS 18 or later (iPhone XS, XR and newer); Android phones that can run both cameras | Yes | 5 free recordings, then Premium |
 | iPhone Camera, Dual Capture | One video of you and the scene | iPhone 17, 17 Pro, 17 Pro Max, Air, 18 Pro, 18 Pro Max, Duo | No | Built in |
-| Snapchat Dual Camera | One Snap with both cameras | iPhone XS, XS Max, XR or later; Android "soon" | No | Free |
+| [Snapchat Dual Camera](https://contentcam.app/blog/snapchat-front-and-back-camera/) | One Snap with both cameras | iPhone XS, XS Max, XR or later; Android "soon" | No | Free |
 | Instagram Dual | One clip in the Instagram camera | Not stated by Meta | No | Free |
 
 Use a built-in mode when the clip you record is the clip you post. Use ContentCam when you want to edit the two angles or your phone has no Dual Capture: iPhone 16 and earlier, iPhone 16e, iPhone 17e and Android phones.
