@@ -33,7 +33,22 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {"@type": "Organization", "@id": "https://contentcam.app/#org", "name": "ContentCam", "url": "https://contentcam.app/", "logo": "https://contentcam.app/assets/icon-512.png", "email": "contentcam.app@gmail.com", "sameAs": ["https://www.instagram.com/contentcam.app", "https://www.tiktok.com/@contentcam.app", "https://www.youtube.com/@ContentCam-app", "https://discord.gg/YxUpbUgthH", "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795", "https://play.google.com/store/apps/details?id=app.contentcam.android"]},
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
     {
       "@type": "WebPage",
       "@id": "https://contentcam.app/ja/vs/dualgram/",
@@ -88,10 +103,18 @@
         },
         {
           "@type": "Question",
+          "name": "Dualgramは2台のカメラで4K録画できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "できません。2026年11月12日のDualgram 2.5の実機テストでは、4K 60fpsは両方のカメラで「the selected resolution/FPS is not supported」と表示され、両方4K 30fpsでは警告が出て、1080p 60fpsではインカメラが720pに下げられました。ContentCamの前後カメラ（Front/Back）は対応iPhone（iOS 2.9以降）で両方のカメラを4Kで、2つの別々のファイルとして録画します。"
+          }
+        },
+        {
+          "@type": "Question",
           "name": "DualgramはAndroidで使えますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "使えません。DualgramはiPhoneとiPad向けにApp Storeで配信されており、Google PlayのJust2usのデベロッパーページには別のアプリが2つあるだけで、Dualgramはありません（2026年11月6日に確認）。ContentCamはiPhoneとAndroidで使えます。"
+            "text": "ありません。DualgramはiPhoneとiPad向けにApp Storeにあるだけで、Android版はありません（2026年11月6日に確認）。ContentCamはiPhoneとAndroidで使えます。"
           }
         },
         {
@@ -107,7 +130,7 @@
           "name": "Dualgramは前後カメラの映像を別々のファイルで保存できますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "はい。Dualgramのストアページには「前後カメラで撮影した2つのオリジナルを含む、3つのファイルすべてを保存」できると書かれています。ContentCamの前後カメラ（Front/Back）モードも前後のカメラ映像を独立した2つのファイルとして保存し、合成エディタで撮影後にワイプ（ピクチャ・イン・ピクチャ）または画面分割の動画にでき、オリジナルはそのまま残ります。"
+            "text": "PROが必要です。Dualgramのストアページには「Save all 3 files, including the 2 originals captured from the front & back camera」とありますが、バージョン2.5のテストでは無料版は合成済みの動画しか保存しませんでした。ContentCamの前後カメラ（Front/Back）モードは前後のカメラを2つの別々のファイルとして保存し、合成（Combine）エディタで後からワイプや画面分割の動画にでき、元のファイルも残ります。"
           }
         },
         {
@@ -115,7 +138,7 @@
           "name": "Dualgramで縦と横の動画を同時に撮れますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Dualgramのストアページには「横向きと縦向き」とありますが、1回の撮影で両方を保存できるとは書かれていません。ContentCamは1つのレンズから9:16の縦動画と16:9の横動画を同時に、HDまたは4Kで録画します。"
+            "text": "できません。私のテストでは、Dualgramは1回の撮影で1つの形だけを録画し、スマホの持ち方で縦か横かが決まります。ContentCamは1つのレンズから縦9:16と横16:9のファイルを同時に、HDまたは4Kで録画します。"
           }
         }
       ]
@@ -181,17 +204,18 @@
     <div class="crumbs"><a href="/ja/">ホーム</a> › <a href="/ja/vs/">比較</a> › Dualgram</div>
     <article class="post">
       <h1>ContentCamとDualgramの違いは？（2026年）</h1>
-      <p class="byline">2026年11月6日に確認</p>
+      <p class="byline">2026年11月12日にテスト · ストアページは2026年11月6日に確認</p>
 
-      <p>どのプランでも広告とウォーターマークがなく、iPhoneだけでなくAndroidでも使え、同じ1回の撮影から縦動画と横動画を録画でき、ISO、シャッター、ホワイトバランスを手動で調整できる前後カメラアプリが欲しいなら、DualgramよりContentCamを選んでください。DualgramはiPhoneとiPad向けのアプリで、無料版にはPROを購入するまで広告とウォーターマークが入ります。</p>
+      <p>開示：私はJimmyで、ContentCamを開発しています。Dualgram 2.5は2026年11月12日に自分でテストしました。</p>
+      <p><strong>テスト結果：</strong> Dualgram 2.5は2台のカメラで4K録画ができません（4K 60fpsはどちらのカメラでも「非対応」）。両方を60fpsで動かすとインカメラを720pに落とし、前後を別々のファイルで保存するにはPROが必要です。ContentCamは対応iPhoneで両方のカメラを4K、最大60fpsで、2つの別々のファイルとして録画できます。広告も透かしもありません。詳しい結果とスクリーンショットは下にあります。</p>
       <p>開示：私はJimmyで、ContentCamを開発しています。以下のDualgramに関する記述はすべて、Dualgramの米国App Storeページ（バージョン2.4、2026年11月3日リリース）、dualgram.com、Google Playをもとにしており、2026年11月6日に確認したものです。</p>
 
       <h2>ContentCamとDualgramの主な違いは？</h2>
       <ul>
         <li><strong>広告とウォーターマーク：</strong>ContentCamは無料版でもPremiumでも、どちらもありません。DualgramのFAQには、無料版には「広告、ウォーターマーク、そしてレイアウトの追加など一部の機能制限があります」と書かれています。</li>
-        <li><strong>Android：</strong>ContentCamはiPhoneとAndroidで使えます。DualgramはApp Storeのみで、Google PlayのJust2usのデベロッパーページにあるのはSG 4D+とSG Schoolingで、Dualgramはありません。</li>
-        <li><strong>縦と横を同時に：</strong>ContentCamは1回の撮影から9:16と16:9のファイルを保存します。Dualgramには「横向きと縦向き」とありますが、1回の撮影で両方を保存できるとは書かれていません。</li>
-        <li><strong>手動コントロール：</strong>ContentCamには露出、ホワイトバランス、ISO、シャッターの手動調整があります。Dualgramの機能一覧にあるのは光学ズームとデジタルズーム、フラッシュ、シネマティック手ぶれ補正です。</li>
+        <li><strong>Android：</strong>ContentCamはiPhoneとAndroidで使えます。DualgramにはAndroid版がありません。</li>
+        <li><strong>縦と横を同時に：</strong>ContentCamは1回の撮影から9:16と16:9のファイルを保存します。Dualgramは1回の撮影で1つの形だけです。ストアページの「Landscape and portrait」は、スマホをどちら向きに持ってもいいという意味にすぎません。</li>
+        <li><strong>カメラ操作：</strong>どちらのアプリにもズーム、フラッシュ、手ぶれ補正があります。ContentCamにはさらに露出、ホワイトバランス、ISO、シャッタースピードの手動調整、タップでピント合わせ、長押しでAE/AFロックがあります。私のテストではDualgramにはこれらが一切なく、ズームは1x / 0.5xの切り替えボタンだけでした。</li>
         <li><strong>レイアウトを決めるタイミング：</strong>ContentCamは録画後に合成エディタでワイプ（ピクチャ・イン・ピクチャ）か画面分割かを選びます。Dualgramは撮影中にレイアウトを決め（バージョン2.0のリリースノートでは「フレーミングしたとおりに保存」）、2つのオリジナルも保存します。</li>
       </ul>
 
@@ -200,41 +224,82 @@
       <p><strong>Android。</strong>ContentCamの前後カメラ（Front/Back）モードは、前面と背面のカメラを同時に動かせるカメラシステムを持つAndroidスマホで、HD・最大30fpsで使えます。アプリが対応を確認し、使える端末でだけこのモードを表示します。DualgramにはAndroid版がありません。手順は<a href="/ja/blog/record-front-and-back-camera-same-time-android/">Androidで前後カメラを同時に録画する方法</a>で紹介しています。</p>
       <p><strong>1回の撮影で2つのフォーマット。</strong>ContentCamのメインモードは、1回の録画からTikTok、Reels、Shorts用の9:16ファイルとYouTube用の16:9ファイルを、24、25、30、50、60fps、HDまたは4Kで保存します。Dualgramにはこのモードの記載がありません。</p>
       <p><strong>レイアウトは後から決められます。</strong>ContentCamの前後カメラ（Front/Back）は、自撮りと目の前の風景を独立した2つのファイルとして保存します。合成を使えば、撮影後にワイプ（ピクチャ・イン・ピクチャ）や画面分割のレイアウトを試せ（試すのは無料、合成した動画の保存はPremium）、オリジナルはそのまま残ります。</p>
-      <p><strong>手動露出。</strong>ContentCamにはISO、シャッタースピード、ホワイトバランスの手動調整があります。Dualgramの機能一覧にはズーム、フラッシュ、手ぶれ補正はありますが、手動の露出設定はありません。どちらのアプリにもテレプロンプターがあります。</p>
+      <p><strong>2つの画面だけではない、本格的なカメラ。</strong>ContentCamにはDualgramと同じズーム、フラッシュ、手ぶれ補正に加えて、ISO、シャッタースピード、ホワイトバランス、露出の手動調整、タップでピント合わせ、AE/AFロック、ズームダイヤル、タイムラプス、HDR、Apple Logがあります。どちらにもテレプロンプターがありますが、私のテストではDualgramのものは自動でスクロールせず、設定もありませんでした。ContentCamのものは自動でスクロールし、速度、サイズ、色、読み位置のラインを調整できます。</p>
 
       <h2>Dualgramはどんな人向け？</h2>
-      <p>Dualgramはシンガポールのスタジオ Just2us が開発したアプリで、2019年9月からiPhoneで前後カメラの同時録画に対応しており、米国で約2,700件の評価、平均4.7を獲得しています。Dualgramの掲載情報には、ワイプや左右並びの完成したクリップをカメラから直接作り、2つのオリジナルも保存すると書かれています。ガイドによるとiPhoneのモデルに応じてカメラごとに最大4K・60fps、iOS 17以降で動作し、テレプロンプターを内蔵しています。最近のアップデートでは、ロック画面のクイック録画ウィジェットとiPhone Duoへの対応が追加されました。</p>
+      <p>Dualgramはシンガポールのスタジオ、Just2usが作るiPhone・iPad向けアプリです。ストアページでは、カメラからそのまま出てくる完成済みのワイプまたは横並びの動画と、2つの元ファイルをうたっています。ガイドにはiPhoneの機種によってカメラごとに最大4K・60fpsとあり、iOS 17以降に対応し、テレプロンプターがあり、最近のアップデートでロック画面のクイック録画ウィジェットとiPhone Duo対応が加わりました。</p>
 
       <h2>ContentCamとDualgramのスペックを比較すると？</h2>
       <table>
         <thead><tr><th></th><th>ContentCam</th><th>Dualgram</th></tr></thead>
         <tbody>
-          <tr><td>広告</td><td>なし（無料版でもPremiumでも）</td><td>無料版、「広告あり」</td></tr>
-          <tr><td>ウォーターマーク</td><td>なし</td><td>無料版、PROで解除</td></tr>
-          <tr><td>対応プラットフォーム</td><td>iPhone（iOS 18以降）とAndroid</td><td>iPhoneとiPad（iOS 17以降）</td></tr>
-          <tr><td>前後カメラの同時録画</td><td>あり。iOS 18のiPhoneすべてと、対応するAndroid</td><td>あり</td></tr>
-          <tr><td>1回の撮影で縦と横</td><td>対応。9:16と16:9を2つのファイルで</td><td>どちらか一方の向き（「横向きと縦向き」）</td></tr>
-          <tr><td>前後カメラの独立ファイル</td><td>対応。2つのファイル。レイアウトはあとから合成（Combine）で作成</td><td>あり。前面、背面、合成の3つ（「Save all 3 files」）</td></tr>
-          <tr><td>手動コントロール</td><td>露出、ホワイトバランス、ISO、シャッター</td><td>ズーム、フラッシュ、手ぶれ補正を記載</td></tr>
-          <tr><td>最終アップデート</td><td>iOS 2.8.3（2026年11月）、Android 2026年10月28日</td><td>2.4（2026年11月3日）</td></tr>
+          <tr><td>広告</td><td>なし（無料でもPremiumでも）</td><td>無料版は「広告あり」</td></tr>
+          <tr><td>透かし</td><td>なし</td><td>無料版：ワイプの上に大きな「Shot with Dualgram」の文字（テスト済み）。PROで消える</td></tr>
+          <tr><td>対応機種</td><td>iPhone（iOS 18以降）とAndroid</td><td>iPhoneとiPad（iOS 17以降）</td></tr>
+          <tr><td>前後同時撮影</td><td>可能。iOS 18のすべてのiPhoneと対応Androidスマホ</td><td>可能</td></tr>
+          <tr><td>1回の撮影で縦と横</td><td>可能。9:16と16:9の2ファイル</td><td>不可。1回の撮影で1つの形：スマホの持ち方で縦か横か</td></tr>
+          <tr><td>前後別々のファイル</td><td>可能。2ファイルで、レイアウトは後から合成（Combine）で決める</td><td>PROのみ。無料版は合成済みの動画だけを保存（テスト済み）</td></tr>
+          <tr><td>2台のカメラで4K</td><td>可能。対応iPhone（iOS 2.9以降）</td><td>不可：4K 60fpsはどちらのカメラも「非対応」、両方4K 30fpsは警告が出る（テスト済み）</td></tr>
+          <tr><td>2台のカメラで60fps</td><td>対応iPhoneで最大60fps（Premium）</td><td>1080p 60fpsでインカメラが720pに下がる（テスト済み）</td></tr>
+          <tr><td>フレームレート</td><td>24、25、30、50、60fps</td><td>24、30、60fps</td></tr>
+          <tr><td>シネマティック手ぶれ補正</td><td>メイン画面とワイプの両方でライブプレビュー</td><td>プレビューが約2秒遅れる。アプリは「大きく遅れる」と警告（テスト済み）</td></tr>
+          <tr><td>ワイプの枠</td><td>動かせてサイズも変えられる</td><td>無料版は固定。サイズ変更不可（テスト済み）</td></tr>
+          <tr><td>テレプロンプター</td><td>自動スクロール。速度、文字サイズ、8色、読み位置ライン、ミラーモード</td><td>PRO。自動スクロールせず、設定なし（テスト済み）</td></tr>
+          <tr><td>撮影中にアプリを閉じた場合</td><td>次に開いたときに録画を復元</td><td>撮影データが消えた（テスト済み）</td></tr>
+          <tr><td>プロジェクトとテイク</td><td>プロジェクト、シーン、テイク。ファイル名は自動</td><td>なし。ファイルはDGC_の番号で写真アプリに入る</td></tr>
+          <tr><td>手動操作</td><td>露出、ホワイトバランス、ISO、シャッター、タップでピント、AE/AFロック</td><td>見当たらない：タップでピントなし、AE/AFロックなし、ズームは1x / 0.5xボタン（テスト済み）</td></tr>
+          <tr><td>最終アップデート</td><td>iOS 2.9（2026年11月12日）、Android 2.7.1（2026年11月）</td><td>2.5、2026年11月10日</td></tr>
         </tbody>
       </table>
       <p>どちらのアプリも、AppleのDual Captureに対応していないiPhone 15とiPhone 16で前後カメラを録画できます。詳しくは<a href="/ja/blog/record-front-and-back-camera-iphone-15-16/">iPhone 15と16で前後カメラを撮る方法</a>をご覧ください。ほかのアプリとの比較は<a href="/ja/blog/best-front-and-back-dual-camera-apps/">おすすめの前後カメラアプリ</a>にあります。</p>
 
+      <h2>Dualgram 2.5をテストしてどうだったか</h2>
+      <p>2026年11月12日にApp StoreからDualgram 2.5（build 1224）をインストールし、無料版でPROの案内が出るところまで、すべての設定を試しました。わかったことは次のとおりです。</p>
+      <ul>
+        <li><strong>2台のカメラで4K：できない。</strong> 4K 60fpsにすると、背面カメラとインカメラの両方に「Oops... the selected resolution/FPS is not supported.」と出ます。両方を4K 30fpsにすると「Your device may not support this resolution and frame rate.」と出ます。</li>
+        <li><strong>2台のカメラで60fps：インカメラが720pに下がる。</strong> 両方1080p 60fpsにすると、メニューに端末が対応していない可能性があると警告が出て、カメラが動き出すと「Device overloaded! Reducing front camera resolution to 720.」と表示されます。保存された動画は1080 x 1920、HEVC、58.91fpsでした。</li>
+        <li><strong>シネマティック手ぶれ補正でプレビューが遅れる。</strong> アプリは「Video preview will lag significantly」と警告し、画面の映像は約2秒遅れていました。Dualgramのガイドでは遅れはプレビューだけでファイルには出ないとしていますが、動きのある場面の構図が取りにくくなります。ContentCamはシネマティック手ぶれ補正でも、メイン画面とワイプの両方でライブプレビューを表示します。</li>
+        <li><strong>2つのカメラのファイルを別々に保存するのはPRO。</strong> 無料版は合成済みの動画しか保存しません。「Unlock PRO to save the rear camera video separately」と出て、インカメラも同じです。</li>
+        <li><strong>無料版は広告と透かしあり。</strong> 透かしは大きな「Shot with Dualgram」の文字で、ワイプの枠のすぐ上、ちょうど顔の位置に入ります。</li>
+        <li><strong>レイアウトと枠の移動はPRO。</strong> 別のレイアウトを選ぶと「Unlock PRO to use this camera layout.」と出ます。ワイプの枠はサイズを変えられません。ピンチしても反応せず、サイズのボタンもありません。</li>
+        <li><strong>テレプロンプターがスクロールしない。</strong> PROの機能で、文字は止まったままです。速度、サイズ、色の設定もなく、話しながら指でスクロールする必要があります。</li>
+        <li><strong>ピントも露出も操作できない。</strong> プレビューをタップしてもピントは合わず、AE/AFロックもなく、ズームは1x / 0.5xのボタンです。フレームレートは24、30、60fpsで、25と50はありません。</li>
+        <li><strong>アプリを強制終了したテイクが消えた。</strong> 録画中にアプリを閉じると動画は保存されず、撮影中にスマホをロックするとアプリが固まりました。ContentCamは自動ロック中も録画を続け、強制終了したテイクも次に開いたときに復元します。</li>
+        <li><strong>プロジェクトやテイクの管理がない。</strong> 動画はDGC_のファイルとしてそのまま写真アプリに入り、撮影ごとに整理する方法がありません。</li>
+      </ul>
+      <p>App StoreのDualgramの低評価レビューにも同じ弱点が書かれています。通知が出てアプリが固まり、46分の録画を失った人がいます。ほかにも、映像がカクついたりコマが飛んだりする、音ズレする、ダウンロードしてから前後別々のファイルが有料だと知った、という声があります。</p>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-4k-60fps-not-supported.webp" alt="背面カメラとインカメラを4K 60fpsにしたDualgramの設定画面。どちらにも解像度とフレームレートが非対応というメッセージ" width="1000" height="889" loading="lazy" decoding="async">
+        <figcaption>Dualgram 2.5で両方のカメラを4K 60fpsに：どちらも「not supported」。</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-device-overloaded-front-720.webp" alt="Dualgramのバナー：端末の負荷が高すぎるため、インカメラの解像度を720に下げる" width="1000" height="137" loading="lazy" decoding="async">
+        <figcaption>両方のカメラを1080p 60fpsに：Dualgramはインカメラを720pに下げる。</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-cinematic-preview-lag-4k30-warning.webp" alt="シネマティック手ぶれ補正でプレビューが遅れるという警告と、両方のカメラを4K 30fpsにしたときの警告が出たDualgramの設定画面" width="1000" height="945" loading="lazy" decoding="async">
+        <figcaption>シネマティック手ぶれ補正でプレビューが遅れ、両方4K 30fpsでは警告が出る。</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-pro-features.webp" alt="DualgramのPRO画面：前後のカメラ動画の保存、すべてのレイアウト、すべてのマイク設定、テレプロンプター、透かしと広告の削除" width="1000" height="676" loading="lazy" decoding="async">
+        <figcaption>Dualgram PROで解放されるもの：前後別々のファイル、レイアウト、マイク設定、テレプロンプター、透かしと広告の削除。</figcaption>
+      </figure>
+      <p>Dualgramが向いている人：撮りながら構図を決めたワイプ動画を1本、そのまま投稿したい人。2台のカメラで4Kや60fps、スクロールするテレプロンプター、撮影後に変えられるレイアウトが必要なら物足りません。</p>
+
       <h2>Dualgramは前後カメラで4K録画できますか？</h2>
-      <p>前後のカメラを同時に動かしたときに、どのiPhoneなら4Kになるのかを、Dualgramは明らかにしていません。App Storeの説明には「Support up to 4k, 60 fps」（最大4K、60fpsに対応）とあり、ユーザーガイドには前後のカメラをそれぞれ「up to 4K resolution and 60 FPS」（最大4K解像度、60FPS）に設定できると書かれていて、さらに「Depending on the iPhone model, certain configurations would not be supported, so you have to try out to know.」（iPhoneの機種によっては対応しない設定もあるので、実際に試してみないとわかりません）と添えられています（2026年11月11日に確認）。Appleがサードパーティのアプリに2台のカメラでの録画を許しているのは、マルチカメラ対応と指定されたフォーマットだけです。iPhone 18 Proではその一覧に3840 x 2160の30fpsは含まれますが、60fpsの4Kフォーマットはひとつもないため、2台のカメラで同時に録画しながら4K 60fpsを出すことはできません。ContentCamの前後カメラ（Front/Back）は、iOS 2.9から対応iPhoneで4K、2つの別々のファイルとして録画します。どのアプリでも実際に何が録画されているかを知るには、2台のカメラで撮ったテスト用ファイルと元のファイルのピクセルサイズを確認し、細部を見比べてください。手順は<a href="/ja/blog/iphone-4k-front-and-back-camera-same-time/">iPhoneでインカメラと背面カメラを同時に4K録画できるか</a>にまとめています。</p>
+      <p>私のテストではできませんでした。2026年11月12日、Dualgram 2.5は両方のカメラの4K 60fpsに「the selected resolution/FPS is not supported」、両方の4K 30fpsに「Your device may not support this resolution and frame rate」と表示しました。前後のカメラを同時に動かしたときに、どのiPhoneなら4Kになるのかを、Dualgramは明らかにしていません。App Storeの説明には「Support up to 4k, 60 fps」（最大4K、60fpsに対応）とあり、ユーザーガイドには前後のカメラをそれぞれ「up to 4K resolution and 60 FPS」（最大4K解像度、60FPS）に設定できると書かれていて、さらに「Depending on the iPhone model, certain configurations would not be supported, so you have to try out to know.」（iPhoneの機種によっては対応しない設定もあるので、実際に試してみないとわかりません）と添えられています（2026年11月11日に確認）。Appleがサードパーティのアプリに2台のカメラでの録画を許しているのは、マルチカメラ対応と指定されたフォーマットだけです。iPhone 18 Proではその一覧に3840 x 2160の30fpsは含まれますが、60fpsの4Kフォーマットはひとつもないため、2台のカメラで同時に録画しながら4K 60fpsを出すことはできません。ContentCamの前後カメラ（Front/Back）は、iOS 2.9から対応iPhoneで4K、2つの別々のファイルとして録画します。どのアプリでも実際に何が録画されているかを知るには、2台のカメラで撮ったテスト用ファイルと元のファイルのピクセルサイズを確認し、細部を見比べてください。手順は<a href="/ja/blog/iphone-4k-front-and-back-camera-same-time/">iPhoneでインカメラと背面カメラを同時に4K録画できるか</a>にまとめています。</p>
 
       <h2>よくある質問</h2>
       <h3>Dualgramに広告やウォーターマークはありますか？</h3>
       <p>はい、無料版にはあります。DualgramのFAQによると、無料版には広告、ウォーターマーク、一部の機能制限があり、PROを購入すると解除されます。App Storeのページにも「広告あり」と表示されています（2026年11月6日に確認）。ContentCamは無料版でもPremiumでも、広告もウォーターマークもありません。</p>
       <h3>DualgramはAndroidで使えますか？</h3>
-      <p>使えません。DualgramはiPhoneとiPad向けにApp Storeで配信されており、Google PlayのJust2usのデベロッパーページには別のアプリが2つあるだけで、Dualgramはありません（2026年11月6日に確認）。ContentCamはiPhoneとAndroidで使えます。</p>
+      <p>ありません。DualgramはiPhoneとiPad向けにApp Storeにあるだけで、Android版はありません（2026年11月6日に確認）。ContentCamはiPhoneとAndroidで使えます。</p>
       <h3>Dualgram PROの値段はいくらですか？</h3>
       <p>米国のApp Storeでは、DualgramはPROを1年間の購入か買い切りのアンロックとして販売しており、PROが最初から含まれる有料の別アプリDualgram Proも販売しています（2026年11月6日に確認）。ContentCam Premiumは年額、月額、買い切りから選べ、価格はお使いのストアで表示されます。</p>
       <h3>Dualgramは前後カメラの映像を別々のファイルで保存できますか？</h3>
-      <p>はい。Dualgramのストアページには「前後カメラで撮影した2つのオリジナルを含む、3つのファイルすべてを保存」できると書かれています。ContentCamの前後カメラ（Front/Back）モードも前後のカメラ映像を独立した2つのファイルとして保存し、合成エディタで撮影後にワイプ（ピクチャ・イン・ピクチャ）または画面分割の動画にでき、オリジナルはそのまま残ります。</p>
+      <p>PROが必要です。Dualgramのストアページには「Save all 3 files, including the 2 originals captured from the front &amp; back camera」とありますが、バージョン2.5のテストでは無料版は合成済みの動画しか保存しませんでした。ContentCamの前後カメラ（Front/Back）モードは前後のカメラを2つの別々のファイルとして保存し、合成（Combine）エディタで後からワイプや画面分割の動画にでき、元のファイルも残ります。</p>
       <h3>Dualgramで縦と横の動画を同時に撮れますか？</h3>
-      <p>Dualgramのストアページには「横向きと縦向き」とありますが、1回の撮影で両方を保存できるとは書かれていません。ContentCamは1つのレンズから9:16の縦動画と16:9の横動画を同時に、HDまたは4Kで録画します。</p>
+      <p>できません。私のテストでは、Dualgramは1回の撮影で1つの形だけを録画し、スマホの持ち方で縦か横かが決まります。ContentCamは1つのレンズから縦9:16と横16:9のファイルを同時に、HDまたは4Kで録画します。</p>
 
       <div class="post-cta">
         <p><strong>ContentCamを無料で試す</strong>。前後カメラを2つの独立したファイルに、1回の撮影で縦と横の両方も。広告もウォーターマークもありません。iPhoneとAndroidで無料でダウンロードできます。</p>
@@ -246,7 +311,7 @@
       </div>
 
       <p>関連記事：<a href="/ja/blog/dual-camera-app-one-time-purchase/">買い切りで使えるデュアルカメラアプリ</a> · <a href="/ja/blog/dual-camera-app-without-ads/">広告なしのデュアルカメラアプリ</a> · <a href="/ja/blog/best-front-and-back-dual-camera-apps/">おすすめの前後カメラアプリ</a></p>
-      <p class="byline">出典：Dualgramの米国App Storeページ（id1474345188、バージョン2.4、説明、バージョン履歴、App内課金、年齢制限指定）、Dualgram Proの米国App Storeページ（id1481349660）、dualgram.comのFAQとユーザーガイド、Google Playでの「Dualgram」検索結果とJust2usのデベロッパーページ、contentcam.appの料金ページとサポートページ。2026年11月6日に確認。</p>
+      <p class="byline">出典：2026年11月12日のDualgram 2.5（build 1224）実機テスト。Dualgramの米国App Storeページ（id1474345188、バージョン2.4、説明、バージョン履歴、App内課金、年齢制限指定）、Dualgram Proの米国App Storeページ（id1481349660）、dualgram.comのFAQとユーザーガイド、Google Playでの「Dualgram」検索結果とJust2usのデベロッパーページ、contentcam.appの料金ページとサポートページ。2026年11月6日に確認。</p>
     </article>
   </main>
 

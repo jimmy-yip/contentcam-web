@@ -32,7 +32,22 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {"@type": "Organization", "@id": "https://contentcam.app/#org", "name": "ContentCam", "url": "https://contentcam.app/", "logo": "https://contentcam.app/assets/icon-512.png", "email": "contentcam.app@gmail.com", "sameAs": ["https://www.instagram.com/contentcam.app", "https://www.tiktok.com/@contentcam.app", "https://www.youtube.com/@ContentCam-app", "https://discord.gg/YxUpbUgthH", "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795", "https://play.google.com/store/apps/details?id=app.contentcam.android"]},
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
     {
       "@type": "WebPage",
       "@id": "https://contentcam.app/fi/vs/dualgram/",
@@ -88,10 +103,18 @@
         },
         {
           "@type": "Question",
+          "name": "Tallentaako Dualgram 4K:ta molemmilla kameroilla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ei, Dualgram 2.5:n käytännön testissä 12. marraskuuta 2026. 4K 60 fps:llä näkyy ”the selected resolution/FPS is not supported” molemmilla kameroilla, 4K 30 fps molemmilla antaa varoituksen, ja 1080p 60 fps:llä sovellus pudottaa etukameran 720p:hen. ContentCamin Etu- ja takakamera tallentaa molemmat kamerat 4K:na tuetuilla iPhoneilla (iOS 2.9:stä alkaen), kahtena erillisenä tiedostona."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Onko Dualgram saatavilla Androidille?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ei. Dualgram on App Storessa iPhonelle ja iPadille, ja Just2usin kehittäjäsivulla Google Playssa on kaksi muuta sovellusta mutta ei Dualgramia (tarkistettu 6. marraskuuta 2026). ContentCam on saatavilla iPhonelle ja Androidille."
+            "text": "Ei. Dualgram on vain App Storessa iPhonelle ja iPadille, ilman Android-versiota (tarkistettu 6. marraskuuta 2026). ContentCam toimii iPhonessa ja Androidissa."
           }
         },
         {
@@ -107,7 +130,7 @@
           "name": "Tallentaako Dualgram etu- ja takakameran erillisiksi tiedostoiksi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Kyllä. Dualgramin kauppasivun mukaan se voi \"tallentaa kaikki 3 tiedostoa, mukaan lukien 2 alkuperäistä etu- ja takakameralla kuvattua\". Myös ContentCamin Etu- ja takakamera (Front & Back) -tila tallentaa etu- ja takakameran kahdeksi erilliseksi tiedostoksi, ja sen yhdistämiseditori (Combine) tekee niistä jälkikäteen kuva kuvassa- tai jaetun näytön videon niin, että alkuperäiset säilyvät."
+            "text": "PRO:lla. Kuvauksen mukaan Dualgram voi ”Save all 3 files, including the 2 originals captured from the front & back camera”, ja testissäni versio 2.5 tallensi ilmaisena vain yhdistetyn videon. ContentCamin Etu- ja takakamera -tila tallentaa etu- ja takakameran kahdeksi erilliseksi tiedostoksi, ja Yhdistä-editori tekee niistä jälkikäteen kuva kuvassa- tai jaetun näytön videon, alkuperäiset säilyttäen."
           }
         },
         {
@@ -115,7 +138,7 @@
           "name": "Voiko Dualgram tallentaa pysty- ja vaakavideon yhtä aikaa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Dualgramin kauppasivu tarjoaa \"Vaaka- ja pystysuunnan\", mutta ei kuvaa molempien tallentamista yhdestä otoksesta. ContentCam tallentaa pystysuuntaisen 9:16-tiedoston ja vaakasuuntaisen 16:9-tiedoston yhtä aikaa yhdellä objektiivilla, HD- tai 4K-tarkkuudella."
+            "text": "Ei. Testissäni Dualgram tallentaa yhden muodon per otos, pysty tai vaaka sen mukaan, miten pidät puhelinta. ContentCam tallentaa samaan aikaan pystysuuntaisen 9:16- ja vaakasuuntaisen 16:9-tiedoston yhdellä objektiivilla, HD- tai 4K-tarkkuudella."
           }
         }
       ]
@@ -182,17 +205,18 @@
     <div class="crumbs"><a href="/fi/">Etusivu</a> › <a href="/fi/vs/">Vertailu</a> › Dualgram</div>
     <article class="post">
       <h1>ContentCam vs Dualgram (2026)</h1>
-      <p class="byline">Tarkistettu 6. marraskuuta 2026</p>
+      <p class="byline">Testattu 12. marraskuuta 2026 · Kauppasivu tarkistettu 6. marraskuuta 2026</p>
 
-      <p>Valitse ContentCam Dualgramin sijaan, jos haluat etu- ja takakamerasovelluksen, jossa ei ole mainoksia eikä vesileimaa missään versiossa, joka toimii iPhonen lisäksi Androidilla, tallentaa pysty- ja vaakavideon samasta otoksesta ja antaa säätää ISO:a, suljinaikaa ja valkotasapainoa käsin. Dualgram on iPhone- ja iPad-sovellus, jonka ilmaisversiossa on mainoksia ja vesileima, kunnes ostat PRO-version.</p>
+      <p>Avoimuus: olen Jimmy, teen ContentCamia, ja testasin Dualgram 2.5:n itse 12. marraskuuta 2026.</p>
+      <p><strong>Testattu:</strong> Dualgram 2.5 ei tallenna 4K:ta molemmilla kameroilla (4K 60 fps:llä on ”ei tuettu” kummallakin), pudottaa etukameran 720p:hen, kun molemmat käyvät 60 fps:llä, ja vaatii PRO:n, jotta etu- ja takakamera tallentuvat erillisiksi tiedostoiksi. ContentCam tallentaa molemmat kamerat 4K:na tuetuilla iPhoneilla ja enintään 60 fps:llä, kahtena erillisenä tiedostona, ilman mainoksia ja vesileimaa. Kaikki tulokset ja kuvakaappaukset ovat alempana.</p>
       <p>Tiedoksi: olen Jimmy ja teen ContentCamia. Jokainen alla oleva Dualgramia koskeva väite perustuu Dualgramin yhdysvaltalaiseen App Store -sivuun (versio 2.4, julkaistu 3. marraskuuta 2026), sivustoon dualgram.com ja Google Playhin, tarkistettu 6. marraskuuta 2026.</p>
 
       <h2>Mitkä ovat ContentCamin ja Dualgramin tärkeimmät erot?</h2>
       <ul>
         <li><strong>Mainokset ja vesileima:</strong> ContentCamissa ei ole kumpaakaan, ei ilmaisessa eikä Premiumissa. Dualgramin usein kysytyissä kysymyksissä kerrotaan, että ilmaisversio "sisältää mainoksia, vesileimoja ja tiettyjä lukittuja ominaisuuksia, kuten lisää asetteluja".</li>
-        <li><strong>Android:</strong> ContentCam toimii iPhonella ja Androidilla. Dualgram on vain App Storessa; Just2usin kehittäjäsivulla Google Playssa ovat SG 4D+ ja SG Schooling, ei Dualgramia.</li>
-        <li><strong>Pysty- ja vaakavideo yhtä aikaa:</strong> ContentCam tallentaa yhdestä otoksesta 9:16-tiedoston ja 16:9-tiedoston. Dualgram mainitsee "Vaaka- ja pystysuunta" eikä kuvaa molempien tallentamista yhdestä otoksesta.</li>
-        <li><strong>Manuaaliset säädöt:</strong> ContentCamissa on manuaalinen valotus, valkotasapaino, ISO ja suljinaika. Dualgramin ominaisuuslistassa mainitaan optinen ja digitaalinen zoomaus, salama ja elokuvallinen kuvanvakautus.</li>
+        <li><strong>Android:</strong> ContentCam toimii iPhonessa ja Androidissa. Dualgramista ei ole Android-versiota.</li>
+        <li><strong>Pysty ja vaaka samaan aikaan:</strong> ContentCam tallentaa yhdestä otosta 9:16- ja 16:9-tiedoston. Dualgram tallentaa yhden muodon per otos; ”Landscape and portrait” sen kuvauksessa tarkoittaa vain, että puhelinta voi pitää kummin päin tahansa.</li>
+        <li><strong>Kameran säädöt:</strong> molemmissa sovelluksissa on zoomi, salama ja vakautus. ContentCamissa on lisäksi manuaalinen valotus, valkotasapaino, ISO ja suljinaika, tarkennus napauttamalla ja AE/AF-lukitus painamalla pitkään. Testissäni Dualgramissa ei ollut mitään näistä, ja sen zoomi on 1x / 0,5x -painike.</li>
         <li><strong>Milloin asettelu valitaan:</strong> ContentCamissa valitset kuva kuvassa- tai jaetun näytön asettelun tallennuksen jälkeen yhdistämiseditorissa (Combine). Dualgramissa asettelu lukitaan kuvatessa ("tallennetaan juuri niin kuin rajasit sen", kertovat sen 2.0-version julkaisutiedot), ja se tallentaa myös kaksi alkuperäistä tiedostoa.</li>
       </ul>
 
@@ -201,41 +225,82 @@
       <p><strong>Android.</strong> ContentCamin Etu- ja takakamera -tila toimii Android-puhelimissa, joiden kamerajärjestelmä pystyy käyttämään etu- ja takakameraa yhtä aikaa, HD-tarkkuudella enintään 30 fps:llä; sovellus tarkistaa tämän ja tarjoaa tilaa vain siellä, missä se toimii. Dualgramista ei ole Android-versiota. Ohjeet löytyvät sivulta <a href="/fi/blog/record-front-and-back-camera-same-time-android/">etu- ja takakameran tallennus yhtä aikaa Androidilla</a>.</p>
       <p><strong>Yksi otos, kaksi formaattia.</strong> ContentCamin päätila tallentaa yhdestä kuvauksesta 9:16-tiedoston TikTokiin, Reelsiin ja Shortsiin sekä 16:9-tiedoston YouTubeen, 24, 25, 30, 50 tai 60 fps:llä HD- tai 4K-tarkkuudella. Dualgram ei kuvaa tällaista tilaa.</p>
       <p><strong>Asettelu päätetään myöhemmin.</strong> ContentCamin Etu- ja takakamera tallentaa selfien ja ympäristön kahdeksi erilliseksi tiedostoksi. Yhdistämisellä (Combine) voit kokeilla kuva kuvassa- ja jaetun näytön asetteluja kuvauksen jälkeen (kokeilu on ilmaista, yhdistetyn videon tallentaminen vaatii Premiumin), ja alkuperäiset säilyvät ennallaan.</p>
-      <p><strong>Manuaalinen valotus.</strong> ContentCamissa on manuaalinen ISO, suljinaika ja valkotasapaino. Dualgramin ominaisuuslistassa mainitaan zoomaus, salama ja kuvanvakautus, mutta ei manuaalisia valotusasetuksia. Kummassakin sovelluksessa on teleprompter.</p>
+      <p><strong>Täysi kamera, ei pelkät kaksi näkymää.</strong> ContentCamissa on Dualgramin zoomi, salama ja vakautus sekä manuaalinen ISO, suljinaika, valkotasapaino ja valotus, tarkennus napauttamalla, AE/AF-lukitus, zoomipyörä, ajastettu kuvaus, HDR ja Apple Log. Molemmissa on teleprompteri, mutta testissäni Dualgramin teleprompteri ei vierittänyt itsestään eikä siinä ollut asetuksia; ContentCamin vierittää itsestään, ja siinä on asetukset nopeudelle, koolle, värille ja lukuviivalle.</p>
 
       <h2>Mihin Dualgram on tehty?</h2>
-      <p>Singaporelaisen Just2us-studion Dualgram on tallentanut etu- ja takakameraa iPhonella syyskuusta 2019, ja sillä on noin 2 700 yhdysvaltalaista arviota keskiarvolla 4,7. Dualgramin kauppasivu kuvaa valmiin kuva kuvassa- tai rinnakkaisklipin suoraan kamerasta, ja myös kaksi alkuperäistä tiedostoa tallentuvat: sen käyttöopas lupaa enintään 4K-tarkkuuden ja 60 fps kameraa kohden iPhone-mallista riippuen, se toimii iOS 17:llä tai uudemmalla, siinä on sisäänrakennettu teleprompter, ja tuoreet päivitykset toivat lukitusnäytön Quick Record -widgetin ja iPhone Duo -tuen.</p>
+      <p>Dualgram on singaporelaisen Just2us-studion sovellus iPhonelle ja iPadille. Sen kuvaus lupaa valmiin kuva kuvassa- tai rinnakkaisleikkeen suoraan kamerasta, alkuperäiset tiedostot mukana: ohje mainitsee enintään 4K:n ja 60 fps:n kameraa kohden iPhone-mallista riippuen, sovellus vaatii iOS 17:n tai uudemman, siinä on teleprompteri, ja tuoreet päivitykset toivat lukitusnäytön pikatallennuswidgetin ja iPhone Duo -tuen.</p>
 
       <h2>Miten ContentCam ja Dualgram vertautuvat ominaisuus kerrallaan?</h2>
       <table>
         <thead><tr><th></th><th>ContentCam</th><th>Dualgram</th></tr></thead>
         <tbody>
-          <tr><td>Mainokset</td><td>Ei, ei ilmaisessa eikä Premiumissa</td><td>Ilmaisversio, "Sisältää mainontaa"</td></tr>
-          <tr><td>Vesileima</td><td>Ei</td><td>Ilmaisversiossa, poistuu PRO-versiolla</td></tr>
+          <tr><td>Mainokset</td><td>Ei mainoksia, ilmaisena tai Premiumina</td><td>Ilmaisversio, ”Sisältää mainoksia”</td></tr>
+          <tr><td>Vesileima</td><td>Ei</td><td>Ilmaisversio: iso ”Shot with Dualgram” -teksti kuva kuvassa -ikkunan yllä (testattu); poistuu PRO:lla</td></tr>
           <tr><td>Alustat</td><td>iPhone (iOS 18 tai uudempi) ja Android</td><td>iPhone ja iPad (iOS 17 tai uudempi)</td></tr>
-          <tr><td>Etu- ja takakamera yhtä aikaa</td><td>Kyllä, jokaisella iOS 18 -iPhonella ja tukevilla Android-puhelimilla</td><td>Kyllä</td></tr>
-          <tr><td>Pysty- ja vaakavideo yhdestä otoksesta</td><td>Kyllä, 9:16 ja 16:9 kahtena tiedostona</td><td>Jompikumpi suunta ("Vaaka- ja pystysuunta")</td></tr>
-          <tr><td>Erilliset etu- ja takakameran tiedostot</td><td>Kyllä, kaksi tiedostoa; yhdistäminen (Combine) tekee asettelun jälkikäteen</td><td>Kyllä, etu-, taka- ja yhdistetty ("Tallenna kaikki 3 tiedostoa")</td></tr>
-          <tr><td>Manuaaliset säädöt</td><td>Valotus, valkotasapaino, ISO, suljinaika</td><td>Mainitaan zoomaus, salama, kuvanvakautus</td></tr>
-          <tr><td>Viimeisin päivitys</td><td>iOS 2.8.3 (marraskuu 2026); Android 28. lokakuuta 2026</td><td>2.4, 3. marraskuuta 2026</td></tr>
+          <tr><td>Etu- ja takakamera yhtä aikaa</td><td>Kyllä, kaikilla iOS 18 -iPhoneilla ja siihen pystyvillä Android-puhelimilla</td><td>Kyllä</td></tr>
+          <tr><td>Pysty ja vaaka samasta otosta</td><td>Kyllä, 9:16 ja 16:9 kahtena tiedostona</td><td>Ei. Yksi muoto per otos: pysty tai vaaka sen mukaan, miten pidät puhelinta</td></tr>
+          <tr><td>Erilliset etu- ja takakameran tiedostot</td><td>Kyllä, kaksi tiedostoa; asettelu tehdään jälkikäteen Yhdistä-editorissa</td><td>Vain PRO:lla; ilmaisversio tallentaa vain yhdistetyn videon (testattu)</td></tr>
+          <tr><td>4K molemmilla kameroilla</td><td>Kyllä, tuetuilla iPhoneilla (iOS 2.9:stä alkaen)</td><td>Ei: 4K 60 fps ”ei tuettu” kummallakaan kameralla; 4K 30 fps molemmilla antaa varoituksen (testattu)</td></tr>
+          <tr><td>60 fps molemmilla kameroilla</td><td>Enintään 60 fps sitä tukevilla iPhoneilla (Premium)</td><td>Etukamera putoaa 720p:hen 1080p 60 fps:llä (testattu)</td></tr>
+          <tr><td>Kuvataajuudet</td><td>24, 25, 30, 50 tai 60 fps</td><td>24, 30 tai 60 fps</td></tr>
+          <tr><td>Elokuvamainen vakautus</td><td>Reaaliaikainen esikatselu pääkuvassa ja kuva kuvassa -ikkunassa</td><td>Esikatselu laahaa noin 2 sekuntia; sovellus varoittaa sen ”viiveestä” (testattu)</td></tr>
+          <tr><td>Kuva kuvassa -ikkuna</td><td>Siirrettävä ja koko muutettavissa</td><td>Kiinteä ilmaisversiossa; kokoa ei voi muuttaa (testattu)</td></tr>
+          <tr><td>Teleprompteri</td><td>Vierittää itsestään; nopeus, tekstin koko, 8 väriä, lukuviiva, peilitila</td><td>PRO; ei vieritä itsestään, ei asetuksia (testattu)</td></tr>
+          <tr><td>Sovellus suljettu kesken otoksen</td><td>Tallenne palautetaan seuraavalla käynnistyksellä</td><td>Otos menetetty (testattu)</td></tr>
+          <tr><td>Projektit ja otokset</td><td>Projektit, kohtaukset ja otokset, automaattiset tiedostonimet</td><td>Ei ole; tiedostot menevät Kuviin DGC_-numeroina</td></tr>
+          <tr><td>Manuaaliset säädöt</td><td>Valotus, valkotasapaino, ISO, suljinaika; tarkennus napauttamalla, AE/AF-lukitus</td><td>Ei löytynyt: ei tarkennusta napauttamalla, ei AE/AF-lukitusta, zoomi 1x / 0,5x -painikkeella (testattu)</td></tr>
+          <tr><td>Viimeisin päivitys</td><td>iOS 2.9 (12. marraskuuta 2026); Android 2.7.1 (marraskuu 2026)</td><td>2.5, 10. marraskuuta 2026</td></tr>
         </tbody>
       </table>
       <p>Molemmat sovellukset tallentavat etu- ja takakameraa iPhone 15:ssä ja iPhone 16:ssa, joista puuttuu Applen Dual Capture; katso <a href="/blog/record-front-and-back-camera-iphone-15-16/">etu- ja takakamera iPhone 15:ssä ja 16:ssa</a>. Lisää sovelluksia on vertailtu sivulla <a href="/fi/blog/best-front-and-back-dual-camera-apps/">parhaat etu- ja takakamerasovellukset</a>.</p>
 
+      <h2>Mitä tapahtui, kun testasin Dualgram 2.5:tä?</h2>
+      <p>Asensin Dualgram 2.5:n (build 1224) App Storesta 12. marraskuuta 2026 ja kokeilin jokaista asetusta, ilmaisversiossa ja PRO-ilmoituksiin asti. Tämän löysin.</p>
+      <ul>
+        <li><strong>4K molemmilla kameroilla: ei.</strong> 4K 60 fps:llä näyttää ”Oops... the selected resolution/FPS is not supported.” sekä taka- että etukameralle. 4K 30 fps:llä molemmilla näyttää ”Your device may not support this resolution and frame rate.”</li>
+        <li><strong>60 fps molemmilla kameroilla: etukamera putoaa 720p:hen.</strong> 1080p 60 fps:llä molemmilla valikko varoittaa, ettei laite ehkä tue sitä, ja kun kamerat käyvät, sovellus näyttää ”Device overloaded! Reducing front camera resolution to 720.” Tallennettu video oli 1080 x 1920, HEVC, 58,91 fps.</li>
+        <li><strong>Elokuvamainen vakautus viivästää esikatselua.</strong> Sovellus varoittaa ”Video preview will lag significantly”, ja näytön kuva oli noin 2 sekuntia jäljessä. Dualgramin ohjeen mukaan viive koskee vain esikatselua, ei tiedostoa, mutta se vaikeuttaa liikkuvan kuvan rajaamista. ContentCam käyttää elokuvamaista vakautusta reaaliaikaisella esikatselulla pääkuvassa ja kuva kuvassa -ikkunassa.</li>
+        <li><strong>Kameratiedostojen tallentaminen erikseen vaatii PRO:n.</strong> Ilmaisversio tallentaa vain yhdistetyn videon. ”Unlock PRO to save the rear camera video separately”, ja sama etukameralle.</li>
+        <li><strong>Ilmaisversiossa on mainoksia ja vesileima.</strong> Vesileima on iso ”Shot with Dualgram” -teksti juuri kuva kuvassa -ikkunan yllä, kasvojesi kohdalla.</li>
+        <li><strong>Asettelut ja ikkunan siirtäminen ovat PRO:ta.</strong> Toisen asettelun valinta näyttää ”Unlock PRO to use this camera layout.” Kuva kuvassa -ikkunan kokoa ei voi muuttaa: nipistys ei tee mitään eikä kokopainiketta ole.</li>
+        <li><strong>Teleprompteri ei vieritä.</strong> Se on PRO-ominaisuus, teksti pysyy paikallaan ilman nopeus-, koko- tai väriasetuksia, ja vierität sitä sormella puhuessasi.</li>
+        <li><strong>Ei tarkennus- eikä valotussäätöjä.</strong> Esikatselun napautus ei tarkenna, AE/AF-lukitusta ei ole, ja zoomi on 1x / 0,5x -painike. Kuvataajuudet ovat 24, 30 tai 60 fps, ei 25:tä eikä 50:tä.</li>
+        <li><strong>Pakkosuljettu otos katosi.</strong> Kun suljin sovelluksen kesken tallennuksen, video ei tallentunut, ja puhelimen lukitseminen kesken otoksen jäädytti sovelluksen. ContentCam jatkaa tallennusta automaattisen lukituksen aikana ja palauttaa pakkosuljetun otoksen seuraavalla käynnistyksellä.</li>
+        <li><strong>Ei projekteja eikä otoksia.</strong> Videot menevät suoraan Kuviin DGC_-tiedostoina, eikä niitä voi järjestää kuvauskerran mukaan.</li>
+      </ul>
+      <p>Dualgramin vähätähtiset App Store -arviot kuvaavat samat heikkoudet. Yksi käyttäjä menetti 46 minuutin tallenteen, kun ilmoitus ilmestyi ja sovellus jäätyi; toiset kertovat nykivästä videosta, joka hyppii ruutuja, epäsynkassa olevasta äänestä ja siitä, että vasta latauksen jälkeen selvisi erillisten etu- ja takakameratiedostojen maksavan erikseen.</p>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-4k-60fps-not-supported.webp" alt="Dualgramin asetukset 4K 60 fps:llä taka- ja etukameralle, molemmissa ilmoitus, ettei resoluutiota ja kuvataajuutta tueta" width="1000" height="889" loading="lazy" decoding="async">
+        <figcaption>Dualgram 2.5 molemmat kamerat 4K 60 fps:llä: ”not supported” kummassakin.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-device-overloaded-front-720.webp" alt="Dualgramin ilmoitus: laite ylikuormittunut, etukameran resoluutio lasketaan 720:een" width="1000" height="137" loading="lazy" decoding="async">
+        <figcaption>Molemmat kamerat 1080p 60 fps:llä: Dualgram pudottaa etukameran 720p:hen.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-cinematic-preview-lag-4k30-warning.webp" alt="Dualgramin asetukset, joissa varoitus esikatselun viiveestä elokuvamaisella vakautuksella ja varoitus 4K 30 fps:stä molemmilla kameroilla" width="1000" height="945" loading="lazy" decoding="async">
+        <figcaption>Elokuvamainen vakautus viivästää esikatselua; 4K 30 fps molemmilla kameroilla antaa varoituksen.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-pro-features.webp" alt="Dualgramin PRO-näkymä: etu- ja takakameran videoiden tallennus, kaikki asettelut, kaikki mikrofonivalinnat, teleprompteri, vesileiman ja mainosten poisto" width="1000" height="676" loading="lazy" decoding="async">
+        <figcaption>Mitä Dualgram PRO avaa: erilliset kameratiedostot, asettelut, mikrofonivalinnat, teleprompterin, ei vesileimaa eikä mainoksia.</figcaption>
+      </figure>
+      <p>Kenelle Dualgram sopii: sille, joka haluaa yhden kuva kuvassa -leikkeen, rajattuna kuvatessa ja julkaistuna sellaisenaan. Jos tarvitset 4K:ta tai 60 fps:ää molemmilla kameroilla, vierittävän teleprompterin tai asettelun, jota voi muuttaa kuvauksen jälkeen, se ei riitä.</p>
+
       <h2>Tallentaako Dualgram 4K-videota molemmilla kameroilla?</h2>
-      <p>Dualgram ei kerro, millä iPhoneilla 4K onnistuu molempien kameroiden ollessa käynnissä. Sen App Store -sivulla lukee "Tuki enintään 4K:lle, 60 fps", ja sen käyttöoppaan mukaan etu- ja takakameran voi kummankin asettaa "enintään 4K-tarkkuudelle ja 60 FPS:ään", minkä perään todetaan: "iPhone-mallista riippuen tietyt asetukset eivät ole tuettuja, joten sinun on kokeiltava tietääksesi." (tarkistettu 11. marraskuuta 2026). Apple antaa kolmannen osapuolen sovellusten tallentaa kahdella kameralla vain formaateissa, jotka se merkitsee monikameratallennukseen sopiviksi. iPhone 18 Prossa tällä listalla on 3840 x 2160 30 fps:llä mutta ei yhtään 4K-formaattia 60 fps:llä, joten 4K 60 fps:llä ei voi syntyä kahden kameran samanaikaisesta tallennuksesta. ContentCamin Etu- ja takakamera tallentaa 4K-tarkkuudella tuetuilla iPhoneilla (iOS 2.9:stä alkaen) kahdeksi erilliseksi tiedostoksi. Jos haluat nähdä, mitä sovellus todella tallentaa, lue kahden kameran testitiedoston ja sen alkuperäisten tiedostojen pikselikoko ja vertaa sitten yksityiskohtia: ohjeet löytyvät sivulta <a href="/blog/iphone-4k-front-and-back-camera-same-time/">voiko iPhone tallentaa 4K-videota etu- ja takakameralla yhtä aikaa</a>.</p>
+      <p>Ei testissäni. 12. marraskuuta 2026 Dualgram 2.5 näytti ”the selected resolution/FPS is not supported” 4K 60 fps:lle molemmilla kameroilla ja ”Your device may not support this resolution and frame rate” 4K 30 fps:lle molemmilla. Dualgram ei kerro, millä iPhoneilla 4K onnistuu molempien kameroiden ollessa käynnissä. Sen App Store -sivulla lukee "Tuki enintään 4K:lle, 60 fps", ja sen käyttöoppaan mukaan etu- ja takakameran voi kummankin asettaa "enintään 4K-tarkkuudelle ja 60 FPS:ään", minkä perään todetaan: "iPhone-mallista riippuen tietyt asetukset eivät ole tuettuja, joten sinun on kokeiltava tietääksesi." (tarkistettu 11. marraskuuta 2026). Apple antaa kolmannen osapuolen sovellusten tallentaa kahdella kameralla vain formaateissa, jotka se merkitsee monikameratallennukseen sopiviksi. iPhone 18 Prossa tällä listalla on 3840 x 2160 30 fps:llä mutta ei yhtään 4K-formaattia 60 fps:llä, joten 4K 60 fps:llä ei voi syntyä kahden kameran samanaikaisesta tallennuksesta. ContentCamin Etu- ja takakamera tallentaa 4K-tarkkuudella tuetuilla iPhoneilla (iOS 2.9:stä alkaen) kahdeksi erilliseksi tiedostoksi. Jos haluat nähdä, mitä sovellus todella tallentaa, lue kahden kameran testitiedoston ja sen alkuperäisten tiedostojen pikselikoko ja vertaa sitten yksityiskohtia: ohjeet löytyvät sivulta <a href="/blog/iphone-4k-front-and-back-camera-same-time/">voiko iPhone tallentaa 4K-videota etu- ja takakameralla yhtä aikaa</a>.</p>
 
       <h2>Usein kysytyt kysymykset</h2>
       <h3>Onko Dualgramissa mainoksia tai vesileimaa?</h3>
       <p>Kyllä, ilmaisversiossa. Dualgramin usein kysyttyjen kysymysten mukaan ilmaisversiossa on mainoksia, vesileimoja ja joitakin lukittuja ominaisuuksia, ja PRO-version ostaminen poistaa ne; App Store -sivulla on merkintä "Sisältää mainontaa" (tarkistettu 6. marraskuuta 2026). ContentCamissa ei ole mainoksia eikä vesileimaa, ei ilmaisessa eikä Premiumissa.</p>
       <h3>Onko Dualgram saatavilla Androidille?</h3>
-      <p>Ei. Dualgram on App Storessa iPhonelle ja iPadille, ja Just2usin kehittäjäsivulla Google Playssa on kaksi muuta sovellusta mutta ei Dualgramia (tarkistettu 6. marraskuuta 2026). ContentCam on saatavilla iPhonelle ja Androidille.</p>
+      <p>Ei. Dualgram on vain App Storessa iPhonelle ja iPadille, ilman Android-versiota (tarkistettu 6. marraskuuta 2026). ContentCam toimii iPhonessa ja Androidissa.</p>
       <h3>Paljonko Dualgram PRO maksaa?</h3>
       <p>Yhdysvaltain App Storessa Dualgram myy PRO-version vuoden kestävänä ostona tai kertaostona, ja lisäksi myydään erillistä maksullista Dualgram Pro -sovellusta, johon PRO sisältyy (tarkistettu 6. marraskuuta 2026). ContentCam Premiumin saa vuosi- tai kuukausitilauksena tai elinikäisenä kertaostona, ja hinta näkyy omassa sovelluskaupassasi.</p>
       <h3>Tallentaako Dualgram etu- ja takakameran erillisiksi tiedostoiksi?</h3>
-      <p>Kyllä. Dualgramin kauppasivun mukaan se voi "tallentaa kaikki 3 tiedostoa, mukaan lukien 2 alkuperäistä etu- ja takakameralla kuvattua". Myös ContentCamin Etu- ja takakamera (Front &amp; Back) -tila tallentaa etu- ja takakameran kahdeksi erilliseksi tiedostoksi, ja sen yhdistämiseditori (Combine) tekee niistä jälkikäteen kuva kuvassa- tai jaetun näytön videon niin, että alkuperäiset säilyvät.</p>
+      <p>PRO:lla. Kuvauksen mukaan Dualgram voi ”Save all 3 files, including the 2 originals captured from the front &amp; back camera”, ja testissäni versio 2.5 tallensi ilmaisena vain yhdistetyn videon. ContentCamin Etu- ja takakamera -tila tallentaa etu- ja takakameran kahdeksi erilliseksi tiedostoksi, ja Yhdistä-editori tekee niistä jälkikäteen kuva kuvassa- tai jaetun näytön videon, alkuperäiset säilyttäen.</p>
       <h3>Voiko Dualgram tallentaa pysty- ja vaakavideon yhtä aikaa?</h3>
-      <p>Dualgramin kauppasivu tarjoaa "Vaaka- ja pystysuunnan", mutta ei kuvaa molempien tallentamista yhdestä otoksesta. ContentCam tallentaa pystysuuntaisen 9:16-tiedoston ja vaakasuuntaisen 16:9-tiedoston yhtä aikaa yhdellä objektiivilla, HD- tai 4K-tarkkuudella.</p>
+      <p>Ei. Testissäni Dualgram tallentaa yhden muodon per otos, pysty tai vaaka sen mukaan, miten pidät puhelinta. ContentCam tallentaa samaan aikaan pystysuuntaisen 9:16- ja vaakasuuntaisen 16:9-tiedoston yhdellä objektiivilla, HD- tai 4K-tarkkuudella.</p>
 
       <div class="post-cta">
         <p><strong>Kokeile ContentCamia ilmaiseksi.</strong> Etu- ja takakamera kahtena erillisenä tiedostona, pysty- ja vaakavideo yhdellä otoksella, ei mainoksia eikä vesileimaa. Ilmainen ladata iPhonelle ja Androidille.</p>
@@ -247,7 +312,7 @@
       </div>
 
       <p>Katso myös: <a href="/blog/dual-camera-app-one-time-purchase/">kaksoiskamerasovellukset kertaostolla</a> · <a href="/blog/dual-camera-app-without-ads/">kaksoiskamerasovellukset ilman mainoksia</a> · <a href="/fi/blog/best-front-and-back-dual-camera-apps/">parhaat etu- ja takakamerasovellukset</a></p>
-      <p class="byline">Lähteet: Dualgramin yhdysvaltalainen App Store -sivu (id1474345188, versio 2.4, kuvaus, versiohistoria, sovelluksen sisäiset ostot, ikäluokitus); Dualgram Pron yhdysvaltalainen App Store -sivu (id1481349660); dualgram.comin usein kysytyt kysymykset ja käyttöopas; Google Play -haku "Dualgram" ja Just2usin kehittäjäsivu; contentcam.appin hinta- ja tukisivut. Tarkistettu 6. marraskuuta 2026.</p>
+      <p class="byline">Lähteet: Dualgram 2.5:n (build 1224) käytännön testi 12. marraskuuta 2026; Dualgramin yhdysvaltalainen App Store -sivu (id1474345188, versio 2.4, kuvaus, versiohistoria, sovelluksen sisäiset ostot, ikäluokitus); Dualgram Pron yhdysvaltalainen App Store -sivu (id1481349660); dualgram.comin usein kysytyt kysymykset ja käyttöopas; Google Play -haku "Dualgram" ja Just2usin kehittäjäsivu; contentcam.appin hinta- ja tukisivut. Tarkistettu 6. marraskuuta 2026.</p>
     </article>
   </main>
 

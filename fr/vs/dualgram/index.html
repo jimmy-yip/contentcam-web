@@ -33,7 +33,22 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {"@type": "Organization", "@id": "https://contentcam.app/#org", "name": "ContentCam", "url": "https://contentcam.app/", "logo": "https://contentcam.app/assets/icon-512.png", "email": "contentcam.app@gmail.com", "sameAs": ["https://www.instagram.com/contentcam.app", "https://www.tiktok.com/@contentcam.app", "https://www.youtube.com/@ContentCam-app", "https://discord.gg/YxUpbUgthH", "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795", "https://play.google.com/store/apps/details?id=app.contentcam.android"]},
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
     {
       "@type": "WebPage",
       "@id": "https://contentcam.app/fr/vs/dualgram/",
@@ -88,10 +103,18 @@
         },
         {
           "@type": "Question",
+          "name": "Dualgram filme-t-il en 4K avec les deux caméras ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non, lors d'un test pratique de Dualgram 2.5 le 12 novembre 2026. La 4K à 60 fps affiche « the selected resolution/FPS is not supported » sur les deux caméras, la 4K à 30 fps sur les deux affiche un avertissement, et en 1080p 60 fps l'app passe la caméra avant en 720p. Le mode Avant et arrière de ContentCam filme les deux caméras en 4K sur les iPhone compatibles (depuis iOS 2.9), en deux fichiers séparés."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Dualgram existe-t-il sur Android ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Non. Dualgram est sur l'App Store pour iPhone et iPad, et la page développeur de Just2us sur Google Play liste deux autres apps et aucun Dualgram (vérifié le 6 novembre 2026). ContentCam est disponible sur iPhone et Android."
+            "text": "Non. Dualgram n'est que sur l'App Store pour iPhone et iPad, sans version Android (vérifié le 6 novembre 2026). ContentCam fonctionne sur iPhone et Android."
           }
         },
         {
@@ -107,7 +130,7 @@
           "name": "Dualgram enregistre-t-il les caméras avant et arrière dans des fichiers séparés ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oui. La fiche de Dualgram indique qu'il peut « enregistrer les 3 fichiers, dont les 2 originaux filmés par les caméras avant et arrière ». Le mode Avant et arrière de ContentCam enregistre lui aussi les caméras avant et arrière en deux fichiers séparés, et son éditeur Combiner en fait ensuite une vidéo en image dans l'image ou en écran partagé, en conservant les originaux."
+            "text": "Avec PRO. La fiche de Dualgram dit qu'il peut « Save all 3 files, including the 2 originals captured from the front & back camera », et dans mon test de la version 2.5 la version gratuite n'a enregistré que la vidéo combinée. Le mode Avant et arrière de ContentCam enregistre la caméra avant et la caméra arrière en deux fichiers séparés, et son éditeur Combiner en fait ensuite une vidéo en incrustation ou en écran partagé, en gardant les originaux."
           }
         },
         {
@@ -115,7 +138,7 @@
           "name": "Dualgram peut-il filmer en vertical et en horizontal en même temps ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La fiche de Dualgram propose « Paysage et portrait » mais ne décrit pas l'enregistrement des deux à partir d'une seule prise. ContentCam enregistre en même temps un fichier vertical 9:16 et un fichier horizontal 16:9 avec un seul objectif, en HD ou en 4K."
+            "text": "Non. Dans mon test, Dualgram filme un format par prise, vertical ou horizontal selon la façon dont vous tenez le téléphone. ContentCam enregistre en même temps un fichier vertical 9:16 et un fichier horizontal 16:9 avec un seul objectif, en HD ou en 4K."
           }
         }
       ]
@@ -181,17 +204,18 @@
     <div class="crumbs"><a href="/fr/">Accueil</a> › <a href="/fr/vs/">Comparatifs</a> › Dualgram</div>
     <article class="post">
       <h1>ContentCam ou Dualgram : lequel choisir ? (2026)</h1>
-      <p class="byline">Vérifié le 6 novembre 2026</p>
+      <p class="byline">Testé le 12 novembre 2026 · Fiche vérifiée le 6 novembre 2026</p>
 
-      <p>Choisissez ContentCam plutôt que Dualgram si vous voulez une app caméra avant et arrière sans publicité ni filigrane, quelle que soit la formule, qui fonctionne sur Android comme sur iPhone, enregistre une vidéo verticale et une vidéo horizontale à partir de la même prise et vous donne l'ISO, la vitesse d'obturation et la balance des blancs en manuel. Dualgram est une app iPhone et iPad dont la version gratuite affiche des publicités et un filigrane tant que vous n'achetez pas PRO.</p>
+      <p>Transparence : je m'appelle Jimmy, je développe ContentCam, et j'ai testé Dualgram 2.5 moi-même le 12 novembre 2026.</p>
+      <p><strong>Testé :</strong> Dualgram 2.5 ne filme pas en 4K avec les deux caméras (la 4K à 60 fps est « non prise en charge » sur les deux), passe la caméra avant en 720p quand les deux tournent à 60 fps, et demande PRO pour enregistrer l'avant et l'arrière en fichiers séparés. ContentCam filme les deux caméras en 4K sur les iPhone compatibles et jusqu'à 60 fps, en deux fichiers séparés, sans publicité ni filigrane. Tous les résultats et les captures sont plus bas.</p>
       <p>Transparence : je m'appelle Jimmy et je développe ContentCam. Chaque information sur Dualgram ci-dessous provient de la fiche App Store américaine de Dualgram (version 2.4, publiée le 3 novembre 2026), de dualgram.com et de Google Play, vérifiés le 6 novembre 2026.</p>
 
       <h2>Quelles sont les principales différences entre ContentCam et Dualgram ?</h2>
       <ul>
         <li><strong>Publicités et filigrane :</strong> ContentCam n'a ni l'un ni l'autre, en version gratuite comme en Premium. La FAQ de Dualgram indique que l'app gratuite « comprend des publicités, des filigranes et certaines fonctions verrouillées, comme davantage de mises en page ».</li>
-        <li><strong>Android :</strong> ContentCam fonctionne sur iPhone et Android. Dualgram n'existe que sur l'App Store ; la page développeur de Just2us sur Google Play liste SG 4D+ et SG Schooling, pas Dualgram.</li>
-        <li><strong>Vertical et horizontal en même temps :</strong> ContentCam enregistre un fichier 9:16 et un fichier 16:9 à partir d'une seule prise. Dualgram annonce « Paysage et portrait » et ne décrit pas l'enregistrement des deux à partir d'une seule prise.</li>
-        <li><strong>Réglages manuels :</strong> ContentCam propose l'exposition, la balance des blancs, l'ISO et l'obturation en manuel. La liste de fonctions de Dualgram cite le zoom optique et numérique, le flash et la stabilisation cinématique.</li>
+        <li><strong>Android :</strong> ContentCam fonctionne sur iPhone et Android. Dualgram n'a pas de version Android.</li>
+        <li><strong>Vertical et horizontal en même temps :</strong> ContentCam enregistre un fichier 9:16 et un fichier 16:9 en une prise. Dualgram filme un seul format par prise ; « Landscape and portrait » dans sa fiche veut seulement dire que vous pouvez tenir le téléphone dans un sens ou dans l'autre.</li>
+        <li><strong>Réglages de la caméra :</strong> les deux apps ont le zoom, le flash et la stabilisation. ContentCam ajoute l'exposition, la balance des blancs, l'ISO et la vitesse d'obturation en manuel, la mise au point au toucher et le verrouillage AE/AF par appui long. Dans mon test, Dualgram n'avait rien de tout cela, et son zoom est un bouton 1x / 0,5x.</li>
         <li><strong>Quand vous choisissez la mise en page :</strong> avec ContentCam, vous choisissez l'image dans l'image ou l'écran partagé après l'enregistrement, dans l'éditeur Combiner. Dualgram fixe la mise en page pendant que vous filmez (« enregistrée exactement comme vous l'avez cadrée », selon ses notes de la version 2.0) et enregistre aussi les deux originaux.</li>
       </ul>
 
@@ -200,41 +224,82 @@
       <p><strong>Android.</strong> Le mode Avant et arrière de ContentCam fonctionne sur les téléphones Android dont le système photo peut faire tourner les caméras avant et arrière en même temps, en HD jusqu'à 30 i/s ; l'app vérifie et ne propose le mode que là où il fonctionne. Dualgram n'a pas de version Android. La marche à suivre est dans <a href="/fr/blog/record-front-and-back-camera-same-time-android/">filmer avec les caméras avant et arrière en même temps sur Android</a>.</p>
       <p><strong>Une prise, deux formats.</strong> Le mode principal de ContentCam enregistre un fichier 9:16 pour TikTok, Reels et Shorts et un fichier 16:9 pour YouTube à partir d'un seul enregistrement, à 24, 25, 30, 50 ou 60 i/s en HD ou en 4K. Dualgram ne décrit pas ce mode.</p>
       <p><strong>La mise en page plus tard.</strong> Avant et arrière de ContentCam enregistre le selfie et la scène en deux fichiers séparés. Combiner vous permet de tester des mises en page en image dans l'image et en écran partagé après le tournage (tester est gratuit ; enregistrer une vidéo combinée est Premium), et les originaux sont conservés.</p>
-      <p><strong>Exposition manuelle.</strong> ContentCam propose l'ISO, la vitesse d'obturation et la balance des blancs en manuel. La liste de fonctions de Dualgram cite le zoom, le flash et la stabilisation, mais aucun réglage manuel de l'exposition. Les deux apps intègrent un téléprompteur.</p>
+      <p><strong>Une vraie caméra, pas seulement deux vues.</strong> ContentCam a le zoom, le flash et la stabilisation de Dualgram, plus l'ISO, la vitesse d'obturation, la balance des blancs et l'exposition en manuel, la mise au point au toucher, le verrouillage AE/AF, une molette de zoom, le timelapse, le HDR et Apple Log. Les deux apps ont un téléprompteur, mais dans mon test celui de Dualgram ne défilait pas tout seul et n'avait aucun réglage ; celui de ContentCam défile tout seul, avec des réglages de vitesse, de taille, de couleur et de ligne de lecture.</p>
 
       <h2>À qui s'adresse Dualgram ?</h2>
-      <p>Dualgram, du studio singapourien Just2us, filme avec les caméras avant et arrière sur iPhone depuis septembre 2019 et compte environ 2 700 notes aux États-Unis, avec une moyenne de 4,7. La fiche de Dualgram décrit un clip fini en image dans l'image ou côte à côte directement à la sortie de la caméra, avec les deux originaux enregistrés en plus : son guide annonce jusqu'à la 4K et 60 i/s par caméra selon le modèle d'iPhone, l'app fonctionne sous iOS 17 ou ultérieur, elle intègre un téléprompteur, et des mises à jour récentes ont ajouté un widget d'enregistrement rapide sur l'écran verrouillé et la prise en charge de l'iPhone Duo.</p>
+      <p>Dualgram, du studio singapourien Just2us, est une app pour iPhone et iPad. Sa fiche décrit un clip fini en incrustation ou côte à côte, directement à la sortie de la caméra, avec les deux originaux : son guide annonce jusqu'à la 4K et 60 fps par caméra selon le modèle d'iPhone, l'app tourne sous iOS 17 ou plus récent, elle a un téléprompteur, et ses dernières mises à jour ont ajouté un widget d'enregistrement rapide sur l'écran verrouillé et la prise en charge de l'iPhone Duo.</p>
 
       <h2>ContentCam ou Dualgram : comment se comparent-ils caractéristique par caractéristique ?</h2>
       <table>
         <thead><tr><th></th><th>ContentCam</th><th>Dualgram</th></tr></thead>
         <tbody>
-          <tr><td>Publicités</td><td>Aucune, en gratuit comme en Premium</td><td>Version gratuite, « Contient des publicités »</td></tr>
-          <tr><td>Filigrane</td><td>Aucun</td><td>Version gratuite, supprimé avec PRO</td></tr>
-          <tr><td>Plateformes</td><td>iPhone (iOS 18 ou ultérieur) et Android</td><td>iPhone et iPad (iOS 17 ou ultérieur)</td></tr>
-          <tr><td>Avant et arrière en même temps</td><td>Oui, tous les iPhone sous iOS 18 et les téléphones Android compatibles</td><td>Oui</td></tr>
-          <tr><td>Portrait et paysage en une seule prise</td><td>Oui, 9:16 et 16:9 en deux fichiers</td><td>L'une ou l'autre orientation (« Paysage et portrait »)</td></tr>
-          <tr><td>Fichiers avant et arrière séparés</td><td>Oui, deux fichiers ; Combiner crée la mise en page ensuite</td><td>Oui, avant, arrière et combiné (« Save all 3 files »)</td></tr>
-          <tr><td>Réglages manuels</td><td>Exposition, balance des blancs, ISO, obturation</td><td>Zoom, flash, stabilisation</td></tr>
-          <tr><td>Dernière mise à jour</td><td>iOS 2.8.3 (novembre 2026) ; Android 28 octobre 2026</td><td>2.4, 3 novembre 2026</td></tr>
+          <tr><td>Publicités</td><td>Aucune, en gratuit comme en Premium</td><td>Version gratuite, « Contient des publicités »</td></tr>
+          <tr><td>Filigrane</td><td>Aucun</td><td>Version gratuite : un grand texte « Shot with Dualgram » au-dessus de l'incrustation (testé) ; retiré avec PRO</td></tr>
+          <tr><td>Plateformes</td><td>iPhone (iOS 18 ou plus récent) et Android</td><td>iPhone et iPad (iOS 17 ou plus récent)</td></tr>
+          <tr><td>Avant et arrière en même temps</td><td>Oui, sur tous les iPhone sous iOS 18 et les téléphones Android compatibles</td><td>Oui</td></tr>
+          <tr><td>Vertical et horizontal en une prise</td><td>Oui, 9:16 et 16:9 en deux fichiers</td><td>Non. Un format par prise : vertical ou horizontal, selon la façon dont vous tenez le téléphone</td></tr>
+          <tr><td>Fichiers avant et arrière séparés</td><td>Oui, deux fichiers ; la mise en page se fait après dans Combiner</td><td>Uniquement avec PRO ; la version gratuite n'enregistre que la vidéo combinée (testé)</td></tr>
+          <tr><td>4K avec les deux caméras</td><td>Oui, sur les iPhone compatibles (depuis iOS 2.9)</td><td>Non : 4K 60 fps « non prise en charge » sur les deux caméras ; 4K 30 fps sur les deux affiche un avertissement (testé)</td></tr>
+          <tr><td>60 fps avec les deux caméras</td><td>Jusqu'à 60 fps sur les iPhone compatibles (Premium)</td><td>La caméra avant passe en 720p en 1080p 60 fps (testé)</td></tr>
+          <tr><td>Cadences</td><td>24, 25, 30, 50 ou 60 fps</td><td>24, 30 ou 60 fps</td></tr>
+          <tr><td>Stabilisation cinématique</td><td>Aperçu en direct sur la vue principale et l'incrustation</td><td>L'aperçu a environ 2 secondes de retard ; l'app prévient qu'il « sera fortement retardé » (testé)</td></tr>
+          <tr><td>Fenêtre d'incrustation</td><td>Déplaçable et redimensionnable</td><td>Fixe en version gratuite ; non redimensionnable (testé)</td></tr>
+          <tr><td>Téléprompteur</td><td>Défile tout seul ; vitesse, taille du texte, 8 couleurs, ligne de lecture, mode miroir</td><td>PRO ; ne défile pas tout seul, aucun réglage (testé)</td></tr>
+          <tr><td>App fermée pendant une prise</td><td>L'enregistrement est récupéré au lancement suivant</td><td>Prise perdue (testé)</td></tr>
+          <tr><td>Projets et prises</td><td>Projets, scènes et prises, avec noms de fichiers automatiques</td><td>Aucun ; les fichiers vont dans Photos sous des numéros DGC_</td></tr>
+          <tr><td>Réglages manuels</td><td>Exposition, balance des blancs, ISO, obturation ; mise au point au toucher, verrouillage AE/AF</td><td>Aucun trouvé : pas de mise au point au toucher, pas de verrouillage AE/AF, zoom par bouton 1x / 0,5x (testé)</td></tr>
+          <tr><td>Dernière mise à jour</td><td>iOS 2.9 (12 novembre 2026) ; Android 2.7.1 (novembre 2026)</td><td>2.5, 10 novembre 2026</td></tr>
         </tbody>
       </table>
       <p>Les deux apps filment avec les caméras avant et arrière sur iPhone 15 et iPhone 16, qui n'ont pas la Double capture d'Apple ; voir <a href="/fr/blog/record-front-and-back-camera-iphone-15-16/">avant et arrière sur iPhone 15 et 16</a>. D'autres apps sont comparées dans <a href="/fr/blog/best-front-and-back-dual-camera-apps/">les meilleures apps caméra avant et arrière</a>.</p>
 
+      <h2>Qu'ai-je constaté en testant Dualgram 2.5 ?</h2>
+      <p>J'ai installé Dualgram 2.5 (build 1224) depuis l'App Store le 12 novembre 2026 et j'ai essayé tous ses réglages, en version gratuite et jusqu'aux écrans PRO. Voici ce que j'ai trouvé.</p>
+      <ul>
+        <li><strong>4K avec les deux caméras : non.</strong> La 4K à 60 fps affiche « Oops... the selected resolution/FPS is not supported. » sur la caméra arrière et sur l'avant. La 4K à 30 fps sur les deux affiche « Your device may not support this resolution and frame rate. »</li>
+        <li><strong>60 fps avec les deux caméras : la caméra avant passe en 720p.</strong> En 1080p 60 fps sur les deux, le menu prévient que l'appareil risque de ne pas suivre, et une fois les caméras lancées l'app affiche « Device overloaded! Reducing front camera resolution to 720. » La vidéo enregistrée faisait 1080 x 1920, en HEVC, à 58,91 fps.</li>
+        <li><strong>La stabilisation cinématique retarde l'aperçu.</strong> L'app prévient « Video preview will lag significantly », et l'image à l'écran avait environ 2 secondes de retard. Le guide de Dualgram précise que le retard ne touche que l'aperçu, pas le fichier, mais il rend difficile le cadrage d'un plan en mouvement. ContentCam utilise la stabilisation cinématique avec un aperçu en direct sur la vue principale et sur l'incrustation.</li>
+        <li><strong>Enregistrer les deux fichiers de caméra séparément, c'est PRO.</strong> La version gratuite n'enregistre que la vidéo combinée. « Unlock PRO to save the rear camera video separately », et pareil pour l'avant.</li>
+        <li><strong>La version gratuite a des publicités et un filigrane.</strong> Le filigrane est un grand texte « Shot with Dualgram » juste au-dessus de la fenêtre d'incrustation, là où se trouve votre visage.</li>
+        <li><strong>Les mises en page et le déplacement de la fenêtre sont PRO.</strong> Choisir une autre mise en page affiche « Unlock PRO to use this camera layout. » La fenêtre d'incrustation ne se redimensionne pas : pincer ne fait rien et il n'y a pas de bouton de taille.</li>
+        <li><strong>Le téléprompteur ne défile pas.</strong> C'est une fonction PRO, le texte reste immobile, sans réglage de vitesse, de taille ou de couleur, et vous le faites défiler au doigt pendant que vous parlez.</li>
+        <li><strong>Pas de réglage de mise au point ni d'exposition.</strong> Toucher l'aperçu ne fait pas la mise au point, il n'y a pas de verrouillage AE/AF, et le zoom est un bouton 1x / 0,5x. Les cadences sont 24, 30 ou 60 fps, sans 25 ni 50.</li>
+        <li><strong>Une prise avec l'app fermée de force a été perdue.</strong> Quand j'ai fermé l'app pendant l'enregistrement, la vidéo n'a pas été enregistrée, et verrouiller le téléphone en pleine prise a figé l'app. ContentCam continue de filmer avec le verrouillage automatique et récupère une prise fermée de force au lancement suivant.</li>
+        <li><strong>Pas de projets ni de prises.</strong> Les vidéos partent directement dans Photos en fichiers DGC_, sans moyen de les trier par tournage.</li>
+      </ul>
+      <p>Les avis à peu d'étoiles de Dualgram sur l'App Store décrivent les mêmes points faibles. Une personne a perdu un enregistrement de 46 minutes quand une notification est apparue et que l'app s'est figée ; d'autres parlent de vidéo saccadée qui saute des images, de son désynchronisé, et de découvrir après le téléchargement que les fichiers avant et arrière séparés sont payants.</p>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-4k-60fps-not-supported.webp" alt="Réglages de Dualgram en 4K 60 fps sur les caméras arrière et avant, avec sur chacune le message indiquant que la résolution et la cadence ne sont pas prises en charge" width="1000" height="889" loading="lazy" decoding="async">
+        <figcaption>Dualgram 2.5 avec les deux caméras en 4K 60 fps : « not supported » sur chacune.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-device-overloaded-front-720.webp" alt="Bandeau de Dualgram : appareil surchargé, résolution de la caméra avant réduite à 720" width="1000" height="137" loading="lazy" decoding="async">
+        <figcaption>Les deux caméras en 1080p 60 fps : Dualgram passe la caméra avant en 720p.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-cinematic-preview-lag-4k30-warning.webp" alt="Réglages de Dualgram avec l'avertissement de retard de l'aperçu en stabilisation cinématique et la 4K 30 fps sur les deux caméras avec avertissement" width="1000" height="945" loading="lazy" decoding="async">
+        <figcaption>La stabilisation cinématique retarde l'aperçu ; la 4K 30 fps sur les deux caméras déclenche un avertissement.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-pro-features.webp" alt="Écran PRO de Dualgram : enregistrer les vidéos avant et arrière, toutes les mises en page, toutes les options de micro, téléprompteur, retirer le filigrane et retirer les publicités" width="1000" height="676" loading="lazy" decoding="async">
+        <figcaption>Ce que débloque Dualgram PRO : fichiers de caméra séparés, mises en page, options de micro, téléprompteur, sans filigrane ni publicité.</figcaption>
+      </figure>
+      <p>À qui convient Dualgram : à qui veut un clip en incrustation, cadré pendant le tournage et publié tel quel. Pour la 4K ou les 60 fps avec les deux caméras, un téléprompteur qui défile ou une mise en page modifiable après le tournage, il ne suffit pas.</p>
+
       <h2>Dualgram filme-t-il en 4K avec les deux caméras ?</h2>
-      <p>Dualgram ne précise pas quels iPhone atteignent la 4K avec les deux caméras en marche. Sa fiche App Store indique « Prise en charge jusqu'à la 4K, 60 fps », et son guide d'utilisation précise que les caméras avant et arrière peuvent chacune être réglées « jusqu'à une résolution 4K et 60 FPS », en ajoutant : « Selon le modèle d'iPhone, certaines configurations ne sont pas prises en charge, il faut donc essayer pour savoir. » (vérifié le 11 novembre 2026). Apple ne laisse les apps tierces filmer avec deux caméras que dans les formats qu'elle déclare compatibles multicaméra. Sur un iPhone 18 Pro, cette liste comprend le 3840 x 2160 à 30 fps mais aucun format 4K à 60 fps : la 4K à 60 fps ne peut donc pas venir de deux caméras qui filment en même temps. Le mode Avant et arrière de ContentCam filme en 4K sur les iPhone compatibles (depuis iOS 2.9), en deux fichiers séparés. Pour savoir ce qu'une app enregistre vraiment, lisez la taille en pixels d'un fichier de test à deux caméras et de ses originaux, puis comparez les détails : la marche à suivre est dans <a href="/fr/blog/iphone-4k-front-and-back-camera-same-time/">un iPhone peut-il filmer en 4K avec la caméra avant et arrière en même temps</a>.</p>
+      <p>Pas dans mon test. Le 12 novembre 2026, Dualgram 2.5 affichait « the selected resolution/FPS is not supported » pour la 4K à 60 fps sur les deux caméras et « Your device may not support this resolution and frame rate » pour la 4K à 30 fps sur les deux. Dualgram ne précise pas quels iPhone atteignent la 4K avec les deux caméras en marche. Sa fiche App Store indique « Prise en charge jusqu'à la 4K, 60 fps », et son guide d'utilisation précise que les caméras avant et arrière peuvent chacune être réglées « jusqu'à une résolution 4K et 60 FPS », en ajoutant : « Selon le modèle d'iPhone, certaines configurations ne sont pas prises en charge, il faut donc essayer pour savoir. » (vérifié le 11 novembre 2026). Apple ne laisse les apps tierces filmer avec deux caméras que dans les formats qu'elle déclare compatibles multicaméra. Sur un iPhone 18 Pro, cette liste comprend le 3840 x 2160 à 30 fps mais aucun format 4K à 60 fps : la 4K à 60 fps ne peut donc pas venir de deux caméras qui filment en même temps. Le mode Avant et arrière de ContentCam filme en 4K sur les iPhone compatibles (depuis iOS 2.9), en deux fichiers séparés. Pour savoir ce qu'une app enregistre vraiment, lisez la taille en pixels d'un fichier de test à deux caméras et de ses originaux, puis comparez les détails : la marche à suivre est dans <a href="/fr/blog/iphone-4k-front-and-back-camera-same-time/">un iPhone peut-il filmer en 4K avec la caméra avant et arrière en même temps</a>.</p>
 
       <h2>FAQ</h2>
       <h3>Dualgram a-t-il des publicités ou un filigrane ?</h3>
       <p>Oui, dans la version gratuite. La FAQ de Dualgram indique que l'app gratuite comprend des publicités, des filigranes et certaines fonctions verrouillées, et que l'achat de PRO les supprime ; la fiche App Store affiche « Contient des publicités » (vérifié le 6 novembre 2026). ContentCam n'a ni publicité ni filigrane, en version gratuite comme en Premium.</p>
       <h3>Dualgram existe-t-il sur Android ?</h3>
-      <p>Non. Dualgram est sur l'App Store pour iPhone et iPad, et la page développeur de Just2us sur Google Play liste deux autres apps et aucun Dualgram (vérifié le 6 novembre 2026). ContentCam est disponible sur iPhone et Android.</p>
+      <p>Non. Dualgram n'est que sur l'App Store pour iPhone et iPad, sans version Android (vérifié le 6 novembre 2026). ContentCam fonctionne sur iPhone et Android.</p>
       <h3>Combien coûte Dualgram PRO ?</h3>
       <p>Sur l'App Store américain, Dualgram vend PRO en achat valable un an ou en déblocage unique, et vend une app payante distincte, Dualgram Pro, avec PRO inclus (vérifié le 6 novembre 2026). ContentCam Premium existe en abonnement annuel, mensuel ou en achat unique à vie, au prix affiché dans votre store.</p>
       <h3>Dualgram enregistre-t-il les caméras avant et arrière dans des fichiers séparés ?</h3>
-      <p>Oui. La fiche de Dualgram indique qu'il peut « enregistrer les 3 fichiers, dont les 2 originaux filmés par les caméras avant et arrière ». Le mode Avant et arrière de ContentCam enregistre lui aussi les caméras avant et arrière en deux fichiers séparés, et son éditeur Combiner en fait ensuite une vidéo en image dans l'image ou en écran partagé, en conservant les originaux.</p>
+      <p>Avec PRO. La fiche de Dualgram dit qu'il peut « Save all 3 files, including the 2 originals captured from the front &amp; back camera », et dans mon test de la version 2.5 la version gratuite n'a enregistré que la vidéo combinée. Le mode Avant et arrière de ContentCam enregistre la caméra avant et la caméra arrière en deux fichiers séparés, et son éditeur Combiner en fait ensuite une vidéo en incrustation ou en écran partagé, en gardant les originaux.</p>
       <h3>Dualgram peut-il filmer en vertical et en horizontal en même temps ?</h3>
-      <p>La fiche de Dualgram propose « Paysage et portrait » mais ne décrit pas l'enregistrement des deux à partir d'une seule prise. ContentCam enregistre en même temps un fichier vertical 9:16 et un fichier horizontal 16:9 avec un seul objectif, en HD ou en 4K.</p>
+      <p>Non. Dans mon test, Dualgram filme un format par prise, vertical ou horizontal selon la façon dont vous tenez le téléphone. ContentCam enregistre en même temps un fichier vertical 9:16 et un fichier horizontal 16:9 avec un seul objectif, en HD ou en 4K.</p>
 
       <div class="post-cta">
         <p><strong>Essayez ContentCam gratuitement.</strong> L'avant et l'arrière en deux fichiers séparés, le vertical et l'horizontal en une seule prise, sans publicité ni filigrane. Téléchargement gratuit sur iPhone et Android.</p>
@@ -246,7 +311,7 @@
       </div>
 
       <p>À lire aussi : <a href="/fr/blog/dual-camera-app-one-time-purchase/">les apps double caméra en achat unique</a> · <a href="/fr/blog/dual-camera-app-without-ads/">les apps double caméra sans publicité</a> · <a href="/fr/blog/best-front-and-back-dual-camera-apps/">les meilleures apps caméra avant et arrière</a></p>
-      <p class="byline">Sources : fiche App Store américaine de Dualgram (id1474345188, version 2.4, description, historique des versions, achats intégrés, classification par âge) ; fiche App Store américaine de Dualgram Pro (id1481349660) ; FAQ et guide d'utilisation de dualgram.com ; recherche « Dualgram » sur Google Play et page développeur de Just2us ; pages tarifs et assistance de contentcam.app. Vérifié le 6 novembre 2026.</p>
+      <p class="byline">Sources : test pratique de Dualgram 2.5 (build 1224) le 12 novembre 2026 ; fiche App Store américaine de Dualgram (id1474345188, version 2.4, description, historique des versions, achats intégrés, classification par âge) ; fiche App Store américaine de Dualgram Pro (id1481349660) ; FAQ et guide d'utilisation de dualgram.com ; recherche « Dualgram » sur Google Play et page développeur de Just2us ; pages tarifs et assistance de contentcam.app. Vérifié le 6 novembre 2026.</p>
     </article>
   </main>
 

@@ -32,7 +32,22 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {"@type": "Organization", "@id": "https://contentcam.app/#org", "name": "ContentCam", "url": "https://contentcam.app/", "logo": "https://contentcam.app/assets/icon-512.png", "email": "contentcam.app@gmail.com", "sameAs": ["https://www.instagram.com/contentcam.app", "https://www.tiktok.com/@contentcam.app", "https://www.youtube.com/@ContentCam-app", "https://discord.gg/YxUpbUgthH", "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795", "https://play.google.com/store/apps/details?id=app.contentcam.android"]},
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
     {
       "@type": "WebPage",
       "@id": "https://contentcam.app/tr/vs/dualgram/",
@@ -88,10 +103,18 @@
         },
         {
           "@type": "Question",
+          "name": "Dualgram iki kamerayla 4K kaydeder mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır; Dualgram 2.5'in 12 Kasım 2026'daki uygulamalı testinde. 60 fps'de 4K iki kamerada da \"the selected resolution/FPS is not supported\" gösteriyor, iki kamerada 30 fps'de 4K uyarı veriyor ve 1080p 60 fps'de uygulama ön kamerayı 720p'ye düşürüyor. ContentCam'in Ön ve arka modu desteklenen iPhone'larda (iOS 2.9'dan itibaren) iki kamerayı da 4K'da, iki ayrı dosya olarak kaydeder."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Dualgram Android'de var mı?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hayır. Dualgram, iPhone ve iPad için App Store'da var; Google Play'deki Just2us geliştirici sayfasında ise iki başka uygulama listeleniyor, Dualgram yok (6 Kasım 2026'da kontrol edildi). ContentCam iPhone'da ve Android'de var."
+            "text": "Hayır. Dualgram yalnızca iPhone ve iPad için App Store'da var, Android sürümü yok (6 Kasım 2026'da kontrol edildi). ContentCam iPhone ve Android'de çalışır."
           }
         },
         {
@@ -107,7 +130,7 @@
           "name": "Dualgram ön ve arka kamerayı ayrı dosyalar olarak kaydediyor mu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Evet. Dualgram'ın sayfasında \"Ön ve arka kameradan çekilen 2 orijinal dahil 3 dosyanın hepsini kaydedin\" yazıyor. ContentCam'in Ön ve arka (Front/Back) modu da ön ve arka kamerayı iki ayrı dosya olarak kaydeder; Birleştirme (Combine) düzenleyicisi de bunları sonradan resim içinde resim ya da bölünmüş ekran bir videoya dönüştürür, orijinaller korunur."
+            "text": "PRO ile. Dualgram'ın sayfası \"Save all 3 files, including the 2 originals captured from the front & back camera\" diyor; benim 2.5 sürümü testimde ücretsiz sürüm yalnızca birleşik videoyu kaydetti. ContentCam'in Ön ve arka modu ön ve arka kamerayı iki ayrı dosya olarak kaydeder, Combine düzenleyicisi de bunları sonradan resim içinde resim ya da bölünmüş ekran videosuna çevirir, orijinaller kalır."
           }
         },
         {
@@ -115,7 +138,7 @@
           "name": "Dualgram dikey ve yatay videoyu aynı anda kaydedebiliyor mu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Dualgram'ın sayfası \"Yatay ve dikey\" seçeneği sunuyor, ama ikisini tek çekimden kaydetmeyi anlatmıyor. ContentCam tek objektiften 9:16 dikey ve 16:9 yatay dosyayı aynı anda, HD ya da 4K olarak kaydeder."
+            "text": "Hayır. Benim testimde Dualgram her çekimde tek biçim kaydediyor; telefonu nasıl tuttuğuna göre dikey ya da yatay. ContentCam tek bir lensle aynı anda dikey 9:16 ve yatay 16:9 dosya kaydeder, HD ya da 4K."
           }
         }
       ]
@@ -182,17 +205,18 @@
     <div class="crumbs"><a href="/tr/">Ana sayfa</a> › <a href="/tr/vs/">Karşılaştır</a> › Dualgram</div>
     <article class="post">
       <h1>ContentCam vs Dualgram (2026)</h1>
-      <p class="byline">6 Kasım 2026'da kontrol edildi</p>
+      <p class="byline">12 Kasım 2026'da test edildi · Mağaza sayfası 6 Kasım 2026'da kontrol edildi</p>
 
-      <p>Hiçbir planda reklam ya da filigran olmayan, iPhone'un yanında Android'de de çalışan, aynı çekimden bir dikey ve bir yatay video kaydeden ve size manuel ISO, enstantane ve beyaz dengesi veren bir ön ve arka kamera uygulaması istiyorsanız, Dualgram yerine ContentCam'i seçin. Dualgram, ücretsiz sürümü siz PRO alana kadar reklam ve filigran gösteren bir iPhone ve iPad uygulaması.</p>
+      <p>Açıklama: Ben Jimmy, ContentCam'i ben geliştiriyorum ve Dualgram 2.5'i 12 Kasım 2026'da kendim test ettim.</p>
+      <p><strong>Test edildi:</strong> Dualgram 2.5 iki kamerayla 4K kaydetmiyor (60 fps'de 4K iki kamerada da "desteklenmiyor"), ikisi de 60 fps'de çalışınca ön kamerayı 720p'ye düşürüyor ve ön ve arka kamerayı ayrı dosya olarak kaydetmek için PRO istiyor. ContentCam desteklenen iPhone'larda iki kamerayı da 4K'da ve 60 fps'ye kadar, iki ayrı dosya olarak kaydeder; reklam ve filigran yok. Tüm sonuçlar ve ekran görüntüleri aşağıda.</p>
       <p>Açıklama: Ben Jimmy, ContentCam'i geliştiriyorum. Aşağıdaki tüm Dualgram bilgileri Dualgram'ın ABD App Store sayfasından (3 Kasım 2026'da yayımlanan 2.4 sürümü), dualgram.com'dan ve Google Play'den alındı, 6 Kasım 2026'da kontrol edildi.</p>
 
       <h2>ContentCam ile Dualgram arasındaki temel farklar neler?</h2>
       <ul>
         <li><strong>Reklam ve filigran:</strong> ContentCam'de ücretsiz ya da Premium, ikisi de yok. Dualgram'ın SSS sayfasına göre ücretsiz uygulama "reklamlar, filigranlar ve daha fazla düzen gibi bazı kilitli özellikler içeriyor".</li>
-        <li><strong>Android:</strong> ContentCam iPhone'da ve Android'de çalışır. Dualgram yalnızca App Store'da; Google Play'deki Just2us geliştirici sayfasında Dualgram değil, SG 4D+ ve SG Schooling listeleniyor.</li>
-        <li><strong>Aynı anda dikey ve yatay:</strong> ContentCam tek çekimden bir 9:16 ve bir 16:9 dosya kaydeder. Dualgram "Yatay ve dikey" seçeneğini listeliyor, ama ikisini tek çekimden kaydetmeyi anlatmıyor.</li>
-        <li><strong>Manuel kontroller:</strong> ContentCam'de manuel pozlama, beyaz dengesi, ISO ve enstantane var. Dualgram'ın özellik listesinde optik ve dijital yakınlaştırma, flaş ve sinematik sabitleme yer alıyor.</li>
+        <li><strong>Android:</strong> ContentCam iPhone ve Android'de çalışır. Dualgram'ın Android sürümü yok.</li>
+        <li><strong>Dikey ve yatay aynı anda:</strong> ContentCam tek çekimden bir 9:16 ve bir 16:9 dosya kaydeder. Dualgram her çekimde tek bir biçim kaydeder; sayfasındaki "Landscape and portrait" sadece telefonu istediğin yönde tutabileceğin anlamına geliyor.</li>
+        <li><strong>Kamera kontrolleri:</strong> iki uygulamada da yakınlaştırma, flaş ve sabitleme var. ContentCam bunlara manuel pozlama, beyaz dengesi, ISO ve enstantane, dokunarak odaklama ve basılı tutarak AE/AF kilidi ekler. Benim testimde Dualgram'da bunların hiçbiri yoktu ve yakınlaştırması bir 1x / 0,5x düğmesi.</li>
         <li><strong>Düzeni ne zaman seçtiğiniz:</strong> ContentCam'de resim içinde resim ya da bölünmüş ekranı kayıttan sonra, Birleştirme (Combine) düzenleyicisinde seçersiniz. Dualgram'da düzen çekim sırasında belirleniyor (2.0 sürüm notlarına göre "tam kadrajladığınız gibi kaydediliyor"), iki orijinal de kaydediliyor.</li>
       </ul>
 
@@ -201,41 +225,82 @@
       <p><strong>Android.</strong> ContentCam'in Ön ve arka modu, kamera sistemi ön ve arka kamerayı aynı anda çalıştırabilen Android telefonlarda, HD olarak 30 fps'ye kadar çalışır; uygulama bunu kontrol eder ve modu yalnızca çalıştığı telefonlarda sunar. Dualgram'ın Android sürümü yok. Adımlar şu yazıda: <a href="/tr/blog/record-front-and-back-camera-same-time-android/">Android'de ön ve arka kamerayla aynı anda kayıt</a>.</p>
       <p><strong>Tek çekim, iki format.</strong> ContentCam'in ana modu tek kayıttan TikTok, Reels ve Shorts için 9:16 bir dosya ve YouTube için 16:9 bir dosya kaydeder; HD ya da 4K, 24, 25, 30, 50 veya 60 fps'de. Dualgram böyle bir mod anlatmıyor.</p>
       <p><strong>Düzene sonra karar verirsiniz.</strong> ContentCam'in Ön ve arka modu selfie'yi ve sahneyi iki ayrı dosya olarak kaydeder. Birleştirme (Combine) ile çekimden sonra resim içinde resim ve bölünmüş ekran düzenlerini deneyebilirsiniz (denemek ücretsiz; Birleştirme videosunu kaydetmek Premium), orijinaller de yerinde kalır.</p>
-      <p><strong>Manuel pozlama.</strong> ContentCam'de manuel ISO, enstantane hızı ve beyaz dengesi var. Dualgram'ın özellik listesinde yakınlaştırma, flaş ve sabitleme var, ama manuel pozlama ayarı yok. İki uygulamada da teleprompter var.</p>
+      <p><strong>Sadece iki görüntü değil, tam bir kamera.</strong> ContentCam'de Dualgram'daki yakınlaştırma, flaş ve sabitleme var; bunlara ek olarak manuel ISO, enstantane, beyaz dengesi ve pozlama, dokunarak odaklama, AE/AF kilidi, yakınlaştırma çarkı, hızlandırılmış çekim, HDR ve Apple Log da var. İki uygulamada da teleprompter var ama benim testimde Dualgram'ınki kendiliğinden kaymıyordu ve hiç ayarı yoktu; ContentCam'inki kendiliğinden kayar ve hız, boyut, renk ve okuma çizgisi ayarları vardır.</p>
 
       <h2>Dualgram ne için yapılmış?</h2>
-      <p>Singapurlu stüdyo Just2us'ın geliştirdiği Dualgram, Eylül 2019'dan beri iPhone'da ön ve arka kamerayla kayıt yapıyor ve ABD'de ortalaması 4.7 olan yaklaşık 2.700 değerlendirmeye sahip. Dualgram'ın sayfası, doğrudan kameradan çıkan bitmiş bir resim içinde resim ya da yan yana klibi anlatıyor, iki orijinal de kaydediliyor: kılavuzu iPhone modeline bağlı olarak kamera başına 4K ve 60 fps'ye kadar destek listeliyor, uygulama iOS 17 veya üzerinde çalışıyor, yerleşik bir teleprompter listeliyor ve son güncellemeler Kilit Ekranı için bir Hızlı Kayıt widget'ı ile iPhone Duo desteği ekledi.</p>
+      <p>Dualgram, Singapurlu Just2us stüdyosunun iPhone ve iPad uygulaması. Sayfası doğrudan kameradan çıkan, iki orijinal dosyası da kaydedilen hazır bir resim içinde resim ya da yan yana klip anlatıyor: kılavuzu iPhone modeline göre kamera başına 4K ve 60 fps'ye kadar diyor, iOS 17 ve sonrasında çalışıyor, teleprompteri var ve son güncellemeler kilit ekranına hızlı kayıt widget'ı ve iPhone Duo desteği ekledi.</p>
 
       <h2>ContentCam ile Dualgram özellik özellik nasıl karşılaştırılıyor?</h2>
       <table>
         <thead><tr><th></th><th>ContentCam</th><th>Dualgram</th></tr></thead>
         <tbody>
-          <tr><td>Reklam</td><td>Yok, ücretsiz ya da Premium</td><td>Ücretsiz sürüm, "Reklam İçerir"</td></tr>
-          <tr><td>Filigran</td><td>Yok</td><td>Ücretsiz sürümde var, PRO ile kalkıyor</td></tr>
-          <tr><td>Platformlar</td><td>iPhone (iOS 18 veya üzeri) ve Android</td><td>iPhone ve iPad (iOS 17 veya üzeri)</td></tr>
-          <tr><td>Aynı anda ön ve arka kamera</td><td>Evet, iOS 18 yüklü her iPhone'da ve uygun Android telefonlarda</td><td>Evet</td></tr>
-          <tr><td>Tek çekimden dikey ve yatay</td><td>Evet, iki dosya olarak 9:16 ve 16:9</td><td>İki yönden biri ("Yatay ve dikey")</td></tr>
-          <tr><td>Ayrı ön ve arka dosyaları</td><td>Evet, iki dosya; Birleştirme (Combine) düzeni sonradan oluşturur</td><td>Evet; ön, arka ve birleşik ("3 dosyanın hepsini kaydedin")</td></tr>
-          <tr><td>Manuel kontroller</td><td>Pozlama, beyaz dengesi, ISO, enstantane</td><td>Yakınlaştırma, flaş, sabitleme listeleniyor</td></tr>
-          <tr><td>Son güncelleme</td><td>iOS 2.8.3 (Kasım 2026); Android 28 Ekim 2026</td><td>2.4, 3 Kasım 2026</td></tr>
+          <tr><td>Reklam</td><td>Yok, ücretsiz ya da Premium</td><td>Ücretsiz sürüm, "Reklam içerir"</td></tr>
+          <tr><td>Filigran</td><td>Yok</td><td>Ücretsiz sürüm: resim içinde resim penceresinin üstünde büyük bir "Shot with Dualgram" yazısı (test edildi); PRO ile kalkar</td></tr>
+          <tr><td>Platformlar</td><td>iPhone (iOS 18 ve sonrası) ve Android</td><td>iPhone ve iPad (iOS 17 ve sonrası)</td></tr>
+          <tr><td>Ön ve arka aynı anda</td><td>Evet, iOS 18'li her iPhone'da ve destekleyen Android telefonlarda</td><td>Evet</td></tr>
+          <tr><td>Tek çekimden dikey ve yatay</td><td>Evet, iki dosya olarak 9:16 ve 16:9</td><td>Hayır. Çekim başına tek biçim: telefonu nasıl tuttuğuna göre dikey ya da yatay</td></tr>
+          <tr><td>Ön ve arka için ayrı dosyalar</td><td>Evet, iki dosya; düzen sonradan Combine'da yapılır</td><td>Sadece PRO ile; ücretsiz sürüm yalnızca birleşik videoyu kaydeder (test edildi)</td></tr>
+          <tr><td>İki kamerayla 4K</td><td>Evet, desteklenen iPhone'larda (iOS 2.9'dan itibaren)</td><td>Hayır: 4K 60 fps iki kamerada da "desteklenmiyor"; iki kamerada 4K 30 fps uyarı veriyor (test edildi)</td></tr>
+          <tr><td>İki kamerayla 60 fps</td><td>Destekleyen iPhone'larda 60 fps'ye kadar (Premium)</td><td>1080p 60 fps'de ön kamera 720p'ye düşüyor (test edildi)</td></tr>
+          <tr><td>Kare hızları</td><td>24, 25, 30, 50 veya 60 fps</td><td>24, 30 veya 60 fps</td></tr>
+          <tr><td>Sinematik sabitleme</td><td>Ana görüntüde ve resim içinde resimde canlı önizleme</td><td>Önizleme yaklaşık 2 saniye geride kalıyor; uygulama "ciddi gecikeceği" uyarısı veriyor (test edildi)</td></tr>
+          <tr><td>Resim içinde resim penceresi</td><td>Taşınabilir ve boyutu değiştirilebilir</td><td>Ücretsiz sürümde sabit; boyutu değiştirilemiyor (test edildi)</td></tr>
+          <tr><td>Teleprompter</td><td>Kendiliğinden kayar; hız, yazı boyutu, 8 renk, okuma çizgisi, ayna modu</td><td>PRO; kendiliğinden kaymıyor, ayar yok (test edildi)</td></tr>
+          <tr><td>Çekim sırasında kapatılan uygulama</td><td>Kayıt bir sonraki açılışta kurtarılır</td><td>Çekim kayboldu (test edildi)</td></tr>
+          <tr><td>Projeler ve çekimler</td><td>Projeler, sahneler ve çekimler, otomatik dosya adlarıyla</td><td>Yok; dosyalar Fotoğraflar'a DGC_ numaralarıyla gider</td></tr>
+          <tr><td>Manuel kontroller</td><td>Pozlama, beyaz dengesi, ISO, enstantane; dokunarak odaklama, AE/AF kilidi</td><td>Bulunamadı: dokunarak odaklama yok, AE/AF kilidi yok, yakınlaştırma 1x / 0,5x düğmesi (test edildi)</td></tr>
+          <tr><td>Son güncelleme</td><td>iOS 2.9 (12 Kasım 2026); Android 2.7.1 (Kasım 2026)</td><td>2.5, 10 Kasım 2026</td></tr>
         </tbody>
       </table>
       <p>İki uygulama da Apple'ın Dual Capture özelliği olmayan iPhone 15 ve iPhone 16'da ön ve arka kamerayla kayıt yapıyor; bkz. <a href="/blog/record-front-and-back-camera-iphone-15-16/">iPhone 15 ve 16'da ön ve arka kamera</a>. Daha fazla uygulamanın karşılaştırması şu yazıda: <a href="/tr/blog/best-front-and-back-dual-camera-apps/">en iyi ön ve arka kamera uygulamaları</a>.</p>
 
+      <h2>Dualgram 2.5'i test ettiğimde ne oldu?</h2>
+      <p>12 Kasım 2026'da Dualgram 2.5'i (build 1224) App Store'dan kurdum ve ücretsiz sürümde, PRO uyarılarına kadar her ayarı denedim. Bulduklarım bunlar.</p>
+      <ul>
+        <li><strong>İki kamerayla 4K: hayır.</strong> 60 fps'de 4K, arka ve ön kamerada "Oops... the selected resolution/FPS is not supported." gösteriyor. İki kamerada 30 fps'de 4K ise "Your device may not support this resolution and frame rate." gösteriyor.</li>
+        <li><strong>İki kamerayla 60 fps: ön kamera 720p'ye düşüyor.</strong> İkisinde de 1080p 60 fps'de menü cihazın bunu desteklemeyebileceği uyarısını veriyor, kameralar çalışınca da uygulama "Device overloaded! Reducing front camera resolution to 720." gösteriyor. Kaydedilen video 1080 x 1920, HEVC, 58,91 fps'ydi.</li>
+        <li><strong>Sinematik sabitleme önizlemeyi geciktiriyor.</strong> Uygulama "Video preview will lag significantly" uyarısı veriyor ve ekrandaki görüntü yaklaşık 2 saniye geriden geliyordu. Dualgram'ın kılavuzu gecikmenin dosyada değil sadece önizlemede olduğunu söylüyor, ama bu hareketli bir çekimi kadrajlamayı zorlaştırıyor. ContentCam sinematik sabitlemeyi ana görüntüde ve resim içinde resimde canlı önizlemeyle kullanır.</li>
+        <li><strong>İki kamera dosyasını ayrı kaydetmek PRO.</strong> Ücretsiz sürüm yalnızca birleşik videoyu kaydediyor. "Unlock PRO to save the rear camera video separately", ön kamera için de aynısı.</li>
+        <li><strong>Ücretsiz sürümde reklam ve filigran var.</strong> Filigran, resim içinde resim penceresinin hemen üstünde, yani yüzünün olduğu yerde büyük bir "Shot with Dualgram" yazısı.</li>
+        <li><strong>Düzenler ve pencereyi taşımak PRO.</strong> Başka bir düzen seçmek "Unlock PRO to use this camera layout." gösteriyor. Resim içinde resim penceresi yeniden boyutlandırılamıyor: iki parmakla sıkıştırmak bir şey yapmıyor ve boyut düğmesi yok.</li>
+        <li><strong>Teleprompter kaymıyor.</strong> PRO özelliği; metin hız, boyut ya da renk ayarı olmadan duruyor ve konuşurken parmağınla kaydırman gerekiyor.</li>
+        <li><strong>Odak veya pozlama kontrolü yok.</strong> Önizlemeye dokunmak odaklamıyor, AE/AF kilidi yok ve yakınlaştırma bir 1x / 0,5x düğmesi. Kare hızları 24, 30 veya 60 fps; 25 ve 50 yok.</li>
+        <li><strong>Zorla kapatılan bir çekim kayboldu.</strong> Kayıt sırasında uygulamayı kapattığımda video kaydedilmedi, çekim ortasında telefonu kilitlemek de uygulamayı dondurdu. ContentCam otomatik kilitlenmede kayda devam eder ve zorla kapatılan bir çekimi bir sonraki açılışta kurtarır.</li>
+        <li><strong>Proje veya çekim düzeni yok.</strong> Videolar doğrudan Fotoğraflar'a DGC_ dosyaları olarak gidiyor, çekime göre sıralamanın bir yolu yok.</li>
+      </ul>
+      <p>Dualgram'ın App Store'daki düşük yıldızlı yorumları aynı zayıf noktaları anlatıyor. Bir kullanıcı, bir bildirim çıkıp uygulama donunca 46 dakikalık bir kaydını kaybetmiş; diğerleri takılan ya da kare atlayan videodan, senkronu kayan sesten ve ön ve arka için ayrı dosyaların ekstra ücretli olduğunu ancak indirdikten sonra öğrendiklerinden bahsediyor.</p>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-4k-60fps-not-supported.webp" alt="Dualgram ayarlarında arka ve ön kamerada 60 fps'de 4K, ikisinde de çözünürlük ve kare hızının desteklenmediği mesajı" width="1000" height="889" loading="lazy" decoding="async">
+        <figcaption>Dualgram 2.5'te iki kamera da 4K 60 fps'de: her birinde "not supported".</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-device-overloaded-front-720.webp" alt="Dualgram uyarısı: cihaz aşırı yüklendi, ön kamera çözünürlüğü 720'ye düşürülüyor" width="1000" height="137" loading="lazy" decoding="async">
+        <figcaption>İki kamera 1080p 60 fps'de: Dualgram ön kamerayı 720p'ye düşürüyor.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-cinematic-preview-lag-4k30-warning.webp" alt="Dualgram ayarlarında sinematik sabitlemede önizlemenin gecikeceği uyarısı ve iki kamerada 4K 30 fps uyarısı" width="1000" height="945" loading="lazy" decoding="async">
+        <figcaption>Sinematik sabitleme önizlemeyi geciktiriyor; iki kamerada 4K 30 fps uyarı veriyor.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-pro-features.webp" alt="Dualgram PRO ekranı: ön ve arka kamera videolarını kaydetme, tüm düzenler, tüm mikrofon seçenekleri, teleprompter, filigranı ve reklamları kaldırma" width="1000" height="676" loading="lazy" decoding="async">
+        <figcaption>Dualgram PRO'nun açtıkları: ayrı kamera dosyaları, düzenler, mikrofon seçenekleri, teleprompter, filigransız ve reklamsız.</figcaption>
+      </figure>
+      <p>Dualgram kime uygun: çekerken kadrajlanan ve olduğu gibi paylaşılan tek bir resim içinde resim klibi isteyene. İki kamerayla 4K ya da 60 fps, kayan bir teleprompter veya çekimden sonra değiştirilebilen bir düzen gerekiyorsa yetersiz kalıyor.</p>
+
       <h2>Dualgram iki kamerayla 4K kaydediyor mu?</h2>
-      <p>Dualgram, iki kamera çalışırken hangi iPhone'ların 4K'ya ulaştığını söylemiyor. App Store sayfasında "4K, 60 fps'ye kadar destek" yazıyor; kullanım kılavuzunda da ön ve arka kameranın her birinin "4K çözünürlüğe ve 60 FPS'ye kadar" ayarlanabileceği belirtiliyor ve şu ekleniyor: "iPhone modeline bağlı olarak bazı yapılandırmalar desteklenmeyebilir, bu yüzden bilmek için denemeniz gerekir." (11 Kasım 2026'da kontrol edildi). Apple, üçüncü taraf uygulamaların iki kamerayla yalnızca çoklu kameraya uygun olarak işaretlediği formatlarda kayıt yapmasına izin veriyor. iPhone 18 Pro'da bu listede 30 fps'de 3840 x 2160 var, ama 60 fps'de hiçbir 4K format yok; dolayısıyla 60 fps'de 4K, aynı anda kaydeden iki kameradan gelemez. ContentCam'in Ön ve arka (Front/Back) modu iOS 2.9'dan itibaren desteklenen iPhone'larda 4K olarak, iki ayrı dosya halinde kaydeder. Bir uygulamanın gerçekte ne kaydettiğini görmek için iki kameralı bir test dosyasının ve orijinallerinin piksel boyutuna bakın, sonra ayrıntıyı karşılaştırın. Adımlar şu yazıda: <a href="/blog/iphone-4k-front-and-back-camera-same-time/">iPhone ön ve arka kamerayla aynı anda 4K kaydedebilir mi</a>.</p>
+      <p>Benim testimde hayır. 12 Kasım 2026'da Dualgram 2.5, iki kamerada 60 fps'de 4K için "the selected resolution/FPS is not supported", iki kamerada 30 fps'de 4K için "Your device may not support this resolution and frame rate" gösterdi. Dualgram, iki kamera çalışırken hangi iPhone'ların 4K'ya ulaştığını söylemiyor. App Store sayfasında "4K, 60 fps'ye kadar destek" yazıyor; kullanım kılavuzunda da ön ve arka kameranın her birinin "4K çözünürlüğe ve 60 FPS'ye kadar" ayarlanabileceği belirtiliyor ve şu ekleniyor: "iPhone modeline bağlı olarak bazı yapılandırmalar desteklenmeyebilir, bu yüzden bilmek için denemeniz gerekir." (11 Kasım 2026'da kontrol edildi). Apple, üçüncü taraf uygulamaların iki kamerayla yalnızca çoklu kameraya uygun olarak işaretlediği formatlarda kayıt yapmasına izin veriyor. iPhone 18 Pro'da bu listede 30 fps'de 3840 x 2160 var, ama 60 fps'de hiçbir 4K format yok; dolayısıyla 60 fps'de 4K, aynı anda kaydeden iki kameradan gelemez. ContentCam'in Ön ve arka (Front/Back) modu iOS 2.9'dan itibaren desteklenen iPhone'larda 4K olarak, iki ayrı dosya halinde kaydeder. Bir uygulamanın gerçekte ne kaydettiğini görmek için iki kameralı bir test dosyasının ve orijinallerinin piksel boyutuna bakın, sonra ayrıntıyı karşılaştırın. Adımlar şu yazıda: <a href="/blog/iphone-4k-front-and-back-camera-same-time/">iPhone ön ve arka kamerayla aynı anda 4K kaydedebilir mi</a>.</p>
 
       <h2>SSS</h2>
       <h3>Dualgram'da reklam ya da filigran var mı?</h3>
       <p>Evet, ücretsiz sürümde. Dualgram'ın SSS sayfasına göre ücretsiz uygulamada reklamlar, filigranlar ve bazı kilitli özellikler var, PRO satın alınca bunlar kalkıyor; App Store sayfasında da "Reklam İçerir" ibaresi görünüyor (6 Kasım 2026'da kontrol edildi). ContentCam'de ücretsiz ya da Premium, ne reklam ne de filigran var.</p>
       <h3>Dualgram Android'de var mı?</h3>
-      <p>Hayır. Dualgram, iPhone ve iPad için App Store'da var; Google Play'deki Just2us geliştirici sayfasında ise iki başka uygulama listeleniyor, Dualgram yok (6 Kasım 2026'da kontrol edildi). ContentCam iPhone'da ve Android'de var.</p>
+      <p>Hayır. Dualgram yalnızca iPhone ve iPad için App Store'da var, Android sürümü yok (6 Kasım 2026'da kontrol edildi). ContentCam iPhone ve Android'de çalışır.</p>
       <h3>Dualgram PRO ne kadar?</h3>
       <p>ABD App Store'da Dualgram, PRO'yu bir yıllık satın alma ya da tek seferlik kilit açma olarak satıyor; ayrıca PRO'nun dahil olduğu ayrı, ücretli bir Dualgram Pro uygulaması da satıyor (6 Kasım 2026'da kontrol edildi). ContentCam Premium yıllık, aylık ya da tek seferlik ömür boyu satın alma olarak sunulur, fiyatı da kendi mağazanızda görünür.</p>
       <h3>Dualgram ön ve arka kamerayı ayrı dosyalar olarak kaydediyor mu?</h3>
-      <p>Evet. Dualgram'ın sayfasında "Ön ve arka kameradan çekilen 2 orijinal dahil 3 dosyanın hepsini kaydedin" yazıyor. ContentCam'in Ön ve arka (Front/Back) modu da ön ve arka kamerayı iki ayrı dosya olarak kaydeder; Birleştirme (Combine) düzenleyicisi de bunları sonradan resim içinde resim ya da bölünmüş ekran bir videoya dönüştürür, orijinaller korunur.</p>
+      <p>PRO ile. Dualgram'ın sayfası "Save all 3 files, including the 2 originals captured from the front &amp; back camera" diyor; benim 2.5 sürümü testimde ücretsiz sürüm yalnızca birleşik videoyu kaydetti. ContentCam'in Ön ve arka modu ön ve arka kamerayı iki ayrı dosya olarak kaydeder, Combine düzenleyicisi de bunları sonradan resim içinde resim ya da bölünmüş ekran videosuna çevirir, orijinaller kalır.</p>
       <h3>Dualgram dikey ve yatay videoyu aynı anda kaydedebiliyor mu?</h3>
-      <p>Dualgram'ın sayfası "Yatay ve dikey" seçeneği sunuyor, ama ikisini tek çekimden kaydetmeyi anlatmıyor. ContentCam tek objektiften 9:16 dikey ve 16:9 yatay dosyayı aynı anda, HD ya da 4K olarak kaydeder.</p>
+      <p>Hayır. Benim testimde Dualgram her çekimde tek biçim kaydediyor; telefonu nasıl tuttuğuna göre dikey ya da yatay. ContentCam tek bir lensle aynı anda dikey 9:16 ve yatay 16:9 dosya kaydeder, HD ya da 4K.</p>
 
       <div class="post-cta">
         <p><strong>ContentCam'i ücretsiz deneyin.</strong> İki ayrı dosya olarak ön ve arka kamera, tek çekimden dikey ve geniş video, reklam yok, filigran yok. iPhone'da ve Android'de ücretsiz indirin.</p>
@@ -247,7 +312,7 @@
       </div>
 
       <p>İlgili: <a href="/blog/dual-camera-app-one-time-purchase/">tek seferlik satın almalı çift kamera uygulamaları</a> · <a href="/blog/dual-camera-app-without-ads/">reklamsız çift kamera uygulamaları</a> · <a href="/tr/blog/best-front-and-back-dual-camera-apps/">en iyi ön ve arka kamera uygulamaları</a></p>
-      <p class="byline">Kaynaklar: Dualgram ABD App Store sayfası (id1474345188, 2.4 sürümü; açıklama, sürüm geçmişi, uygulama içi satın alımlar, yaş sınırı); Dualgram Pro ABD App Store sayfası (id1481349660); dualgram.com SSS ve kullanım kılavuzu; Google Play'de "Dualgram" araması ve Just2us geliştirici sayfası; contentcam.app fiyatlar ve destek sayfaları. 6 Kasım 2026'da kontrol edildi.</p>
+      <p class="byline">Kaynaklar: Dualgram 2.5'in (build 1224) 12 Kasım 2026 tarihli uygulamalı testi; Dualgram ABD App Store sayfası (id1474345188, 2.4 sürümü; açıklama, sürüm geçmişi, uygulama içi satın alımlar, yaş sınırı); Dualgram Pro ABD App Store sayfası (id1481349660); dualgram.com SSS ve kullanım kılavuzu; Google Play'de "Dualgram" araması ve Just2us geliştirici sayfası; contentcam.app fiyatlar ve destek sayfaları. 6 Kasım 2026'da kontrol edildi.</p>
     </article>
   </main>
 

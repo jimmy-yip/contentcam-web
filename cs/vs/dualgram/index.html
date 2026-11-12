@@ -33,7 +33,22 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {"@type": "Organization", "@id": "https://contentcam.app/#org", "name": "ContentCam", "url": "https://contentcam.app/", "logo": "https://contentcam.app/assets/icon-512.png", "email": "contentcam.app@gmail.com", "sameAs": ["https://www.instagram.com/contentcam.app", "https://www.tiktok.com/@contentcam.app", "https://www.youtube.com/@ContentCam-app", "https://discord.gg/YxUpbUgthH", "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795", "https://play.google.com/store/apps/details?id=app.contentcam.android"]},
+    {
+      "@type": "Organization",
+      "@id": "https://contentcam.app/#org",
+      "name": "ContentCam",
+      "url": "https://contentcam.app/",
+      "logo": "https://contentcam.app/assets/icon-512.png",
+      "email": "contentcam.app@gmail.com",
+      "sameAs": [
+        "https://www.instagram.com/contentcam.app",
+        "https://www.tiktok.com/@contentcam.app",
+        "https://www.youtube.com/@ContentCam-app",
+        "https://discord.gg/YxUpbUgthH",
+        "https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795",
+        "https://play.google.com/store/apps/details?id=app.contentcam.android"
+      ]
+    },
     {
       "@type": "WebPage",
       "@id": "https://contentcam.app/cs/vs/dualgram/",
@@ -89,10 +104,18 @@
         },
         {
           "@type": "Question",
+          "name": "Nahrává Dualgram ve 4K oběma kamerami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ne, v praktickém testu Dualgramu 2.5 z 12. listopadu 2026. 4K při 60 fps ukáže na obou kamerách „the selected resolution/FPS is not supported“, 4K při 30 fps na obou ukáže varování a při 1080p 60 fps aplikace sníží přední kameru na 720p. Přední a zadní v ContentCamu nahrává obě kamery ve 4K na podporovaných iPhonech (od iOS 2.9), jako dva samostatné soubory."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Je Dualgram pro Android?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ne. Dualgram je v App Store pro iPhone a iPad a stránka vývojáře Just2us na Google Play uvádí dvě jiné aplikace, Dualgram ne (ověřeno 6. listopadu 2026). ContentCam je na iPhonu i Androidu."
+            "text": "Ne. Dualgram je jen v App Storu pro iPhone a iPad, bez verze pro Android (ověřeno 6. listopadu 2026). ContentCam běží na iPhonu i Androidu."
           }
         },
         {
@@ -108,7 +131,7 @@
           "name": "Ukládá Dualgram přední a zadní kameru jako samostatné soubory?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ano. Popis Dualgramu uvádí, že umí „Uložit všechny 3 soubory, včetně 2 originálů z přední a zadní kamery“. Režim Přední i zadní v ContentCamu také ukládá přední a zadní kameru jako dva samostatné soubory a jeho editor Spojení (Combine) z nich potom vytvoří video obraz v obraze nebo rozdělenou obrazovku a originály zůstanou."
+            "text": "S PRO. Podle popisu umí Dualgram „Save all 3 files, including the 2 originals captured from the front & back camera“, a v mém testu verze 2.5 uložila verze zdarma jen spojené video. Režim Přední a zadní v ContentCamu ukládá přední a zadní kameru jako dva samostatné soubory a editor Combine z nich později udělá video obraz v obraze nebo rozdělenou obrazovku, originály zůstanou."
           }
         },
         {
@@ -116,7 +139,7 @@
           "name": "Umí Dualgram natáčet video na výšku i na šířku současně?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Popis Dualgramu nabízí „Na šířku i na výšku“, ale uložení obou z jednoho záběru nepopisuje. ContentCam nahrává soubor na výšku 9:16 a soubor na šířku 16:9 současně jedním objektivem, v HD nebo 4K."
+            "text": "Ne. V mém testu Dualgram nahrává jeden formát na záběr, na výšku nebo na šířku podle toho, jak držíš telefon. ContentCam nahrává zároveň svislý soubor 9:16 a vodorovný 16:9 jedním objektivem, v HD nebo 4K."
           }
         }
       ]
@@ -181,17 +204,18 @@
     <div class="crumbs"><a href="/cs/">Domů</a> › <a href="/cs/vs/">Srovnání</a> › Dualgram</div>
     <article class="post">
       <h1>ContentCam vs Dualgram (2026)</h1>
-      <p class="byline">Ověřeno 6. listopadu 2026</p>
+      <p class="byline">Otestováno 12. listopadu 2026 · Popis v obchodě ověřen 6. listopadu 2026</p>
 
-      <p>ContentCam je pro tebe lepší volba než Dualgram, pokud chceš aplikaci pro přední a zadní kameru bez reklam a bez vodoznaku v jakémkoli tarifu, která běží na Androidu stejně jako na iPhonu, ze stejného záběru nahraje video na výšku i na šířku a dá ti ruční ISO, závěrku a vyvážení bílé. Dualgram je aplikace pro iPhone a iPad, jejíž bezplatná verze má reklamy a vodoznak, dokud si nekoupíš PRO.</p>
+      <p>Upozornění: jsem Jimmy, vyvíjím ContentCam a Dualgram 2.5 jsem sám otestoval 12. listopadu 2026.</p>
+      <p><strong>Otestováno:</strong> Dualgram 2.5 nenahrává ve 4K oběma kamerami (4K při 60 fps je na obou „nepodporováno“), při 60 fps na obou kamerách sníží přední kameru na 720p a k uložení přední a zadní kamery jako samostatných souborů potřebuje PRO. ContentCam nahrává obě kamery ve 4K na podporovaných iPhonech a až v 60 fps, jako dva samostatné soubory, bez reklam a bez vodoznaku. Kompletní výsledky a snímky obrazovky jsou níže.</p>
       <p>Upozornění: jsem Jimmy a ContentCam vyvíjím. Každé tvrzení o Dualgramu níže vychází z jeho popisu v americkém App Store (verze 2.4, vydaná 3. listopadu 2026), z dualgram.com a z Google Play, ověřeno 6. listopadu 2026.</p>
 
       <h2>Jaké jsou hlavní rozdíly mezi ContentCamem a Dualgramem?</h2>
       <ul>
         <li><strong>Reklamy a vodoznak:</strong> ContentCam nemá ani jedno, zdarma ani v Premiu. Podle FAQ Dualgramu bezplatná aplikace „obsahuje reklamy, vodoznaky a některé zamčené funkce, například další rozvržení“.</li>
-        <li><strong>Android:</strong> ContentCam běží na iPhonu i Androidu. Dualgram je jen v App Store; stránka vývojáře Just2us na Google Play uvádí SG 4D+ a SG Schooling, Dualgram ne.</li>
-        <li><strong>Na výšku i na šířku najednou:</strong> ContentCam z jednoho záběru uloží soubor 9:16 i soubor 16:9. Dualgram uvádí „Na šířku i na výšku“ a uložení obou z jednoho záběru nepopisuje.</li>
-        <li><strong>Ruční ovládání:</strong> ContentCam má ruční expozici, vyvážení bílé, ISO a závěrku. Seznam funkcí Dualgramu jmenuje optický a digitální zoom, blesk a filmovou stabilizaci.</li>
+        <li><strong>Android:</strong> ContentCam běží na iPhonu i Androidu. Dualgram verzi pro Android nemá.</li>
+        <li><strong>Na výšku i na šířku zároveň:</strong> ContentCam uloží z jednoho záběru soubor 9:16 i 16:9. Dualgram nahrává jeden formát na záběr; „Landscape and portrait“ v popisu znamená jen to, že telefon můžeš držet libovolně.</li>
+        <li><strong>Ovládání kamery:</strong> obě aplikace mají zoom, blesk a stabilizaci. ContentCam přidává ruční expozici, vyvážení bílé, ISO a závěrku, ostření klepnutím a zámek AE/AF podržením. V mém testu Dualgram nic z toho neměl a zoom je jen tlačítko 1x / 0,5x.</li>
         <li><strong>Kdy volíš rozvržení:</strong> ContentCam vybírá obraz v obraze nebo rozdělenou obrazovku až po natáčení, v editoru Spojení (Combine). Dualgram nastavuje rozvržení už během natáčení („uloženo přesně tak, jak jste to zarámovali“, podle poznámek k verzi 2.0) a uloží i oba originály.</li>
       </ul>
 
@@ -200,41 +224,82 @@
       <p><strong>Android.</strong> Režim Přední i zadní v ContentCamu funguje na telefonech s Androidem, jejichž kamerový systém zvládne spustit přední a zadní kameru najednou, v HD až při 30 fps; aplikace to ověří a režim nabídne jen tam, kde funguje. Dualgram verzi pro Android nemá. Postup najdeš v článku <a href="/cs/blog/record-front-and-back-camera-same-time-android/">nahrávání přední a zadní kamerou současně na Androidu</a>.</p>
       <p><strong>Jeden záběr, dva formáty.</strong> Hlavní režim ContentCamu z jedné nahrávky uloží soubor 9:16 pro TikTok, Reels a Shorts a soubor 16:9 pro YouTube, při 24, 25, 30, 50 nebo 60 fps v HD nebo 4K. Dualgram takový režim nepopisuje.</p>
       <p><strong>Rozvržení vybereš později.</strong> Režim Přední i zadní v ContentCamu ukládá selfie i scénu jako dva samostatné soubory. Ve Spojení (Combine) si po natáčení vyzkoušíš rozvržení obraz v obraze i rozdělenou obrazovku (zkoušet můžeš zdarma, uložení videa ze Spojení patří do Premia) a originály zůstanou, kde jsou.</p>
-      <p><strong>Ruční expozice.</strong> ContentCam má ruční ISO, rychlost závěrky a vyvážení bílé. Seznam funkcí Dualgramu jmenuje zoom, blesk a stabilizaci, ale žádné ruční nastavení expozice. Obě aplikace mají teleprompter.</p>
+      <p><strong>Plnohodnotný fotoaparát, ne jen dva pohledy.</strong> ContentCam má zoom, blesk a stabilizaci jako Dualgram a k tomu ruční ISO, závěrku, vyvážení bílé a expozici, ostření klepnutím, zámek AE/AF, kolečko zoomu, časosběr, HDR a Apple Log. Obě aplikace mají teleprompter, ale v mém testu se ten v Dualgramu sám neposouval a neměl žádná nastavení; teleprompter v ContentCamu se posouvá sám a má nastavení rychlosti, velikosti, barvy a čtecí linky.</p>
 
       <h2>Pro co je Dualgram určený?</h2>
-      <p>Dualgram od singapurského studia Just2us nahrává přední a zadní kameru na iPhonu od září 2019 a má asi 2 700 hodnocení v USA s průměrem 4,7. Popis Dualgramu slibuje hotový klip obraz v obraze nebo vedle sebe rovnou z fotoaparátu, přičemž uloží i oba originály: jeho návod uvádí až 4K a 60 fps na každou kameru podle modelu iPhonu, aplikace běží na iOS 17 nebo novějším, uvádí vestavěný teleprompter a nedávné aktualizace přidaly widget Quick Record na zamčenou obrazovku a podporu iPhonu Duo.</p>
+      <p>Dualgram od singapurského studia Just2us je aplikace pro iPhone a iPad. Popis slibuje hotový klip obraz v obraze nebo vedle sebe přímo z fotoaparátu, k tomu oba originály: návod uvádí až 4K a 60 fps na kameru podle modelu iPhonu, aplikace běží od iOS 17, má teleprompter a nedávné aktualizace přidaly widget pro rychlé nahrávání na zamčené obrazovce a podporu iPhonu Duo.</p>
 
       <h2>Jak si ContentCam a Dualgram stojí parametr po parametru?</h2>
       <table>
         <thead><tr><th></th><th>ContentCam</th><th>Dualgram</th></tr></thead>
         <tbody>
-          <tr><td>Reklamy</td><td>Žádné, zdarma ani v Premiu</td><td>V bezplatné verzi, „Obsahuje reklamy“</td></tr>
-          <tr><td>Vodoznak</td><td>Žádný</td><td>V bezplatné verzi, s PRO zmizí</td></tr>
+          <tr><td>Reklamy</td><td>Žádné, zdarma i v Premiu</td><td>Verze zdarma, „Obsahuje reklamy“</td></tr>
+          <tr><td>Vodoznak</td><td>Žádný</td><td>Verze zdarma: velký nápis „Shot with Dualgram“ nad oknem obrazu v obraze (otestováno); s PRO zmizí</td></tr>
           <tr><td>Platformy</td><td>iPhone (iOS 18 nebo novější) a Android</td><td>iPhone a iPad (iOS 17 nebo novější)</td></tr>
-          <tr><td>Přední a zadní kamera současně</td><td>Ano, každý iPhone s iOS 18 a podporované telefony s Androidem</td><td>Ano</td></tr>
-          <tr><td>Na výšku i na šířku z jednoho záběru</td><td>Ano, 9:16 a 16:9 jako dva soubory</td><td>Jedna z orientací („Na šířku i na výšku“)</td></tr>
-          <tr><td>Samostatné soubory z přední a zadní kamery</td><td>Ano, dva soubory; Spojení (Combine) vytvoří rozvržení potom</td><td>Ano, přední, zadní a spojený („Uložit všechny 3 soubory“)</td></tr>
-          <tr><td>Ruční ovládání</td><td>Expozice, vyvážení bílé, ISO, závěrka</td><td>Uvádí zoom, blesk, stabilizaci</td></tr>
-          <tr><td>Poslední aktualizace</td><td>iOS 2.8.3 (listopad 2026); Android 28. října 2026</td><td>2.4, 3. listopadu 2026</td></tr>
+          <tr><td>Přední a zadní kamera zároveň</td><td>Ano, na každém iPhonu s iOS 18 a na podporovaných telefonech s Androidem</td><td>Ano</td></tr>
+          <tr><td>Na výšku i na šířku z jednoho záběru</td><td>Ano, 9:16 a 16:9 jako dva soubory</td><td>Ne. Jeden formát na záběr: na výšku nebo na šířku podle toho, jak držíš telefon</td></tr>
+          <tr><td>Samostatné soubory přední a zadní kamery</td><td>Ano, dva soubory; rozvržení se dělá později v editoru Combine</td><td>Jen s PRO; verze zdarma uloží jen spojené video (otestováno)</td></tr>
+          <tr><td>4K oběma kamerami</td><td>Ano, na podporovaných iPhonech (od iOS 2.9)</td><td>Ne: 4K 60 fps „nepodporováno“ na obou kamerách; 4K 30 fps na obou ukáže varování (otestováno)</td></tr>
+          <tr><td>60 fps oběma kamerami</td><td>Až 60 fps na iPhonech, které to podporují (Premium)</td><td>Přední kamera klesne na 720p při 1080p 60 fps (otestováno)</td></tr>
+          <tr><td>Snímkové frekvence</td><td>24, 25, 30, 50 nebo 60 fps</td><td>24, 30 nebo 60 fps</td></tr>
+          <tr><td>Filmová stabilizace</td><td>Živý náhled v hlavním obraze i v obraze v obraze</td><td>Náhled se zpožďuje asi o 2 sekundy; aplikace varuje, že se „výrazně zpozdí“ (otestováno)</td></tr>
+          <tr><td>Okno obrazu v obraze</td><td>Lze přesunout a změnit velikost</td><td>Ve verzi zdarma pevné; velikost nelze změnit (otestováno)</td></tr>
+          <tr><td>Teleprompter</td><td>Posouvá se sám; rychlost, velikost textu, 8 barev, čtecí linka, zrcadlení</td><td>PRO; sám se neposouvá, žádná nastavení (otestováno)</td></tr>
+          <tr><td>Aplikace zavřená během záběru</td><td>Nahrávka se při dalším spuštění obnoví</td><td>Záběr ztracen (otestováno)</td></tr>
+          <tr><td>Projekty a záběry</td><td>Projekty, scény a záběry s automatickými názvy souborů</td><td>Žádné; soubory jdou do Fotek jako čísla DGC_</td></tr>
+          <tr><td>Ruční ovládání</td><td>Expozice, vyvážení bílé, ISO, závěrka; ostření klepnutím, zámek AE/AF</td><td>Nic: žádné ostření klepnutím, žádný zámek AE/AF, zoom tlačítkem 1x / 0,5x (otestováno)</td></tr>
+          <tr><td>Poslední aktualizace</td><td>iOS 2.9 (12. listopadu 2026); Android 2.7.1 (listopad 2026)</td><td>2.5, 10. listopadu 2026</td></tr>
         </tbody>
       </table>
       <p>Obě aplikace nahrávají přední a zadní kameru na iPhonu 15 a iPhonu 16, které nemají Apple Dual Capture; viz <a href="/blog/record-front-and-back-camera-iphone-15-16/">přední a zadní kamera na iPhonu 15 a 16</a>. Další aplikace srovnává článek <a href="/cs/blog/best-front-and-back-dual-camera-apps/">nejlepší aplikace pro přední a zadní kameru</a>.</p>
 
+      <h2>Co se stalo, když jsem otestoval Dualgram 2.5?</h2>
+      <p>Dualgram 2.5 (build 1224) jsem 12. listopadu 2026 nainstaloval z App Storu a vyzkoušel každé nastavení, ve verzi zdarma i až k výzvám PRO. Tohle jsem zjistil.</p>
+      <ul>
+        <li><strong>4K oběma kamerami: ne.</strong> 4K při 60 fps ukáže „Oops... the selected resolution/FPS is not supported.“ na zadní i přední kameře. 4K při 30 fps na obou ukáže „Your device may not support this resolution and frame rate.“</li>
+        <li><strong>60 fps oběma kamerami: přední kamera klesne na 720p.</strong> Při 1080p 60 fps na obou nabídka varuje, že to zařízení možná nezvládne, a jakmile kamery běží, aplikace ukáže „Device overloaded! Reducing front camera resolution to 720.“ Uložené video mělo 1080 x 1920, HEVC, 58,91 fps.</li>
+        <li><strong>Filmová stabilizace zpožďuje náhled.</strong> Aplikace varuje „Video preview will lag significantly“ a obraz na displeji byl asi o 2 sekundy pozadu. Podle návodu Dualgramu se zpoždění týká jen náhledu, ne souboru, ale ztěžuje to komponovat záběr v pohybu. ContentCam používá filmovou stabilizaci s živým náhledem v hlavním obraze i v obraze v obraze.</li>
+        <li><strong>Ukládat oba soubory z kamer zvlášť je PRO.</strong> Verze zdarma ukládá jen spojené video. „Unlock PRO to save the rear camera video separately“ a totéž pro přední kameru.</li>
+        <li><strong>Verze zdarma má reklamy a vodoznak.</strong> Vodoznak je velký nápis „Shot with Dualgram“ přímo nad oknem obrazu v obraze, tedy nad tvým obličejem.</li>
+        <li><strong>Rozvržení a přesouvání okna jsou PRO.</strong> Výběr jiného rozvržení ukáže „Unlock PRO to use this camera layout.“ Okno obrazu v obraze nejde zvětšit ani zmenšit: sevření prsty nic nedělá a tlačítko velikosti chybí.</li>
+        <li><strong>Teleprompter se neposouvá.</strong> Je to funkce PRO, text stojí na místě bez nastavení rychlosti, velikosti nebo barvy a posouváš ho prstem, zatímco mluvíš.</li>
+        <li><strong>Žádné ovládání ostření ani expozice.</strong> Klepnutí na náhled neostří, zámek AE/AF chybí a zoom je tlačítko 1x / 0,5x. Snímkové frekvence jsou 24, 30 nebo 60 fps, bez 25 a 50.</li>
+        <li><strong>Záběr po vynuceném zavření aplikace se ztratil.</strong> Když jsem aplikaci během nahrávání zavřel, video se neuložilo, a zamčení telefonu uprostřed záběru aplikaci zamrazilo. ContentCam nahrává dál i při automatickém zamčení a záběr po vynuceném ukončení obnoví při dalším spuštění.</li>
+        <li><strong>Žádné projekty ani záběry.</strong> Videa jdou rovnou do Fotek jako soubory DGC_, bez možnosti je třídit podle natáčení.</li>
+      </ul>
+      <p>Hodnocení Dualgramu s nízkým počtem hvězdiček v App Storu popisují stejné slabiny. Jeden uživatel přišel o 46minutovou nahrávku, když se objevilo oznámení a aplikace zamrzla; další píšou o videu, které se seká nebo přeskakuje snímky, o zvuku mimo synchronizaci a o tom, že až po stažení zjistili, že samostatné soubory přední a zadní kamery se platí zvlášť.</p>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-4k-60fps-not-supported.webp" alt="Nastavení Dualgramu se 4K 60 fps na zadní i přední kameře, u obou hláška, že rozlišení a snímková frekvence nejsou podporovány" width="1000" height="889" loading="lazy" decoding="async">
+        <figcaption>Dualgram 2.5 s oběma kamerami na 4K 60 fps: u každé „not supported“.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-device-overloaded-front-720.webp" alt="Hláška Dualgramu: zařízení je přetížené, rozlišení přední kamery se snižuje na 720" width="1000" height="137" loading="lazy" decoding="async">
+        <figcaption>Obě kamery na 1080p 60 fps: Dualgram sníží přední kameru na 720p.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-cinematic-preview-lag-4k30-warning.webp" alt="Nastavení Dualgramu s varováním, že náhled se při filmové stabilizaci zpozdí, a 4K 30 fps na obou kamerách s varováním" width="1000" height="945" loading="lazy" decoding="async">
+        <figcaption>Filmová stabilizace zpožďuje náhled; 4K 30 fps na obou kamerách ukáže varování.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/vs/dualgram/dualgram-pro-features.webp" alt="Obrazovka PRO v Dualgramu: uložení videí z přední a zadní kamery, všechna rozvržení, všechny možnosti mikrofonu, teleprompter, odstranění vodoznaku a reklam" width="1000" height="676" loading="lazy" decoding="async">
+        <figcaption>Co Dualgram PRO odemyká: samostatné soubory z kamer, rozvržení, možnosti mikrofonu, teleprompter, bez vodoznaku a reklam.</figcaption>
+      </figure>
+      <p>Pro koho je Dualgram: pro toho, kdo chce jeden klip obraz v obraze, nakomponovaný při natáčení a zveřejněný tak, jak je. Na 4K nebo 60 fps z obou kamer, teleprompter, který se posouvá, nebo rozvržení, které jde změnit po natáčení, nestačí.</p>
+
       <h2>Nahrává Dualgram 4K oběma kamerami?</h2>
-      <p>Dualgram neuvádí, které iPhony dosáhnou 4K, když běží obě kamery. Jeho popis v App Store uvádí „Podpora až 4K, 60 fps“ a jeho uživatelská příručka píše, že přední i zadní kameru lze nastavit „až na rozlišení 4K a 60 FPS“, a dodává: „V závislosti na modelu iPhonu nebudou některé konfigurace podporovány, takže musíte vyzkoušet, abyste to zjistili.“ (ověřeno 11. listopadu 2026). Apple aplikacím třetích stran dovolí nahrávat dvě kamery jen ve formátech, které označí jako vhodné pro více kamer. Na iPhonu 18 Pro tento seznam obsahuje 3840 x 2160 při 30 fps, ale žádný formát 4K při 60 fps, takže 4K při 60 fps nemůže pocházet ze dvou kamer nahrávajících současně. Režim Přední i zadní v ContentCamu nahrává na podporovaných iPhonech ve 4K (od iOS 2.9), jako dva samostatné soubory. Chceš-li zjistit, co nějaká aplikace doopravdy nahrává, podívej se na rozměry testovacího souboru ze dvou kamer i jeho originálů v pixelech a pak porovnej detaily: postup najdeš v článku <a href="/blog/iphone-4k-front-and-back-camera-same-time/">umí iPhone nahrávat 4K přední a zadní kamerou současně</a>.</p>
+      <p>V mém testu ne. 12. listopadu 2026 ukázal Dualgram 2.5 pro 4K při 60 fps na obou kamerách „the selected resolution/FPS is not supported“ a pro 4K při 30 fps na obou „Your device may not support this resolution and frame rate“. Dualgram neuvádí, které iPhony dosáhnou 4K, když běží obě kamery. Jeho popis v App Store uvádí „Podpora až 4K, 60 fps“ a jeho uživatelská příručka píše, že přední i zadní kameru lze nastavit „až na rozlišení 4K a 60 FPS“, a dodává: „V závislosti na modelu iPhonu nebudou některé konfigurace podporovány, takže musíte vyzkoušet, abyste to zjistili.“ (ověřeno 11. listopadu 2026). Apple aplikacím třetích stran dovolí nahrávat dvě kamery jen ve formátech, které označí jako vhodné pro více kamer. Na iPhonu 18 Pro tento seznam obsahuje 3840 x 2160 při 30 fps, ale žádný formát 4K při 60 fps, takže 4K při 60 fps nemůže pocházet ze dvou kamer nahrávajících současně. Režim Přední i zadní v ContentCamu nahrává na podporovaných iPhonech ve 4K (od iOS 2.9), jako dva samostatné soubory. Chceš-li zjistit, co nějaká aplikace doopravdy nahrává, podívej se na rozměry testovacího souboru ze dvou kamer i jeho originálů v pixelech a pak porovnej detaily: postup najdeš v článku <a href="/blog/iphone-4k-front-and-back-camera-same-time/">umí iPhone nahrávat 4K přední a zadní kamerou současně</a>.</p>
 
       <h2>Časté otázky</h2>
       <h3>Má Dualgram reklamy nebo vodoznak?</h3>
       <p>Ano, v bezplatné verzi. Podle FAQ Dualgramu obsahuje bezplatná aplikace reklamy, vodoznaky a některé zamčené funkce a nákup PRO je odstraní; popis v App Store uvádí „Obsahuje reklamy“ (ověřeno 6. listopadu 2026). ContentCam nemá reklamy ani vodoznak, zdarma ani v Premiu.</p>
       <h3>Je Dualgram pro Android?</h3>
-      <p>Ne. Dualgram je v App Store pro iPhone a iPad a stránka vývojáře Just2us na Google Play uvádí dvě jiné aplikace, Dualgram ne (ověřeno 6. listopadu 2026). ContentCam je na iPhonu i Androidu.</p>
+      <p>Ne. Dualgram je jen v App Storu pro iPhone a iPad, bez verze pro Android (ověřeno 6. listopadu 2026). ContentCam běží na iPhonu i Androidu.</p>
       <h3>Kolik stojí Dualgram PRO?</h3>
       <p>V americkém App Store prodává Dualgram PRO jako roční nákup nebo jednorázové odemčení a zvlášť prodává placenou aplikaci Dualgram Pro, která PRO obsahuje (ověřeno 6. listopadu 2026). ContentCam Premium je k dispozici jako roční, měsíční nebo jednorázový doživotní nákup, s cenou podle tvého obchodu.</p>
       <h3>Ukládá Dualgram přední a zadní kameru jako samostatné soubory?</h3>
-      <p>Ano. Popis Dualgramu uvádí, že umí „Uložit všechny 3 soubory, včetně 2 originálů z přední a zadní kamery“. Režim Přední i zadní v ContentCamu také ukládá přední a zadní kameru jako dva samostatné soubory a jeho editor Spojení (Combine) z nich potom vytvoří video obraz v obraze nebo rozdělenou obrazovku a originály zůstanou.</p>
+      <p>S PRO. Podle popisu umí Dualgram „Save all 3 files, including the 2 originals captured from the front &amp; back camera“, a v mém testu verze 2.5 uložila verze zdarma jen spojené video. Režim Přední a zadní v ContentCamu ukládá přední a zadní kameru jako dva samostatné soubory a editor Combine z nich později udělá video obraz v obraze nebo rozdělenou obrazovku, originály zůstanou.</p>
       <h3>Umí Dualgram natáčet video na výšku i na šířku současně?</h3>
-      <p>Popis Dualgramu nabízí „Na šířku i na výšku“, ale uložení obou z jednoho záběru nepopisuje. ContentCam nahrává soubor na výšku 9:16 a soubor na šířku 16:9 současně jedním objektivem, v HD nebo 4K.</p>
+      <p>Ne. V mém testu Dualgram nahrává jeden formát na záběr, na výšku nebo na šířku podle toho, jak držíš telefon. ContentCam nahrává zároveň svislý soubor 9:16 a vodorovný 16:9 jedním objektivem, v HD nebo 4K.</p>
 
       <div class="post-cta">
         <p><strong>Vyzkoušej ContentCam zdarma.</strong> Přední a zadní kamera jako dva samostatné soubory, video na výšku i na šířku z jednoho záběru, bez reklam a bez vodoznaku. Ke stažení zdarma na iPhonu i Androidu.</p>
@@ -246,7 +311,7 @@
       </div>
 
       <p>Související: <a href="/blog/dual-camera-app-one-time-purchase/">aplikace se dvěma kamerami s jednorázovým nákupem</a> · <a href="/blog/dual-camera-app-without-ads/">aplikace se dvěma kamerami bez reklam</a> · <a href="/cs/blog/best-front-and-back-dual-camera-apps/">nejlepší aplikace pro přední a zadní kameru</a></p>
-      <p class="byline">Zdroje: popis Dualgramu v americkém App Store (id1474345188, verze 2.4, popis, historie verzí, nákupy v aplikaci, věková klasifikace); popis Dualgram Pro v americkém App Store (id1481349660); FAQ a uživatelská příručka na dualgram.com; vyhledávání „Dualgram“ na Google Play a stránka vývojáře Just2us; stránky contentcam.app: ceník a podpora. Ověřeno 6. listopadu 2026.</p>
+      <p class="byline">Zdroje: praktický test Dualgramu 2.5 (build 1224) z 12. listopadu 2026; popis Dualgramu v americkém App Store (id1474345188, verze 2.4, popis, historie verzí, nákupy v aplikaci, věková klasifikace); popis Dualgram Pro v americkém App Store (id1481349660); FAQ a uživatelská příručka na dualgram.com; vyhledávání „Dualgram“ na Google Play a stránka vývojáře Just2us; stránky contentcam.app: ceník a podpora. Ověřeno 6. listopadu 2026.</p>
     </article>
   </main>
 <!-- @footer -->
