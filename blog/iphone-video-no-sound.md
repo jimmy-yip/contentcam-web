@@ -83,7 +83,7 @@ Not if the file recorded no audio, because there is nothing in it to recover. Yo
 
 **Try ContentCam free.** A camera app that won't start recording without microphone access, keeps the video rolling with a silent gap when a call takes the microphone, and records vertical and horizontal in one take. No ads, no watermark, iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-video-no-sound&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-video-no-sound)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-video-no-sound&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-video-no-sound)
 
 Related: [why phone video audio sounds bad](https://contentcam.app/blog/why-phone-video-audio-sounds-bad/) · [iPhone video stopped recording by itself](https://contentcam.app/blog/iphone-video-stopped-recording-by-itself/) · [lavalier vs shotgun mic](https://contentcam.app/blog/lavalier-vs-shotgun-mic-phone/) · [video not in Photos after recording](https://contentcam.app/blog/iphone-video-not-in-photos-after-recording/)
 

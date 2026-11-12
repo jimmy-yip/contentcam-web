@@ -90,7 +90,7 @@ Only if the 4K came from the cameras. A 3840 x 2160 file built from HD feeds has
 
 **Try ContentCam free.** Front & Back records the selfie and rear cameras as two separate files, in 4K on supported iPhones, on every iPhone with iOS 18 and on capable Android phones, and the layout is your choice afterwards. No ads, no watermark.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-4k-front-and-back-camera&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-4k-front-and-back-camera-same-time)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-4k-front-and-back-camera&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-4k-front-and-back-camera-same-time)
 
 Related: [iPhone 17 Dual Capture limitations](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) · [recording front and back at the same time on iPhone](https://contentcam.app/blog/record-front-and-back-camera-same-time-iphone/) · [front and back on iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/) · [do you need to film in 4K](https://contentcam.app/blog/do-you-need-to-film-in-4k/)
 

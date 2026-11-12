@@ -88,7 +88,7 @@ Only by cropping. The Photos app can crop a vertical clip to a wide shape, but i
 
 **Try ContentCam free.** Records vertical and horizontal in one take, so there is nothing to convert afterwards. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-convert-vertical-to-horizontal&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dconvert-vertical-video-to-horizontal)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-convert-vertical-to-horizontal&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dconvert-vertical-video-to-horizontal)
 
 Related: [why cropping vertical to horizontal looks wrong](https://contentcam.app/blog/why-cropping-vertical-to-horizontal-looks-wrong/) · [vertical vs horizontal video, and which to shoot](https://contentcam.app/blog/why-cropping-vertical-to-horizontal-looks-wrong/) · [how to record portrait and landscape at the same time on iPhone](https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-iphone/) · [how to record landscape video on iPhone](https://contentcam.app/blog/how-to-record-landscape-video-on-iphone/).
 

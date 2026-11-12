@@ -70,7 +70,7 @@ No. The DoubleTake App Store listing says 1080p is the maximum resolution for it
 
 **Try ContentCam free.** Front and back in one take as two separate files, plus vertical and wide from a single shoot. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-doubletake-not-working-alternatives&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddoubletake-not-working-alternatives)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-doubletake-not-working-alternatives&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddoubletake-not-working-alternatives)
 
 Related: [DoubleTake vs ContentCam](https://contentcam.app/blog/doubletake-vs-contentcam/) · [what happened to Filmic Pro](https://contentcam.app/blog/what-happened-to-filmic-pro/) · [which iPhones have Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) · [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/)
 

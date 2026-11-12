@@ -81,7 +81,7 @@ Apple announced it on 9 September 2026 (10 September in Australia). Pre-orders o
 
 **Try ContentCam free.** Front and back as two separate videos, and vertical and horizontal from one take. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-duo-camera&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-duo-camera)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-duo-camera&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-duo-camera)
 
 Related: [which iPhones have Dual Capture, and its limits](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) · [how to record front and back camera at the same time on iPhone](https://contentcam.app/blog/record-front-and-back-camera-same-time-iphone/) · [the dual camera effect on any phone](https://contentcam.app/blog/dual-camera-effect/) · [how to film yourself](https://contentcam.app/blog/how-to-film-yourself/).
 

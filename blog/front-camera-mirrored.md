@@ -86,6 +86,6 @@ When the front camera is the right choice, because you're walking, reacting or n
 
 **Try ContentCam free.** Records a 9:16 vertical file and a 16:9 wide file from one take, front camera included. On iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-front-camera-mirrored&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfront-camera-mirrored)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-front-camera-mirrored&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfront-camera-mirrored)
 
 Related: [how to film yourself with a phone](https://contentcam.app/blog/how-to-film-yourself/) · [filming a talking head at home](https://contentcam.app/blog/talking-head-video-at-home/) · [filming low light video on a phone](https://contentcam.app/blog/film-low-light-video-phone/) · [the dual camera effect](https://contentcam.app/blog/dual-camera-effect/)

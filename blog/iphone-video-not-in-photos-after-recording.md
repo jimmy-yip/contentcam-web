@@ -43,7 +43,7 @@ Use File Sharing. On a Mac with macOS Catalina or later, connect the iPhone with
 
 DualShot Recorder (DDJR Productions, version 3.1.2) has users reporting exactly this. In the app's own Telegram support group, one user recorded a 38-minute 4K interview on 23 October 2026: the video never appeared in Photos or the Files app, while iPhone Storage showed DualShot's Documents & Data at 48.46 GB. Exporting the app's data from a computer only worked through a full phone backup, which needed space they didn't have. A second user reported a recording missing from Photos on 3 November. The answers in the group came from other users, one of whom wrote that they don't work for the company. None of the replies we saw came from the developer.
 
-DualShot Recorder was last updated on 5 June 2026 and holds 4.7 stars from about 1,900 US ratings. Settings screens that users shared show a "Save Media to" choice between Files and Photo Library; the user with the missing interview said their copy didn't show those settings. If this happened to you, check iPhone Storage, check for a DualShot folder under On My iPhone in Files and in Finder's Files tab, and don't delete the app. More on the two apps side by side: [DualShot Recorder vs ContentCam](https://contentcam.app/blog/dualshot-recorder-vs-contentcam/).
+DualShot Recorder was last updated on 5 June 2026. Settings screens that users shared show a "Save Media to" choice between Files and Photo Library; the user with the missing interview said their copy didn't show those settings. If this happened to you, check iPhone Storage, check for a DualShot folder under On My iPhone in Files and in Finder's Files tab, and don't delete the app. More on the two apps side by side: [DualShot Recorder vs ContentCam](https://contentcam.app/blog/dualshot-recorder-vs-contentcam/).
 
 ## How do I stop a recording going missing next time?
 
@@ -71,7 +71,7 @@ DualShot Recorder users have reported finished recordings that never appeared in
 
 **Try ContentCam free.** Every take lands in the Files app the moment you stop, vertical and horizontal from one recording, front and back too. No ads, no watermark, iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-video-not-in-photos&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-video-not-in-photos-after-recording)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-video-not-in-photos&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-video-not-in-photos-after-recording)
 
 Related: [why an iPhone video stops recording by itself](https://contentcam.app/blog/iphone-video-stopped-recording-by-itself/) · [DualShot Recorder vs ContentCam](https://contentcam.app/blog/dualshot-recorder-vs-contentcam/) · [record long videos without overheating](https://contentcam.app/blog/record-long-video-iphone-without-overheating/)
 

@@ -30,7 +30,7 @@ Every MixCam claim below comes from MixCam's App Store and Google Play listings 
 
 ## What is MixCam built for?
 
-MixCam is built for a quick finished dual-camera clip. MixCam has been on the App Store since September 2019, holds 4.7 stars from about 6,000 US ratings, still runs on iOS 15 (iPhone XS, XR and later), and adds a Group Photo mode, full-screen camera switching mid-take, Action Mode and Center Stage support. On Android phones that cannot run two cameras, MixCam offers a dual-camera effect using your own video or photo.
+MixCam is built for a quick finished dual-camera clip. MixCam runs on iOS 15 (iPhone XS, XR and later), and adds a Group Photo mode, full-screen camera switching mid-take, Action Mode and Center Stage support. On Android phones that cannot run two cameras, MixCam offers a dual-camera effect using your own video or photo.
 
 ## How do they compare spec by spec?
 
@@ -77,7 +77,7 @@ Neither MixCam listing describes saving a 9:16 and a 16:9 file from one take. Co
 
 **Try ContentCam free.** Front and back in one take as two separate files, plus vertical and wide from a single shoot. No ads, no watermark. On iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=vs-mixcam&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dvs%26utm_campaign%3Dvs-mixcam)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=vs-mixcam&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dvs%26utm_campaign%3Dvs-mixcam)
 
 Related: [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/) · [dual camera apps without ads](https://contentcam.app/blog/dual-camera-app-without-ads/) · [SplitRig vs ContentCam](https://contentcam.app/blog/splitrig-vs-contentcam/)
 

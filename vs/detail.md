@@ -67,7 +67,7 @@ Not as two files at once. Detail's changelog says you can switch a recording bet
 
 **Try ContentCam free.** Vertical and wide from a single take, front and back as two separate files. No ads, no watermark. On iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=vs-detail&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dvs%26utm_campaign%3Dvs-detail)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=vs-detail&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dvs%26utm_campaign%3Dvs-detail)
 
 Related: [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/) · [filming a reaction video on your phone](https://contentcam.app/blog/film-reaction-video-phone/) · [SplitRig vs ContentCam](https://contentcam.app/blog/splitrig-vs-contentcam/)
 

@@ -95,4 +95,4 @@ If there is a term you keep hitting that is not here, [email me](mailto:contentc
 - [iPhone manual camera controls for video](https://contentcam.app/blog/iphone-manual-camera-controls-video/)
 - [Mobile videography tips](https://contentcam.app/blog/mobile-videography-tips/)
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android).
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android).

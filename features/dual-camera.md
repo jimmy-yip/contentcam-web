@@ -58,4 +58,4 @@ Running two cameras costs more power than one, yes. For long sessions, Single Le
 
 Read next: [How to record portrait and landscape at the same time](https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-iphone/)
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android).
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android).

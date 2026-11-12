@@ -81,7 +81,7 @@ Only on HDR screens, where you lose some highlight range. On most social feeds a
 
 **Try ContentCam free.** Records vertical and horizontal at the same time, on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-video-orange-hdr&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-video-orange-washed-out-hdr)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-video-orange-hdr&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-video-orange-washed-out-hdr)
 
 Related: [best iPhone video settings for Instagram Reels](https://contentcam.app/blog/iphone-video-settings-for-instagram/) · [High Efficiency vs Most Compatible on iPhone](https://contentcam.app/blog/iphone-high-efficiency-vs-most-compatible/) · [the phone video settings cheat sheet](https://contentcam.app/blog/phone-video-cheat-sheet/) · [video terms explained](https://contentcam.app/blog/video-terms-explained/) · [iPhone video settings for landscape](https://contentcam.app/blog/how-to-record-landscape-video-on-iphone/).
 

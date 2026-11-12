@@ -80,6 +80,6 @@ Set shutter angle to 180 degrees, or shutter speed to double your frame rate, so
 
 **Try ContentCam free.** Manual exposure, white balance and shutter, on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-light-video-no-windows&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dlight-video-no-windows)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-light-video-no-windows&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dlight-video-no-windows)
 
 Related: [filming video in low light](https://contentcam.app/blog/film-low-light-video-phone/) · [filming a talking head at home](https://contentcam.app/blog/talking-head-video-at-home/) · [manual camera controls explained](https://contentcam.app/blog/iphone-manual-camera-controls-video/) · [filming a GRWM video on your phone](https://contentcam.app/blog/film-grwm-video-phone/)

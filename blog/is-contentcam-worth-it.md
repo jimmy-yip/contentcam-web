@@ -105,7 +105,7 @@ Yes. ContentCam is on iPhone (iOS 18 or later, iPhone XS and newer) and Android,
 
 **Try ContentCam free.** Unlimited portrait and landscape recording in one take, no ads, no watermark, no account. iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-is-contentcam-worth-it&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dis-contentcam-worth-it)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-is-contentcam-worth-it&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dis-contentcam-worth-it)
 
 Related: [ContentCam pricing](https://contentcam.app/pricing/) · [dual camera apps with a one-time purchase](https://contentcam.app/blog/dual-camera-app-one-time-purchase/) · [dual camera apps without ads](https://contentcam.app/blog/dual-camera-app-without-ads/) · [ContentCam compared](https://contentcam.app/vs/)
 

@@ -74,7 +74,7 @@ Enhanced Stabilization crops in slightly to stabilise the picture. It's on by de
 
 **Try ContentCam free.** Records vertical and horizontal at the same time, on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-switching-lenses&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-camera-switching-lenses-while-recording)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-switching-lenses&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-camera-switching-lenses-while-recording)
 
 Related: [iPhone video settings for landscape](https://contentcam.app/blog/how-to-record-landscape-video-on-iphone/) · [iPhone manual camera controls for video](https://contentcam.app/blog/iphone-manual-camera-controls-video/) · [why iPhone video looks choppy in low light](https://contentcam.app/blog/iphone-video-choppy-low-light-auto-fps/) · [switching between the front and back camera while recording](https://contentcam.app/blog/switch-camera-while-recording-iphone/).
 

@@ -79,6 +79,6 @@ Clap once, on camera, at the start of the recording. It gives you a spike in bot
 
 **Try ContentCam free.** Records vertical and horizontal at the same time, on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-two-person-interview-one-phone&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dtwo-person-interview-one-phone)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-two-person-interview-one-phone&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dtwo-person-interview-one-phone)
 
 Related: [lavalier vs shotgun mic](https://contentcam.app/blog/lavalier-vs-shotgun-mic-phone/) · [lighting a video with no windows](https://contentcam.app/blog/light-video-no-windows/) · [filming a talking head at home](https://contentcam.app/blog/talking-head-video-at-home/) · [filming a podcast with two phones](https://contentcam.app/blog/film-podcast-with-two-phones/)

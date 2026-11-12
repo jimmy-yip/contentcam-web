@@ -79,7 +79,7 @@ On iPhone, every model that runs iOS 18 or later, from iPhone XS and XR onwards,
 
 **Try ContentCam free.** Front and back from one press as separate files, plus vertical and wide video from a single shoot. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-front-back-photo&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfront-back-photo)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-front-back-photo&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfront-back-photo)
 
 Related: [front and back video on iPhone](https://contentcam.app/blog/record-front-and-back-camera-same-time-iphone/) · [front and back video on Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/) · [which iPhones have Dual Capture](https://contentcam.app/blog/iphone-17-dual-capture-limitations/) · [how to take a Snap with the front and back camera](https://contentcam.app/blog/snapchat-front-and-back-camera/) · [a BeReal-style photo without BeReal](https://contentcam.app/blog/bereal-style-photo-without-bereal/)
 

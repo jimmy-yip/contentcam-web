@@ -71,7 +71,7 @@ No ads and no watermark, on the free tier or Premium. Free records a 9:16 and a 
 
 **Try ContentCam free.** No ads and no watermark. Front and back in one take as two separate files, plus vertical and wide from a single shoot. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-dual-camera-app-without-ads&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddual-camera-app-without-ads)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-dual-camera-app-without-ads&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddual-camera-app-without-ads)
 
 Related: [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/) · [front and back at once on Android](https://contentcam.app/blog/record-front-and-back-camera-same-time-android/) · [front and back at once on iPhone](https://contentcam.app/blog/record-front-and-back-camera-same-time-iphone/) · [front and back on iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/) · [SplitRig vs ContentCam](https://contentcam.app/blog/splitrig-vs-contentcam/)
 

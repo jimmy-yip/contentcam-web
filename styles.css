@@ -276,6 +276,8 @@ article.post blockquote { border-left: 3px solid var(--amber); padding: 4px 0 4p
 article.post code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; background: var(--surface-2); padding: 1px 6px; border-radius: 5px; color: var(--amber-ink); }
 .post-cta { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; margin: 34px 0; }
 .post-cta p { margin-bottom: 14px; color: var(--ink); }
+.post-cta p:first-child strong { color: var(--cyan-ink); }
+.post-cta .cta-proof .star { color: var(--amber); }
 
 /* ---------- Legal / long-form ---------- */
 .legal { padding: 48px 0 64px; max-width: 760px; margin: 0 auto; }

@@ -91,7 +91,7 @@ Neither SplitRig's App Store listing nor splitrig.com describes saving a 9:16 an
 
 **Try ContentCam free.** Front and back in one take as two separate files, plus vertical and wide from a single shoot. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-splitrig-vs-contentcam&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dsplitrig-vs-contentcam)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-splitrig-vs-contentcam&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dsplitrig-vs-contentcam)
 
 Related: [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/) · [dual camera apps without ads](https://contentcam.app/blog/dual-camera-app-without-ads/) · [front and back on iPhone 15 and 16](https://contentcam.app/blog/record-front-and-back-camera-iphone-15-16/)
 

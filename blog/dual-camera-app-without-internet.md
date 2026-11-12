@@ -62,7 +62,7 @@ ContentCam is free to download with 5 free Front & Back recordings, then Premium
 
 **Try ContentCam free.** Front and back in one take as two separate files, plus vertical and wide from a single shoot, with no internet and no account. Free to download on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-dual-camera-without-internet&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddual-camera-app-without-internet)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-dual-camera-without-internet&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Ddual-camera-app-without-internet)
 
 Related: [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/) · [dual camera apps with no ads](https://contentcam.app/blog/dual-camera-app-without-ads/) · [SplitRig vs ContentCam](https://contentcam.app/blog/splitrig-vs-contentcam/) · [travel and food content for every platform](https://contentcam.app/blog/film-travel-food-content-every-platform/)
 

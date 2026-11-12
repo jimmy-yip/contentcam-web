@@ -74,7 +74,7 @@ It makes it smoother but noisier. At 30 fps each frame gets 25% less exposure ti
 
 **Try ContentCam free.** Records vertical and horizontal at the same time, on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-video-choppy-auto-fps&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-video-choppy-low-light-auto-fps)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-video-choppy-auto-fps&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-video-choppy-low-light-auto-fps)
 
 Related: [24 vs 30 vs 60 fps for social media](https://contentcam.app/blog/24fps-vs-30fps-vs-60fps-social-media/) · [how to film low light video on a phone](https://contentcam.app/blog/film-low-light-video-phone/) · [why the iPhone switches lenses while recording](https://contentcam.app/blog/iphone-camera-switching-lenses-while-recording/) · [recording long videos on iPhone without overheating](https://contentcam.app/blog/record-long-video-iphone-without-overheating/) · [why an iPhone video stops recording by itself](https://contentcam.app/blog/iphone-video-stopped-recording-by-itself/)
 

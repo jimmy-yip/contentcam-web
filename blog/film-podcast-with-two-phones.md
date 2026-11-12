@@ -67,6 +67,6 @@ Heat is the one that surprises people. A phone recording high resolution video f
 
 **Try ContentCam free.** Records vertical and horizontal at the same time, on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-film-podcast-with-two-phones&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfilm-podcast-with-two-phones)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-film-podcast-with-two-phones&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Dfilm-podcast-with-two-phones)
 
 Related: [filming a two person interview with one phone](https://contentcam.app/blog/two-person-interview-one-phone/) · [lavalier vs shotgun mic](https://contentcam.app/blog/lavalier-vs-shotgun-mic-phone/) · [filming a talking head at home](https://contentcam.app/blog/talking-head-video-at-home/)

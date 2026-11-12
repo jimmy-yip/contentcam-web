@@ -30,7 +30,7 @@ Every 2Cam claim below comes from 2Cam's App Store listing (version 1.5.2, relea
 
 ## What is 2Cam built for?
 
-2Cam is built for a finished picture-in-picture clip with a script in front of you. It adds a built-in teleprompter with speed, font size and colour settings, several picture-in-picture shapes, an in-app gallery, volume-button recording, 33 languages and support back to iOS 15.2. 2Cam has been on the App Store since December 2022 and holds 4.6 stars from 924 US ratings.
+2Cam is built for a finished picture-in-picture clip with a script in front of you. It adds a built-in teleprompter with speed, font size and colour settings, several picture-in-picture shapes, an in-app gallery, volume-button recording, 33 languages and support back to iOS 15.2.
 
 ## How do they compare spec by spec?
 
@@ -78,7 +78,7 @@ Yes. 2Cam Dual Camera Double Video is on Google Play from the same developer, Vi
 
 **Try ContentCam free.** Front and back in one take as two separate files, plus vertical and wide from a single shoot. No ads, no watermark. On iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=vs-2cam&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dvs%26utm_campaign%3Dvs-2cam)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=vs-2cam&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dvs%26utm_campaign%3Dvs-2cam)
 
 Related: [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/) · [dual camera apps without ads](https://contentcam.app/blog/dual-camera-app-without-ads/) · [ContentCam vs MixCam](https://contentcam.app/vs/mixcam/)
 

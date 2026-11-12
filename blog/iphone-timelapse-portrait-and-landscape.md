@@ -59,6 +59,6 @@ Practical notes from how it's built: timelapse runs single-lens at 30fps output,
 
 **One session, two timelapses.** ContentCam's dual-format timelapse is on iPhone and Android.
 
-★ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-timelapse&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-timelapse-portrait-and-landscape)
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=b-iphone-timelapse&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dblog%26utm_campaign%3Diphone-timelapse-portrait-and-landscape)
 
 Related: [Manual controls explained](https://contentcam.app/blog/iphone-manual-camera-controls-video/) · [How dual-format recording works](https://contentcam.app/blog/record-portrait-and-landscape-video-same-time-iphone/)
