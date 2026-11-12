@@ -76,7 +76,7 @@ There are two distinct app categories people call "dual camera," and ContentCam 
 
 1. Front-and-back / "dual camera effect" apps record the front and rear cameras at once and composite them into one video (your face as an inset over the main shot, or a split screen). Used for reactions, vlogs and POV. Leading apps, all iPhone-only:
    - MixCam (Mixcord Inc.): front + back into one video, PiP/split/crossover, action-mode stabilisation, Center Stage, group-photo mode. Free with subscription. Well rated, iOS only.
-   - Dualgram (Just2us Pte Ltd): front + back multi-cam; saves the composite plus both original files; PiP and split-screen 1:1 / 1:2; up to 4K60; has a teleprompter; photo and video. Free with subscription. iOS only.
+   - Dualgram (Just2us Pte Ltd): front + back multi-cam; PiP and split-screen; free version has ads and a watermark; saving the front and back originals, layouts, the teleprompter and microphone options are PRO. Hands-on test of v2.5 on 12 Nov 2026: 4K 60 fps 'not supported' on either camera, 4K 30 fps on both warns, 1080p 60 fps on both drops the front camera to 720p; no tap to focus or AE/AF lock; teleprompter doesn't auto-scroll. iOS only.
    - DoubleTake (Bending Spoons Apps, formerly Filmic): two-camera multicam with PiP and shot/reverse-shot. Free. iOS/iPad only, last updated March 2025 (effectively unmaintained) and restricted to older-hardware multicam; lowest user rating of the group.
 
 2. Dual-format apps record one scene once and output a separate 9:16 vertical file and a separate 16:9 horizontal file for cross-posting:

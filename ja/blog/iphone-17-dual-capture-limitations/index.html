@@ -215,7 +215,7 @@
           </tbody>
         </table>
       </div>
-      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">顔出しでしゃべる動画なら30fpsで十分</a>ですが、スローにする余地は残りません。2つのカメラの同時使用は、OSによって制限されています。Appleの<a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a>のドキュメントには「この限られたフォーマットだけが、マルチカメラの撮影で持続的に動作できる」とあり、確認したiPhoneでは、こうしたフォーマットに4K 60fpsのものはひとつもありませんでした。iOS 2.9から、ContentCamの前後カメラ（Front/Back）は対応iPhoneで<strong>4K</strong>録画でき、HDなら対応するiPhoneで<strong>最大60fps</strong>で録画できます（60fpsはPremiumの機能で、古いiPhoneの一部は30fpsまでです）。</p>
+      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">顔出しでしゃべる動画なら30fpsで十分</a>ですが、スローにする余地は残りません。2つのカメラの同時使用は、OSによって制限されています。Appleの<a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a>のドキュメントには「この限られたフォーマットだけが、マルチカメラの撮影で持続的に動作できる」とあり、確認したiPhoneでは、こうしたフォーマットに4K 60fpsのものはひとつもありませんでした。iOS 2.9から、ContentCamの前後カメラ（Front/Back）は対応iPhoneで<strong>4K</strong>録画でき、対応するiPhoneで<strong>最大60fps</strong>で録画できます（60fpsはPremiumの機能で、古いiPhoneの一部は30fpsまでです）。</p>
 
       <h2>Dual Captureは2つの動画ファイルに分かれて保存される？</h2>
       <p>いいえ。Appleの資料はどれも、合成済みの1つの録画を示しています。仕様は1行、イラストのフレームは1つ、そしてフロントカメラの映像はその中のウインドウとして説明されています。ファイル数についての公式な説明はないので、5秒録画して「写真」アプリで項目の数を数えてみてください。</p>

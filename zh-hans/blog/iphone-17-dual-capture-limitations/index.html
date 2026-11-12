@@ -214,7 +214,7 @@
           </tbody>
         </table>
       </div>
-      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">拍口播 30 fps 足够了</a>，但没有余量做慢放。两颗摄像头同时工作时，系统会限制可用的格式：苹果关于 <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> 的文档写道“Only this limited subset of capture formats can run sustainably in a multi-camera capture scenario”（在多摄像头拍摄场景中，只有这一小部分拍摄格式能持续运行），而在我们检查过的 iPhone 上，这些格式里没有一个是 4K 60 fps。从 iOS 2.9 起，ContentCam 的前后摄像头（Front/Back）模式在支持的 iPhone 上以 <strong>4K</strong> 录制，HD 下在支持的 iPhone 上<strong>最高可录 60 fps</strong>（60 fps 需要 Premium，部分旧款 iPhone 最高只有 30 fps）。</p>
+      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">拍口播 30 fps 足够了</a>，但没有余量做慢放。两颗摄像头同时工作时，系统会限制可用的格式：苹果关于 <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> 的文档写道“Only this limited subset of capture formats can run sustainably in a multi-camera capture scenario”（在多摄像头拍摄场景中，只有这一小部分拍摄格式能持续运行），而在我们检查过的 iPhone 上，这些格式里没有一个是 4K 60 fps。从 iOS 2.9 起，ContentCam 的前后摄像头（Front/Back）模式在支持的 iPhone 上以 <strong>4K</strong> 录制，在支持的 iPhone 上<strong>最高可录 60 fps</strong>（60 fps 需要 Premium，部分旧款 iPhone 最高只有 30 fps）。</p>
 
       <h2>双重拍摄会生成两个独立的视频文件吗？</h2>
       <p>不会。苹果的所有文档都指向一段合成后的录像：一行规格说明，配图里只有一个画面，前置摄像头被描述为画面里的一个小窗。苹果没有公开说明文件数量；你可以录 5 秒，然后去“照片”里数一数有几个项目。</p>

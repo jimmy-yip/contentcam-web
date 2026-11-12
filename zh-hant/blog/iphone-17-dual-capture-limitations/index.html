@@ -214,7 +214,7 @@
           </tbody>
         </table>
       </div>
-      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">30 fps 拍對著鏡頭講話的影片沒問題</a>，但就沒有餘裕做慢動作。兩顆鏡頭同時運作時，作業系統會限制資源：Apple 在 <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> 的文件中寫道「只有這一小部分拍攝格式能在多鏡頭拍攝情境下持續運作」，而在我們檢查過的 iPhone 上，這些格式沒有一個是 4K 60 fps。從 iOS 2.9 起，ContentCam 的前後鏡頭模式在支援的 iPhone 上以 <strong>4K</strong> 錄影，錄 HD 時在支援的 iPhone 上<strong>最高可錄 60 fps</strong>（60 fps 需要 Premium，部分舊款 iPhone 上限是 30 fps）。</p>
+      <p><a href="/blog/24fps-vs-30fps-vs-60fps-social-media/">30 fps 拍對著鏡頭講話的影片沒問題</a>，但就沒有餘裕做慢動作。兩顆鏡頭同時運作時，作業系統會限制資源：Apple 在 <a href="https://developer.apple.com/documentation/avfoundation/avcapturedevice/format/ismulticamsupported"><code>isMultiCamSupported</code></a> 的文件中寫道「只有這一小部分拍攝格式能在多鏡頭拍攝情境下持續運作」，而在我們檢查過的 iPhone 上，這些格式沒有一個是 4K 60 fps。從 iOS 2.9 起，ContentCam 的前後鏡頭模式在支援的 iPhone 上以 <strong>4K</strong> 錄影，在支援的 iPhone 上<strong>最高可錄 60 fps</strong>（60 fps 需要 Premium，部分舊款 iPhone 上限是 30 fps）。</p>
 
       <h2>雙重拍攝會存成兩個獨立的影片檔嗎？</h2>
       <p>不會。Apple 的所有文件都指向一段合成好的錄影：一行規格、插圖裡一個畫面、前鏡頭被描述為畫面裡的一個視窗。Apple 沒有公開說明檔案數量；錄個五秒，再到「照片」裡數一數就知道。</p>

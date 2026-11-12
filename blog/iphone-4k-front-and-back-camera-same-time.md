@@ -27,6 +27,8 @@ Read the qualifiers. DualCam's listing says "depending on device and mode" and a
 
 Dualgram and DualCam both pair 4K with 60 fps. On the iPhone 18 Pro, Apple flags no 4K format at 60 fps for multi-camera use, so on that phone the 4K and the 60 fps can't both apply while two cameras are recording.
 
+I tested Dualgram 2.5 on 12 November 2026. It flags 4K at 60 fps as "not supported" on both cameras, warns at 4K 30 fps on both, and drops the front camera to 720p when both run at 1080p 60 fps. The screenshots are in [ContentCam vs Dualgram](https://contentcam.app/vs/dualgram/).
+
 ## What does Apple let third-party apps record with two cameras?
 
 Apple limits third-party apps to a smaller set of camera formats whenever two cameras run together. Apple's documentation for AVCaptureDevice.Format.isMultiCamSupported says that with a multi-camera session "you may only set the device's format to one in which isMultiCamSupported is true. Only this limited subset of capture formats can run sustainably in a multi-camera capture scenario."

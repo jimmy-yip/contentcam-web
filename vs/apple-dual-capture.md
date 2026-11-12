@@ -43,7 +43,7 @@ Apple Dual Capture is built for a finished clip with nothing to install: it is f
 | Front and back at the same time | Yes, every iPhone on iOS 18 (incl. iPhone 15 and 16) and capable Android phones | Yes, on the seven listed iPhones |
 | Portrait and landscape from one take | Yes, 9:16 and 16:9 as two files | Not described by Apple |
 | Separate front and back files | Yes, two files; Combine makes the layout afterwards | One frame, front camera as a window in the top-left (Apple's guide) |
-| Max frame rate, front and back | 60fps in HD on supported iPhones; 30fps on Android | 30fps |
+| Max frame rate, front and back | 60fps on supported iPhones; 30fps on Android | 30fps |
 | Manual controls | Exposure, white balance, ISO, shutter | Not described in Apple's Dual Capture steps |
 
 More apps are compared in [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/).
