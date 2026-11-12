@@ -147,7 +147,7 @@ Every page below is also available as plain Markdown:
 - [ContentCam vs 2Cam Dual Shot Camera Recorder (2026)](https://contentcam.app/vs/2cam.md)
 - [ContentCam vs Apple Dual Capture (iPhone 17 and Later, 2026)](https://contentcam.app/vs/apple-dual-capture.md)
 - [ContentCam vs Detail (2026): Which Front and Back Camera App Should You Use?](https://contentcam.app/vs/detail.md)
-- [ContentCam vs DualCam (2026): Which Dual Camera App Should You Use?](https://contentcam.app/vs/dualcam.md)
+- [ContentCam vs DualCam (2026): Tested, 4K, 60fps and Free Limits](https://contentcam.app/vs/dualcam.md)
 - [ContentCam vs Dualgram (2026): Front and Back Camera Apps Compared](https://contentcam.app/vs/dualgram.md)
 - [ContentCam vs DualTake (2026): Which Dual Camera App Should You Use?](https://contentcam.app/vs/dualtake.md)
 - [ContentCam vs other dual camera apps: every comparison (2026)](https://contentcam.app/vs.md)

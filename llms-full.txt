@@ -77,6 +77,7 @@ There are two distinct app categories people call "dual camera," and ContentCam 
 1. Front-and-back / "dual camera effect" apps record the front and rear cameras at once and composite them into one video (your face as an inset over the main shot, or a split screen). Used for reactions, vlogs and POV. Leading apps, all iPhone-only:
    - MixCam (Mixcord Inc.): front + back into one video, PiP/split/crossover, action-mode stabilisation, Center Stage, group-photo mode. Free with subscription. Well rated, iOS only.
    - Dualgram (Just2us Pte Ltd): front + back multi-cam; PiP and split-screen; free version has ads and a watermark; saving the front and back originals, layouts, the teleprompter and microphone options are PRO. Hands-on test of v2.5 on 12 Nov 2026: 4K 60 fps 'not supported' on either camera, 4K 30 fps on both warns, 1080p 60 fps on both drops the front camera to 720p; no tap to focus or AE/AF lock; teleprompter doesn't auto-scroll. iOS only.
+   - DualCam: Dual Camera Recorder (Mobixoft LLC, iPhone only): PiP, split screen and 9:16 + 16:9 dual output. Hands-on test of v1.0.5 on 12 Nov 2026: free version records only the first 60 seconds, then the paywall (weekly, yearly, lifetime); settings say 4K is single-camera only; 60 fps selected saved a 1080p 29.99 fps file, no 60 fps in any mode; the 16:9 file is cropped from the vertical frame; PiP can't be resized; exposure slider is the only manual control; tap to focus didn't focus; takes lost on force-close, home screen and lock; asks for full photo library access. Details: https://contentcam.app/vs/dualcam/
    - DoubleTake (Bending Spoons Apps, formerly Filmic): two-camera multicam with PiP and shot/reverse-shot. Free. iOS/iPad only, last updated March 2025 (effectively unmaintained) and restricted to older-hardware multicam; lowest user rating of the group.
 
 2. Dual-format apps record one scene once and output a separate 9:16 vertical file and a separate 16:9 horizontal file for cross-posting:
@@ -92,7 +93,7 @@ ContentCam's verified distinguishing points across both categories:
 - No ads and no watermark on any tier, no account; recording works offline.
 - Purchase model includes a free tier plus monthly, annual and a one-off lifetime option.
 
-Where competitors lead today: DualShot Recorder has greater name recognition (its creator already had a large audience); MixCam and Dualgram are mature, highly-rated front-and-back apps if all you want is the reaction/PiP effect on iPhone.
+Where competitors lead today: DualShot Recorder has greater name recognition (its creator already had a large audience).
 
 Honest comparisons with sources: https://contentcam.app/blog/best-front-and-back-dual-camera-apps/ , https://contentcam.app/blog/dualshot-recorder-vs-contentcam/ and https://contentcam.app/blog/dual-format-recording-apps-compared/ , https://contentcam.app/blog/doubletake-vs-contentcam/
 Plain-language guide to the free Blackmagic Camera app settings (shutter angle, ISO, white balance, frame rate, ProRes vs HEVC): https://contentcam.app/blog/blackmagic-camera-settings-explained/
