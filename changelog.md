@@ -2,13 +2,31 @@
 
 Source: https://contentcam.app/changelog/
 
-Every ContentCam update, newest first: iPhone (iOS 2.8.1, November 2026) and Android (2.7.0, October 2026). A new update every 1 to 2 weeks on each platform: 27 iPhone and 16 Android releases since May 2026.
+Every ContentCam update, newest first: iPhone (iOS 2.9, November 2026) and Android (2.7.1, November 2026). A new update every 1 to 2 weeks on each platform: 30 iPhone and 17 Android releases since May 2026.
 
-Last updated: 6 November 2026
+Last updated: 12 November 2026
 
-Is ContentCam still being updated? Yes: **a new update every 1 to 2 weeks on each platform**. That is 27 iPhone releases since the first one on 14 May 2026, and 16 Android releases since the Google Play launch on 8 June 2026. The current versions are **iOS 2.8.1** (4 November 2026) and **Android 2.7.0** (October 2026). Every update is listed below, newest first. ContentCam is built by Jimmy, a solo developer in Sydney, who reads every feature request and bug report.
+Is ContentCam still being updated? Yes: **a new update every 1 to 2 weeks on each platform**. That is 30 iPhone releases since the first one on 14 May 2026, and 17 Android releases since the Google Play launch on 8 June 2026. The current versions are **iOS 2.9** (12 November 2026) and **Android 2.7.1** (November 2026). Every update is listed below, newest first. ContentCam is built by Jimmy, a solo developer in Sydney, who reads every feature request and bug report.
 
 ## iPhone
+
+### iOS 2.9 · 12 November 2026
+
+- Apple Log: record flatter footage with more detail for colour grading, on iPhone 15 Pro and newer Pro models.
+- Dual Lens 4K: the vertical video can now record in 4K on supported iPhones.
+- Front & Back 4K: the back camera can record in 4K, vertical, on supported iPhones.
+- The telephoto lens is out of beta.
+- Rolling out gradually over 7 days from 12 November.
+
+### iOS 2.8.3 · 11 November 2026
+
+- The grid and crosshair show on every preview.
+- In Single Lens with the layout swapped, the big view takes tap-to-focus and pinch-to-zoom.
+- Select All in the library, and a clearer timelapse label.
+
+### iOS 2.8.2 · 6 November 2026
+
+- Maintenance and polish across recording and the library.
 
 ### iOS 2.8.1 · 4 November 2026
 
@@ -151,6 +169,11 @@ Is ContentCam still being updated? Yes: **a new update every 1 to 2 weeks on eac
 - First release: vertical 9:16 and horizontal 16:9 video at the same time, from one take.
 
 ## Android
+
+### Android 2.7.1 · November 2026
+
+- Stereo recording with two-mic wireless kits: plug in a stereo USB-C receiver and each mic gets its own channel.
+- Fixes a bug where takes could disappear after reopening the app in projects named in Japanese and other non-Latin scripts.
 
 ### Android 2.7.0 · October 2026
 
