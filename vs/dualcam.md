@@ -35,7 +35,7 @@ On 12 November 2026 I installed DualCam 1.0.5 from the App Store and tried every
 - **Full photo library access.** DualCam asks for full access to your Photo Library "to save your recordings and show your recent videos", and adds its own DualCam album to Photos. Full access lets an app see every photo and video you have, yet its privacy policy says "We do not access, read, or transmit any existing content in your photo library." Saving a video doesn't need full access. ContentCam only asks to add videos to Photos, so it can't see your library.
 - **An account you didn't make.** Settings has "Delete account and all data", but the app never asked me to sign up or mentioned an account. Its privacy policy explains that it creates an anonymous account for each install, and sends crash reports to Sentry, including your IP address and a short log of recent in-app actions. ContentCam has no account.
 - **Missing features.** No teleprompter, no Dual Lens mode (two rear lenses at once), no 25 or 50 fps, no timelapse, no Apple Log, no audio level meter, and no projects or take management. ContentCam has all of these.
-DualCam's paywall: the free version stops at 60 seconds. 4K and 60 fps selected; the saved file was 1080p at 29.99 fps. Dual-format mode: “60 fps unavailable”. The 16:9 file is the dashed box cut from inside the vertical frame. DualCam asks for full access to your photo library.
+DualCam's paywall: the free version stops at 60 seconds. Dual-format mode: “60 fps unavailable”. The 16:9 file is the dashed box cut from inside the vertical frame. 4K and 60 fps selected; the saved file was 1080p at 29.99 fps. DualCam asks for full access to your photo library.
 
 ## How does ContentCam do on the same checks?
 
