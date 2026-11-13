@@ -4,13 +4,7 @@ Source: https://contentcam.app/support/
 
 Answers to common ContentCam questions: device compatibility, what's free, dual-lens and front and back recording, 4K, file locations, subscriptions, refunds and more. Email support included.
 
-Answers to the questions people ask most, about devices, recording, files and purchases. If yours isn't here, email [contentcam.app@gmail.com](mailto:contentcam.app@gmail.com) or ask in the [Discord](https://discord.gg/YxUpbUgthH). Your phone model and what you were recording help me fix things faster.
-
-From the founder
-
-I'm Jimmy, and I build ContentCam on my own in Sydney. Every email, review and Discord message comes to me, and I answer them myself. If something breaks, tell me: updates ship every week or two, and your report is often what the next one fixes.
-
-**Jimmy Yip** · [see every update](https://contentcam.app/changelog/)
+ContentCam is built by one developer, and I read and answer every message myself. If your question isn't answered below, email [contentcam.app@gmail.com](mailto:contentcam.app@gmail.com) or ask in the [Discord](https://discord.gg/YxUpbUgthH). Your phone model and what you were recording help me fix things faster.
 
 ## Devices & compatibility Which iPhones does ContentCam support?
 
