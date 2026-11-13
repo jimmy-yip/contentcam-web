@@ -2,11 +2,11 @@
 
 Source: https://contentcam.app/blog/dualshot-recorder-vs-contentcam/
 
-DualShot Recorder vs ContentCam, checked 5 November 2026: watermark, free tier limits, Android, front and back recording, manual controls, lifetime purchase and update history.
+DualShot Recorder vs ContentCam, tested 13 November 2026: watermark, free tier limits, Android, front and back recording, manual controls, lifetime purchase and update history.
 
-By Jimmy, developer of ContentCam · 29 July 2026 · Updated 5 November 2026
+By Jimmy, developer of ContentCam · 29 July 2026 · Updated 13 November 2026
 
-**Disclosure first:** I build ContentCam, one of the two apps here, so I'm not a neutral party. Every claim about DualShot Recorder comes from its own App Store listing, its developer's website or its App Store reviews, all checked 5 November 2026. Where I give an opinion from using it, I flag it as mine. If anything's out of date, [email me](mailto:contentcam.app@gmail.com) and I'll fix it.
+I'm Jimmy and I build ContentCam. I tested DualShot Recorder 3.1.2 myself on 13 November 2026; everything marked "tested" comes from that session, and the rest from its App Store listing, its developer's website and its App Store reviews. Where I give an opinion, I flag it as mine. If anything's out of date, [email me](mailto:contentcam.app@gmail.com) and I'll fix it.
 
 For most people ContentCam is the better pick: it records 9:16 and 16:9 from one take on iPhone *and* Android, adds no watermark on the free tier, records the selfie and rear cameras at the same time, and still sells a one-time lifetime purchase. DualShot Recorder (also written "Dual Shot Recorder"), made by DDJR Productions, records the same two formats on iPhone only.
 
@@ -16,15 +16,21 @@ For most people ContentCam is the better pick: it records 9:16 and 16:9 from one
 | --- | --- | --- |
 | **Platforms** | iPhone + Android | iPhone only (Android "in development") |
 | **Records 9:16 + 16:9 in one take** | ✓ | ✓ |
-| **Watermark on the free tier** | None, free or Premium | Yes, "Standard DualShot watermark" |
-| **Free tier recording** | Both formats in HD, unlimited takes, no account | 1080p at 30fps, MP4, 60 seconds per clip |
+| **Watermark on the free tier** | None, free or Premium | Yes, a DualShot logo in the centre of the frame (tested) |
+| **Free tier recording** | Both formats in HD, unlimited takes, no account | 1080p, MP4, 60 seconds per clip, centre watermark; its site says 30fps, but my free takes saved at 24fps (tested 13 November 2026) |
 | **Selfie + rear camera at the same time** | ✓ Front & Back mode, two separate files | No, one camera at a time; its site says "Front or back camera, your call" |
 | **Full-frame 4:3 capture (not a centre crop)** | ✓ | Not stated on its listing |
-| **Manual controls** | Exposure, white balance, ISO, shutter | Manual ISO, tap to lock focus and exposure |
+| **Dual Lens (two lenses at once)** | ✓ Vertical and horizontal through two lenses, each framed on its own | No (tested) |
+| **Take kept if the phone locks, the app closes or a call comes in** | ✓ Keeps recording through auto-lock, restores a force-closed take | No, lost (tested) |
+| **4K at 60fps** | ✓ Single Lens, on supported iPhones | Set to 60fps, saved at 38 to 39fps (tested) |
+| **Cinematic stabilisation** | Free on iPhone, preview stays in real time | Advanced only; preview about 2 seconds behind (tested) |
+| **Manual controls** | Exposure, white balance, ISO, shutter; tap to focus, AE/AF lock on tap and hold, zoom dial | ISO and white balance, Advanced only, at 1x zoom only; tap always locks focus and exposure; pinch zoom only (tested) |
+| **Resize the picture-in-picture** | ✓ Drag, pinch or tap | Move only (tested) |
+| **Photo library access** | Add only, can't see your library | Asks for full access, and again on every launch if you limit it (tested) |
 | **Teleprompter · timelapse · 4K · 60fps** | ✓ | ✓ (4K and 60fps need Advanced) |
 | **Project / scene / take workflow** | ✓ with automatic file naming | Not listed |
 | **One-time lifetime purchase** | ✓ Alongside yearly and monthly | No: monthly or yearly subscription only |
-| **Last App Store update** | Actively updated (iOS 2.8.3, Android 2.7.0) | 3.1.2, 5 June 2026 ("Bug fixes and performance improvements") |
+| **Last App Store update** | Actively updated (iOS 2.9 on 12 November 2026, Android 2.7.1) | 3.1.2, 5 June 2026 ("Bug fixes and performance improvements") |
 
 ## Does DualShot Recorder put a watermark on free videos?
 
@@ -34,25 +40,30 @@ Yes. DDJR Productions' own website says DualShot Recorder's free Basic tier reco
 
 Some users report it: in the same 50 reviews, 3 describe recordings that stopped or never saved, and 2 describe audio out of sync. A 1-star review from 18 July 2026 reads "constantly crashing and not saving/restoring recorded content". DualShot Recorder's last update, 3.1.2 on 5 June 2026, is listed only as "Bug fixes and performance improvements", and the last version that added features was 3.0 on 2 May 2026 (teleprompter, manual ISO, stabilisation). Whichever app you choose, record a test take before a paid shoot.
 
+When I tested DualShot Recorder 3.1.2 myself on 13 November 2026, a take was lost every time the phone locked, the app closed or a call came in, and 4K at 60 fps saved at 38 to 39 fps. The full results, with screenshots, are in my [DualShot Recorder review](https://contentcam.app/blog/dualshot-recorder-review/).
+
 ## Can ContentCam record two cameras at once?
 
 Yes, in two ways. [Dual Lens](https://contentcam.app/features/dual-camera/) records the wide and ultra-wide cameras at the same time on iPhone 11 and later, so the portrait and landscape files can be genuinely different framings. Front & Back mode records the selfie and rear cameras at the same time as two separate files, on every iPhone that runs iOS 18 (including iPhone 15 and iPhone 16) and on Android phones that support it; the free tier includes 5 Front & Back recordings. In single-lens mode, ContentCam records the sensor's full 4:3 frame and cuts both formats from it, so the landscape keeps the full width instead of being a centre strip. DualShot Recorder records one camera at a time: the "front and back camera support" in its listing means either camera can be used, and its site puts it as "Front or back camera, your call".
 
 ContentCam's record and review screens: both framings while you shoot, then a clean side-by-side review.
 
-## Which app feels more finished? (my opinion)
+## Which app is more reliable?
 
-I'm biased, but ContentCam is the more complete tool: Dual Lens, Front & Back, the full manual panel (exposure, white balance, ISO *and* shutter), and a project, scene and take workflow with automatic file naming. DualShot Recorder felt more basic in my testing: the picture-in-picture preview lagged and the record button sat slightly off-centre, which a 17 August 2026 App Store review also mentions.
+In my test of DualShot Recorder 3.1.2 on 13 November 2026, a take was lost every time I locked the phone, went to the home screen, force-closed the app, opened Siri or took a call. 4K set to 60fps saved at 38.19 to 39.23fps, with choppy motion. Free takes saved at 24fps although its website promises 30, and the frame rate and lens settings reset between takes. With cinematic stabilisation on, the picture-in-picture ran about 2 seconds behind. The record button also sits left of centre, which a 17 August 2026 App Store review mentions too.
+
+ContentCam keeps recording through auto-lock and restores a force-closed take the next time you open it, and on iPhone every take can also be reached in the Files app. Its preview stays in real time with cinematic stabilisation on, and the free version has no watermark. In my opinion it's the more complete tool too: Dual Lens, Front & Back, the full manual panel (exposure, white balance, ISO *and* shutter), and a project, scene and take workflow with automatic file naming. Screenshots of every DualShot Recorder result are in my [DualShot Recorder review](https://contentcam.app/blog/dualshot-recorder-review/).
 
 ## Can you still buy DualShot Recorder once?
 
-Not as a new buyer. DualShot Recorder launched as a one-time purchase; version 3.1 (26 May 2026) made it free to download with optional subscriptions, and its App Store listing now shows only "Advanced Annual" and "Advance Monthly" in-app purchases. Version 2 buyers keep Advanced, per DDJR Productions. ContentCam keeps a [one-time lifetime purchase](https://contentcam.app/pricing/) alongside yearly and monthly plans, and all three get the same features.
+Not as a new buyer. DualShot Recorder launched as a one-time purchase; version 3.1 (26 May 2026) made it free to download with optional subscriptions, and its App Store listing now shows only "Advanced Annual" and "Advance Monthly" in-app purchases. Version 2 buyers keep Advanced, per DDJR Productions, and its website says the app detects the old purchase automatically. In practice, at least 17 App Store reviews since May say the app didn't recognise their purchase, and comments under DualShot Recorder's Instagram posts and in its Telegram support group describe emails that went unanswered, some since September. DualShot Recorder hasn't been updated since 5 June 2026. ContentCam keeps a [one-time lifetime purchase](https://contentcam.app/pricing/) alongside yearly and monthly plans, and all three get the same features.
 
 ## So which should you download?
 
 | If you… | Pick |
 | --- | --- |
 | Shoot on Android, or across iPhone + Android | ContentCam (DualShot Recorder is iPhone only) |
+| Film things you can't reshoot (interviews, client work, one-off moments) | ContentCam (DualShot Recorder lost takes on lock, app close or a call in my test) |
 | Want free recordings with no watermark | ContentCam |
 | Want the selfie and rear cameras recording at once | ContentCam |
 | Want shutter and white balance, not just ISO | ContentCam |
@@ -65,7 +76,7 @@ When you try ContentCam, compare the two *landscape* files: does the wide versio
 
 ### Is DualShot Recorder free?
 
-DualShot Recorder is free to download. Its free Basic tier records portrait and landscape at 1080p and 30fps, caps each clip at 60 seconds and adds a DualShot watermark, according to DDJR Productions' website (checked 5 November 2026).
+DualShot Recorder is free to download. Its free Basic tier records portrait and landscape at 1080p, caps each clip at 60 seconds and adds a DualShot logo in the centre of the frame. DDJR Productions' website says the free tier records at 30fps; in my test on 13 November 2026, free takes saved at 24fps.
 
 ### Does ContentCam add a watermark?
 

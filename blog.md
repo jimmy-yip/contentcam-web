@@ -6,6 +6,9 @@ Practical guides on dual-format recording, teleprompters, manual camera controls
 
 Filming guides written by the person who builds ContentCam. Practical, specific, and honest about what phones can and can't do.
 
+- [DualShot Recorder Review (2026): Tested by Hand](https://contentcam.app/blog/dualshot-recorder-review/) Jimmy · 13 November 2026
+
+DualShot Recorder 3.1.2 tested on an iPhone: takes lost when the phone locks or a call comes in, 4K 60 that saves at 38 to 39 fps, a centre watermark on free, no update since June, and one-time buyers left without support.
 - [Best iPhone 17 Pro Video Settings (2026)](https://contentcam.app/blog/best-iphone-17-pro-video-settings/) Jimmy · 13 November 2026
 
 The iPhone 17 Pro and Pro Max settings for 4K video, when ProRes and Apple Log 2 are worth it (and their storage limits), 4K 120, which lens to film with, the front camera, Dual Capture, and what changes on iPhone 18 Pro.
