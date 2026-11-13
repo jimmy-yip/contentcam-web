@@ -6,6 +6,9 @@ Practical guides on dual-format recording, teleprompters, manual camera controls
 
 Filming guides written by the person who builds ContentCam. Practical, specific, and honest about what phones can and can't do.
 
+- [Best iPhone Video Settings for TikTok (2026)](https://contentcam.app/blog/best-iphone-video-settings-for-tiktok/) Jimmy · 14 November 2026
+
+The iPhone settings for TikTok: 4K at 30 fps, HDR Video off, Auto FPS off and Lock Camera on, why to film in the Camera app instead of TikTok's camera, and the Allow high-quality uploads switch inside TikTok.
 - [DualShot Recorder Review (2026): Tested by Hand](https://contentcam.app/blog/dualshot-recorder-review/) Jimmy · 13 November 2026
 
 DualShot Recorder 3.1.2 tested on an iPhone: takes lost when the phone locks or a call comes in, 4K 60 that saves at 38 to 39 fps, a centre watermark on free, no update since June, and one-time buyers left without support.
