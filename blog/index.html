@@ -501,6 +501,21 @@
           <p>An honest comparison of dual-format recording apps, including ours. Crop approaches, teleprompters, platforms and pricing, in one table.</p>
         </li>
       </ul>
+      <p class="more-wrap" hidden><button type="button" class="btn-more" id="more-posts">Show more posts</button></p>
+      <script>
+        (function () {
+          var list = document.querySelector('.post-list'), btn = document.getElementById('more-posts');
+          if (!list || !btn) return;
+          var items = list.children, step = 12, shown = step;
+          function render() {
+            for (var k = 0; k < items.length; k++) items[k].hidden = k >= shown;
+            btn.parentNode.hidden = shown >= items.length;
+            btn.textContent = 'Show more posts (' + (items.length - shown) + ' more)';
+          }
+          btn.addEventListener('click', function () { shown += step; render(); });
+          render();
+        })();
+      </script>
     </section>
   </main>
 

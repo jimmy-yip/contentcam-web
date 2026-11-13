@@ -327,3 +327,30 @@ footer .fine { font-size: 12.5px; color: #81928f; line-height: 1.5; }
   .nav-links a { margin-left: 0; padding: 9px 2px; font-size: 16px; width: 100%; }
   .nav-toggle:checked ~ .nav-links { display: flex; }
 }
+
+/* ---------- Support page (13 Nov 2026) ---------- */
+.faq h2 { margin-top: 52px; }
+.faq h2:first-child { margin-top: 0; }
+.support-hero { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 40px; align-items: start; }
+.support-hero .lead { max-width: none; }
+.founder-note { display: grid; grid-template-columns: 84px 1fr; gap: 16px; align-items: start; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 18px; }
+.founder-note img { width: 84px; height: 112px; object-fit: cover; object-position: 50% 0; border-radius: 10px; display: block; }
+.founder-note p { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; letter-spacing: 0; text-transform: none; margin: 0 0 8px; font-size: 15px; color: var(--text-soft); line-height: 1.55; }
+.founder-note .section-eyebrow { margin: 0 0 6px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .16em; text-transform: uppercase; font-size: 12px; color: var(--amber-ink); font-weight: 600; }
+.founder-note .founder-sig { margin: 0; font-size: 14px; }
+.founder-note .founder-sig b { color: var(--cyan-ink); }
+.faq-acc h2 { margin-bottom: 6px; }
+.faq-acc details { border-bottom: 1px solid var(--border); padding: 2px 0; }
+.faq-acc summary { cursor: pointer; list-style: none; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 17px; padding: 14px 32px 14px 0; position: relative; }
+.faq-acc summary::-webkit-details-marker { display: none; }
+.faq-acc summary::after { content: "+"; position: absolute; right: 4px; top: 10px; font-size: 22px; color: var(--cyan-ink); font-weight: 400; }
+.faq-acc details[open] summary::after { content: "\2212"; }
+.faq-acc details p { margin: 0 0 14px; color: var(--text-soft); }
+@media (max-width: 820px) {
+  .support-hero { grid-template-columns: 1fr; gap: 20px; }
+}
+
+/* ---------- Blog index: show more (13 Nov 2026) ---------- */
+.more-wrap { margin: 26px 0 0; text-align: center; }
+.btn-more { font: inherit; font-weight: 600; font-size: 15px; color: var(--ink); background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 11px 22px; cursor: pointer; }
+.btn-more:hover { border-color: var(--cyan-ink); color: var(--cyan-ink); }

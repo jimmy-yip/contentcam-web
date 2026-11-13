@@ -19,7 +19,7 @@ Built in on iPhone 17 and later, one combined video at up to 30fps. ContentCam w
 - [**ContentCam vs DoubleTake**](https://contentcam.app/blog/doubletake-vs-contentcam/)
 No update since March 2025, 1080p cap, weekly subscriptions. ContentCam is updated every 1 to 2 weeks.
 - [**ContentCam vs DualShot Recorder**](https://contentcam.app/blog/dualshot-recorder-vs-contentcam/)
-Portrait and landscape on iPhone, one camera at a time, watermark on free. ContentCam adds Front & Back and Android, no watermark.
+Portrait and landscape on iPhone, one camera at a time, centre watermark on free; in my test, takes were lost on lock or a call and 4K 60 saved at 38 fps ([full review](https://contentcam.app/blog/dualshot-recorder-review/)). ContentCam adds Front & Back and Android, no watermark.
 - [**ContentCam vs Dualgram**](https://contentcam.app/vs/dualgram/)
 Free with ads and a watermark, iPhone only. ContentCam has no ads or watermark on any plan, and runs on Android too.
 - [**ContentCam vs MixCam**](https://contentcam.app/vs/mixcam/)
@@ -38,3 +38,7 @@ iPhone only, one camera at a time, watermark on free exports. ContentCam records
 A pro manual camera, one orientation at a time. ContentCam records vertical and horizontal from one take, and front and back together.
 
 Still deciding? See [the best front and back camera apps](https://contentcam.app/blog/best-front-and-back-dual-camera-apps/), [every portrait and landscape app compared](https://contentcam.app/blog/dual-format-recording-apps-compared/), or [how often ContentCam is updated](https://contentcam.app/changelog/).
+
+**Try ContentCam free.** No watermark, no ads, no account. Record one take and check both files yourself.
+
+ Rated 4.8 by 580+ creators on the [App Store](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795) and [Google Play](https://play.google.com/store/apps/details?id=app.contentcam.android). [](https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&ct=vs-index&mt=8) [](https://play.google.com/store/apps/details?id=app.contentcam.android&referrer=utm_source%3Dsite%26utm_campaign%3Dvs-index)
