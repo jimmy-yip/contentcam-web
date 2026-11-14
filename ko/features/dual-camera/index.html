@@ -116,12 +116,12 @@
 
     <section style="border-top:none; padding-top:24px">
       <h2>가로 영상을 세로에서 크롭하면 뭐가 문제일까요?</h2>
-      <p class="lead">두 비율을 얻는 가장 쉬운 방법은 세로로 녹화한 뒤 가운데에서 16:9 부분을 잘라내는 거예요. 이 방법도 되긴 하고, 이런 앱 대부분이 이렇게 해요. 대신 "가로" 영상은 세로 화면을 확대해서 잘라낸 일부가 돼요. 세로 화면 바깥의 왼쪽과 오른쪽은 센서가 아예 담지 않았으니 다 사라져요.</p>
+      <p class="lead">두 비율을 얻는 가장 쉬운 방법은 세로로 녹화한 뒤 가운데에서 16:9 부분을 잘라내는 거예요. 이 방법도 되긴 하고, 가로 세로 동시 촬영 앱 대부분이 이렇게 해요. 대신 "가로" 영상은 세로 화면을 확대해서 잘라낸 일부가 돼요. 세로 프레임 바깥의 왼쪽과 오른쪽은 센서가 처음부터 담지 않았으니 다 사라져요.</p>
     </section>
 
     <section>
       <h2>싱글 렌즈 모드: 센서 전체에서 크롭</h2>
-      <p class="lead">폰 카메라 센서는 4:3이라서 세로 영상보다 넓고 가로 영상보다 높아요. ContentCam은 이 기본 4:3 그대로 녹화한 뒤, 더 큰 화면에서 두 결과물을 모두 잘라내요.</p>
+      <p class="lead">폰 카메라 센서는 4:3이라서 세로 영상보다 가로로 넓고, 가로 영상보다 세로로 길어요. ContentCam은 센서 원래 비율인 4:3 그대로 녹화한 뒤, 더 넓은 원본 프레임에서 두 영상을 모두 잘라내요.</p>
       <div class="grid">
         <div class="card">
           <h3><span class="dot"></span>세로: 세로 화각 전체</h3>
@@ -138,7 +138,7 @@
     <section>
       <h2>듀얼 렌즈 모드: 카메라 두 개, 구도 두 개</h2>
       <p class="lead">iPhone 11 이후 모델에서 ContentCam은 Apple의 멀티 카메라 촬영을 써요. 같은 순간에 광각 렌즈는 세로 영상을, 초광각 렌즈는 가로 영상을 녹화해요.</p>
-      <p style="color:var(--text-dim); max-width:680px">핵심은 완전히 다른 구도예요. 버튼 한 번으로 세로는 릴스용 타이트한 샷으로, 가로는 유튜브용 넓은 설정 샷으로 담을 수 있어요. 듀얼 렌즈는 5번까지 무료로 써 볼 수 있고, <a href="/ko/pricing/">프리미엄</a>이면 무제한이에요. 지금은 iPhone에서만 쓸 수 있어요.</p>
+      <p style="color:var(--text-dim); max-width:680px">핵심은 완전히 다른 구도예요. 버튼 한 번으로 세로는 릴스용 타이트한 샷으로, 가로는 유튜브용으로 주변까지 넓게 보여 주는 와이드 샷으로 담을 수 있어요. 듀얼 렌즈는 5번까지 무료로 써 볼 수 있고, <a href="/ko/pricing/">프리미엄</a>이면 무제한이에요. 지금은 iPhone에서만 쓸 수 있어요.</p>
       <div class="shot-pair">
         <img src="/assets/img/ui-record-handsdown-640.webp" alt="세로와 가로 구도가 함께 보이는 ContentCam 녹화 화면" width="640" height="1387" loading="lazy" decoding="async">
         <img src="/assets/img/ui-review-dark-640.webp" alt="가로 세로 동시 촬영 후의 ContentCam 리뷰 화면" width="640" height="1387" loading="lazy" decoding="async">
@@ -151,11 +151,11 @@
         <table>
           <thead><tr><th></th><th>싱글 렌즈</th><th>듀얼 렌즈</th></tr></thead>
           <tbody>
-            <tr><td><strong>작동 방식</strong></td><td>카메라 하나로 기본 4:3 녹화, 전체 화면에서 두 비율을 크롭</td><td>광각과 초광각 카메라가 동시에 녹화</td></tr>
-            <tr><td><strong>구도</strong></td><td>같은 장면, 방향마다 전체 화각</td><td>완전히 다른 구도 두 개</td></tr>
-            <tr><td><strong>기기</strong></td><td>iPhone XS 이후, Android, 전면 카메라</td><td>iPhone 11 이후(후면만)</td></tr>
-            <tr><td><strong>최대 해상도</strong></td><td>4K(프리미엄)</td><td>지원되는 iPhone에서 4K(iOS 2.9부터), 그 외에는 HD</td></tr>
-            <tr><td><strong>요금제</strong></td><td>무료</td><td>무료 테이크 5개, 이후 프리미엄</td></tr>
+            <tr><td><strong>작동 방식</strong></td><td>카메라 하나로 기본 4:3 녹화, 4:3 프레임 전체에서 두 비율을 크롭</td><td>광각과 초광각 카메라가 동시에 녹화</td></tr>
+            <tr><td><strong>구도</strong></td><td>같은 장면, 비율마다 전체 화각</td><td>완전히 다른 구도 두 개</td></tr>
+            <tr><td><strong>기기</strong></td><td>iPhone XS·XR 이후 모델, Android, 전면 카메라 포함</td><td>iPhone 11 이후(후면만)</td></tr>
+            <tr><td><strong>최대 해상도</strong></td><td>4K(프리미엄)</td><td>지원되는 iPhone에서 4K(iOS 앱 2.9 버전부터), 그 외에는 HD</td></tr>
+            <tr><td><strong>요금제</strong></td><td>무료</td><td>5번 무료, 이후 프리미엄</td></tr>
           </tbody>
         </table>
       </div>
@@ -164,21 +164,22 @@
     <section class="faq">
       <h2>자주 묻는 질문</h2>
       <h3>전후면 카메라 동시 촬영과 같은 건가요?</h3>
-      <p>서로 다른 모드이고, ContentCam에는 둘 다 있어요. 듀얼 렌즈(이 페이지)는 후면 카메라 두 개로 같은 장면을 두 가지 구도로 녹화해요. <strong>전면·후면 모드</strong>는 전면 카메라와 후면 카메라로 동시에 녹화해서(내 리액션과 내 시점을 한 번에) 리액션 콘텐츠에 잘 맞아요.</p>
+      <p>서로 다른 모드이고, ContentCam에는 둘 다 있어요. 이 페이지에서 설명하는 듀얼 렌즈는 후면 카메라 두 개로 같은 장면을 두 가지 구도로 녹화해요. <strong>전면·후면 모드</strong>는 전면 카메라와 후면 카메라로 동시에 녹화해서(내 리액션과 내 시점을 한 번에) 리액션 콘텐츠에 잘 맞아요.</p>
       <h3>두 파일 모두 소리가 녹음되나요?</h3>
-      <p>네, 두 파일 모두 같은 48kHz AAC 오디오 트랙이 들어가요.</p>
+      <p>네, 두 파일에 모두 같은 48kHz AAC 오디오 트랙이 들어가요.</p>
       <h3>듀얼 렌즈를 쓰면 배터리가 더 빨리 닳나요?</h3>
-      <p>네, 카메라 두 개를 돌리면 하나일 때보다 전력이 더 들어요. 오래 찍을 땐 싱글 렌즈가 더 효율적이에요.</p>
+      <p>네, 카메라 두 개를 동시에 쓰면 하나일 때보다 배터리를 더 써요. 오래 찍을 땐 싱글 렌즈가 더 효율적이에요.</p>
     </section>
 
     <section class="center" style="padding-bottom:72px">
-      <h2>이제 모든 걸 두 번 찍지 마세요</h2>
+      <h2>이제 같은 장면, 두 번 찍지 마세요</h2>
       <div class="badges" style="margin-top:20px">
         <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795?pt=128838819&amp;ct=ko-feature-dual-camera&amp;mt=8"><img class="badge-appstore" src="/assets/badges/app-store-ko.svg" alt="App Store에서 다운로드" width="169" height="52"></a>
         <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dwebsite%26utm_campaign%3Dko-feature-dual-camera"><img class="badge-play" src="/assets/badges/google-play-ko.webp" alt="Google Play에서 다운로드" width="175" height="52"></a>
       </div>
       <p style="margin-top:16px; font-size:14px; color:var(--text-dim)">다음 글: <a href="/ko/blog/record-portrait-and-landscape-video-same-time-iphone/">아이폰으로 가로 세로 동시 촬영하는 법</a></p>
     </section>
+      <div class="wrap"><p class="cta-proof"><span class="star" aria-hidden="true">★</span> <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a>와 <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>에서 580명 이상의 크리에이터가 평가, 평균 4.8점.</p></div>
   </main>
 
 <!-- @footer -->

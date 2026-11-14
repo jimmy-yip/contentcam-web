@@ -17,7 +17,7 @@
   <meta name="description" content="Risposte alle domande più comuni su ContentCam: dispositivi compatibili, registrazione con doppio obiettivo, 4K, dove trovare i file, abbonamenti, rimborsi e altro. Con assistenza via email.">
   <link rel="canonical" href="https://contentcam.app/it/support/">
   <meta property="og:site_name" content="ContentCam">
-  <meta property="og:locale" content="it">
+  <meta property="og:locale" content="it_IT">
   <meta property="og:title" content="Assistenza e domande frequenti su ContentCam">
   <meta property="og:description" content="Dispositivi compatibili, modalità di registrazione, file, abbonamenti, rimborsi. Risposte concrete e un'email che lo sviluppatore legge davvero.">
   <meta property="og:image" content="https://contentcam.app/assets/og/og-default.jpg">
@@ -45,7 +45,7 @@
           "name": "Su quali iPhone funziona ContentCam?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Serve iOS 18 o successivo, quindi iPhone XS (2018) e modelli più recenti. La modalità Frontale e posteriore funziona su tutti, compresi iPhone 15 e iPhone 16, che non hanno la funzione Dual Capture di Apple. La modalità Doppio obiettivo richiede iPhone 11 o successivo, perché le serve la fotocamera ultra-grandangolare, arrivata con iPhone 11."
+            "text": "Serve iOS 18 o successivo, quindi iPhone XS (2018) e modelli più recenti. La modalità Frontale e posteriore funziona su tutti, compresi iPhone 15 e iPhone 16, che non hanno l'Acquisizione doppia (Dual Capture) di Apple. La modalità Doppio obiettivo richiede una fotocamera ultra-grandangolare, quindi iPhone 11 o successivo (non iPhone SE né iPhone 16e)."
           }
         },
         {
@@ -53,15 +53,23 @@
           "name": "ContentCam funziona su Android?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sì. ContentCam per Android è su Google Play e registra in verticale e in orizzontale contemporaneamente, con controlli manuali di bilanciamento del bianco, ISO e otturatore, timelapse e 4K sui telefoni compatibili. Per ora la modalità Doppio obiettivo è solo per iPhone; il teleprompter c'è su entrambi."
+            "text": "Sì. ContentCam per Android è su Google Play e registra in verticale e in orizzontale contemporaneamente, con la modalità Frontale e posteriore, il teleprompter, bilanciamento del bianco, ISO e otturatore manuali, Timelapse, e 4K e 60 fps se la fotocamera del telefono li supporta. Per ora la modalità Doppio obiettivo è solo per iPhone."
           }
         },
         {
           "@type": "Question",
-          "name": "Registrare due formati insieme riduce la qualità del video?",
+          "name": "Quali telefoni supportano il 4K e i 60 fps?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. I due file vengono codificati in modo indipendente in HEVC: il verticale a 1080×1920 e l'orizzontale a 1920×1080, oppure gli equivalenti in 4K con Premium. Nessuno dei due file è un ritaglio ingrandito dell'altro."
+            "text": "Dipende dalla fotocamera. ContentCam verifica cosa riesce a registrare l'obiettivo attivo del tuo telefono e propone solo ciò che può sostenere, così non scegli mai una modalità che poi smette di funzionare senza che te ne accorga. Sugli iPhone compatibili il 4K funziona in tutte e tre le modalità: Obiettivo singolo fino a 60 fps, Doppio obiettivo e Frontale e posteriore con entrambe le fotocamere (dalla versione 2.9 per iPhone)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cosa è gratis e cosa richiede Premium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gratis: registrazioni illimitate con Obiettivo singolo in verticale e in orizzontale contemporaneamente, in 1080p fino a 30 fps, con HDR, stabilizzazione cinematografica (su iPhone), la fotocamera frontale, 3 progetti e 5 registrazioni gratuite con Doppio obiettivo e 5 con Frontale e posteriore. Niente filigrana, niente pubblicità e nessun account, mai. Premium aggiunge 4K, 60 fps, Doppio obiettivo e Frontale e posteriore illimitati, controlli manuali, teleprompter, Timelapse, Apple Log, Unisci e progetti illimitati."
           }
         },
         {
@@ -74,26 +82,34 @@
         },
         {
           "@type": "Question",
-          "name": "Che differenza c'è tra la modalità Obiettivo singolo e Doppio obiettivo?",
+          "name": "A quali frame rate registra ContentCam?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Obiettivo singolo registra con una sola fotocamera nel formato nativo 4:3 del sensore, poi ritaglia un 9:16 e un 16:9 da quell'inquadratura. In orizzontale mantieni tutto il campo orizzontale, in verticale tutto quello verticale. Doppio obiettivo (iPhone 11 e successivi) registra con grandangolo e ultra-grandangolo nello stesso momento, quindi i due file hanno inquadrature davvero diverse. Spiegazione completa qui."
+            "text": "24, 30 o 60 fps, più 25 e 50 fps (PAL) dopo averli attivati in Impostazioni, sui telefoni la cui fotocamera li offre. La versione gratuita registra fino a 30 fps; i 60 fps richiedono Premium."
           }
         },
         {
           "@type": "Question",
-          "name": "Doppio obiettivo e Frontale e posteriore possono registrare in 4K?",
+          "name": "Il video orizzontale è solo un ritaglio di quello verticale?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sì, da iOS 2.9, sugli iPhone compatibili. Attiva il 4K nel selettore della risoluzione mentre sei nella modalità. Se il tuo iPhone non regge due fotocamere in 4K, l'opzione resta spenta e la modalità registra in HD. Su Android, Frontale e posteriore registra in HD."
+            "text": "No. Obiettivo singolo registra l'intero fotogramma 4:3 della fotocamera e ricava ogni formato da lì, quindi l'orizzontale mantiene tutta la larghezza e il verticale tutta l'altezza. Ogni file viene codificato separatamente in HEVC, a 1080×1920 e 1920×1080 o negli equivalenti in 4K. Doppio obiettivo (iPhone 11 e successivi) va oltre: il grandangolo e l'ultra-grandangolo registrano nello stesso momento, quindi ogni formato ha la sua inquadratura. Tutto sulle modalità."
           }
         },
         {
           "@type": "Question",
-          "name": "Dove vengono salvate le registrazioni di ContentCam?",
+          "name": "Posso registrare con la fotocamera anteriore e posteriore contemporaneamente?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nello spazio dell'app, organizzate per progetto e scena, e consultabili nell'app File di iOS sotto ContentCam. Attiva Salva in Foto e ogni take salvato finisce anche nella tua libreria foto. I file prendono un nome automatico come my_project_scene_001_Portrait.mov, così li distingui facilmente nell'editor."
+            "text": "Sì, con la modalità Frontale e posteriore (nell'app: Fronte/Retro), su iPhone e Android. Salva le riprese della fotocamera selfie e di quella posteriore in due file separati. Con Unisci puoi poi trasformarli in un unico video in Picture in Picture o a schermo diviso, conservando gli originali. Provare i layout di Unisci è gratis; per salvarne uno serve Premium."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ContentCam supporta HDR e Apple Log?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Su iPhone l'HDR si attiva con un solo interruttore, anche nella versione gratuita. Apple Log (dalla versione 2.9 per iPhone) registra immagini più piatte per il color grading, su iPhone 15 Pro e sui modelli Pro successivi, con Premium."
           }
         },
         {
@@ -101,7 +117,7 @@
           "name": "Cosa succede se una chiamata o una sveglia interrompe la registrazione?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La registrazione continua con notifiche, sveglie, Siri e blocco automatico, e prosegue anche durante le telefonate, ma la traccia audio si interrompe per tutta la durata della chiamata. Se l'app viene chiusa forzatamente durante un take, la registrazione interrotta viene recuperata all'avvio successivo."
+            "text": "La registrazione continua anche con notifiche, sveglie, Siri e blocco automatico, e prosegue durante le telefonate, ma la traccia audio si interrompe per tutta la durata della chiamata. Se l'app viene chiusa forzatamente durante un take, la registrazione interrotta viene recuperata all'avvio successivo."
           }
         },
         {
@@ -114,10 +130,58 @@
         },
         {
           "@type": "Question",
+          "name": "Dove vengono salvate le registrazioni di ContentCam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nella memoria dell'app, organizzate per progetto e scena, e puoi sfogliarle nell'app File in Sul mio iPhone > ContentCam. Attiva Salva in Foto e ogni take salvato finisce anche nella libreria di Foto. I file prendono un nome automatico come my_project_scene_001_Portrait.mov, così li distingui facilmente nell'editor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Una registrazione non è in Foto. Dove la trovo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Apri il progetto in ContentCam oppure guarda in File > Sul mio iPhone > ContentCam. Se Salva in Foto è disattivato, i take restano nell'app finché non li esporti. Non eliminare l'app mentre cerchi: eliminandola cancelli anche tutto quello che contiene. Guida completa (in inglese) per ritrovare un video mancante."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ContentCam ha bisogno di accedere a tutta la mia libreria di Foto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Chiede solo di aggiungere video a Foto, quindi non può vedere le foto e i video che hai già."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso tagliare un take prima di salvarlo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Il taglio è integrato nella schermata di revisione; per applicarlo serve Premium."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Quanto costa ContentCam Premium?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Si può acquistare in tre modi: un piano annuale con prova gratuita, un piano mensile che si rinnova di mese in mese oppure un acquisto unico a vita. Le funzioni sono le stesse con ogni piano. I prezzi sono fissati per paese, quindi l'App Store e Google Play mostrano il prezzo attuale nella tua valuta. Tutti i dettagli."
+            "text": "Si può acquistare in tre modi: un piano annuale con 7 giorni di prova gratuita, un piano mensile oppure un acquisto unico per l'accesso a vita. Le funzioni sono le stesse con ogni piano. I prezzi sono fissati per paese, quindi l'App Store e Google Play mostrano il prezzo attuale nella tua valuta. Tutti i dettagli."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso provare le funzioni Premium prima di pagare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Puoi provare tutto in anteprima: le ghiere manuali si muovono, il teleprompter si apre, il 4K si attiva. Il paywall compare solo quando avvii la registrazione con una funzione Premium attiva. Doppio obiettivo e Frontale e posteriore ti danno anche 5 registrazioni gratuite ciascuna."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Se compro l'accesso a vita, vale davvero per sempre?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Un acquisto a vita resta un acquisto a vita, compresi tutti gli aggiornamenti futuri. Se un giorno cambiasse il modo in cui ContentCam viene venduta, chi ha l'accesso a vita conserva ciò che ha pagato."
           }
         },
         {
@@ -125,7 +189,15 @@
           "name": "Come ripristino l'acquisto su un nuovo telefono?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Su iPhone: Impostazioni → Passa a Premium → Ripristina acquisti. Su Android: Impostazioni → Premium → Ripristina. Accedi con lo stesso Account Apple o account Google con cui hai acquistato."
+            "text": "Su iPhone: Impostazioni > Passa a Premium > Ripristina acquisti. Su Android: Impostazioni > Premium > Ripristina. Usa lo stesso Apple Account o account Google con cui hai acquistato. Se ancora non si sblocca, mandami via email l'ID dell'ordine e sistemo io."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ho acquistato su iPhone: posso usare Premium su Android (o viceversa)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gli acquisti sono legati allo store in cui li hai fatti. Se hai l'accesso a vita e cambi piattaforma, mandami via email l'ID dell'ordine e ti aiuto a passare dall'altra parte."
           }
         },
         {
@@ -133,7 +205,7 @@
           "name": "Come annullo l'abbonamento?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tramite Apple o Google, non dall'app. Su iPhone: Impostazioni → il tuo nome → Abbonamenti. Su Android: Google Play → profilo → Pagamenti e abbonamenti. Premium resta attivo fino alla fine del periodo."
+            "text": "Tramite Apple o Google, non dall'app. Su iPhone: Impostazioni > [il tuo nome] > Abbonamenti. Su Android: Google Play > profilo > Pagamenti e abbonamenti. Premium resta attivo fino alla fine del periodo già pagato."
           }
         },
         {
@@ -141,7 +213,31 @@
           "name": "Come chiedo un rimborso?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "iOS: reportaproblem.apple.com. Android: cronologia ordini di Google Play. Non sai come fare? Scrivimi e ti indico la strada giusta."
+            "text": "Su iPhone: reportaproblem.apple.com. Su Android: la cronologia ordini di Google Play. Non sai come fare? Scrivimi e ti indico la strada giusta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ho un codice promozionale: dove lo riscatto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Su iPhone: Impostazioni > Passa a Premium > Riscatta codice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qualcosa non funziona: come lo segnalo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prima aggiorna all'ultima versione dall'App Store o da Google Play: la correzione potrebbe essere già uscita (vedi le Novità). Se il problema continua, segnalamelo dalle Impostazioni dell'app, scrivi a contentcam.app@gmail.com o mandami un messaggio su Discord. Il modello del telefono e cosa stavi registrando mi aiutano a risolverlo più in fretta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ogni quanto viene aggiornata ContentCam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ogni settimana o ogni due settimane. Tutte le versioni per iPhone e Android, con le novità di ciascuna, sono elencate nella pagina Novità."
           }
         },
         {
@@ -150,38 +246,6 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "I tuoi video non lasciano mai il telefono e non serve nessun account. L'app Android non raccoglie nulla. Dalla versione 2.8.1, l'app per iPhone misura quali annunci portano a installazioni, prove gratuite e acquisti, usando Apple AdServices e l'SDK di Meta (in UE, SEE, Regno Unito e Svizzera, Meta solo se consenti il tracciamento). La registrazione funziona offline. Solo tre autorizzazioni: Fotocamera, Microfono, Libreria foto (solo aggiunta). Informativa sulla privacy completa."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Posso provare le funzioni Premium prima di pagare?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sì. Puoi provare tutto in anteprima: le ghiere manuali si muovono, il teleprompter si apre, il 4K si attiva. Il paywall compare solo quando registri con una funzione Premium attiva."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "ContentCam supporta i video HDR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Su iPhone sì: basta un interruttore, anche nella versione gratuita. Su Android la registrazione HDR non c'è ancora."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "A quali frame rate registra ContentCam?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "24, 30 o 60 fps, più 25 fps sui telefoni Android la cui fotocamera lo supporta, a seconda di ciò che supporta l'obiettivo attivo. I 60 fps sono una funzione Premium; la versione gratuita registra a 30 fps."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Ho un codice promozionale: dove lo riscatto?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Su iPhone: Impostazioni → Passa a Premium → Riscatta codice."
           }
         }
       ]
@@ -244,67 +308,76 @@
     <div class="crumbs"><a href="/it/">Home</a> › Assistenza</div>
     <div class="page-hero">
       <h1>Assistenza e domande frequenti</h1>
-      <p class="lead">ContentCam è sviluppata da una sola persona, e leggo ogni messaggio. Se qui sotto non trovi la risposta, scrivi a <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a> o chiedi su <a href="https://discord.gg/YxUpbUgthH">Discord</a>.</p>
+      <p class="lead">ContentCam è sviluppata da una sola persona: leggo ogni messaggio e rispondo io, personalmente. Se qui sotto non trovi la risposta, scrivi a <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a> o chiedi su <a href="https://discord.gg/YxUpbUgthH">Discord</a>. Il modello del telefono e cosa stavi registrando mi aiutano a risolvere i problemi più in fretta.</p>
     </div>
 
     <section class="faq" style="border-top:none; padding-top:24px">
       <h2>Dispositivi e compatibilità</h2>
       <h3>Su quali iPhone funziona ContentCam?</h3>
-      <p>Serve iOS 18 o successivo, quindi iPhone XS (2018) e modelli più recenti. La modalità Frontale e posteriore funziona su tutti, compresi iPhone 15 e iPhone 16, che non hanno la funzione Dual Capture di Apple. La modalità Doppio obiettivo richiede iPhone 11 o successivo, perché le serve la fotocamera ultra-grandangolare, arrivata con iPhone 11.</p>
+      <p>Serve iOS 18 o successivo, quindi iPhone XS (2018) e modelli più recenti. La modalità Frontale e posteriore funziona su tutti, compresi iPhone 15 e iPhone 16, che non hanno l'Acquisizione doppia (Dual Capture) di Apple. La modalità Doppio obiettivo richiede una fotocamera ultra-grandangolare, quindi iPhone 11 o successivo (non iPhone SE né iPhone 16e).</p>
       <h3>ContentCam funziona su Android?</h3>
-      <p>Sì. <a href="/it/android/">ContentCam per Android</a> è su Google Play e registra in verticale e in orizzontale contemporaneamente, con controlli manuali di bilanciamento del bianco, ISO e otturatore, timelapse e 4K sui telefoni compatibili. Per ora la modalità Doppio obiettivo è solo per iPhone; il teleprompter c'è su entrambi.</p>
-      <h3>Quali telefoni supportano il 4K e i 60fps?</h3>
-      <p>Dipende dall'hardware della fotocamera. ContentCam verifica cosa può offrire davvero l'obiettivo attivo del tuo telefono e propone solo ciò che riesce a sostenere, così non scegli mai una modalità che non funziona senza avvisarti.</p>
+      <p>Sì. <a href="/it/android/">ContentCam per Android</a> è su Google Play e registra in verticale e in orizzontale contemporaneamente, con la modalità Frontale e posteriore, il teleprompter, bilanciamento del bianco, ISO e otturatore manuali, Timelapse, e 4K e 60 fps se la fotocamera del telefono li supporta. Per ora la modalità Doppio obiettivo è solo per iPhone.</p>
+      <h3>Quali telefoni supportano il 4K e i 60 fps?</h3>
+      <p>Dipende dalla fotocamera. ContentCam verifica cosa riesce a registrare l'obiettivo attivo del tuo telefono e propone solo ciò che può sostenere, così non scegli mai una modalità che poi smette di funzionare senza che te ne accorga. Sugli iPhone compatibili il 4K funziona in tutte e tre le modalità: Obiettivo singolo fino a 60 fps, Doppio obiettivo e Frontale e posteriore con entrambe le fotocamere (dalla versione 2.9 per iPhone).</p>
 
       <h2>Registrazione</h2>
-      <h3>A quali frame rate registra ContentCam?</h3>
-      <p>24, 30 o 60 fps, più 25 fps sui telefoni Android la cui fotocamera lo supporta, a seconda di ciò che supporta l'obiettivo attivo. I 60 fps sono una funzione Premium; la versione gratuita registra a 30 fps.</p>
-      <h3>ContentCam supporta i video HDR?</h3>
-      <p>Su iPhone sì: basta un interruttore, anche nella versione gratuita. Su Android la registrazione HDR non c'è ancora.</p>
-      <h3>Registrare due formati insieme riduce la qualità del video?</h3>
-      <p>No. I due file vengono codificati in modo indipendente in HEVC: il verticale a 1080×1920 e l'orizzontale a 1920×1080, oppure gli equivalenti in 4K con Premium. Nessuno dei due file è un ritaglio ingrandito dell'altro.</p>
-      <h3>Che differenza c'è tra la modalità Obiettivo singolo e Doppio obiettivo?</h3>
-      <p>Obiettivo singolo registra con una sola fotocamera nel formato nativo 4:3 del sensore, poi ritaglia un 9:16 e un 16:9 da quell'inquadratura. In orizzontale mantieni tutto il campo orizzontale, in verticale tutto quello verticale. Doppio obiettivo (iPhone 11 e successivi) registra con grandangolo e ultra-grandangolo nello stesso momento, quindi i due file hanno inquadrature davvero diverse. <a href="/it/features/dual-camera/">Spiegazione completa qui</a>.</p>
-      <h3>Doppio obiettivo e Frontale e posteriore possono registrare in 4K?</h3>
-      <p>Sì, da iOS 2.9, sugli iPhone compatibili. Attiva il 4K nel selettore della risoluzione mentre sei nella modalità. Se il tuo iPhone non regge due fotocamere in 4K, l'opzione resta spenta e la modalità registra in HD. Su Android, Frontale e posteriore registra in HD.</p>
+      <h3>Cosa è gratis e cosa richiede Premium?</h3>
+      <p>Gratis: registrazioni illimitate con Obiettivo singolo in verticale e in orizzontale contemporaneamente, in 1080p fino a 30 fps, con HDR, stabilizzazione cinematografica (su iPhone), la fotocamera frontale, 3 progetti e 5 registrazioni gratuite con Doppio obiettivo e 5 con Frontale e posteriore. Niente filigrana, niente pubblicità e nessun account, mai.</p>
+      <p>Premium aggiunge 4K, 60 fps, Doppio obiettivo e Frontale e posteriore illimitati, controlli manuali, teleprompter, Timelapse, Apple Log, Unisci e progetti illimitati.</p>
       <h3>ContentCam mette la filigrana sui video?</h3>
       <p>No. Mai, né nella versione gratuita né con Premium.</p>
+      <h3>A quali frame rate registra ContentCam?</h3>
+      <p>24, 30 o 60 fps, più 25 e 50 fps (PAL) dopo averli attivati in Impostazioni, sui telefoni la cui fotocamera li offre. La versione gratuita registra fino a 30 fps; i 60 fps richiedono Premium.</p>
+      <h3>Il video orizzontale è solo un ritaglio di quello verticale?</h3>
+      <p>No. Obiettivo singolo registra l'intero fotogramma 4:3 della fotocamera e ricava ogni formato da lì, quindi l'orizzontale mantiene tutta la larghezza e il verticale tutta l'altezza. Ogni file viene codificato separatamente in HEVC, a 1080×1920 e 1920×1080 o negli equivalenti in 4K. Doppio obiettivo (iPhone 11 e successivi) va oltre: il grandangolo e l'ultra-grandangolo registrano nello stesso momento, quindi ogni formato ha la sua inquadratura. <a href="/it/features/dual-camera/">Tutto sulle modalità</a>.</p>
+      <h3>Posso registrare con la fotocamera anteriore e posteriore contemporaneamente?</h3>
+      <p>Sì, con la modalità Frontale e posteriore (nell'app: Fronte/Retro), su iPhone e Android. Salva le riprese della fotocamera selfie e di quella posteriore in due file separati. Con Unisci puoi poi trasformarli in un unico video in Picture in Picture o a schermo diviso, conservando gli originali. Provare i layout di Unisci è gratis; per salvarne uno serve Premium.</p>
+      <h3>ContentCam supporta HDR e Apple Log?</h3>
+      <p>Su iPhone l'HDR si attiva con un solo interruttore, anche nella versione gratuita. Apple Log (dalla versione 2.9 per iPhone) registra immagini più piatte per il color grading, su iPhone 15 Pro e sui modelli Pro successivi, con Premium.</p>
       <h3>Cosa succede se una chiamata o una sveglia interrompe la registrazione?</h3>
-      <p>La registrazione continua con notifiche, sveglie, Siri e blocco automatico, e prosegue anche durante le telefonate, ma la traccia audio si interrompe per tutta la durata della chiamata. Se l'app viene chiusa forzatamente durante un take, la registrazione interrotta viene recuperata all'avvio successivo.</p>
+      <p>La registrazione continua anche con notifiche, sveglie, Siri e blocco automatico, e prosegue durante le telefonate, ma la traccia audio si interrompe per tutta la durata della chiamata. Se l'app viene chiusa forzatamente durante un take, la registrazione interrotta viene recuperata all'avvio successivo.</p>
       <h3>Il teleprompter scorre da solo?</h3>
       <p>Sì. Scorre in automatico alla velocità che imposti, con dimensione del testo, colore e posizione della linea di lettura regolabili e una modalità specchio per i teleprompter a riflessione. Su iPhone e Android, con Premium. <a href="/it/features/teleprompter/">Dettagli qui</a>.</p>
 
       <h2>File e archiviazione</h2>
       <h3>Dove vengono salvate le registrazioni di ContentCam?</h3>
-      <p>Nello spazio dell'app, organizzate per progetto e scena, e consultabili nell'app File di iOS sotto ContentCam. Attiva Salva in Foto e ogni take salvato finisce anche nella tua libreria foto. I file prendono un nome automatico come <code>my_project_scene_001_Portrait.mov</code>, così li distingui facilmente nell'editor.</p>
+      <p>Nella memoria dell'app, organizzate per progetto e scena, e puoi sfogliarle nell'app File in Sul mio iPhone &gt; ContentCam. Attiva Salva in Foto e ogni take salvato finisce anche nella libreria di Foto. I file prendono un nome automatico come <code>my_project_scene_001_Portrait.mov</code>, così li distingui facilmente nell'editor.</p>
+      <h3>Una registrazione non è in Foto. Dove la trovo?</h3>
+      <p>Apri il progetto in ContentCam oppure guarda in File &gt; Sul mio iPhone &gt; ContentCam. Se Salva in Foto è disattivato, i take restano nell'app finché non li esporti. Non eliminare l'app mentre cerchi: eliminandola cancelli anche tutto quello che contiene. <a href="/blog/iphone-video-not-in-photos-after-recording/">Guida completa (in inglese) per ritrovare un video mancante</a>.</p>
+      <h3>ContentCam ha bisogno di accedere a tutta la mia libreria di Foto?</h3>
+      <p>No. Chiede solo di aggiungere video a Foto, quindi non può vedere le foto e i video che hai già.</p>
       <h3>Posso tagliare un take prima di salvarlo?</h3>
-      <p>Sì, il taglio al salvataggio è integrato nella schermata di revisione (serve Premium per applicarlo).</p>
+      <p>Sì. Il taglio è integrato nella schermata di revisione; per applicarlo serve Premium.</p>
 
       <h2>Acquisti</h2>
       <h3>Quanto costa ContentCam Premium?</h3>
-      <p>Si può acquistare in tre modi: un piano annuale con prova gratuita, un piano mensile che si rinnova di mese in mese oppure un acquisto unico a vita. Le funzioni sono le stesse con ogni piano. I prezzi sono fissati per paese, quindi l'App Store e Google Play mostrano il prezzo attuale nella tua valuta. <a href="/it/pricing/">Tutti i dettagli</a>.</p>
+      <p>Si può acquistare in tre modi: un piano annuale con 7 giorni di prova gratuita, un piano mensile oppure un acquisto unico per l'accesso a vita. Le funzioni sono le stesse con ogni piano. I prezzi sono fissati per paese, quindi l'App Store e Google Play mostrano il prezzo attuale nella tua valuta. <a href="/it/pricing/">Tutti i dettagli</a>.</p>
       <h3>Posso provare le funzioni Premium prima di pagare?</h3>
-      <p>Sì. Puoi provare tutto in anteprima: le ghiere manuali si muovono, il teleprompter si apre, il 4K si attiva. Il paywall compare solo quando registri con una funzione Premium attiva.</p>
+      <p>Sì. Puoi provare tutto in anteprima: le ghiere manuali si muovono, il teleprompter si apre, il 4K si attiva. Il paywall compare solo quando avvii la registrazione con una funzione Premium attiva. Doppio obiettivo e Frontale e posteriore ti danno anche 5 registrazioni gratuite ciascuna.</p>
+      <h3>Se compro l'accesso a vita, vale davvero per sempre?</h3>
+      <p>Sì. Un acquisto a vita resta un acquisto a vita, compresi tutti gli aggiornamenti futuri. Se un giorno cambiasse il modo in cui ContentCam viene venduta, chi ha l'accesso a vita conserva ciò che ha pagato.</p>
       <h3>Come ripristino l'acquisto su un nuovo telefono?</h3>
-      <p>Su iPhone: Impostazioni → Passa a Premium → Ripristina acquisti. Su Android: Impostazioni → Premium → Ripristina. Accedi con lo stesso Account Apple o account Google con cui hai acquistato.</p>
+      <p>Su iPhone: Impostazioni &gt; Passa a Premium &gt; Ripristina acquisti. Su Android: Impostazioni &gt; Premium &gt; Ripristina. Usa lo stesso Apple Account o account Google con cui hai acquistato. Se ancora non si sblocca, mandami via email l'ID dell'ordine e sistemo io.</p>
+      <h3>Ho acquistato su iPhone: posso usare Premium su Android (o viceversa)?</h3>
+      <p>Gli acquisti sono legati allo store in cui li hai fatti. Se hai l'accesso a vita e cambi piattaforma, mandami via email l'ID dell'ordine e ti aiuto a passare dall'altra parte.</p>
       <h3>Come annullo l'abbonamento?</h3>
-      <p>Tramite Apple o Google, non dall'app. Su iPhone: Impostazioni → il tuo nome → Abbonamenti. Su Android: Google Play → profilo → Pagamenti e abbonamenti. Premium resta attivo fino alla fine del periodo.</p>
+      <p>Tramite Apple o Google, non dall'app. Su iPhone: Impostazioni &gt; [il tuo nome] &gt; Abbonamenti. Su Android: Google Play &gt; profilo &gt; Pagamenti e abbonamenti. Premium resta attivo fino alla fine del periodo già pagato.</p>
       <h3>Come chiedo un rimborso?</h3>
-      <p>iOS: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Android: cronologia ordini di Google Play. Non sai come fare? Scrivimi e ti indico la strada giusta.</p>
+      <p>Su iPhone: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Su Android: la cronologia ordini di Google Play. Non sai come fare? Scrivimi e ti indico la strada giusta.</p>
       <h3>Ho un codice promozionale: dove lo riscatto?</h3>
-      <p>Su iPhone: Impostazioni → Passa a Premium → Riscatta codice.</p>
+      <p>Su iPhone: Impostazioni &gt; Passa a Premium &gt; Riscatta codice.</p>
 
       <h2>Problemi e segnalazioni</h2>
       <h3>Qualcosa non funziona: come lo segnalo?</h3>
-      <p>Prima aggiorna all'ultima versione dall'App Store o da Google Play, perché molte correzioni sono già uscite. Se il problema continua, segnalamelo dalle Impostazioni dell'app, scrivi a <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a> o mandami un messaggio su <a href="https://discord.gg/YxUpbUgthH">Discord</a>. Il modello del telefono e cosa stavi registrando mi aiutano a risolverlo più in fretta.</p>
-      <h3>Posso unire Frontale e posteriore in un unico video?</h3>
-      <p>Sì. Frontale e posteriore salva due file separati, e puoi anche unirli in un unico video, in Picture in Picture o a schermo diviso. Fa parte di Premium su iPhone e Android.</p>
+      <p>Prima aggiorna all'ultima versione dall'App Store o da Google Play: la correzione potrebbe essere già uscita (vedi le <a href="/it/changelog/">Novità</a>). Se il problema continua, segnalamelo dalle Impostazioni dell'app, scrivi a <a href="mailto:contentcam.app@gmail.com">contentcam.app@gmail.com</a> o mandami un messaggio su <a href="https://discord.gg/YxUpbUgthH">Discord</a>. Il modello del telefono e cosa stavi registrando mi aiutano a risolverlo più in fretta.</p>
+      <h3>Ogni quanto viene aggiornata ContentCam?</h3>
+      <p>Ogni settimana o ogni due settimane. Tutte le versioni per iPhone e Android, con le novità di ciascuna, sono elencate nella pagina <a href="/it/changelog/">Novità</a>.</p>
 
       <h2>Privacy</h2>
       <h3>ContentCam raccoglie i miei dati?</h3>
       <p>I tuoi video non lasciano mai il telefono e non serve nessun account. L'app Android non raccoglie nulla. Dalla versione 2.8.1, l'app per iPhone misura quali annunci portano a installazioni, prove gratuite e acquisti, usando Apple AdServices e l'SDK di Meta (in UE, SEE, Regno Unito e Svizzera, Meta solo se consenti il tracciamento). La registrazione funziona offline. Solo tre autorizzazioni: Fotocamera, Microfono, Libreria foto (solo aggiunta). <a href="/privacy">Informativa sulla privacy completa</a>.</p>
 
-      <p class="updated-note">Ultimo aggiornamento: 5 novembre 2026.</p>
+      <p class="updated-note">Ultimo aggiornamento: 15 novembre 2026.</p>
     </section>
   </main>
 

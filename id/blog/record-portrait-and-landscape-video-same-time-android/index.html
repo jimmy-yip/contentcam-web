@@ -66,7 +66,7 @@
           {
             "@type": "Question",
             "name": "Ada aplikasi Android untuk merekam video landscape dan portrait sekaligus?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Ada. ContentCam untuk Android merekam file vertikal 9:16 dan file horizontal 16:9 dari satu take, di kamera belakang dan kamera depan, dalam 1080p di versi gratis, tanpa iklan dan watermark." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Ada. ContentCam untuk Android merekam file vertikal 9:16 dan file horizontal 16:9 dari satu take, di kamera belakang dan kamera depan, dalam 1080p di versi gratis, tanpa iklan dan tanpa watermark." }
           },
           {
             "@type": "Question",
@@ -81,7 +81,7 @@
           {
             "@type": "Question",
             "name": "Kalau rekam 4K di Android, bisakah video vertikal di-crop dari video landscape?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Bisa, dan resolusinya masih tersisa. Crop 9:16 dari frame 3840×2160 berukuran 1215×2160 piksel, lebih dari yang dibutuhkan video vertikal 1080×1920. Tapi framing-nya tetap irisan sempit dari gambar landscape, jadi subjek harus di tengah saat kamu merekam." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Bisa, dan resolusinya masih tersisa. Crop 9:16 dari frame 3840×2160 berukuran 1215×2160 piksel, lebih dari yang dibutuhkan video vertikal 1080×1920. Tapi framing-nya tetap potongan sempit dari gambar horizontal, jadi subjek harus di tengah saat kamu merekam." }
           }
         ]
       }
@@ -151,28 +151,28 @@
       <p class="byline">Oleh Jimmy, developer ContentCam · 30 September 2026 · Diperbarui 5 November 2026</p>
 
       <p><strong>Jawaban singkatnya:</strong> pakai aplikasi yang merekam kedua file sekaligus dari seluruh sensor. ContentCam bisa melakukannya di Android dan iPhone: satu take menyimpan file vertikal (portrait) 9:16 dan file horizontal (landscape) 16:9, gratis di 1080p, tanpa iklan, tanpa watermark, dan tanpa akun. Aplikasi kamera bawaan HP-mu tidak bisa, karena Samsung Camera dan Pixel Camera merekam satu bentuk per take. Cara gratis lainnya, crop setelah merekam atau rekam 4K lalu reframe, sama-sama membuang sebagian besar adegan.</p>
-      <p>Saya yang membuat ContentCam, jadi silakan cek sendiri hitungan di bawah ini. Matematikanya sama saja, apa pun aplikasi yang kamu pilih.</p>
+      <p>Saya yang membuat ContentCam, jadi cek sendiri hitungan di bawah ini. Hitungannya sama saja, apa pun aplikasi yang kamu pilih.</p>
 
       <h2>Apakah kamera bawaan Android bisa merekam portrait dan landscape bersamaan?</h2>
       <p>Tidak. Aplikasi kamera bawaan Android merekam satu bentuk per take.</p>
       <ul>
-        <li><strong>Samsung Camera</strong> punya pengaturan rasio aspek; halaman bantuan Samsung mencantumkan 1:1, 3:4, 9:16, dan Full Screen, dengan catatan bahwa "rasio yang tersedia bisa berbeda tergantung spesifikasi kamera perangkatmu." Kamu pilih satu. HP-nya merekam satu.</li>
+        <li><strong>Samsung Camera</strong> punya pengaturan rasio aspek; halaman bantuan Samsung mencantumkan 1:1, 3:4, 9:16, dan Full Screen, dengan catatan bahwa "rasio yang tersedia bisa berbeda tergantung spesifikasi kamera perangkatmu." Kamu pilih satu, dan HP-mu cuma merekam yang itu.</li>
         <li><strong>Pixel Camera</strong>: bantuan Pixel Camera dari Google hanya menjelaskan rasio aspek untuk foto (Wide crop 16:9, Full image 4:3), tidak ada untuk video. Video di Pixel jadi horizontal atau vertikal tergantung cara kamu memegang HP.</li>
         <li><strong>Google Photos</strong> bisa meng-crop video yang sudah jadi ke rasio aspek lain setelahnya. Itu Opsi 1 di bawah, dengan kerugian yang sama.</li>
       </ul>
 
       <h2>Opsi 1: Berapa banyak yang hilang kalau video landscape di-crop jadi portrait?</h2>
-      <p>Kamu cuma menyimpan 31,6% dari lebarnya dan membuang 68,4% adegannya. Untuk video landscape 1080p:</p>
+      <p>Kamu cuma menyimpan 31,6% dari lebarnya dan membuang 68,4% adegannya. Untuk video horizontal 1080p:</p>
       <ul>
-        <li>Frame landscape-nya 1920×1080.</li>
+        <li>Frame horizontalnya 1920×1080.</li>
         <li>Crop 9:16 setinggi penuh berarti 1080 × 9 ÷ 16 = <strong>lebar 607,5 piksel</strong>.</li>
         <li>607,5 ÷ 1920 = <strong>0,316</strong>, jadi yang tersisa 31,6% dari lebar.</li>
       </ul>
-      <p>Potongan 607×1080 itu lalu diperbesar 1,78 kali jadi 1080×1920 untuk TikTok, Reels, atau Shorts, makanya video vertikal hasil crop kelihatan kurang tajam. Hindari crop untuk traveling, olahraga, foto produk, atau adegan apa pun yang latar belakangnya penting.</p>
+      <p>Potongan 607×1080 itu lalu diperbesar 1,78 kali jadi 1080×1920 untuk TikTok, Reels, atau Shorts, makanya video vertikal hasil crop kelihatan kurang tajam. Hindari crop untuk traveling, olahraga, video produk, atau adegan apa pun yang latar belakangnya penting.</p>
 
       <h2>Opsi 2: Bisakah rekam landscape 4K lalu di-reframe jadi vertikal?</h2>
-      <p>Bisa, dan ini cara gratis terbaik. Crop 9:16 dari frame 3840×2160 berarti 2160 × 9 ÷ 16 = <strong>1215×2160 piksel</strong>, lebih dari 1080×1920 yang diputar platform video vertikal. Masalah resolusi di Opsi 1 hilang.</p>
-      <p>Masalah framing-nya tetap ada: video vertikalnya tetap cuma 31,6% dari lebar landscape, jadi subjek harus pas di tengah, dan apa pun yang disusun untuk wide shot (gedung-gedung di latar, orang kedua) jatuh di luarnya. Kamu juga harus mengedit setiap video dua kali, dan file 4K punya empat kali lipat piksel 1080p.</p>
+      <p>Bisa, dan ini cara gratis terbaik. Crop 9:16 dari frame 3840×2160 berarti 2160 × 9 ÷ 16 = <strong>1215×2160 piksel</strong>, lebih besar dari 1080×1920 yang dipakai platform video vertikal. Masalah resolusi di Opsi 1 hilang.</p>
+      <p>Masalah framing-nya tetap ada: video vertikalnya tetap cuma 31,6% dari lebar frame horizontal, jadi subjek harus pas di tengah, dan apa pun yang kamu atur untuk wide shot (gedung di latar belakang, orang kedua) bakal terpotong keluar frame. Kamu juga harus mengedit setiap video dua kali, dan file 4K punya empat kali lipat piksel 1080p.</p>
 
       <h2>Opsi 3: Bagaimana cara merekam dua format sekaligus di Android?</h2>
       <p>Rekam seluruh frame 4:3 dari sensor, yang lebih lebar dari 9:16 dan lebih tinggi dari 16:9, lalu potong kedua bentuk darinya saat merekam. Contohnya, pada sensor 4000×3000:</p>
@@ -185,7 +185,7 @@
           </tbody>
         </table>
       </div>
-      <p>Versi vertikal dari seluruh frame melihat 1,78 kali lebih banyak adegan, dan versi landscape 16:9 tetap memakai seluruh lebar sensor (4000×2250). Tidak ada file yang merupakan hasil crop dari file lainnya.</p>
+      <p>Versi vertikal dari seluruh frame menangkap 1,78 kali lebih banyak adegan, dan versi horizontal 16:9 tetap memakai seluruh lebar sensor (4000×2250). Tidak ada file yang di-crop dari file lainnya.</p>
       <p>Begitulah cara kerja <a href="/id/android/">ContentCam untuk Android</a>. Satu take menyimpan file 9:16 dan file 16:9, di kamera belakang maupun kamera depan. Di HP yang memberi aplikasi akses ke lensa ultra-wide, pilihan 0,5× membuat kedua crop punya sudut pandang lebih luas. Kalau kamu memegang HP menyamping, kedua file ditandai dengan orientasi yang benar supaya tetap tegak saat diputar di CapCut atau Premiere. Versi gratis merekam take tanpa batas dalam kedua format di 1080p hingga 30fps, tanpa iklan dan tanpa watermark; <a href="/id/pricing/">Premium</a> menambahkan 4K dan 60fps kalau hardware HP-nya mendukung.</p>
       <p>Dibandingkan Opsi 1 dan 2, tidak ada yang di-crop belakangan, kamu cukup mengatur framing tiap take sekali, dan tidak perlu mengedit setiap video dua kali.</p>
       <p>Satu batasan: mode Lensa Ganda (Dual Lens), yang merekam lensa wide dan ultra-wide di momen yang sama, untuk sekarang baru ada di iPhone.</p>
@@ -195,22 +195,22 @@
         <thead><tr><th>Situasimu</th><th>Opsi terbaik</th></tr></thead>
         <tbody>
           <tr><td>Kamu rutin memposting kedua bentuk dan ingin masing-masing kelihatan sengaja di-frame</td><td>Rekam keduanya sekaligus (Opsi 3, direkomendasikan)</td></tr>
-          <tr><td>Traveling, olahraga, atau foto produk yang latar belakangnya penting</td><td>Rekam keduanya sekaligus (Opsi 3)</td></tr>
+          <tr><td>Traveling, olahraga, atau video produk yang latar belakangnya penting</td><td>Rekam keduanya sekaligus (Opsi 3)</td></tr>
           <tr><td>Kamera selfie</td><td>Rekam keduanya sekaligus, bisa di kamera depan</td></tr>
           <tr><td>HP bisa merekam 4K, subjek tetap di tengah, tidak keberatan mengedit dua kali</td><td>Rekam 4K lalu reframe (Opsi 2)</td></tr>
-          <tr><td>Video bicara ke kamera, wajah mengisi frame, landscape cuma bonus sesekali</td><td>Crop saat editing (Opsi 1)</td></tr>
+          <tr><td>Video talking head, wajah memenuhi frame, versi horizontal cuma bonus sesekali</td><td>Crop saat editing (Opsi 1)</td></tr>
         </tbody>
       </table>
 
       <h2>Pertanyaan yang sering diajukan</h2>
       <p><strong>Apakah HP Android bisa merekam video portrait dan landscape bersamaan?</strong> Tidak dengan aplikasi kamera bawaan. Samsung Camera dan Pixel Camera merekam satu bentuk per take. Aplikasi pihak ketiga yang merekam dari seluruh frame sensor 4:3 bisa menyimpan file vertikal 9:16 dan file horizontal 16:9 dari take yang sama.</p>
-      <p><strong>Ada aplikasi Android untuk merekam video landscape dan portrait sekaligus?</strong> Ada. ContentCam untuk Android merekam file vertikal 9:16 dan file horizontal 16:9 dari satu take, di kamera belakang dan kamera depan, dalam 1080p di versi gratis, tanpa iklan dan watermark.</p>
+      <p><strong>Ada aplikasi Android untuk merekam video landscape dan portrait sekaligus?</strong> Ada. ContentCam untuk Android merekam file vertikal 9:16 dan file horizontal 16:9 dari satu take, di kamera belakang dan kamera depan, dalam 1080p di versi gratis, tanpa iklan dan tanpa watermark.</p>
       <p><strong>Berapa banyak gambar yang hilang kalau video 16:9 di-crop jadi 9:16?</strong> Sekitar 68%. Crop 9:16 setinggi penuh dari frame 1920×1080 lebarnya 607,5 piksel, atau 31,6% dari lebar 1920 piksel. Sisa 68,4% adegannya terbuang.</p>
       <p><strong>Bisakah merekam kamera depan dan belakang bersamaan di Android untuk video reaksi?</strong> Bisa. Mode Depan dan Belakang (Front/Back) di ContentCam merekam kamera depan dan kamera belakang dalam satu take di HP Android yang kameranya bisa berjalan bersamaan, lalu menyimpannya sebagai dua file HD terpisah hingga 30fps. Editor Gabungkan (Combine) kemudian bisa menjadikannya satu video gambar dalam gambar atau layar terbagi. Ini fitur Premium, dengan 5 rekaman gratis untuk dicoba.</p>
-      <p><strong>Kalau rekam 4K di Android, bisakah video vertikal di-crop dari video landscape?</strong> Bisa, dan resolusinya masih tersisa. Crop 9:16 dari frame 3840×2160 berukuran 1215×2160 piksel, lebih dari yang dibutuhkan video vertikal 1080×1920. Tapi framing-nya tetap irisan sempit dari gambar landscape, jadi subjek harus di tengah saat kamu merekam.</p>
+      <p><strong>Kalau rekam 4K di Android, bisakah video vertikal di-crop dari video landscape?</strong> Bisa, dan resolusinya masih tersisa. Crop 9:16 dari frame 3840×2160 berukuran 1215×2160 piksel, lebih dari yang dibutuhkan video vertikal 1080×1920. Tapi framing-nya tetap potongan sempit dari gambar horizontal, jadi subjek harus di tengah saat kamu merekam.</p>
 
       <div class="post-cta">
-        <p><strong>Berhenti merekam semuanya dua kali.</strong> ContentCam gratis di Google Play; rekam satu take dan lihat kedua file-nya sebelum memutuskan apa pun.</p>
+        <p><strong>Tidak perlu lagi merekam semuanya dua kali.</strong> ContentCam gratis di Google Play, jadi rekam satu take dan lihat sendiri kedua file-nya sebelum memutuskan.</p>
         <p class="cta-proof"><span class="star" aria-hidden="true">★</span> Dinilai 4,8 oleh 580+ kreator di <a href="https://apps.apple.com/us/app/contentcam-dual-camera-video/id6765881795">App Store</a> dan <a href="https://play.google.com/store/apps/details?id=app.contentcam.android">Google Play</a>.</p>
         <div class="badges badges-left">
           <a href="https://play.google.com/store/apps/details?id=app.contentcam.android&amp;referrer=utm_source%3Dblog%26utm_campaign%3Did-record-portrait-and-landscape-video-same-time-android"><img class="badge-play" src="/assets/badges/google-play-id.webp" alt="Temukan di Google Play" width="175" height="52"></a>
@@ -218,7 +218,7 @@
         </div>
       </div>
 
-      <p>Detail kamera bawaan dibaca dari <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">halaman bantuan Samsung tentang rasio kamera</a>, <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">Bantuan Pixel Camera</a>, dan <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">Bantuan Google Photos</a> dicek 5 November 2026. Terkait: <a href="/blog/how-to-record-landscape-video-on-android/">cara merekam video landscape di Android</a> · <a href="/id/blog/record-portrait-and-landscape-video-same-time-iphone/">versi iPhone dari panduan ini</a> · <a href="/blog/android-camera-settings-for-video/">pengaturan kamera Android terbaik untuk video</a> · <a href="/blog/why-cropping-vertical-to-horizontal-looks-wrong/">video vertikal vs horizontal</a></p>
+      <p>Detail kamera bawaan diambil dari <a href="https://www.samsung.com/ae/support/mobile-devices/adjusting-the-camera-ratio-on-my-samsung-phone/">halaman bantuan Samsung tentang rasio kamera</a>, <a href="https://support.google.com/pixelcamera/answer/2838995?hl=en-GB">Bantuan Pixel Camera</a>, dan <a href="https://support.google.com/photos/answer/10729480?hl=en&amp;co=GENIE.Platform%3DAndroid">Bantuan Google Photos</a>, semuanya dicek pada 5 November 2026. Terkait: <a href="/blog/how-to-record-landscape-video-on-android/">cara merekam video landscape di Android</a> · <a href="/id/blog/record-portrait-and-landscape-video-same-time-iphone/">versi iPhone dari panduan ini</a> · <a href="/blog/android-camera-settings-for-video/">pengaturan kamera Android terbaik untuk video</a> · <a href="/blog/why-cropping-vertical-to-horizontal-looks-wrong/">video vertikal vs horizontal</a></p>
     </article>
   </main>
 
