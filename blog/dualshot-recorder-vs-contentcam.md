@@ -40,7 +40,7 @@ Yes. DDJR Productions' own website says DualShot Recorder's free Basic tier reco
 
 Some users report it: in the same 50 reviews, 3 describe recordings that stopped or never saved, and 2 describe audio out of sync. A 1-star review from 18 July 2026 reads "constantly crashing and not saving/restoring recorded content". DualShot Recorder's last update, 3.1.2 on 5 June 2026, is listed only as "Bug fixes and performance improvements", and the last version that added features was 3.0 on 2 May 2026 (teleprompter, manual ISO, stabilisation). Whichever app you choose, record a test take before a paid shoot.
 
-When I tested DualShot Recorder 3.1.2 myself on 13 November 2026, a take was lost every time the phone locked, the app closed or a call came in, and 4K at 60 fps saved at 38 to 39 fps. On 14 November a time-lapse also failed to save, with "PHPhotosErrorDomain error 3302" (Photos rejected the file as invalid), and the footage was lost. The full results, with screenshots, are in my [DualShot Recorder review](https://contentcam.app/blog/dualshot-recorder-review/).
+When I tested DualShot Recorder 3.1.2 myself on 13 November 2026, a take was lost every time the phone locked, the app closed or a call came in, and 4K at 60 fps saved at 38 to 39 fps. A time-lapse also failed to save, with "PHPhotosErrorDomain error 3302" (Photos rejected the file as invalid), and the footage was lost. The full results, with screenshots, are in my [DualShot Recorder review](https://contentcam.app/blog/dualshot-recorder-review/).
 
 ## Can ContentCam record two cameras at once?
 

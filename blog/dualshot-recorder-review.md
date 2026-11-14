@@ -43,9 +43,9 @@ I interrupted takes five ways: locking the phone, swiping to the home screen, fo
 
 This matches what users report. A 1-star review from Australia (11 April 2026) reads: "I filmed an interview last night and after I pressed finish, it said error and everything was lost." In the app's own Telegram support group, one user's iPhone Storage screen showed 48.46 GB of DualShot "Documents & Data" after an interview that never appeared in Photos (23 October 2026). Another asked on 3 November where a finished recording had gone. If that's happened to you, don't delete the app: [here's where a missing video usually is and what not to delete](https://contentcam.app/blog/iphone-video-not-in-photos-after-recording/).
 
-It also lost a take that nothing interrupted. On 14 November 2026 I recorded a time-lapse in DualShot Recorder 3.1.2, and instead of saving it the app showed "The operation couldn't be completed. (PHPhotosErrorDomain error 3302.)" The footage was gone. Error 3302 is Apple's code for an invalid file: Photos checked the video DualShot handed over, found it broken, and refused to save it.
+It also lost a take that nothing interrupted. I recorded a time-lapse, and instead of saving it the app showed "The operation couldn't be completed. (PHPhotosErrorDomain error 3302.)" The footage was gone. Error 3302 is Apple's code for an invalid file: Photos checked the video DualShot handed over, found it broken, and refused to save it.
 
-**In ContentCam:** recording carries on through auto-lock, a take that's force-closed is restored the next time you open the app, and on iPhone every take can also be reached in the Files app. DualShot Recorder 3.1.2, 14 November 2026: the time-lapse failed to save and the footage was lost. DualShot's support group, 23 October 2026: 48.46 GB held by the app, the interview not in Photos. Names blurred.
+**In ContentCam:** recording carries on through auto-lock, a take that's force-closed is restored the next time you open the app, and on iPhone every take can also be reached in the Files app. DualShot Recorder 3.1.2, 13 November 2026: the time-lapse failed to save and the footage was lost. DualShot's support group, 23 October 2026: 48.46 GB held by the app, the interview not in Photos. Names blurred.
 
 ### 2. 4K at 60 fps doesn't record at 60 fps
 
@@ -151,7 +151,7 @@ It offers the setting on the Advanced tier, but in my test on 13 November 2026 t
 
 ### Why did my DualShot Recorder recording disappear?
 
-In my test, a take was lost whenever the phone locked, the app was closed or force-closed, Siri opened, or a call came in. A time-lapse I recorded on 14 November 2026 also failed to save with "PHPhotosErrorDomain error 3302", Apple's code for a video file Photos rejected as invalid. Users also report finished recordings that never reached Photos while the app's storage grew by tens of gigabytes. Check Settings > General > iPhone Storage > DualShot Recorder, and don't delete the app, because deleting it deletes anything it's holding.
+In my test, a take was lost whenever the phone locked, the app was closed or force-closed, Siri opened, or a call came in. A time-lapse I recorded also failed to save with "PHPhotosErrorDomain error 3302", Apple's code for a video file Photos rejected as invalid. Users also report finished recordings that never reached Photos while the app's storage grew by tens of gigabytes. Check Settings > General > iPhone Storage > DualShot Recorder, and don't delete the app, because deleting it deletes anything it's holding.
 
 ### I bought DualShot Recorder once. Why is it asking me to subscribe?
 
